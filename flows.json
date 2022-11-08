@@ -84,6 +84,35 @@
         "h": 162
     },
     {
+        "id": "284c27310b25477c",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "0416ea6909311b42",
+            "187c6afe9262807c",
+            "8078387b8154fc28",
+            "5acfacf7a05cc895",
+            "926f27b7e8249ddb",
+            "ed2d399b29970928",
+            "5f0bcff5c4ed6ec4",
+            "f986ab9711daf36b",
+            "fde12a5702a3994d"
+        ],
+        "x": 1044,
+        "y": 307,
+        "w": 892,
+        "h": 274
+    },
+    {
         "id": "b411c6135a7823e0",
         "type": "ui_base",
         "theme": {
@@ -226,24 +255,6 @@
         "willMsg": {},
         "userProps": "",
         "sessionExpiry": ""
-    },
-    {
-        "id": "a953a935339c1303",
-        "type": "ui_tab",
-        "name": "Tab 2",
-        "icon": "dashboard",
-        "order": 2,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "fc4716d2f7693b0c",
-        "type": "ui_group",
-        "name": "Group 1",
-        "tab": "a953a935339c1303",
-        "order": 1,
-        "disp": true,
-        "width": 6
     },
     {
         "id": "e1ba7bc1352dbb74",
@@ -590,7 +601,7 @@
         "z": "55a762ae72fa441b",
         "g": "4a4f80625f8ea163",
         "name": "Reset / Default Global Variables",
-        "func": "//Yeah, a lot of this could probably be done cleaner or fancier... \n// K.I.S.S.\n// Node-RED can handle a few redundant lines, it's not an Arduino or anything..\n\n//--- Match setup \nglobal.set(\"startside\",\"L\");\nglobal.set(\"hotBldg\",\"T\");\n\n\n//--- Status - Dormant, At Risk(Unblocked), Blockedm, Cleared, Damaged\nglobal.set(\"RTO.Status\", \"Dormant\");\nglobal.set(\"RBO.Status\", \"Dormant\");\nglobal.set(\"RTM.Status\", \"Dormant\");\nglobal.set(\"RBM.Status\", \"Dormant\");\nglobal.set(\"RTI.Status\", \"Dormant\");\nglobal.set(\"RBI.Status\", \"Dormant\");\nglobal.set(\"LBO.Status\", \"Dormant\");\nglobal.set(\"LTO.Status\", \"Dormant\");\nglobal.set(\"LBM.Status\", \"Dormant\");\nglobal.set(\"LTM.Status\", \"Dormant\");\nglobal.set(\"LBI.Status\", \"Dormant\");\nglobal.set(\"LTI.Status\", \"Dormant\");\n\n\n//--- Fire Scores\nglobal.set(\"RTO.FS.Window1\", 0);\nglobal.set(\"RBO.FS.Window1\", 0);\nglobal.set(\"RTM.FS.Window1\", 0);\nglobal.set(\"RBM.FS.Window1\", 0);\nglobal.set(\"RTI.FS.Window1\", 0);\nglobal.set(\"RBI.FS.Window1\", 0);\nglobal.set(\"LBO.FS.Window1\", 0);\nglobal.set(\"LTO.FS.Window1\", 0);\nglobal.set(\"LBM.FS.Window1\", 0);\nglobal.set(\"LTM.FS.Window1\", 0);\nglobal.set(\"LBI.FS.Window1\", 0);\nglobal.set(\"LTI.FS.Window1\", 0);\nglobal.set(\"RTO.FS.Window2\", 0);\nglobal.set(\"RBO.FS.Window2\", 0);\nglobal.set(\"RTM.FS.Window2\", 0);\nglobal.set(\"RBM.FS.Window2\", 0);\nglobal.set(\"RTI.FS.Window2\", 0);\nglobal.set(\"RBI.FS.Window2\", 0);\nglobal.set(\"LBO.FS.Window2\", 0);\nglobal.set(\"LTO.FS.Window2\", 0);\nglobal.set(\"LBM.FS.Window2\", 0);\nglobal.set(\"LTM.FS.Window2\", 0);\nglobal.set(\"LBI.FS.Window2\", 0);\nglobal.set(\"LTI.FS.Window2\", 0);\n\n\n//--- Water qtys\nglobal.set(\"RTO.WaterQty\", 0);\nglobal.set(\"RBO.WaterQty\", 0);\nglobal.set(\"RTM.WaterQty\", 0);\nglobal.set(\"RBM.WaterQty\", 0);\nglobal.set(\"RTI.WaterQty\", 0);\nglobal.set(\"RBI.WaterQty\", 0);\nglobal.set(\"LBO.WaterQty\", 0);\nglobal.set(\"LTO.WaterQty\", 0);\nglobal.set(\"LBM.WaterQty\", 0);\nglobal.set(\"LTM.WaterQty\", 0);\nglobal.set(\"LBI.WaterQty\", 0);\nglobal.set(\"LTI.WaterQty\", 0);\n\n\n//Fin\nreturn msg;",
+        "func": "\n//--- Match setup \nglobal.set(\"startside\",\"L\"); // L or R\nglobal.set(\"hotBldg\",\"T\");   // T or B\n\n//--- Building objects\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nfor (var i in bldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(bldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores - 0, 1, 2\n    global.set(bldgs[i] + \".FS.Window1\", 0);\n    global.set(bldgs[i] + \".FS.Window2\", 0);\n\n    // Water qtys - int\n    global.set(bldgs[i] + \".WaterQty\", 0);\n\n    // Gutterpixels - string of numbers that represent colors\n    global.set(bldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\n\n\n//Fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -621,6 +632,171 @@
         "info": "",
         "x": 180,
         "y": 860,
+        "wires": []
+    },
+    {
+        "id": "42d838d26982b392",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "name": "Callbacks",
+        "info": "",
+        "x": 1080,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "0416ea6909311b42",
+        "type": "link in",
+        "z": "55a762ae72fa441b",
+        "g": "284c27310b25477c",
+        "name": "Update FS",
+        "links": [],
+        "x": 1125,
+        "y": 440,
+        "wires": [
+            [
+                "8078387b8154fc28",
+                "5acfacf7a05cc895",
+                "ed2d399b29970928"
+            ]
+        ]
+    },
+    {
+        "id": "187c6afe9262807c",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "284c27310b25477c",
+        "name": "Update FS\\n payload.bldg, payload.window, payload.numFire",
+        "info": "",
+        "x": 1250,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "8078387b8154fc28",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "284c27310b25477c",
+        "name": "Update Window Global",
+        "func": "//--- Basic variables\nvar input = msg.payload;\nvar theBldg = msg.payload.bldg;\nvar theWin = msg.payload.window;\nvar theFS = msg.payload.numFire;\n\n//--- Update Global Variables\nvar theGlobalString = theBldg + \".FS.Window\" + theWin;\nglobal.set(theGlobalString,theFS);\n\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1310,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5acfacf7a05cc895",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "284c27310b25477c",
+        "name": "Update GutterPixels Global",
+        "func": "/* \nGutter is built with 30 pixels\n[0-7]   = Window 1 FS\n[8-9]   = Blank (spacer)\n[10-19] = Status\n[20-21] = Blank (spacer)\n[22-29] = Window 2 FS\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar theBldg = msg.payload.bldg;\nvar theWin = msg.payload.window;\nvar theFS = msg.payload.numFire;\n\n//--- Get current gutterpixels, delete the relevant window's substring \n//string.substring(indexStart, indexEnd)\nvar curPixelString = global.get(theBldg + \".GutterPixels\");\nif (theWin == 1) {\n    var theSubString = curPixelString.substring(0, 8); //will want to check off-by-one issues\n} else if (theWin == 2) {\n    var theSubString = curPixelString.substring(22, 30); //will want to check off-by-one issues\n}\n\n//--- Build the new window's string\nvar newWindowString = \"\";\n//-- Add 1's up to the FS, then 0's after that to only light up the FS pixels\n// off-by-one _should_ work out alright? \n// also js shorthand woo https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator\nfor (let i=0; i<8; i++) {\n    newWindowString += i<theFS ? \"1\" : \"0\"; \n}\n\n//--- Combino preparo \nif (theWin == 1) {\n    var newPixelString = newWindowString + curPixelString; \n} else if (theWin == 2) {\n    var newPixelString = curPixelString + newWindowString;\n}\n\n//--- Fin\nglobal.set(theBldg + \".GutterPixels\", newPixelString);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 460,
+        "wires": [
+            [
+                "926f27b7e8249ddb"
+            ]
+        ]
+    },
+    {
+        "id": "926f27b7e8249ddb",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "284c27310b25477c",
+        "name": "Build MQTT Msg for Gutter",
+        "func": "/* \nGutter is built with 30 pixels\n[0-7]   = Window 1 FS\n[8-9]   = Blank (spacer)\n[10-19] = Status\n[20-21] = Blank (spacer)\n[22-29] = Window 2 FS\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar theBldg = msg.payload.bldg;\nvar theWin = msg.payload.window;\nvar theFS = msg.payload.numFire;\n\n//--- Get current gutterpixels, delete the relevant window's substring \n//string.substring(indexStart, indexEnd)\nvar curPixelString = global.get(theBldg + \".GutterPixels\");\nif (theWin == 1) {\n    var theSubString = curPixelString.substring(0, 8); //will want to check off-by-one issues\n} else if (theWin == 2) {\n    var theSubString = curPixelString.substring(22, 30); //will want to check off-by-one issues\n}\n\n//--- Build the new window's string\nvar newWindowString = \"\";\n//-- Add 1's up to the FS, then 0's after that to only light up the FS pixels\n// off-by-one _should_ work out alright? \n// also js shorthand woo https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator\nfor (let i=0; i<8; i++) {\n    newWindowString += i<theFS ? \"1\" : \"0\"; \n}\n\n//--- Combino preparo \nif (theWin == 1) {\n    var newPixelString = newWindowString + curPixelString; \n} else if (theWin == 2) {\n    var newPixelString = curPixelString + newWindowString;\n}\n\n//--- Fin\nglobal.set(theBldg + \".GutterPixels\", newPixelString);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1410,
+        "y": 500,
+        "wires": [
+            [
+                "5f0bcff5c4ed6ec4"
+            ]
+        ]
+    },
+    {
+        "id": "ed2d399b29970928",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "284c27310b25477c",
+        "name": "Build MQTT Msg for Window",
+        "func": "//--- Basic variables\nvar input = msg.payload;\nvar node_id = msg.payload.bldg;\nvar theWin = msg.payload.window;\nvar theFS = msg.payload.numFire;\n\n//--- Build MQTT message\nif (theFS > 0) {\n    msg.topic = \"nodered/lighton/\" + node_id;\n} else if (theFS > 0) {\n    msg.topic = \"nodered/lighton/\" + node_id;\n}\nmsg.payload = \"{ \\\"whichLight\\\":\" + theWin + \"}\"\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 540,
+        "wires": [
+            [
+                "f986ab9711daf36b"
+            ]
+        ]
+    },
+    {
+        "id": "5f0bcff5c4ed6ec4",
+        "type": "mqtt out",
+        "z": "55a762ae72fa441b",
+        "g": "284c27310b25477c",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 1640,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "f986ab9711daf36b",
+        "type": "mqtt out",
+        "z": "55a762ae72fa441b",
+        "g": "284c27310b25477c",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 1600,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "fde12a5702a3994d",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "284c27310b25477c",
+        "name": "WILL NEED TO TEST THESE WITH REAL PI",
+        "info": "",
+        "x": 1740,
+        "y": 460,
         "wires": []
     }
 ]
