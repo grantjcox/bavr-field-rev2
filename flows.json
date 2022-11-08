@@ -76,12 +76,13 @@
             "85965edc.72971",
             "5efe17e007074ad1",
             "672af1a8627b7e63",
-            "e33ce82b402295fc"
+            "e33ce82b402295fc",
+            "227f2d5a2ea24037"
         ],
-        "x": 994,
+        "x": 974,
         "y": 39,
         "w": 532,
-        "h": 162
+        "h": 222
     },
     {
         "id": "284c27310b25477c",
@@ -265,12 +266,16 @@
             "d1995509f950a1a9",
             "da8215e65b543ef9",
             "4b6a57a81a1ea4ce",
-            "ea98a939f9a52953"
+            "ea98a939f9a52953",
+            "2335df53b4766297",
+            "6d217ae324a7acc7",
+            "b139a3ab9696d743",
+            "0ff21611a0176572"
         ],
         "x": 34,
         "y": 1459,
         "w": 1562,
-        "h": 522
+        "h": 562
     },
     {
         "id": "5f1037ebc6dbd72f",
@@ -330,7 +335,7 @@
         ],
         "x": 54,
         "y": 2019,
-        "w": 952,
+        "w": 972,
         "h": 302
     },
     {
@@ -647,7 +652,7 @@
         "resendOnRefresh": false,
         "templateScope": "global",
         "className": "",
-        "x": 1220,
+        "x": 1200,
         "y": 120,
         "wires": [
             []
@@ -916,7 +921,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 1150,
+        "x": 1130,
         "y": 160,
         "wires": [
             [
@@ -936,7 +941,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1370,
+        "x": 1350,
         "y": 160,
         "wires": [
             []
@@ -949,7 +954,7 @@
         "g": "4a4f80625f8ea163",
         "name": "Configuration",
         "info": "",
-        "x": 1090,
+        "x": 1070,
         "y": 80,
         "wires": []
     },
@@ -1451,7 +1456,7 @@
         "z": "55a762ae72fa441b",
         "g": "ec7979310fe9e00f",
         "name": "Random choice",
-        "func": "//Use the timestamp to random select lol\nvar input = String(msg.payload);\nvar lastDigit = parseInt(input.slice(-1));\n\n//Evens top, odds bottom\nvar startBldg = (lastDigit % 2) == 0 ? \"T\" : \"B\"; \n\n//Fin\nglobal.set(\"hotBldg\",startBldg);\nglobal.set(startBldg + \".Status\", \"Hottt\");\nmsg.payload = global.get(\"startSide\") + startBldg + \"O\"; //always O bldg\nreturn msg;",
+        "func": "//Use the timestamp to random select lol\nvar input = String(msg.payload);\nvar lastDigit = parseInt(input.slice(-1));\n\n//Evens top, odds bottom\nvar hotRoute = (lastDigit % 2) == 0 ? \"T\" : \"B\"; \nvar theHotBldg = global.get(\"startSide\") + hotRoute + \"O\"; //always O bldg\n\n//Fin\nglobal.set(\"hotBldg\", theHotBldg);\nglobal.set(theHotBldg + \".Status\", \"Hottt\");\nmsg.payload = theHotBldg;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -1531,7 +1536,7 @@
         "z": "55a762ae72fa441b",
         "g": "2b2a6d295740d392",
         "name": "Build MQTT to heat it up",
-        "func": "//Get the thing\nvar whichBldg = global.get(\"startSide\") + global.get(\"hotBldg\") + \"O\";\n\n//Build the MQTT message\nmsg.topic = \"nodered/heateron/\" + whichBldg;\nmsg.payload = \"{}\";\n\n//Fin\nglobal.set(\"hotBldg\",whichBldg);\nmsg.payload = global.get(\"startSide\") + whichBldg + \"O\"; //always O bldg\nreturn msg;",
+        "func": "//Get the thing\nvar whichBldg = global.get(\"hotBldg\");\n\n//Build the MQTT message\nmsg.topic = \"nodered/heateron/\" + whichBldg;\nmsg.payload = \"{}\";\n\n//Fin\nglobal.set(\"hotBldg\",whichBldg);\nmsg.payload = global.get(\"startSide\") + whichBldg + \"O\"; //always O bldg\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -2156,7 +2161,8 @@
         "name": "Kill the Heater",
         "links": [
             "157a25e39689ce6c",
-            "d1995509f950a1a9"
+            "d1995509f950a1a9",
+            "6d217ae324a7acc7"
         ],
         "x": 165,
         "y": 1320,
@@ -2238,7 +2244,7 @@
         "z": "55a762ae72fa441b",
         "g": "4788e8d5cbe11d8f",
         "name": "First Burning Bldgs -> 2 Windows",
-        "func": "//--- Set up vars\nvar whichSide = global.get(\"startside\");   // \"L\" or \"R\"\nvar whichRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nvar msg2 = {};\n\n//--- Check on the bldgs\n// Anyone who is still burning (i.e. team has not turned FS to 0) expands to next window\n// Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 2 to FS of 8\nif (global.get(bldg1 + \".FS.Window1\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2+ \".FS.Window1\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\n\n//Fin\nreturn [msg1, msg2];",
+        "func": "//--- Set up vars\nvar whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\nvar whichRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Check on the bldgs\n// Anyone who is still burning (i.e. team has not turned FS to 0) expands to next window\n// Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 2 to FS of 8\nif (global.get(bldg1 + \".FS.Window1\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2+ \".FS.Window1\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\n\n//Fin\nreturn [msg1, msg2];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -2261,9 +2267,9 @@
         "type": "comment",
         "z": "55a762ae72fa441b",
         "g": "6a8702296ddd22a1",
-        "name": "TODO: HEATER ERUPTS (waiting on prev timetarget code)",
+        "name": "TODO: HEATER ERUPTS",
         "info": "",
-        "x": 1200,
+        "x": 1090,
         "y": 1920,
         "wires": []
     },
@@ -2414,7 +2420,10 @@
         "x": 210,
         "y": 1940,
         "wires": [
-            []
+            [
+                "2335df53b4766297",
+                "6d217ae324a7acc7"
+            ]
         ]
     },
     {
@@ -2638,7 +2647,7 @@
         "z": "55a762ae72fa441b",
         "g": "4788e8d5cbe11d8f",
         "name": "Second Bldgs -> 1 Window",
-        "func": "//--- Set up vars\nvar whichSide = global.get(\"startside\");   // \"L\" or \"R\"\nvar startRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar whichRoute = startRoute == \"T\" ? \"B\" : \"T\"; //opposite\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nvar msg2 = {};\n\n//--- Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 1 to FS of 8\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\nmsg2.payload.bldg = bldg2;\nmsg2.payload.window = 1;\nmsg2.payload.numFire = 8;\n\n//Fin\nreturn [msg1, msg2];",
+        "func": "//--- Set up vars\nvar whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\nvar startRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar whichRoute = startRoute == \"T\" ? \"B\" : \"T\"; //opposite\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nvar msg2 = {};\n\n//--- Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 1 to FS of 8\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\nmsg2.payload.bldg = bldg2;\nmsg2.payload.window = 1;\nmsg2.payload.numFire = 8;\n\n//Fin\nreturn [msg1, msg2];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -2675,9 +2684,9 @@
         "type": "comment",
         "z": "55a762ae72fa441b",
         "g": "4788e8d5cbe11d8f",
-        "name": "<---- NOT TESTED YET",
+        "name": "<---- NOT TESTED FULLY",
         "info": "",
-        "x": 880,
+        "x": 890,
         "y": 2200,
         "wires": []
     },
@@ -2713,7 +2722,7 @@
         "z": "55a762ae72fa441b",
         "g": "4788e8d5cbe11d8f",
         "name": "Second Bldgs -> 2 Windows",
-        "func": "//--- Set up vars\nvar whichSide = global.get(\"startside\");   // \"L\" or \"R\"\nvar startRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar whichRoute = startRoute == \"T\" ? \"B\" : \"T\"; //opposite\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nvar msg2 = {};\n\n\n//--- Check on the bldgs\n// Anyone who is still burning (i.e. team has not turned FS to 0) expands to next window\n// Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 2 to FS of 8\nif (global.get(bldg1 + \".FS.Window1\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\n\n\n//Fin\nreturn [msg1, msg2];",
+        "func": "//--- Set up vars\nvar whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\nvar startRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar whichRoute = startRoute == \"T\" ? \"B\" : \"T\"; //opposite\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nvar msg2 = {};\n\n\n//--- Check on the bldgs\n// Anyone who is still burning (i.e. team has not turned FS to 0) expands to next window\n// Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 2 to FS of 8\nif (global.get(bldg1 + \".FS.Window1\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\n\n\n//Fin\nreturn [msg1, msg2];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -2735,9 +2744,9 @@
         "type": "comment",
         "z": "55a762ae72fa441b",
         "g": "4788e8d5cbe11d8f",
-        "name": "<---- NOT TESTED YET",
+        "name": "<---- NOT TESTED FULLY",
         "info": "",
-        "x": 880,
+        "x": 890,
         "y": 2280,
         "wires": []
     },
@@ -2753,6 +2762,73 @@
         ],
         "x": 705,
         "y": 2280,
+        "wires": []
+    },
+    {
+        "id": "227f2d5a2ea24037",
+        "type": "link in",
+        "z": "55a762ae72fa441b",
+        "g": "4a4f80625f8ea163",
+        "name": "RESET",
+        "links": [
+            "2335df53b4766297"
+        ],
+        "x": 1155,
+        "y": 220,
+        "wires": [
+            [
+                "672af1a8627b7e63"
+            ]
+        ]
+    },
+    {
+        "id": "2335df53b4766297",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "6a8702296ddd22a1",
+        "name": "JUST END IT",
+        "mode": "link",
+        "links": [
+            "227f2d5a2ea24037"
+        ],
+        "x": 335,
+        "y": 1920,
+        "wires": []
+    },
+    {
+        "id": "6d217ae324a7acc7",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "6a8702296ddd22a1",
+        "name": "Ding fries are done",
+        "mode": "link",
+        "links": [
+            "8c8fae70037e1c26"
+        ],
+        "x": 335,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "b139a3ab9696d743",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "6a8702296ddd22a1",
+        "name": "Send all the resets",
+        "info": "",
+        "x": 450,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "0ff21611a0176572",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "6a8702296ddd22a1",
+        "name": "TODO - Reset GUI",
+        "info": "",
+        "x": 450,
+        "y": 1980,
         "wires": []
     }
 ]
