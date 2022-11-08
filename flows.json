@@ -112,8 +112,8 @@
             "42fbeec64825d3a1",
             "4de1de66baa1bdcf"
         ],
-        "x": 1084,
-        "y": 307,
+        "x": 1524,
+        "y": 287,
         "w": 892,
         "h": 414
     },
@@ -232,6 +232,32 @@
         "y": 559,
         "w": 1398,
         "h": 868
+    },
+    {
+        "id": "6a8702296ddd22a1",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "fd280fb139a56e3e",
+            "9321df77664c4496",
+            "82a8466517112ffd",
+            "c612b81a64bb9759",
+            "ee7fad842ebd85de",
+            "ae0759e01e0881af"
+        ],
+        "x": 34,
+        "y": 1479,
+        "w": 672,
+        "h": 277
     },
     {
         "id": "b411c6135a7823e0",
@@ -389,7 +415,7 @@
     {
         "id": "062c9dae52b8ca4a",
         "type": "ui_group",
-        "name": "Pre-Match",
+        "name": "Pre-Match Setup",
         "tab": "3feccb6b5184919b",
         "order": 1,
         "disp": true,
@@ -398,81 +424,104 @@
         "className": ""
     },
     {
-        "id": "9a6254e6.c472c8",
+        "id": "eec8a831cc9d15c1",
         "type": "ui_group",
-        "name": "Default",
-        "tab": "2043e431.1fd824",
-        "order": 1,
-        "disp": false,
-        "width": "8",
-        "collapse": false
+        "name": "Queue / Heater",
+        "tab": "3feccb6b5184919b",
+        "order": 2,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
     },
     {
-        "id": "2043e431.1fd824",
-        "type": "ui_tab",
-        "name": "ON TIME",
-        "icon": "dashboard",
-        "order": 1,
-        "disabled": false,
-        "hidden": false
+        "id": "f1f13388d5f613e8",
+        "type": "ui_group",
+        "name": "Let's GO",
+        "tab": "3feccb6b5184919b",
+        "order": 3,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
     },
     {
-        "id": "8308846da1f96c08",
+        "id": "54a844c7f9e9ca1e",
         "type": "ui_spacer",
         "z": "55a762ae72fa441b",
         "name": "spacer",
-        "group": "062c9dae52b8ca4a",
+        "group": "eec8a831cc9d15c1",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4d39c90e739858c5",
+        "type": "ui_spacer",
+        "z": "55a762ae72fa441b",
+        "name": "spacer",
+        "group": "eec8a831cc9d15c1",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f4817751865211b8",
+        "type": "ui_spacer",
+        "z": "55a762ae72fa441b",
+        "name": "spacer",
+        "group": "eec8a831cc9d15c1",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fa257e5d5efbd334",
+        "type": "ui_spacer",
+        "z": "55a762ae72fa441b",
+        "name": "spacer",
+        "group": "eec8a831cc9d15c1",
         "order": 5,
         "width": 1,
         "height": 1
     },
     {
-        "id": "6c13a91cf117ab7a",
+        "id": "af1a82a27c4ec328",
         "type": "ui_spacer",
         "z": "55a762ae72fa441b",
         "name": "spacer",
-        "group": "062c9dae52b8ca4a",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "cc640590de7be5a4",
-        "type": "ui_spacer",
-        "z": "55a762ae72fa441b",
-        "name": "spacer",
-        "group": "062c9dae52b8ca4a",
+        "group": "eec8a831cc9d15c1",
         "order": 8,
-        "width": 1,
+        "width": 4,
         "height": 1
     },
     {
-        "id": "9265b2fd1fc1dcfd",
+        "id": "6dc592d15da07c1c",
         "type": "ui_spacer",
         "z": "55a762ae72fa441b",
         "name": "spacer",
-        "group": "062c9dae52b8ca4a",
-        "order": 9,
-        "width": 1,
+        "group": "eec8a831cc9d15c1",
+        "order": 10,
+        "width": 4,
         "height": 1
     },
     {
-        "id": "7a0400e60a5ac342",
+        "id": "891a41b91c4682d3",
         "type": "ui_spacer",
         "z": "55a762ae72fa441b",
         "name": "spacer",
-        "group": "062c9dae52b8ca4a",
-        "order": 12,
+        "group": "f1f13388d5f613e8",
+        "order": 2,
         "width": 5,
         "height": 1
     },
     {
-        "id": "6f57e6532543cd99",
+        "id": "64412c0ef05a5be6",
         "type": "ui_spacer",
         "z": "55a762ae72fa441b",
         "name": "spacer",
-        "group": "062c9dae52b8ca4a",
-        "order": 14,
+        "group": "f1f13388d5f613e8",
+        "order": 3,
         "width": 5,
         "height": 1
     },
@@ -866,8 +915,8 @@
         "z": "55a762ae72fa441b",
         "name": "Callbacks",
         "info": "",
-        "x": 1080,
-        "y": 280,
+        "x": 1560,
+        "y": 260,
         "wires": []
     },
     {
@@ -878,10 +927,12 @@
         "name": "Update FS",
         "links": [
             "71df01656749e372",
-            "42fbeec64825d3a1"
+            "42fbeec64825d3a1",
+            "c612b81a64bb9759",
+            "b4f3a4589cdc9edf"
         ],
-        "x": 1165,
-        "y": 440,
+        "x": 1605,
+        "y": 420,
         "wires": [
             [
                 "8078387b8154fc28",
@@ -897,8 +948,8 @@
         "g": "284c27310b25477c",
         "name": "Update FS\\n payload.bldg, payload.window, payload.numFire",
         "info": "",
-        "x": 1290,
-        "y": 360,
+        "x": 1730,
+        "y": 340,
         "wires": []
     },
     {
@@ -913,8 +964,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1350,
-        "y": 420,
+        "x": 1790,
+        "y": 400,
         "wires": [
             []
         ]
@@ -931,8 +982,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1370,
-        "y": 460,
+        "x": 1810,
+        "y": 440,
         "wires": [
             [
                 "926f27b7e8249ddb"
@@ -945,14 +996,14 @@
         "z": "55a762ae72fa441b",
         "g": "284c27310b25477c",
         "name": "Build MQTT Msg for Gutter",
-        "func": "\n//--- Basic variables\nvar input = msg.payload;\nvar node_id = msg.payload.bldg;\nvar theWin = msg.payload.window;\nvar theFS = msg.payload.numFire;\n\n//--- Set up MQTT message\nvar gutterString = global.get(node_id + \".GutterPixels\");\nmsg.topic = \"nodered/updatepixels/\" + node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":\" + theWin + \", \" +\n    \"\\\"pixels\\\": \\\"\" + gutterString + \"\\\"\" +\n    \"}\";\n\n//--- Fin\nreturn msg;",
+        "func": "/*\n---- WILL NEED TO UPDATE ONCE WE KNOW HOW \"WHICHLEDS\" WORKS ---\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar node_id = msg.payload.bldg;\nvar theGutter = 1; //-=-=-=-==-=\n\n\n//--- Set up MQTT message\nvar gutterString = global.get(node_id + \".GutterPixels\");\nmsg.topic = \"nodered/updatepixels/\" + node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":\" + theGutter + \", \" +\n    \"\\\"pixels\\\": \\\"\" + gutterString + \"\\\"\" +\n    \"}\";\n\n//--- Fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1450,
-        "y": 500,
+        "x": 1890,
+        "y": 480,
         "wires": [
             [
                 "5f0bcff5c4ed6ec4"
@@ -971,8 +1022,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1370,
-        "y": 540,
+        "x": 1810,
+        "y": 520,
         "wires": [
             [
                 "f986ab9711daf36b"
@@ -994,8 +1045,8 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 1680,
-        "y": 500,
+        "x": 2120,
+        "y": 480,
         "wires": []
     },
     {
@@ -1013,8 +1064,8 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 1680,
-        "y": 540,
+        "x": 2120,
+        "y": 520,
         "wires": []
     },
     {
@@ -1024,8 +1075,8 @@
         "g": "284c27310b25477c",
         "name": "WILL NEED TO TEST THESE WITH REAL PI",
         "info": "",
-        "x": 1780,
-        "y": 460,
+        "x": 2220,
+        "y": 440,
         "wires": []
     },
     {
@@ -1091,8 +1142,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 1280,
-        "y": 640,
+        "x": 1720,
+        "y": 620,
         "wires": [
             [
                 "71df01656749e372"
@@ -1109,8 +1160,8 @@
         "links": [
             "0416ea6909311b42"
         ],
-        "x": 1435,
-        "y": 640,
+        "x": 1875,
+        "y": 620,
         "wires": []
     },
     {
@@ -1141,8 +1192,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 1280,
-        "y": 680,
+        "x": 1720,
+        "y": 660,
         "wires": [
             [
                 "42fbeec64825d3a1"
@@ -1159,8 +1210,8 @@
         "links": [
             "0416ea6909311b42"
         ],
-        "x": 1435,
-        "y": 680,
+        "x": 1875,
+        "y": 660,
         "wires": []
     },
     {
@@ -1170,8 +1221,8 @@
         "g": "284c27310b25477c",
         "name": "Test Injects",
         "info": "",
-        "x": 1170,
-        "y": 600,
+        "x": 1610,
+        "y": 580,
         "wires": []
     },
     {
@@ -1211,6 +1262,13 @@
                 "p": "startside",
                 "pt": "global",
                 "to": "R",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "otherside",
+                "pt": "global",
+                "to": "L",
                 "tot": "str"
             }
         ],
@@ -1276,6 +1334,13 @@
                 "p": "startside",
                 "pt": "global",
                 "to": "L",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "otherside",
+                "pt": "global",
+                "to": "R",
                 "tot": "str"
             }
         ],
@@ -1376,8 +1441,8 @@
         "z": "55a762ae72fa441b",
         "g": "2b2a6d295740d392",
         "name": "",
-        "group": "062c9dae52b8ca4a",
-        "order": 6,
+        "group": "eec8a831cc9d15c1",
+        "order": 2,
         "width": 8,
         "height": 2,
         "passthru": false,
@@ -1445,8 +1510,8 @@
         "type": "ui_text",
         "z": "55a762ae72fa441b",
         "g": "2b2a6d295740d392",
-        "group": "062c9dae52b8ca4a",
-        "order": 10,
+        "group": "eec8a831cc9d15c1",
+        "order": 6,
         "width": 10,
         "height": 1,
         "name": "",
@@ -1512,9 +1577,9 @@
         "z": "55a762ae72fa441b",
         "g": "2b2a6d295740d392",
         "name": "",
-        "group": "062c9dae52b8ca4a",
-        "order": 11,
-        "width": 5,
+        "group": "eec8a831cc9d15c1",
+        "order": 7,
+        "width": 6,
         "height": 4,
         "gtype": "gage",
         "title": "Heating Up Time",
@@ -1540,7 +1605,7 @@
         "z": "55a762ae72fa441b",
         "g": "2b2a6d295740d392",
         "name": "seconds to minute:seconds",
-        "func": "//https://flows.nodered.org/flow/07570367cf2ccf79344c5f336004d9d9\n\nlet secsDecimal = msg.payload;\n\nlet mins = Math.floor(secsDecimal/60);\nlet secs = secsDecimal % 60;\n\n//msg.payload = (mins + (secs / 100.0)).toFixed(2)\nmsg.payload = secs < 10 ? (mins + \":0\" + secs) : (mins + \":0\" + secs);\n\nreturn msg;",
+        "func": "//https://flows.nodered.org/flow/07570367cf2ccf79344c5f336004d9d9\n\nlet secsDecimal = msg.payload;\n\nlet mins = Math.floor(secsDecimal/60);\nlet secs = secsDecimal % 60;\n\n//msg.payload = (mins + (secs / 100.0)).toFixed(2)\nmsg.payload = secs < 10 ? (mins + \":0\" + secs) : (mins + \":\" + secs);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -1584,9 +1649,9 @@
         "z": "55a762ae72fa441b",
         "g": "2b2a6d295740d392",
         "name": "",
-        "group": "062c9dae52b8ca4a",
-        "order": 13,
-        "width": 5,
+        "group": "eec8a831cc9d15c1",
+        "order": 9,
+        "width": 4,
         "height": 2,
         "passthru": false,
         "label": "KILL THE HEATER",
@@ -1782,5 +1847,218 @@
                 "75202ca16a123855"
             ]
         ]
+    },
+    {
+        "id": "fd280fb139a56e3e",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "6a8702296ddd22a1",
+        "name": "MVP Step 4 - Match Start (T=0)",
+        "info": "",
+        "x": 190,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "9321df77664c4496",
+        "type": "ui_button",
+        "z": "55a762ae72fa441b",
+        "g": "6a8702296ddd22a1",
+        "name": "",
+        "group": "f1f13388d5f613e8",
+        "order": 1,
+        "width": 5,
+        "height": 2,
+        "passthru": false,
+        "label": "START MATCH",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 220,
+        "y": 1700,
+        "wires": [
+            [
+                "82a8466517112ffd",
+                "ee7fad842ebd85de"
+            ]
+        ]
+    },
+    {
+        "id": "82a8466517112ffd",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "6a8702296ddd22a1",
+        "name": "Update first Burning Bldgs",
+        "func": "//--- Set up vars\nvar whichSide = global.get(\"startside\"); // \"L\" or \"R\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Top or bottom?\nvar whichRouteInt = Math.floor(Math.random() * 2); //returns 0 or 1\nvar whichRouteStr = whichRouteInt == 1 ? \"T\" : \"B\";\nvar bldg1 = whichSide + whichRouteStr + \"M\"; //e.g. bldg LTM\nvar bldg2 = whichSide + whichRouteStr + \"I\"; //e.g. bldg LTI\nnode.warn(whichRouteInt);\nnode.warn(whichRouteStr);\nnode.warn(bldg1);\n\n//--- Set up payloads to update globals using callbacks\n// - Set window 1 to FS of 4\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 4;\nmsg2.payload.bldg = bldg2;\nmsg2.payload.window = 1;\nmsg2.payload.numFire = 4;\n\n//Fin\nreturn [msg1, msg2];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 1580,
+        "wires": [
+            [
+                "c612b81a64bb9759"
+            ],
+            [
+                "c612b81a64bb9759"
+            ]
+        ]
+    },
+    {
+        "id": "c612b81a64bb9759",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "6a8702296ddd22a1",
+        "name": "Send T=0 FS updates",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42"
+        ],
+        "x": 665,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "ee7fad842ebd85de",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "6a8702296ddd22a1",
+        "name": "Light up a Tello Path",
+        "func": "/* \nGutterPixels callback expects\npayload.bldg, payload.pixelstring\n*/ \n\n\n//--- Set up vars\nvar whichSide = global.get(\"otherside\"); // \"L\" or \"R\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\nvar msg3 = {};\nmsg3.payload = {};\nvar msg4 = {};\nmsg4.payload = {};\n\nvar thePixelString = \"333333333333333333333333333333\"; //all yellows\n\n//--- Set up messages\nmsg1.payload.bldg = whichSide + \"TO\";\nmsg2.payload.bldg = whichSide + \"TM\";\nmsg3.payload.bldg = whichSide + \"BM\";\nmsg4.payload.bldg = whichSide + \"BI\";\nmsg1.payload.pixelstring = thePixelString;\nmsg2.payload.pixelstring = thePixelString;\nmsg3.payload.pixelstring = thePixelString;\nmsg4.payload.pixelstring = thePixelString;\n\n//Fin\nreturn [msg1, msg2, msg3, msg4];\n\n\n/*\n--------\nTHIS WILL BE EASY TO ADD ALL 3 PATHS LATER \n- JUST PULL FROM THE OTHER CODE\n--------\n*/ ",
+        "outputs": 4,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 1700,
+        "wires": [
+            [
+                "ae0759e01e0881af"
+            ],
+            [
+                "ae0759e01e0881af"
+            ],
+            [
+                "ae0759e01e0881af"
+            ],
+            [
+                "ae0759e01e0881af"
+            ]
+        ]
+    },
+    {
+        "id": "7138aeefb2263d68",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "name": "Update GutterPixels \\n payload.bldg, payload.pixelstring",
+        "info": "",
+        "x": 1670,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "f8afe1542a91baa2",
+        "type": "link in",
+        "z": "55a762ae72fa441b",
+        "name": "Update GutterPixels",
+        "links": [
+            "ae0759e01e0881af"
+        ],
+        "x": 1605,
+        "y": 860,
+        "wires": [
+            [
+                "f976aafaf0f9a3c1"
+            ]
+        ]
+    },
+    {
+        "id": "f976aafaf0f9a3c1",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "name": "Update GutterPixels Global",
+        "func": "/* \nGutter is built with 30 pixels\n[0-7]   = Window 1 FS\n[8-9]   = Blank (spacer)\n[10-19] = Status\n[20-21] = Blank (spacer)\n[22-29] = Window 2 FS\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar theBldg = input.bldg;\nvar theString = input.pixelstring;\n\n//--- Update global\nglobal.set(theBldg + \".GutterPixels\", theString);\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1780,
+        "y": 860,
+        "wires": [
+            [
+                "2d3d077a6a33a90f"
+            ]
+        ]
+    },
+    {
+        "id": "2d3d077a6a33a90f",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "name": "Build MQTT Msg for Gutter",
+        "func": "/*\n---- WILL NEED TO UPDATE ONCE WE KNOW HOW \"WHICHLEDS\" WORKS ---\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar node_id = input.bldg;\nvar theGutter = 1; //-=-=-===--==\n\n//--- Set up MQTT message\nvar gutterString = global.get(node_id + \".GutterPixels\");\nmsg.topic = \"nodered/updatepixels/\" + node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":\" + theGutter + \", \" +\n    \"\\\"pixels\\\": \\\"\" + gutterString + \"\\\"\" +\n    \"}\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1860,
+        "y": 900,
+        "wires": [
+            [
+                "19c221d99629ee7a"
+            ]
+        ]
+    },
+    {
+        "id": "19c221d99629ee7a",
+        "type": "mqtt out",
+        "z": "55a762ae72fa441b",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 2090,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "d5c077522e0efe06",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "name": "WILL NEED TO TEST THESE WITH REAL PI",
+        "info": "",
+        "x": 2170,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "ae0759e01e0881af",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "6a8702296ddd22a1",
+        "name": "Tello GutterPixels",
+        "mode": "link",
+        "links": [
+            "f8afe1542a91baa2"
+        ],
+        "x": 665,
+        "y": 1700,
+        "wires": []
     }
 ]
