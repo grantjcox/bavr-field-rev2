@@ -112,10 +112,126 @@
             "42fbeec64825d3a1",
             "4de1de66baa1bdcf"
         ],
-        "x": 1034,
+        "x": 1084,
         "y": 307,
         "w": 892,
         "h": 414
+    },
+    {
+        "id": "2b2a6d295740d392",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "g": "6f159bf7a82f4dfa",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "80cdfca71b0a4285",
+            "4833618839f23d81",
+            "8f38f406c628cd92",
+            "71450ef8b8905ee9",
+            "75202ca16a123855",
+            "3a2d656d9de58a64",
+            "7f56ec0176b540bc",
+            "3c6b0d2e7d12f47d",
+            "a9e9a6448592d3b2",
+            "dafcb9eeb25bd05f",
+            "97db8049c673a98e",
+            "079d1a3ec4dd91d9",
+            "2a0d525888f8207a",
+            "4c724d58d017c572",
+            "92aca6c09c966e83",
+            "490c984c330991c7",
+            "e3e9fd0d99b1549e",
+            "e0d9d7310fe50dd8"
+        ],
+        "x": 94,
+        "y": 959,
+        "w": 1312,
+        "h": 442
+    },
+    {
+        "id": "ec7979310fe9e00f",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "g": "6f159bf7a82f4dfa",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "b43ba60f45967c77",
+            "c9e2c1f189fc8576",
+            "e0c6c1515d7fb9ae",
+            "6d2a234344182486"
+        ],
+        "x": 94,
+        "y": 799,
+        "w": 712,
+        "h": 122
+    },
+    {
+        "id": "28011fcca82837fc",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "g": "6f159bf7a82f4dfa",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "e5d8eb5d72932755",
+            "e1f84c7be941ca8c",
+            "78f0d62baea56673",
+            "8d1b28dd96f6b81e",
+            "6ee9ecd341bb2e5c",
+            "d213416ed624b309"
+        ],
+        "x": 94,
+        "y": 639,
+        "w": 712,
+        "h": 142
+    },
+    {
+        "id": "6f159bf7a82f4dfa",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "ee998e797cc6bfa3",
+            "5bf648170501ee01",
+            "2b2a6d295740d392",
+            "ec7979310fe9e00f",
+            "28011fcca82837fc"
+        ],
+        "x": 34,
+        "y": 559,
+        "w": 1398,
+        "h": 868
     },
     {
         "id": "b411c6135a7823e0",
@@ -282,6 +398,85 @@
         "className": ""
     },
     {
+        "id": "9a6254e6.c472c8",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "2043e431.1fd824",
+        "order": 1,
+        "disp": false,
+        "width": "8",
+        "collapse": false
+    },
+    {
+        "id": "2043e431.1fd824",
+        "type": "ui_tab",
+        "name": "ON TIME",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8308846da1f96c08",
+        "type": "ui_spacer",
+        "z": "55a762ae72fa441b",
+        "name": "spacer",
+        "group": "062c9dae52b8ca4a",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6c13a91cf117ab7a",
+        "type": "ui_spacer",
+        "z": "55a762ae72fa441b",
+        "name": "spacer",
+        "group": "062c9dae52b8ca4a",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "cc640590de7be5a4",
+        "type": "ui_spacer",
+        "z": "55a762ae72fa441b",
+        "name": "spacer",
+        "group": "062c9dae52b8ca4a",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9265b2fd1fc1dcfd",
+        "type": "ui_spacer",
+        "z": "55a762ae72fa441b",
+        "name": "spacer",
+        "group": "062c9dae52b8ca4a",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7a0400e60a5ac342",
+        "type": "ui_spacer",
+        "z": "55a762ae72fa441b",
+        "name": "spacer",
+        "group": "062c9dae52b8ca4a",
+        "order": 12,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "6f57e6532543cd99",
+        "type": "ui_spacer",
+        "z": "55a762ae72fa441b",
+        "name": "spacer",
+        "group": "062c9dae52b8ca4a",
+        "order": 14,
+        "width": 5,
+        "height": 1
+    },
+    {
         "id": "e1ba7bc1352dbb74",
         "type": "comment",
         "z": "55a762ae72fa441b",
@@ -342,10 +537,12 @@
         "order": 2,
         "width": 0,
         "height": 0,
-        "format": "<div>\n    <link href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap\" rel=\"stylesheet\">\n    <style>\n        body {\n            --background: #212529;\n            --on-background: white;\n            --surface: #2d3136;\n            --on-surface: white;\n            --primary: var(--nr-dashboard-widgetColor);\n            --on-primary: white;\n            --secondary: var(--nr-dashboard-groupTextColor);\n            --accent: red;\n            --radius-s: 8px;\n            --font-weight-m: 300;\n            --font-weight-m: 500;\n            --font-weight-l: 700;\n            --space-s: 8px;\n            --space-m: 16px;\n            --space-l: 32px;\n        }\n\n        body.nr-dashboard-theme {\n            background-color: var(--background);\n            font-family: 'Montserrat', sans-serif;\n        }\n        .nr-dashboard-theme ui-card-panel {\n            background-color: var(--background);\n            border: 0;\n        }\n        .nr-dashboard-theme .nr-dashboard-button .md-button {\n            background-color: var(--primary);\n            border-radius: var(--radius-s);\n            padding: 8px !important;\n            line-height: inherit;\n            font-weight: var(--font-weight-l);\n            color: var(--on-primary);\n        }\n        .nr-dashboard-theme [ui-card-size=\"2x2\"].nr-dashboard-button .md-button {\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            white-space: pre-line;\n        }\n        \n        .nr-dashboard-theme .nr-dashboard-button .md-button ui-icon {\n                margin-bottom: 8px;\n        }\n        .nr-dashboard-theme .nr-dashboard-button .md-button:hover {\n            background-color: var(--secondary);\n        }\n        body.nr-dashboard-theme md-content md-card {\n            background-color: var(--surface);\n        }\n        md-card.md-default-theme, md-card {\n            border-radius: var(--radius-s);\n        }\n        .nr-dashboard-theme .nr-dashboard-gauge-titlel {\n            font-weight: var(--font-weight-l) !important;      \n        }\n        .nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n            font-weight: var(--font-weight-l);  \n            text-transform: capitalize;\n            color: var(--on-background);\n        }\n        .nr-dashboard-cardpanel > p {\n            margin-left: 0;\n            padding-left: 16px;\n        }\n        body.nr-dashboard-theme md-toolbar {\n            background-color: var(--surface);\n        }\n        .md-default-theme .md-datepicker-calendar, .md-datepicker-calendar,\n        .md-default-theme .md-calendar, .md-calendar{\n            background-color: var(--surface);\n            color: var(--on-surface);\n        }\n        .md-default-theme .md-datepicker-calendar-pane, .md-datepicker-calendar-pane{\n            border: 0;\n        }\n        .md-default-theme .md-calendar-month-label md-icon, .md-calendar-month-label md-icon, .md-default-theme .md-datepicker-input, .md-datepicker-input {\n            color: var(--on-surface);\n        }\n        body.nr-dashboard-theme md-content md-card {\n            color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-numeric .value {\n            background-color: var(--surface);\n            color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-dropdown md-select .md-select-value, .nr-dashboard-theme .nr-dashboard-dropdown md-select .md-select-value.md-select-placeholder {\n            color: var(--on-surface);\n            border-color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-dropdown .md-select-icon {\n            color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-date-picker md-input-container .md-input {\n            color: var(--on-surface);\n            border-color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-date-picker .md-datepicker-triangle-button .md-datepicker-expand-triangle {\n            border-top-color: var(--on-surface);\n        }\n        body.nr-dashboard-theme md-sidenav {\n            background-color: var(--surface);\n        }\n        md-list-item._md-button-wrap > div.md-button:first-child, md-list-item .md-list-item-inner {\n            background-color: var(--surface);\n        }\n    </style>\n</div>",
+        "format": "<div>\n    <link href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap\" rel=\"stylesheet\">\n    <style>\n        body {\n            --background: #212529;\n            --on-background: white;\n            --surface: #2d3136;\n            --on-surface: white;\n            --primary: var(--nr-dashboard-widgetColor);\n            --on-primary: white;\n            --secondary: var(--nr-dashboard-groupTextColor);\n            --accent: red;\n            --radius-s: 2px;\n            --font-weight-m: 300;\n            --font-weight-m: 500;\n            --font-weight-l: 700;\n            --space-s: 8px;\n            --space-m: 16px;\n            --space-l: 32px;\n        }\n\n        body.nr-dashboard-theme {\n            background-color: var(--background);\n            font-family: 'Montserrat', sans-serif;\n        }\n        .nr-dashboard-theme ui-card-panel {\n            background-color: var(--background);\n            border: 0;\n        }\n        .nr-dashboard-theme .nr-dashboard-button .md-button {\n            background-color: var(--primary);\n            border-radius: var(--radius-s);\n            padding: 8px !important;\n            line-height: inherit;\n            font-weight: var(--font-weight-l);\n            color: var(--on-primary);\n        }\n        .nr-dashboard-theme [ui-card-size=\"2x2\"].nr-dashboard-button .md-button {\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            white-space: pre-line;\n        }\n        \n        .nr-dashboard-theme .nr-dashboard-button .md-button ui-icon {\n                margin-bottom: 8px;\n        }\n        .nr-dashboard-theme .nr-dashboard-button .md-button:hover {\n            background-color: var(--secondary);\n        }\n        body.nr-dashboard-theme md-content md-card {\n            background-color: var(--surface);\n        }\n        md-card.md-default-theme, md-card {\n            border-radius: var(--radius-s);\n        }\n        .nr-dashboard-theme .nr-dashboard-gauge-titlel {\n            font-weight: var(--font-weight-l) !important;      \n        }\n        .nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n            font-weight: var(--font-weight-l);  \n            text-transform: capitalize;\n            color: var(--on-background);\n        }\n        .nr-dashboard-cardpanel > p {\n            margin-left: 0;\n            padding-left: 16px;\n        }\n        body.nr-dashboard-theme md-toolbar {\n            background-color: var(--surface);\n        }\n        .md-default-theme .md-datepicker-calendar, .md-datepicker-calendar,\n        .md-default-theme .md-calendar, .md-calendar{\n            background-color: var(--surface);\n            color: var(--on-surface);\n        }\n        .md-default-theme .md-datepicker-calendar-pane, .md-datepicker-calendar-pane{\n            border: 0;\n        }\n        .md-default-theme .md-calendar-month-label md-icon, .md-calendar-month-label md-icon, .md-default-theme .md-datepicker-input, .md-datepicker-input {\n            color: var(--on-surface);\n        }\n        body.nr-dashboard-theme md-content md-card {\n            color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-numeric .value {\n            background-color: var(--surface);\n            color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-dropdown md-select .md-select-value, .nr-dashboard-theme .nr-dashboard-dropdown md-select .md-select-value.md-select-placeholder {\n            color: var(--on-surface);\n            border-color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-dropdown .md-select-icon {\n            color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-date-picker md-input-container .md-input {\n            color: var(--on-surface);\n            border-color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-date-picker .md-datepicker-triangle-button .md-datepicker-expand-triangle {\n            border-top-color: var(--on-surface);\n        }\n        body.nr-dashboard-theme md-sidenav {\n            background-color: var(--surface);\n        }\n        md-list-item._md-button-wrap > div.md-button:first-child, md-list-item .md-list-item-inner {\n            background-color: var(--surface);\n        }\n    </style>\n</div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
+        "resendOnRefresh": false,
         "templateScope": "global",
+        "className": "",
         "x": 1220,
         "y": 120,
         "wires": [
@@ -564,6 +761,7 @@
         "id": "ee998e797cc6bfa3",
         "type": "comment",
         "z": "55a762ae72fa441b",
+        "g": "6f159bf7a82f4dfa",
         "name": "MVP Step 3 - Queue Match Steps",
         "info": "",
         "x": 200,
@@ -574,20 +772,22 @@
         "id": "b43ba60f45967c77",
         "type": "comment",
         "z": "55a762ae72fa441b",
-        "name": "Heater On",
+        "g": "ec7979310fe9e00f",
+        "name": "Heater",
         "info": "",
-        "x": 180,
-        "y": 780,
+        "x": 170,
+        "y": 840,
         "wires": []
     },
     {
         "id": "e5d8eb5d72932755",
         "type": "comment",
         "z": "55a762ae72fa441b",
+        "g": "28011fcca82837fc",
         "name": "Pick a Side",
         "info": "",
         "x": 180,
-        "y": 660,
+        "y": 680,
         "wires": []
     },
     {
@@ -653,10 +853,11 @@
         "id": "80cdfca71b0a4285",
         "type": "comment",
         "z": "55a762ae72fa441b",
+        "g": "2b2a6d295740d392",
         "name": "Heater On",
         "info": "",
         "x": 180,
-        "y": 920,
+        "y": 1000,
         "wires": []
     },
     {
@@ -679,7 +880,7 @@
             "71df01656749e372",
             "42fbeec64825d3a1"
         ],
-        "x": 1115,
+        "x": 1165,
         "y": 440,
         "wires": [
             [
@@ -696,7 +897,7 @@
         "g": "284c27310b25477c",
         "name": "Update FS\\n payload.bldg, payload.window, payload.numFire",
         "info": "",
-        "x": 1240,
+        "x": 1290,
         "y": 360,
         "wires": []
     },
@@ -712,7 +913,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1300,
+        "x": 1350,
         "y": 420,
         "wires": [
             []
@@ -730,7 +931,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1320,
+        "x": 1370,
         "y": 460,
         "wires": [
             [
@@ -750,7 +951,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1400,
+        "x": 1450,
         "y": 500,
         "wires": [
             [
@@ -770,7 +971,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1320,
+        "x": 1370,
         "y": 540,
         "wires": [
             [
@@ -793,7 +994,7 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 1630,
+        "x": 1680,
         "y": 500,
         "wires": []
     },
@@ -812,7 +1013,7 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 1630,
+        "x": 1680,
         "y": 540,
         "wires": []
     },
@@ -823,7 +1024,7 @@
         "g": "284c27310b25477c",
         "name": "WILL NEED TO TEST THESE WITH REAL PI",
         "info": "",
-        "x": 1730,
+        "x": 1780,
         "y": 460,
         "wires": []
     },
@@ -831,6 +1032,7 @@
         "id": "e1f84c7be941ca8c",
         "type": "ui_switch",
         "z": "55a762ae72fa441b",
+        "g": "28011fcca82837fc",
         "name": "",
         "label": "Start Side",
         "tooltip": "",
@@ -854,7 +1056,7 @@
         "animate": false,
         "className": "",
         "x": 220,
-        "y": 700,
+        "y": 720,
         "wires": [
             [
                 "6ee9ecd341bb2e5c"
@@ -889,7 +1091,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 1230,
+        "x": 1280,
         "y": 640,
         "wires": [
             [
@@ -907,7 +1109,7 @@
         "links": [
             "0416ea6909311b42"
         ],
-        "x": 1385,
+        "x": 1435,
         "y": 640,
         "wires": []
     },
@@ -939,7 +1141,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 1230,
+        "x": 1280,
         "y": 680,
         "wires": [
             [
@@ -957,7 +1159,7 @@
         "links": [
             "0416ea6909311b42"
         ],
-        "x": 1385,
+        "x": 1435,
         "y": 680,
         "wires": []
     },
@@ -968,7 +1170,7 @@
         "g": "284c27310b25477c",
         "name": "Test Injects",
         "info": "",
-        "x": 1120,
+        "x": 1170,
         "y": 600,
         "wires": []
     },
@@ -976,23 +1178,25 @@
         "id": "78f0d62baea56673",
         "type": "ui_text",
         "z": "55a762ae72fa441b",
+        "g": "28011fcca82837fc",
         "group": "062c9dae52b8ca4a",
         "order": 2,
         "width": 5,
         "height": 1,
-        "name": "Startside output",
+        "name": "Startside Output",
         "label": "",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 680,
-        "y": 700,
+        "x": 700,
+        "y": 720,
         "wires": []
     },
     {
         "id": "8d1b28dd96f6b81e",
         "type": "change",
         "z": "55a762ae72fa441b",
+        "g": "28011fcca82837fc",
         "name": "Right",
         "rules": [
             {
@@ -1000,6 +1204,13 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "RIGHT",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "startside",
+                "pt": "global",
+                "to": "R",
                 "tot": "str"
             }
         ],
@@ -1009,7 +1220,7 @@
         "to": "",
         "reg": false,
         "x": 510,
-        "y": 680,
+        "y": 700,
         "wires": [
             [
                 "78f0d62baea56673"
@@ -1020,6 +1231,7 @@
         "id": "6ee9ecd341bb2e5c",
         "type": "switch",
         "z": "55a762ae72fa441b",
+        "g": "28011fcca82837fc",
         "name": "",
         "property": "payload",
         "propertyType": "msg",
@@ -1035,7 +1247,7 @@
         "repair": false,
         "outputs": 2,
         "x": 370,
-        "y": 700,
+        "y": 720,
         "wires": [
             [
                 "8d1b28dd96f6b81e"
@@ -1049,13 +1261,21 @@
         "id": "d213416ed624b309",
         "type": "change",
         "z": "55a762ae72fa441b",
-        "name": "Right",
+        "g": "28011fcca82837fc",
+        "name": "Left",
         "rules": [
             {
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
                 "to": "LEFT",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "startside",
+                "pt": "global",
+                "to": "L",
                 "tot": "str"
             }
         ],
@@ -1065,10 +1285,501 @@
         "to": "",
         "reg": false,
         "x": 510,
-        "y": 720,
+        "y": 740,
         "wires": [
             [
                 "78f0d62baea56673"
+            ]
+        ]
+    },
+    {
+        "id": "c9e2c1f189fc8576",
+        "type": "ui_button",
+        "z": "55a762ae72fa441b",
+        "g": "ec7979310fe9e00f",
+        "name": "",
+        "group": "062c9dae52b8ca4a",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Randomize Hotspot Bldg",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 880,
+        "wires": [
+            [
+                "e0c6c1515d7fb9ae"
+            ]
+        ]
+    },
+    {
+        "id": "e0c6c1515d7fb9ae",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "ec7979310fe9e00f",
+        "name": "Random choice",
+        "func": "//Use the timestamp to random select lol\nvar input = String(msg.payload);\nvar lastDigit = parseInt(input.slice(-1));\n\n//Evens top, odds bottom\nvar startBldg = (lastDigit % 2) == 0 ? \"T\" : \"B\"; \n\n//Fin\nglobal.set(\"hotBldg\",startBldg);\nmsg.payload = global.get(\"startside\") + startBldg + \"O\"; //always O bldg\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 880,
+        "wires": [
+            [
+                "6d2a234344182486"
+            ]
+        ]
+    },
+    {
+        "id": "6d2a234344182486",
+        "type": "ui_text",
+        "z": "55a762ae72fa441b",
+        "g": "ec7979310fe9e00f",
+        "group": "062c9dae52b8ca4a",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "name": "Hotbldg Output",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 700,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "5bf648170501ee01",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "6f159bf7a82f4dfa",
+        "name": "Note - these all also update globals",
+        "info": "",
+        "x": 520,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "4833618839f23d81",
+        "type": "ui_button",
+        "z": "55a762ae72fa441b",
+        "g": "2b2a6d295740d392",
+        "name": "",
+        "group": "062c9dae52b8ca4a",
+        "order": 6,
+        "width": 8,
+        "height": 2,
+        "passthru": false,
+        "label": "CONFIRM - Queue Match - Turn on Heater",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 330,
+        "y": 1080,
+        "wires": [
+            [
+                "8f38f406c628cd92",
+                "7f56ec0176b540bc",
+                "490c984c330991c7"
+            ]
+        ]
+    },
+    {
+        "id": "8f38f406c628cd92",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "2b2a6d295740d392",
+        "name": "Build MQTT to heat it up",
+        "func": "//Get the thing\nvar whichBldg = global.get(\"startside\") + global.get(\"hotBldg\") + \"O\";\n\n//Build the MQTT message\nmsg.topic = \"nodered/heateron/\" + whichBldg;\nmsg.payload = \"{}\";\n\n//Fin\nglobal.set(\"hotBldg\",whichBldg);\nmsg.payload = global.get(\"startside\") + whichBldg + \"O\"; //always O bldg\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 1040,
+        "wires": [
+            [
+                "71450ef8b8905ee9"
+            ]
+        ]
+    },
+    {
+        "id": "71450ef8b8905ee9",
+        "type": "mqtt out",
+        "z": "55a762ae72fa441b",
+        "g": "2b2a6d295740d392",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 850,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "75202ca16a123855",
+        "type": "ui_text",
+        "z": "55a762ae72fa441b",
+        "g": "2b2a6d295740d392",
+        "group": "062c9dae52b8ca4a",
+        "order": 10,
+        "width": 10,
+        "height": 1,
+        "name": "",
+        "label": "Heater has been on for: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1270,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "3a2d656d9de58a64",
+        "type": "delay",
+        "z": "55a762ae72fa441b",
+        "g": "2b2a6d295740d392",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 940,
+        "y": 1220,
+        "wires": [
+            [
+                "dafcb9eeb25bd05f"
+            ]
+        ]
+    },
+    {
+        "id": "7f56ec0176b540bc",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "2b2a6d295740d392",
+        "name": "Do a timer",
+        "func": "let clock_value = flow.get(\"clock_value\") || 0;\n\nclock_value++; \n\nif (clock_value < 0) clock_value = 0;\n\nflow.set(\"clock_value\", clock_value);\n\nmsg.payload = clock_value;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 1160,
+        "wires": [
+            [
+                "a9e9a6448592d3b2",
+                "3c6b0d2e7d12f47d",
+                "3a2d656d9de58a64"
+            ]
+        ]
+    },
+    {
+        "id": "3c6b0d2e7d12f47d",
+        "type": "ui_gauge",
+        "z": "55a762ae72fa441b",
+        "g": "2b2a6d295740d392",
+        "name": "",
+        "group": "062c9dae52b8ca4a",
+        "order": 11,
+        "width": 5,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Heating Up Time",
+        "label": "seconds",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "180",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "60",
+        "seg2": "120",
+        "className": "",
+        "x": 990,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "a9e9a6448592d3b2",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "2b2a6d295740d392",
+        "name": "seconds to minute:seconds",
+        "func": "//https://flows.nodered.org/flow/07570367cf2ccf79344c5f336004d9d9\n\nlet secsDecimal = msg.payload;\n\nlet mins = Math.floor(secsDecimal/60);\nlet secs = secsDecimal % 60;\n\n//msg.payload = (mins + (secs / 100.0)).toFixed(2)\nmsg.payload = secs < 10 ? (mins + \":0\" + secs) : (mins + \":0\" + secs);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 1120,
+        "wires": [
+            [
+                "75202ca16a123855"
+            ]
+        ]
+    },
+    {
+        "id": "dafcb9eeb25bd05f",
+        "type": "switch",
+        "z": "55a762ae72fa441b",
+        "g": "2b2a6d295740d392",
+        "name": "If still on",
+        "property": "heateron",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1100,
+        "y": 1220,
+        "wires": [
+            [
+                "7f56ec0176b540bc"
+            ]
+        ]
+    },
+    {
+        "id": "97db8049c673a98e",
+        "type": "ui_button",
+        "z": "55a762ae72fa441b",
+        "g": "2b2a6d295740d392",
+        "name": "",
+        "group": "062c9dae52b8ca4a",
+        "order": 13,
+        "width": 5,
+        "height": 2,
+        "passthru": false,
+        "label": "KILL THE HEATER",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 250,
+        "y": 1320,
+        "wires": [
+            [
+                "079d1a3ec4dd91d9",
+                "2a0d525888f8207a",
+                "92aca6c09c966e83"
+            ]
+        ]
+    },
+    {
+        "id": "079d1a3ec4dd91d9",
+        "type": "change",
+        "z": "55a762ae72fa441b",
+        "g": "2b2a6d295740d392",
+        "name": "global.heateron = false",
+        "rules": [
+            {
+                "t": "set",
+                "p": "heateron",
+                "pt": "global",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2a0d525888f8207a",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "2b2a6d295740d392",
+        "name": "Build MQTT to shut 'er down",
+        "func": "//Get the thing\nvar whichBldg = global.get(\"startside\") + global.get(\"hotBldg\") + \"O\";\n\n//Build the MQTT message\nmsg.topic = \"nodered/heateroff/\" + whichBldg;\nmsg.payload = \"{}\";\n\n//Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 1280,
+        "wires": [
+            [
+                "4c724d58d017c572"
+            ]
+        ]
+    },
+    {
+        "id": "4c724d58d017c572",
+        "type": "mqtt out",
+        "z": "55a762ae72fa441b",
+        "g": "2b2a6d295740d392",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 750,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "92aca6c09c966e83",
+        "type": "change",
+        "z": "55a762ae72fa441b",
+        "g": "2b2a6d295740d392",
+        "name": "Reset timer",
+        "rules": [
+            {
+                "t": "set",
+                "p": "clock_value",
+                "pt": "flow",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 1360,
+        "wires": [
+            [
+                "7f56ec0176b540bc",
+                "e3e9fd0d99b1549e"
+            ]
+        ]
+    },
+    {
+        "id": "490c984c330991c7",
+        "type": "change",
+        "z": "55a762ae72fa441b",
+        "g": "2b2a6d295740d392",
+        "name": "global.heateron = true",
+        "rules": [
+            {
+                "t": "set",
+                "p": "heateron",
+                "pt": "global",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e3e9fd0d99b1549e",
+        "type": "delay",
+        "z": "55a762ae72fa441b",
+        "g": "2b2a6d295740d392",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 1360,
+        "wires": [
+            [
+                "e0d9d7310fe50dd8"
+            ]
+        ]
+    },
+    {
+        "id": "e0d9d7310fe50dd8",
+        "type": "change",
+        "z": "55a762ae72fa441b",
+        "g": "2b2a6d295740d392",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "OFF",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1020,
+        "y": 1360,
+        "wires": [
+            [
+                "75202ca16a123855"
             ]
         ]
     }
