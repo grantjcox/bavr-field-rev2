@@ -105,12 +105,17 @@
             "ed2d399b29970928",
             "5f0bcff5c4ed6ec4",
             "f986ab9711daf36b",
-            "fde12a5702a3994d"
+            "fde12a5702a3994d",
+            "d052e342e40320b9",
+            "71df01656749e372",
+            "dd8828fab2dad33c",
+            "42fbeec64825d3a1",
+            "4de1de66baa1bdcf"
         ],
-        "x": 1044,
+        "x": 1034,
         "y": 307,
         "w": 892,
-        "h": 274
+        "h": 414
     },
     {
         "id": "b411c6135a7823e0",
@@ -214,7 +219,7 @@
         "type": "ui_tab",
         "name": "Initial Tester",
         "icon": "dashboard",
-        "order": 1,
+        "order": 2,
         "disabled": false,
         "hidden": false
     },
@@ -255,6 +260,26 @@
         "willMsg": {},
         "userProps": "",
         "sessionExpiry": ""
+    },
+    {
+        "id": "3feccb6b5184919b",
+        "type": "ui_tab",
+        "name": "Match Control",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "062c9dae52b8ca4a",
+        "type": "ui_group",
+        "name": "Pre-Match",
+        "tab": "3feccb6b5184919b",
+        "order": 1,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "e1ba7bc1352dbb74",
@@ -552,7 +577,7 @@
         "name": "Heater On",
         "info": "",
         "x": 180,
-        "y": 760,
+        "y": 780,
         "wires": []
     },
     {
@@ -631,7 +656,7 @@
         "name": "Heater On",
         "info": "",
         "x": 180,
-        "y": 860,
+        "y": 920,
         "wires": []
     },
     {
@@ -650,8 +675,11 @@
         "z": "55a762ae72fa441b",
         "g": "284c27310b25477c",
         "name": "Update FS",
-        "links": [],
-        "x": 1125,
+        "links": [
+            "71df01656749e372",
+            "42fbeec64825d3a1"
+        ],
+        "x": 1115,
         "y": 440,
         "wires": [
             [
@@ -668,7 +696,7 @@
         "g": "284c27310b25477c",
         "name": "Update FS\\n payload.bldg, payload.window, payload.numFire",
         "info": "",
-        "x": 1250,
+        "x": 1240,
         "y": 360,
         "wires": []
     },
@@ -684,7 +712,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1310,
+        "x": 1300,
         "y": 420,
         "wires": [
             []
@@ -696,13 +724,13 @@
         "z": "55a762ae72fa441b",
         "g": "284c27310b25477c",
         "name": "Update GutterPixels Global",
-        "func": "/* \nGutter is built with 30 pixels\n[0-7]   = Window 1 FS\n[8-9]   = Blank (spacer)\n[10-19] = Status\n[20-21] = Blank (spacer)\n[22-29] = Window 2 FS\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar theBldg = msg.payload.bldg;\nvar theWin = msg.payload.window;\nvar theFS = msg.payload.numFire;\n\n//--- Get current gutterpixels, delete the relevant window's substring \n//string.substring(indexStart, indexEnd)\nvar curPixelString = global.get(theBldg + \".GutterPixels\");\nif (theWin == 1) {\n    var theSubString = curPixelString.substring(0, 8); //will want to check off-by-one issues\n} else if (theWin == 2) {\n    var theSubString = curPixelString.substring(22, 30); //will want to check off-by-one issues\n}\n\n//--- Build the new window's string\nvar newWindowString = \"\";\n//-- Add 1's up to the FS, then 0's after that to only light up the FS pixels\n// off-by-one _should_ work out alright? \n// also js shorthand woo https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator\nfor (let i=0; i<8; i++) {\n    newWindowString += i<theFS ? \"1\" : \"0\"; \n}\n\n//--- Combino preparo \nif (theWin == 1) {\n    var newPixelString = newWindowString + curPixelString; \n} else if (theWin == 2) {\n    var newPixelString = curPixelString + newWindowString;\n}\n\n//--- Fin\nglobal.set(theBldg + \".GutterPixels\", newPixelString);\nreturn msg;",
+        "func": "/* \nGutter is built with 30 pixels\n[0-7]   = Window 1 FS\n[8-9]   = Blank (spacer)\n[10-19] = Status\n[20-21] = Blank (spacer)\n[22-29] = Window 2 FS\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar theBldg = msg.payload.bldg;\nvar theWin = msg.payload.window;\nvar theFS = msg.payload.numFire;\n\n//--- Get current gutterpixels, delete the relevant window's substring \n//string.substring(indexStart, indexEnd)\nvar curPixelString = global.get(theBldg + \".GutterPixels\");\nif (theWin == 1) {\n    var stringMinusWindow = curPixelString.substring(7, 30); //will want to check off-by-one issues\n} else if (theWin == 2) {\n    var stringMinusWindow = curPixelString.substring(0, 22); //will want to check off-by-one issues\n}\n\n//--- Build the new window's string\nvar newWindowString = \"\";\n//-- Add 1's up to the FS, then 0's after that to only light up the FS pixels\n// off-by-one _should_ work out alright? \n// also js shorthand woo https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator\nfor (let i=0; i<8; i++) {\n    newWindowString += i<theFS ? \"1\" : \"0\"; \n}\n\n//--- Combino preparo \nnode.warn(newWindowString);\nnode.warn(stringMinusWindow);\nif (theWin == 1) {\n    var newPixelString = newWindowString + stringMinusWindow; \n} else if (theWin == 2) {\n    var newPixelString = stringMinusWindow + newWindowString;\n}\n\n//--- Fin\nglobal.set(theBldg + \".GutterPixels\", newPixelString);\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1330,
+        "x": 1320,
         "y": 460,
         "wires": [
             [
@@ -716,13 +744,13 @@
         "z": "55a762ae72fa441b",
         "g": "284c27310b25477c",
         "name": "Build MQTT Msg for Gutter",
-        "func": "/* \nGutter is built with 30 pixels\n[0-7]   = Window 1 FS\n[8-9]   = Blank (spacer)\n[10-19] = Status\n[20-21] = Blank (spacer)\n[22-29] = Window 2 FS\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar theBldg = msg.payload.bldg;\nvar theWin = msg.payload.window;\nvar theFS = msg.payload.numFire;\n\n//--- Get current gutterpixels, delete the relevant window's substring \n//string.substring(indexStart, indexEnd)\nvar curPixelString = global.get(theBldg + \".GutterPixels\");\nif (theWin == 1) {\n    var theSubString = curPixelString.substring(0, 8); //will want to check off-by-one issues\n} else if (theWin == 2) {\n    var theSubString = curPixelString.substring(22, 30); //will want to check off-by-one issues\n}\n\n//--- Build the new window's string\nvar newWindowString = \"\";\n//-- Add 1's up to the FS, then 0's after that to only light up the FS pixels\n// off-by-one _should_ work out alright? \n// also js shorthand woo https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator\nfor (let i=0; i<8; i++) {\n    newWindowString += i<theFS ? \"1\" : \"0\"; \n}\n\n//--- Combino preparo \nif (theWin == 1) {\n    var newPixelString = newWindowString + curPixelString; \n} else if (theWin == 2) {\n    var newPixelString = curPixelString + newWindowString;\n}\n\n//--- Fin\nglobal.set(theBldg + \".GutterPixels\", newPixelString);\nreturn msg;",
+        "func": "\n//--- Basic variables\nvar input = msg.payload;\nvar node_id = msg.payload.bldg;\nvar theWin = msg.payload.window;\nvar theFS = msg.payload.numFire;\n\n//--- Set up MQTT message\nvar gutterString = global.get(node_id + \".GutterPixels\");\nmsg.topic = \"nodered/updatepixels/\" + node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":\" + theWin + \", \" +\n    \"\\\"pixels\\\": \\\"\" + gutterString + \"\\\"\" +\n    \"}\";\n\n//--- Fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1410,
+        "x": 1400,
         "y": 500,
         "wires": [
             [
@@ -742,7 +770,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1330,
+        "x": 1320,
         "y": 540,
         "wires": [
             [
@@ -765,7 +793,7 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 1640,
+        "x": 1630,
         "y": 500,
         "wires": []
     },
@@ -784,7 +812,7 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 1600,
+        "x": 1630,
         "y": 540,
         "wires": []
     },
@@ -795,8 +823,253 @@
         "g": "284c27310b25477c",
         "name": "WILL NEED TO TEST THESE WITH REAL PI",
         "info": "",
-        "x": 1740,
+        "x": 1730,
         "y": 460,
         "wires": []
+    },
+    {
+        "id": "e1f84c7be941ca8c",
+        "type": "ui_switch",
+        "z": "55a762ae72fa441b",
+        "name": "",
+        "label": "Start Side",
+        "tooltip": "",
+        "group": "062c9dae52b8ca4a",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 220,
+        "y": 700,
+        "wires": [
+            [
+                "6ee9ecd341bb2e5c"
+            ]
+        ]
+    },
+    {
+        "id": "d052e342e40320b9",
+        "type": "inject",
+        "z": "55a762ae72fa441b",
+        "g": "284c27310b25477c",
+        "name": "Set LBI Window 1 FS to 4",
+        "props": [
+            {
+                "p": "payload.bldg",
+                "v": "\"LBI\"",
+                "vt": "str"
+            },
+            {
+                "p": "payload.window",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "p": "payload.numFire",
+                "v": "4",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1230,
+        "y": 640,
+        "wires": [
+            [
+                "71df01656749e372"
+            ]
+        ]
+    },
+    {
+        "id": "71df01656749e372",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "284c27310b25477c",
+        "name": "Test FS updater 4",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42"
+        ],
+        "x": 1385,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "dd8828fab2dad33c",
+        "type": "inject",
+        "z": "55a762ae72fa441b",
+        "g": "284c27310b25477c",
+        "name": "Set LBI Window 1 FS to 0",
+        "props": [
+            {
+                "p": "payload.bldg",
+                "v": "\"RTO\"",
+                "vt": "str"
+            },
+            {
+                "p": "payload.window",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "p": "payload.numFire",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1230,
+        "y": 680,
+        "wires": [
+            [
+                "42fbeec64825d3a1"
+            ]
+        ]
+    },
+    {
+        "id": "42fbeec64825d3a1",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "284c27310b25477c",
+        "name": "Test FS updater 4",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42"
+        ],
+        "x": 1385,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "4de1de66baa1bdcf",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "284c27310b25477c",
+        "name": "Test Injects",
+        "info": "",
+        "x": 1120,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "78f0d62baea56673",
+        "type": "ui_text",
+        "z": "55a762ae72fa441b",
+        "group": "062c9dae52b8ca4a",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "name": "Startside output",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 680,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "8d1b28dd96f6b81e",
+        "type": "change",
+        "z": "55a762ae72fa441b",
+        "name": "Right",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "RIGHT",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 510,
+        "y": 680,
+        "wires": [
+            [
+                "78f0d62baea56673"
+            ]
+        ]
+    },
+    {
+        "id": "6ee9ecd341bb2e5c",
+        "type": "switch",
+        "z": "55a762ae72fa441b",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 370,
+        "y": 700,
+        "wires": [
+            [
+                "8d1b28dd96f6b81e"
+            ],
+            [
+                "d213416ed624b309"
+            ]
+        ]
+    },
+    {
+        "id": "d213416ed624b309",
+        "type": "change",
+        "z": "55a762ae72fa441b",
+        "name": "Right",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "LEFT",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 510,
+        "y": 720,
+        "wires": [
+            [
+                "78f0d62baea56673"
+            ]
+        ]
     }
 ]
