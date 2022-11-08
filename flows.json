@@ -2,7 +2,15 @@
     {
         "id": "55a762ae72fa441b",
         "type": "tab",
-        "label": "Flow 1",
+        "label": "MVP \"Back-to-Basics\"",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "47c0e0ae667846a9",
+        "type": "tab",
+        "label": "Field Nodes Config / Debug",
         "disabled": false,
         "info": "",
         "env": []
@@ -118,98 +126,6 @@
         "y": 247,
         "w": 892,
         "h": 454
-    },
-    {
-        "id": "2b2a6d295740d392",
-        "type": "group",
-        "z": "55a762ae72fa441b",
-        "g": "6f159bf7a82f4dfa",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "80cdfca71b0a4285",
-            "4833618839f23d81",
-            "8f38f406c628cd92",
-            "71450ef8b8905ee9",
-            "75202ca16a123855",
-            "3a2d656d9de58a64",
-            "7f56ec0176b540bc",
-            "3c6b0d2e7d12f47d",
-            "a9e9a6448592d3b2",
-            "dafcb9eeb25bd05f",
-            "97db8049c673a98e",
-            "079d1a3ec4dd91d9",
-            "2a0d525888f8207a",
-            "4c724d58d017c572",
-            "92aca6c09c966e83",
-            "490c984c330991c7",
-            "e3e9fd0d99b1549e",
-            "e0d9d7310fe50dd8",
-            "8c8fae70037e1c26"
-        ],
-        "x": 94,
-        "y": 959,
-        "w": 1312,
-        "h": 442
-    },
-    {
-        "id": "ec7979310fe9e00f",
-        "type": "group",
-        "z": "55a762ae72fa441b",
-        "g": "6f159bf7a82f4dfa",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "b43ba60f45967c77",
-            "c9e2c1f189fc8576",
-            "e0c6c1515d7fb9ae",
-            "6d2a234344182486"
-        ],
-        "x": 94,
-        "y": 799,
-        "w": 712,
-        "h": 122
-    },
-    {
-        "id": "28011fcca82837fc",
-        "type": "group",
-        "z": "55a762ae72fa441b",
-        "g": "6f159bf7a82f4dfa",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "e5d8eb5d72932755",
-            "e1f84c7be941ca8c",
-            "78f0d62baea56673",
-            "8d1b28dd96f6b81e",
-            "6ee9ecd341bb2e5c",
-            "d213416ed624b309"
-        ],
-        "x": 94,
-        "y": 639,
-        "w": 712,
-        "h": 142
     },
     {
         "id": "6f159bf7a82f4dfa",
@@ -333,10 +249,178 @@
             "c0643b47d7d49226",
             "41518b531082b3d7"
         ],
-        "x": 54,
-        "y": 2019,
+        "x": 34,
+        "y": 2059,
         "w": 972,
         "h": 302
+    },
+    {
+        "id": "2b2a6d295740d392",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "g": "6f159bf7a82f4dfa",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "80cdfca71b0a4285",
+            "4833618839f23d81",
+            "8f38f406c628cd92",
+            "71450ef8b8905ee9",
+            "75202ca16a123855",
+            "3a2d656d9de58a64",
+            "7f56ec0176b540bc",
+            "3c6b0d2e7d12f47d",
+            "a9e9a6448592d3b2",
+            "dafcb9eeb25bd05f",
+            "97db8049c673a98e",
+            "079d1a3ec4dd91d9",
+            "2a0d525888f8207a",
+            "4c724d58d017c572",
+            "92aca6c09c966e83",
+            "490c984c330991c7",
+            "e3e9fd0d99b1549e",
+            "e0d9d7310fe50dd8",
+            "8c8fae70037e1c26"
+        ],
+        "x": 94,
+        "y": 959,
+        "w": 1312,
+        "h": 442
+    },
+    {
+        "id": "ec7979310fe9e00f",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "g": "6f159bf7a82f4dfa",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "b43ba60f45967c77",
+            "c9e2c1f189fc8576",
+            "e0c6c1515d7fb9ae",
+            "6d2a234344182486"
+        ],
+        "x": 94,
+        "y": 799,
+        "w": 712,
+        "h": 122
+    },
+    {
+        "id": "28011fcca82837fc",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "g": "6f159bf7a82f4dfa",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "e5d8eb5d72932755",
+            "e1f84c7be941ca8c",
+            "78f0d62baea56673",
+            "8d1b28dd96f6b81e",
+            "6ee9ecd341bb2e5c",
+            "d213416ed624b309"
+        ],
+        "x": 94,
+        "y": 639,
+        "w": 712,
+        "h": 142
+    },
+    {
+        "id": "46e96436b49a032d",
+        "type": "group",
+        "z": "47c0e0ae667846a9",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "6c36dbfe44cb036b",
+            "35860ad47d848928",
+            "666ddc2d1f9ad272",
+            "62457075fe8acc34",
+            "9e2f4acaa87727e5",
+            "98bdf92b14ea3f17",
+            "d9f0243f09640174",
+            "40901f38ed52bcb3"
+        ],
+        "x": 914,
+        "y": 19,
+        "w": 572,
+        "h": 322
+    },
+    {
+        "id": "0d233ae99a4c6065",
+        "type": "group",
+        "z": "47c0e0ae667846a9",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "7a5f520857017bbb",
+            "70c149ec65fb102c",
+            "5f3e0a85eea68705"
+        ],
+        "x": 34,
+        "y": 19,
+        "w": 552,
+        "h": 122
+    },
+    {
+        "id": "aa7cdd8f3125703c",
+        "type": "group",
+        "z": "47c0e0ae667846a9",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "0e16be23a79edb49",
+            "af913b1474ed43d9",
+            "4f65e1b1c3249fbc",
+            "39d591f75ab6581f",
+            "6e6816ac951a5c0f"
+        ],
+        "x": 34,
+        "y": 159,
+        "w": 852,
+        "h": 182
     },
     {
         "id": "b411c6135a7823e0",
@@ -584,6 +668,36 @@
         "order": 11,
         "width": 3,
         "height": 1
+    },
+    {
+        "id": "b194d4f5bf93f9af",
+        "type": "ui_tab",
+        "name": "Node Debug",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8ab51318efc44d27",
+        "type": "ui_group",
+        "name": "HeartBeat Messages",
+        "tab": "b194d4f5bf93f9af",
+        "order": 2,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9b0778b1ab30b93e",
+        "type": "ui_group",
+        "name": "Laser Messages",
+        "tab": "b194d4f5bf93f9af",
+        "order": 1,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "e1ba7bc1352dbb74",
@@ -2197,8 +2311,8 @@
         "g": "4788e8d5cbe11d8f",
         "name": "MVP Step 5 - Global Timer, progress through bldgs",
         "info": "",
-        "x": 270,
-        "y": 2060,
+        "x": 250,
+        "y": 2100,
         "wires": []
     },
     {
@@ -2208,8 +2322,8 @@
         "g": "4788e8d5cbe11d8f",
         "name": "Overarching FS concept in this comment vvvvv",
         "info": "- FS progresses along at a fixed path\n- FS communication is \"one-way\", so to speak\n- Teams can ping it down as it grows\n- If you get to it before it progresses to second window, \n  you get damage prevention bonus",
-        "x": 720,
-        "y": 2060,
+        "x": 700,
+        "y": 2100,
         "wires": []
     },
     {
@@ -2230,8 +2344,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 260,
-        "y": 2160,
+        "x": 240,
+        "y": 2200,
         "wires": [
             [
                 "77191df86e82050c"
@@ -2250,8 +2364,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 500,
-        "y": 2160,
+        "x": 480,
+        "y": 2200,
         "wires": [
             [
                 "d0e47829bbab10d2"
@@ -2433,8 +2547,8 @@
         "g": "4788e8d5cbe11d8f",
         "name": "Will change to 60s or something - timing pending",
         "info": "- FS progresses along at a fixed path\n- FS communication is \"one-way\", so to speak\n- Teams can ping it down as it grows\n- If you get to it before it progresses to second window, \n  you get damage prevention bonus",
-        "x": 380,
-        "y": 2120,
+        "x": 360,
+        "y": 2160,
         "wires": []
     },
     {
@@ -2465,8 +2579,8 @@
         "links": [
             "0416ea6909311b42"
         ],
-        "x": 705,
-        "y": 2160,
+        "x": 685,
+        "y": 2200,
         "wires": []
     },
     {
@@ -2503,8 +2617,8 @@
         "links": [
             "4b6a57a81a1ea4ce"
         ],
-        "x": 145,
-        "y": 2160,
+        "x": 125,
+        "y": 2200,
         "wires": [
             [
                 "11b308030fbc13bf"
@@ -2633,8 +2747,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 260,
-        "y": 2220,
+        "x": 240,
+        "y": 2260,
         "wires": [
             [
                 "6177f53a1a1c40ea"
@@ -2653,8 +2767,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 480,
-        "y": 2220,
+        "x": 460,
+        "y": 2260,
         "wires": [
             [
                 "6f5b0006051e39ef"
@@ -2675,8 +2789,8 @@
         "links": [
             "0416ea6909311b42"
         ],
-        "x": 705,
-        "y": 2220,
+        "x": 685,
+        "y": 2260,
         "wires": []
     },
     {
@@ -2686,8 +2800,8 @@
         "g": "4788e8d5cbe11d8f",
         "name": "<---- NOT TESTED FULLY",
         "info": "",
-        "x": 890,
-        "y": 2200,
+        "x": 870,
+        "y": 2240,
         "wires": []
     },
     {
@@ -2708,8 +2822,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 260,
-        "y": 2280,
+        "x": 240,
+        "y": 2320,
         "wires": [
             [
                 "67dbb7b83e823038"
@@ -2728,8 +2842,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 480,
-        "y": 2280,
+        "x": 460,
+        "y": 2320,
         "wires": [
             [
                 "41518b531082b3d7"
@@ -2746,8 +2860,8 @@
         "g": "4788e8d5cbe11d8f",
         "name": "<---- NOT TESTED FULLY",
         "info": "",
-        "x": 890,
-        "y": 2280,
+        "x": 870,
+        "y": 2320,
         "wires": []
     },
     {
@@ -2760,8 +2874,8 @@
         "links": [
             "0416ea6909311b42"
         ],
-        "x": 705,
-        "y": 2280,
+        "x": 685,
+        "y": 2320,
         "wires": []
     },
     {
@@ -2829,6 +2943,376 @@
         "info": "",
         "x": 450,
         "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "d56b2c69ab7a5b19",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "name": "MVP Step 6 - Receive a laser / ball hit, decrease FS",
+        "info": "",
+        "x": 250,
+        "y": 2420,
+        "wires": []
+    },
+    {
+        "id": "094553d279219043",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "name": "MVP Step 7 - Spread Path Lighting Controls",
+        "info": "",
+        "x": 230,
+        "y": 2760,
+        "wires": []
+    },
+    {
+        "id": "90051ad270b2f765",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "name": "MVP Step 8 - Phase 2",
+        "info": "",
+        "x": 160,
+        "y": 3100,
+        "wires": []
+    },
+    {
+        "id": "28af28cc8618a072",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "name": "[not-so-]MVP Step 9 - Endgame",
+        "info": "",
+        "x": 190,
+        "y": 3380,
+        "wires": []
+    },
+    {
+        "id": "c71621e5f8d62525",
+        "type": "mqtt in",
+        "z": "55a762ae72fa441b",
+        "name": "",
+        "topic": "edgenode/laserhit/*",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "bc90be16040a7d21",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 2500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "66dc923547bd8a4f",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "name": "Need to get the parsing flows from other one",
+        "info": "",
+        "x": 570,
+        "y": 2460,
+        "wires": []
+    },
+    {
+        "id": "7a5f520857017bbb",
+        "type": "mqtt in",
+        "z": "47c0e0ae667846a9",
+        "g": "0d233ae99a4c6065",
+        "name": "",
+        "topic": "edgenode/laserconfig/*",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "bc90be16040a7d21",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 100,
+        "wires": [
+            [
+                "70c149ec65fb102c"
+            ]
+        ]
+    },
+    {
+        "id": "70c149ec65fb102c",
+        "type": "ui_text",
+        "z": "47c0e0ae667846a9",
+        "g": "0d233ae99a4c6065",
+        "group": "9b0778b1ab30b93e",
+        "order": 1,
+        "width": "10",
+        "height": "1",
+        "name": "",
+        "label": "Latest Debug Msg",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 470,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "5f3e0a85eea68705",
+        "type": "comment",
+        "z": "47c0e0ae667846a9",
+        "g": "0d233ae99a4c6065",
+        "name": "Receive edgenode/laserconfig, parse, display",
+        "info": "",
+        "x": 230,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "6c36dbfe44cb036b",
+        "type": "comment",
+        "z": "47c0e0ae667846a9",
+        "g": "46e96436b49a032d",
+        "name": "Receive heartbeat, parse, display",
+        "info": "",
+        "x": 1070,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "35860ad47d848928",
+        "type": "mqtt in",
+        "z": "47c0e0ae667846a9",
+        "g": "46e96436b49a032d",
+        "name": "",
+        "topic": "edgenode/heartbeat/RTO",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "bc90be16040a7d21",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1110,
+        "y": 220,
+        "wires": [
+            [
+                "666ddc2d1f9ad272",
+                "9e2f4acaa87727e5",
+                "98bdf92b14ea3f17",
+                "d9f0243f09640174",
+                "40901f38ed52bcb3"
+            ]
+        ]
+    },
+    {
+        "id": "666ddc2d1f9ad272",
+        "type": "ui_text",
+        "z": "47c0e0ae667846a9",
+        "g": "46e96436b49a032d",
+        "group": "8ab51318efc44d27",
+        "order": 2,
+        "width": "10",
+        "height": "1",
+        "name": "",
+        "label": "Timestamp:",
+        "format": "{{msg.payload.timestamp}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1370,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "62457075fe8acc34",
+        "type": "ui_text",
+        "z": "47c0e0ae667846a9",
+        "g": "46e96436b49a032d",
+        "group": "8ab51318efc44d27",
+        "order": 1,
+        "width": "10",
+        "height": "1",
+        "name": "",
+        "label": "RTO",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1010,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "9e2f4acaa87727e5",
+        "type": "ui_text",
+        "z": "47c0e0ae667846a9",
+        "g": "46e96436b49a032d",
+        "group": "8ab51318efc44d27",
+        "order": 3,
+        "width": "10",
+        "height": "1",
+        "name": "",
+        "label": "UUID:",
+        "format": "{{msg.payload.uuid}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1350,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "98bdf92b14ea3f17",
+        "type": "ui_text",
+        "z": "47c0e0ae667846a9",
+        "g": "46e96436b49a032d",
+        "group": "8ab51318efc44d27",
+        "order": 4,
+        "width": "10",
+        "height": "1",
+        "name": "",
+        "label": "node_id:",
+        "format": "{{msg.payload.node_id}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1360,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "d9f0243f09640174",
+        "type": "ui_text",
+        "z": "47c0e0ae667846a9",
+        "g": "46e96436b49a032d",
+        "group": "8ab51318efc44d27",
+        "order": 5,
+        "width": "10",
+        "height": "1",
+        "name": "",
+        "label": "IP Address:",
+        "format": "{{msg.payload.ip_address}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1370,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "40901f38ed52bcb3",
+        "type": "ui_text",
+        "z": "47c0e0ae667846a9",
+        "g": "46e96436b49a032d",
+        "group": "8ab51318efc44d27",
+        "order": 6,
+        "width": "10",
+        "height": "1",
+        "name": "",
+        "label": "MAC Address:",
+        "format": "{{msg.payload.mac_address}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1380,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "0e16be23a79edb49",
+        "type": "ui_slider",
+        "z": "47c0e0ae667846a9",
+        "g": "aa7cdd8f3125703c",
+        "name": "",
+        "label": "Laser Diff (default: 500)",
+        "tooltip": "",
+        "group": "9b0778b1ab30b93e",
+        "order": 1,
+        "width": "10",
+        "height": "1",
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "100",
+        "max": "3000",
+        "step": "10",
+        "className": "",
+        "x": 210,
+        "y": 240,
+        "wires": [
+            [
+                "39d591f75ab6581f"
+            ]
+        ]
+    },
+    {
+        "id": "af913b1474ed43d9",
+        "type": "comment",
+        "z": "47c0e0ae667846a9",
+        "g": "aa7cdd8f3125703c",
+        "name": "Update LaserDiff",
+        "info": "",
+        "x": 140,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "4f65e1b1c3249fbc",
+        "type": "mqtt out",
+        "z": "47c0e0ae667846a9",
+        "g": "aa7cdd8f3125703c",
+        "name": "",
+        "topic": "nodered/laserdiff",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 730,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "39d591f75ab6581f",
+        "type": "change",
+        "z": "47c0e0ae667846a9",
+        "g": "aa7cdd8f3125703c",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "DETECTOR_DIFF",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 240,
+        "wires": [
+            [
+                "4f65e1b1c3249fbc",
+                "6e6816ac951a5c0f"
+            ]
+        ]
+    },
+    {
+        "id": "6e6816ac951a5c0f",
+        "type": "debug",
+        "z": "47c0e0ae667846a9",
+        "g": "aa7cdd8f3125703c",
+        "name": "attempt at mqtt json magic",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 300,
         "wires": []
     }
 ]
