@@ -60,6 +60,30 @@
         "h": 162
     },
     {
+        "id": "4a4f80625f8ea163",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "85965edc.72971",
+            "5efe17e007074ad1",
+            "672af1a8627b7e63",
+            "e33ce82b402295fc"
+        ],
+        "x": 994,
+        "y": 39,
+        "w": 532,
+        "h": 162
+    },
+    {
         "id": "b411c6135a7823e0",
         "type": "ui_base",
         "theme": {
@@ -276,6 +300,7 @@
         "id": "85965edc.72971",
         "type": "ui_template",
         "z": "55a762ae72fa441b",
+        "g": "4a4f80625f8ea163",
         "group": "",
         "name": "Dashboard Theme : Modern Dark",
         "order": 2,
@@ -285,8 +310,8 @@
         "storeOutMessages": true,
         "fwdInMessages": true,
         "templateScope": "global",
-        "x": 820,
-        "y": 40,
+        "x": 1220,
+        "y": 120,
         "wires": [
             []
         ],
@@ -500,29 +525,102 @@
         "wires": []
     },
     {
-        "id": "0d8e4b32a4dc5aa5",
-        "type": "ui_button",
+        "id": "ee998e797cc6bfa3",
+        "type": "comment",
         "z": "55a762ae72fa441b",
-        "name": "",
-        "group": "fc4716d2f7693b0c",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "button",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
+        "name": "MVP Step 3 - Queue Match Steps",
+        "info": "",
+        "x": 200,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "b43ba60f45967c77",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "name": "Heater On",
+        "info": "",
+        "x": 180,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "e5d8eb5d72932755",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "name": "Pick a Side",
+        "info": "",
+        "x": 180,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "5efe17e007074ad1",
+        "type": "inject",
+        "z": "55a762ae72fa441b",
+        "g": "4a4f80625f8ea163",
+        "name": "do",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
         "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 990,
-        "y": 80,
+        "payloadType": "date",
+        "x": 1150,
+        "y": 160,
+        "wires": [
+            [
+                "672af1a8627b7e63"
+            ]
+        ]
+    },
+    {
+        "id": "672af1a8627b7e63",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "4a4f80625f8ea163",
+        "name": "Reset / Default Global Variables",
+        "func": "//Yeah, a lot of this could probably be done cleaner or fancier... \n// K.I.S.S.\n// Node-RED can handle a few redundant lines, it's not an Arduino or anything..\n\n//--- Match setup \nglobal.set(\"startside\",\"L\");\nglobal.set(\"hotBldg\",\"T\");\n\n\n//--- Status - Dormant, At Risk(Unblocked), Blockedm, Cleared, Damaged\nglobal.set(\"RTO.Status\", \"Dormant\");\nglobal.set(\"RBO.Status\", \"Dormant\");\nglobal.set(\"RTM.Status\", \"Dormant\");\nglobal.set(\"RBM.Status\", \"Dormant\");\nglobal.set(\"RTI.Status\", \"Dormant\");\nglobal.set(\"RBI.Status\", \"Dormant\");\nglobal.set(\"LBO.Status\", \"Dormant\");\nglobal.set(\"LTO.Status\", \"Dormant\");\nglobal.set(\"LBM.Status\", \"Dormant\");\nglobal.set(\"LTM.Status\", \"Dormant\");\nglobal.set(\"LBI.Status\", \"Dormant\");\nglobal.set(\"LTI.Status\", \"Dormant\");\n\n\n//--- Fire Scores\nglobal.set(\"RTO.FS.Window1\", 0);\nglobal.set(\"RBO.FS.Window1\", 0);\nglobal.set(\"RTM.FS.Window1\", 0);\nglobal.set(\"RBM.FS.Window1\", 0);\nglobal.set(\"RTI.FS.Window1\", 0);\nglobal.set(\"RBI.FS.Window1\", 0);\nglobal.set(\"LBO.FS.Window1\", 0);\nglobal.set(\"LTO.FS.Window1\", 0);\nglobal.set(\"LBM.FS.Window1\", 0);\nglobal.set(\"LTM.FS.Window1\", 0);\nglobal.set(\"LBI.FS.Window1\", 0);\nglobal.set(\"LTI.FS.Window1\", 0);\nglobal.set(\"RTO.FS.Window2\", 0);\nglobal.set(\"RBO.FS.Window2\", 0);\nglobal.set(\"RTM.FS.Window2\", 0);\nglobal.set(\"RBM.FS.Window2\", 0);\nglobal.set(\"RTI.FS.Window2\", 0);\nglobal.set(\"RBI.FS.Window2\", 0);\nglobal.set(\"LBO.FS.Window2\", 0);\nglobal.set(\"LTO.FS.Window2\", 0);\nglobal.set(\"LBM.FS.Window2\", 0);\nglobal.set(\"LTM.FS.Window2\", 0);\nglobal.set(\"LBI.FS.Window2\", 0);\nglobal.set(\"LTI.FS.Window2\", 0);\n\n\n//--- Water qtys\nglobal.set(\"RTO.WaterQty\", 0);\nglobal.set(\"RBO.WaterQty\", 0);\nglobal.set(\"RTM.WaterQty\", 0);\nglobal.set(\"RBM.WaterQty\", 0);\nglobal.set(\"RTI.WaterQty\", 0);\nglobal.set(\"RBI.WaterQty\", 0);\nglobal.set(\"LBO.WaterQty\", 0);\nglobal.set(\"LTO.WaterQty\", 0);\nglobal.set(\"LBM.WaterQty\", 0);\nglobal.set(\"LTM.WaterQty\", 0);\nglobal.set(\"LBI.WaterQty\", 0);\nglobal.set(\"LTI.WaterQty\", 0);\n\n\n//Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1370,
+        "y": 160,
         "wires": [
             []
         ]
+    },
+    {
+        "id": "e33ce82b402295fc",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "4a4f80625f8ea163",
+        "name": "Configuration",
+        "info": "",
+        "x": 1090,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "80cdfca71b0a4285",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "name": "Heater On",
+        "info": "",
+        "x": 180,
+        "y": 860,
+        "wires": []
     }
 ]
