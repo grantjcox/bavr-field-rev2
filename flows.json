@@ -110,12 +110,13 @@
             "71df01656749e372",
             "dd8828fab2dad33c",
             "42fbeec64825d3a1",
-            "4de1de66baa1bdcf"
+            "4de1de66baa1bdcf",
+            "085de4503ad6ec20"
         ],
-        "x": 1524,
-        "y": 287,
+        "x": 1534,
+        "y": 247,
         "w": 892,
-        "h": 414
+        "h": 454
     },
     {
         "id": "2b2a6d295740d392",
@@ -262,7 +263,9 @@
             "3b77325dbc1afa0c",
             "f80fcf16add6a94c",
             "d1995509f950a1a9",
-            "da8215e65b543ef9"
+            "da8215e65b543ef9",
+            "4b6a57a81a1ea4ce",
+            "ea98a939f9a52953"
         ],
         "x": 34,
         "y": 1459,
@@ -296,22 +299,58 @@
         "h": 194
     },
     {
+        "id": "4788e8d5cbe11d8f",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "f006f834cd4dc2be",
+            "550ba5d34605ad4c",
+            "11b308030fbc13bf",
+            "77191df86e82050c",
+            "c46aa67248fd589a",
+            "d0e47829bbab10d2",
+            "ff0af9f0a11f5393",
+            "f6d8fde6109ac979",
+            "6177f53a1a1c40ea",
+            "6f5b0006051e39ef",
+            "6927ae19d7db3a5b",
+            "5addcc4a4e5261bd",
+            "67dbb7b83e823038",
+            "c0643b47d7d49226",
+            "41518b531082b3d7"
+        ],
+        "x": 54,
+        "y": 2019,
+        "w": 952,
+        "h": 302
+    },
+    {
         "id": "b411c6135a7823e0",
         "type": "ui_base",
         "theme": {
-            "name": "theme-light",
+            "name": "theme-dark",
             "lightTheme": {
                 "default": "#0094CE",
-                "baseColor": "#0094CE",
+                "baseColor": "#003d5c",
                 "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
                 "edited": true,
                 "reset": false
             },
             "darkTheme": {
                 "default": "#097479",
-                "baseColor": "#097479",
+                "baseColor": "#003d5c",
                 "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false
+                "edited": true,
+                "reset": false
             },
             "customTheme": {
                 "name": "Untitled Theme 1",
@@ -321,44 +360,44 @@
             },
             "themeState": {
                 "base-color": {
-                    "default": "#0094CE",
-                    "value": "#0094CE",
-                    "edited": false
+                    "default": "#097479",
+                    "value": "#003d5c",
+                    "edited": true
                 },
                 "page-titlebar-backgroundColor": {
-                    "value": "#0094CE",
+                    "value": "#003d5c",
                     "edited": false
                 },
                 "page-backgroundColor": {
-                    "value": "#fafafa",
-                    "edited": false
-                },
-                "page-sidebar-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-textColor": {
-                    "value": "#1bbfff",
-                    "edited": false
-                },
-                "group-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "widget-textColor": {
                     "value": "#111111",
                     "edited": false
                 },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0070a8",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
                 "widget-backgroundColor": {
-                    "value": "#0094ce",
+                    "value": "#003d5c",
                     "edited": false
                 },
                 "widget-borderColor": {
-                    "value": "#ffffff",
+                    "value": "#333333",
                     "edited": false
                 },
                 "base-font": {
@@ -451,7 +490,7 @@
     {
         "id": "062c9dae52b8ca4a",
         "type": "ui_group",
-        "name": "Pre-Match Setup",
+        "name": "----- Pre-Match Setup ----- ",
         "tab": "3feccb6b5184919b",
         "order": 1,
         "disp": true,
@@ -462,7 +501,7 @@
     {
         "id": "eec8a831cc9d15c1",
         "type": "ui_group",
-        "name": "Queue / Heater",
+        "name": "----- Queue / Heater ----- ",
         "tab": "3feccb6b5184919b",
         "order": 2,
         "disp": true,
@@ -473,7 +512,7 @@
     {
         "id": "f1f13388d5f613e8",
         "type": "ui_group",
-        "name": "Let's GO",
+        "name": "----- Time to party ----- ",
         "tab": "3feccb6b5184919b",
         "order": 3,
         "disp": true,
@@ -482,7 +521,7 @@
         "className": ""
     },
     {
-        "id": "54a844c7f9e9ca1e",
+        "id": "a9a4d9823a0d3e9f",
         "type": "ui_spacer",
         "z": "55a762ae72fa441b",
         "name": "spacer",
@@ -492,7 +531,7 @@
         "height": 1
     },
     {
-        "id": "4d39c90e739858c5",
+        "id": "020d7845eb6c4a8e",
         "type": "ui_spacer",
         "z": "55a762ae72fa441b",
         "name": "spacer",
@@ -502,7 +541,7 @@
         "height": 1
     },
     {
-        "id": "f4817751865211b8",
+        "id": "a9988d07ce7537bf",
         "type": "ui_spacer",
         "z": "55a762ae72fa441b",
         "name": "spacer",
@@ -512,7 +551,7 @@
         "height": 1
     },
     {
-        "id": "fa257e5d5efbd334",
+        "id": "20b9c336826478e0",
         "type": "ui_spacer",
         "z": "55a762ae72fa441b",
         "name": "spacer",
@@ -522,43 +561,23 @@
         "height": 1
     },
     {
-        "id": "af1a82a27c4ec328",
+        "id": "a908d0a007a04fc4",
         "type": "ui_spacer",
         "z": "55a762ae72fa441b",
         "name": "spacer",
         "group": "eec8a831cc9d15c1",
-        "order": 8,
-        "width": 4,
+        "order": 9,
+        "width": 3,
         "height": 1
     },
     {
-        "id": "6dc592d15da07c1c",
+        "id": "eed44365a96c65ec",
         "type": "ui_spacer",
         "z": "55a762ae72fa441b",
         "name": "spacer",
         "group": "eec8a831cc9d15c1",
-        "order": 10,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "891a41b91c4682d3",
-        "type": "ui_spacer",
-        "z": "55a762ae72fa441b",
-        "name": "spacer",
-        "group": "f1f13388d5f613e8",
-        "order": 2,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "64412c0ef05a5be6",
-        "type": "ui_spacer",
-        "z": "55a762ae72fa441b",
-        "name": "spacer",
-        "group": "f1f13388d5f613e8",
-        "order": 3,
-        "width": 5,
+        "order": 11,
+        "width": 3,
         "height": 1
     },
     {
@@ -622,7 +641,7 @@
         "order": 2,
         "width": 0,
         "height": 0,
-        "format": "<div>\n    <link href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap\" rel=\"stylesheet\">\n    <style>\n        body {\n            --background: #212529;\n            --on-background: white;\n            --surface: #2d3136;\n            --on-surface: white;\n            --primary: var(--nr-dashboard-widgetColor);\n            --on-primary: white;\n            --secondary: var(--nr-dashboard-groupTextColor);\n            --accent: red;\n            --radius-s: 2px;\n            --font-weight-m: 300;\n            --font-weight-m: 500;\n            --font-weight-l: 700;\n            --space-s: 8px;\n            --space-m: 16px;\n            --space-l: 32px;\n        }\n\n        body.nr-dashboard-theme {\n            background-color: var(--background);\n            font-family: 'Montserrat', sans-serif;\n        }\n        .nr-dashboard-theme ui-card-panel {\n            background-color: var(--background);\n            border: 0;\n        }\n        .nr-dashboard-theme .nr-dashboard-button .md-button {\n            background-color: var(--primary);\n            border-radius: var(--radius-s);\n            padding: 8px !important;\n            line-height: inherit;\n            font-weight: var(--font-weight-l);\n            color: var(--on-primary);\n        }\n        .nr-dashboard-theme [ui-card-size=\"2x2\"].nr-dashboard-button .md-button {\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            white-space: pre-line;\n        }\n        \n        .nr-dashboard-theme .nr-dashboard-button .md-button ui-icon {\n                margin-bottom: 8px;\n        }\n        .nr-dashboard-theme .nr-dashboard-button .md-button:hover {\n            background-color: var(--secondary);\n        }\n        body.nr-dashboard-theme md-content md-card {\n            background-color: var(--surface);\n        }\n        md-card.md-default-theme, md-card {\n            border-radius: var(--radius-s);\n        }\n        .nr-dashboard-theme .nr-dashboard-gauge-titlel {\n            font-weight: var(--font-weight-l) !important;      \n        }\n        .nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n            font-weight: var(--font-weight-l);  \n            text-transform: capitalize;\n            color: var(--on-background);\n        }\n        .nr-dashboard-cardpanel > p {\n            margin-left: 0;\n            padding-left: 16px;\n        }\n        body.nr-dashboard-theme md-toolbar {\n            background-color: var(--surface);\n        }\n        .md-default-theme .md-datepicker-calendar, .md-datepicker-calendar,\n        .md-default-theme .md-calendar, .md-calendar{\n            background-color: var(--surface);\n            color: var(--on-surface);\n        }\n        .md-default-theme .md-datepicker-calendar-pane, .md-datepicker-calendar-pane{\n            border: 0;\n        }\n        .md-default-theme .md-calendar-month-label md-icon, .md-calendar-month-label md-icon, .md-default-theme .md-datepicker-input, .md-datepicker-input {\n            color: var(--on-surface);\n        }\n        body.nr-dashboard-theme md-content md-card {\n            color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-numeric .value {\n            background-color: var(--surface);\n            color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-dropdown md-select .md-select-value, .nr-dashboard-theme .nr-dashboard-dropdown md-select .md-select-value.md-select-placeholder {\n            color: var(--on-surface);\n            border-color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-dropdown .md-select-icon {\n            color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-date-picker md-input-container .md-input {\n            color: var(--on-surface);\n            border-color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-date-picker .md-datepicker-triangle-button .md-datepicker-expand-triangle {\n            border-top-color: var(--on-surface);\n        }\n        body.nr-dashboard-theme md-sidenav {\n            background-color: var(--surface);\n        }\n        md-list-item._md-button-wrap > div.md-button:first-child, md-list-item .md-list-item-inner {\n            background-color: var(--surface);\n        }\n    </style>\n</div>",
+        "format": "<div>\n    <link href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap\" rel=\"stylesheet\">\n    <style>\n        body {\n            --background: #212529;\n            --on-background: white;\n            --surface: #2d3136;\n            --on-surface: white;\n            --primary: var(--nr-dashboard-widgetColor);\n            --on-primary: white;\n            --secondary: var(--nr-dashboard-groupTextColor);\n            --accent: red;\n            --radius-s: 2px;\n            --font-weight-m: 300;\n            --font-weight-m: 500;\n            --font-weight-l: 700;\n            --space-s: 8px;\n            --space-m: 16px;\n            --space-l: 32px;\n        }\n\n        body.nr-dashboard-theme {\n            background-color: var(--background);\n            font-family: 'Montserrat', sans-serif;\n        }\n        .nr-dashboard-theme ui-card-panel {\n            background-color: var(--background);\n            border: 0;\n        }\n        .nr-dashboard-theme .nr-dashboard-button .md-button {\n            background-color: var(--primary);\n            border-radius: var(--radius-s);\n            padding: 8px !important;\n            line-height: inherit;\n            font-weight: var(--font-weight-l);\n            color: var(--on-primary);\n        }\n        .nr-dashboard-theme [ui-card-size=\"2x2\"].nr-dashboard-button .md-button {\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            white-space: pre-line;\n        }\n        \n        .nr-dashboard-theme .nr-dashboard-button .md-button ui-icon {\n                margin-bottom: 8px;\n        }\n        .nr-dashboard-theme .nr-dashboard-button .md-button:hover {\n            background-color: var(--secondary);\n        }\n        body.nr-dashboard-theme md-content md-card {\n            background-color: var(--surface);\n        }\n        md-card.md-default-theme, md-card {\n            border-radius: var(--radius-s);\n        }\n        .nr-dashboard-theme .nr-dashboard-gauge-titlel {\n            font-weight: var(--font-weight-l) !important;      \n        }\n        .nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n            font-weight: var(--font-weight-l);  \n            text-transform: capitalize;\n            color: var(--on-background);\n        }\n        .nr-dashboard-cardpanel > p {\n            margin-left: 0;\n            padding-left: 16px;\n        }\n        body.nr-dashboard-theme md-toolbar {\n            background-color: var(--surface);\n        }\n        .md-default-theme .md-datepicker-calendar, .md-datepicker-calendar,\n        .md-default-theme .md-calendar, .md-calendar{\n            background-color: var(--surface);\n            color: var(--on-surface);\n        }\n        .md-default-theme .md-datepicker-calendar-pane, .md-datepicker-calendar-pane{\n            border: 0;\n        }\n        .md-default-theme .md-calendar-month-label md-icon, .md-calendar-month-label md-icon, .md-default-theme .md-datepicker-input, .md-datepicker-input {\n            color: var(--on-surface);\n        }\n        body.nr-dashboard-theme md-content md-card {\n            color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-numeric .value {\n            background-color: var(--surface);\n            color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-dropdown md-select .md-select-value, .nr-dashboard-theme .nr-dashboard-dropdown md-select .md-select-value.md-select-placeholder {\n            color: var(--on-surface);\n            border-color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-dropdown .md-select-icon {\n            color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-date-picker md-input-container .md-input {\n            color: var(--on-surface);\n            border-color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-date-picker .md-datepicker-triangle-button .md-datepicker-expand-triangle {\n            border-top-color: var(--on-surface);\n        }\n        body.nr-dashboard-theme md-sidenav {\n            background-color: var(--surface);\n        }\n        md-list-item._md-button-wrap > div.md-button:first-child, md-list-item .md-list-item-inner {\n            background-color: var(--surface);\n        }\n\n        .bigbutton {\n            font-size: large;\n        }\n    </style>\n</div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": false,
@@ -911,7 +930,7 @@
         "z": "55a762ae72fa441b",
         "g": "4a4f80625f8ea163",
         "name": "Reset / Default Global Variables",
-        "func": "\n//--- Match setup \nglobal.set(\"startside\",\"L\"); // L or R\nglobal.set(\"hotBldg\",\"T\");   // T or B\n\n//--- Building objects\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nfor (var i in bldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(bldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores - 0, 1, 2\n    global.set(bldgs[i] + \".FS.Window1\", 0);\n    global.set(bldgs[i] + \".FS.Window2\", 0);\n\n    // Water qtys - int\n    global.set(bldgs[i] + \".WaterQty\", 0);\n\n    // Gutterpixels - string of numbers that represent colors\n    global.set(bldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\n\n\n//Fin\nreturn msg;",
+        "func": "\n//--- Match setup \nglobal.set(\"startSide\",\"\");  // L or R\nglobal.set(\"otherSide\", \"\"); // L or R\nglobal.set(\"startRoute\",\"\"); // T or B\nglobal.set(\"hotBldg\",\"\");    // T or B\n\n\n//--- Building objects\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nfor (var i in bldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(bldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores - 0, 1, 2\n    global.set(bldgs[i] + \".FS.Window1\", 0);\n    global.set(bldgs[i] + \".FS.Window2\", 0);\n\n    // Water qtys - int\n    global.set(bldgs[i] + \".WaterQty\", 0);\n\n    // Gutterpixels - string of numbers that represent colors\n    global.set(bldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\n\n\n//Fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -965,15 +984,19 @@
             "71df01656749e372",
             "42fbeec64825d3a1",
             "c612b81a64bb9759",
-            "b4f3a4589cdc9edf"
+            "b4f3a4589cdc9edf",
+            "d0e47829bbab10d2",
+            "6f5b0006051e39ef",
+            "41518b531082b3d7"
         ],
-        "x": 1605,
+        "x": 1615,
         "y": 420,
         "wires": [
             [
                 "8078387b8154fc28",
                 "5acfacf7a05cc895",
-                "ed2d399b29970928"
+                "ed2d399b29970928",
+                "085de4503ad6ec20"
             ]
         ]
     },
@@ -984,8 +1007,8 @@
         "g": "284c27310b25477c",
         "name": "Update FS\\n payload.bldg, payload.window, payload.numFire",
         "info": "",
-        "x": 1730,
-        "y": 340,
+        "x": 1750,
+        "y": 300,
         "wires": []
     },
     {
@@ -1000,7 +1023,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1790,
+        "x": 1800,
         "y": 400,
         "wires": [
             []
@@ -1018,7 +1041,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1810,
+        "x": 1820,
         "y": 440,
         "wires": [
             [
@@ -1038,7 +1061,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1890,
+        "x": 1900,
         "y": 480,
         "wires": [
             [
@@ -1052,13 +1075,13 @@
         "z": "55a762ae72fa441b",
         "g": "284c27310b25477c",
         "name": "Build MQTT Msg for Window",
-        "func": "//--- Basic variables\nvar input = msg.payload;\nvar node_id = msg.payload.bldg;\nvar theWin = msg.payload.window;\nvar theFS = msg.payload.numFire;\n\n//--- Build MQTT message\nif (theFS > 0) {\n    msg.topic = \"nodered/lighton/\" + node_id;\n} else if (theFS > 0) {\n    msg.topic = \"nodered/lighton/\" + node_id;\n}\nmsg.payload = \"{ \\\"whichLight\\\":\" + theWin + \"}\"\n\n//--- Fin\nreturn msg;",
+        "func": "//--- Basic variables\nvar input = msg.payload;\nvar node_id = msg.payload.bldg;\nvar theWin = msg.payload.window;\nvar theFS = msg.payload.numFire;\n\n//--- Build MQTT message\nif (theFS > 0) {\n    msg.topic = \"nodered/lighton/\" + node_id;\n} else if (theFS == 0) {\n    msg.topic = \"nodered/lightoff/\" + node_id;\n}\nmsg.payload = \"{ \\\"whichLight\\\":\" + theWin + \"}\"\n\n//--- Fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1810,
+        "x": 1820,
         "y": 520,
         "wires": [
             [
@@ -1081,7 +1104,7 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 2120,
+        "x": 2130,
         "y": 480,
         "wires": []
     },
@@ -1100,7 +1123,7 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 2120,
+        "x": 2130,
         "y": 520,
         "wires": []
     },
@@ -1111,7 +1134,7 @@
         "g": "284c27310b25477c",
         "name": "WILL NEED TO TEST THESE WITH REAL PI",
         "info": "",
-        "x": 2220,
+        "x": 2230,
         "y": 440,
         "wires": []
     },
@@ -1178,7 +1201,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 1720,
+        "x": 1730,
         "y": 620,
         "wires": [
             [
@@ -1196,7 +1219,7 @@
         "links": [
             "0416ea6909311b42"
         ],
-        "x": 1875,
+        "x": 1885,
         "y": 620,
         "wires": []
     },
@@ -1228,7 +1251,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 1720,
+        "x": 1730,
         "y": 660,
         "wires": [
             [
@@ -1246,7 +1269,7 @@
         "links": [
             "0416ea6909311b42"
         ],
-        "x": 1875,
+        "x": 1885,
         "y": 660,
         "wires": []
     },
@@ -1257,7 +1280,7 @@
         "g": "284c27310b25477c",
         "name": "Test Injects",
         "info": "",
-        "x": 1610,
+        "x": 1620,
         "y": 580,
         "wires": []
     },
@@ -1295,14 +1318,14 @@
             },
             {
                 "t": "set",
-                "p": "startside",
+                "p": "startSide",
                 "pt": "global",
                 "to": "R",
                 "tot": "str"
             },
             {
                 "t": "set",
-                "p": "otherside",
+                "p": "otherSide",
                 "pt": "global",
                 "to": "L",
                 "tot": "str"
@@ -1367,14 +1390,14 @@
             },
             {
                 "t": "set",
-                "p": "startside",
+                "p": "startSide",
                 "pt": "global",
                 "to": "L",
                 "tot": "str"
             },
             {
                 "t": "set",
-                "p": "otherside",
+                "p": "otherSide",
                 "pt": "global",
                 "to": "R",
                 "tot": "str"
@@ -1428,7 +1451,7 @@
         "z": "55a762ae72fa441b",
         "g": "ec7979310fe9e00f",
         "name": "Random choice",
-        "func": "//Use the timestamp to random select lol\nvar input = String(msg.payload);\nvar lastDigit = parseInt(input.slice(-1));\n\n//Evens top, odds bottom\nvar startBldg = (lastDigit % 2) == 0 ? \"T\" : \"B\"; \n\n//Fin\nglobal.set(\"hotBldg\",startBldg);\nmsg.payload = global.get(\"startside\") + startBldg + \"O\"; //always O bldg\nreturn msg;",
+        "func": "//Use the timestamp to random select lol\nvar input = String(msg.payload);\nvar lastDigit = parseInt(input.slice(-1));\n\n//Evens top, odds bottom\nvar startBldg = (lastDigit % 2) == 0 ? \"T\" : \"B\"; \n\n//Fin\nglobal.set(\"hotBldg\",startBldg);\nglobal.set(startBldg + \".Status\", \"Hottt\");\nmsg.payload = global.get(\"startSide\") + startBldg + \"O\"; //always O bldg\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -1485,7 +1508,7 @@
         "label": "CONFIRM - Queue Match - Turn on Heater",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
+        "bgcolor": "darkorange",
         "className": "",
         "icon": "",
         "payload": "",
@@ -1508,7 +1531,7 @@
         "z": "55a762ae72fa441b",
         "g": "2b2a6d295740d392",
         "name": "Build MQTT to heat it up",
-        "func": "//Get the thing\nvar whichBldg = global.get(\"startside\") + global.get(\"hotBldg\") + \"O\";\n\n//Build the MQTT message\nmsg.topic = \"nodered/heateron/\" + whichBldg;\nmsg.payload = \"{}\";\n\n//Fin\nglobal.set(\"hotBldg\",whichBldg);\nmsg.payload = global.get(\"startside\") + whichBldg + \"O\"; //always O bldg\nreturn msg;",
+        "func": "//Get the thing\nvar whichBldg = global.get(\"startSide\") + global.get(\"hotBldg\") + \"O\";\n\n//Build the MQTT message\nmsg.topic = \"nodered/heateron/\" + whichBldg;\nmsg.payload = \"{}\";\n\n//Fin\nglobal.set(\"hotBldg\",whichBldg);\nmsg.payload = global.get(\"startSide\") + whichBldg + \"O\"; //always O bldg\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -1614,8 +1637,8 @@
         "g": "2b2a6d295740d392",
         "name": "",
         "group": "eec8a831cc9d15c1",
-        "order": 7,
-        "width": 6,
+        "order": 8,
+        "width": 7,
         "height": 4,
         "gtype": "gage",
         "title": "Heating Up Time",
@@ -1686,14 +1709,14 @@
         "g": "2b2a6d295740d392",
         "name": "",
         "group": "eec8a831cc9d15c1",
-        "order": 9,
-        "width": 4,
+        "order": 10,
+        "width": 3,
         "height": 2,
         "passthru": true,
         "label": "KILL THE HEATER",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
+        "bgcolor": "red",
         "className": "",
         "icon": "",
         "payload": "",
@@ -1742,7 +1765,7 @@
         "z": "55a762ae72fa441b",
         "g": "2b2a6d295740d392",
         "name": "Build MQTT to shut 'er down",
-        "func": "//Get the thing\nvar whichBldg = global.get(\"startside\") + global.get(\"hotBldg\") + \"O\";\n\n//Build the MQTT message\nmsg.topic = \"nodered/heateroff/\" + whichBldg;\nmsg.payload = \"{}\";\n\n//Fin\nreturn msg;",
+        "func": "//Get the thing\nvar whichBldg = global.get(\"startSide\") + global.get(\"hotBldg\") + \"O\";\n\n//Build the MQTT message\nmsg.topic = \"nodered/heateroff/\" + whichBldg;\nmsg.payload = \"{}\";\n\n//Fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -1909,8 +1932,8 @@
         "label": "START MATCH",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
-        "className": "",
+        "bgcolor": "green",
+        "className": "bigbutton",
         "icon": "",
         "payload": "",
         "payloadType": "str",
@@ -1922,7 +1945,8 @@
             [
                 "82a8466517112ffd",
                 "ee7fad842ebd85de",
-                "18a7e5b4e99c326d"
+                "18a7e5b4e99c326d",
+                "4b6a57a81a1ea4ce"
             ]
         ]
     },
@@ -1932,7 +1956,7 @@
         "z": "55a762ae72fa441b",
         "g": "6a8702296ddd22a1",
         "name": "Update first Burning Bldgs",
-        "func": "//--- Set up vars\nvar whichSide = global.get(\"startside\"); // \"L\" or \"R\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Top or bottom?\nvar whichRouteInt = Math.floor(Math.random() * 2); //returns 0 or 1\nvar whichRouteStr = whichRouteInt == 1 ? \"T\" : \"B\";\nvar bldg1 = whichSide + whichRouteStr + \"M\"; //e.g. bldg LTM\nvar bldg2 = whichSide + whichRouteStr + \"I\"; //e.g. bldg LTI\n\n//--- Set up payloads to update globals using callbacks\n// - Set window 1 to FS of 4\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\nmsg2.payload.bldg = bldg2;\nmsg2.payload.window = 1;\nmsg2.payload.numFire = 8;\n\n//Fin\nreturn [msg1, msg2];",
+        "func": "//--- Set up vars\nvar whichSide = global.get(\"startSide\"); // \"L\" or \"R\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Top or bottom?\nvar whichRouteInt = Math.floor(Math.random() * 2); //returns 0 or 1\nvar whichRouteStr = whichRouteInt == 1 ? \"T\" : \"B\";\nglobal.set(\"startRoute\", whichRouteStr);\nvar bldg1 = whichSide + whichRouteStr + \"M\"; //e.g. bldg LTM\nvar bldg2 = whichSide + whichRouteStr + \"I\"; //e.g. bldg LTI\n\n//--- Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 1 to FS of 8\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\nmsg2.payload.bldg = bldg2;\nmsg2.payload.window = 1;\nmsg2.payload.numFire = 8;\n\n//Fin\nreturn [msg1, msg2];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -1969,7 +1993,7 @@
         "z": "55a762ae72fa441b",
         "g": "6a8702296ddd22a1",
         "name": "Light up a Tello Path",
-        "func": "/* \nGutterPixels callback expects\npayload.bldg, payload.pixelstring\n*/ \n\n\n//--- Set up vars\nvar whichSide = global.get(\"otherside\"); // \"L\" or \"R\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\nvar msg3 = {};\nmsg3.payload = {};\nvar msg4 = {};\nmsg4.payload = {};\n\nvar thePixelString = \"333333333333333333333333333333\"; //all yellows\n\n//--- Set up messages\nmsg1.payload.bldg = whichSide + \"TO\";\nmsg2.payload.bldg = whichSide + \"TM\";\nmsg3.payload.bldg = whichSide + \"BM\";\nmsg4.payload.bldg = whichSide + \"BI\";\nmsg1.payload.pixelstring = thePixelString;\nmsg2.payload.pixelstring = thePixelString;\nmsg3.payload.pixelstring = thePixelString;\nmsg4.payload.pixelstring = thePixelString;\n\n//Fin\nreturn [msg1, msg2, msg3, msg4];\n\n\n/*\n--------\nTHIS WILL BE EASY TO ADD ALL 3 PATHS LATER \n- JUST PULL FROM THE OTHER CODE\n--------\n*/ ",
+        "func": "/* \nGutterPixels callback expects\npayload.bldg, payload.pixelstring\n*/ \n\n\n//--- Set up vars\nvar whichSide = global.get(\"otherSide\"); // \"L\" or \"R\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\nvar msg3 = {};\nmsg3.payload = {};\nvar msg4 = {};\nmsg4.payload = {};\n\nvar thePixelString = \"333333333333333333333333333333\"; //all yellows\n\n//--- Set up messages\nmsg1.payload.bldg = whichSide + \"TO\";\nmsg2.payload.bldg = whichSide + \"TM\";\nmsg3.payload.bldg = whichSide + \"BM\";\nmsg4.payload.bldg = whichSide + \"BI\";\nmsg1.payload.pixelstring = thePixelString;\nmsg2.payload.pixelstring = thePixelString;\nmsg3.payload.pixelstring = thePixelString;\nmsg4.payload.pixelstring = thePixelString;\n\n//--- Update global statuses\nglobal.set(msg1.payload.bldg + \".Status\", \"TelloPath\");\nglobal.set(msg2.payload.bldg + \".Status\", \"TelloPath\");\nglobal.set(msg3.payload.bldg + \".Status\", \"TelloPath\");\nglobal.set(msg4.payload.bldg + \".Status\", \"TelloPath\");\n\n//Fin\nreturn [msg1, msg2, msg3, msg4];\n\n\n/*\n--------\nTHIS WILL BE EASY TO ADD ALL 3 PATHS LATER \n- JUST PULL FROM THE OTHER CODE\n--------\n*/ ",
         "outputs": 4,
         "noerr": 0,
         "initialize": "",
@@ -2148,7 +2172,7 @@
         "z": "55a762ae72fa441b",
         "g": "6a8702296ddd22a1",
         "group": "eec8a831cc9d15c1",
-        "order": 6,
+        "order": 7,
         "width": 10,
         "height": 1,
         "name": "",
@@ -2164,26 +2188,29 @@
         "id": "f006f834cd4dc2be",
         "type": "comment",
         "z": "55a762ae72fa441b",
+        "g": "4788e8d5cbe11d8f",
         "name": "MVP Step 5 - Global Timer, progress through bldgs",
         "info": "",
-        "x": 250,
-        "y": 2020,
+        "x": 270,
+        "y": 2060,
         "wires": []
     },
     {
         "id": "550ba5d34605ad4c",
         "type": "comment",
         "z": "55a762ae72fa441b",
+        "g": "4788e8d5cbe11d8f",
         "name": "Overarching FS concept in this comment vvvvv",
         "info": "- FS progresses along at a fixed path\n- FS communication is \"one-way\", so to speak\n- Teams can ping it down as it grows\n- If you get to it before it progresses to second window, \n  you get damage prevention bonus",
-        "x": 700,
-        "y": 2020,
+        "x": 720,
+        "y": 2060,
         "wires": []
     },
     {
         "id": "11b308030fbc13bf",
         "type": "delay",
         "z": "55a762ae72fa441b",
+        "g": "4788e8d5cbe11d8f",
         "name": "",
         "pauseType": "delay",
         "timeout": "5",
@@ -2197,28 +2224,36 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 420,
-        "y": 2120,
+        "x": 260,
+        "y": 2160,
         "wires": [
-            []
+            [
+                "77191df86e82050c"
+            ]
         ]
     },
     {
         "id": "77191df86e82050c",
         "type": "function",
         "z": "55a762ae72fa441b",
-        "name": "Update first Burning Bldgs",
-        "func": "//--- Set up vars\nvar whichSide = global.get(\"startside\"); // \"L\" or \"R\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Top or bottom?\nvar whichRouteInt = Math.floor(Math.random() * 2); //returns 0 or 1\nvar whichRouteStr = whichRouteInt == 1 ? \"T\" : \"B\";\nvar bldg1 = whichSide + whichRouteStr + \"M\"; //e.g. bldg LTM\nvar bldg2 = whichSide + whichRouteStr + \"I\"; //e.g. bldg LTI\n\n//--- Set up payloads to update globals using callbacks\n// - Set window 1 to FS of 4\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 4;\nmsg2.payload.bldg = bldg2;\nmsg2.payload.window = 1;\nmsg2.payload.numFire = 4;\n\n//Fin\nreturn [msg1, msg2];",
+        "g": "4788e8d5cbe11d8f",
+        "name": "First Burning Bldgs -> 2 Windows",
+        "func": "//--- Set up vars\nvar whichSide = global.get(\"startside\");   // \"L\" or \"R\"\nvar whichRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nvar msg2 = {};\n\n//--- Check on the bldgs\n// Anyone who is still burning (i.e. team has not turned FS to 0) expands to next window\n// Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 2 to FS of 8\nif (global.get(bldg1 + \".FS.Window1\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2+ \".FS.Window1\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\n\n//Fin\nreturn [msg1, msg2];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 270,
-        "y": 2060,
+        "x": 500,
+        "y": 2160,
         "wires": [
-            [],
-            []
+            [
+                "d0e47829bbab10d2"
+            ],
+            [
+                "d0e47829bbab10d2",
+                "f6d8fde6109ac979"
+            ]
         ]
     },
     {
@@ -2362,14 +2397,14 @@
         "g": "6a8702296ddd22a1",
         "name": "",
         "group": "f1f13388d5f613e8",
-        "order": 1,
+        "order": 2,
         "width": 5,
         "height": 2,
         "passthru": false,
         "label": "END MATCH",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
+        "bgcolor": "red",
         "className": "",
         "icon": "",
         "payload": "",
@@ -2381,5 +2416,343 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "c46aa67248fd589a",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "4788e8d5cbe11d8f",
+        "name": "Will change to 60s or something - timing pending",
+        "info": "- FS progresses along at a fixed path\n- FS communication is \"one-way\", so to speak\n- Teams can ping it down as it grows\n- If you get to it before it progresses to second window, \n  you get damage prevention bonus",
+        "x": 380,
+        "y": 2120,
+        "wires": []
+    },
+    {
+        "id": "085de4503ad6ec20",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "284c27310b25477c",
+        "name": "Update Status Global",
+        "func": "//--- Basic variables\nvar input = msg.payload;\nvar node_id = msg.payload.bldg;\nvar theWin = msg.payload.window;\nvar theFS = msg.payload.numFire;\n\n//--- Build MQTT message\nif (theFS > 0) {\n    global.set(node_id+\".Status\", \"Burning\");\n} else if (theFS == 0) {\n    global.set(node_id + \".Status\", \"Cleared\");\n}\n\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1800,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d0e47829bbab10d2",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "4788e8d5cbe11d8f",
+        "name": "Send \"first burn\" FS updates",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42"
+        ],
+        "x": 705,
+        "y": 2160,
+        "wires": []
+    },
+    {
+        "id": "4b6a57a81a1ea4ce",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "6a8702296ddd22a1",
+        "name": "Start Burn Timer",
+        "mode": "link",
+        "links": [
+            "ff0af9f0a11f5393"
+        ],
+        "x": 395,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "ea98a939f9a52953",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "6a8702296ddd22a1",
+        "name": "Start burn timer",
+        "info": "",
+        "x": 500,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "ff0af9f0a11f5393",
+        "type": "link in",
+        "z": "55a762ae72fa441b",
+        "g": "4788e8d5cbe11d8f",
+        "name": "Burn timer",
+        "links": [
+            "4b6a57a81a1ea4ce"
+        ],
+        "x": 145,
+        "y": 2160,
+        "wires": [
+            [
+                "11b308030fbc13bf"
+            ]
+        ]
+    },
+    {
+        "id": "ac0489680a48111a",
+        "type": "inject",
+        "z": "55a762ae72fa441b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1640,
+        "y": 1160,
+        "wires": [
+            [
+                "9419609caabe2be4"
+            ]
+        ]
+    },
+    {
+        "id": "9419609caabe2be4",
+        "type": "change",
+        "z": "55a762ae72fa441b",
+        "name": "",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "undefined",
+                "pt": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1830,
+        "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6aa792b7fde5d4cd",
+        "type": "change",
+        "z": "55a762ae72fa441b",
+        "name": "",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "otherside",
+                "pt": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1820,
+        "y": 1200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4b4851970664553d",
+        "type": "inject",
+        "z": "55a762ae72fa441b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1640,
+        "y": 1200,
+        "wires": [
+            [
+                "6aa792b7fde5d4cd"
+            ]
+        ]
+    },
+    {
+        "id": "f6d8fde6109ac979",
+        "type": "delay",
+        "z": "55a762ae72fa441b",
+        "g": "4788e8d5cbe11d8f",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 260,
+        "y": 2220,
+        "wires": [
+            [
+                "6177f53a1a1c40ea"
+            ]
+        ]
+    },
+    {
+        "id": "6177f53a1a1c40ea",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "4788e8d5cbe11d8f",
+        "name": "Second Bldgs -> 1 Window",
+        "func": "//--- Set up vars\nvar whichSide = global.get(\"startside\");   // \"L\" or \"R\"\nvar startRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar whichRoute = startRoute == \"T\" ? \"B\" : \"T\"; //opposite\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nvar msg2 = {};\n\n//--- Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 1 to FS of 8\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\nmsg2.payload.bldg = bldg2;\nmsg2.payload.window = 1;\nmsg2.payload.numFire = 8;\n\n//Fin\nreturn [msg1, msg2];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 2220,
+        "wires": [
+            [
+                "6f5b0006051e39ef"
+            ],
+            [
+                "6f5b0006051e39ef",
+                "5addcc4a4e5261bd"
+            ]
+        ]
+    },
+    {
+        "id": "6f5b0006051e39ef",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "4788e8d5cbe11d8f",
+        "name": "Send \"first burn\" FS updates",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42"
+        ],
+        "x": 705,
+        "y": 2220,
+        "wires": []
+    },
+    {
+        "id": "6927ae19d7db3a5b",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "4788e8d5cbe11d8f",
+        "name": "<---- NOT TESTED YET",
+        "info": "",
+        "x": 880,
+        "y": 2200,
+        "wires": []
+    },
+    {
+        "id": "5addcc4a4e5261bd",
+        "type": "delay",
+        "z": "55a762ae72fa441b",
+        "g": "4788e8d5cbe11d8f",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 260,
+        "y": 2280,
+        "wires": [
+            [
+                "67dbb7b83e823038"
+            ]
+        ]
+    },
+    {
+        "id": "67dbb7b83e823038",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "4788e8d5cbe11d8f",
+        "name": "Second Bldgs -> 2 Windows",
+        "func": "//--- Set up vars\nvar whichSide = global.get(\"startside\");   // \"L\" or \"R\"\nvar startRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar whichRoute = startRoute == \"T\" ? \"B\" : \"T\"; //opposite\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nvar msg2 = {};\n\n\n//--- Check on the bldgs\n// Anyone who is still burning (i.e. team has not turned FS to 0) expands to next window\n// Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 2 to FS of 8\nif (global.get(bldg1 + \".FS.Window1\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\n\n\n//Fin\nreturn [msg1, msg2];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 2280,
+        "wires": [
+            [
+                "41518b531082b3d7"
+            ],
+            [
+                "41518b531082b3d7"
+            ]
+        ]
+    },
+    {
+        "id": "c0643b47d7d49226",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "4788e8d5cbe11d8f",
+        "name": "<---- NOT TESTED YET",
+        "info": "",
+        "x": 880,
+        "y": 2280,
+        "wires": []
+    },
+    {
+        "id": "41518b531082b3d7",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "4788e8d5cbe11d8f",
+        "name": "Send \"first burn\" FS updates",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42"
+        ],
+        "x": 705,
+        "y": 2280,
+        "wires": []
     }
 ]
