@@ -8,45 +8,519 @@
         "env": []
     },
     {
-        "id": "9446061bd5ce7ae5",
-        "type": "inject",
+        "id": "6a070793fb470a03",
+        "type": "group",
         "z": "55a762ae72fa441b",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "e1ba7bc1352dbb74",
+            "5725302ea02fb9eb",
+            "ff606f8c806a3eac",
+            "28a544304a1e4303",
+            "b52637f4da03c425",
+            "a3b9dda68a07d22c",
+            "0941e20c1244d3c4"
         ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
+        "x": 34,
+        "y": 79,
+        "w": 872,
+        "h": 282
+    },
+    {
+        "id": "18778eda46bd5b07",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "93750bbcea38e7fe",
+            "442e921eed2365ac",
+            "aa5c2742d22be7f8",
+            "fd128583b8d87f7f",
+            "bdb7dfde4f3191a6"
+        ],
+        "x": 34,
+        "y": 379,
+        "w": 632,
+        "h": 162
+    },
+    {
+        "id": "b411c6135a7823e0",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "050e42e2db96a9f4",
+        "type": "ui_tab",
+        "name": "Initial Tester",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7c1e7786ce952a5d",
+        "type": "ui_group",
+        "name": "Lights",
+        "tab": "050e42e2db96a9f4",
+        "order": 1,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bc90be16040a7d21",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.1.112",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "a953a935339c1303",
+        "type": "ui_tab",
+        "name": "Tab 2",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "fc4716d2f7693b0c",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "a953a935339c1303",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "e1ba7bc1352dbb74",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "6a070793fb470a03",
+        "name": "MVP Step 1 - Light up all Bldgs",
+        "info": "",
+        "x": 190,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "93750bbcea38e7fe",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "18778eda46bd5b07",
+        "name": "MVP Step 2 - Turn Off a Given Bldg",
+        "info": "",
+        "x": 200,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "5725302ea02fb9eb",
+        "type": "ui_button",
+        "z": "55a762ae72fa441b",
+        "g": "6a070793fb470a03",
+        "name": "",
+        "group": "7c1e7786ce952a5d",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Turn on Bldgs",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
         "payload": "",
-        "payloadType": "date",
-        "x": 260,
-        "y": 140,
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 200,
+        "y": 160,
         "wires": [
-            []
+            [
+                "b52637f4da03c425"
+            ]
         ]
     },
     {
-        "id": "b2c5411df6c6a514",
+        "id": "85965edc.72971",
+        "type": "ui_template",
+        "z": "55a762ae72fa441b",
+        "group": "",
+        "name": "Dashboard Theme : Modern Dark",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "format": "<div>\n    <link href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap\" rel=\"stylesheet\">\n    <style>\n        body {\n            --background: #212529;\n            --on-background: white;\n            --surface: #2d3136;\n            --on-surface: white;\n            --primary: var(--nr-dashboard-widgetColor);\n            --on-primary: white;\n            --secondary: var(--nr-dashboard-groupTextColor);\n            --accent: red;\n            --radius-s: 8px;\n            --font-weight-m: 300;\n            --font-weight-m: 500;\n            --font-weight-l: 700;\n            --space-s: 8px;\n            --space-m: 16px;\n            --space-l: 32px;\n        }\n\n        body.nr-dashboard-theme {\n            background-color: var(--background);\n            font-family: 'Montserrat', sans-serif;\n        }\n        .nr-dashboard-theme ui-card-panel {\n            background-color: var(--background);\n            border: 0;\n        }\n        .nr-dashboard-theme .nr-dashboard-button .md-button {\n            background-color: var(--primary);\n            border-radius: var(--radius-s);\n            padding: 8px !important;\n            line-height: inherit;\n            font-weight: var(--font-weight-l);\n            color: var(--on-primary);\n        }\n        .nr-dashboard-theme [ui-card-size=\"2x2\"].nr-dashboard-button .md-button {\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            white-space: pre-line;\n        }\n        \n        .nr-dashboard-theme .nr-dashboard-button .md-button ui-icon {\n                margin-bottom: 8px;\n        }\n        .nr-dashboard-theme .nr-dashboard-button .md-button:hover {\n            background-color: var(--secondary);\n        }\n        body.nr-dashboard-theme md-content md-card {\n            background-color: var(--surface);\n        }\n        md-card.md-default-theme, md-card {\n            border-radius: var(--radius-s);\n        }\n        .nr-dashboard-theme .nr-dashboard-gauge-titlel {\n            font-weight: var(--font-weight-l) !important;      \n        }\n        .nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n            font-weight: var(--font-weight-l);  \n            text-transform: capitalize;\n            color: var(--on-background);\n        }\n        .nr-dashboard-cardpanel > p {\n            margin-left: 0;\n            padding-left: 16px;\n        }\n        body.nr-dashboard-theme md-toolbar {\n            background-color: var(--surface);\n        }\n        .md-default-theme .md-datepicker-calendar, .md-datepicker-calendar,\n        .md-default-theme .md-calendar, .md-calendar{\n            background-color: var(--surface);\n            color: var(--on-surface);\n        }\n        .md-default-theme .md-datepicker-calendar-pane, .md-datepicker-calendar-pane{\n            border: 0;\n        }\n        .md-default-theme .md-calendar-month-label md-icon, .md-calendar-month-label md-icon, .md-default-theme .md-datepicker-input, .md-datepicker-input {\n            color: var(--on-surface);\n        }\n        body.nr-dashboard-theme md-content md-card {\n            color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-numeric .value {\n            background-color: var(--surface);\n            color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-dropdown md-select .md-select-value, .nr-dashboard-theme .nr-dashboard-dropdown md-select .md-select-value.md-select-placeholder {\n            color: var(--on-surface);\n            border-color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-dropdown .md-select-icon {\n            color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-date-picker md-input-container .md-input {\n            color: var(--on-surface);\n            border-color: var(--on-surface);\n        }\n        .nr-dashboard-theme .nr-dashboard-date-picker .md-datepicker-triangle-button .md-datepicker-expand-triangle {\n            border-top-color: var(--on-surface);\n        }\n        body.nr-dashboard-theme md-sidenav {\n            background-color: var(--surface);\n        }\n        md-list-item._md-button-wrap > div.md-button:first-child, md-list-item .md-list-item-inner {\n            background-color: var(--surface);\n        }\n    </style>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "templateScope": "global",
+        "x": 820,
+        "y": 40,
+        "wires": [
+            []
+        ],
+        "icon": "node-red-dashboard/ui_colour_picker.png",
+        "info": "# Modern Dark Theme for node-red-dashboard\n\nInspired by Victor Lucachi with his [Node Red Dashboard Concept](https://dribbble.com/shots/10356530-Node-Red-Dashboard-Concept) on Dribbble. Thank you for your work.\n\n## Customize\n\n1. Go on dashboard customisation tab (At the right of Debug Console).\n2. Select the style `Dark`.\n3. Pick the color you want. Example `#66B5F8`\n\n## Buttons\n\nUse `2x2` size for buttons with icon and text on the screenshot"
+    },
+    {
+        "id": "ff606f8c806a3eac",
+        "type": "mqtt out",
+        "z": "55a762ae72fa441b",
+        "g": "6a070793fb470a03",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 710,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "28a544304a1e4303",
         "type": "function",
         "z": "55a762ae72fa441b",
-        "name": "function 1",
-        "func": "\nreturn msg;",
+        "g": "6a070793fb470a03",
+        "name": "Set Light 1 MQTT Msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/lighton/\"+node_id;\nmsg.payload = \"{ \\\"whichLight\\\":1 }\";\n\n//--- Fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 240,
+        "x": 520,
+        "y": 240,
+        "wires": [
+            [
+                "ff606f8c806a3eac"
+            ]
+        ]
+    },
+    {
+        "id": "b52637f4da03c425",
+        "type": "loop",
+        "z": "55a762ae72fa441b",
+        "g": "6a070793fb470a03",
+        "name": "",
+        "kind": "enum",
+        "count": "",
+        "initial": "1",
+        "step": "1",
+        "condition": "",
+        "conditionType": "js",
+        "when": "before",
+        "enumeration": "[\"RTO\",\"RBO\",\"RTM\",\"RBM\",\"RTI\",\"RBI\",\"LBO\",\"LTO\",\"LBM\",\"LTM\",\"LBI\",\"LTI\"]",
+        "enumerationType": "json",
+        "limit": "",
+        "loopPayload": "loop-val",
+        "finalPayload": "final-count",
+        "x": 470,
+        "y": 160,
+        "wires": [
+            [],
+            [
+                "28a544304a1e4303",
+                "a3b9dda68a07d22c"
+            ]
+        ]
+    },
+    {
+        "id": "a3b9dda68a07d22c",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "6a070793fb470a03",
+        "name": "Set Gutter MQTT msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/updatepixels/\"+node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":1, \" +\n    \"\\\"pixels\\\": \\\"111111111111111444444444444444\\\"\" +\n    \"}\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
         "y": 320,
+        "wires": [
+            [
+                "0941e20c1244d3c4",
+                "b52637f4da03c425"
+            ]
+        ]
+    },
+    {
+        "id": "0941e20c1244d3c4",
+        "type": "mqtt out",
+        "z": "55a762ae72fa441b",
+        "g": "6a070793fb470a03",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 830,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "442e921eed2365ac",
+        "type": "ui_form",
+        "z": "55a762ae72fa441b",
+        "g": "18778eda46bd5b07",
+        "name": "",
+        "label": "Turn off Bldg",
+        "group": "7c1e7786ce952a5d",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Bldg ID",
+                "value": "bldg",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "bldg": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 170,
+        "y": 480,
+        "wires": [
+            [
+                "aa5c2742d22be7f8"
+            ]
+        ]
+    },
+    {
+        "id": "aa5c2742d22be7f8",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "18778eda46bd5b07",
+        "name": "Set MQTT Messages",
+        "func": "/* Example input\nmsg.payload : Object\nobject\n    bldg: \"RT\"\n*/ \n\n//--- Basic variables\nvar node_id = msg.payload.bldg;\nvar msg1 = {};\nvar msg2 = {};\n\n//--- Set up MQTT messages\nmsg1.topic = \"nodered/lightoff/\"+node_id;\nmsg1.payload = \"{ \\\"whichLight\\\":1 }\";\nmsg2.topic = \"nodered/updatepixels/\" + node_id;\nmsg2.payload = \"{ \" + \n    \"\\\"whichLeds\\\":1, \" + \n    \"\\\"pixels\\\":\\\"000000000000000000000000000000\\\" \" +\n    \"}\";\n\n//--- Fin\nreturn [msg1, msg2];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 480,
+        "wires": [
+            [
+                "fd128583b8d87f7f"
+            ],
+            [
+                "bdb7dfde4f3191a6"
+            ]
+        ]
+    },
+    {
+        "id": "fd128583b8d87f7f",
+        "type": "mqtt out",
+        "z": "55a762ae72fa441b",
+        "g": "18778eda46bd5b07",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 590,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "bdb7dfde4f3191a6",
+        "type": "mqtt out",
+        "z": "55a762ae72fa441b",
+        "g": "18778eda46bd5b07",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 590,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "0d8e4b32a4dc5aa5",
+        "type": "ui_button",
+        "z": "55a762ae72fa441b",
+        "name": "",
+        "group": "fc4716d2f7693b0c",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 990,
+        "y": 80,
         "wires": [
             []
         ]
