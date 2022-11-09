@@ -16,6 +16,14 @@
         "env": []
     },
     {
+        "id": "175af8efcea2d591",
+        "type": "tab",
+        "label": "Field Status Dashboard",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "6a070793fb470a03",
         "type": "group",
         "z": "55a762ae72fa441b",
@@ -278,7 +286,9 @@
             "40901f38ed52bcb3"
         ],
         "x": 914,
-        "y": 19
+        "y": 19,
+        "w": 572,
+        "h": 322
     },
     {
         "id": "0d233ae99a4c6065",
@@ -299,7 +309,9 @@
             "5f3e0a85eea68705"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 552,
+        "h": 122
     },
     {
         "id": "aa7cdd8f3125703c",
@@ -322,7 +334,9 @@
             "6e6816ac951a5c0f"
         ],
         "x": 34,
-        "y": 159
+        "y": 159,
+        "w": 852,
+        "h": 182
     },
     {
         "id": "2b2a6d295740d392",
@@ -415,6 +429,34 @@
         "y": 639,
         "w": 712,
         "h": 142
+    },
+    {
+        "id": "2ac942eccf98a996",
+        "type": "group",
+        "z": "175af8efcea2d591",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "0bb4f2dd1a0c4bda",
+            "8ddea564d172bf3f",
+            "171f62c6c1563726",
+            "05cbae4faf594123",
+            "deaae49be7b573b0",
+            "892376e5bd117bc9",
+            "318fd2d140ad472a",
+            "09e1bb987f6fc783"
+        ],
+        "x": 94,
+        "y": 59,
+        "w": 692,
+        "h": 322
     },
     {
         "id": "b411c6135a7823e0",
@@ -519,7 +561,7 @@
         "type": "ui_tab",
         "name": "Initial Tester",
         "icon": "dashboard",
-        "order": 2,
+        "order": 3,
         "disabled": false,
         "hidden": false
     },
@@ -566,7 +608,7 @@
         "type": "ui_tab",
         "name": "Match Control",
         "icon": "dashboard",
-        "order": 1,
+        "order": 2,
         "disabled": false,
         "hidden": false
     },
@@ -668,6 +710,7 @@
         "type": "ui_tab",
         "name": "Node Debug",
         "icon": "dashboard",
+        "order": 4,
         "disabled": false,
         "hidden": false
     },
@@ -692,6 +735,46 @@
         "width": "10",
         "collapse": false,
         "className": ""
+    },
+    {
+        "id": "c98b5bcc37992daf",
+        "type": "ui_tab",
+        "name": "Game Status",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ee9886ff6322a456",
+        "type": "ui_group",
+        "name": "Field Table",
+        "tab": "c98b5bcc37992daf",
+        "order": 1,
+        "disp": true,
+        "width": "20",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6537e004f578c697",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "ee9886ff6322a456",
+        "order": 1,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "d2183bc38fc20a97",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "ee9886ff6322a456",
+        "order": 3,
+        "width": 2,
+        "height": 1
     },
     {
         "id": "e1ba7bc1352dbb74",
@@ -3327,5 +3410,202 @@
         "x": 720,
         "y": 300,
         "wires": []
+    },
+    {
+        "id": "0bb4f2dd1a0c4bda",
+        "type": "comment",
+        "z": "175af8efcea2d591",
+        "g": "2ac942eccf98a996",
+        "name": "Main Table",
+        "info": "",
+        "x": 180,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "8ddea564d172bf3f",
+        "type": "ui_table",
+        "z": "175af8efcea2d591",
+        "g": "2ac942eccf98a996",
+        "group": "ee9886ff6322a456",
+        "name": "Bldg Statuses",
+        "order": 5,
+        "width": 10,
+        "height": 7,
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 680,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "171f62c6c1563726",
+        "type": "function",
+        "z": "175af8efcea2d591",
+        "g": "2ac942eccf98a996",
+        "name": "Build Default Table Array",
+        "func": "//vars \nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar theArr = [];\n\n// do the loop, get the globals\nfor (var i=0; i < bldgs.length; i++) { \n    theArr.push({\n        \"Bldg\": bldgs[i],\n        \"Status\": global.get(bldgs[i]+\".Status\"),\n        \"Win1\": global.get(bldgs[i] + \".FS.Window1\"),\n        \"Win2\": global.get(bldgs[i] + \".FS.Window2\"),\n        \"WaterQty\": global.get(bldgs[i] + \".WaterQty\"),\n    });\n}\n//node.warn(theArr);\n\n//fin\nmsg.payload = theArr;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 180,
+        "wires": [
+            [
+                "8ddea564d172bf3f"
+            ]
+        ]
+    },
+    {
+        "id": "05cbae4faf594123",
+        "type": "ui_table",
+        "z": "175af8efcea2d591",
+        "g": "2ac942eccf98a996",
+        "group": "ee9886ff6322a456",
+        "name": "GutterPixels",
+        "order": 6,
+        "width": 10,
+        "height": 7,
+        "columns": [
+            {
+                "field": "Bldg",
+                "title": "Bldg",
+                "width": "20%",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "GutterPixels",
+                "title": "GutterPixels",
+                "width": "",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 690,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "deaae49be7b573b0",
+        "type": "function",
+        "z": "175af8efcea2d591",
+        "g": "2ac942eccf98a996",
+        "name": "Build Default Table Array",
+        "func": "//vars \nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar theArr = [];\n\n// do the loop, get the globals\nfor (var i=0; i < bldgs.length; i++) { \n    theArr.push({\n        \"Bldg\": bldgs[i],\n        \"GutterPixels\": global.get(bldgs[i]+\".GutterPixels\")\n    });\n}\n//node.warn(theArr);\n\n//fin\nmsg.payload = theArr;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 240,
+        "wires": [
+            [
+                "05cbae4faf594123"
+            ]
+        ]
+    },
+    {
+        "id": "892376e5bd117bc9",
+        "type": "ui_button",
+        "z": "175af8efcea2d591",
+        "g": "2ac942eccf98a996",
+        "name": "",
+        "group": "ee9886ff6322a456",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "label": "Refresh",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 220,
+        "y": 200,
+        "wires": [
+            [
+                "171f62c6c1563726",
+                "deaae49be7b573b0"
+            ]
+        ]
+    },
+    {
+        "id": "318fd2d140ad472a",
+        "type": "trigger",
+        "z": "175af8efcea2d591",
+        "g": "2ac942eccf98a996",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "-1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "false",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 380,
+        "y": 340,
+        "wires": [
+            [
+                "892376e5bd117bc9"
+            ]
+        ]
+    },
+    {
+        "id": "09e1bb987f6fc783",
+        "type": "ui_switch",
+        "z": "175af8efcea2d591",
+        "g": "2ac942eccf98a996",
+        "name": "",
+        "label": "Auto-Refresh",
+        "tooltip": "",
+        "group": "ee9886ff6322a456",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 210,
+        "y": 340,
+        "wires": [
+            [
+                "318fd2d140ad472a"
+            ]
+        ]
     }
 ]
