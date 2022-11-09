@@ -24,6 +24,14 @@
         "env": []
     },
     {
+        "id": "f6f035102302ba5a",
+        "type": "tab",
+        "label": "Bldg / FS Callbacks",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "6a070793fb470a03",
         "type": "group",
         "z": "55a762ae72fa441b",
@@ -101,41 +109,6 @@
         "h": 222
     },
     {
-        "id": "284c27310b25477c",
-        "type": "group",
-        "z": "55a762ae72fa441b",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "0416ea6909311b42",
-            "187c6afe9262807c",
-            "8078387b8154fc28",
-            "5acfacf7a05cc895",
-            "926f27b7e8249ddb",
-            "ed2d399b29970928",
-            "5f0bcff5c4ed6ec4",
-            "f986ab9711daf36b",
-            "fde12a5702a3994d",
-            "d052e342e40320b9",
-            "71df01656749e372",
-            "dd8828fab2dad33c",
-            "42fbeec64825d3a1",
-            "4de1de66baa1bdcf",
-            "085de4503ad6ec20"
-        ],
-        "x": 1534,
-        "y": 247,
-        "w": 892,
-        "h": 454
-    },
-    {
         "id": "6f159bf7a82f4dfa",
         "type": "group",
         "z": "55a762ae72fa441b",
@@ -194,38 +167,13 @@
             "2335df53b4766297",
             "6d217ae324a7acc7",
             "b139a3ab9696d743",
-            "0ff21611a0176572"
+            "0ff21611a0176572",
+            "691a5afc5b52b78a"
         ],
         "x": 34,
         "y": 1459,
         "w": 1562,
         "h": 562
-    },
-    {
-        "id": "5f1037ebc6dbd72f",
-        "type": "group",
-        "z": "55a762ae72fa441b",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "7138aeefb2263d68",
-            "f8afe1542a91baa2",
-            "f976aafaf0f9a3c1",
-            "2d3d077a6a33a90f",
-            "19c221d99629ee7a",
-            "d5c077522e0efe06"
-        ],
-        "x": 1534,
-        "y": 747,
-        "w": 852,
-        "h": 194
     },
     {
         "id": "4788e8d5cbe11d8f",
@@ -451,12 +399,164 @@
             "deaae49be7b573b0",
             "892376e5bd117bc9",
             "318fd2d140ad472a",
-            "09e1bb987f6fc783"
+            "09e1bb987f6fc783",
+            "c5d69c3b0f5e30ee",
+            "0e3ebf9316c50718"
         ],
         "x": 94,
         "y": 59,
         "w": 692,
+        "h": 362
+    },
+    {
+        "id": "b2c04e106e7697f0",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "d56b2c69ab7a5b19",
+            "c71621e5f8d62525",
+            "3324776758a34ef8",
+            "14d53b51ae10a6d7",
+            "ee29aca373c6a7a9",
+            "da290e77a88988a7",
+            "81af1ce1ab5d6579",
+            "3ddb4866a6ecb8fe",
+            "250504d69a42ec07"
+        ],
+        "x": 34,
+        "y": 2379,
+        "w": 892,
         "h": 322
+    },
+    {
+        "id": "77bdfe65956919ec",
+        "type": "group",
+        "z": "175af8efcea2d591",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "25bdc69949d0b152",
+            "b3329dfa95503c2c",
+            "1a9410ac2442e363",
+            "2d07da5341cf14ee",
+            "b8f41ef7533e00c1",
+            "811f25a4a4480bf7",
+            "d775d38173b3593c",
+            "8b81919795d67036"
+        ],
+        "x": 94,
+        "y": 619,
+        "w": 592,
+        "h": 282
+    },
+    {
+        "id": "284c27310b25477c",
+        "type": "group",
+        "z": "f6f035102302ba5a",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "0416ea6909311b42",
+            "187c6afe9262807c",
+            "8078387b8154fc28",
+            "5acfacf7a05cc895",
+            "926f27b7e8249ddb",
+            "ed2d399b29970928",
+            "5f0bcff5c4ed6ec4",
+            "f986ab9711daf36b",
+            "d052e342e40320b9",
+            "71df01656749e372",
+            "dd8828fab2dad33c",
+            "42fbeec64825d3a1",
+            "4de1de66baa1bdcf",
+            "085de4503ad6ec20",
+            "63f18a575dc37f3b",
+            "dda9a78374edd0d2",
+            "a25ecc470396a417"
+        ],
+        "x": 64,
+        "y": 67,
+        "w": 1472,
+        "h": 454
+    },
+    {
+        "id": "5f1037ebc6dbd72f",
+        "type": "group",
+        "z": "f6f035102302ba5a",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "7138aeefb2263d68",
+            "f8afe1542a91baa2",
+            "f976aafaf0f9a3c1",
+            "2d3d077a6a33a90f",
+            "19c221d99629ee7a",
+            "d5c077522e0efe06"
+        ],
+        "x": 64,
+        "y": 567,
+        "w": 852,
+        "h": 194
+    },
+    {
+        "id": "459fe488a5804676",
+        "type": "group",
+        "z": "f6f035102302ba5a",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "42500fdf3edadd8f",
+            "ab46c7d25d3bb74b",
+            "570cc8a3dd014038",
+            "7e1e1ed2c52487f5",
+            "505ee7d447687c96",
+            "8498c6ad0a1a8df7",
+            "192043bb5930e80f",
+            "f4ccd769fbdd6843",
+            "64807321f86b9125",
+            "71f67f7f27cafd81"
+        ],
+        "x": 74,
+        "y": 807,
+        "w": 1592,
+        "h": 266
     },
     {
         "id": "b411c6135a7823e0",
@@ -708,7 +808,7 @@
     {
         "id": "b194d4f5bf93f9af",
         "type": "ui_tab",
-        "name": "Node Debug",
+        "name": "Edge Node Debug",
         "icon": "dashboard",
         "order": 4,
         "disabled": false,
@@ -748,7 +848,7 @@
     {
         "id": "ee9886ff6322a456",
         "type": "ui_group",
-        "name": "Field Table",
+        "name": "Building Status",
         "tab": "c98b5bcc37992daf",
         "order": 1,
         "disp": true,
@@ -757,7 +857,18 @@
         "className": ""
     },
     {
-        "id": "6537e004f578c697",
+        "id": "3e7886cb7c605213",
+        "type": "ui_group",
+        "name": "Manual Testers",
+        "tab": "c98b5bcc37992daf",
+        "order": 2,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b6730ea8615f44ef",
         "type": "ui_spacer",
         "z": "175af8efcea2d591",
         "name": "spacer",
@@ -767,13 +878,53 @@
         "height": 1
     },
     {
-        "id": "d2183bc38fc20a97",
+        "id": "9608209c8b15719e",
         "type": "ui_spacer",
         "z": "175af8efcea2d591",
         "name": "spacer",
         "group": "ee9886ff6322a456",
         "order": 3,
         "width": 2,
+        "height": 1
+    },
+    {
+        "id": "f7f09fd402b00a87",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "ee9886ff6322a456",
+        "order": 5,
+        "width": 20,
+        "height": 1
+    },
+    {
+        "id": "54bfee77cbe80bd2",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "ee9886ff6322a456",
+        "order": 6,
+        "width": 20,
+        "height": 1
+    },
+    {
+        "id": "13c8f4bb8ebc0ab3",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "3e7886cb7c605213",
+        "order": 2,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "0c05bb4f5d3a5eed",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "3e7886cb7c605213",
+        "order": 4,
+        "width": 5,
         "height": 1
     },
     {
@@ -1126,7 +1277,7 @@
         "z": "55a762ae72fa441b",
         "g": "4a4f80625f8ea163",
         "name": "Reset / Default Global Variables",
-        "func": "\n//--- Match setup \nglobal.set(\"startSide\",\"\");  // L or R\nglobal.set(\"otherSide\", \"\"); // L or R\nglobal.set(\"startRoute\",\"\"); // T or B\nglobal.set(\"hotBldg\",\"\");    // T or B\n\n\n//--- Building objects\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nfor (var i in bldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(bldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores - 0, 1, 2\n    global.set(bldgs[i] + \".FS.Window1\", 0);\n    global.set(bldgs[i] + \".FS.Window2\", 0);\n\n    // Water qtys - int\n    global.set(bldgs[i] + \".WaterQty\", 0);\n\n    // Gutterpixels - string of numbers that represent colors\n    global.set(bldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\n\n\n//Fin\nreturn msg;",
+        "func": "\n//--- Match setup \nglobal.set(\"startSide\",\"\");  // L or R\nglobal.set(\"otherSide\", \"\"); // L or R\nglobal.set(\"startRoute\",\"\"); // T or B\nglobal.set(\"hotBldg\",\"\");    // T or B\n\n\n//--- Building objects\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nfor (var i in bldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(bldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores \n    global.set(bldgs[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(bldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(bldgs[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(bldgs[i] + \".FS.Window2-AfterWater\", 0);\n\n    // Water qtys - int\n    global.set(bldgs[i] + \".WaterQty\", 0);\n\n    // Gutterpixels - string of numbers that represent colors\n    global.set(bldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\n\n\n//Fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -1158,180 +1309,6 @@
         "info": "",
         "x": 180,
         "y": 1000,
-        "wires": []
-    },
-    {
-        "id": "42d838d26982b392",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "name": "Callbacks",
-        "info": "",
-        "x": 1560,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "0416ea6909311b42",
-        "type": "link in",
-        "z": "55a762ae72fa441b",
-        "g": "284c27310b25477c",
-        "name": "Update FS",
-        "links": [
-            "71df01656749e372",
-            "42fbeec64825d3a1",
-            "c612b81a64bb9759",
-            "b4f3a4589cdc9edf",
-            "d0e47829bbab10d2",
-            "6f5b0006051e39ef",
-            "41518b531082b3d7"
-        ],
-        "x": 1615,
-        "y": 420,
-        "wires": [
-            [
-                "8078387b8154fc28",
-                "5acfacf7a05cc895",
-                "ed2d399b29970928",
-                "085de4503ad6ec20"
-            ]
-        ]
-    },
-    {
-        "id": "187c6afe9262807c",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "284c27310b25477c",
-        "name": "Update FS\\n payload.bldg, payload.window, payload.numFire",
-        "info": "",
-        "x": 1750,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "8078387b8154fc28",
-        "type": "function",
-        "z": "55a762ae72fa441b",
-        "g": "284c27310b25477c",
-        "name": "Update Window Global",
-        "func": "//--- Basic variables\nvar input = msg.payload;\nvar theBldg = msg.payload.bldg;\nvar theWin = msg.payload.window;\nvar theFS = msg.payload.numFire;\n\n//--- Update Global Variables\nvar theGlobalString = theBldg + \".FS.Window\" + theWin;\nglobal.set(theGlobalString,theFS);\n\n\n//--- Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1800,
-        "y": 400,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "5acfacf7a05cc895",
-        "type": "function",
-        "z": "55a762ae72fa441b",
-        "g": "284c27310b25477c",
-        "name": "Update GutterPixels Global",
-        "func": "/* \nGutter is built with 30 pixels\n[0-7]   = Window 1 FS\n[8-9]   = Blank (spacer)\n[10-19] = Status\n[20-21] = Blank (spacer)\n[22-29] = Window 2 FS\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar theBldg = msg.payload.bldg;\nvar theWin = msg.payload.window;\nvar theFS = msg.payload.numFire;\n\n//--- Get current gutterpixels, delete the relevant window's substring \n//string.substring(indexStart, indexEnd)\nvar curPixelString = global.get(theBldg + \".GutterPixels\");\nif (theWin == 1) {\n    var stringMinusWindow = curPixelString.substring(7, 30); //will want to check off-by-one issues\n} else if (theWin == 2) {\n    var stringMinusWindow = curPixelString.substring(0, 22); //will want to check off-by-one issues\n}\n\n//--- Build the new window's string\nvar newWindowString = \"\";\n//-- Add 1's up to the FS, then 0's after that to only light up the FS pixels\n// off-by-one _should_ work out alright? \n// also js shorthand woo https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator\nfor (let i=0; i<8; i++) {\n    newWindowString += i<theFS ? \"1\" : \"0\"; \n}\n\n//--- Combino preparo \n//node.warn(newWindowString);\n//node.warn(stringMinusWindow);\nif (theWin == 1) {\n    var newPixelString = newWindowString + stringMinusWindow; \n} else if (theWin == 2) {\n    var newPixelString = stringMinusWindow + newWindowString;\n}\n\n//--- Fin\nglobal.set(theBldg + \".GutterPixels\", newPixelString);\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1820,
-        "y": 440,
-        "wires": [
-            [
-                "926f27b7e8249ddb"
-            ]
-        ]
-    },
-    {
-        "id": "926f27b7e8249ddb",
-        "type": "function",
-        "z": "55a762ae72fa441b",
-        "g": "284c27310b25477c",
-        "name": "Build MQTT Msg for Gutter",
-        "func": "/*\n---- WILL NEED TO UPDATE ONCE WE KNOW HOW \"WHICHLEDS\" WORKS ---\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar node_id = msg.payload.bldg;\nvar theGutter = 1; //-=-=-=-==-=\n\n\n//--- Set up MQTT message\nvar gutterString = global.get(node_id + \".GutterPixels\");\nmsg.topic = \"nodered/updatepixels/\" + node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":\" + theGutter + \", \" +\n    \"\\\"pixels\\\": \\\"\" + gutterString + \"\\\"\" +\n    \"}\";\n\n//--- Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1900,
-        "y": 480,
-        "wires": [
-            [
-                "5f0bcff5c4ed6ec4"
-            ]
-        ]
-    },
-    {
-        "id": "ed2d399b29970928",
-        "type": "function",
-        "z": "55a762ae72fa441b",
-        "g": "284c27310b25477c",
-        "name": "Build MQTT Msg for Window",
-        "func": "//--- Basic variables\nvar input = msg.payload;\nvar node_id = msg.payload.bldg;\nvar theWin = msg.payload.window;\nvar theFS = msg.payload.numFire;\n\n//--- Build MQTT message\nif (theFS > 0) {\n    msg.topic = \"nodered/lighton/\" + node_id;\n} else if (theFS == 0) {\n    msg.topic = \"nodered/lightoff/\" + node_id;\n}\nmsg.payload = \"{ \\\"whichLight\\\":\" + theWin + \"}\"\n\n//--- Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1820,
-        "y": 520,
-        "wires": [
-            [
-                "f986ab9711daf36b"
-            ]
-        ]
-    },
-    {
-        "id": "5f0bcff5c4ed6ec4",
-        "type": "mqtt out",
-        "z": "55a762ae72fa441b",
-        "g": "284c27310b25477c",
-        "name": "",
-        "topic": "",
-        "qos": "",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "bc90be16040a7d21",
-        "x": 2130,
-        "y": 480,
-        "wires": []
-    },
-    {
-        "id": "f986ab9711daf36b",
-        "type": "mqtt out",
-        "z": "55a762ae72fa441b",
-        "g": "284c27310b25477c",
-        "name": "",
-        "topic": "",
-        "qos": "",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "bc90be16040a7d21",
-        "x": 2130,
-        "y": 520,
-        "wires": []
-    },
-    {
-        "id": "fde12a5702a3994d",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "284c27310b25477c",
-        "name": "WILL NEED TO TEST THESE WITH REAL PI",
-        "info": "",
-        "x": 2230,
-        "y": 440,
         "wires": []
     },
     {
@@ -1368,117 +1345,6 @@
                 "6ee9ecd341bb2e5c"
             ]
         ]
-    },
-    {
-        "id": "d052e342e40320b9",
-        "type": "inject",
-        "z": "55a762ae72fa441b",
-        "g": "284c27310b25477c",
-        "name": "Set LBI Window 1 FS to 4",
-        "props": [
-            {
-                "p": "payload.bldg",
-                "v": "\"LBI\"",
-                "vt": "str"
-            },
-            {
-                "p": "payload.window",
-                "v": "1",
-                "vt": "num"
-            },
-            {
-                "p": "payload.numFire",
-                "v": "4",
-                "vt": "num"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 1730,
-        "y": 620,
-        "wires": [
-            [
-                "71df01656749e372"
-            ]
-        ]
-    },
-    {
-        "id": "71df01656749e372",
-        "type": "link out",
-        "z": "55a762ae72fa441b",
-        "g": "284c27310b25477c",
-        "name": "Test FS updater 4",
-        "mode": "link",
-        "links": [
-            "0416ea6909311b42"
-        ],
-        "x": 1885,
-        "y": 620,
-        "wires": []
-    },
-    {
-        "id": "dd8828fab2dad33c",
-        "type": "inject",
-        "z": "55a762ae72fa441b",
-        "g": "284c27310b25477c",
-        "name": "Set LBI Window 1 FS to 0",
-        "props": [
-            {
-                "p": "payload.bldg",
-                "v": "\"RTO\"",
-                "vt": "str"
-            },
-            {
-                "p": "payload.window",
-                "v": "1",
-                "vt": "num"
-            },
-            {
-                "p": "payload.numFire",
-                "v": "0",
-                "vt": "num"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 1730,
-        "y": 660,
-        "wires": [
-            [
-                "42fbeec64825d3a1"
-            ]
-        ]
-    },
-    {
-        "id": "42fbeec64825d3a1",
-        "type": "link out",
-        "z": "55a762ae72fa441b",
-        "g": "284c27310b25477c",
-        "name": "Test FS updater 4",
-        "mode": "link",
-        "links": [
-            "0416ea6909311b42"
-        ],
-        "x": 1885,
-        "y": 660,
-        "wires": []
-    },
-    {
-        "id": "4de1de66baa1bdcf",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "284c27310b25477c",
-        "name": "Test Injects",
-        "info": "",
-        "x": 1620,
-        "y": 580,
-        "wires": []
     },
     {
         "id": "78f0d62baea56673",
@@ -2152,7 +2018,7 @@
         "z": "55a762ae72fa441b",
         "g": "6a8702296ddd22a1",
         "name": "Update first Burning Bldgs",
-        "func": "//--- Set up vars\nvar whichSide = global.get(\"startSide\"); // \"L\" or \"R\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Top or bottom?\nvar whichRouteInt = Math.floor(Math.random() * 2); //returns 0 or 1\nvar whichRouteStr = whichRouteInt == 1 ? \"T\" : \"B\";\nglobal.set(\"startRoute\", whichRouteStr);\nvar bldg1 = whichSide + whichRouteStr + \"M\"; //e.g. bldg LTM\nvar bldg2 = whichSide + whichRouteStr + \"I\"; //e.g. bldg LTI\n\n//--- Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 1 to FS of 8\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\nmsg2.payload.bldg = bldg2;\nmsg2.payload.window = 1;\nmsg2.payload.numFire = 8;\n\n//Fin\nreturn [msg1, msg2];",
+        "func": "//--- Set up vars\nvar whichSide = global.get(\"startSide\"); // \"L\" or \"R\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Top or bottom?\nvar whichRouteInt = Math.floor(Math.random() * 2); //returns 0 or 1\nvar whichRouteStr = whichRouteInt == 1 ? \"T\" : \"B\";\nglobal.set(\"startRoute\", whichRouteStr);\nvar bldg1 = whichSide + whichRouteStr + \"M\"; //e.g. bldg LTM\nvar bldg2 = whichSide + whichRouteStr + \"I\"; //e.g. bldg LTI\n\n//--- Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 1 to FS of 8\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\nmsg1.payload.beforeOrAfterWater = \"BEFORE\";\nmsg2.payload.bldg = bldg2;\nmsg2.payload.window = 1;\nmsg2.payload.numFire = 8;\nmsg2.payload.beforeOrAfterWater = \"BEFORE\";\n\n//Fin\nreturn [msg1, msg2];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -2177,7 +2043,8 @@
         "name": "Send T=0 FS updates",
         "mode": "link",
         "links": [
-            "0416ea6909311b42"
+            "0416ea6909311b42",
+            "772defe5dc3f1eb0"
         ],
         "x": 665,
         "y": 1560,
@@ -2211,104 +2078,6 @@
                 "ae0759e01e0881af"
             ]
         ]
-    },
-    {
-        "id": "7138aeefb2263d68",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "5f1037ebc6dbd72f",
-        "name": "Update GutterPixels \\n payload.bldg, payload.pixelstring",
-        "info": "",
-        "x": 1690,
-        "y": 800,
-        "wires": []
-    },
-    {
-        "id": "f8afe1542a91baa2",
-        "type": "link in",
-        "z": "55a762ae72fa441b",
-        "g": "5f1037ebc6dbd72f",
-        "name": "Update GutterPixels",
-        "links": [
-            "ae0759e01e0881af"
-        ],
-        "x": 1625,
-        "y": 860,
-        "wires": [
-            [
-                "f976aafaf0f9a3c1"
-            ]
-        ]
-    },
-    {
-        "id": "f976aafaf0f9a3c1",
-        "type": "function",
-        "z": "55a762ae72fa441b",
-        "g": "5f1037ebc6dbd72f",
-        "name": "Update GutterPixels Global",
-        "func": "/* \nGutter is built with 30 pixels\n[0-7]   = Window 1 FS\n[8-9]   = Blank (spacer)\n[10-19] = Status\n[20-21] = Blank (spacer)\n[22-29] = Window 2 FS\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar theBldg = input.bldg;\nvar theString = input.pixelstring;\n\n//--- Update global\nglobal.set(theBldg + \".GutterPixels\", theString);\n\n//--- Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1800,
-        "y": 860,
-        "wires": [
-            [
-                "2d3d077a6a33a90f"
-            ]
-        ]
-    },
-    {
-        "id": "2d3d077a6a33a90f",
-        "type": "function",
-        "z": "55a762ae72fa441b",
-        "g": "5f1037ebc6dbd72f",
-        "name": "Build MQTT Msg for Gutter",
-        "func": "/*\n---- WILL NEED TO UPDATE ONCE WE KNOW HOW \"WHICHLEDS\" WORKS ---\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar node_id = input.bldg;\nvar theGutter = 1; //-=-=-===--==\n\n//--- Set up MQTT message\nvar gutterString = global.get(node_id + \".GutterPixels\");\nmsg.topic = \"nodered/updatepixels/\" + node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":\" + theGutter + \", \" +\n    \"\\\"pixels\\\": \\\"\" + gutterString + \"\\\"\" +\n    \"}\";\n\n//--- Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1880,
-        "y": 900,
-        "wires": [
-            [
-                "19c221d99629ee7a"
-            ]
-        ]
-    },
-    {
-        "id": "19c221d99629ee7a",
-        "type": "mqtt out",
-        "z": "55a762ae72fa441b",
-        "g": "5f1037ebc6dbd72f",
-        "name": "",
-        "topic": "",
-        "qos": "",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "bc90be16040a7d21",
-        "x": 2110,
-        "y": 900,
-        "wires": []
-    },
-    {
-        "id": "d5c077522e0efe06",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "5f1037ebc6dbd72f",
-        "name": "WILL NEED TO TEST THESE WITH REAL PI",
-        "info": "",
-        "x": 2190,
-        "y": 860,
-        "wires": []
     },
     {
         "id": "ae0759e01e0881af",
@@ -2435,7 +2204,7 @@
         "z": "55a762ae72fa441b",
         "g": "4788e8d5cbe11d8f",
         "name": "First Burning Bldgs -> 2 Windows",
-        "func": "//--- Set up vars\nvar whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\nvar whichRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Check on the bldgs\n// Anyone who is still burning (i.e. team has not turned FS to 0) expands to next window\n// Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 2 to FS of 8\nif (global.get(bldg1 + \".FS.Window1\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2+ \".FS.Window1\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\n\n//Fin\nreturn [msg1, msg2];",
+        "func": "//--- Set up vars\nvar whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\nvar whichRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Check on the bldgs\n// Anyone who is still burning (i.e. team has not turned FS to 0) expands to next window\n// Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 2 to FS of 8\nif (global.get(bldg1 + \".FS.Window1-AfterWater\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1-AfterWater\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\n\n//Fin\nreturn [msg1, msg2];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -2597,7 +2366,7 @@
         "order": 2,
         "width": 5,
         "height": 2,
-        "passthru": false,
+        "passthru": true,
         "label": "END MATCH",
         "tooltip": "",
         "color": "",
@@ -2629,24 +2398,6 @@
         "wires": []
     },
     {
-        "id": "085de4503ad6ec20",
-        "type": "function",
-        "z": "55a762ae72fa441b",
-        "g": "284c27310b25477c",
-        "name": "Update Status Global",
-        "func": "//--- Basic variables\nvar input = msg.payload;\nvar node_id = msg.payload.bldg;\nvar theWin = msg.payload.window;\nvar theFS = msg.payload.numFire;\n\n//--- Build MQTT message\nif (theFS > 0) {\n    global.set(node_id+\".Status\", \"Burning\");\n} else if (theFS == 0) {\n    global.set(node_id + \".Status\", \"Cleared\");\n}\n\n\n//--- Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1800,
-        "y": 360,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "d0e47829bbab10d2",
         "type": "link out",
         "z": "55a762ae72fa441b",
@@ -2654,7 +2405,8 @@
         "name": "Send \"first burn\" FS updates",
         "mode": "link",
         "links": [
-            "0416ea6909311b42"
+            "0416ea6909311b42",
+            "772defe5dc3f1eb0"
         ],
         "x": 685,
         "y": 2200,
@@ -2703,110 +2455,6 @@
         ]
     },
     {
-        "id": "ac0489680a48111a",
-        "type": "inject",
-        "z": "55a762ae72fa441b",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 1640,
-        "y": 1160,
-        "wires": [
-            [
-                "9419609caabe2be4"
-            ]
-        ]
-    },
-    {
-        "id": "9419609caabe2be4",
-        "type": "change",
-        "z": "55a762ae72fa441b",
-        "name": "",
-        "rules": [
-            {
-                "t": "delete",
-                "p": "undefined",
-                "pt": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1830,
-        "y": 1160,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "6aa792b7fde5d4cd",
-        "type": "change",
-        "z": "55a762ae72fa441b",
-        "name": "",
-        "rules": [
-            {
-                "t": "delete",
-                "p": "otherside",
-                "pt": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1820,
-        "y": 1200,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "4b4851970664553d",
-        "type": "inject",
-        "z": "55a762ae72fa441b",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 1640,
-        "y": 1200,
-        "wires": [
-            [
-                "6aa792b7fde5d4cd"
-            ]
-        ]
-    },
-    {
         "id": "f6d8fde6109ac979",
         "type": "delay",
         "z": "55a762ae72fa441b",
@@ -2838,7 +2486,7 @@
         "z": "55a762ae72fa441b",
         "g": "4788e8d5cbe11d8f",
         "name": "Second Bldgs -> 1 Window",
-        "func": "//--- Set up vars\nvar whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\nvar startRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar whichRoute = startRoute == \"T\" ? \"B\" : \"T\"; //opposite\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nvar msg2 = {};\n\n//--- Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 1 to FS of 8\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\nmsg2.payload.bldg = bldg2;\nmsg2.payload.window = 1;\nmsg2.payload.numFire = 8;\n\n//Fin\nreturn [msg1, msg2];",
+        "func": "//--- Set up vars\nvar whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\nvar startRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar whichRoute = startRoute == \"T\" ? \"B\" : \"T\"; //opposite\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 1 to FS of 8\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\nmsg2.payload.bldg = bldg2;\nmsg2.payload.window = 1;\nmsg2.payload.numFire = 8;\n\n//Fin\nreturn [msg1, msg2];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -2864,7 +2512,8 @@
         "name": "Send \"first burn\" FS updates",
         "mode": "link",
         "links": [
-            "0416ea6909311b42"
+            "0416ea6909311b42",
+            "772defe5dc3f1eb0"
         ],
         "x": 685,
         "y": 2260,
@@ -2913,7 +2562,7 @@
         "z": "55a762ae72fa441b",
         "g": "4788e8d5cbe11d8f",
         "name": "Second Bldgs -> 2 Windows",
-        "func": "//--- Set up vars\nvar whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\nvar startRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar whichRoute = startRoute == \"T\" ? \"B\" : \"T\"; //opposite\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nvar msg2 = {};\n\n\n//--- Check on the bldgs\n// Anyone who is still burning (i.e. team has not turned FS to 0) expands to next window\n// Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 2 to FS of 8\nif (global.get(bldg1 + \".FS.Window1\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\n\n\n//Fin\nreturn [msg1, msg2];",
+        "func": "//--- Set up vars\nvar whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\nvar startRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar whichRoute = startRoute == \"T\" ? \"B\" : \"T\"; //opposite\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nvar msg2 = {};\n\n\n//--- Check on the bldgs\n// Anyone who is still burning (i.e. team has not turned FS to 0) expands to next window\n// Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 2 to FS of 8\nif (global.get(bldg1 + \".FS.Window1-AfterWater\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1-AfterWater\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\n\n\n//Fin\nreturn [msg1, msg2];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -2949,7 +2598,8 @@
         "name": "Send \"first burn\" FS updates",
         "mode": "link",
         "links": [
-            "0416ea6909311b42"
+            "0416ea6909311b42",
+            "772defe5dc3f1eb0"
         ],
         "x": 685,
         "y": 2320,
@@ -3026,6 +2676,7 @@
         "id": "d56b2c69ab7a5b19",
         "type": "comment",
         "z": "55a762ae72fa441b",
+        "g": "b2c04e106e7697f0",
         "name": "MVP Step 6 - Receive a laser / ball hit, decrease FS",
         "info": "",
         "x": 250,
@@ -3066,6 +2717,7 @@
         "id": "c71621e5f8d62525",
         "type": "mqtt in",
         "z": "55a762ae72fa441b",
+        "g": "b2c04e106e7697f0",
         "name": "",
         "topic": "edgenode/laserhit/#",
         "qos": "2",
@@ -3087,27 +2739,139 @@
         "id": "3324776758a34ef8",
         "type": "function",
         "z": "55a762ae72fa441b",
-        "name": "Do Water Things",
-        "func": "/* \nExample input: \n{\n    \"node_id\":\"LTO\",\n    \"num_hits\":5, \n    \"timestamp\":1234567890\n}\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.node_id; //going to need to test this\nvar numHits = input[\"num_hits\"];\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Get the globals\nvar win1_FS = global.get(nodeid + \"FS.Window1\");\nvar win2_FS = global.get(nodeid + \"FS.Window2\");\n\n//--- Do some water math\nvar curWaterQty = global.get(nodeid + \".WaterQty\");\nvar newWaterQty = curWaterQty + numHits;\n\n//-----------\n//--- HOW MANY WATERS PER PIXEL / FS / BLIP ? \n//-----------\nvar WATER_PER_FS = 4;\nvar MAX_POSS_FS = 8;\n\n/* Example: \nEnough water is dropped to drop 12 FS points (wateredDownAmt = 12)\n- 8 of this goes to window 1\n- 4 of this goes to window 2\nOtherwise, it just sticks to window 1.\n- THIS IS TRUE EVEN IF window 2 is active.\n- This is part of the \"back to basics\" gameplay.  Is it \"right\" or \"the best\"?  Probably not.. but it's easy\nANOTHER CURRENT ISSUE\n- Currently, this just tracks one master \"water amt\" \n- So theoretically, if your waterqty exceeds window1's amt, it will \"proactively\" count towards window2\n- Probably need to fix this later...\n*/ \nvar wateredDownAmt = Math.floor(newWaterQty / WATER_PER_FS);\nif (wateredDownAmt >= 8) {\n    var firstWindowWater = 8;\n    var secondWindowWater = wateredDownAmt - 8;\n} else {\n    firstWindowWater = wateredDownAmt;\n}\n\n//--- Update globals\n\n\nif (win2_FS > 0) {\n    global.set(nodeid + \"FS.Window2\", (MAX_POSS_FS - secondWindowWater));\n}\n\n//--- Prep output for FS update callback\n//payload.bldg, payload.window, payload.numFire\nmsg1.payload.bldg = nodeid;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = win1_FS > 0 ? (MAX_POSS_FS - firstWindowWater) : 0;\n\nmsg2.payload.bldg = nodeid;\nmsg2.payload.window = 1;\nmsg2.payload.numFire = win2_FS > 0 ? (MAX_POSS_FS - secondWindowWater) : 0;\n\n//--- Fin\nreturn [msg1, msg2];",
+        "g": "b2c04e106e7697f0",
+        "name": "Convert to callback formats",
+        "func": "/* \nExample input: \n{\n    \"node_id\":\"LTO\",\n    \"num_hits\":5, \n    \"timestamp\":1234567890\n}\n\nDesired outputs for callback: \npayload.bldg, payload.newAddlWaterQty\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.node_id; //going to need to test this\nvar numHits = input[\"num_hits\"];\nmsg.payload = {};\n\n\n//--- FS update callback outputs\nmsg.payload.bldg = nodeid;\nmsg.payload.newAddlWaterQty = numHits;\n\n\n//--- Fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 450,
+        "x": 560,
         "y": 2500,
         "wires": [
-            []
+            [
+                "ee29aca373c6a7a9",
+                "3ddb4866a6ecb8fe"
+            ]
         ]
     },
     {
-        "id": "447cbf118008938c",
+        "id": "14d53b51ae10a6d7",
+        "type": "inject",
+        "z": "55a762ae72fa441b",
+        "g": "b2c04e106e7697f0",
+        "name": "Fake laser MQTT",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "edgenode/laserhit/RTO",
+        "payload": "{\"node_id\":\"RTO\",\"num_hits\":1,\"timestamp\":1234567890}",
+        "payloadType": "json",
+        "x": 240,
+        "y": 2620,
+        "wires": [
+            [
+                "3324776758a34ef8"
+            ]
+        ],
+        "info": "Example input: \r\n{\r\n    \"node_id\":\"LTO\",\r\n    \"num_hits\":5, \r\n    \"timestamp\":1234567890\r\n}"
+    },
+    {
+        "id": "ee29aca373c6a7a9",
+        "type": "debug",
+        "z": "55a762ae72fa441b",
+        "g": "b2c04e106e7697f0",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 2460,
+        "wires": []
+    },
+    {
+        "id": "691a5afc5b52b78a",
+        "type": "link in",
+        "z": "55a762ae72fa441b",
+        "g": "6a8702296ddd22a1",
+        "name": "Just end it (in)",
+        "links": [
+            "0e3ebf9316c50718"
+        ],
+        "x": 105,
+        "y": 1920,
+        "wires": [
+            [
+                "da8215e65b543ef9"
+            ]
+        ]
+    },
+    {
+        "id": "da290e77a88988a7",
+        "type": "link in",
+        "z": "55a762ae72fa441b",
+        "g": "b2c04e106e7697f0",
+        "name": "Laser Hit Inject",
+        "links": [
+            "8b81919795d67036"
+        ],
+        "x": 335,
+        "y": 2660,
+        "wires": [
+            [
+                "3324776758a34ef8"
+            ]
+        ]
+    },
+    {
+        "id": "81af1ce1ab5d6579",
         "type": "comment",
         "z": "55a762ae72fa441b",
-        "name": "<------ NOT YET TESTED",
+        "g": "b2c04e106e7697f0",
+        "name": "testing",
         "info": "",
-        "x": 690,
+        "x": 170,
+        "y": 2580,
+        "wires": []
+    },
+    {
+        "id": "3ddb4866a6ecb8fe",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "b2c04e106e7697f0",
+        "name": "Laser been hit",
+        "mode": "link",
+        "links": [
+            "ab46c7d25d3bb74b"
+        ],
+        "x": 775,
         "y": 2520,
+        "wires": []
+    },
+    {
+        "id": "250504d69a42ec07",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "b2c04e106e7697f0",
+        "name": "To callback",
+        "info": "",
+        "x": 820,
+        "y": 2560,
         "wires": []
     },
     {
@@ -3429,14 +3193,14 @@
         "g": "2ac942eccf98a996",
         "group": "ee9886ff6322a456",
         "name": "Bldg Statuses",
-        "order": 5,
+        "order": 7,
         "width": 10,
         "height": 7,
         "columns": [],
         "outputs": 0,
         "cts": false,
         "x": 680,
-        "y": 180,
+        "y": 240,
         "wires": []
     },
     {
@@ -3445,14 +3209,14 @@
         "z": "175af8efcea2d591",
         "g": "2ac942eccf98a996",
         "name": "Build Default Table Array",
-        "func": "//vars \nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar theArr = [];\n\n// do the loop, get the globals\nfor (var i=0; i < bldgs.length; i++) { \n    theArr.push({\n        \"Bldg\": bldgs[i],\n        \"Status\": global.get(bldgs[i]+\".Status\"),\n        \"Win1\": global.get(bldgs[i] + \".FS.Window1\"),\n        \"Win2\": global.get(bldgs[i] + \".FS.Window2\"),\n        \"WaterQty\": global.get(bldgs[i] + \".WaterQty\"),\n    });\n}\n//node.warn(theArr);\n\n//fin\nmsg.payload = theArr;\nreturn msg;",
+        "func": "//vars \nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar theArr = [];\n\n// do the loop, get the globals\nfor (var i=0; i < bldgs.length; i++) { \n    theArr.push({\n        \"Bldg\": bldgs[i],\n        \"Status\": global.get(bldgs[i]+\".Status\"),\n        \"Win1\": global.get(bldgs[i] + \".FS.Window1-AfterWater\"),\n        \"Win2\": global.get(bldgs[i] + \".FS.Window2-AfterWater\"),\n        \"WaterQty\": global.get(bldgs[i] + \".WaterQty\"),\n    });\n}\n//node.warn(theArr);\n\n//fin\nmsg.payload = theArr;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 470,
-        "y": 180,
+        "y": 240,
         "wires": [
             [
                 "8ddea564d172bf3f"
@@ -3466,7 +3230,7 @@
         "g": "2ac942eccf98a996",
         "group": "ee9886ff6322a456",
         "name": "GutterPixels",
-        "order": 6,
+        "order": 8,
         "width": 10,
         "height": 7,
         "columns": [
@@ -3494,7 +3258,7 @@
         "outputs": 0,
         "cts": false,
         "x": 690,
-        "y": 240,
+        "y": 300,
         "wires": []
     },
     {
@@ -3510,7 +3274,7 @@
         "finalize": "",
         "libs": [],
         "x": 470,
-        "y": 240,
+        "y": 300,
         "wires": [
             [
                 "05cbae4faf594123"
@@ -3539,7 +3303,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 220,
-        "y": 200,
+        "y": 260,
         "wires": [
             [
                 "171f62c6c1563726",
@@ -3557,16 +3321,16 @@
         "op2": "0",
         "op1type": "str",
         "op2type": "str",
-        "duration": "-1",
+        "duration": "-500",
         "extend": false,
         "overrideDelay": false,
-        "units": "s",
+        "units": "ms",
         "reset": "false",
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 380,
-        "y": 340,
+        "x": 500,
+        "y": 380,
         "wires": [
             [
                 "892376e5bd117bc9"
@@ -3600,12 +3364,831 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 210,
-        "y": 340,
+        "x": 310,
+        "y": 380,
         "wires": [
             [
                 "318fd2d140ad472a"
             ]
         ]
+    },
+    {
+        "id": "25bdc69949d0b152",
+        "type": "comment",
+        "z": "175af8efcea2d591",
+        "g": "77bdfe65956919ec",
+        "name": "Manual Injects for Testing",
+        "info": "",
+        "x": 230,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "b3329dfa95503c2c",
+        "type": "ui_button",
+        "z": "175af8efcea2d591",
+        "g": "77bdfe65956919ec",
+        "name": "",
+        "group": "3e7886cb7c605213",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "label": "Set RTO to Max FS",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 250,
+        "y": 740,
+        "wires": [
+            [
+                "2d07da5341cf14ee",
+                "b8f41ef7533e00c1"
+            ]
+        ]
+    },
+    {
+        "id": "1a9410ac2442e363",
+        "type": "link out",
+        "z": "175af8efcea2d591",
+        "g": "77bdfe65956919ec",
+        "name": "Manual set Max FS",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42"
+        ],
+        "x": 645,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "2d07da5341cf14ee",
+        "type": "function",
+        "z": "175af8efcea2d591",
+        "g": "77bdfe65956919ec",
+        "name": "Set Window 1 FS",
+        "func": "// Vars\nmsg.payload = {};\n\n// Set up params for callback node\nmsg.payload.bldg = \"RTO\";\nmsg.payload.window = 1;\nmsg.payload.numFire = 8;\n\n// Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 720,
+        "wires": [
+            [
+                "1a9410ac2442e363"
+            ]
+        ]
+    },
+    {
+        "id": "b8f41ef7533e00c1",
+        "type": "function",
+        "z": "175af8efcea2d591",
+        "g": "77bdfe65956919ec",
+        "name": "Set Window 2 FS",
+        "func": "// Vars\nmsg.payload = {};\n\n// Set up params for callback node\nmsg.payload.bldg = \"RTO\";\nmsg.payload.window = 2;\nmsg.payload.numFire = 8;\n\n// Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 760,
+        "wires": [
+            [
+                "1a9410ac2442e363"
+            ]
+        ]
+    },
+    {
+        "id": "c5d69c3b0f5e30ee",
+        "type": "ui_button",
+        "z": "175af8efcea2d591",
+        "g": "2ac942eccf98a996",
+        "name": "",
+        "group": "3e7886cb7c605213",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "label": "RESET ALL",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 160,
+        "wires": [
+            [
+                "0e3ebf9316c50718"
+            ]
+        ]
+    },
+    {
+        "id": "0e3ebf9316c50718",
+        "type": "link out",
+        "z": "175af8efcea2d591",
+        "g": "2ac942eccf98a996",
+        "name": "JUST END IT",
+        "mode": "link",
+        "links": [
+            "691a5afc5b52b78a"
+        ],
+        "x": 365,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "811f25a4a4480bf7",
+        "type": "ui_button",
+        "z": "175af8efcea2d591",
+        "g": "77bdfe65956919ec",
+        "name": "",
+        "group": "3e7886cb7c605213",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "label": "Send 2 Lasers to RTO",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 260,
+        "y": 860,
+        "wires": [
+            [
+                "d775d38173b3593c"
+            ]
+        ]
+    },
+    {
+        "id": "d775d38173b3593c",
+        "type": "function",
+        "z": "175af8efcea2d591",
+        "g": "77bdfe65956919ec",
+        "name": "Set 2 hits",
+        "func": "/* \nExample input: \n{\n    \"node_id\":\"LTO\",\n    \"num_hits\":5, \n    \"timestamp\":1234567890\n}\n*/ \n// Vars\nmsg.payload = {};\n\n// Set up messages that emulate the MQTT message\nmsg.payload.node_id = \"RTO\";\nmsg.payload.num_hits = 2;\nmsg.payload.timestamp = 1234567890;\n\n// Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 860,
+        "wires": [
+            [
+                "8b81919795d67036"
+            ]
+        ]
+    },
+    {
+        "id": "8b81919795d67036",
+        "type": "link out",
+        "z": "175af8efcea2d591",
+        "g": "77bdfe65956919ec",
+        "name": "Manual Send Lasers",
+        "mode": "link",
+        "links": [
+            "da290e77a88988a7"
+        ],
+        "x": 645,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "0416ea6909311b42",
+        "type": "link in",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "Update FS",
+        "links": [
+            "71df01656749e372",
+            "42fbeec64825d3a1",
+            "c612b81a64bb9759",
+            "b4f3a4589cdc9edf",
+            "d0e47829bbab10d2",
+            "6f5b0006051e39ef",
+            "41518b531082b3d7",
+            "1a9410ac2442e363",
+            "0cfa25e363535ffd",
+            "ed138ca6db856899",
+            "7e1e1ed2c52487f5"
+        ],
+        "x": 145,
+        "y": 240,
+        "wires": [
+            [
+                "8078387b8154fc28",
+                "085de4503ad6ec20"
+            ]
+        ]
+    },
+    {
+        "id": "187c6afe9262807c",
+        "type": "comment",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "Update FS BEFORE WATER\\n payload.bldg, payload.window, payload.numFire",
+        "info": "",
+        "x": 280,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "8078387b8154fc28",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "Update Window Global",
+        "func": "//--- Basic variables\nvar input = msg.payload;\nvar theBldg = msg.payload.bldg;\nvar theWin = msg.payload.window;\nvar theFS = msg.payload.numFire;\n\n//--- Update Global Variables\nvar theGlobalString = theBldg + \".FS.Window\" + theWin + \"-BeforeWater\";\nglobal.set(theGlobalString,theFS);\n\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 220,
+        "wires": [
+            [
+                "dda9a78374edd0d2"
+            ]
+        ]
+    },
+    {
+        "id": "5acfacf7a05cc895",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "Update GutterPixels Global - Requires AfterWater String",
+        "func": "/* \nGutter is built with 30 pixels\n[0-7]   = Window 1 FS\n[8-9]   = Blank (spacer)\n[10-19] = Status\n[20-21] = Blank (spacer)\n[22-29] = Window 2 FS\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar theBldg = msg.payload.bldg;\nvar theWin = msg.payload.window;\n\n// --FS is no longer a basic variable, since you'll have to depend on VISIBLE (after Water) fire\nvar theFS = global.get(theBldg+\".FS.Window\" + theWin + \"-AfterWater\");\n\n//--- Get current gutterpixels, delete the relevant window's substring \n//string.substring(indexStart, indexEnd)\nvar curPixelString = global.get(theBldg + \".GutterPixels\");\nif (theWin == 1) {\n    var stringMinusWindow = curPixelString.substring(8, 30); //will want to check off-by-one issues\n} else if (theWin == 2) {\n    var stringMinusWindow = curPixelString.substring(0, 22); //will want to check off-by-one issues\n}\n//node.warn(stringMinusWindow);\n\n//--- Build the new window's string\nvar newWindowString = \"\";\n//-- Add 1's up to the FS, then 0's after that to only light up the FS pixels\n// off-by-one _should_ work out alright? \n// also js shorthand woo https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator\nfor (let i=0; i<8; i++) {\n    newWindowString += i<theFS ? \"1\" : \"0\"; \n}\n\n//--- Combino preparo \n//node.warn(newWindowString);\n//node.warn(stringMinusWindow);\nif (theWin == 1) {\n    var newPixelString = newWindowString + stringMinusWindow; \n} else if (theWin == 2) {\n    var newPixelString = stringMinusWindow + newWindowString;\n}\n\n//--- Fin\nglobal.set(theBldg + \".GutterPixels\", newPixelString);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1240,
+        "y": 240,
+        "wires": [
+            [
+                "926f27b7e8249ddb"
+            ]
+        ]
+    },
+    {
+        "id": "926f27b7e8249ddb",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "Build MQTT Msg for Gutter",
+        "func": "/*\n---- WILL NEED TO UPDATE ONCE WE KNOW HOW \"WHICHLEDS\" WORKS ---\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar node_id = msg.payload.bldg;\nvar theGutter = 1; //-=-=-=-==-=\n\n\n//--- Set up MQTT message\nvar gutterString = global.get(node_id + \".GutterPixels\");\nmsg.topic = \"nodered/updatepixels/\" + node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":\" + theGutter + \", \" +\n    \"\\\"pixels\\\": \\\"\" + gutterString + \"\\\"\" +\n    \"}\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1230,
+        "y": 280,
+        "wires": [
+            [
+                "5f0bcff5c4ed6ec4"
+            ]
+        ]
+    },
+    {
+        "id": "ed2d399b29970928",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "Build MQTT Msg for Window",
+        "func": "//--- Basic variables\nvar input = msg.payload;\nvar node_id = msg.payload.bldg;\nvar theWin = msg.payload.window;\n\nvar theFS = global.get(node_id + \".FS.Window\" + theWin + \"-AfterWater\");\n\n//--- Build MQTT message\nif (theFS > 0) {\n    msg.topic = \"nodered/lighton/\" + node_id;\n} else if (theFS == 0) {\n    msg.topic = \"nodered/lightoff/\" + node_id;\n}\nmsg.payload = \"{ \\\"whichLight\\\":\" + theWin + \"}\"\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1180,
+        "y": 360,
+        "wires": [
+            [
+                "f986ab9711daf36b"
+            ]
+        ]
+    },
+    {
+        "id": "5f0bcff5c4ed6ec4",
+        "type": "mqtt out",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 1460,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "f986ab9711daf36b",
+        "type": "mqtt out",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 1460,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "d052e342e40320b9",
+        "type": "inject",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "Set LBI Window 1 FS to 4",
+        "props": [
+            {
+                "p": "payload.bldg",
+                "v": "\"LBI\"",
+                "vt": "str"
+            },
+            {
+                "p": "payload.window",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "p": "payload.numFire",
+                "v": "4",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 260,
+        "y": 440,
+        "wires": [
+            [
+                "71df01656749e372"
+            ]
+        ]
+    },
+    {
+        "id": "71df01656749e372",
+        "type": "link out",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "Test FS updater 4",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42",
+            "772defe5dc3f1eb0"
+        ],
+        "x": 415,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "dd8828fab2dad33c",
+        "type": "inject",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "Set LBI Window 1 FS to 0",
+        "props": [
+            {
+                "p": "payload.bldg",
+                "v": "\"RTO\"",
+                "vt": "str"
+            },
+            {
+                "p": "payload.window",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "p": "payload.numFire",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 260,
+        "y": 480,
+        "wires": [
+            [
+                "42fbeec64825d3a1"
+            ]
+        ]
+    },
+    {
+        "id": "42fbeec64825d3a1",
+        "type": "link out",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "Test FS updater 4",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42",
+            "772defe5dc3f1eb0"
+        ],
+        "x": 415,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "4de1de66baa1bdcf",
+        "type": "comment",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "Test Injects",
+        "info": "",
+        "x": 150,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "085de4503ad6ec20",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "Update Status Global",
+        "func": "//--- Basic variables\nvar input = msg.payload;\nvar node_id = msg.payload.bldg;\nvar theWin = msg.payload.window;\nvar theFS = msg.payload.numFire;\n\n//--- Build MQTT message\nif (theFS > 0) {\n    global.set(node_id+\".Status\", \"Burning\");\n} else if (theFS == 0) {\n    global.set(node_id + \".Status\", \"Cleared\");\n}\n\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7138aeefb2263d68",
+        "type": "comment",
+        "z": "f6f035102302ba5a",
+        "g": "5f1037ebc6dbd72f",
+        "name": "Update GutterPixels \\n payload.bldg, payload.pixelstring",
+        "info": "",
+        "x": 220,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "f8afe1542a91baa2",
+        "type": "link in",
+        "z": "f6f035102302ba5a",
+        "g": "5f1037ebc6dbd72f",
+        "name": "Update GutterPixels",
+        "links": [
+            "ae0759e01e0881af"
+        ],
+        "x": 155,
+        "y": 680,
+        "wires": [
+            [
+                "f976aafaf0f9a3c1"
+            ]
+        ]
+    },
+    {
+        "id": "f976aafaf0f9a3c1",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "g": "5f1037ebc6dbd72f",
+        "name": "Update GutterPixels Global",
+        "func": "/* \nGutter is built with 30 pixels\n[0-7]   = Window 1 FS\n[8-9]   = Blank (spacer)\n[10-19] = Status\n[20-21] = Blank (spacer)\n[22-29] = Window 2 FS\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar theBldg = input.bldg;\nvar theString = input.pixelstring;\n\n//--- Update global\nglobal.set(theBldg + \".GutterPixels\", theString);\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 680,
+        "wires": [
+            [
+                "2d3d077a6a33a90f"
+            ]
+        ]
+    },
+    {
+        "id": "2d3d077a6a33a90f",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "g": "5f1037ebc6dbd72f",
+        "name": "Build MQTT Msg for Gutter",
+        "func": "/*\n---- WILL NEED TO UPDATE ONCE WE KNOW HOW \"WHICHLEDS\" WORKS ---\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar node_id = input.bldg;\nvar theGutter = 1; //-=-=-===--==\n\n//--- Set up MQTT message\nvar gutterString = global.get(node_id + \".GutterPixels\");\nmsg.topic = \"nodered/updatepixels/\" + node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":\" + theGutter + \", \" +\n    \"\\\"pixels\\\": \\\"\" + gutterString + \"\\\"\" +\n    \"}\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 720,
+        "wires": [
+            [
+                "19c221d99629ee7a"
+            ]
+        ]
+    },
+    {
+        "id": "19c221d99629ee7a",
+        "type": "mqtt out",
+        "z": "f6f035102302ba5a",
+        "g": "5f1037ebc6dbd72f",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 640,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "d5c077522e0efe06",
+        "type": "comment",
+        "z": "f6f035102302ba5a",
+        "g": "5f1037ebc6dbd72f",
+        "name": "WILL NEED TO TEST THESE WITH REAL PI",
+        "info": "",
+        "x": 720,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "42500fdf3edadd8f",
+        "type": "comment",
+        "z": "f6f035102302ba5a",
+        "g": "459fe488a5804676",
+        "name": "Update WaterQty\\n payload.bldg, payload.newAddlWaterQty",
+        "info": "",
+        "x": 260,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "ab46c7d25d3bb74b",
+        "type": "link in",
+        "z": "f6f035102302ba5a",
+        "g": "459fe488a5804676",
+        "name": "Update Water Qty",
+        "links": [
+            "3ddb4866a6ecb8fe"
+        ],
+        "x": 165,
+        "y": 1020,
+        "wires": [
+            [
+                "64807321f86b9125"
+            ]
+        ]
+    },
+    {
+        "id": "570cc8a3dd014038",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "g": "459fe488a5804676",
+        "name": "Update WaterQty, prep new FS",
+        "func": "/* \nExample input: \nmsg.payload.bldg = \"RTO\";\nmsg.payload.newAddlWaterQty = 3;\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.bldg;\nvar newWater = input.newAddlWaterQty;\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Get the globals\nvar win1_FS_pre = global.get(nodeid + \".FS.Window1-BeforeWater\");\nvar win2_FS_pre = global.get(nodeid + \".FS.Window2-BeforeWater\");\n\n//--- Do some quick water math\nvar curWaterQty = global.get(nodeid + \".WaterQty\");\nvar newWaterQty = curWaterQty + newWater;\nglobal.set(nodeid + \".WaterQty\", newWaterQty);\n\n//-----------\n//--- HOW MANY WATERS PER PIXEL / FS / BLIP ? \n// ---- Technically, in the manual, it is 4x for water drop balls, 2x for lasers\n//-----------\nswitch(nodeid) {\n    //laser\n    case \"LBO\":\n    case \"LTM\":\n    case \"LBM\":\n    case \"RTO\":\n    case \"RBM\":\n    case \"RTM\":\n        var WATER_PER_FS = 2;\n\n    //balls\n    case \"RTO\":\n    case \"RTI\":\n    case \"RBI\":\n    case \"RBO\":\n    case \"RBI\":\n    case \"RTI\":\n        var WATER_PER_FS = 4;\n}\nvar MAX_POSS_FS = 8;\n\n//--- Take the \"before Water\" FS's, and bang em against the water, and get new \"after Water\" FS's\nvar impactToFS = Math.floor(newWaterQty / WATER_PER_FS);\nnode.warn(impactToFS);\nvar the_FS_thats_left = (win1_FS_pre + win2_FS_pre) - impactToFS; \nnode.warn(\"theleft\");\nnode.warn(the_FS_thats_left);\nif (the_FS_thats_left > MAX_POSS_FS) { \n    var win1_FS_post = MAX_POSS_FS;\n    var win2_FS_post = the_FS_thats_left - MAX_POSS_FS;\n} else { \n    var win1_FS_post = the_FS_thats_left;\n    var win2_FS_post = 0;\n}\nnode.warn(win1_FS_post);\nnode.warn(win2_FS_post);\n\n//--- Prep FS update callback\n//payload.bldg, payload.window, payload.numFire\nmsg1.payload.bldg = nodeid;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = win1_FS_post;\n\nmsg2.payload.bldg = nodeid;\nmsg2.payload.window = 2;\nmsg2.payload.numFire = win2_FS_post;\n\n//rrrrrap it up\nreturn [msg1, msg2];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1030,
+        "y": 960,
+        "wires": [
+            [
+                "7e1e1ed2c52487f5",
+                "f4ccd769fbdd6843"
+            ],
+            [
+                "8498c6ad0a1a8df7"
+            ]
+        ]
+    },
+    {
+        "id": "7e1e1ed2c52487f5",
+        "type": "link out",
+        "z": "f6f035102302ba5a",
+        "g": "459fe488a5804676",
+        "name": "Water Hitting FS",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42"
+        ],
+        "x": 1395,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "505ee7d447687c96",
+        "type": "comment",
+        "z": "f6f035102302ba5a",
+        "g": "459fe488a5804676",
+        "name": "Send this to the FS callback\\n Delay to avoid windows stepping on each other",
+        "info": "",
+        "x": 1460,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "8498c6ad0a1a8df7",
+        "type": "delay",
+        "z": "f6f035102302ba5a",
+        "g": "459fe488a5804676",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "50",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1290,
+        "y": 980,
+        "wires": [
+            [
+                "7e1e1ed2c52487f5"
+            ]
+        ]
+    },
+    {
+        "id": "192043bb5930e80f",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "459fe488a5804676",
+        "name": "[obsolete method for this]",
+        "func": "/* \nExample input: \nmsg.payload.bldg = \"RTO\";\nmsg.payload.newAddlWaterQty = 3;\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.bldg;\nvar newWater = input.newAddlWaterQty;\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Get the globals\nvar win1_FS_pre = global.get(nodeid + \".FS.Window1.BeforeWater\");\nvar win2_FS_pre = global.get(nodeid + \".FS.Window2.BeforeWater\");\n\n//--- Do some quick water math\nvar curWaterQty = global.get(nodeid + \".WaterQty\");\nvar newWaterQty = curWaterQty + newWater;\n\n//-----------\n//--- HOW MANY WATERS PER PIXEL / FS / BLIP ? \n// ---- Technically, in the manual, it is 4x for water drop balls, 2x for lasers\n//-----------\nswitch(nodeid) {\n    //laser\n    case \"LBO\":\n    case \"LTM\":\n    case \"LBM\":\n    case \"RTO\":\n    case \"RBM\":\n    case \"RTM\":\n        var WATER_PER_FS = 2;\n\n    //balls\n    case \"RTO\":\n    case \"RTI\":\n    case \"RBI\":\n    case \"RBO\":\n    case \"RBI\":\n    case \"RTI\":\n        var WATER_PER_FS = 4;\n}\nvar MAX_POSS_FS = 8;\n\n/* Example: \n- Win1FS = 8 | Win2FS = 3 | WaterQty = 2 | NewWaterQty = 12\nEnough water is dropped to drop 12 FS points (wateredDownAmt = 12)\n- 8 of this goes to window 1\n- 4 of this goes to window 2\nOtherwise, it just sticks to window 1.\n- THIS IS TRUE EVEN IF window 2 is active.\n- This is part of the \"back to basics\" gameplay.  Is it \"right\" or \"the best\"?  Probably not.. but it's easy\nANOTHER CURRENT ISSUE\n- Currently, this just tracks one master \"water amt\" \n- So theoretically, if your waterqty exceeds window1's amt, it will \"proactively\" count towards window2\n- Probably need to fix this later...\n\nalso.... this is probably way overcomplicated and the result of late night work\n\nthis iwill just need lots of testing\n*/ \nvar wateredDownAmt = Math.floor(newWaterQty / WATER_PER_FS);\n//node.warn(wateredDownAmt);\nif (wateredDownAmt >= 8) {\n    var firstWindowWater = 8;\n    var secondWindowWater = wateredDownAmt - 8;\n} else {\n    var firstWindowWater = wateredDownAmt;\n    var secondWindowWater = 0;\n}\n//node.warn(firstWindowWater);\n//node.warn(secondWindowWater);\n\n\n//--- Calc new FS's\nvar newFS_Win1 = win1_FS - (MAX_POSS_FS - firstWindowWater);\nvar newFS_Win2 = win2_FS - (MAX_POSS_FS - secondWindowWater);\n//node.warn(newFS_Win1);\n\n//--- Update globals\nglobal.set(nodeid+\".WaterQty\", newWaterQty);\n\n\n//--- Prep output for FS update callback\n//payload.bldg, payload.window, payload.numFire\nmsg1.payload.bldg = nodeid;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = win1_FS > 0 ? newFS_Win1 : 0;\n\nmsg2.payload.bldg = nodeid;\nmsg2.payload.window = 2;\nmsg2.payload.numFire = win2_FS > 0 ? newFS_Win2 : 0;\n\n//--- Fin\n//return [msg1, msg2];",
+        "outputs": 2,
+        "noerr": 4,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1490,
+        "y": 880,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "f4ccd769fbdd6843",
+        "type": "debug",
+        "z": "f6f035102302ba5a",
+        "g": "459fe488a5804676",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "63f18a575dc37f3b",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "Convert BeforeWater -> AfterWater",
+        "func": "//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.bldg;\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Get the globals\nvar win1_FS_pre = global.get(nodeid + \".FS.Window1-BeforeWater\");\nvar win2_FS_pre = global.get(nodeid + \".FS.Window2-BeforeWater\");\nvar theWater = global.get(nodeid + \".WaterQty\");\n\n//--- Do some quick math\nvar MAX_POSS_FS = 8;\nswitch (nodeid) {\n    //laser\n    case \"LBO\":\n    case \"LTM\":\n    case \"LBM\":\n    case \"RTO\":\n    case \"RBM\":\n    case \"RTM\":\n        var WATER_PER_FS = 2;\n\n    //balls\n    case \"RTO\":\n    case \"RTI\":\n    case \"RBI\":\n    case \"RBO\":\n    case \"RBI\":\n    case \"RTI\":\n        var WATER_PER_FS = 4;\n}\n\n//--- Take the \"before Water\" FS's, and bang em against the water, and get new \"after Water\" FS's\nvar impactToFS = Math.floor(theWater / WATER_PER_FS);\nvar the_FS_thats_left = (win1_FS_pre + win2_FS_pre) - impactToFS;\n//node.warn(the_FS_thats_left);\nif (the_FS_thats_left > MAX_POSS_FS) {\n    var win1_FS_post = MAX_POSS_FS;\n    var win2_FS_post = the_FS_thats_left - MAX_POSS_FS;\n} else {\n    var win1_FS_post = the_FS_thats_left;\n    var win2_FS_post = 0;\n}\n//node.warn(win1_FS_post);\n//node.warn(win2_FS_post);\n\n//--- Update de globals\nglobal.set(nodeid + \".FS.Window1-AfterWater\", win1_FS_post);\nglobal.set(nodeid + \".FS.Window2-AfterWater\", win2_FS_post);\n\n//--- Prep FS update callback\n//payload.bldg, payload.window, payload.numFire\nmsg1.payload.bldg = nodeid;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = win1_FS_post;\nmsg2.payload.bldg = nodeid;\nmsg2.payload.window = 2;\nmsg2.payload.numFire = win2_FS_post;\n\n//rrrrrap it up\nreturn [msg1, msg2];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 240,
+        "wires": [
+            [
+                "5acfacf7a05cc895",
+                "ed2d399b29970928"
+            ],
+            [
+                "5acfacf7a05cc895",
+                "ed2d399b29970928"
+            ]
+        ]
+    },
+    {
+        "id": "64807321f86b9125",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "g": "459fe488a5804676",
+        "name": "Update WaterQty, send to kickoff FS update",
+        "func": "/* \nExample input: \nmsg.payload.bldg = \"RTO\";\nmsg.payload.newAddlWaterQty = 3;\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.bldg;\nvar newWater = input.newAddlWaterQty;\nmsg.payload = {};\n\n\n//--- Do some quick water math\nvar curWaterQty = global.get(nodeid + \".WaterQty\");\nvar newWaterQty = curWaterQty + newWater;\n\n//--- Update the gloabl\nglobal.set(nodeid + \".WaterQty\", newWaterQty);\n\n\n//--- Prep FS update callback\n//payload.bldg, payload.window, payload.numFire\nmsg.payload.bldg = nodeid;\n\n//rrrrrap it up\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 1020,
+        "wires": [
+            [
+                "71f67f7f27cafd81"
+            ]
+        ]
+    },
+    {
+        "id": "dda9a78374edd0d2",
+        "type": "link out",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "To Window Washing",
+        "mode": "link",
+        "links": [
+            "a25ecc470396a417"
+        ],
+        "x": 475,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "a25ecc470396a417",
+        "type": "link in",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "Time to Wash Windows",
+        "links": [
+            "dda9a78374edd0d2",
+            "71f67f7f27cafd81"
+        ],
+        "x": 645,
+        "y": 240,
+        "wires": [
+            [
+                "63f18a575dc37f3b"
+            ]
+        ]
+    },
+    {
+        "id": "71f67f7f27cafd81",
+        "type": "link out",
+        "z": "f6f035102302ba5a",
+        "g": "459fe488a5804676",
+        "name": "To Window Washing",
+        "mode": "link",
+        "links": [
+            "a25ecc470396a417"
+        ],
+        "x": 605,
+        "y": 1020,
+        "wires": []
     }
 ]
