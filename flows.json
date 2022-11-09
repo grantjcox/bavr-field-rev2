@@ -255,6 +255,76 @@
         "h": 302
     },
     {
+        "id": "46e96436b49a032d",
+        "type": "group",
+        "z": "47c0e0ae667846a9",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "6c36dbfe44cb036b",
+            "35860ad47d848928",
+            "666ddc2d1f9ad272",
+            "62457075fe8acc34",
+            "9e2f4acaa87727e5",
+            "98bdf92b14ea3f17",
+            "d9f0243f09640174",
+            "40901f38ed52bcb3"
+        ],
+        "x": 914,
+        "y": 19
+    },
+    {
+        "id": "0d233ae99a4c6065",
+        "type": "group",
+        "z": "47c0e0ae667846a9",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "7a5f520857017bbb",
+            "70c149ec65fb102c",
+            "5f3e0a85eea68705"
+        ],
+        "x": 34,
+        "y": 19
+    },
+    {
+        "id": "aa7cdd8f3125703c",
+        "type": "group",
+        "z": "47c0e0ae667846a9",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "0e16be23a79edb49",
+            "af913b1474ed43d9",
+            "4f65e1b1c3249fbc",
+            "39d591f75ab6581f",
+            "6e6816ac951a5c0f"
+        ],
+        "x": 34,
+        "y": 159
+    },
+    {
         "id": "2b2a6d295740d392",
         "type": "group",
         "z": "55a762ae72fa441b",
@@ -345,82 +415,6 @@
         "y": 639,
         "w": 712,
         "h": 142
-    },
-    {
-        "id": "46e96436b49a032d",
-        "type": "group",
-        "z": "47c0e0ae667846a9",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "6c36dbfe44cb036b",
-            "35860ad47d848928",
-            "666ddc2d1f9ad272",
-            "62457075fe8acc34",
-            "9e2f4acaa87727e5",
-            "98bdf92b14ea3f17",
-            "d9f0243f09640174",
-            "40901f38ed52bcb3"
-        ],
-        "x": 914,
-        "y": 19,
-        "w": 572,
-        "h": 322
-    },
-    {
-        "id": "0d233ae99a4c6065",
-        "type": "group",
-        "z": "47c0e0ae667846a9",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "7a5f520857017bbb",
-            "70c149ec65fb102c",
-            "5f3e0a85eea68705"
-        ],
-        "x": 34,
-        "y": 19,
-        "w": 552,
-        "h": 122
-    },
-    {
-        "id": "aa7cdd8f3125703c",
-        "type": "group",
-        "z": "47c0e0ae667846a9",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "0e16be23a79edb49",
-            "af913b1474ed43d9",
-            "4f65e1b1c3249fbc",
-            "39d591f75ab6581f",
-            "6e6816ac951a5c0f"
-        ],
-        "x": 34,
-        "y": 159,
-        "w": 852,
-        "h": 182
     },
     {
         "id": "b411c6135a7823e0",
@@ -1090,7 +1084,7 @@
         "name": "Callbacks",
         "info": "",
         "x": 1560,
-        "y": 260,
+        "y": 220,
         "wires": []
     },
     {
@@ -2990,7 +2984,7 @@
         "type": "mqtt in",
         "z": "55a762ae72fa441b",
         "name": "",
-        "topic": "edgenode/laserhit/*",
+        "topic": "edgenode/laserhit/#",
         "qos": "2",
         "datatype": "auto-detect",
         "broker": "bc90be16040a7d21",
@@ -2998,20 +2992,39 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 190,
+        "x": 210,
+        "y": 2500,
+        "wires": [
+            [
+                "3324776758a34ef8"
+            ]
+        ]
+    },
+    {
+        "id": "3324776758a34ef8",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "name": "Do Water Things",
+        "func": "/* \nExample input: \n{\n    \"node_id\":\"LTO\",\n    \"num_hits\":5, \n    \"timestamp\":1234567890\n}\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.node_id; //going to need to test this\nvar numHits = input[\"num_hits\"];\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Get the globals\nvar win1_FS = global.get(nodeid + \"FS.Window1\");\nvar win2_FS = global.get(nodeid + \"FS.Window2\");\n\n//--- Do some water math\nvar curWaterQty = global.get(nodeid + \".WaterQty\");\nvar newWaterQty = curWaterQty + numHits;\n\n//-----------\n//--- HOW MANY WATERS PER PIXEL / FS / BLIP ? \n//-----------\nvar WATER_PER_FS = 4;\nvar MAX_POSS_FS = 8;\n\n/* Example: \nEnough water is dropped to drop 12 FS points (wateredDownAmt = 12)\n- 8 of this goes to window 1\n- 4 of this goes to window 2\nOtherwise, it just sticks to window 1.\n- THIS IS TRUE EVEN IF window 2 is active.\n- This is part of the \"back to basics\" gameplay.  Is it \"right\" or \"the best\"?  Probably not.. but it's easy\nANOTHER CURRENT ISSUE\n- Currently, this just tracks one master \"water amt\" \n- So theoretically, if your waterqty exceeds window1's amt, it will \"proactively\" count towards window2\n- Probably need to fix this later...\n*/ \nvar wateredDownAmt = Math.floor(newWaterQty / WATER_PER_FS);\nif (wateredDownAmt >= 8) {\n    var firstWindowWater = 8;\n    var secondWindowWater = wateredDownAmt - 8;\n} else {\n    firstWindowWater = wateredDownAmt;\n}\n\n//--- Update globals\n\n\nif (win2_FS > 0) {\n    global.set(nodeid + \"FS.Window2\", (MAX_POSS_FS - secondWindowWater));\n}\n\n//--- Prep output for FS update callback\n//payload.bldg, payload.window, payload.numFire\nmsg1.payload.bldg = nodeid;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = win1_FS > 0 ? (MAX_POSS_FS - firstWindowWater) : 0;\n\nmsg2.payload.bldg = nodeid;\nmsg2.payload.window = 1;\nmsg2.payload.numFire = win2_FS > 0 ? (MAX_POSS_FS - secondWindowWater) : 0;\n\n//--- Fin\nreturn [msg1, msg2];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
         "y": 2500,
         "wires": [
             []
         ]
     },
     {
-        "id": "66dc923547bd8a4f",
+        "id": "447cbf118008938c",
         "type": "comment",
         "z": "55a762ae72fa441b",
-        "name": "Need to get the parsing flows from other one",
+        "name": "<------ NOT YET TESTED",
         "info": "",
-        "x": 570,
-        "y": 2460,
+        "x": 690,
+        "y": 2520,
         "wires": []
     },
     {
