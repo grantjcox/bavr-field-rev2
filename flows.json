@@ -56,7 +56,8 @@
             "17966a2f1dd06930",
             "3697150f5332d13d",
             "822ce164ff689dfc",
-            "5903df706bf17bf9"
+            "5903df706bf17bf9",
+            "31c4db3eb2f36e59"
         ],
         "x": 34,
         "y": 79,
@@ -359,12 +360,16 @@
             "085de4503ad6ec20",
             "63f18a575dc37f3b",
             "dda9a78374edd0d2",
-            "a25ecc470396a417"
+            "a25ecc470396a417",
+            "619a82dad0d84d31",
+            "2a37db221e4919dc",
+            "fe84ce88167ea094",
+            "f51ab8a6ad8f65b6"
         ],
-        "x": 64,
-        "y": 67,
-        "w": 1472,
-        "h": 454
+        "x": 74,
+        "y": 59,
+        "w": 1762,
+        "h": 462
     },
     {
         "id": "5f1037ebc6dbd72f",
@@ -630,6 +635,34 @@
         "y": 619,
         "w": 1242,
         "h": 282
+    },
+    {
+        "id": "2971d7c90b74f3b4",
+        "type": "group",
+        "z": "f6f035102302ba5a",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "9004aeb7ec1ed4bf",
+            "692f7e973b247e3f",
+            "dc410816705aadf3",
+            "4c72ca30adc671fc",
+            "627488f25f62e8dc",
+            "58af15e1f7b1e202",
+            "41fe48a660030e78",
+            "b348ea8918f0e0bc"
+        ],
+        "x": 1874,
+        "y": 39,
+        "w": 672,
+        "h": 242
     },
     {
         "id": "b411c6135a7823e0",
@@ -1012,7 +1045,7 @@
         "order": 1,
         "width": 0,
         "height": 0,
-        "passthru": false,
+        "passthru": true,
         "label": "Turn on Bldgs",
         "tooltip": "",
         "color": "",
@@ -1023,7 +1056,7 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 200,
+        "x": 230,
         "y": 160,
         "wires": [
             [
@@ -1335,7 +1368,7 @@
         "z": "55a762ae72fa441b",
         "g": "4a4f80625f8ea163",
         "name": "Reset / Default Global Variables",
-        "func": "\n//--- Match setup \nglobal.set(\"startSide\",\"\");  // L or R\nglobal.set(\"otherSide\", \"\"); // L or R\nglobal.set(\"startRoute\",\"\"); // T or B\nglobal.set(\"hotBldg\",\"\");    // T or B\n\n\n//--- Building objects\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nfor (var i in bldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(bldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores \n    global.set(bldgs[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(bldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(bldgs[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(bldgs[i] + \".FS.Window2-AfterWater\", 0);\n\n    // Water qtys - int\n    global.set(bldgs[i] + \".WaterQty\", 0);\n\n    // Gutterpixels - string of numbers that represent colors\n    global.set(bldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\n\n\n//Fin\nreturn msg;",
+        "func": "\n//--- Match setup \nglobal.set(\"startSide\",\"\");  // L or R\nglobal.set(\"otherSide\", \"\"); // L or R\nglobal.set(\"startRoute\",\"\"); // T or B\nglobal.set(\"hotBldg\",\"\");    // T or B\nglobal.set(\"curPhase\",1);    // 1, 2, or 3\n\n\n//--- Building objects\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nfor (var i in bldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(bldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores \n    global.set(bldgs[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(bldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(bldgs[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(bldgs[i] + \".FS.Window2-AfterWater\", 0);\n\n    // Water qtys - int\n    global.set(bldgs[i] + \".WaterQty\", 0);\n\n    // Gutterpixels - string of numbers that represent colors\n    global.set(bldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\n\n\n//Fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -2241,7 +2274,7 @@
         "g": "4788e8d5cbe11d8f",
         "name": "",
         "pauseType": "delay",
-        "timeout": "30",
+        "timeout": "180",
         "timeoutUnits": "seconds",
         "rate": "1",
         "nbRateUnits": "1",
@@ -2252,7 +2285,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 260,
+        "x": 270,
         "y": 2720,
         "wires": [
             [
@@ -3015,7 +3048,7 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 200,
+        "x": 240,
         "y": 580,
         "wires": [
             [
@@ -3236,7 +3269,7 @@
         "g": "6a070793fb470a03",
         "name": "",
         "pauseType": "delay",
-        "timeout": "150",
+        "timeout": "5",
         "timeoutUnits": "milliseconds",
         "rate": "1",
         "nbRateUnits": "1",
@@ -3313,9 +3346,11 @@
         "g": "378995858571b39f",
         "name": "someone wants to turn me off",
         "links": [
-            "da02d40547f5f97a"
+            "da02d40547f5f97a",
+            "627488f25f62e8dc",
+            "b348ea8918f0e0bc"
         ],
-        "x": 85,
+        "x": 125,
         "y": 580,
         "wires": [
             [
@@ -3461,6 +3496,23 @@
         "wires": [
             [
                 "3ddb4866a6ecb8fe"
+            ]
+        ]
+    },
+    {
+        "id": "31c4db3eb2f36e59",
+        "type": "link in",
+        "z": "55a762ae72fa441b",
+        "g": "6a070793fb470a03",
+        "name": "someone wants to turn me on",
+        "links": [
+            "dc410816705aadf3"
+        ],
+        "x": 115,
+        "y": 160,
+        "wires": [
+            [
+                "5725302ea02fb9eb"
             ]
         ]
     },
@@ -4443,7 +4495,7 @@
             "7e1e1ed2c52487f5",
             "3fbcebb8a982c031"
         ],
-        "x": 145,
+        "x": 155,
         "y": 240,
         "wires": [
             [
@@ -4459,7 +4511,7 @@
         "g": "284c27310b25477c",
         "name": "Update FS BEFORE WATER\\n payload.bldg, payload.window, payload.numFire",
         "info": "",
-        "x": 280,
+        "x": 290,
         "y": 120,
         "wires": []
     },
@@ -4475,7 +4527,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 330,
+        "x": 340,
         "y": 220,
         "wires": [
             [
@@ -4495,7 +4547,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1240,
+        "x": 1250,
         "y": 240,
         "wires": [
             [
@@ -4515,7 +4567,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1230,
+        "x": 1240,
         "y": 280,
         "wires": [
             [
@@ -4535,7 +4587,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1240,
+        "x": 1250,
         "y": 360,
         "wires": [
             [
@@ -4558,7 +4610,7 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 1460,
+        "x": 1470,
         "y": 280,
         "wires": []
     },
@@ -4577,7 +4629,7 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 1460,
+        "x": 1470,
         "y": 360,
         "wires": []
     },
@@ -4609,7 +4661,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 260,
+        "x": 270,
         "y": 440,
         "wires": [
             [
@@ -4628,7 +4680,7 @@
             "0416ea6909311b42",
             "772defe5dc3f1eb0"
         ],
-        "x": 415,
+        "x": 425,
         "y": 440,
         "wires": []
     },
@@ -4660,7 +4712,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 260,
+        "x": 270,
         "y": 480,
         "wires": [
             [
@@ -4679,7 +4731,7 @@
             "0416ea6909311b42",
             "772defe5dc3f1eb0"
         ],
-        "x": 415,
+        "x": 425,
         "y": 480,
         "wires": []
     },
@@ -4690,7 +4742,7 @@
         "g": "284c27310b25477c",
         "name": "Test Injects",
         "info": "",
-        "x": 150,
+        "x": 160,
         "y": 400,
         "wires": []
     },
@@ -4706,7 +4758,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 330,
+        "x": 340,
         "y": 180,
         "wires": [
             []
@@ -4946,18 +4998,19 @@
         "z": "f6f035102302ba5a",
         "g": "284c27310b25477c",
         "name": "Convert BeforeWater -> AfterWater",
-        "func": "//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.bldg;\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Get the globals\nvar win1_FS_pre = global.get(nodeid + \".FS.Window1-BeforeWater\");\nvar win2_FS_pre = global.get(nodeid + \".FS.Window2-BeforeWater\");\nvar theWater = global.get(nodeid + \".WaterQty\");\n\n//--- Do some quick math\nvar MAX_POSS_FS = 8;\nswitch (nodeid) {\n    //-- LASER \n    case \"LBO\":\n    case \"LTM\":\n    case \"LBM\":\n    case \"RTO\":\n    case \"RBM\":\n    case \"RTM\":\n        var WATER_PER_FS = 1; //-- LASER\n\n    //-- BALLS \n    case \"RTO\":\n    case \"RTI\":\n    case \"RBI\":\n    case \"LBO\":\n    case \"LBI\":\n    case \"LTI\":\n        var WATER_PER_FS = 2; //-- BALLS \n}\n\n//--- Take the \"before Water\" FS's, and bang em against the water, and get new \"after Water\" FS's\nvar impactToFS = Math.floor(theWater / WATER_PER_FS);\nnode.warn(impactToFS);\nvar the_FS_thats_left = (win1_FS_pre + win2_FS_pre) - impactToFS;\nnode.warn(the_FS_thats_left);\nif (the_FS_thats_left > MAX_POSS_FS) {\n    var win1_FS_post = MAX_POSS_FS;\n    var win2_FS_post = the_FS_thats_left - MAX_POSS_FS;\n} else {\n    var win1_FS_post = the_FS_thats_left;\n    var win2_FS_post = 0;\n}\n//node.warn(win1_FS_post);\n//node.warn(win2_FS_post);\n\n//--- Update de globals\nglobal.set(nodeid + \".FS.Window1-AfterWater\", win1_FS_post);\nglobal.set(nodeid + \".FS.Window2-AfterWater\", win2_FS_post);\n\n//--- Prep FS update callback\n//payload.bldg, payload.window, payload.numFire\nmsg1.payload.bldg = nodeid;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = win1_FS_post;\nmsg2.payload.bldg = nodeid;\nmsg2.payload.window = 2;\nmsg2.payload.numFire = win2_FS_post;\n\n//rrrrrap it up\nreturn [msg1, msg2];",
+        "func": "//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.bldg;\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Get the globals\nvar win1_FS_pre = global.get(nodeid + \".FS.Window1-BeforeWater\");\nvar win2_FS_pre = global.get(nodeid + \".FS.Window2-BeforeWater\");\nvar theWater = global.get(nodeid + \".WaterQty\");\n\n//--- Do some quick math\nvar MAX_POSS_FS = 8;\nswitch (nodeid) {\n    //-- LASER \n    case \"LBO\":\n    case \"LTM\":\n    case \"LBM\":\n    case \"RTO\":\n    case \"RBM\":\n    case \"RTM\":\n        var WATER_PER_FS = 1; //-- LASER\n\n    //-- BALLS \n    case \"RTO\":\n    case \"RTI\":\n    case \"RBI\":\n    case \"LBO\":\n    case \"LBI\":\n    case \"LTI\":\n        var WATER_PER_FS = 2; //-- BALLS \n}\n\n//--- Take the \"before Water\" FS's, and bang em against the water, and get new \"after Water\" FS's\nvar impactToFS = Math.floor(theWater / WATER_PER_FS);\n//node.warn(impactToFS);\nvar the_FS_thats_left = (win1_FS_pre + win2_FS_pre) - impactToFS;\n//node.warn(the_FS_thats_left);\nif (the_FS_thats_left > MAX_POSS_FS) {\n    var win1_FS_post = MAX_POSS_FS;\n    var win2_FS_post = the_FS_thats_left - MAX_POSS_FS;\n} else {\n    var win1_FS_post = the_FS_thats_left;\n    var win2_FS_post = 0;\n}\n//node.warn(win1_FS_post);\n//node.warn(win2_FS_post);\n\n//--- Update de globals\nglobal.set(nodeid + \".FS.Window1-AfterWater\", win1_FS_post);\nglobal.set(nodeid + \".FS.Window2-AfterWater\", win2_FS_post);\n\n//--- Prep FS update callback\n//payload.bldg, payload.window, payload.numFire\nmsg1.payload.bldg = nodeid;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = win1_FS_post;\nmsg2.payload.bldg = nodeid;\nmsg2.payload.window = 2;\nmsg2.payload.numFire = win2_FS_post;\n\n//rrrrrap it up\nreturn [msg1, msg2];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 830,
+        "x": 840,
         "y": 240,
         "wires": [
             [
                 "5acfacf7a05cc895",
-                "ed2d399b29970928"
+                "ed2d399b29970928",
+                "619a82dad0d84d31"
             ],
             [
                 "5acfacf7a05cc895",
@@ -4971,7 +5024,7 @@
         "z": "f6f035102302ba5a",
         "g": "459fe488a5804676",
         "name": "Update WaterQty, send to kickoff FS update",
-        "func": "/* \nExample input: \nmsg.payload.bldg = \"RTO\";\nmsg.payload.newAddlWaterQty = 3;\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.bldg;\nvar newWater = input.newAddlWaterQty;\nmsg.payload = {};\n\nnode.warn(\"addlwater\");\nnode.warn(newWater);\n\n\n//--- Do some quick water math\nvar curWaterQty = global.get(nodeid + \".WaterQty\");\ncurWaterQty = curWaterQty === undefined ? 0 : curWaterQty; // don't poison the waterhole\nvar newWaterQty = curWaterQty + newWater;\nnode.warn(newWaterQty);\nnode.warn(newWaterQty);\n\n//--- Update the gloabl\nglobal.set(nodeid + \".WaterQty\", newWaterQty);\n\n\n//--- Prep FS update callback\n// ???\nmsg.payload.bldg = nodeid;\n\n//rrrrrap it up\nreturn msg;",
+        "func": "/* \nExample input: \nmsg.payload.bldg = \"RTO\";\nmsg.payload.newAddlWaterQty = 3;\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.bldg;\nvar newWater = input.newAddlWaterQty;\nmsg.payload = {};\n\n//node.warn(\"addlwater\");\n//node.warn(newWater);\n\n\n//--- Do some quick water math\nvar curWaterQty = global.get(nodeid + \".WaterQty\");\ncurWaterQty = curWaterQty === undefined ? 0 : curWaterQty; // don't poison the waterhole\nvar newWaterQty = curWaterQty + newWater;\n//node.warn(newWaterQty);\n//node.warn(newWaterQty);\n\n//--- Update the gloabl\nglobal.set(nodeid + \".WaterQty\", newWaterQty);\n\n\n//--- Prep FS update callback\n// ???\nmsg.payload.bldg = nodeid;\n\n//rrrrrap it up\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4995,7 +5048,7 @@
         "links": [
             "a25ecc470396a417"
         ],
-        "x": 475,
+        "x": 485,
         "y": 220,
         "wires": []
     },
@@ -5009,7 +5062,7 @@
             "dda9a78374edd0d2",
             "71f67f7f27cafd81"
         ],
-        "x": 645,
+        "x": 655,
         "y": 240,
         "wires": [
             [
@@ -5234,5 +5287,238 @@
                 "3c85efd6b9fe4796"
             ]
         ]
+    },
+    {
+        "id": "619a82dad0d84d31",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "Check if Phase 2 ready",
+        "func": "/* \nEvery time you're updating a FS, check to see if it's the LAST ONE  :O\n*/ \n\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar theTotalFS = 0;\n\n// --- Loop through all buildings, add up total FS\nfor (var i in bldgs) {\n    theTotalFS += global.get(bldgs[i] + \".FS.Window1-AfterWater\") + global.get(bldgs[i] + \".FS.Window2-AfterWater\");\n}\n\n// --- If it's gone, LET'S GO\nmsg.payload = theTotalFS <= 0 ? true : false;\nnode.warn(theTotalFS);\n// fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1470,
+        "y": 140,
+        "wires": [
+            [
+                "2a37db221e4919dc",
+                "f51ab8a6ad8f65b6"
+            ]
+        ]
+    },
+    {
+        "id": "2a37db221e4919dc",
+        "type": "switch",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "If ready",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1680,
+        "y": 140,
+        "wires": [
+            [
+                "fe84ce88167ea094"
+            ]
+        ]
+    },
+    {
+        "id": "9004aeb7ec1ed4bf",
+        "type": "link in",
+        "z": "f6f035102302ba5a",
+        "g": "2971d7c90b74f3b4",
+        "name": "TIME FOR PHASE 2",
+        "links": [
+            "fe84ce88167ea094"
+        ],
+        "x": 1975,
+        "y": 140,
+        "wires": [
+            [
+                "58af15e1f7b1e202"
+            ]
+        ]
+    },
+    {
+        "id": "fe84ce88167ea094",
+        "type": "link out",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "GOTO PHASE 2",
+        "mode": "link",
+        "links": [
+            "9004aeb7ec1ed4bf"
+        ],
+        "x": 1795,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "692f7e973b247e3f",
+        "type": "comment",
+        "z": "f6f035102302ba5a",
+        "g": "2971d7c90b74f3b4",
+        "name": "TIME FOR PHASE 2",
+        "info": "",
+        "x": 1990,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "dc410816705aadf3",
+        "type": "link out",
+        "z": "f6f035102302ba5a",
+        "g": "2971d7c90b74f3b4",
+        "name": "clap on",
+        "mode": "link",
+        "links": [
+            "31c4db3eb2f36e59"
+        ],
+        "x": 2305,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "4c72ca30adc671fc",
+        "type": "delay",
+        "z": "f6f035102302ba5a",
+        "g": "2971d7c90b74f3b4",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "200",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2370,
+        "y": 200,
+        "wires": [
+            [
+                "627488f25f62e8dc",
+                "58af15e1f7b1e202"
+            ]
+        ]
+    },
+    {
+        "id": "627488f25f62e8dc",
+        "type": "link out",
+        "z": "f6f035102302ba5a",
+        "g": "2971d7c90b74f3b4",
+        "name": "clap off",
+        "mode": "link",
+        "links": [
+            "48373ebe740e92b6"
+        ],
+        "x": 2505,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "58af15e1f7b1e202",
+        "type": "loop",
+        "z": "f6f035102302ba5a",
+        "g": "2971d7c90b74f3b4",
+        "name": "Mini Rave Loop",
+        "kind": "fcnt",
+        "count": "5",
+        "initial": "1",
+        "step": "1",
+        "condition": "",
+        "conditionType": "js",
+        "when": "before",
+        "enumeration": "enum",
+        "enumerationType": "msg",
+        "limit": "",
+        "loopPayload": "loop-index",
+        "finalPayload": "final-count",
+        "x": 2140,
+        "y": 140,
+        "wires": [
+            [
+                "b348ea8918f0e0bc"
+            ],
+            [
+                "dc410816705aadf3",
+                "4c72ca30adc671fc"
+            ]
+        ]
+    },
+    {
+        "id": "41fe48a660030e78",
+        "type": "inject",
+        "z": "f6f035102302ba5a",
+        "g": "2971d7c90b74f3b4",
+        "name": "LET'S RAVE",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 2030,
+        "y": 220,
+        "wires": [
+            [
+                "58af15e1f7b1e202"
+            ]
+        ]
+    },
+    {
+        "id": "b348ea8918f0e0bc",
+        "type": "link out",
+        "z": "f6f035102302ba5a",
+        "g": "2971d7c90b74f3b4",
+        "name": "clap off",
+        "mode": "link",
+        "links": [
+            "48373ebe740e92b6"
+        ],
+        "x": 2305,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "f51ab8a6ad8f65b6",
+        "type": "debug",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1640,
+        "y": 100,
+        "wires": []
     }
 ]
