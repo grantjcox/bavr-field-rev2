@@ -178,12 +178,13 @@
             "0ff21611a0176572",
             "691a5afc5b52b78a",
             "45e70a9ad7899e4d",
-            "9cbdb9d52fe7cf9a"
+            "9cbdb9d52fe7cf9a",
+            "9bc5be050fadf6b6"
         ],
         "x": 54,
         "y": 1979,
         "w": 1562,
-        "h": 562
+        "h": 582
     },
     {
         "id": "4788e8d5cbe11d8f",
@@ -315,48 +316,18 @@
             "3324776758a34ef8",
             "14d53b51ae10a6d7",
             "da290e77a88988a7",
-            "81af1ce1ab5d6579",
             "3ddb4866a6ecb8fe",
             "250504d69a42ec07",
             "a43cfe8c60aa1766",
             "03cc0a5688f63569",
             "8b9f85415994242a",
-            "81525ae27ca9e82c"
+            "81525ae27ca9e82c",
+            "b92ea91a45968087"
         ],
         "x": 54,
         "y": 2899,
-        "w": 872,
-        "h": 362
-    },
-    {
-        "id": "77bdfe65956919ec",
-        "type": "group",
-        "z": "175af8efcea2d591",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "25bdc69949d0b152",
-            "b3329dfa95503c2c",
-            "1a9410ac2442e363",
-            "2d07da5341cf14ee",
-            "b8f41ef7533e00c1",
-            "811f25a4a4480bf7",
-            "d775d38173b3593c",
-            "8b81919795d67036",
-            "3014efb296f50a70",
-            "3fbcebb8a982c031"
-        ],
-        "x": 94,
-        "y": 619,
-        "w": 1242,
-        "h": 282
+        "w": 972,
+        "h": 462
     },
     {
         "id": "284c27310b25477c",
@@ -388,14 +359,11 @@
             "085de4503ad6ec20",
             "63f18a575dc37f3b",
             "dda9a78374edd0d2",
-            "a25ecc470396a417",
-            "5708db65749164ca",
-            "aec53d8813dc51d6",
-            "98de8575fe3334ca"
+            "a25ecc470396a417"
         ],
         "x": 64,
         "y": 67,
-        "w": 1482,
+        "w": 1472,
         "h": 454
     },
     {
@@ -607,6 +575,61 @@
         "y": 1179,
         "w": 772,
         "h": 302
+    },
+    {
+        "id": "3a81c46c8f3762a2",
+        "type": "group",
+        "z": "47c0e0ae667846a9",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "13b29febb8e2b3e9",
+            "042587d56aedd796",
+            "478145ccd1cc1b6c",
+            "1c1fbdd28c2c806b",
+            "1b55865e8e16d405"
+        ],
+        "x": 34,
+        "y": 379,
+        "w": 772,
+        "h": 122
+    },
+    {
+        "id": "77bdfe65956919ec",
+        "type": "group",
+        "z": "175af8efcea2d591",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "25bdc69949d0b152",
+            "b3329dfa95503c2c",
+            "1a9410ac2442e363",
+            "2d07da5341cf14ee",
+            "b8f41ef7533e00c1",
+            "811f25a4a4480bf7",
+            "d775d38173b3593c",
+            "8b81919795d67036",
+            "3014efb296f50a70",
+            "3fbcebb8a982c031"
+        ],
+        "x": 94,
+        "y": 619,
+        "w": 1242,
+        "h": 282
     },
     {
         "id": "b411c6135a7823e0",
@@ -2218,7 +2241,7 @@
         "g": "4788e8d5cbe11d8f",
         "name": "",
         "pauseType": "delay",
-        "timeout": "5",
+        "timeout": "30",
         "timeoutUnits": "seconds",
         "rate": "1",
         "nbRateUnits": "1",
@@ -2406,7 +2429,7 @@
         "width": 5,
         "height": 2,
         "passthru": true,
-        "label": "END MATCH",
+        "label": "END / RESET MATCH",
         "tooltip": "",
         "color": "",
         "bgcolor": "red",
@@ -2416,12 +2439,13 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 230,
+        "x": 280,
         "y": 2460,
         "wires": [
             [
                 "2335df53b4766297",
-                "6d217ae324a7acc7"
+                "6d217ae324a7acc7",
+                "9bc5be050fadf6b6"
             ]
         ]
     },
@@ -2500,7 +2524,7 @@
         "g": "4788e8d5cbe11d8f",
         "name": "",
         "pauseType": "delay",
-        "timeout": "5",
+        "timeout": "30",
         "timeoutUnits": "seconds",
         "rate": "1",
         "nbRateUnits": "1",
@@ -2565,7 +2589,7 @@
         "g": "4788e8d5cbe11d8f",
         "name": "",
         "pauseType": "delay",
-        "timeout": "5",
+        "timeout": "30",
         "timeoutUnits": "seconds",
         "rate": "1",
         "nbRateUnits": "1",
@@ -2649,7 +2673,7 @@
         "links": [
             "227f2d5a2ea24037"
         ],
-        "x": 355,
+        "x": 445,
         "y": 2440,
         "wires": []
     },
@@ -2663,7 +2687,7 @@
         "links": [
             "8c8fae70037e1c26"
         ],
-        "x": 355,
+        "x": 445,
         "y": 2480,
         "wires": []
     },
@@ -2674,7 +2698,7 @@
         "g": "6a8702296ddd22a1",
         "name": "Send all the resets",
         "info": "",
-        "x": 490,
+        "x": 580,
         "y": 2460,
         "wires": []
     },
@@ -2685,7 +2709,7 @@
         "g": "6a8702296ddd22a1",
         "name": "TODO - Reset GUI",
         "info": "",
-        "x": 490,
+        "x": 580,
         "y": 2500,
         "wires": []
     },
@@ -2706,8 +2730,8 @@
         "z": "55a762ae72fa441b",
         "name": "MVP Step 7 - Spread Path Lighting Controls",
         "info": "",
-        "x": 250,
-        "y": 3280,
+        "x": 230,
+        "y": 3480,
         "wires": []
     },
     {
@@ -2745,11 +2769,11 @@
         "rh": 0,
         "inputs": 0,
         "x": 230,
-        "y": 3040,
+        "y": 3240,
         "wires": [
             [
-                "3324776758a34ef8",
-                "a43cfe8c60aa1766"
+                "a43cfe8c60aa1766",
+                "b92ea91a45968087"
             ]
         ]
     },
@@ -2758,14 +2782,14 @@
         "type": "function",
         "z": "55a762ae72fa441b",
         "g": "b2c04e106e7697f0",
-        "name": "Convert to callback formats",
-        "func": "/* \nExample input: \nobject\nnum_drops: 1\ntimestamp: 637739\nBUILDING_NAME: \"LBM\"\nside_id: 1\n\nDesired outputs for callback: \npayload.bldg, payload.newAddlWaterQty\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.BUILDING_NAME; \nvar numHits = input.num_drops;  \nmsg.payload = {};\nnode.warn\n\n\n//--- FS update callback outputs\nmsg.payload.bldg = nodeid;\nmsg.payload.newAddlWaterQty = numHits;\n\n\n//--- Fin\nreturn msg;",
+        "name": "Convert to callback formats - BALL",
+        "func": "/* \nExample input BALL:\nobject\nnum_drops: 1\ntimestamp: 637739\nBUILDING_NAME: \"LBM\"\nside_id: 1\n\nDesired outputs for callback: \npayload.bldg, payload.newAddlWaterQty\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.BUILDING_NAME; \nvar numHits = input.num_drops;  \nmsg.payload = {};\nnode.warn\n\n\n//--- FS update callback outputs\nmsg.payload.bldg = nodeid;\nmsg.payload.newAddlWaterQty = numHits;\n\n\n//--- Fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 580,
+        "x": 600,
         "y": 3060,
         "wires": [
             [
@@ -2795,11 +2819,11 @@
         "topic": "edgenode/laserhit/RTO",
         "payload": "{\"node_id\":\"RTO\",\"num_hits\":1,\"timestamp\":1234567890}",
         "payloadType": "json",
-        "x": 260,
-        "y": 3180,
+        "x": 280,
+        "y": 3320,
         "wires": [
             [
-                "3324776758a34ef8"
+                "b92ea91a45968087"
             ]
         ],
         "info": "Example input: \r\n{\r\n    \"node_id\":\"LTO\",\r\n    \"num_hits\":5, \r\n    \"timestamp\":1234567890\r\n}"
@@ -2830,24 +2854,13 @@
         "links": [
             "8b81919795d67036"
         ],
-        "x": 325,
-        "y": 3140,
+        "x": 345,
+        "y": 3120,
         "wires": [
             [
                 "3324776758a34ef8"
             ]
         ]
-    },
-    {
-        "id": "81af1ce1ab5d6579",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "b2c04e106e7697f0",
-        "name": "testing",
-        "info": "",
-        "x": 190,
-        "y": 3100,
-        "wires": []
     },
     {
         "id": "3ddb4866a6ecb8fe",
@@ -2859,8 +2872,8 @@
         "links": [
             "ab46c7d25d3bb74b"
         ],
-        "x": 795,
-        "y": 3040,
+        "x": 875,
+        "y": 3140,
         "wires": []
     },
     {
@@ -2870,8 +2883,8 @@
         "g": "b2c04e106e7697f0",
         "name": "To callback",
         "info": "",
-        "x": 840,
-        "y": 3080,
+        "x": 940,
+        "y": 3100,
         "wires": []
     },
     {
@@ -2888,8 +2901,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 600,
-        "y": 3020,
+        "x": 560,
+        "y": 3220,
         "wires": []
     },
     {
@@ -3361,7 +3374,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 230,
-        "y": 3000,
+        "y": 3020,
         "wires": [
             [
                 "8b9f85415994242a",
@@ -3383,8 +3396,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 580,
-        "y": 2980,
+        "x": 540,
+        "y": 3000,
         "wires": []
     },
     {
@@ -3409,11 +3422,45 @@
         "topic": "",
         "payload": "{\"num_drops\":1,\"timestamp\":10356098,\"BUILDING_NAME\":\"LBI\",\"side_id\":0}",
         "payloadType": "json",
-        "x": 260,
-        "y": 3220,
+        "x": 280,
+        "y": 3080,
         "wires": [
             [
                 "3324776758a34ef8"
+            ]
+        ]
+    },
+    {
+        "id": "9bc5be050fadf6b6",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "6a8702296ddd22a1",
+        "name": "Send reset MQTT",
+        "mode": "link",
+        "links": [
+            "1b55865e8e16d405"
+        ],
+        "x": 445,
+        "y": 2520,
+        "wires": []
+    },
+    {
+        "id": "b92ea91a45968087",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "b2c04e106e7697f0",
+        "name": "Convert to callback formats - LASER",
+        "func": "/* \nExample input LASER:\n{\n  \"num_hits\": 1,\n  \"timestamp\": 415775,\n  \"timestamp\": 416493,\n  \"BUILDING_NAME\": \"LBM\",\n  \"side_id\": 1\n}\n\n\nDesired outputs for callback: \npayload.bldg, payload.newAddlWaterQty\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.BUILDING_NAME; \nvar numHits = input.num_hits;  \nmsg.payload = {};\nnode.warn\n\n\n//--- FS update callback outputs\nmsg.payload.bldg = nodeid;\nmsg.payload.newAddlWaterQty = numHits;\n\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 3280,
+        "wires": [
+            [
+                "3ddb4866a6ecb8fe"
             ]
         ]
     },
@@ -3793,6 +3840,110 @@
         "wires": []
     },
     {
+        "id": "13b29febb8e2b3e9",
+        "type": "comment",
+        "z": "47c0e0ae667846a9",
+        "g": "3a81c46c8f3762a2",
+        "name": "Reset Match / Laser",
+        "info": "",
+        "x": 150,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "042587d56aedd796",
+        "type": "mqtt out",
+        "z": "47c0e0ae667846a9",
+        "g": "3a81c46c8f3762a2",
+        "name": "",
+        "topic": "nodered/reset/match",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 680,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "478145ccd1cc1b6c",
+        "type": "change",
+        "z": "47c0e0ae667846a9",
+        "g": "3a81c46c8f3762a2",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 460,
+        "wires": [
+            [
+                "042587d56aedd796"
+            ]
+        ]
+    },
+    {
+        "id": "1c1fbdd28c2c806b",
+        "type": "ui_button",
+        "z": "47c0e0ae667846a9",
+        "g": "3a81c46c8f3762a2",
+        "name": "",
+        "group": "062c9dae52b8ca4a",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Reset Lasers",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 250,
+        "y": 460,
+        "wires": [
+            [
+                "478145ccd1cc1b6c"
+            ]
+        ]
+    },
+    {
+        "id": "1b55865e8e16d405",
+        "type": "link in",
+        "z": "47c0e0ae667846a9",
+        "g": "3a81c46c8f3762a2",
+        "name": "Resettin' time",
+        "links": [
+            "9bc5be050fadf6b6"
+        ],
+        "x": 125,
+        "y": 460,
+        "wires": [
+            [
+                "1c1fbdd28c2c806b"
+            ]
+        ]
+    },
+    {
         "id": "0bb4f2dd1a0c4bda",
         "type": "comment",
         "z": "175af8efcea2d591",
@@ -3990,6 +4141,87 @@
         ]
     },
     {
+        "id": "c5d69c3b0f5e30ee",
+        "type": "ui_button",
+        "z": "175af8efcea2d591",
+        "g": "2ac942eccf98a996",
+        "name": "",
+        "group": "3e7886cb7c605213",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "label": "RESET ALL",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 160,
+        "wires": [
+            [
+                "0e3ebf9316c50718"
+            ]
+        ]
+    },
+    {
+        "id": "0e3ebf9316c50718",
+        "type": "link out",
+        "z": "175af8efcea2d591",
+        "g": "2ac942eccf98a996",
+        "name": "JUST END IT",
+        "mode": "link",
+        "links": [
+            "691a5afc5b52b78a"
+        ],
+        "x": 365,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "412dda5307ab23bc",
+        "type": "function",
+        "z": "175af8efcea2d591",
+        "name": "Set Window 1 FS",
+        "func": "// Vars\nmsg.payload = {};\n\n// Set up params for callback node\nmsg.payload.bldg = \"LBI\";\nmsg.payload.window = 1;\nmsg.payload.numFire = 8;\n\n// Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1130,
+        "y": 720,
+        "wires": [
+            [
+                "3fbcebb8a982c031"
+            ]
+        ]
+    },
+    {
+        "id": "11d191fddb70f4cf",
+        "type": "function",
+        "z": "175af8efcea2d591",
+        "name": "Set Window 2 FS",
+        "func": "// Vars\nmsg.payload = {};\n\n// Set up params for callback node\nmsg.payload.bldg = \"LBI\";\nmsg.payload.window = 2;\nmsg.payload.numFire = 8;\n\n// Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1130,
+        "y": 760,
+        "wires": [
+            [
+                "3fbcebb8a982c031"
+            ]
+        ]
+    },
+    {
         "id": "25bdc69949d0b152",
         "type": "comment",
         "z": "175af8efcea2d591",
@@ -4085,49 +4317,6 @@
         ]
     },
     {
-        "id": "c5d69c3b0f5e30ee",
-        "type": "ui_button",
-        "z": "175af8efcea2d591",
-        "g": "2ac942eccf98a996",
-        "name": "",
-        "group": "3e7886cb7c605213",
-        "order": 1,
-        "width": 5,
-        "height": 1,
-        "passthru": true,
-        "label": "RESET ALL",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 230,
-        "y": 160,
-        "wires": [
-            [
-                "0e3ebf9316c50718"
-            ]
-        ]
-    },
-    {
-        "id": "0e3ebf9316c50718",
-        "type": "link out",
-        "z": "175af8efcea2d591",
-        "g": "2ac942eccf98a996",
-        "name": "JUST END IT",
-        "mode": "link",
-        "links": [
-            "691a5afc5b52b78a"
-        ],
-        "x": 365,
-        "y": 160,
-        "wires": []
-    },
-    {
         "id": "811f25a4a4480bf7",
         "type": "ui_button",
         "z": "175af8efcea2d591",
@@ -4217,44 +4406,6 @@
             [
                 "412dda5307ab23bc",
                 "11d191fddb70f4cf"
-            ]
-        ]
-    },
-    {
-        "id": "412dda5307ab23bc",
-        "type": "function",
-        "z": "175af8efcea2d591",
-        "name": "Set Window 1 FS",
-        "func": "// Vars\nmsg.payload = {};\n\n// Set up params for callback node\nmsg.payload.bldg = \"LBI\";\nmsg.payload.window = 1;\nmsg.payload.numFire = 8;\n\n// Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1130,
-        "y": 720,
-        "wires": [
-            [
-                "3fbcebb8a982c031"
-            ]
-        ]
-    },
-    {
-        "id": "11d191fddb70f4cf",
-        "type": "function",
-        "z": "175af8efcea2d591",
-        "name": "Set Window 2 FS",
-        "func": "// Vars\nmsg.payload = {};\n\n// Set up params for callback node\nmsg.payload.bldg = \"LBI\";\nmsg.payload.window = 2;\nmsg.payload.numFire = 8;\n\n// Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1130,
-        "y": 760,
-        "wires": [
-            [
-                "3fbcebb8a982c031"
             ]
         ]
     },
@@ -4388,8 +4539,7 @@
         "y": 360,
         "wires": [
             [
-                "f986ab9711daf36b",
-                "5708db65749164ca"
+                "f986ab9711daf36b"
             ]
         ]
     },
@@ -4796,7 +4946,7 @@
         "z": "f6f035102302ba5a",
         "g": "284c27310b25477c",
         "name": "Convert BeforeWater -> AfterWater",
-        "func": "//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.bldg;\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Get the globals\nvar win1_FS_pre = global.get(nodeid + \".FS.Window1-BeforeWater\");\nvar win2_FS_pre = global.get(nodeid + \".FS.Window2-BeforeWater\");\nvar theWater = global.get(nodeid + \".WaterQty\");\n\n//--- Do some quick math\nvar MAX_POSS_FS = 8;\nswitch (nodeid) {\n    //laser\n    case \"LBO\":\n    case \"LTM\":\n    case \"LBM\":\n    case \"RTO\":\n    case \"RBM\":\n    case \"RTM\":\n        var WATER_PER_FS = 2;\n\n    //balls\n    case \"RTO\":\n    case \"RTI\":\n    case \"RBI\":\n    case \"LBO\":\n    case \"LBI\":\n    case \"LTI\":\n        var WATER_PER_FS = 4;\n}\n\n//--- Take the \"before Water\" FS's, and bang em against the water, and get new \"after Water\" FS's\nvar impactToFS = Math.floor(theWater / WATER_PER_FS);\nnode.warn(impactToFS);\nvar the_FS_thats_left = (win1_FS_pre + win2_FS_pre) - impactToFS;\nnode.warn(the_FS_thats_left);\nif (the_FS_thats_left > MAX_POSS_FS) {\n    var win1_FS_post = MAX_POSS_FS;\n    var win2_FS_post = the_FS_thats_left - MAX_POSS_FS;\n} else {\n    var win1_FS_post = the_FS_thats_left;\n    var win2_FS_post = 0;\n}\n//node.warn(win1_FS_post);\n//node.warn(win2_FS_post);\n\n//--- Update de globals\nglobal.set(nodeid + \".FS.Window1-AfterWater\", win1_FS_post);\nglobal.set(nodeid + \".FS.Window2-AfterWater\", win2_FS_post);\n\n//--- Prep FS update callback\n//payload.bldg, payload.window, payload.numFire\nmsg1.payload.bldg = nodeid;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = win1_FS_post;\nmsg2.payload.bldg = nodeid;\nmsg2.payload.window = 2;\nmsg2.payload.numFire = win2_FS_post;\n\n//rrrrrap it up\nreturn [msg1, msg2];",
+        "func": "//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.bldg;\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Get the globals\nvar win1_FS_pre = global.get(nodeid + \".FS.Window1-BeforeWater\");\nvar win2_FS_pre = global.get(nodeid + \".FS.Window2-BeforeWater\");\nvar theWater = global.get(nodeid + \".WaterQty\");\n\n//--- Do some quick math\nvar MAX_POSS_FS = 8;\nswitch (nodeid) {\n    //-- LASER \n    case \"LBO\":\n    case \"LTM\":\n    case \"LBM\":\n    case \"RTO\":\n    case \"RBM\":\n    case \"RTM\":\n        var WATER_PER_FS = 1; //-- LASER\n\n    //-- BALLS \n    case \"RTO\":\n    case \"RTI\":\n    case \"RBI\":\n    case \"LBO\":\n    case \"LBI\":\n    case \"LTI\":\n        var WATER_PER_FS = 2; //-- BALLS \n}\n\n//--- Take the \"before Water\" FS's, and bang em against the water, and get new \"after Water\" FS's\nvar impactToFS = Math.floor(theWater / WATER_PER_FS);\nnode.warn(impactToFS);\nvar the_FS_thats_left = (win1_FS_pre + win2_FS_pre) - impactToFS;\nnode.warn(the_FS_thats_left);\nif (the_FS_thats_left > MAX_POSS_FS) {\n    var win1_FS_post = MAX_POSS_FS;\n    var win2_FS_post = the_FS_thats_left - MAX_POSS_FS;\n} else {\n    var win1_FS_post = the_FS_thats_left;\n    var win2_FS_post = 0;\n}\n//node.warn(win1_FS_post);\n//node.warn(win2_FS_post);\n\n//--- Update de globals\nglobal.set(nodeid + \".FS.Window1-AfterWater\", win1_FS_post);\nglobal.set(nodeid + \".FS.Window2-AfterWater\", win2_FS_post);\n\n//--- Prep FS update callback\n//payload.bldg, payload.window, payload.numFire\nmsg1.payload.bldg = nodeid;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = win1_FS_post;\nmsg2.payload.bldg = nodeid;\nmsg2.payload.window = 2;\nmsg2.payload.numFire = win2_FS_post;\n\n//rrrrrap it up\nreturn [msg1, msg2];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -4807,13 +4957,11 @@
         "wires": [
             [
                 "5acfacf7a05cc895",
-                "ed2d399b29970928",
-                "aec53d8813dc51d6"
+                "ed2d399b29970928"
             ],
             [
                 "5acfacf7a05cc895",
-                "ed2d399b29970928",
-                "98de8575fe3334ca"
+                "ed2d399b29970928"
             ]
         ]
     },
@@ -5086,59 +5234,5 @@
                 "3c85efd6b9fe4796"
             ]
         ]
-    },
-    {
-        "id": "5708db65749164ca",
-        "type": "debug",
-        "z": "f6f035102302ba5a",
-        "g": "284c27310b25477c",
-        "name": "debug 3",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1440,
-        "y": 460,
-        "wires": []
-    },
-    {
-        "id": "aec53d8813dc51d6",
-        "type": "debug",
-        "z": "f6f035102302ba5a",
-        "g": "284c27310b25477c",
-        "name": "db top",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1050,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "98de8575fe3334ca",
-        "type": "debug",
-        "z": "f6f035102302ba5a",
-        "g": "284c27310b25477c",
-        "name": "db bottom",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 960,
-        "y": 320,
-        "wires": []
     }
 ]
