@@ -209,15 +209,13 @@
             "f6d8fde6109ac979",
             "6177f53a1a1c40ea",
             "6f5b0006051e39ef",
-            "6927ae19d7db3a5b",
             "5addcc4a4e5261bd",
             "67dbb7b83e823038",
-            "c0643b47d7d49226",
             "41518b531082b3d7"
         ],
         "x": 54,
         "y": 2579,
-        "w": 972,
+        "w": 872,
         "h": 302
     },
     {
@@ -320,12 +318,15 @@
             "81af1ce1ab5d6579",
             "3ddb4866a6ecb8fe",
             "250504d69a42ec07",
-            "a43cfe8c60aa1766"
+            "a43cfe8c60aa1766",
+            "03cc0a5688f63569",
+            "8b9f85415994242a",
+            "81525ae27ca9e82c"
         ],
         "x": 54,
         "y": 2899,
         "w": 872,
-        "h": 322
+        "h": 362
     },
     {
         "id": "77bdfe65956919ec",
@@ -387,11 +388,14 @@
             "085de4503ad6ec20",
             "63f18a575dc37f3b",
             "dda9a78374edd0d2",
-            "a25ecc470396a417"
+            "a25ecc470396a417",
+            "5708db65749164ca",
+            "aec53d8813dc51d6",
+            "98de8575fe3334ca"
         ],
         "x": 64,
         "y": 67,
-        "w": 1472,
+        "w": 1482,
         "h": 454
     },
     {
@@ -2555,17 +2559,6 @@
         "wires": []
     },
     {
-        "id": "6927ae19d7db3a5b",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "4788e8d5cbe11d8f",
-        "name": "<---- NOT TESTED FULLY",
-        "info": "",
-        "x": 890,
-        "y": 2760,
-        "wires": []
-    },
-    {
         "id": "5addcc4a4e5261bd",
         "type": "delay",
         "z": "55a762ae72fa441b",
@@ -2613,17 +2606,6 @@
                 "41518b531082b3d7"
             ]
         ]
-    },
-    {
-        "id": "c0643b47d7d49226",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "4788e8d5cbe11d8f",
-        "name": "<---- NOT TESTED FULLY",
-        "info": "",
-        "x": 890,
-        "y": 2840,
-        "wires": []
     },
     {
         "id": "41518b531082b3d7",
@@ -2763,7 +2745,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 230,
-        "y": 3020,
+        "y": 3040,
         "wires": [
             [
                 "3324776758a34ef8",
@@ -2777,14 +2759,14 @@
         "z": "55a762ae72fa441b",
         "g": "b2c04e106e7697f0",
         "name": "Convert to callback formats",
-        "func": "/* \nExample input: \nobject\nnum_hits: 1\ntimestamp: 637739\nBUILDING_NAME: \"LBM\"\nside_id: 1\n\nDesired outputs for callback: \npayload.bldg, payload.newAddlWaterQty\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.BUILDING_NAME; //going to need to test this\nvar numHits = input.num_hits;\nmsg.payload = {};\n\n\n//--- FS update callback outputs\nmsg.payload.bldg = nodeid;\nmsg.payload.newAddlWaterQty = numHits;\n\n\n//--- Fin\nreturn msg;",
+        "func": "/* \nExample input: \nobject\nnum_drops: 1\ntimestamp: 637739\nBUILDING_NAME: \"LBM\"\nside_id: 1\n\nDesired outputs for callback: \npayload.bldg, payload.newAddlWaterQty\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.BUILDING_NAME; \nvar numHits = input.num_drops;  \nmsg.payload = {};\nnode.warn\n\n\n//--- FS update callback outputs\nmsg.payload.bldg = nodeid;\nmsg.payload.newAddlWaterQty = numHits;\n\n\n//--- Fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 580,
-        "y": 3020,
+        "y": 3060,
         "wires": [
             [
                 "3ddb4866a6ecb8fe"
@@ -2814,7 +2796,7 @@
         "payload": "{\"node_id\":\"RTO\",\"num_hits\":1,\"timestamp\":1234567890}",
         "payloadType": "json",
         "x": 260,
-        "y": 3140,
+        "y": 3180,
         "wires": [
             [
                 "3324776758a34ef8"
@@ -2848,8 +2830,8 @@
         "links": [
             "8b81919795d67036"
         ],
-        "x": 355,
-        "y": 3180,
+        "x": 325,
+        "y": 3140,
         "wires": [
             [
                 "3324776758a34ef8"
@@ -2907,7 +2889,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 600,
-        "y": 3120,
+        "y": 3020,
         "wires": []
     },
     {
@@ -3363,6 +3345,77 @@
         "x": 720,
         "y": 2120,
         "wires": []
+    },
+    {
+        "id": "03cc0a5688f63569",
+        "type": "mqtt in",
+        "z": "55a762ae72fa441b",
+        "g": "b2c04e106e7697f0",
+        "name": "",
+        "topic": "edgenode/balldrop/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "bc90be16040a7d21",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 230,
+        "y": 3000,
+        "wires": [
+            [
+                "8b9f85415994242a",
+                "3324776758a34ef8"
+            ]
+        ]
+    },
+    {
+        "id": "8b9f85415994242a",
+        "type": "debug",
+        "z": "55a762ae72fa441b",
+        "g": "b2c04e106e7697f0",
+        "name": "db received ball",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 2980,
+        "wires": []
+    },
+    {
+        "id": "81525ae27ca9e82c",
+        "type": "inject",
+        "z": "55a762ae72fa441b",
+        "g": "b2c04e106e7697f0",
+        "name": "Fake ball MQTT",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"num_drops\":1,\"timestamp\":10356098,\"BUILDING_NAME\":\"LBI\",\"side_id\":0}",
+        "payloadType": "json",
+        "x": 260,
+        "y": 3220,
+        "wires": [
+            [
+                "3324776758a34ef8"
+            ]
+        ]
     },
     {
         "id": "7a5f520857017bbb",
@@ -4335,7 +4388,8 @@
         "y": 360,
         "wires": [
             [
-                "f986ab9711daf36b"
+                "f986ab9711daf36b",
+                "5708db65749164ca"
             ]
         ]
     },
@@ -4742,7 +4796,7 @@
         "z": "f6f035102302ba5a",
         "g": "284c27310b25477c",
         "name": "Convert BeforeWater -> AfterWater",
-        "func": "//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.bldg;\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Get the globals\nvar win1_FS_pre = global.get(nodeid + \".FS.Window1-BeforeWater\");\nvar win2_FS_pre = global.get(nodeid + \".FS.Window2-BeforeWater\");\nvar theWater = global.get(nodeid + \".WaterQty\");\n\n//--- Do some quick math\nvar MAX_POSS_FS = 8;\nswitch (nodeid) {\n    //laser\n    case \"LBO\":\n    case \"LTM\":\n    case \"LBM\":\n    case \"RTO\":\n    case \"RBM\":\n    case \"RTM\":\n        var WATER_PER_FS = 2;\n\n    //balls\n    case \"RTO\":\n    case \"RTI\":\n    case \"RBI\":\n    case \"LBO\":\n    case \"LBI\":\n    case \"LTI\":\n        var WATER_PER_FS = 4;\n}\n\n//--- Take the \"before Water\" FS's, and bang em against the water, and get new \"after Water\" FS's\nvar impactToFS = Math.floor(theWater / WATER_PER_FS);\nvar the_FS_thats_left = (win1_FS_pre + win2_FS_pre) - impactToFS;\n//node.warn(the_FS_thats_left);\nif (the_FS_thats_left > MAX_POSS_FS) {\n    var win1_FS_post = MAX_POSS_FS;\n    var win2_FS_post = the_FS_thats_left - MAX_POSS_FS;\n} else {\n    var win1_FS_post = the_FS_thats_left;\n    var win2_FS_post = 0;\n}\n//node.warn(win1_FS_post);\n//node.warn(win2_FS_post);\n\n//--- Update de globals\nglobal.set(nodeid + \".FS.Window1-AfterWater\", win1_FS_post);\nglobal.set(nodeid + \".FS.Window2-AfterWater\", win2_FS_post);\n\n//--- Prep FS update callback\n//payload.bldg, payload.window, payload.numFire\nmsg1.payload.bldg = nodeid;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = win1_FS_post;\nmsg2.payload.bldg = nodeid;\nmsg2.payload.window = 2;\nmsg2.payload.numFire = win2_FS_post;\n\n//rrrrrap it up\nreturn [msg1, msg2];",
+        "func": "//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.bldg;\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Get the globals\nvar win1_FS_pre = global.get(nodeid + \".FS.Window1-BeforeWater\");\nvar win2_FS_pre = global.get(nodeid + \".FS.Window2-BeforeWater\");\nvar theWater = global.get(nodeid + \".WaterQty\");\n\n//--- Do some quick math\nvar MAX_POSS_FS = 8;\nswitch (nodeid) {\n    //laser\n    case \"LBO\":\n    case \"LTM\":\n    case \"LBM\":\n    case \"RTO\":\n    case \"RBM\":\n    case \"RTM\":\n        var WATER_PER_FS = 2;\n\n    //balls\n    case \"RTO\":\n    case \"RTI\":\n    case \"RBI\":\n    case \"LBO\":\n    case \"LBI\":\n    case \"LTI\":\n        var WATER_PER_FS = 4;\n}\n\n//--- Take the \"before Water\" FS's, and bang em against the water, and get new \"after Water\" FS's\nvar impactToFS = Math.floor(theWater / WATER_PER_FS);\nnode.warn(impactToFS);\nvar the_FS_thats_left = (win1_FS_pre + win2_FS_pre) - impactToFS;\nnode.warn(the_FS_thats_left);\nif (the_FS_thats_left > MAX_POSS_FS) {\n    var win1_FS_post = MAX_POSS_FS;\n    var win2_FS_post = the_FS_thats_left - MAX_POSS_FS;\n} else {\n    var win1_FS_post = the_FS_thats_left;\n    var win2_FS_post = 0;\n}\n//node.warn(win1_FS_post);\n//node.warn(win2_FS_post);\n\n//--- Update de globals\nglobal.set(nodeid + \".FS.Window1-AfterWater\", win1_FS_post);\nglobal.set(nodeid + \".FS.Window2-AfterWater\", win2_FS_post);\n\n//--- Prep FS update callback\n//payload.bldg, payload.window, payload.numFire\nmsg1.payload.bldg = nodeid;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = win1_FS_post;\nmsg2.payload.bldg = nodeid;\nmsg2.payload.window = 2;\nmsg2.payload.numFire = win2_FS_post;\n\n//rrrrrap it up\nreturn [msg1, msg2];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -4753,11 +4807,13 @@
         "wires": [
             [
                 "5acfacf7a05cc895",
-                "ed2d399b29970928"
+                "ed2d399b29970928",
+                "aec53d8813dc51d6"
             ],
             [
                 "5acfacf7a05cc895",
-                "ed2d399b29970928"
+                "ed2d399b29970928",
+                "98de8575fe3334ca"
             ]
         ]
     },
@@ -4767,7 +4823,7 @@
         "z": "f6f035102302ba5a",
         "g": "459fe488a5804676",
         "name": "Update WaterQty, send to kickoff FS update",
-        "func": "/* \nExample input: \nmsg.payload.bldg = \"RTO\";\nmsg.payload.newAddlWaterQty = 3;\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.bldg;\nvar newWater = input.newAddlWaterQty;\nmsg.payload = {};\n\n\n//--- Do some quick water math\nvar curWaterQty = global.get(nodeid + \".WaterQty\");\nvar newWaterQty = curWaterQty + newWater;\n\n//--- Update the gloabl\nglobal.set(nodeid + \".WaterQty\", newWaterQty);\n\n\n//--- Prep FS update callback\n//payload.bldg, payload.window, payload.numFire\nmsg.payload.bldg = nodeid;\n\n//rrrrrap it up\nreturn msg;",
+        "func": "/* \nExample input: \nmsg.payload.bldg = \"RTO\";\nmsg.payload.newAddlWaterQty = 3;\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.bldg;\nvar newWater = input.newAddlWaterQty;\nmsg.payload = {};\n\nnode.warn(\"addlwater\");\nnode.warn(newWater);\n\n\n//--- Do some quick water math\nvar curWaterQty = global.get(nodeid + \".WaterQty\");\ncurWaterQty = curWaterQty === undefined ? 0 : curWaterQty; // don't poison the waterhole\nvar newWaterQty = curWaterQty + newWater;\nnode.warn(newWaterQty);\nnode.warn(newWaterQty);\n\n//--- Update the gloabl\nglobal.set(nodeid + \".WaterQty\", newWaterQty);\n\n\n//--- Prep FS update callback\n// ???\nmsg.payload.bldg = nodeid;\n\n//rrrrrap it up\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -5030,5 +5086,59 @@
                 "3c85efd6b9fe4796"
             ]
         ]
+    },
+    {
+        "id": "5708db65749164ca",
+        "type": "debug",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "debug 3",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1440,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "aec53d8813dc51d6",
+        "type": "debug",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "db top",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "98de8575fe3334ca",
+        "type": "debug",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "db bottom",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 320,
+        "wires": []
     }
 ]
