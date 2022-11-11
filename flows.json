@@ -40,6 +40,13 @@
         "env": []
     },
     {
+        "id": "f3ec5d556e86f8d0",
+        "type": "tab",
+        "label": "Field Config",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "6a070793fb470a03",
         "type": "group",
         "z": "55a762ae72fa441b",
@@ -650,6 +657,40 @@
         "y": 819
     },
     {
+        "id": "cb9c0c3b1fe84ccc",
+        "type": "group",
+        "z": "d32826a1611e0622",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "b2d4ac6f1946502e",
+            "daaf11927f2a4a8b",
+            "0290fd63a1e59327",
+            "2c989acbcca096b1",
+            "4ff11dd0b666fb48",
+            "9a1d6ba86b7f753b",
+            "95d5bbb03ba2f1fb",
+            "ab91ea138a0ca368",
+            "f437b1f9f5574bab",
+            "4a3e2edb7b10cecb",
+            "af0d6f75fe37452a",
+            "10f28faa6d606765",
+            "dcac314a2015fdf2",
+            "48f1b9502311d765"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 402,
+        "h": 382
+    },
+    {
         "id": "2b2a6d295740d392",
         "type": "group",
         "z": "55a762ae72fa441b",
@@ -742,9 +783,9 @@
         "h": 142
     },
     {
-        "id": "cb9c0c3b1fe84ccc",
+        "id": "a83bb00d46efe804",
         "type": "group",
-        "z": "d32826a1611e0622",
+        "z": "f3ec5d556e86f8d0",
         "style": {
             "stroke": "#3a3a3a",
             "stroke-opacity": "1",
@@ -755,25 +796,187 @@
             "color": "#cccccc"
         },
         "nodes": [
-            "b2d4ac6f1946502e",
-            "daaf11927f2a4a8b",
-            "0290fd63a1e59327",
-            "2c989acbcca096b1",
-            "4ff11dd0b666fb48",
-            "9a1d6ba86b7f753b",
-            "95d5bbb03ba2f1fb",
-            "ab91ea138a0ca368",
-            "f437b1f9f5574bab",
-            "4a3e2edb7b10cecb",
-            "af0d6f75fe37452a",
-            "10f28faa6d606765",
-            "dcac314a2015fdf2",
-            "48f1b9502311d765"
+            "5bdc6b89364fd15a",
+            "9bca7655eb1d89cf",
+            "c7fe99b0e0506601",
+            "8c0e6a2a0a04fcd7",
+            "340a8ade18808c45",
+            "cf58eb77138066b2",
+            "9dd0a2d0ffb6a743",
+            "4215a3196c228639",
+            "c58252a4cb097661",
+            "579c8c19ccab0937",
+            "a74d42b7ae961652",
+            "6f32fc52a4d53df8",
+            "3dd25f169354ef22",
+            "ad34ea44766153db"
         ],
-        "x": 34,
-        "y": 39,
-        "w": 412,
-        "h": 382
+        "x": 134,
+        "y": 659,
+        "w": 1272,
+        "h": 402
+    },
+    {
+        "id": "e63633ec18181ba7",
+        "type": "group",
+        "z": "f3ec5d556e86f8d0",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "f4b7c4c243db620d",
+            "837b88b53ec5549a",
+            "ac6ab4bb77d73dc4",
+            "0faf666bf00276e9",
+            "2bcc56e6d241c3d9",
+            "feddd1768611c551",
+            "b111193564f5a7a0",
+            "161f3cee4bd60724",
+            "b1e8ab6feba986c9",
+            "4b72a159e1e82517",
+            "c79cb601a8c0ab17"
+        ],
+        "x": 134,
+        "y": 1099,
+        "w": 952,
+        "h": 342
+    },
+    {
+        "id": "bc92f0b2168e67b1",
+        "type": "group",
+        "z": "f3ec5d556e86f8d0",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "9f34def0af02efeb",
+            "80e1d2d095f19693",
+            "ac5d35d999fc40b9",
+            "cd811a5da6dea1c9"
+        ],
+        "x": 1174,
+        "y": 1079,
+        "w": 512,
+        "h": 122
+    },
+    {
+        "id": "2024311963b7a70e",
+        "type": "group",
+        "z": "f3ec5d556e86f8d0",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "97e2f252303bfcf3",
+            "a1e6f1282aa6e63a",
+            "b70ae83c222fa7da"
+        ],
+        "x": 1174,
+        "y": 1299,
+        "w": 482,
+        "h": 122
+    },
+    {
+        "id": "7ceda8dc6f5a8d60",
+        "type": "group",
+        "z": "f3ec5d556e86f8d0",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "f86871afbc03993e",
+            "91b03956f65107e7",
+            "7a6d7007d9d5ec67",
+            "ccf03d13258bb4e3"
+        ],
+        "x": 134,
+        "y": 1499,
+        "w": 792,
+        "h": 142
+    },
+    {
+        "id": "96cafb8e88dad064",
+        "type": "group",
+        "z": "f3ec5d556e86f8d0",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "e2b27e9faf37bd1e",
+            "6331f7057ebfd37c",
+            "bc8a6edecc1a9a5c",
+            "c74fb766b19e2bf1"
+        ],
+        "x": 134,
+        "y": 1679,
+        "w": 832,
+        "h": 142
+    },
+    {
+        "id": "96faa29525ade8f0",
+        "type": "group",
+        "z": "f3ec5d556e86f8d0",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "f8aa15da571b3aae",
+            "dfeaa41a75adbf51",
+            "f4c6348e4bde4c20",
+            "5870cb8ac8846724",
+            "4369b98b6d58fe86",
+            "99f3e6c97f2c0d2b",
+            "02673478ac90323a",
+            "1dfa349788a1a948",
+            "9e93acca6dde891c",
+            "a11c3ee5796d07f2",
+            "f03d05829f9254f9",
+            "a3534a12592a4f1e",
+            "c1f7e764f490f914",
+            "4bdef8d87b5da823",
+            "b15078312d3e61f5",
+            "da8da29f2b800fa5"
+        ],
+        "x": 134,
+        "y": 59,
+        "w": 672,
+        "h": 542
     },
     {
         "id": "b411c6135a7823e0",
@@ -1175,6 +1378,55 @@
         "width": "10",
         "collapse": false,
         "className": ""
+    },
+    {
+        "id": "6f6f2d0bf9d4b5e3",
+        "type": "sqlitedb",
+        "db": "/home/pi/sqlite-storage/sqlite",
+        "mode": "RWC"
+    },
+    {
+        "id": "5999f1d09afe1039",
+        "type": "mqtt-broker",
+        "name": "mqtt-node-main",
+        "broker": "127.0.0.1",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "a5991f3b10b51e7c",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "8cc3fd17a6d665c5",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "8cc3fd17a6d665c5",
+        "type": "ui_tab",
+        "name": "Field Config",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
     },
     {
         "id": "e1ba7bc1352dbb74",
@@ -6766,5 +7018,1068 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "f4b7c4c243db620d",
+        "type": "sqlite",
+        "z": "f3ec5d556e86f8d0",
+        "g": "e63633ec18181ba7",
+        "mydb": "6f6f2d0bf9d4b5e3",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "Read Config Node ID",
+        "x": 440,
+        "y": 1400,
+        "wires": [
+            [
+                "2bcc56e6d241c3d9"
+            ]
+        ]
+    },
+    {
+        "id": "837b88b53ec5549a",
+        "type": "mqtt in",
+        "z": "f3ec5d556e86f8d0",
+        "g": "e63633ec18181ba7",
+        "name": "edgenode/initialization",
+        "topic": "edgenode/initialization",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "5999f1d09afe1039",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 1320,
+        "wires": [
+            [
+                "0faf666bf00276e9"
+            ]
+        ]
+    },
+    {
+        "id": "5bdc6b89364fd15a",
+        "type": "comment",
+        "z": "f3ec5d556e86f8d0",
+        "g": "a83bb00d46efe804",
+        "name": "Config Setup Instructions",
+        "info": "Config for the field contains the mapping of UUID (as written to each arduino board) and the node id as defined in the field diagram (containing LBO, RBO, etc)\n\n1. Write a text file in the following format:\nEDGE_UUID,EDGE_NODE_ID\n7452C441,LBO\n7452C442,LBM\n...\n\n2. Place on the raspberry pi in this location:\n/home/pi/field-config.csv\n    2.a -- emergency option, you can force a config down in the \"Write config to file\"  flow below -- see instructions there\n\n3. Create and/or drop then create the \"Create Config Table\"\n4. Run \"Load Config File into Config Table\"\n\n",
+        "x": 270,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "9bca7655eb1d89cf",
+        "type": "sqlite",
+        "z": "f3ec5d556e86f8d0",
+        "g": "a83bb00d46efe804",
+        "mydb": "6f6f2d0bf9d4b5e3",
+        "sqlquery": "fixed",
+        "sql": "CREATE TABLE FIELD_CONFIG (\n  EDGE_UUID TEXT PRIMARY KEY,\n  EDGE_NODE_ID TEXT\n)",
+        "name": "Create Config Table",
+        "x": 690,
+        "y": 800,
+        "wires": [
+            [
+                "cf58eb77138066b2"
+            ]
+        ]
+    },
+    {
+        "id": "c7fe99b0e0506601",
+        "type": "inject",
+        "z": "f3ec5d556e86f8d0",
+        "g": "a83bb00d46efe804",
+        "name": "Load Config File into Config Table",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 360,
+        "y": 880,
+        "wires": [
+            [
+                "8c0e6a2a0a04fcd7"
+            ]
+        ],
+        "info": "See instructions on top -- but file is:\n/home/pi/field-config.csv"
+    },
+    {
+        "id": "8c0e6a2a0a04fcd7",
+        "type": "file in",
+        "z": "f3ec5d556e86f8d0",
+        "g": "a83bb00d46efe804",
+        "name": "Read Field Config",
+        "filename": "/home/pi/field-config.csv",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 470,
+        "y": 920,
+        "wires": [
+            [
+                "340a8ade18808c45"
+            ]
+        ]
+    },
+    {
+        "id": "340a8ade18808c45",
+        "type": "csv",
+        "z": "f3ec5d556e86f8d0",
+        "g": "a83bb00d46efe804",
+        "name": "CSV Parse Field Config",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 690,
+        "y": 920,
+        "wires": [
+            [
+                "c58252a4cb097661"
+            ]
+        ]
+    },
+    {
+        "id": "cf58eb77138066b2",
+        "type": "debug",
+        "z": "f3ec5d556e86f8d0",
+        "g": "a83bb00d46efe804",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1300,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "9dd0a2d0ffb6a743",
+        "type": "inject",
+        "z": "f3ec5d556e86f8d0",
+        "g": "a83bb00d46efe804",
+        "name": "Create Config Table",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 310,
+        "y": 800,
+        "wires": [
+            [
+                "9bca7655eb1d89cf"
+            ]
+        ]
+    },
+    {
+        "id": "4215a3196c228639",
+        "type": "sqlite",
+        "z": "f3ec5d556e86f8d0",
+        "g": "a83bb00d46efe804",
+        "mydb": "6f6f2d0bf9d4b5e3",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "SqlLite Commands",
+        "x": 1090,
+        "y": 920,
+        "wires": [
+            [
+                "cf58eb77138066b2"
+            ]
+        ]
+    },
+    {
+        "id": "c58252a4cb097661",
+        "type": "function",
+        "z": "f3ec5d556e86f8d0",
+        "g": "a83bb00d46efe804",
+        "name": "Construct SQL",
+        "func": "var o = msg.payload;\nvar sql = \"INSERT INTO \\\"FIELD_CONFIG\\\"(EDGE_UUID, EDGE_NODE_ID) VALUES(\\\"\"+o.EDGE_UUID+\"\\\", \\\"\"+o.EDGE_NODE_ID+\"\\\") ON CONFLICT(EDGE_UUID) DO UPDATE SET EDGE_NODE_ID = excluded.EDGE_NODE_ID;\";\nmsg.topic = sql;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 920,
+        "wires": [
+            [
+                "4215a3196c228639"
+            ]
+        ]
+    },
+    {
+        "id": "579c8c19ccab0937",
+        "type": "inject",
+        "z": "f3ec5d556e86f8d0",
+        "g": "a83bb00d46efe804",
+        "name": "Drop Config Table",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 310,
+        "y": 760,
+        "wires": [
+            [
+                "a74d42b7ae961652"
+            ]
+        ]
+    },
+    {
+        "id": "a74d42b7ae961652",
+        "type": "sqlite",
+        "z": "f3ec5d556e86f8d0",
+        "g": "a83bb00d46efe804",
+        "mydb": "6f6f2d0bf9d4b5e3",
+        "sqlquery": "fixed",
+        "sql": "DROP TABLE IF EXISTS FIELD_CONFIG;",
+        "name": "Drop Field Config Table",
+        "x": 710,
+        "y": 760,
+        "wires": [
+            [
+                "cf58eb77138066b2"
+            ]
+        ]
+    },
+    {
+        "id": "ac6ab4bb77d73dc4",
+        "type": "function",
+        "z": "f3ec5d556e86f8d0",
+        "g": "e63633ec18181ba7",
+        "name": "Construct SQL",
+        "func": "var o = msg.payload;\nvar sql = \"SELECT EDGE_NODE_ID, EDGE_UUID FROM FIELD_CONFIG WHERE EDGE_UUID='\" + o.uuid+ \"'\" ;\nmsg.topic = sql;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 1320,
+        "wires": [
+            [
+                "f4b7c4c243db620d"
+            ]
+        ]
+    },
+    {
+        "id": "0faf666bf00276e9",
+        "type": "json",
+        "z": "f3ec5d556e86f8d0",
+        "g": "e63633ec18181ba7",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 470,
+        "y": 1320,
+        "wires": [
+            [
+                "ac6ab4bb77d73dc4"
+            ]
+        ]
+    },
+    {
+        "id": "2bcc56e6d241c3d9",
+        "type": "function",
+        "z": "f3ec5d556e86f8d0",
+        "g": "e63633ec18181ba7",
+        "name": "extract nodeid",
+        "func": "\nvar nodeid = msg.payload[0].EDGE_NODE_ID;\nvar nodeuuid = msg.payload[0].EDGE_UUID;\nmsg.payload = nodeid;\nmsg.topic = \"nodered/initialization/\" + nodeuuid;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 1400,
+        "wires": [
+            [
+                "feddd1768611c551"
+            ]
+        ]
+    },
+    {
+        "id": "feddd1768611c551",
+        "type": "mqtt out",
+        "z": "f3ec5d556e86f8d0",
+        "g": "e63633ec18181ba7",
+        "name": "Publish Node ID to edge Node",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "5999f1d09afe1039",
+        "x": 930,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "b111193564f5a7a0",
+        "type": "comment",
+        "z": "f3ec5d556e86f8d0",
+        "g": "e63633ec18181ba7",
+        "name": "Initialize Edge Nodes ",
+        "info": "Edge nodes report in when they come online with a UUID\nUUID is accessed from the DB, and returned as a Node ID (as defined by our field layout/diagram)\n\nSee Load Config File into Config Table flow for how to edit this\n\nEach Arduino needs a unique id written into eeprom using -> https://github.com/lanceriedel/burn-uuid-eeprom\n",
+        "x": 280,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "97e2f252303bfcf3",
+        "type": "inject",
+        "z": "f3ec5d556e86f8d0",
+        "g": "2024311963b7a70e",
+        "name": "Write config to file",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[69,68,71,69,95,85,85,73,68,44,69,68,71,69,95,78,79,68,69,95,73,68,10,55,52,53,50,67,52,52,49,44,76,66,79,10,55,52,53,50,67,52,52,50,44,76,66,77,10,55,66,68,56,51,65,49,51,44,82,66,77,10,55,48,57,67,68,66,70,70,44,82,66,79]",
+        "payloadType": "bin",
+        "x": 1310,
+        "y": 1380,
+        "wires": [
+            [
+                "a1e6f1282aa6e63a"
+            ]
+        ],
+        "info": "If you can't access the raspberry pi file system -- you can put the config here and force write it\nBUT -- you have to send as binary so that it retains the newlines\n\nFor example:\nEDGE_UUID,EDGE_NODE_ID\n7452C441,LBO\n7452C442,LBM\n7BD83A13,RBM\n709CDBFF,RBO\n\n\nBe sure to hit the elipses ...  so that you can see what you are typing.  \nAlso note that it will change to binary as soon as you send -- but it will work fine"
+    },
+    {
+        "id": "a1e6f1282aa6e63a",
+        "type": "file",
+        "z": "f3ec5d556e86f8d0",
+        "g": "2024311963b7a70e",
+        "name": "",
+        "filename": "/home/pi/field-config.csv",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1570,
+        "y": 1380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b70ae83c222fa7da",
+        "type": "comment",
+        "z": "f3ec5d556e86f8d0",
+        "g": "2024311963b7a70e",
+        "name": "Emergency Use! Write config -  (you need to load it after)",
+        "info": "If you can't access the raspberry pi file system -- you can put the config here and force write it\nBUT -- you have to send as binary so that it retains the newlines\nFor example:\nEDGE_UUID,EDGE_NODE_ID\n7452C441,LBO\n7452C442,LBM\n7BD83A13,RBM\n709CDBFF,RBO\n\n\n\n\nBe sure to hit the elipses ...  so that you can see what you are typing.  \nAlso note that it will change to binary as soon as you send -- but it will work fine",
+        "x": 1400,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "3dd25f169354ef22",
+        "type": "sqlite",
+        "z": "f3ec5d556e86f8d0",
+        "g": "a83bb00d46efe804",
+        "mydb": "6f6f2d0bf9d4b5e3",
+        "sqlquery": "fixed",
+        "sql": "Select * from FIELD_CONFIG;",
+        "name": "Read Config",
+        "x": 450,
+        "y": 1020,
+        "wires": [
+            [
+                "ad34ea44766153db"
+            ]
+        ]
+    },
+    {
+        "id": "6f32fc52a4d53df8",
+        "type": "link in",
+        "z": "f3ec5d556e86f8d0",
+        "g": "a83bb00d46efe804",
+        "name": "Read Config",
+        "links": [
+            "5870cb8ac8846724",
+            "f03d05829f9254f9"
+        ],
+        "x": 285,
+        "y": 1020,
+        "wires": [
+            [
+                "3dd25f169354ef22"
+            ]
+        ]
+    },
+    {
+        "id": "ad34ea44766153db",
+        "type": "link out",
+        "z": "f3ec5d556e86f8d0",
+        "g": "a83bb00d46efe804",
+        "name": "link out 29",
+        "links": [
+            "4369b98b6d58fe86"
+        ],
+        "x": 615,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "161f3cee4bd60724",
+        "type": "link in",
+        "z": "f3ec5d556e86f8d0",
+        "g": "e63633ec18181ba7",
+        "name": "Insert UUI Entry",
+        "links": [
+            "99f3e6c97f2c0d2b"
+        ],
+        "x": 175,
+        "y": 1180,
+        "wires": [
+            [
+                "b1e8ab6feba986c9"
+            ]
+        ]
+    },
+    {
+        "id": "b1e8ab6feba986c9",
+        "type": "function",
+        "z": "f3ec5d556e86f8d0",
+        "g": "e63633ec18181ba7",
+        "name": "Construct SQL",
+        "func": "var o = msg.payload;\nvar sql = \"INSERT INTO \\\"FIELD_CONFIG\\\"(EDGE_UUID, EDGE_NODE_ID) VALUES(\\\"\"+o.EDGE_UUID+\"\\\", \\\"\"+o.EDGE_NODE_ID+\"\\\") ON CONFLICT(EDGE_UUID) DO UPDATE SET EDGE_NODE_ID = excluded.EDGE_NODE_ID;\";\nmsg.topic = sql;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 1180,
+        "wires": [
+            [
+                "4b72a159e1e82517"
+            ]
+        ]
+    },
+    {
+        "id": "4b72a159e1e82517",
+        "type": "sqlite",
+        "z": "f3ec5d556e86f8d0",
+        "g": "e63633ec18181ba7",
+        "mydb": "6f6f2d0bf9d4b5e3",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "SqlLite Commands",
+        "x": 510,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c79cb601a8c0ab17",
+        "type": "comment",
+        "z": "f3ec5d556e86f8d0",
+        "g": "e63633ec18181ba7",
+        "name": "Add Single Edge Node",
+        "info": "Update single node entry",
+        "x": 260,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "9f34def0af02efeb",
+        "type": "function",
+        "z": "f3ec5d556e86f8d0",
+        "g": "bc92f0b2168e67b1",
+        "name": "Construct SQL",
+        "func": "var o = msg.payload;\nvar sql = \"DELETE FROM \\\"FIELD_CONFIG\\\" WHERE EDGE_UUID=\\\"\"+o.EDGE_UUID+\"\\\";\";\nmsg.topic = sql;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1360,
+        "y": 1160,
+        "wires": [
+            [
+                "80e1d2d095f19693"
+            ]
+        ]
+    },
+    {
+        "id": "80e1d2d095f19693",
+        "type": "sqlite",
+        "z": "f3ec5d556e86f8d0",
+        "g": "bc92f0b2168e67b1",
+        "mydb": "6f6f2d0bf9d4b5e3",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "SqlLite Commands",
+        "x": 1570,
+        "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ac5d35d999fc40b9",
+        "type": "comment",
+        "z": "f3ec5d556e86f8d0",
+        "g": "bc92f0b2168e67b1",
+        "name": "Remove Single Edge Node",
+        "info": "Update single node entry",
+        "x": 1310,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "cd811a5da6dea1c9",
+        "type": "link in",
+        "z": "f3ec5d556e86f8d0",
+        "g": "bc92f0b2168e67b1",
+        "name": "Delete UUI Entry",
+        "links": [
+            "9e93acca6dde891c"
+        ],
+        "x": 1215,
+        "y": 1160,
+        "wires": [
+            [
+                "9f34def0af02efeb"
+            ]
+        ]
+    },
+    {
+        "id": "f86871afbc03993e",
+        "type": "mqtt out",
+        "z": "f3ec5d556e86f8d0",
+        "g": "7ceda8dc6f5a8d60",
+        "name": "Broadcast Laser Diff",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "5999f1d09afe1039",
+        "x": 800,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "91b03956f65107e7",
+        "type": "function",
+        "z": "f3ec5d556e86f8d0",
+        "g": "7ceda8dc6f5a8d60",
+        "name": "assemble mqtt message",
+        "func": "var o = msg.payload;\n\nvar t = \"{ \\\"DETECTOR_DIFF\\\": \\\"\" + o.diff + \"\\\"}\";\nmsg.payload = t;\n//nodered/firescore/[node id]\nmsg.topic = \"nodered/laserdiff\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 1600,
+        "wires": [
+            [
+                "f86871afbc03993e"
+            ]
+        ]
+    },
+    {
+        "id": "7a6d7007d9d5ec67",
+        "type": "link in",
+        "z": "f3ec5d556e86f8d0",
+        "g": "7ceda8dc6f5a8d60",
+        "name": "Broadcast Laser Diff Change",
+        "links": [
+            "c1f7e764f490f914"
+        ],
+        "x": 225,
+        "y": 1600,
+        "wires": [
+            [
+                "91b03956f65107e7"
+            ]
+        ]
+    },
+    {
+        "id": "ccf03d13258bb4e3",
+        "type": "comment",
+        "z": "f3ec5d556e86f8d0",
+        "g": "7ceda8dc6f5a8d60",
+        "name": "Broadcast Laser Diff Change",
+        "info": "",
+        "x": 280,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "e2b27e9faf37bd1e",
+        "type": "mqtt out",
+        "z": "f3ec5d556e86f8d0",
+        "g": "96cafb8e88dad064",
+        "name": "Broadcast Query Latest Tare",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "5999f1d09afe1039",
+        "x": 820,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "6331f7057ebfd37c",
+        "type": "function",
+        "z": "f3ec5d556e86f8d0",
+        "g": "96cafb8e88dad064",
+        "name": "assemble mqtt message",
+        "func": "var o = msg.payload;\n\nvar t = \"{ }\";\nmsg.payload = t;\n//nodered/firescore/[node id]\nmsg.topic = \"nodered/weighttare\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 1780,
+        "wires": [
+            [
+                "e2b27e9faf37bd1e"
+            ]
+        ]
+    },
+    {
+        "id": "bc8a6edecc1a9a5c",
+        "type": "link in",
+        "z": "f3ec5d556e86f8d0",
+        "g": "96cafb8e88dad064",
+        "name": "Broadcast TareQuery",
+        "links": [
+            "c1f7e764f490f914",
+            "4bdef8d87b5da823"
+        ],
+        "x": 225,
+        "y": 1780,
+        "wires": [
+            [
+                "6331f7057ebfd37c"
+            ]
+        ]
+    },
+    {
+        "id": "c74fb766b19e2bf1",
+        "type": "comment",
+        "z": "f3ec5d556e86f8d0",
+        "g": "96cafb8e88dad064",
+        "name": "Broadcast Query for Weight Tare",
+        "info": "Reported back through a separate message\nedgenode/latesttare/",
+        "x": 290,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "f8aa15da571b3aae",
+        "type": "ui_text",
+        "z": "f3ec5d556e86f8d0",
+        "g": "96faa29525ade8f0",
+        "group": "a5991f3b10b51e7c",
+        "order": 3,
+        "width": "6",
+        "height": "4",
+        "name": "Loaded Values",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 700,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "dfeaa41a75adbf51",
+        "type": "ui_button",
+        "z": "f3ec5d556e86f8d0",
+        "g": "96faa29525ade8f0",
+        "name": "Submit",
+        "group": "a5991f3b10b51e7c",
+        "order": 4,
+        "width": "0",
+        "height": "0",
+        "passthru": false,
+        "label": "Current Config Dump",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 280,
+        "y": 220,
+        "wires": [
+            [
+                "5870cb8ac8846724",
+                "a11c3ee5796d07f2"
+            ]
+        ]
+    },
+    {
+        "id": "f4c6348e4bde4c20",
+        "type": "ui_form",
+        "z": "f3ec5d556e86f8d0",
+        "g": "96faa29525ade8f0",
+        "name": "",
+        "label": "Add UUID Mapping",
+        "group": "a5991f3b10b51e7c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Arduino UUID",
+                "value": "EDGE_UUID",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Node ID",
+                "value": "EDGE_NODE_ID",
+                "type": "text",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "EDGE_UUID": "",
+            "EDGE_NODE_ID": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "x": 310,
+        "y": 320,
+        "wires": [
+            [
+                "99f3e6c97f2c0d2b",
+                "a11c3ee5796d07f2"
+            ]
+        ]
+    },
+    {
+        "id": "5870cb8ac8846724",
+        "type": "link out",
+        "z": "f3ec5d556e86f8d0",
+        "g": "96faa29525ade8f0",
+        "name": "link out 28",
+        "links": [
+            "6f32fc52a4d53df8"
+        ],
+        "x": 425,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "4369b98b6d58fe86",
+        "type": "link in",
+        "z": "f3ec5d556e86f8d0",
+        "g": "96faa29525ade8f0",
+        "name": "Config Display",
+        "links": [
+            "ad34ea44766153db"
+        ],
+        "x": 555,
+        "y": 220,
+        "wires": [
+            [
+                "f8aa15da571b3aae"
+            ]
+        ]
+    },
+    {
+        "id": "99f3e6c97f2c0d2b",
+        "type": "link out",
+        "z": "f3ec5d556e86f8d0",
+        "g": "96faa29525ade8f0",
+        "name": "link out 30",
+        "links": [
+            "161f3cee4bd60724"
+        ],
+        "x": 505,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "02673478ac90323a",
+        "type": "comment",
+        "z": "f3ec5d556e86f8d0",
+        "g": "96faa29525ade8f0",
+        "name": "Dump Current Config",
+        "info": "",
+        "x": 320,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "1dfa349788a1a948",
+        "type": "ui_form",
+        "z": "f3ec5d556e86f8d0",
+        "g": "96faa29525ade8f0",
+        "name": "",
+        "label": "Remove UUID Mapping",
+        "group": "a5991f3b10b51e7c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Arduino UUID",
+                "value": "EDGE_UUID",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "EDGE_UUID": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "x": 330,
+        "y": 400,
+        "wires": [
+            [
+                "9e93acca6dde891c",
+                "a11c3ee5796d07f2"
+            ]
+        ]
+    },
+    {
+        "id": "9e93acca6dde891c",
+        "type": "link out",
+        "z": "f3ec5d556e86f8d0",
+        "g": "96faa29525ade8f0",
+        "name": "link out 31",
+        "links": [
+            "cd811a5da6dea1c9"
+        ],
+        "x": 535,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "a11c3ee5796d07f2",
+        "type": "delay",
+        "z": "f3ec5d556e86f8d0",
+        "g": "96faa29525ade8f0",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 600,
+        "y": 280,
+        "wires": [
+            [
+                "f03d05829f9254f9"
+            ]
+        ]
+    },
+    {
+        "id": "f03d05829f9254f9",
+        "type": "link out",
+        "z": "f3ec5d556e86f8d0",
+        "g": "96faa29525ade8f0",
+        "name": "link out 33",
+        "links": [
+            "6f32fc52a4d53df8"
+        ],
+        "x": 755,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "a3534a12592a4f1e",
+        "type": "ui_form",
+        "z": "f3ec5d556e86f8d0",
+        "g": "96faa29525ade8f0",
+        "name": "Set Laser Detector Diff",
+        "label": "Set Laser Detector Differential (default 500)",
+        "group": "a5991f3b10b51e7c",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Diff",
+                "value": "diff",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "diff": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "x": 320,
+        "y": 500,
+        "wires": [
+            [
+                "c1f7e764f490f914"
+            ]
+        ]
+    },
+    {
+        "id": "c1f7e764f490f914",
+        "type": "link out",
+        "z": "f3ec5d556e86f8d0",
+        "g": "96faa29525ade8f0",
+        "name": "link out 52",
+        "links": [
+            "7a6d7007d9d5ec67",
+            "bc8a6edecc1a9a5c"
+        ],
+        "x": 545,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "4bdef8d87b5da823",
+        "type": "link out",
+        "z": "f3ec5d556e86f8d0",
+        "g": "96faa29525ade8f0",
+        "name": "link out 53",
+        "links": [
+            "bc8a6edecc1a9a5c"
+        ],
+        "x": 595,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "b15078312d3e61f5",
+        "type": "ui_button",
+        "z": "f3ec5d556e86f8d0",
+        "g": "96faa29525ade8f0",
+        "name": "Query Latest Tare Value from all Field",
+        "group": "a5991f3b10b51e7c",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Query Field For Latest Tares",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 370,
+        "y": 560,
+        "wires": [
+            [
+                "4bdef8d87b5da823"
+            ]
+        ]
+    },
+    {
+        "id": "da8da29f2b800fa5",
+        "type": "comment",
+        "z": "f3ec5d556e86f8d0",
+        "g": "96faa29525ade8f0",
+        "name": "=== Field Config Dashboard Items",
+        "info": "",
+        "x": 300,
+        "y": 100,
+        "wires": []
     }
 ]
