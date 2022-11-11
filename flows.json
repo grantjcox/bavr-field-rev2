@@ -32,6 +32,14 @@
         "env": []
     },
     {
+        "id": "d32826a1611e0622",
+        "type": "tab",
+        "label": "Trees & Trenches",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "6a070793fb470a03",
         "type": "group",
         "z": "55a762ae72fa441b",
@@ -244,9 +252,7 @@
             "5f3e0a85eea68705"
         ],
         "x": 34,
-        "y": 19,
-        "w": 552,
-        "h": 122
+        "y": 19
     },
     {
         "id": "aa7cdd8f3125703c",
@@ -269,9 +275,7 @@
             "6e6816ac951a5c0f"
         ],
         "x": 34,
-        "y": 159,
-        "w": 852,
-        "h": 182
+        "y": 159
     },
     {
         "id": "2ac942eccf98a996",
@@ -298,9 +302,7 @@
             "cc34e7492d373681"
         ],
         "x": 94,
-        "y": 59,
-        "w": 692,
-        "h": 282
+        "y": 59
     },
     {
         "id": "b2c04e106e7697f0",
@@ -370,9 +372,7 @@
             "8fa76cd3d132c117"
         ],
         "x": 84,
-        "y": 67,
-        "w": 2072,
-        "h": 414
+        "y": 67
     },
     {
         "id": "5f1037ebc6dbd72f",
@@ -395,9 +395,7 @@
             "19c221d99629ee7a"
         ],
         "x": 74,
-        "y": 567,
-        "w": 652,
-        "h": 194
+        "y": 567
     },
     {
         "id": "459fe488a5804676",
@@ -425,9 +423,7 @@
             "71f67f7f27cafd81"
         ],
         "x": 74,
-        "y": 807,
-        "w": 1592,
-        "h": 266
+        "y": 807
     },
     {
         "id": "378995858571b39f",
@@ -489,9 +485,7 @@
             "a429c99752090afe"
         ],
         "x": 74,
-        "y": 1179,
-        "w": 772,
-        "h": 322
+        "y": 1179
     },
     {
         "id": "3a81c46c8f3762a2",
@@ -514,9 +508,7 @@
             "1b55865e8e16d405"
         ],
         "x": 34,
-        "y": 379,
-        "w": 772,
-        "h": 122
+        "y": 379
     },
     {
         "id": "77bdfe65956919ec",
@@ -544,9 +536,7 @@
             "3fbcebb8a982c031"
         ],
         "x": 94,
-        "y": 499,
-        "w": 1242,
-        "h": 282
+        "y": 499
     },
     {
         "id": "2971d7c90b74f3b4",
@@ -611,6 +601,53 @@
         "y": 4299,
         "w": 952,
         "h": 302
+    },
+    {
+        "id": "b16460b067e3329b",
+        "type": "group",
+        "z": "175af8efcea2d591",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "09e1bb987f6fc783",
+            "318fd2d140ad472a",
+            "46514258ddd5880b",
+            "e9c6866ca0db7662"
+        ],
+        "x": 894,
+        "y": 59
+    },
+    {
+        "id": "738dc520034f11a7",
+        "type": "group",
+        "z": "175af8efcea2d591",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "2c36544f165ecf61",
+            "bb41b3b3cc7b681d",
+            "4f56704568189cfc",
+            "02424c99509bf97f",
+            "af9851791b431668",
+            "857fda300015cd6e",
+            "d896e715d917cdf2"
+        ],
+        "x": 94,
+        "y": 819
     },
     {
         "id": "2b2a6d295740d392",
@@ -705,9 +742,9 @@
         "h": 142
     },
     {
-        "id": "b16460b067e3329b",
+        "id": "cb9c0c3b1fe84ccc",
         "type": "group",
-        "z": "175af8efcea2d591",
+        "z": "d32826a1611e0622",
         "style": {
             "stroke": "#3a3a3a",
             "stroke-opacity": "1",
@@ -718,42 +755,25 @@
             "color": "#cccccc"
         },
         "nodes": [
-            "09e1bb987f6fc783",
-            "318fd2d140ad472a",
-            "46514258ddd5880b",
-            "e9c6866ca0db7662"
+            "b2d4ac6f1946502e",
+            "daaf11927f2a4a8b",
+            "0290fd63a1e59327",
+            "2c989acbcca096b1",
+            "4ff11dd0b666fb48",
+            "9a1d6ba86b7f753b",
+            "95d5bbb03ba2f1fb",
+            "ab91ea138a0ca368",
+            "f437b1f9f5574bab",
+            "4a3e2edb7b10cecb",
+            "af0d6f75fe37452a",
+            "10f28faa6d606765",
+            "dcac314a2015fdf2",
+            "48f1b9502311d765"
         ],
-        "x": 894,
-        "y": 59,
-        "w": 522,
-        "h": 122
-    },
-    {
-        "id": "738dc520034f11a7",
-        "type": "group",
-        "z": "175af8efcea2d591",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "2c36544f165ecf61",
-            "bb41b3b3cc7b681d",
-            "4f56704568189cfc",
-            "02424c99509bf97f",
-            "af9851791b431668",
-            "857fda300015cd6e",
-            "d896e715d917cdf2"
-        ],
-        "x": 94,
-        "y": 819,
-        "w": 472,
-        "h": 182
+        "x": 34,
+        "y": 39,
+        "w": 412,
+        "h": 382
     },
     {
         "id": "b411c6135a7823e0",
@@ -1124,6 +1144,37 @@
         "order": 2,
         "width": 5,
         "height": 1
+    },
+    {
+        "id": "7a3c32bb77d2c5c3",
+        "type": "ui_tab",
+        "name": "Trees & Trenches",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e385e97cb63ad34f",
+        "type": "ui_group",
+        "name": "Trees",
+        "tab": "7a3c32bb77d2c5c3",
+        "order": 1,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "13504c5753af441d",
+        "type": "ui_group",
+        "name": "Tremches",
+        "tab": "7a3c32bb77d2c5c3",
+        "order": 2,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "e1ba7bc1352dbb74",
@@ -6253,6 +6304,465 @@
         "libs": [],
         "x": 1250,
         "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b2d4ac6f1946502e",
+        "type": "ui_switch",
+        "z": "d32826a1611e0622",
+        "g": "cb9c0c3b1fe84ccc",
+        "name": "",
+        "label": "LEFT - 1",
+        "tooltip": "",
+        "group": "e385e97cb63ad34f",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 180,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "daaf11927f2a4a8b",
+        "type": "comment",
+        "z": "d32826a1611e0622",
+        "g": "cb9c0c3b1fe84ccc",
+        "name": "Trees",
+        "info": "",
+        "x": 110,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "0290fd63a1e59327",
+        "type": "comment",
+        "z": "d32826a1611e0622",
+        "g": "cb9c0c3b1fe84ccc",
+        "name": "THESE ARE ALL JUST VISUALS!",
+        "info": "",
+        "x": 240,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "2c989acbcca096b1",
+        "type": "ui_switch",
+        "z": "d32826a1611e0622",
+        "g": "cb9c0c3b1fe84ccc",
+        "name": "",
+        "label": "LEFT - 2",
+        "tooltip": "",
+        "group": "e385e97cb63ad34f",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 180,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4ff11dd0b666fb48",
+        "type": "ui_switch",
+        "z": "d32826a1611e0622",
+        "g": "cb9c0c3b1fe84ccc",
+        "name": "",
+        "label": "LEFT - 3",
+        "tooltip": "",
+        "group": "e385e97cb63ad34f",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 180,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9a1d6ba86b7f753b",
+        "type": "ui_switch",
+        "z": "d32826a1611e0622",
+        "g": "cb9c0c3b1fe84ccc",
+        "name": "",
+        "label": "LEFT - 4",
+        "tooltip": "",
+        "group": "e385e97cb63ad34f",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 180,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "95d5bbb03ba2f1fb",
+        "type": "ui_switch",
+        "z": "d32826a1611e0622",
+        "g": "cb9c0c3b1fe84ccc",
+        "name": "",
+        "label": "LEFT - 5",
+        "tooltip": "",
+        "group": "e385e97cb63ad34f",
+        "order": 9,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 180,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ab91ea138a0ca368",
+        "type": "ui_switch",
+        "z": "d32826a1611e0622",
+        "g": "cb9c0c3b1fe84ccc",
+        "name": "",
+        "label": "LEFT - 6",
+        "tooltip": "",
+        "group": "e385e97cb63ad34f",
+        "order": 11,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 180,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f437b1f9f5574bab",
+        "type": "ui_switch",
+        "z": "d32826a1611e0622",
+        "g": "cb9c0c3b1fe84ccc",
+        "name": "",
+        "label": "RIGHT - 1",
+        "tooltip": "",
+        "group": "e385e97cb63ad34f",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 350,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4a3e2edb7b10cecb",
+        "type": "ui_switch",
+        "z": "d32826a1611e0622",
+        "g": "cb9c0c3b1fe84ccc",
+        "name": "",
+        "label": "RIGHT -  2",
+        "tooltip": "",
+        "group": "e385e97cb63ad34f",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 350,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "af0d6f75fe37452a",
+        "type": "ui_switch",
+        "z": "d32826a1611e0622",
+        "g": "cb9c0c3b1fe84ccc",
+        "name": "",
+        "label": "RIGHT - 3",
+        "tooltip": "",
+        "group": "e385e97cb63ad34f",
+        "order": 6,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 350,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "10f28faa6d606765",
+        "type": "ui_switch",
+        "z": "d32826a1611e0622",
+        "g": "cb9c0c3b1fe84ccc",
+        "name": "",
+        "label": "RIGHT - 4",
+        "tooltip": "",
+        "group": "e385e97cb63ad34f",
+        "order": 8,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 350,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dcac314a2015fdf2",
+        "type": "ui_switch",
+        "z": "d32826a1611e0622",
+        "g": "cb9c0c3b1fe84ccc",
+        "name": "",
+        "label": "RIGHT - 5",
+        "tooltip": "",
+        "group": "e385e97cb63ad34f",
+        "order": 10,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 350,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "48f1b9502311d765",
+        "type": "ui_switch",
+        "z": "d32826a1611e0622",
+        "g": "cb9c0c3b1fe84ccc",
+        "name": "",
+        "label": "RIGHT - 6",
+        "tooltip": "",
+        "group": "e385e97cb63ad34f",
+        "order": 12,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 350,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cd918c85e1e535ad",
+        "type": "comment",
+        "z": "d32826a1611e0622",
+        "name": "Trenches",
+        "info": "",
+        "x": 120,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "a1a50d78983d601d",
+        "type": "ui_dropdown",
+        "z": "d32826a1611e0622",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "13504c5753af441d",
+        "order": 0,
+        "width": "2",
+        "height": "2",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 180,
+        "y": 540,
         "wires": [
             []
         ]
