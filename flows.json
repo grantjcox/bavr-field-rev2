@@ -687,8 +687,190 @@
         ],
         "x": 34,
         "y": 39,
-        "w": 402,
+        "w": 412,
         "h": 382
+    },
+    {
+        "id": "a83bb00d46efe804",
+        "type": "group",
+        "z": "f3ec5d556e86f8d0",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "5bdc6b89364fd15a",
+            "9bca7655eb1d89cf",
+            "c7fe99b0e0506601",
+            "8c0e6a2a0a04fcd7",
+            "340a8ade18808c45",
+            "cf58eb77138066b2",
+            "9dd0a2d0ffb6a743",
+            "4215a3196c228639",
+            "c58252a4cb097661",
+            "579c8c19ccab0937",
+            "a74d42b7ae961652",
+            "6f32fc52a4d53df8",
+            "3dd25f169354ef22",
+            "ad34ea44766153db"
+        ],
+        "x": 134,
+        "y": 659
+    },
+    {
+        "id": "e63633ec18181ba7",
+        "type": "group",
+        "z": "f3ec5d556e86f8d0",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "f4b7c4c243db620d",
+            "837b88b53ec5549a",
+            "ac6ab4bb77d73dc4",
+            "0faf666bf00276e9",
+            "2bcc56e6d241c3d9",
+            "feddd1768611c551",
+            "b111193564f5a7a0",
+            "161f3cee4bd60724",
+            "b1e8ab6feba986c9",
+            "4b72a159e1e82517",
+            "c79cb601a8c0ab17"
+        ],
+        "x": 134,
+        "y": 1099
+    },
+    {
+        "id": "bc92f0b2168e67b1",
+        "type": "group",
+        "z": "f3ec5d556e86f8d0",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "9f34def0af02efeb",
+            "80e1d2d095f19693",
+            "ac5d35d999fc40b9",
+            "cd811a5da6dea1c9"
+        ],
+        "x": 1174,
+        "y": 1079
+    },
+    {
+        "id": "2024311963b7a70e",
+        "type": "group",
+        "z": "f3ec5d556e86f8d0",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "97e2f252303bfcf3",
+            "a1e6f1282aa6e63a",
+            "b70ae83c222fa7da"
+        ],
+        "x": 1174,
+        "y": 1299
+    },
+    {
+        "id": "7ceda8dc6f5a8d60",
+        "type": "group",
+        "z": "f3ec5d556e86f8d0",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "f86871afbc03993e",
+            "91b03956f65107e7",
+            "7a6d7007d9d5ec67",
+            "ccf03d13258bb4e3"
+        ],
+        "x": 134,
+        "y": 1499
+    },
+    {
+        "id": "96cafb8e88dad064",
+        "type": "group",
+        "z": "f3ec5d556e86f8d0",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "e2b27e9faf37bd1e",
+            "6331f7057ebfd37c",
+            "bc8a6edecc1a9a5c",
+            "c74fb766b19e2bf1"
+        ],
+        "x": 134,
+        "y": 1679
+    },
+    {
+        "id": "96faa29525ade8f0",
+        "type": "group",
+        "z": "f3ec5d556e86f8d0",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "f8aa15da571b3aae",
+            "dfeaa41a75adbf51",
+            "f4c6348e4bde4c20",
+            "5870cb8ac8846724",
+            "4369b98b6d58fe86",
+            "99f3e6c97f2c0d2b",
+            "02673478ac90323a",
+            "1dfa349788a1a948",
+            "9e93acca6dde891c",
+            "a11c3ee5796d07f2",
+            "f03d05829f9254f9",
+            "a3534a12592a4f1e",
+            "c1f7e764f490f914",
+            "4bdef8d87b5da823",
+            "b15078312d3e61f5",
+            "da8da29f2b800fa5"
+        ],
+        "x": 134,
+        "y": 59
     },
     {
         "id": "2b2a6d295740d392",
@@ -783,9 +965,9 @@
         "h": 142
     },
     {
-        "id": "a83bb00d46efe804",
+        "id": "cba36710b3f0e691",
         "type": "group",
-        "z": "f3ec5d556e86f8d0",
+        "z": "d32826a1611e0622",
         "style": {
             "stroke": "#3a3a3a",
             "stroke-opacity": "1",
@@ -796,187 +978,15 @@
             "color": "#cccccc"
         },
         "nodes": [
-            "5bdc6b89364fd15a",
-            "9bca7655eb1d89cf",
-            "c7fe99b0e0506601",
-            "8c0e6a2a0a04fcd7",
-            "340a8ade18808c45",
-            "cf58eb77138066b2",
-            "9dd0a2d0ffb6a743",
-            "4215a3196c228639",
-            "c58252a4cb097661",
-            "579c8c19ccab0937",
-            "a74d42b7ae961652",
-            "6f32fc52a4d53df8",
-            "3dd25f169354ef22",
-            "ad34ea44766153db"
+            "425525fa50d52aef",
+            "c04c6d32184aa86e",
+            "b69b44971de6fba0",
+            "40bd2073c91617a2"
         ],
-        "x": 134,
-        "y": 659,
-        "w": 1272,
-        "h": 402
-    },
-    {
-        "id": "e63633ec18181ba7",
-        "type": "group",
-        "z": "f3ec5d556e86f8d0",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "f4b7c4c243db620d",
-            "837b88b53ec5549a",
-            "ac6ab4bb77d73dc4",
-            "0faf666bf00276e9",
-            "2bcc56e6d241c3d9",
-            "feddd1768611c551",
-            "b111193564f5a7a0",
-            "161f3cee4bd60724",
-            "b1e8ab6feba986c9",
-            "4b72a159e1e82517",
-            "c79cb601a8c0ab17"
-        ],
-        "x": 134,
-        "y": 1099,
-        "w": 952,
-        "h": 342
-    },
-    {
-        "id": "bc92f0b2168e67b1",
-        "type": "group",
-        "z": "f3ec5d556e86f8d0",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "9f34def0af02efeb",
-            "80e1d2d095f19693",
-            "ac5d35d999fc40b9",
-            "cd811a5da6dea1c9"
-        ],
-        "x": 1174,
-        "y": 1079,
-        "w": 512,
-        "h": 122
-    },
-    {
-        "id": "2024311963b7a70e",
-        "type": "group",
-        "z": "f3ec5d556e86f8d0",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "97e2f252303bfcf3",
-            "a1e6f1282aa6e63a",
-            "b70ae83c222fa7da"
-        ],
-        "x": 1174,
-        "y": 1299,
-        "w": 482,
-        "h": 122
-    },
-    {
-        "id": "7ceda8dc6f5a8d60",
-        "type": "group",
-        "z": "f3ec5d556e86f8d0",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "f86871afbc03993e",
-            "91b03956f65107e7",
-            "7a6d7007d9d5ec67",
-            "ccf03d13258bb4e3"
-        ],
-        "x": 134,
-        "y": 1499,
-        "w": 792,
+        "x": 54,
+        "y": 499,
+        "w": 712,
         "h": 142
-    },
-    {
-        "id": "96cafb8e88dad064",
-        "type": "group",
-        "z": "f3ec5d556e86f8d0",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "e2b27e9faf37bd1e",
-            "6331f7057ebfd37c",
-            "bc8a6edecc1a9a5c",
-            "c74fb766b19e2bf1"
-        ],
-        "x": 134,
-        "y": 1679,
-        "w": 832,
-        "h": 142
-    },
-    {
-        "id": "96faa29525ade8f0",
-        "type": "group",
-        "z": "f3ec5d556e86f8d0",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "f8aa15da571b3aae",
-            "dfeaa41a75adbf51",
-            "f4c6348e4bde4c20",
-            "5870cb8ac8846724",
-            "4369b98b6d58fe86",
-            "99f3e6c97f2c0d2b",
-            "02673478ac90323a",
-            "1dfa349788a1a948",
-            "9e93acca6dde891c",
-            "a11c3ee5796d07f2",
-            "f03d05829f9254f9",
-            "a3534a12592a4f1e",
-            "c1f7e764f490f914",
-            "4bdef8d87b5da823",
-            "b15078312d3e61f5",
-            "da8da29f2b800fa5"
-        ],
-        "x": 134,
-        "y": 59,
-        "w": 672,
-        "h": 542
     },
     {
         "id": "b411c6135a7823e0",
@@ -1380,12 +1390,6 @@
         "className": ""
     },
     {
-        "id": "6f6f2d0bf9d4b5e3",
-        "type": "sqlitedb",
-        "db": "/home/pi/sqlite-storage/sqlite",
-        "mode": "RWC"
-    },
-    {
         "id": "5999f1d09afe1039",
         "type": "mqtt-broker",
         "name": "mqtt-node-main",
@@ -1427,6 +1431,12 @@
         "icon": "dashboard",
         "disabled": false,
         "hidden": false
+    },
+    {
+        "id": "6f6f2d0bf9d4b5e3",
+        "type": "sqlitedb",
+        "db": "/home/pi/sqlite-storage/sqlite",
+        "mode": "RWC"
     },
     {
         "id": "e1ba7bc1352dbb74",
@@ -6979,21 +6989,23 @@
         ]
     },
     {
-        "id": "cd918c85e1e535ad",
+        "id": "425525fa50d52aef",
         "type": "comment",
         "z": "d32826a1611e0622",
+        "g": "cba36710b3f0e691",
         "name": "Trenches",
         "info": "",
-        "x": 120,
-        "y": 480,
+        "x": 140,
+        "y": 540,
         "wires": []
     },
     {
-        "id": "a1a50d78983d601d",
+        "id": "c04c6d32184aa86e",
         "type": "ui_dropdown",
         "z": "d32826a1611e0622",
+        "g": "cba36710b3f0e691",
         "name": "",
-        "label": "",
+        "label": "LEFT-TOP-1",
         "tooltip": "",
         "place": "Select option",
         "group": "13504c5753af441d",
@@ -7004,8 +7016,18 @@
         "multiple": false,
         "options": [
             {
-                "label": "",
-                "value": "",
+                "label": "OFF",
+                "value": "OFF",
+                "type": "str"
+            },
+            {
+                "label": "RED",
+                "value": "RED",
+                "type": "str"
+            },
+            {
+                "label": "GREEN",
+                "value": "GREEN",
                 "type": "str"
             }
         ],
@@ -7013,26 +7035,58 @@
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 180,
-        "y": 540,
+        "x": 210,
+        "y": 600,
         "wires": [
-            []
+            [
+                "40bd2073c91617a2"
+            ]
         ]
     },
     {
-        "id": "f4b7c4c243db620d",
-        "type": "sqlite",
-        "z": "f3ec5d556e86f8d0",
-        "g": "e63633ec18181ba7",
-        "mydb": "6f6f2d0bf9d4b5e3",
-        "sqlquery": "msg.topic",
-        "sql": "",
-        "name": "Read Config Node ID",
-        "x": 440,
-        "y": 1400,
+        "id": "b69b44971de6fba0",
+        "type": "mqtt out",
+        "z": "d32826a1611e0622",
+        "g": "cba36710b3f0e691",
+        "name": "",
+        "topic": "nodered/updatepixels/LTT",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 630,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "40bd2073c91617a2",
+        "type": "change",
+        "z": "d32826a1611e0622",
+        "g": "cba36710b3f0e691",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"whichLeds\":0,\"pixels\":\"111111111111111111111111111111\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 600,
         "wires": [
             [
-                "2bcc56e6d241c3d9"
+                "b69b44971de6fba0"
             ]
         ]
     },
@@ -7068,23 +7122,6 @@
         "x": 270,
         "y": 700,
         "wires": []
-    },
-    {
-        "id": "9bca7655eb1d89cf",
-        "type": "sqlite",
-        "z": "f3ec5d556e86f8d0",
-        "g": "a83bb00d46efe804",
-        "mydb": "6f6f2d0bf9d4b5e3",
-        "sqlquery": "fixed",
-        "sql": "CREATE TABLE FIELD_CONFIG (\n  EDGE_UUID TEXT PRIMARY KEY,\n  EDGE_NODE_ID TEXT\n)",
-        "name": "Create Config Table",
-        "x": 690,
-        "y": 800,
-        "wires": [
-            [
-                "cf58eb77138066b2"
-            ]
-        ]
     },
     {
         "id": "c7fe99b0e0506601",
@@ -7209,23 +7246,6 @@
         ]
     },
     {
-        "id": "4215a3196c228639",
-        "type": "sqlite",
-        "z": "f3ec5d556e86f8d0",
-        "g": "a83bb00d46efe804",
-        "mydb": "6f6f2d0bf9d4b5e3",
-        "sqlquery": "msg.topic",
-        "sql": "",
-        "name": "SqlLite Commands",
-        "x": 1090,
-        "y": 920,
-        "wires": [
-            [
-                "cf58eb77138066b2"
-            ]
-        ]
-    },
-    {
         "id": "c58252a4cb097661",
         "type": "function",
         "z": "f3ec5d556e86f8d0",
@@ -7272,23 +7292,6 @@
         "wires": [
             [
                 "a74d42b7ae961652"
-            ]
-        ]
-    },
-    {
-        "id": "a74d42b7ae961652",
-        "type": "sqlite",
-        "z": "f3ec5d556e86f8d0",
-        "g": "a83bb00d46efe804",
-        "mydb": "6f6f2d0bf9d4b5e3",
-        "sqlquery": "fixed",
-        "sql": "DROP TABLE IF EXISTS FIELD_CONFIG;",
-        "name": "Drop Field Config Table",
-        "x": 710,
-        "y": 760,
-        "wires": [
-            [
-                "cf58eb77138066b2"
             ]
         ]
     },
@@ -7435,23 +7438,6 @@
         "wires": []
     },
     {
-        "id": "3dd25f169354ef22",
-        "type": "sqlite",
-        "z": "f3ec5d556e86f8d0",
-        "g": "a83bb00d46efe804",
-        "mydb": "6f6f2d0bf9d4b5e3",
-        "sqlquery": "fixed",
-        "sql": "Select * from FIELD_CONFIG;",
-        "name": "Read Config",
-        "x": 450,
-        "y": 1020,
-        "wires": [
-            [
-                "ad34ea44766153db"
-            ]
-        ]
-    },
-    {
         "id": "6f32fc52a4d53df8",
         "type": "link in",
         "z": "f3ec5d556e86f8d0",
@@ -7520,21 +7506,6 @@
         ]
     },
     {
-        "id": "4b72a159e1e82517",
-        "type": "sqlite",
-        "z": "f3ec5d556e86f8d0",
-        "g": "e63633ec18181ba7",
-        "mydb": "6f6f2d0bf9d4b5e3",
-        "sqlquery": "msg.topic",
-        "sql": "",
-        "name": "SqlLite Commands",
-        "x": 510,
-        "y": 1180,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "c79cb601a8c0ab17",
         "type": "comment",
         "z": "f3ec5d556e86f8d0",
@@ -7563,21 +7534,6 @@
             [
                 "80e1d2d095f19693"
             ]
-        ]
-    },
-    {
-        "id": "80e1d2d095f19693",
-        "type": "sqlite",
-        "z": "f3ec5d556e86f8d0",
-        "g": "bc92f0b2168e67b1",
-        "mydb": "6f6f2d0bf9d4b5e3",
-        "sqlquery": "msg.topic",
-        "sql": "",
-        "name": "SqlLite Commands",
-        "x": 1570,
-        "y": 1160,
-        "wires": [
-            []
         ]
     },
     {
@@ -8081,5 +8037,113 @@
         "x": 300,
         "y": 100,
         "wires": []
+    },
+    {
+        "id": "f4b7c4c243db620d",
+        "type": "sqlite",
+        "z": "f3ec5d556e86f8d0",
+        "mydb": "6f6f2d0bf9d4b5e3",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "Read Config Node ID",
+        "x": 440,
+        "y": 1400,
+        "wires": [
+            [
+                "2bcc56e6d241c3d9"
+            ]
+        ]
+    },
+    {
+        "id": "9bca7655eb1d89cf",
+        "type": "sqlite",
+        "z": "f3ec5d556e86f8d0",
+        "mydb": "6f6f2d0bf9d4b5e3",
+        "sqlquery": "fixed",
+        "sql": "CREATE TABLE FIELD_CONFIG (\n  EDGE_UUID TEXT PRIMARY KEY,\n  EDGE_NODE_ID TEXT\n)",
+        "name": "Create Config Table",
+        "x": 690,
+        "y": 800,
+        "wires": [
+            [
+                "cf58eb77138066b2"
+            ]
+        ]
+    },
+    {
+        "id": "4215a3196c228639",
+        "type": "sqlite",
+        "z": "f3ec5d556e86f8d0",
+        "mydb": "6f6f2d0bf9d4b5e3",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "SqlLite Commands",
+        "x": 1090,
+        "y": 920,
+        "wires": [
+            [
+                "cf58eb77138066b2"
+            ]
+        ]
+    },
+    {
+        "id": "a74d42b7ae961652",
+        "type": "sqlite",
+        "z": "f3ec5d556e86f8d0",
+        "mydb": "6f6f2d0bf9d4b5e3",
+        "sqlquery": "fixed",
+        "sql": "DROP TABLE IF EXISTS FIELD_CONFIG;",
+        "name": "Drop Field Config Table",
+        "x": 710,
+        "y": 760,
+        "wires": [
+            [
+                "cf58eb77138066b2"
+            ]
+        ]
+    },
+    {
+        "id": "3dd25f169354ef22",
+        "type": "sqlite",
+        "z": "f3ec5d556e86f8d0",
+        "mydb": "6f6f2d0bf9d4b5e3",
+        "sqlquery": "fixed",
+        "sql": "Select * from FIELD_CONFIG;",
+        "name": "Read Config",
+        "x": 450,
+        "y": 1020,
+        "wires": [
+            [
+                "ad34ea44766153db"
+            ]
+        ]
+    },
+    {
+        "id": "4b72a159e1e82517",
+        "type": "sqlite",
+        "z": "f3ec5d556e86f8d0",
+        "mydb": "6f6f2d0bf9d4b5e3",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "SqlLite Commands",
+        "x": 510,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "80e1d2d095f19693",
+        "type": "sqlite",
+        "z": "f3ec5d556e86f8d0",
+        "mydb": "6f6f2d0bf9d4b5e3",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "SqlLite Commands",
+        "x": 1570,
+        "y": 1160,
+        "wires": [
+            []
+        ]
     }
 ]
