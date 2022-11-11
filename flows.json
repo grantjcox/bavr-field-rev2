@@ -87,7 +87,7 @@
         ],
         "x": 54,
         "y": 879,
-        "w": 632,
+        "w": 652,
         "h": 182
     },
     {
@@ -244,7 +244,9 @@
             "5f3e0a85eea68705"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 552,
+        "h": 122
     },
     {
         "id": "aa7cdd8f3125703c",
@@ -267,7 +269,9 @@
             "6e6816ac951a5c0f"
         ],
         "x": 34,
-        "y": 159
+        "y": 159,
+        "w": 852,
+        "h": 182
     },
     {
         "id": "2ac942eccf98a996",
@@ -289,13 +293,14 @@
             "05cbae4faf594123",
             "deaae49be7b573b0",
             "892376e5bd117bc9",
-            "318fd2d140ad472a",
-            "09e1bb987f6fc783",
             "c5d69c3b0f5e30ee",
-            "0e3ebf9316c50718"
+            "0e3ebf9316c50718",
+            "cc34e7492d373681"
         ],
         "x": 94,
-        "y": 59
+        "y": 59,
+        "w": 692,
+        "h": 282
     },
     {
         "id": "b2c04e106e7697f0",
@@ -353,11 +358,6 @@
             "ed2d399b29970928",
             "5f0bcff5c4ed6ec4",
             "f986ab9711daf36b",
-            "d052e342e40320b9",
-            "71df01656749e372",
-            "dd8828fab2dad33c",
-            "42fbeec64825d3a1",
-            "4de1de66baa1bdcf",
             "085de4503ad6ec20",
             "63f18a575dc37f3b",
             "dda9a78374edd0d2",
@@ -366,10 +366,13 @@
             "2a37db221e4919dc",
             "fe84ce88167ea094",
             "5c0e589cb02e5ad4",
-            "6983c6fb1a960333"
+            "6983c6fb1a960333",
+            "8fa76cd3d132c117"
         ],
-        "x": 74,
-        "y": 67
+        "x": 84,
+        "y": 67,
+        "w": 2072,
+        "h": 414
     },
     {
         "id": "5f1037ebc6dbd72f",
@@ -392,7 +395,9 @@
             "19c221d99629ee7a"
         ],
         "x": 74,
-        "y": 567
+        "y": 567,
+        "w": 652,
+        "h": 194
     },
     {
         "id": "459fe488a5804676",
@@ -420,7 +425,9 @@
             "71f67f7f27cafd81"
         ],
         "x": 74,
-        "y": 807
+        "y": 807,
+        "w": 1592,
+        "h": 266
     },
     {
         "id": "378995858571b39f",
@@ -482,7 +489,9 @@
             "a429c99752090afe"
         ],
         "x": 74,
-        "y": 1179
+        "y": 1179,
+        "w": 772,
+        "h": 322
     },
     {
         "id": "3a81c46c8f3762a2",
@@ -505,7 +514,9 @@
             "1b55865e8e16d405"
         ],
         "x": 34,
-        "y": 379
+        "y": 379,
+        "w": 772,
+        "h": 122
     },
     {
         "id": "77bdfe65956919ec",
@@ -533,7 +544,9 @@
             "3fbcebb8a982c031"
         ],
         "x": 94,
-        "y": 619
+        "y": 499,
+        "w": 1242,
+        "h": 282
     },
     {
         "id": "2971d7c90b74f3b4",
@@ -690,6 +703,57 @@
         "y": 1159,
         "w": 712,
         "h": 142
+    },
+    {
+        "id": "b16460b067e3329b",
+        "type": "group",
+        "z": "175af8efcea2d591",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "09e1bb987f6fc783",
+            "318fd2d140ad472a",
+            "46514258ddd5880b",
+            "e9c6866ca0db7662"
+        ],
+        "x": 894,
+        "y": 59,
+        "w": 522,
+        "h": 122
+    },
+    {
+        "id": "738dc520034f11a7",
+        "type": "group",
+        "z": "175af8efcea2d591",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "2c36544f165ecf61",
+            "bb41b3b3cc7b681d",
+            "4f56704568189cfc",
+            "02424c99509bf97f",
+            "af9851791b431668",
+            "857fda300015cd6e",
+            "d896e715d917cdf2"
+        ],
+        "x": 94,
+        "y": 819,
+        "w": 472,
+        "h": 182
     },
     {
         "id": "b411c6135a7823e0",
@@ -870,7 +934,7 @@
     {
         "id": "f1f13388d5f613e8",
         "type": "ui_group",
-        "name": "----- Time to party ----- ",
+        "name": "----- Time to Party ----- ",
         "tab": "3feccb6b5184919b",
         "order": 3,
         "disp": true,
@@ -993,6 +1057,37 @@
         "id": "3e7886cb7c605213",
         "type": "ui_group",
         "name": "Manual Testers",
+        "tab": "050e42e2db96a9f4",
+        "order": 2,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e2232d1a7ae3ff93",
+        "type": "ui_spacer",
+        "z": "55a762ae72fa441b",
+        "name": "spacer",
+        "group": "3e7886cb7c605213",
+        "order": 2,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "c4a10b6193d3e273",
+        "type": "ui_spacer",
+        "z": "55a762ae72fa441b",
+        "name": "spacer",
+        "group": "3e7886cb7c605213",
+        "order": 6,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "1e4da6b2e1809214",
+        "type": "ui_group",
+        "name": "Scoring Summaries",
         "tab": "c98b5bcc37992daf",
         "order": 2,
         "disp": true,
@@ -1001,9 +1096,9 @@
         "className": ""
     },
     {
-        "id": "b93859f928b3d64a",
+        "id": "7c80b25627d3eb0f",
         "type": "ui_spacer",
-        "z": "f6f035102302ba5a",
+        "z": "175af8efcea2d591",
         "name": "spacer",
         "group": "ee9886ff6322a456",
         "order": 2,
@@ -1011,9 +1106,9 @@
         "height": 1
     },
     {
-        "id": "a03fb063018b31ca",
+        "id": "2843ef5fed650e46",
         "type": "ui_spacer",
-        "z": "f6f035102302ba5a",
+        "z": "175af8efcea2d591",
         "name": "spacer",
         "group": "ee9886ff6322a456",
         "order": 4,
@@ -1021,22 +1116,12 @@
         "height": 1
     },
     {
-        "id": "c5623d737afd9e1e",
+        "id": "d2c9f91277bb60e7",
         "type": "ui_spacer",
-        "z": "f6f035102302ba5a",
+        "z": "175af8efcea2d591",
         "name": "spacer",
-        "group": "3e7886cb7c605213",
+        "group": "1e4da6b2e1809214",
         "order": 2,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "d5d81d3aaaa3bca5",
-        "type": "ui_spacer",
-        "z": "f6f035102302ba5a",
-        "name": "spacer",
-        "group": "3e7886cb7c605213",
-        "order": 6,
         "width": 5,
         "height": 1
     },
@@ -1069,7 +1154,7 @@
         "g": "6a070793fb470a03",
         "name": "",
         "group": "7c1e7786ce952a5d",
-        "order": 1,
+        "order": 2,
         "width": 0,
         "height": 0,
         "passthru": true,
@@ -1230,9 +1315,9 @@
         "z": "55a762ae72fa441b",
         "g": "18778eda46bd5b07",
         "name": "",
-        "label": "Turn off Bldg",
+        "label": "Turn off Specific Bldg",
         "group": "7c1e7786ce952a5d",
-        "order": 2,
+        "order": 3,
         "width": 0,
         "height": 0,
         "options": [
@@ -1254,7 +1339,7 @@
         "topicType": "msg",
         "splitLayout": "",
         "className": "",
-        "x": 190,
+        "x": 220,
         "y": 980,
         "wires": [
             [
@@ -1274,7 +1359,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 400,
+        "x": 440,
         "y": 980,
         "wires": [
             [
@@ -1303,7 +1388,7 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 610,
+        "x": 630,
         "y": 940,
         "wires": []
     },
@@ -1322,7 +1407,7 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 610,
+        "x": 630,
         "y": 980,
         "wires": []
     },
@@ -1395,7 +1480,7 @@
         "z": "55a762ae72fa441b",
         "g": "4a4f80625f8ea163",
         "name": "Reset / Default Global Variables",
-        "func": "\n//--- Match setup \nglobal.set(\"startSide\",\"\");  // L or R\nglobal.set(\"otherSide\", \"\"); // L or R\nglobal.set(\"startRoute\",\"\"); // T or B\nglobal.set(\"hotBldg\",\"\");    // T or B\nglobal.set(\"curPhase\",0);    // 1, 2, or 3\n\n\n//--- Building objects\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nfor (var i in bldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(bldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores \n    global.set(bldgs[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(bldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(bldgs[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(bldgs[i] + \".FS.Window2-AfterWater\", 0);\n\n    // Water qtys - int\n    global.set(bldgs[i] + \".WaterQty\", 0);\n\n    // Gutterpixels - string of numbers that represent colors\n    global.set(bldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\n\n\n//Fin\nreturn msg;",
+        "func": "\n//--- Match setup \nglobal.set(\"startSide\",\"\");  // L or R\nglobal.set(\"otherSide\", \"\"); // L or R\nglobal.set(\"startRoute\",\"\"); // T or B\nglobal.set(\"hotBldg\",\"\");    // T or B\nglobal.set(\"curPhase\",0);    // 1, 2, or 3\n\n\n//--- Building objects\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nfor (var i in bldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(bldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores \n    global.set(bldgs[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(bldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(bldgs[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(bldgs[i] + \".FS.Window2-AfterWater\", 0);\n    global.set(bldgs[i] + \".Damage\",0);\n\n    // Water qtys - int\n    global.set(bldgs[i] + \".WaterQty\", 0);\n\n    // Gutterpixels - string of numbers that represent colors\n    global.set(bldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\n\n\n//Fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -2139,7 +2224,7 @@
         "z": "55a762ae72fa441b",
         "g": "6a8702296ddd22a1",
         "name": "Update first Burning Bldgs",
-        "func": "//--- Set up vars\nif (global.get(\"curPhase\") == 1) {\n    var whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\n} else if (global.get(\"curPhase\") == 2) {\n    var whichSide = global.get(\"otherSide\");\n}\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Top or bottom?\nvar whichRouteInt = Math.floor(Math.random() * 2); //returns 0 or 1\nvar whichRouteStr = whichRouteInt == 1 ? \"T\" : \"B\";\nglobal.set(\"startRoute\", whichRouteStr);\nvar bldg1 = whichSide + whichRouteStr + \"M\"; //e.g. bldg LTM\nvar bldg2 = whichSide + whichRouteStr + \"I\"; //e.g. bldg LTI\n\n//--- Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 1 to FS of 8\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\nmsg1.payload.beforeOrAfterWater = \"BEFORE\";\nmsg2.payload.bldg = bldg2;\nmsg2.payload.window = 1;\nmsg2.payload.numFire = 8;\nmsg2.payload.beforeOrAfterWater = \"BEFORE\";\n\n//Fin\nreturn [msg1, msg2];",
+        "func": "//--- Set up vars\nif (global.get(\"curPhase\") == 1) {\n    var whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\n} else if (global.get(\"curPhase\") == 2) {\n    var whichSide = global.get(\"otherSide\");\n}\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Top or bottom?\nvar whichRouteInt = Math.floor(Math.random() * 2); //returns 0 or 1\nvar whichRouteStr = whichRouteInt == 1 ? \"T\" : \"B\";\nglobal.set(\"startRoute\", whichRouteStr);\nvar bldg1 = whichSide + whichRouteStr + \"M\"; //e.g. bldg LTM\nvar bldg2 = whichSide + whichRouteStr + \"I\"; //e.g. bldg LTI\n\n//--- Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 1 to FS of 8\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\nmsg2.payload.bldg = bldg2;\nmsg2.payload.window = 1;\nmsg2.payload.numFire = 8;\n\n//Fin\nreturn [msg1, msg2];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -3281,7 +3366,7 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 610,
+        "x": 630,
         "y": 1020,
         "wires": []
     },
@@ -3389,7 +3474,7 @@
         "z": "55a762ae72fa441b",
         "g": "6a8702296ddd22a1",
         "name": "db bldg1",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -3407,7 +3492,7 @@
         "z": "55a762ae72fa441b",
         "g": "6a8702296ddd22a1",
         "name": "db bldg2",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -4793,73 +4878,12 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 220,
+        "x": 240,
         "y": 260,
         "wires": [
             [
                 "171f62c6c1563726",
                 "deaae49be7b573b0"
-            ]
-        ]
-    },
-    {
-        "id": "318fd2d140ad472a",
-        "type": "trigger",
-        "z": "175af8efcea2d591",
-        "g": "2ac942eccf98a996",
-        "name": "",
-        "op1": "1",
-        "op2": "0",
-        "op1type": "str",
-        "op2type": "str",
-        "duration": "-500",
-        "extend": false,
-        "overrideDelay": false,
-        "units": "ms",
-        "reset": "false",
-        "bytopic": "all",
-        "topic": "topic",
-        "outputs": 1,
-        "x": 500,
-        "y": 380,
-        "wires": [
-            [
-                "892376e5bd117bc9"
-            ]
-        ]
-    },
-    {
-        "id": "09e1bb987f6fc783",
-        "type": "ui_switch",
-        "z": "175af8efcea2d591",
-        "g": "2ac942eccf98a996",
-        "name": "",
-        "label": "Auto-Refresh",
-        "tooltip": "",
-        "group": "ee9886ff6322a456",
-        "order": 5,
-        "width": 5,
-        "height": 1,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 310,
-        "y": 380,
-        "wires": [
-            [
-                "318fd2d140ad472a"
             ]
         ]
     },
@@ -4952,7 +4976,7 @@
         "name": "Manual Injects for Testing",
         "info": "",
         "x": 230,
-        "y": 660,
+        "y": 540,
         "wires": []
     },
     {
@@ -4977,7 +5001,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 250,
-        "y": 740,
+        "y": 620,
         "wires": [
             [
                 "2d07da5341cf14ee",
@@ -4997,7 +5021,7 @@
             "113bf2ef4799a486"
         ],
         "x": 645,
-        "y": 740,
+        "y": 620,
         "wires": []
     },
     {
@@ -5013,7 +5037,7 @@
         "finalize": "",
         "libs": [],
         "x": 490,
-        "y": 720,
+        "y": 600,
         "wires": [
             [
                 "1a9410ac2442e363"
@@ -5033,7 +5057,7 @@
         "finalize": "",
         "libs": [],
         "x": 490,
-        "y": 760,
+        "y": 640,
         "wires": [
             [
                 "1a9410ac2442e363"
@@ -5062,7 +5086,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 260,
-        "y": 860,
+        "y": 740,
         "wires": [
             [
                 "d775d38173b3593c"
@@ -5082,7 +5106,7 @@
         "finalize": "",
         "libs": [],
         "x": 460,
-        "y": 860,
+        "y": 740,
         "wires": [
             [
                 "8b81919795d67036"
@@ -5100,7 +5124,7 @@
             "da290e77a88988a7"
         ],
         "x": 645,
-        "y": 860,
+        "y": 740,
         "wires": []
     },
     {
@@ -5125,7 +5149,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 850,
-        "y": 740,
+        "y": 620,
         "wires": [
             [
                 "412dda5307ab23bc",
@@ -5145,7 +5169,233 @@
             "113bf2ef4799a486"
         ],
         "x": 1295,
-        "y": 740,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "2c36544f165ecf61",
+        "type": "comment",
+        "z": "175af8efcea2d591",
+        "g": "738dc520034f11a7",
+        "name": "Overall Scoring Summaries",
+        "info": "",
+        "x": 230,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "09e1bb987f6fc783",
+        "type": "ui_switch",
+        "z": "175af8efcea2d591",
+        "g": "b16460b067e3329b",
+        "name": "",
+        "label": "Auto-Refresh",
+        "tooltip": "",
+        "group": "ee9886ff6322a456",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1050,
+        "y": 140,
+        "wires": [
+            [
+                "318fd2d140ad472a"
+            ]
+        ]
+    },
+    {
+        "id": "318fd2d140ad472a",
+        "type": "trigger",
+        "z": "175af8efcea2d591",
+        "g": "b16460b067e3329b",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "-500",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "false",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 1240,
+        "y": 140,
+        "wires": [
+            [
+                "46514258ddd5880b"
+            ]
+        ]
+    },
+    {
+        "id": "46514258ddd5880b",
+        "type": "link out",
+        "z": "175af8efcea2d591",
+        "g": "b16460b067e3329b",
+        "name": "so refreshing",
+        "mode": "link",
+        "links": [
+            "bb41b3b3cc7b681d",
+            "cc34e7492d373681",
+            "af9851791b431668"
+        ],
+        "x": 1375,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "e9c6866ca0db7662",
+        "type": "comment",
+        "z": "175af8efcea2d591",
+        "g": "b16460b067e3329b",
+        "name": "Status config",
+        "info": "",
+        "x": 990,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "cc34e7492d373681",
+        "type": "link in",
+        "z": "175af8efcea2d591",
+        "g": "2ac942eccf98a996",
+        "name": "Hit the refresh btn",
+        "links": [
+            "46514258ddd5880b"
+        ],
+        "x": 135,
+        "y": 260,
+        "wires": [
+            [
+                "892376e5bd117bc9"
+            ]
+        ]
+    },
+    {
+        "id": "bb41b3b3cc7b681d",
+        "type": "link in",
+        "z": "175af8efcea2d591",
+        "g": "738dc520034f11a7",
+        "name": "build the summary table",
+        "links": [
+            "46514258ddd5880b"
+        ],
+        "x": 185,
+        "y": 900,
+        "wires": [
+            [
+                "02424c99509bf97f"
+            ]
+        ]
+    },
+    {
+        "id": "4f56704568189cfc",
+        "type": "ui_text",
+        "z": "175af8efcea2d591",
+        "g": "738dc520034f11a7",
+        "group": "1e4da6b2e1809214",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Total FS",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 480,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "02424c99509bf97f",
+        "type": "function",
+        "z": "175af8efcea2d591",
+        "g": "738dc520034f11a7",
+        "name": "Calc total FS",
+        "func": "\n// --- Set up vars\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar theTotalFS = 0;\n\n// --- Loop through all buildings, add up total FS\nfor (var i in bldgs) {\n    theTotalFS += global.get(bldgs[i] + \".FS.Window1-AfterWater\") + global.get(bldgs[i] + \".FS.Window2-AfterWater\");\n}\n\n// Fin\nmsg.payload = theTotalFS;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 900,
+        "wires": [
+            [
+                "4f56704568189cfc"
+            ]
+        ]
+    },
+    {
+        "id": "af9851791b431668",
+        "type": "link in",
+        "z": "175af8efcea2d591",
+        "g": "738dc520034f11a7",
+        "name": "build the summary table",
+        "links": [
+            "46514258ddd5880b"
+        ],
+        "x": 185,
+        "y": 960,
+        "wires": [
+            [
+                "857fda300015cd6e"
+            ]
+        ]
+    },
+    {
+        "id": "857fda300015cd6e",
+        "type": "function",
+        "z": "175af8efcea2d591",
+        "g": "738dc520034f11a7",
+        "name": "Calc total DS",
+        "func": "\n// --- Set up vars\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar theTotalFS = 0;\n\n// --- Loop through all buildings, add up total FS\nfor (var i in bldgs) {\n    theTotalFS += global.get(bldgs[i] + \".FS.Window1-AfterWater\") + global.get(bldgs[i] + \".FS.Window2-AfterWater\");\n}\n\n// Fin\nmsg.payload = theTotalFS;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 960,
+        "wires": [
+            [
+                "d896e715d917cdf2"
+            ]
+        ]
+    },
+    {
+        "id": "d896e715d917cdf2",
+        "type": "ui_text",
+        "z": "175af8efcea2d591",
+        "g": "738dc520034f11a7",
+        "group": "1e4da6b2e1809214",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Total DS",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 480,
+        "y": 960,
         "wires": []
     },
     {
@@ -5304,121 +5554,6 @@
         "broker": "bc90be16040a7d21",
         "x": 1470,
         "y": 360,
-        "wires": []
-    },
-    {
-        "id": "d052e342e40320b9",
-        "type": "inject",
-        "z": "f6f035102302ba5a",
-        "g": "284c27310b25477c",
-        "name": "Set LBI Window 1 FS to 4",
-        "props": [
-            {
-                "p": "payload.bldg",
-                "v": "\"LBI\"",
-                "vt": "str"
-            },
-            {
-                "p": "payload.window",
-                "v": "1",
-                "vt": "num"
-            },
-            {
-                "p": "payload.numFire",
-                "v": "4",
-                "vt": "num"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 270,
-        "y": 440,
-        "wires": [
-            [
-                "71df01656749e372"
-            ]
-        ]
-    },
-    {
-        "id": "71df01656749e372",
-        "type": "link out",
-        "z": "f6f035102302ba5a",
-        "g": "284c27310b25477c",
-        "name": "Test FS updater 4",
-        "mode": "link",
-        "links": [
-            "0416ea6909311b42",
-            "772defe5dc3f1eb0",
-            "113bf2ef4799a486"
-        ],
-        "x": 425,
-        "y": 440,
-        "wires": []
-    },
-    {
-        "id": "dd8828fab2dad33c",
-        "type": "inject",
-        "z": "f6f035102302ba5a",
-        "g": "284c27310b25477c",
-        "name": "Set LBI Window 1 FS to 0",
-        "props": [
-            {
-                "p": "payload.bldg",
-                "v": "\"RTO\"",
-                "vt": "str"
-            },
-            {
-                "p": "payload.window",
-                "v": "1",
-                "vt": "num"
-            },
-            {
-                "p": "payload.numFire",
-                "v": "0",
-                "vt": "num"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 270,
-        "y": 480,
-        "wires": [
-            [
-                "42fbeec64825d3a1"
-            ]
-        ]
-    },
-    {
-        "id": "42fbeec64825d3a1",
-        "type": "link out",
-        "z": "f6f035102302ba5a",
-        "g": "284c27310b25477c",
-        "name": "Test FS updater 4",
-        "mode": "link",
-        "links": [
-            "0416ea6909311b42",
-            "772defe5dc3f1eb0",
-            "113bf2ef4799a486"
-        ],
-        "x": 425,
-        "y": 480,
-        "wires": []
-    },
-    {
-        "id": "4de1de66baa1bdcf",
-        "type": "comment",
-        "z": "f6f035102302ba5a",
-        "g": "284c27310b25477c",
-        "name": "Test Injects",
-        "info": "",
-        "x": 160,
-        "y": 400,
         "wires": []
     },
     {
@@ -5973,7 +6108,7 @@
         "z": "f6f035102302ba5a",
         "g": "284c27310b25477c",
         "name": "Check if Phase change ready (totalFS = 0)",
-        "func": "/* \nEvery time you're updating a FS, check to see if it's the LAST ONE  :O\n*/ \n\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar theTotalFS = 0;\nvar theTotalWater = 0;\n\n// --- Loop through all buildings, add up total FS\nfor (var i in bldgs) {\n    theTotalFS += global.get(bldgs[i] + \".FS.Window1-AfterWater\") + global.get(bldgs[i] + \".FS.Window2-AfterWater\");\n    theTotalWater += global.get(bldgs[i]+\".WaterQty\"); // no cheating\n}\n\n// --- If it's gone, LET'S GO\nmsg.payload = (theTotalFS <= 0 && theTotalWater >= 30) ? true : false;\nnode.warn(theTotalFS);\n// fin\nreturn msg;",
+        "func": "/* \nEvery time you're updating a FS, check to see if it's the LAST ONE  :O\n*/ \n\n// --- Set up vars\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar theTotalFS = 0;\nvar theTotalWater = 0;\n\n// --- Loop through all buildings, add up total FS\nfor (var i in bldgs) {\n    theTotalFS += global.get(bldgs[i] + \".FS.Window1-AfterWater\") + global.get(bldgs[i] + \".FS.Window2-AfterWater\");\n    theTotalWater += global.get(bldgs[i]+\".WaterQty\"); // no cheating\n}\n\n// --- If it's gone, LET'S GO\nmsg.payload = (theTotalFS <= 0 && theTotalWater >= 30) ? true : false;\nnode.warn(theTotalFS);\n// fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6102,6 +6237,24 @@
             [
                 "223c3fe920a91621"
             ]
+        ]
+    },
+    {
+        "id": "8fa76cd3d132c117",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "Update Damage Global",
+        "func": "//--- Basic variables\nvar input = msg.payload;\nvar theBldg = msg.payload.bldg;\nvar theWin = msg.payload.window;\nvar theFS = msg.payload.numFire;\n\n//--- Update Global Variables\nvar theGlobalString = theBldg + \".FS.Window\" + theWin + \"-BeforeWater\";\nglobal.set(theGlobalString,theFS);\n\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 440,
+        "wires": [
+            []
         ]
     }
 ]
