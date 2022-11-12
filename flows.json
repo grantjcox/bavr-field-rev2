@@ -1266,6 +1266,62 @@
         "h": 142
     },
     {
+        "id": "1e5cf91bef2d0b81",
+        "type": "group",
+        "z": "d32826a1611e0622",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "8520f7d702b7b51a",
+            "fd5ffabf4e8f6d4a",
+            "7f6ede1e92af6eac",
+            "404c09412d2ed62e",
+            "c9d158730c6fc6a5"
+        ],
+        "x": 1074,
+        "y": 539,
+        "w": 712,
+        "h": 222
+    },
+    {
+        "id": "ab2d725536c9b091",
+        "type": "group",
+        "z": "175af8efcea2d591",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "9060c4417769a8a6",
+            "a20da76881a2c92f",
+            "335e406982635187",
+            "40b6873d3362e5b0",
+            "06e130297ace1369",
+            "eda20c35c862c3df",
+            "2381a139ccbf25a5",
+            "1e1b70cbabfaee5d",
+            "33f61ade06dd74c8",
+            "c4ce4b14be142171",
+            "93d0adee9f6f4273"
+        ],
+        "x": 94,
+        "y": 1119,
+        "w": 812,
+        "h": 262
+    },
+    {
         "id": "2b2a6d295740d392",
         "type": "group",
         "z": "55a762ae72fa441b",
@@ -1356,62 +1412,6 @@
         "y": 439,
         "w": 712,
         "h": 142
-    },
-    {
-        "id": "1e5cf91bef2d0b81",
-        "type": "group",
-        "z": "d32826a1611e0622",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "8520f7d702b7b51a",
-            "fd5ffabf4e8f6d4a",
-            "7f6ede1e92af6eac",
-            "404c09412d2ed62e",
-            "c9d158730c6fc6a5"
-        ],
-        "x": 1074,
-        "y": 539,
-        "w": 712,
-        "h": 222
-    },
-    {
-        "id": "ab2d725536c9b091",
-        "type": "group",
-        "z": "175af8efcea2d591",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "9060c4417769a8a6",
-            "a20da76881a2c92f",
-            "335e406982635187",
-            "40b6873d3362e5b0",
-            "06e130297ace1369",
-            "eda20c35c862c3df",
-            "2381a139ccbf25a5",
-            "1e1b70cbabfaee5d",
-            "33f61ade06dd74c8",
-            "c4ce4b14be142171",
-            "93d0adee9f6f4273"
-        ],
-        "x": 94,
-        "y": 1119,
-        "w": 812,
-        "h": 262
     },
     {
         "id": "b411c6135a7823e0",
@@ -1989,7 +1989,7 @@
         "z": "55a762ae72fa441b",
         "g": "4a4f80625f8ea163",
         "name": "Reset / Default Global Variables",
-        "func": "\n//--- Match setup \nglobal.set(\"startSide\",\"\");  // L or R\nglobal.set(\"otherSide\", \"\"); // L or R\nglobal.set(\"startRoute\",\"\"); // T or B\nglobal.set(\"hotBldg\",\"\");    // T or B\nglobal.set(\"curPhase\",0);    // 1, 2, or 3\nglobal.set(\"totalFS\",0);\n\n\n//--- Building objects\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nfor (var i in bldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(bldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores \n    global.set(bldgs[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(bldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(bldgs[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(bldgs[i] + \".FS.Window2-AfterWater\", 0);\n    global.set(bldgs[i] + \".Damage\",0);\n\n    // Water qtys - int\n    global.set(bldgs[i] + \".WaterQty\", 0);\n\n    // Gutterpixels - string of numbers that represent colors\n    global.set(bldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\n\nglobal.set(\"LTT\"+\"\")\n\n\n//Fin\nreturn msg;",
+        "func": "\n//--- Match setup \nglobal.set(\"startSide\",\"\");  // L or R\nglobal.set(\"otherSide\", \"\"); // L or R\nglobal.set(\"startRoute\",\"\"); // T or B\nglobal.set(\"hotBldg\",\"\");    // T or B\nglobal.set(\"curPhase\",0);    // 1, 2, or 3\nglobal.set(\"totalFS\",0);\nglobal.set(\"balldoubler\",1);\n\n//--- Building objects\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nfor (var i in bldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(bldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores \n    global.set(bldgs[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(bldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(bldgs[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(bldgs[i] + \".FS.Window2-AfterWater\", 0);\n    global.set(bldgs[i] + \".Damage\",0);\n\n    // Water qtys - int\n    global.set(bldgs[i] + \".WaterQty\", 0);\n\n    // Gutterpixels - string of numbers that represent colors\n    global.set(bldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\n\nglobal.set(\"LTT\"+\"\")\n\n\n//Fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
