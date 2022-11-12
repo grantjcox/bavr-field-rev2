@@ -211,9 +211,7 @@
             "5f3e0a85eea68705"
         ],
         "x": 34,
-        "y": 19,
-        "w": 552,
-        "h": 122
+        "y": 19
     },
     {
         "id": "aa7cdd8f3125703c",
@@ -236,9 +234,7 @@
             "6e6816ac951a5c0f"
         ],
         "x": 34,
-        "y": 159,
-        "w": 852,
-        "h": 182
+        "y": 159
     },
     {
         "id": "2ac942eccf98a996",
@@ -265,9 +261,7 @@
             "cc34e7492d373681"
         ],
         "x": 94,
-        "y": 59,
-        "w": 692,
-        "h": 282
+        "y": 59
     },
     {
         "id": "b2c04e106e7697f0",
@@ -354,9 +348,7 @@
             "f2b56dfdbbe11a17"
         ],
         "x": 124,
-        "y": 39,
-        "w": 2672,
-        "h": 422
+        "y": 39
     },
     {
         "id": "5f1037ebc6dbd72f",
@@ -379,9 +371,7 @@
             "19c221d99629ee7a"
         ],
         "x": 94,
-        "y": 547,
-        "w": 652,
-        "h": 194
+        "y": 547
     },
     {
         "id": "459fe488a5804676",
@@ -409,9 +399,7 @@
             "71f67f7f27cafd81"
         ],
         "x": 74,
-        "y": 807,
-        "w": 1592,
-        "h": 266
+        "y": 807
     },
     {
         "id": "11a9b9cee18f6b6c",
@@ -440,9 +428,7 @@
             "a429c99752090afe"
         ],
         "x": 74,
-        "y": 1179,
-        "w": 772,
-        "h": 322
+        "y": 1179
     },
     {
         "id": "3a81c46c8f3762a2",
@@ -465,9 +451,7 @@
             "1b55865e8e16d405"
         ],
         "x": 34,
-        "y": 399,
-        "w": 812,
-        "h": 122
+        "y": 399
     },
     {
         "id": "77bdfe65956919ec",
@@ -495,9 +479,7 @@
             "3fbcebb8a982c031"
         ],
         "x": 94,
-        "y": 499,
-        "w": 1242,
-        "h": 282
+        "y": 499
     },
     {
         "id": "2971d7c90b74f3b4",
@@ -583,9 +565,7 @@
             "e9c6866ca0db7662"
         ],
         "x": 894,
-        "y": 59,
-        "w": 522,
-        "h": 122
+        "y": 59
     },
     {
         "id": "738dc520034f11a7",
@@ -613,9 +593,7 @@
             "ba9de4c0d6c59f58"
         ],
         "x": 94,
-        "y": 819,
-        "w": 652,
-        "h": 262
+        "y": 819
     },
     {
         "id": "cb9c0c3b1fe84ccc",
@@ -1078,9 +1056,7 @@
             "31c4db3eb2f36e59"
         ],
         "x": 114,
-        "y": 59,
-        "w": 872,
-        "h": 322
+        "y": 59
     },
     {
         "id": "18778eda46bd5b07",
@@ -1104,9 +1080,7 @@
             "4eb1999fbc3aab57"
         ],
         "x": 114,
-        "y": 859,
-        "w": 652,
-        "h": 182
+        "y": 859
     },
     {
         "id": "378995858571b39f",
@@ -1137,9 +1111,7 @@
             "48373ebe740e92b6"
         ],
         "x": 114,
-        "y": 479,
-        "w": 872,
-        "h": 322
+        "y": 479
     },
     {
         "id": "4f152b1eeea1837b",
@@ -1165,9 +1137,66 @@
             "e3641c48aef6dae2"
         ],
         "x": 134,
-        "y": 1099,
-        "w": 872,
-        "h": 302
+        "y": 1099
+    },
+    {
+        "id": "da5dfd18efe136b1",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "10ba0965c5c6a10f",
+            "ec04ce96331f3c58",
+            "88202dc9135e20fa",
+            "f14554f1fa404823",
+            "72a3554a4648663f",
+            "0d8173f38e89fbff",
+            "f4d059522562d6ee",
+            "54d2fb1e31d10786",
+            "3169a0e7aefec915",
+            "9a1fea64496dca0b",
+            "9819d01a6d9c632b",
+            "f3c5a6e47bb4e136",
+            "f847a8fbed96f010",
+            "7a1fe1dc9f21c9b7",
+            "5ed3a3ca0846d32d"
+        ],
+        "x": 1214,
+        "y": 2599,
+        "w": 1452,
+        "h": 502
+    },
+    {
+        "id": "cba36710b3f0e691",
+        "type": "group",
+        "z": "d32826a1611e0622",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "425525fa50d52aef",
+            "c04c6d32184aa86e",
+            "b69b44971de6fba0",
+            "40bd2073c91617a2"
+        ],
+        "x": 514,
+        "y": 299,
+        "w": 712,
+        "h": 142
     },
     {
         "id": "2b2a6d295740d392",
@@ -1260,41 +1289,6 @@
         "y": 439,
         "w": 712,
         "h": 142
-    },
-    {
-        "id": "da5dfd18efe136b1",
-        "type": "group",
-        "z": "55a762ae72fa441b",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "10ba0965c5c6a10f",
-            "ec04ce96331f3c58",
-            "88202dc9135e20fa",
-            "f14554f1fa404823",
-            "72a3554a4648663f",
-            "0d8173f38e89fbff",
-            "f4d059522562d6ee",
-            "54d2fb1e31d10786",
-            "3169a0e7aefec915",
-            "9a1fea64496dca0b",
-            "9819d01a6d9c632b",
-            "f3c5a6e47bb4e136",
-            "f847a8fbed96f010",
-            "7a1fe1dc9f21c9b7",
-            "5ed3a3ca0846d32d"
-        ],
-        "x": 1214,
-        "y": 2599,
-        "w": 1452,
-        "h": 502
     },
     {
         "id": "b411c6135a7823e0",
@@ -1751,6 +1745,17 @@
         "type": "ui_group",
         "name": "Manual Heaters",
         "tab": "050e42e2db96a9f4",
+        "order": 3,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bc2157348f251310",
+        "type": "ui_group",
+        "name": "Auton Drop",
+        "tab": "7a3c32bb77d2c5c3",
         "order": 3,
         "disp": true,
         "width": "10",
@@ -9039,16 +9044,226 @@
         "id": "8520f7d702b7b51a",
         "type": "comment",
         "z": "d32826a1611e0622",
-        "name": "Trees",
+        "name": "AUTON DROP",
         "info": "",
-        "x": 1150,
+        "x": 1180,
         "y": 580,
         "wires": []
+    },
+    {
+        "id": "425525fa50d52aef",
+        "type": "comment",
+        "z": "d32826a1611e0622",
+        "g": "cba36710b3f0e691",
+        "name": "Trenches",
+        "info": "",
+        "x": 600,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "c04c6d32184aa86e",
+        "type": "ui_dropdown",
+        "z": "d32826a1611e0622",
+        "d": true,
+        "g": "cba36710b3f0e691",
+        "name": "",
+        "label": "LEFT-TOP-1",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "13504c5753af441d",
+        "order": 0,
+        "width": "2",
+        "height": "2",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "OFF",
+                "value": "OFF",
+                "type": "str"
+            },
+            {
+                "label": "RED",
+                "value": "RED",
+                "type": "str"
+            },
+            {
+                "label": "GREEN",
+                "value": "GREEN",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 670,
+        "y": 400,
+        "wires": [
+            [
+                "40bd2073c91617a2"
+            ]
+        ]
+    },
+    {
+        "id": "b69b44971de6fba0",
+        "type": "mqtt out",
+        "z": "d32826a1611e0622",
+        "g": "cba36710b3f0e691",
+        "name": "",
+        "topic": "nodered/updatepixels/LTT",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 1090,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "40bd2073c91617a2",
+        "type": "change",
+        "z": "d32826a1611e0622",
+        "g": "cba36710b3f0e691",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"whichLeds\":0,\"pixels\":\"111111111111111111111111111111\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 400,
+        "wires": [
+            [
+                "b69b44971de6fba0"
+            ]
+        ]
+    },
+    {
+        "id": "fd5ffabf4e8f6d4a",
+        "type": "ui_switch",
+        "z": "d32826a1611e0622",
+        "name": "",
+        "label": "Auton Drop ON / OFF",
+        "tooltip": "",
+        "group": "bc2157348f251310",
+        "order": 0,
+        "width": "5",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "doubler",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "2",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1340,
+        "y": 660,
+        "wires": [
+            [
+                "404c09412d2ed62e",
+                "d9cffbc31a0d0558"
+            ]
+        ]
+    },
+    {
+        "id": "7f6ede1e92af6eac",
+        "type": "link in",
+        "z": "d32826a1611e0622",
+        "name": "Check Auton Drop",
+        "links": [],
+        "x": 1175,
+        "y": 660,
+        "wires": [
+            [
+                "fd5ffabf4e8f6d4a"
+            ]
+        ]
+    },
+    {
+        "id": "404c09412d2ed62e",
+        "type": "link out",
+        "z": "d32826a1611e0622",
+        "name": "Auton Drop checked",
+        "mode": "link",
+        "links": [],
+        "x": 1495,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "d9cffbc31a0d0558",
+        "type": "debug",
+        "z": "d32826a1611e0622",
+        "name": "debug 18",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1500,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "7c7e785002d7a983",
+        "type": "inject",
+        "z": "d32826a1611e0622",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "topic",
+        "payload": "{\"num_drops\":1,\"timestamp\":10356098,\"BUILDING_NAME\":\"LBI\",\"side_id\":0}",
+        "payloadType": "json",
+        "x": 1190,
+        "y": 760,
+        "wires": [
+            [
+                "fd5ffabf4e8f6d4a"
+            ]
+        ]
     },
     {
         "id": "f4b7c4c243db620d",
         "type": "sqlite",
         "z": "f3ec5d556e86f8d0",
+        "g": "e63633ec18181ba7",
         "mydb": "6f6f2d0bf9d4b5e3",
         "sqlquery": "msg.topic",
         "sql": "",
@@ -9098,6 +9313,7 @@
         "id": "9bca7655eb1d89cf",
         "type": "sqlite",
         "z": "f3ec5d556e86f8d0",
+        "g": "a83bb00d46efe804",
         "mydb": "6f6f2d0bf9d4b5e3",
         "sqlquery": "fixed",
         "sql": "CREATE TABLE FIELD_CONFIG (\n  EDGE_UUID TEXT PRIMARY KEY,\n  EDGE_NODE_ID TEXT\n)",
@@ -9236,6 +9452,7 @@
         "id": "4215a3196c228639",
         "type": "sqlite",
         "z": "f3ec5d556e86f8d0",
+        "g": "a83bb00d46efe804",
         "mydb": "6f6f2d0bf9d4b5e3",
         "sqlquery": "msg.topic",
         "sql": "",
@@ -9302,6 +9519,7 @@
         "id": "a74d42b7ae961652",
         "type": "sqlite",
         "z": "f3ec5d556e86f8d0",
+        "g": "a83bb00d46efe804",
         "mydb": "6f6f2d0bf9d4b5e3",
         "sqlquery": "fixed",
         "sql": "DROP TABLE IF EXISTS FIELD_CONFIG;",
@@ -9460,6 +9678,7 @@
         "id": "3dd25f169354ef22",
         "type": "sqlite",
         "z": "f3ec5d556e86f8d0",
+        "g": "a83bb00d46efe804",
         "mydb": "6f6f2d0bf9d4b5e3",
         "sqlquery": "fixed",
         "sql": "Select * from FIELD_CONFIG;",
@@ -9544,6 +9763,7 @@
         "id": "4b72a159e1e82517",
         "type": "sqlite",
         "z": "f3ec5d556e86f8d0",
+        "g": "e63633ec18181ba7",
         "mydb": "6f6f2d0bf9d4b5e3",
         "sqlquery": "msg.topic",
         "sql": "",
@@ -9589,6 +9809,7 @@
         "id": "80e1d2d095f19693",
         "type": "sqlite",
         "z": "f3ec5d556e86f8d0",
+        "g": "bc92f0b2168e67b1",
         "mydb": "6f6f2d0bf9d4b5e3",
         "sqlquery": "msg.topic",
         "sql": "",
@@ -10949,131 +11170,5 @@
         "x": 900,
         "y": 1360,
         "wires": []
-    },
-    {
-        "id": "cba36710b3f0e691",
-        "type": "group",
-        "z": "d32826a1611e0622",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "425525fa50d52aef",
-            "c04c6d32184aa86e",
-            "b69b44971de6fba0",
-            "40bd2073c91617a2"
-        ],
-        "x": 54,
-        "y": 499,
-        "w": 712,
-        "h": 142
-    },
-    {
-        "id": "425525fa50d52aef",
-        "type": "comment",
-        "z": "d32826a1611e0622",
-        "g": "cba36710b3f0e691",
-        "name": "Trenches",
-        "info": "",
-        "x": 140,
-        "y": 540,
-        "wires": []
-    },
-    {
-        "id": "c04c6d32184aa86e",
-        "type": "ui_dropdown",
-        "z": "d32826a1611e0622",
-        "g": "cba36710b3f0e691",
-        "name": "",
-        "label": "LEFT-TOP-1",
-        "tooltip": "",
-        "place": "Select option",
-        "group": "13504c5753af441d",
-        "order": 0,
-        "width": "2",
-        "height": "2",
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "OFF",
-                "value": "OFF",
-                "type": "str"
-            },
-            {
-                "label": "RED",
-                "value": "RED",
-                "type": "str"
-            },
-            {
-                "label": "GREEN",
-                "value": "GREEN",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "topicType": "msg",
-        "className": "",
-        "x": 210,
-        "y": 600,
-        "wires": [
-            [
-                "40bd2073c91617a2"
-            ]
-        ]
-    },
-    {
-        "id": "b69b44971de6fba0",
-        "type": "mqtt out",
-        "z": "d32826a1611e0622",
-        "g": "cba36710b3f0e691",
-        "name": "",
-        "topic": "nodered/updatepixels/LTT",
-        "qos": "",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "bc90be16040a7d21",
-        "x": 630,
-        "y": 600,
-        "wires": []
-    },
-    {
-        "id": "40bd2073c91617a2",
-        "type": "change",
-        "z": "d32826a1611e0622",
-        "g": "cba36710b3f0e691",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "{\"whichLeds\":0,\"pixels\":\"111111111111111111111111111111\"}",
-                "tot": "json"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 400,
-        "y": 600,
-        "wires": [
-            [
-                "b69b44971de6fba0"
-            ]
-        ]
     }
 ]
