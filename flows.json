@@ -355,7 +355,9 @@
             "f2b56dfdbbe11a17"
         ],
         "x": 124,
-        "y": 39
+        "y": 39,
+        "w": 2672,
+        "h": 422
     },
     {
         "id": "5f1037ebc6dbd72f",
@@ -378,7 +380,9 @@
             "19c221d99629ee7a"
         ],
         "x": 94,
-        "y": 547
+        "y": 547,
+        "w": 652,
+        "h": 194
     },
     {
         "id": "459fe488a5804676",
@@ -406,7 +410,9 @@
             "71f67f7f27cafd81"
         ],
         "x": 74,
-        "y": 807
+        "y": 807,
+        "w": 1592,
+        "h": 266
     },
     {
         "id": "11a9b9cee18f6b6c",
@@ -435,7 +441,9 @@
             "a429c99752090afe"
         ],
         "x": 74,
-        "y": 1179
+        "y": 1179,
+        "w": 772,
+        "h": 322
     },
     {
         "id": "3a81c46c8f3762a2",
@@ -2724,7 +2732,7 @@
         "z": "55a762ae72fa441b",
         "g": "6a8702296ddd22a1",
         "name": "Update first Burning Bldgs",
-        "func": "//--- Set up vars\nif (global.get(\"curPhase\") == 1) {\n    var whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\n} else if (global.get(\"curPhase\") == 2) {\n    var whichSide = global.get(\"otherSide\");\n}\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Top or bottom?\nvar whichRouteInt = Math.floor(Math.random() * 2); //returns 0 or 1\nvar whichRouteStr = whichRouteInt == 1 ? \"T\" : \"B\";\nglobal.set(\"startRoute\", whichRouteStr);\nvar bldg1 = whichSide + whichRouteStr + \"M\"; //e.g. bldg LTM\nvar bldg2 = whichSide + whichRouteStr + \"I\"; //e.g. bldg LTI\n\n//--- Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 1 to FS of 8\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\nmsg2.payload.bldg = bldg2;\nmsg2.payload.window = 2;\nmsg2.payload.numFire = 8;\n\n//Fin\nreturn [msg1, msg2];",
+        "func": "//--- Set up vars\nif (global.get(\"curPhase\") == 1) {\n    var whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\n} else if (global.get(\"curPhase\") == 2) {\n    var whichSide = global.get(\"otherSide\");\n}\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Top or bottom?\nvar whichRouteInt = Math.floor(Math.random() * 2); //returns 0 or 1\nvar whichRouteStr = whichRouteInt == 1 ? \"T\" : \"B\";\nglobal.set(\"startRoute\", whichRouteStr);\nvar bldg1 = whichSide + whichRouteStr + \"M\"; //e.g. bldg LTM\nvar bldg2 = whichSide + whichRouteStr + \"I\"; //e.g. bldg LTI\n\n//--- Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 1 to FS of 8\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\nglobal.set(bldg1+\".Damage\", 8);\nmsg2.payload.bldg = bldg2;\nmsg2.payload.window = 2;\nmsg2.payload.numFire = 8;\nglobal.set(bldg2 + \".Damage\", 8);\n\n\n//Fin\nreturn [msg1, msg2];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -3107,9 +3115,7 @@
         "name": "Send \"first burn\" FS updates",
         "mode": "link",
         "links": [
-            "0416ea6909311b42",
-            "772defe5dc3f1eb0",
-            "113bf2ef4799a486"
+            "0416ea6909311b42"
         ],
         "x": 685,
         "y": 2080,
@@ -4680,7 +4686,7 @@
         "z": "55a762ae72fa441b",
         "g": "4788e8d5cbe11d8f",
         "name": "debug after 2 windows",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -4698,7 +4704,7 @@
         "z": "55a762ae72fa441b",
         "g": "4788e8d5cbe11d8f",
         "name": "debug after 30 seconds",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -4716,7 +4722,7 @@
         "z": "55a762ae72fa441b",
         "g": "4788e8d5cbe11d8f",
         "name": "debug before 30 seconds",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -5845,7 +5851,7 @@
         "z": "175af8efcea2d591",
         "g": "738dc520034f11a7",
         "name": "Calc total DS",
-        "func": "\n// --- Set up vars\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar theTotalFS = 0;\n\n// --- Loop through all buildings, add up total FS\nfor (var i in bldgs) {\n    theTotalFS += global.get(bldgs[i] + \".FS.Window1-AfterWater\") + global.get(bldgs[i] + \".FS.Window2-AfterWater\");\n}\n\n// Fin\nmsg.payload = theTotalFS;\nreturn msg;",
+        "func": "\n// --- Set up vars\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar theTotalDS = 0;\n\n// --- Loop through all buildings, add up total DS\nfor (var i in bldgs) {\n    theTotalDS += global.get(bldgs[i] + \".Damage\");\n}\n\n// Fin\nmsg.payload = theTotalDS;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7320,7 +7326,7 @@
         "z": "f6f035102302ba5a",
         "g": "284c27310b25477c",
         "name": "Check if Phase change ready (gutterpixels = 0)",
-        "func": "/* \nEvery time you're updating a FS, check to see if it's the LAST ONE  :O\n*/ \n\n// --- Set up vars\nvar startside = global.get(\"startSide\");\nvar theTotalFS = 0;\nvar theTotalWater = 0;\n\nswitch(startside) {\n    case \"L\":\n        var bldgs = [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\n        break;\n    case \"R\":\n        var bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\n        break;\n}\n\n// --- Loop through all buildings, add up total FS\nvar isClear = true;\nfor (var i in bldgs) {\n    for (var j = 0; j < 30; j++) {\n        var c = global.get(bldgs[i]+\".GutterPixels\").charAt(j);\n        if (c != \"0\") {\n            isClear = false;\n            break;\n        }\n    }\n    if (isClear == false) {\n        break;\n    }\n    //theTotalWater += global.get(bldgs[i]+\".WaterQty\"); // no cheating\n}\n\n// --- If it's gone, LET'S GO\n//msg.payload = (theTotalFS <= 0 && theTotalWater >= 30) ? true : false;\n//node.warn(theTotalFS);\n\n// fin\nmsg.payload = isClear;\nreturn msg;",
+        "func": "/* \nEvery time you're updating a FS, check to see if it's the LAST ONE  :O\n(also use this moment to calculate new Damage scores LOL)\n*/ \n\n// --- Set up vars\nvar startside = global.get(\"startSide\");\nvar theTotalFS = 0;\nvar theTotalWater = 0;\nvar curDamage = [];\n\nswitch(startside) {\n    case \"L\":\n        var bldgs = [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\n        break;\n    case \"R\":\n        var bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\n        break;\n}\n\n// --- Loop through all buildings, look for no bueno\nvar isClear = true;\nfor (var i in bldgs) {\n    for (var j = 0; j < 30; j++) {\n        var c = global.get(bldgs[i]+\".GutterPixels\").charAt(j);\n        if (c != \"0\") {\n            isClear = false;\n            break;\n        }\n    }\n    if (isClear == false) {\n        break;\n    }\n    //theTotalWater += global.get(bldgs[i]+\".WaterQty\"); // no cheating\n}\n\nfor (var i in bldgs) {\n    curDamage[i] = 0;\n\n    for (var j=0; j<30; j++) {\n        var c = global.get(bldgs[i]+\".GutterPixels\").chatAr(j);\n        if (c == \"3\" || c==\"4\") {\n            curDamage[i] += 1;\n        }\n    }\n\n    if(curDamage[i] > global.get(bldgs[i]+\".Damage\")) {\n        global.set(bldgs[i] + \".Damage\", curDamage[i]);\n    }\n}\n\n// --- If it's gone, LET'S GO\n//msg.payload = (theTotalFS <= 0 && theTotalWater >= 30) ? true : false;\n//node.warn(theTotalFS);\n\n// fin\nmsg.payload = isClear;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
