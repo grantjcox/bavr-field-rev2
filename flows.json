@@ -150,7 +150,10 @@
             "6e9c04bbdc0780af",
             "53ad0d9118b96995",
             "d504585ce63f5428",
-            "d8060f8e62e726ce"
+            "d8060f8e62e726ce",
+            "996f6e75dda3cbf2",
+            "025e0ee7f9fecdd8",
+            "271ede2ce51d285f"
         ],
         "x": 34,
         "y": 1259,
@@ -2738,7 +2741,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 690,
+        "x": 670,
         "y": 1360,
         "wires": [
             [
@@ -2747,7 +2750,8 @@
             ],
             [
                 "c612b81a64bb9759",
-                "9cbdb9d52fe7cf9a"
+                "9cbdb9d52fe7cf9a",
+                "996f6e75dda3cbf2"
             ]
         ]
     },
@@ -4756,6 +4760,68 @@
         "wires": []
     },
     {
+        "id": "996f6e75dda3cbf2",
+        "type": "switch",
+        "z": "55a762ae72fa441b",
+        "g": "6a8702296ddd22a1",
+        "name": "if phase 2",
+        "property": "curPhase",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 880,
+        "y": 1460,
+        "wires": [
+            [
+                "025e0ee7f9fecdd8"
+            ]
+        ]
+    },
+    {
+        "id": "025e0ee7f9fecdd8",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "6a8702296ddd22a1",
+        "name": "Add another burning bldg",
+        "func": "//--- Set up vars\nvar inputBldg = msg.payload.bldg;\nvar msg1 = {};\nmsg1.payload = {};\n\n//--- make string go\nvar shortString = inputBldg.slice(0,2);\nvar newString = shortString + \"O\";\n\n//callbacks\nmsg1.payload.bldg = newString;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\nglobal.set(inputBldg+\".Damage\", 8);\n\n\n//Fin\nreturn msg1;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1070,
+        "y": 1460,
+        "wires": [
+            [
+                "271ede2ce51d285f"
+            ]
+        ]
+    },
+    {
+        "id": "271ede2ce51d285f",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "6a8702296ddd22a1",
+        "name": "Send T=0 FS updates",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42",
+            "772defe5dc3f1eb0",
+            "113bf2ef4799a486"
+        ],
+        "x": 1225,
+        "y": 1460,
+        "wires": []
+    },
+    {
         "id": "7a5f520857017bbb",
         "type": "mqtt in",
         "z": "47c0e0ae667846a9",
@@ -6197,7 +6263,8 @@
             "c612b81a64bb9759",
             "d0e47829bbab10d2",
             "d504585ce63f5428",
-            "f4d059522562d6ee"
+            "f4d059522562d6ee",
+            "271ede2ce51d285f"
         ],
         "x": 195,
         "y": 300,
@@ -7230,7 +7297,7 @@
         "z": "f6f035102302ba5a",
         "g": "284c27310b25477c",
         "name": "debug 13",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -7326,7 +7393,7 @@
         "z": "f6f035102302ba5a",
         "g": "284c27310b25477c",
         "name": "Check if Phase change ready (gutterpixels = 0)",
-        "func": "/* \nEvery time you're updating a FS, check to see if it's the LAST ONE  :O\n(also use this moment to calculate new Damage scores LOL)\n*/ \n\n// --- Set up vars\nvar startside = global.get(\"startSide\");\nvar theTotalFS = 0;\nvar theTotalWater = 0;\nvar curDamage = [];\n\nswitch(startside) {\n    case \"L\":\n        var bldgs = [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\n        break;\n    case \"R\":\n        var bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\n        break;\n}\n\n// --- Loop through all buildings, look for no bueno\nvar isClear = true;\nfor (var i in bldgs) {\n    for (var j = 0; j < 30; j++) {\n        var c = global.get(bldgs[i]+\".GutterPixels\").charAt(j);\n        if (c != \"0\") {\n            isClear = false;\n            break;\n        }\n    }\n    if (isClear == false) {\n        break;\n    }\n    //theTotalWater += global.get(bldgs[i]+\".WaterQty\"); // no cheating\n}\n\nfor (var i in bldgs) {\n    curDamage[i] = 0;\n\n    for (var j=0; j<30; j++) {\n        var c = global.get(bldgs[i]+\".GutterPixels\").chatAr(j);\n        if (c == \"3\" || c==\"4\") {\n            curDamage[i] += 1;\n        }\n    }\n\n    if(curDamage[i] > global.get(bldgs[i]+\".Damage\")) {\n        global.set(bldgs[i] + \".Damage\", curDamage[i]);\n    }\n}\n\n// --- If it's gone, LET'S GO\n//msg.payload = (theTotalFS <= 0 && theTotalWater >= 30) ? true : false;\n//node.warn(theTotalFS);\n\n// fin\nmsg.payload = isClear;\nreturn msg;",
+        "func": "/* \nEvery time you're updating a FS, check to see if it's the LAST ONE  :O\n(also use this moment to calculate new Damage scores LOL)\n*/ \n\n// --- Set up vars\nvar startside = global.get(\"startSide\");\nvar theTotalFS = 0;\nvar theTotalWater = 0;\nvar curDamage = [];\n\nswitch(startside) {\n    case \"L\":\n        var bldgs = [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\n        break;\n    case \"R\":\n        var bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\n        break;\n}\n\n// --- Loop through all buildings, look for no bueno\nvar isClear = true;\nfor (var i in bldgs) {\n    for (var j = 0; j < 30; j++) {\n        var c = global.get(bldgs[i]+\".GutterPixels\").charAt(j);\n        if (c != \"0\") {\n            isClear = false;\n            break;\n        }\n    }\n    if (isClear == false) {\n        break;\n    }\n    //theTotalWater += global.get(bldgs[i]+\".WaterQty\"); // no cheating\n}\n\n/*\nfor (var i in bldgs) {\n    curDamage[i] = 0;\n\n    for (var j=0; j<30; j++) {\n        var c = global.get(bldgs[i]+\".GutterPixels\").chatAr(j);\n        if (c == \"3\" || c==\"4\") {\n            curDamage[i] += 1;\n        }\n    }\n\n    if(curDamage[i] > global.get(bldgs[i]+\".Damage\")) {\n        global.set(bldgs[i] + \".Damage\", curDamage[i]);\n    }\n}\n*/\n\n// --- If it's gone, LET'S GO\n//msg.payload = (theTotalFS <= 0 && theTotalWater >= 30) ? true : false;\n//node.warn(theTotalFS);\n\n// fin\nmsg.payload = isClear;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
