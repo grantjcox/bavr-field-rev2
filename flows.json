@@ -681,9 +681,7 @@
             "ad34ea44766153db"
         ],
         "x": 134,
-        "y": 659,
-        "w": 1272,
-        "h": 402
+        "y": 659
     },
     {
         "id": "e63633ec18181ba7",
@@ -712,9 +710,7 @@
             "c79cb601a8c0ab17"
         ],
         "x": 134,
-        "y": 1099,
-        "w": 952,
-        "h": 342
+        "y": 1099
     },
     {
         "id": "bc92f0b2168e67b1",
@@ -736,9 +732,7 @@
             "cd811a5da6dea1c9"
         ],
         "x": 1174,
-        "y": 1079,
-        "w": 512,
-        "h": 122
+        "y": 1079
     },
     {
         "id": "2024311963b7a70e",
@@ -759,9 +753,7 @@
             "b70ae83c222fa7da"
         ],
         "x": 1174,
-        "y": 1299,
-        "w": 482,
-        "h": 122
+        "y": 1299
     },
     {
         "id": "7ceda8dc6f5a8d60",
@@ -783,9 +775,7 @@
             "ccf03d13258bb4e3"
         ],
         "x": 134,
-        "y": 1499,
-        "w": 792,
-        "h": 142
+        "y": 1499
     },
     {
         "id": "96cafb8e88dad064",
@@ -807,9 +797,7 @@
             "c74fb766b19e2bf1"
         ],
         "x": 134,
-        "y": 1679,
-        "w": 832,
-        "h": 142
+        "y": 1679
     },
     {
         "id": "96faa29525ade8f0",
@@ -843,9 +831,7 @@
             "da8da29f2b800fa5"
         ],
         "x": 134,
-        "y": 59,
-        "w": 672,
-        "h": 542
+        "y": 59
     },
     {
         "id": "a298e34363e28341",
@@ -9063,7 +9049,6 @@
         "id": "f4b7c4c243db620d",
         "type": "sqlite",
         "z": "f3ec5d556e86f8d0",
-        "g": "e63633ec18181ba7",
         "mydb": "6f6f2d0bf9d4b5e3",
         "sqlquery": "msg.topic",
         "sql": "",
@@ -9113,7 +9098,6 @@
         "id": "9bca7655eb1d89cf",
         "type": "sqlite",
         "z": "f3ec5d556e86f8d0",
-        "g": "a83bb00d46efe804",
         "mydb": "6f6f2d0bf9d4b5e3",
         "sqlquery": "fixed",
         "sql": "CREATE TABLE FIELD_CONFIG (\n  EDGE_UUID TEXT PRIMARY KEY,\n  EDGE_NODE_ID TEXT\n)",
@@ -9252,7 +9236,6 @@
         "id": "4215a3196c228639",
         "type": "sqlite",
         "z": "f3ec5d556e86f8d0",
-        "g": "a83bb00d46efe804",
         "mydb": "6f6f2d0bf9d4b5e3",
         "sqlquery": "msg.topic",
         "sql": "",
@@ -9319,7 +9302,6 @@
         "id": "a74d42b7ae961652",
         "type": "sqlite",
         "z": "f3ec5d556e86f8d0",
-        "g": "a83bb00d46efe804",
         "mydb": "6f6f2d0bf9d4b5e3",
         "sqlquery": "fixed",
         "sql": "DROP TABLE IF EXISTS FIELD_CONFIG;",
@@ -9478,7 +9460,6 @@
         "id": "3dd25f169354ef22",
         "type": "sqlite",
         "z": "f3ec5d556e86f8d0",
-        "g": "a83bb00d46efe804",
         "mydb": "6f6f2d0bf9d4b5e3",
         "sqlquery": "fixed",
         "sql": "Select * from FIELD_CONFIG;",
@@ -9563,7 +9544,6 @@
         "id": "4b72a159e1e82517",
         "type": "sqlite",
         "z": "f3ec5d556e86f8d0",
-        "g": "e63633ec18181ba7",
         "mydb": "6f6f2d0bf9d4b5e3",
         "sqlquery": "msg.topic",
         "sql": "",
@@ -9609,7 +9589,6 @@
         "id": "80e1d2d095f19693",
         "type": "sqlite",
         "z": "f3ec5d556e86f8d0",
-        "g": "bc92f0b2168e67b1",
         "mydb": "6f6f2d0bf9d4b5e3",
         "sqlquery": "msg.topic",
         "sql": "",
@@ -10970,5 +10949,131 @@
         "x": 900,
         "y": 1360,
         "wires": []
+    },
+    {
+        "id": "cba36710b3f0e691",
+        "type": "group",
+        "z": "d32826a1611e0622",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "425525fa50d52aef",
+            "c04c6d32184aa86e",
+            "b69b44971de6fba0",
+            "40bd2073c91617a2"
+        ],
+        "x": 54,
+        "y": 499,
+        "w": 712,
+        "h": 142
+    },
+    {
+        "id": "425525fa50d52aef",
+        "type": "comment",
+        "z": "d32826a1611e0622",
+        "g": "cba36710b3f0e691",
+        "name": "Trenches",
+        "info": "",
+        "x": 140,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "c04c6d32184aa86e",
+        "type": "ui_dropdown",
+        "z": "d32826a1611e0622",
+        "g": "cba36710b3f0e691",
+        "name": "",
+        "label": "LEFT-TOP-1",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "13504c5753af441d",
+        "order": 0,
+        "width": "2",
+        "height": "2",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "OFF",
+                "value": "OFF",
+                "type": "str"
+            },
+            {
+                "label": "RED",
+                "value": "RED",
+                "type": "str"
+            },
+            {
+                "label": "GREEN",
+                "value": "GREEN",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 210,
+        "y": 600,
+        "wires": [
+            [
+                "40bd2073c91617a2"
+            ]
+        ]
+    },
+    {
+        "id": "b69b44971de6fba0",
+        "type": "mqtt out",
+        "z": "d32826a1611e0622",
+        "g": "cba36710b3f0e691",
+        "name": "",
+        "topic": "nodered/updatepixels/LTT",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 630,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "40bd2073c91617a2",
+        "type": "change",
+        "z": "d32826a1611e0622",
+        "g": "cba36710b3f0e691",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"whichLeds\":0,\"pixels\":\"111111111111111111111111111111\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 600,
+        "wires": [
+            [
+                "b69b44971de6fba0"
+            ]
+        ]
     }
 ]
