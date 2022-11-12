@@ -212,7 +212,9 @@
             "5f3e0a85eea68705"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 552,
+        "h": 122
     },
     {
         "id": "aa7cdd8f3125703c",
@@ -235,7 +237,9 @@
             "6e6816ac951a5c0f"
         ],
         "x": 34,
-        "y": 159
+        "y": 159,
+        "w": 852,
+        "h": 182
     },
     {
         "id": "2ac942eccf98a996",
@@ -454,7 +458,9 @@
             "1b55865e8e16d405"
         ],
         "x": 34,
-        "y": 399
+        "y": 399,
+        "w": 812,
+        "h": 122
     },
     {
         "id": "77bdfe65956919ec",
@@ -858,7 +864,8 @@
             "8bfbb74c8bd6ea8a",
             "4184eea9c2f5d0d1",
             "d13946c0b6d68832",
-            "8a1c54a30f6e321d"
+            "8a1c54a30f6e321d",
+            "32915cef9c4e0ed7"
         ],
         "x": 54,
         "y": 539,
@@ -886,7 +893,8 @@
             "616bbcb4c232933c",
             "1a2852c276803a8e",
             "78ddbf57592be916",
-            "d3f61fe6cb27f19e"
+            "d3f61fe6cb27f19e",
+            "cc273cb5e0f36c84"
         ],
         "x": 54,
         "y": 759,
@@ -914,12 +922,13 @@
             "a983ca068023543c",
             "23d2a4ca3438a190",
             "0f5c26b8f9c0e8fb",
-            "c22b5a348046e18b"
+            "c22b5a348046e18b",
+            "7626e97f968a858e"
         ],
         "x": 54,
-        "y": 1019,
+        "y": 999,
         "w": 952,
-        "h": 222
+        "h": 242
     },
     {
         "id": "0b3af3753f33292d",
@@ -942,12 +951,13 @@
             "b3ba77c1e8ec3469",
             "2aa6e40eeae7bb45",
             "b230315a6b0b9787",
-            "36583aa149ee6f4c"
+            "36583aa149ee6f4c",
+            "97d1f6e1a1761fb8"
         ],
         "x": 54,
-        "y": 1279,
+        "y": 1259,
         "w": 952,
-        "h": 222
+        "h": 242
     },
     {
         "id": "dc5384f7b9f470a3",
@@ -970,12 +980,13 @@
             "d4f59c42c8e3621f",
             "1cf74dc6629c5bc1",
             "355a867b4e709ec3",
-            "76d2c82b5490d10a"
+            "76d2c82b5490d10a",
+            "8d3431ec5b26ff8d"
         ],
         "x": 54,
-        "y": 1559,
+        "y": 1539,
         "w": 942,
-        "h": 202
+        "h": 222
     },
     {
         "id": "58bd3feb98c01c36",
@@ -998,12 +1009,13 @@
             "fba31ee77b4c2b41",
             "46689e504b3a40a2",
             "642c1029ef735b21",
-            "ad073fe469f07b4c"
+            "ad073fe469f07b4c",
+            "669d8b2e34271d5d"
         ],
         "x": 54,
-        "y": 1799,
+        "y": 1779,
         "w": 942,
-        "h": 202
+        "h": 222
     },
     {
         "id": "21aaba78e384f976",
@@ -1026,12 +1038,13 @@
             "0a980167dfc3e031",
             "bdfdc2a2ccccfec9",
             "eb7d7e39c504daf9",
-            "201572b4026ee457"
+            "201572b4026ee457",
+            "a5f5872be5b97f6c"
         ],
         "x": 54,
-        "y": 2019,
+        "y": 1999,
         "w": 942,
-        "h": 202
+        "h": 222
     },
     {
         "id": "6ac6b771fff8c239",
@@ -1054,12 +1067,13 @@
             "b3c760bc47deb7a1",
             "cbc1bf7f30580e47",
             "393dbe7450f53bc9",
-            "c995e02d640aefcf"
+            "c995e02d640aefcf",
+            "414808a5201d6091"
         ],
         "x": 54,
-        "y": 2239,
+        "y": 2219,
         "w": 942,
-        "h": 202
+        "h": 222
     },
     {
         "id": "6a070793fb470a03",
@@ -1356,6 +1370,37 @@
         "y": 539,
         "w": 712,
         "h": 222
+    },
+    {
+        "id": "ab2d725536c9b091",
+        "type": "group",
+        "z": "175af8efcea2d591",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "9060c4417769a8a6",
+            "a20da76881a2c92f",
+            "335e406982635187",
+            "40b6873d3362e5b0",
+            "06e130297ace1369",
+            "eda20c35c862c3df",
+            "2381a139ccbf25a5",
+            "1e1b70cbabfaee5d",
+            "33f61ade06dd74c8",
+            "c4ce4b14be142171",
+            "93d0adee9f6f4273"
+        ],
+        "x": 94,
+        "y": 1119,
+        "w": 812,
+        "h": 262
     },
     {
         "id": "b411c6135a7823e0",
@@ -1730,7 +1775,7 @@
     {
         "id": "7a3c32bb77d2c5c3",
         "type": "ui_tab",
-        "name": "Trees & Trenches",
+        "name": "Ref Toggles",
         "icon": "dashboard",
         "order": 5,
         "disabled": false,
@@ -1752,7 +1797,7 @@
         "type": "ui_group",
         "name": "Trenches",
         "tab": "7a3c32bb77d2c5c3",
-        "order": 2,
+        "order": 3,
         "disp": true,
         "width": "10",
         "collapse": false,
@@ -1823,7 +1868,18 @@
         "type": "ui_group",
         "name": "Auton Drop",
         "tab": "7a3c32bb77d2c5c3",
-        "order": 3,
+        "order": 4,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3fe7b2a68005ea00",
+        "type": "ui_group",
+        "name": "Recon Path",
+        "tab": "7a3c32bb77d2c5c3",
+        "order": 2,
         "disp": true,
         "width": "10",
         "collapse": false,
@@ -5877,6 +5933,243 @@
         "wires": []
     },
     {
+        "id": "9060c4417769a8a6",
+        "type": "ui_button",
+        "z": "175af8efcea2d591",
+        "g": "ab2d725536c9b091",
+        "name": "",
+        "group": "3fe7b2a68005ea00",
+        "order": 0,
+        "width": "5",
+        "height": "1",
+        "passthru": false,
+        "label": "Recon Path Done (L)",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 260,
+        "y": 1220,
+        "wires": [
+            [
+                "335e406982635187"
+            ]
+        ]
+    },
+    {
+        "id": "a20da76881a2c92f",
+        "type": "comment",
+        "z": "175af8efcea2d591",
+        "g": "ab2d725536c9b091",
+        "name": "RECON PATH DONEZO",
+        "info": "",
+        "x": 230,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "335e406982635187",
+        "type": "function",
+        "z": "175af8efcea2d591",
+        "g": "ab2d725536c9b091",
+        "name": "choose your path",
+        "func": "//choose your path padawan\nvar whichPath = Math.floor(Math.random() * 2);\n\nmsg.payload = whichPath;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 1220,
+        "wires": [
+            [
+                "40b6873d3362e5b0"
+            ]
+        ]
+    },
+    {
+        "id": "40b6873d3362e5b0",
+        "type": "switch",
+        "z": "175af8efcea2d591",
+        "g": "ab2d725536c9b091",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 730,
+        "y": 1220,
+        "wires": [
+            [
+                "06e130297ace1369"
+            ],
+            [
+                "eda20c35c862c3df"
+            ]
+        ]
+    },
+    {
+        "id": "06e130297ace1369",
+        "type": "link out",
+        "z": "175af8efcea2d591",
+        "g": "ab2d725536c9b091",
+        "name": "Recon Path Done 1",
+        "mode": "link",
+        "links": [
+            "414808a5201d6091",
+            "8d3431ec5b26ff8d"
+        ],
+        "x": 865,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "eda20c35c862c3df",
+        "type": "link out",
+        "z": "175af8efcea2d591",
+        "g": "ab2d725536c9b091",
+        "name": "Recon Path Done 2",
+        "mode": "link",
+        "links": [
+            "669d8b2e34271d5d",
+            "a5f5872be5b97f6c"
+        ],
+        "x": 865,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "2381a139ccbf25a5",
+        "type": "ui_button",
+        "z": "175af8efcea2d591",
+        "g": "ab2d725536c9b091",
+        "name": "",
+        "group": "3fe7b2a68005ea00",
+        "order": 0,
+        "width": "5",
+        "height": "1",
+        "passthru": false,
+        "label": "Recon Path Done (R)",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 260,
+        "y": 1320,
+        "wires": [
+            [
+                "1e1b70cbabfaee5d"
+            ]
+        ]
+    },
+    {
+        "id": "1e1b70cbabfaee5d",
+        "type": "function",
+        "z": "175af8efcea2d591",
+        "g": "ab2d725536c9b091",
+        "name": "choose your path",
+        "func": "//choose your path padawan\nvar whichPath = Math.floor(Math.random() * 2);\n\nmsg.payload = whichPath;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 1320,
+        "wires": [
+            [
+                "33f61ade06dd74c8"
+            ]
+        ]
+    },
+    {
+        "id": "33f61ade06dd74c8",
+        "type": "switch",
+        "z": "175af8efcea2d591",
+        "g": "ab2d725536c9b091",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 730,
+        "y": 1320,
+        "wires": [
+            [
+                "c4ce4b14be142171"
+            ],
+            [
+                "93d0adee9f6f4273"
+            ]
+        ]
+    },
+    {
+        "id": "c4ce4b14be142171",
+        "type": "link out",
+        "z": "175af8efcea2d591",
+        "g": "ab2d725536c9b091",
+        "name": "Recon Path Done 1",
+        "mode": "link",
+        "links": [
+            "32915cef9c4e0ed7",
+            "97d1f6e1a1761fb8"
+        ],
+        "x": 865,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "93d0adee9f6f4273",
+        "type": "link out",
+        "z": "175af8efcea2d591",
+        "g": "ab2d725536c9b091",
+        "name": "Recon Path Done 2",
+        "mode": "link",
+        "links": [
+            "7626e97f968a858e",
+            "cc273cb5e0f36c84"
+        ],
+        "x": 865,
+        "y": 1340,
+        "wires": []
+    },
+    {
         "id": "0416ea6909311b42",
         "type": "link in",
         "z": "f6f035102302ba5a",
@@ -9575,6 +9868,142 @@
         "y": 140,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "8d3431ec5b26ff8d",
+        "type": "link in",
+        "z": "d32826a1611e0622",
+        "g": "dc5384f7b9f470a3",
+        "name": "light LT option 1",
+        "links": [
+            "06e130297ace1369"
+        ],
+        "x": 435,
+        "y": 1580,
+        "wires": [
+            [
+                "28c68dc58063d62e"
+            ]
+        ]
+    },
+    {
+        "id": "414808a5201d6091",
+        "type": "link in",
+        "z": "d32826a1611e0622",
+        "g": "6ac6b771fff8c239",
+        "name": "light LT option 1",
+        "links": [
+            "06e130297ace1369"
+        ],
+        "x": 415,
+        "y": 2260,
+        "wires": [
+            [
+                "91cc457481d7ddc9"
+            ]
+        ]
+    },
+    {
+        "id": "a5f5872be5b97f6c",
+        "type": "link in",
+        "z": "d32826a1611e0622",
+        "g": "21aaba78e384f976",
+        "name": "light LT option 2",
+        "links": [
+            "eda20c35c862c3df"
+        ],
+        "x": 425,
+        "y": 2040,
+        "wires": [
+            [
+                "22fd860b3e1f56cf"
+            ]
+        ]
+    },
+    {
+        "id": "669d8b2e34271d5d",
+        "type": "link in",
+        "z": "d32826a1611e0622",
+        "g": "58bd3feb98c01c36",
+        "name": "light LT option 2",
+        "links": [
+            "eda20c35c862c3df"
+        ],
+        "x": 425,
+        "y": 1820,
+        "wires": [
+            [
+                "228607c2d02661e8"
+            ]
+        ]
+    },
+    {
+        "id": "32915cef9c4e0ed7",
+        "type": "link in",
+        "z": "d32826a1611e0622",
+        "g": "a298e34363e28341",
+        "name": "light RT option 1",
+        "links": [
+            "c4ce4b14be142171"
+        ],
+        "x": 435,
+        "y": 580,
+        "wires": [
+            [
+                "30048645b24ac102"
+            ]
+        ]
+    },
+    {
+        "id": "97d1f6e1a1761fb8",
+        "type": "link in",
+        "z": "d32826a1611e0622",
+        "g": "0b3af3753f33292d",
+        "name": "light BT option 1",
+        "links": [
+            "c4ce4b14be142171"
+        ],
+        "x": 445,
+        "y": 1300,
+        "wires": [
+            [
+                "831e96c4467d6f69"
+            ]
+        ]
+    },
+    {
+        "id": "cc273cb5e0f36c84",
+        "type": "link in",
+        "z": "d32826a1611e0622",
+        "g": "821639e23b06e8b7",
+        "name": "light BT option 2",
+        "links": [
+            "93d0adee9f6f4273"
+        ],
+        "x": 425,
+        "y": 800,
+        "wires": [
+            [
+                "e7798a49af21c28b"
+            ]
+        ]
+    },
+    {
+        "id": "7626e97f968a858e",
+        "type": "link in",
+        "z": "d32826a1611e0622",
+        "g": "b00a1e1bf34b7a99",
+        "name": "light BT option 2",
+        "links": [
+            "93d0adee9f6f4273"
+        ],
+        "x": 425,
+        "y": 1040,
+        "wires": [
+            [
+                "68487416aabe8f57"
+            ]
         ]
     },
     {
