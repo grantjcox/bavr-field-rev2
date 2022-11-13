@@ -215,7 +215,9 @@
             "5f3e0a85eea68705"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 552,
+        "h": 122
     },
     {
         "id": "aa7cdd8f3125703c",
@@ -238,7 +240,9 @@
             "6e6816ac951a5c0f"
         ],
         "x": 34,
-        "y": 159
+        "y": 159,
+        "w": 852,
+        "h": 182
     },
     {
         "id": "2ac942eccf98a996",
@@ -465,7 +469,9 @@
             "1b55865e8e16d405"
         ],
         "x": 34,
-        "y": 399
+        "y": 399,
+        "w": 812,
+        "h": 122
     },
     {
         "id": "77bdfe65956919ec",
@@ -603,9 +609,6 @@
             "bb41b3b3cc7b681d",
             "4f56704568189cfc",
             "02424c99509bf97f",
-            "af9851791b431668",
-            "857fda300015cd6e",
-            "d896e715d917cdf2",
             "8dd1f8659cf326c1",
             "931aa0aecec7203f",
             "ba9de4c0d6c59f58"
@@ -613,7 +616,7 @@
         "x": 94,
         "y": 819,
         "w": 652,
-        "h": 262
+        "h": 182
     },
     {
         "id": "cb9c0c3b1fe84ccc",
@@ -648,9 +651,7 @@
             "93a01049a60df5c5"
         ],
         "x": 54,
-        "y": 39,
-        "w": 1052,
-        "h": 462
+        "y": 39
     },
     {
         "id": "a83bb00d46efe804",
@@ -861,9 +862,7 @@
             "9498eab6a1cd0f2a"
         ],
         "x": 54,
-        "y": 499,
-        "w": 952,
-        "h": 242
+        "y": 499
     },
     {
         "id": "821639e23b06e8b7",
@@ -892,9 +891,7 @@
             "3e1b0163bae2fa11"
         ],
         "x": 54,
-        "y": 719,
-        "w": 952,
-        "h": 242
+        "y": 719
     },
     {
         "id": "b00a1e1bf34b7a99",
@@ -923,9 +920,7 @@
             "5a7f6afebccd7fa7"
         ],
         "x": 54,
-        "y": 959,
-        "w": 952,
-        "h": 282
+        "y": 959
     },
     {
         "id": "0b3af3753f33292d",
@@ -954,9 +949,7 @@
             "8d059dd5b45d6a89"
         ],
         "x": 54,
-        "y": 1239,
-        "w": 952,
-        "h": 262
+        "y": 1239
     },
     {
         "id": "dc5384f7b9f470a3",
@@ -985,9 +978,7 @@
             "5b091724b2b67ab5"
         ],
         "x": 54,
-        "y": 1499,
-        "w": 942,
-        "h": 262
+        "y": 1499
     },
     {
         "id": "58bd3feb98c01c36",
@@ -1016,9 +1007,7 @@
             "dc8f4d8f85a10f79"
         ],
         "x": 54,
-        "y": 1759,
-        "w": 942,
-        "h": 242
+        "y": 1759
     },
     {
         "id": "21aaba78e384f976",
@@ -1047,9 +1036,7 @@
             "a767d0c5f4352f2d"
         ],
         "x": 54,
-        "y": 1979,
-        "w": 942,
-        "h": 242
+        "y": 1979
     },
     {
         "id": "6ac6b771fff8c239",
@@ -1078,9 +1065,7 @@
             "2a78ff579a5e9464"
         ],
         "x": 54,
-        "y": 2219,
-        "w": 942,
-        "h": 222
+        "y": 2219
     },
     {
         "id": "6a070793fb470a03",
@@ -1111,20 +1096,17 @@
             "31c4db3eb2f36e59"
         ],
         "x": 114,
-        "y": 59
+        "y": 59,
+        "w": 872,
+        "h": 322
     },
     {
         "id": "18778eda46bd5b07",
         "type": "group",
         "z": "bd2296fd2d68d405",
+        "name": "",
         "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
+            "label": true
         },
         "nodes": [
             "93750bbcea38e7fe",
@@ -1135,7 +1117,9 @@
             "4eb1999fbc3aab57"
         ],
         "x": 114,
-        "y": 859
+        "y": 859,
+        "w": 652,
+        "h": 182
     },
     {
         "id": "378995858571b39f",
@@ -1166,7 +1150,9 @@
             "48373ebe740e92b6"
         ],
         "x": 114,
-        "y": 479
+        "y": 479,
+        "w": 872,
+        "h": 322
     },
     {
         "id": "4f152b1eeea1837b",
@@ -1192,7 +1178,9 @@
             "e3641c48aef6dae2"
         ],
         "x": 134,
-        "y": 1099
+        "y": 1099,
+        "w": 872,
+        "h": 302
     },
     {
         "id": "da5dfd18efe136b1",
@@ -1250,9 +1238,46 @@
             "c9d158730c6fc6a5"
         ],
         "x": 1074,
-        "y": 539,
-        "w": 712,
-        "h": 222
+        "y": 539
+    },
+    {
+        "id": "ab2d725536c9b091",
+        "type": "group",
+        "z": "d32826a1611e0622",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "9db6ec45531f1534",
+            "a6d6b7919b5c3565",
+            "5eadd8f77d6dd1ce",
+            "9060c4417769a8a6",
+            "a20da76881a2c92f",
+            "335e406982635187",
+            "40b6873d3362e5b0",
+            "06e130297ace1369",
+            "eda20c35c862c3df",
+            "2381a139ccbf25a5",
+            "1e1b70cbabfaee5d",
+            "33f61ade06dd74c8",
+            "c4ce4b14be142171",
+            "93d0adee9f6f4273",
+            "a7d4ab585203adf8",
+            "fbef5856707ebe0e",
+            "e1ebb0cff0844ace",
+            "2702e40d947bb9c3",
+            "85ec7e8e89a5a1d9",
+            "bfb334433a7d8842",
+            "3b6b77c692325673"
+        ],
+        "x": 1114,
+        "y": 1559
     },
     {
         "id": "2b2a6d295740d392",
@@ -1347,9 +1372,9 @@
         "h": 142
     },
     {
-        "id": "ab2d725536c9b091",
+        "id": "86746eb8946eaa91",
         "type": "group",
-        "z": "d32826a1611e0622",
+        "z": "bd2296fd2d68d405",
         "style": {
             "stroke": "#3a3a3a",
             "stroke-opacity": "1",
@@ -1360,32 +1385,18 @@
             "color": "#cccccc"
         },
         "nodes": [
-            "9db6ec45531f1534",
-            "a6d6b7919b5c3565",
-            "5eadd8f77d6dd1ce",
-            "9060c4417769a8a6",
-            "a20da76881a2c92f",
-            "335e406982635187",
-            "40b6873d3362e5b0",
-            "06e130297ace1369",
-            "eda20c35c862c3df",
-            "2381a139ccbf25a5",
-            "1e1b70cbabfaee5d",
-            "33f61ade06dd74c8",
-            "c4ce4b14be142171",
-            "93d0adee9f6f4273",
-            "a7d4ab585203adf8",
-            "fbef5856707ebe0e",
-            "e1ebb0cff0844ace",
-            "2702e40d947bb9c3",
-            "85ec7e8e89a5a1d9",
-            "bfb334433a7d8842",
-            "3b6b77c692325673"
+            "bf8a32b7f8081bb2",
+            "b093ebf16ae60878",
+            "c30bab3d6b1794ac",
+            "d9423dbe2b9c23d0",
+            "f0f486a730b8ca76",
+            "f4d91ac44401745d",
+            "3f38d246c62ef7bd"
         ],
-        "x": 1114,
-        "y": 1559,
-        "w": 812,
-        "h": 502
+        "x": 134,
+        "y": 1439,
+        "w": 712,
+        "h": 222
     },
     {
         "id": "b411c6135a7823e0",
@@ -1690,31 +1701,11 @@
         "type": "ui_group",
         "name": "Manual Testers (may or may not work)",
         "tab": "050e42e2db96a9f4",
-        "order": 2,
+        "order": 3,
         "disp": true,
         "width": "10",
         "collapse": false,
         "className": ""
-    },
-    {
-        "id": "e2232d1a7ae3ff93",
-        "type": "ui_spacer",
-        "z": "55a762ae72fa441b",
-        "name": "spacer",
-        "group": "3e7886cb7c605213",
-        "order": 2,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "c4a10b6193d3e273",
-        "type": "ui_spacer",
-        "z": "55a762ae72fa441b",
-        "name": "spacer",
-        "group": "3e7886cb7c605213",
-        "order": 6,
-        "width": 5,
-        "height": 1
     },
     {
         "id": "1e4da6b2e1809214",
@@ -1842,7 +1833,7 @@
         "type": "ui_group",
         "name": "Manual Heaters",
         "tab": "050e42e2db96a9f4",
-        "order": 3,
+        "order": 4,
         "disp": true,
         "width": "10",
         "collapse": false,
@@ -1877,6 +1868,37 @@
         "name": "spacer",
         "group": "bc2157348f251310",
         "order": 2,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "d30d14b4d9e32e11",
+        "type": "ui_group",
+        "name": "Manual Waters",
+        "tab": "050e42e2db96a9f4",
+        "order": 2,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fb5ecbc22265f21a",
+        "type": "ui_spacer",
+        "z": "bd2296fd2d68d405",
+        "name": "spacer",
+        "group": "3e7886cb7c605213",
+        "order": 2,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "d91b1912eee3d74c",
+        "type": "ui_spacer",
+        "z": "bd2296fd2d68d405",
+        "name": "spacer",
+        "group": "3e7886cb7c605213",
+        "order": 6,
         "width": 5,
         "height": 1
     },
@@ -5789,7 +5811,9 @@
             "cc34e7492d373681",
             "af9851791b431668",
             "ab0f710e6dfb6139",
-            "8dd1f8659cf326c1"
+            "8dd1f8659cf326c1",
+            "bf19941135fa14cc",
+            "d2abd74f26efbe3f"
         ],
         "x": 1375,
         "y": 140,
@@ -5879,61 +5903,6 @@
         ]
     },
     {
-        "id": "af9851791b431668",
-        "type": "link in",
-        "z": "175af8efcea2d591",
-        "g": "738dc520034f11a7",
-        "name": "build the summary table",
-        "links": [
-            "46514258ddd5880b"
-        ],
-        "x": 185,
-        "y": 960,
-        "wires": [
-            [
-                "857fda300015cd6e"
-            ]
-        ]
-    },
-    {
-        "id": "857fda300015cd6e",
-        "type": "function",
-        "z": "175af8efcea2d591",
-        "g": "738dc520034f11a7",
-        "name": "Calc total DS",
-        "func": "\n// --- Set up vars\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar theTotalDS = 0;\n\n// --- Loop through all buildings, add up total DS\nfor (var i in bldgs) {\n    theTotalDS += global.get(bldgs[i] + \".Damage\");\n}\n\n// Fin\nmsg.payload = theTotalDS;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 310,
-        "y": 960,
-        "wires": [
-            [
-                "d896e715d917cdf2"
-            ]
-        ]
-    },
-    {
-        "id": "d896e715d917cdf2",
-        "type": "ui_text",
-        "z": "175af8efcea2d591",
-        "g": "738dc520034f11a7",
-        "group": "1e4da6b2e1809214",
-        "order": 1,
-        "width": 5,
-        "height": 1,
-        "name": "",
-        "label": "Total DS",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "x": 480,
-        "y": 960,
-        "wires": []
-    },
-    {
         "id": "8dd1f8659cf326c1",
         "type": "link in",
         "z": "175af8efcea2d591",
@@ -5943,7 +5912,7 @@
             "46514258ddd5880b"
         ],
         "x": 185,
-        "y": 1040,
+        "y": 960,
         "wires": [
             [
                 "931aa0aecec7203f"
@@ -5963,7 +5932,7 @@
         "finalize": "",
         "libs": [],
         "x": 350,
-        "y": 1040,
+        "y": 960,
         "wires": [
             [
                 "ba9de4c0d6c59f58"
@@ -5985,7 +5954,7 @@
         "layout": "row-spread",
         "className": "",
         "x": 660,
-        "y": 1040,
+        "y": 960,
         "wires": []
     },
     {
@@ -12002,7 +11971,7 @@
         "name": "",
         "label": "Turn off Specific Bldg",
         "group": "7c1e7786ce952a5d",
-        "order": 3,
+        "order": 1,
         "width": 0,
         "height": 0,
         "options": [
@@ -12133,7 +12102,7 @@
         "g": "378995858571b39f",
         "name": "",
         "group": "7c1e7786ce952a5d",
-        "order": 1,
+        "order": 3,
         "width": 0,
         "height": 0,
         "passthru": true,
@@ -12560,5 +12529,234 @@
         "x": 900,
         "y": 1360,
         "wires": []
+    },
+    {
+        "id": "bf8a32b7f8081bb2",
+        "type": "comment",
+        "z": "bd2296fd2d68d405",
+        "g": "86746eb8946eaa91",
+        "name": "Manual Waters",
+        "info": "",
+        "x": 240,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "b093ebf16ae60878",
+        "type": "mqtt out",
+        "z": "bd2296fd2d68d405",
+        "g": "86746eb8946eaa91",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 650,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "c30bab3d6b1794ac",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "86746eb8946eaa91",
+        "name": "Set up MQTT Message",
+        "func": "//--- Basic variables\nvar theBldg = global.get(\"manualWaterBldg\");\nvar theTime = msg.time;\nmsg.payload = {};\n\n//--- Set up MQTT message\nmsg.topic = \"edgenode/balldrop/\"+theBldg;\nmsg.payload.BUILDING_NAME = theBldg;\nmsg.payload.num_drops = 1;\nmsg.payload.timestamp = theTime;\nmsg.payload.side_id = 0;\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 1620,
+        "wires": [
+            [
+                "b093ebf16ae60878"
+            ]
+        ]
+    },
+    {
+        "id": "d9423dbe2b9c23d0",
+        "type": "debug",
+        "z": "bd2296fd2d68d405",
+        "g": "86746eb8946eaa91",
+        "name": "debug 18",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "f0f486a730b8ca76",
+        "type": "ui_dropdown",
+        "z": "bd2296fd2d68d405",
+        "g": "86746eb8946eaa91",
+        "name": "",
+        "label": "Add Water Drops / Hits",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "d30d14b4d9e32e11",
+        "order": 1,
+        "width": 10,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "LBI",
+                "value": "LBI",
+                "type": "str"
+            },
+            {
+                "label": "LTI",
+                "value": "LTI",
+                "type": "str"
+            },
+            {
+                "label": "LBM",
+                "value": "LBM",
+                "type": "str"
+            },
+            {
+                "label": "LTM",
+                "value": "LTM",
+                "type": "str"
+            },
+            {
+                "label": "LBO",
+                "value": "LBO",
+                "type": "str"
+            },
+            {
+                "label": "LTO",
+                "value": "LTO",
+                "type": "str"
+            },
+            {
+                "label": "RBI",
+                "value": "RBI",
+                "type": "str"
+            },
+            {
+                "label": "RTI",
+                "value": "RTI",
+                "type": "str"
+            },
+            {
+                "label": "RBM",
+                "value": "RBM",
+                "type": "str"
+            },
+            {
+                "label": "RTM",
+                "value": "RTM",
+                "type": "str"
+            },
+            {
+                "label": "RBO",
+                "value": "RBO",
+                "type": "str"
+            },
+            {
+                "label": "RTO",
+                "value": "RTO",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 300,
+        "y": 1540,
+        "wires": [
+            [
+                "3f38d246c62ef7bd"
+            ]
+        ]
+    },
+    {
+        "id": "c85b1f79bd1507c5",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "name": "Set MQTT Messages",
+        "func": "/* \nExample input: \n\n*/\n\n//--- Basic variables\nvar theBldg = msg.payload;\nvar theTime = msg.time;\nmsg.payload = {};\n\n//--- Set up MQTT message\nmsg.topic = \"edgenode/balldrop/\" + theBldg;\nmsg.payload.BUILDING_NAME = theBldg;\nmsg.payload.num_drops = 1;\nmsg.payload.timestamp = theTime;\nmsg.payload.side_id = 0;\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 1860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f4d91ac44401745d",
+        "type": "ui_button",
+        "z": "bd2296fd2d68d405",
+        "g": "86746eb8946eaa91",
+        "name": "",
+        "group": "d30d14b4d9e32e11",
+        "order": 1,
+        "width": "5",
+        "height": "1",
+        "passthru": false,
+        "label": "Send Water",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 1620,
+        "wires": [
+            [
+                "c30bab3d6b1794ac"
+            ]
+        ]
+    },
+    {
+        "id": "3f38d246c62ef7bd",
+        "type": "change",
+        "z": "bd2296fd2d68d405",
+        "g": "86746eb8946eaa91",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "manualWaterBldg",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 1540,
+        "wires": [
+            []
+        ]
     }
 ]
