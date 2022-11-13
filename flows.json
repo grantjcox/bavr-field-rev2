@@ -145,14 +145,10 @@
             "45e70a9ad7899e4d",
             "9cbdb9d52fe7cf9a",
             "9bc5be050fadf6b6",
-            "40c211c8e4f6180d",
             "e4346dc3857e09be",
             "6e9c04bbdc0780af",
             "53ad0d9118b96995",
             "d504585ce63f5428",
-            "996f6e75dda3cbf2",
-            "025e0ee7f9fecdd8",
-            "271ede2ce51d285f",
             "4ddc4f8c8e23432a"
         ],
         "x": 34,
@@ -178,7 +174,6 @@
             "550ba5d34605ad4c",
             "11b308030fbc13bf",
             "77191df86e82050c",
-            "c46aa67248fd589a",
             "d0e47829bbab10d2",
             "ff0af9f0a11f5393",
             "f6d8fde6109ac979",
@@ -334,7 +329,6 @@
             "63f18a575dc37f3b",
             "dda9a78374edd0d2",
             "a25ecc470396a417",
-            "619a82dad0d84d31",
             "2a37db221e4919dc",
             "fe84ce88167ea094",
             "5c0e589cb02e5ad4",
@@ -348,7 +342,6 @@
             "1a82187c851908ef",
             "e1499c0ddc6fdf99",
             "9fa16415953d9ae6",
-            "ef25f89ba6dd5708",
             "28964f598a2b91f8",
             "ec9a8da5fdcd039c",
             "ee79a9d508104fa0",
@@ -357,10 +350,10 @@
             "3eed4a6d746b77f9",
             "f2b56dfdbbe11a17"
         ],
-        "x": 124,
-        "y": 39,
-        "w": 2672,
-        "h": 422
+        "x": 134,
+        "y": 79,
+        "w": 2712,
+        "h": 362
     },
     {
         "id": "5f1037ebc6dbd72f",
@@ -384,8 +377,8 @@
         ],
         "x": 94,
         "y": 547,
-        "w": 652,
-        "h": 194
+        "w": 872,
+        "h": 154
     },
     {
         "id": "459fe488a5804676",
@@ -524,16 +517,17 @@
             "627488f25f62e8dc",
             "58af15e1f7b1e202",
             "41fe48a660030e78",
-            "b348ea8918f0e0bc",
-            "53c404b6960d9d5d",
             "244a5e68750deac1",
             "9c7e5e9066493481",
-            "8db898b77b6740df"
+            "f35369f3e7d9d9f9",
+            "54f240d0cd94a297",
+            "53c404b6960d9d5d",
+            "a051d26f3d84b499"
         ],
-        "x": 134,
+        "x": 84,
         "y": 3099,
-        "w": 752,
-        "h": 302
+        "w": 1252,
+        "h": 262
     },
     {
         "id": "e6f0aa02159bc664",
@@ -560,12 +554,13 @@
             "cd6470a4dd6dcf5a",
             "a0b22b12a042c73b",
             "d50e20b89aafa29b",
-            "4c742ebce9027c25"
+            "4c742ebce9027c25",
+            "42523d902813f067"
         ],
-        "x": 134,
-        "y": 3579,
-        "w": 952,
-        "h": 302
+        "x": 84,
+        "y": 3479,
+        "w": 1282,
+        "h": 262
     },
     {
         "id": "b16460b067e3329b",
@@ -1096,9 +1091,7 @@
             "31c4db3eb2f36e59"
         ],
         "x": 114,
-        "y": 59,
-        "w": 872,
-        "h": 322
+        "y": 59
     },
     {
         "id": "18778eda46bd5b07",
@@ -1117,9 +1110,7 @@
             "4eb1999fbc3aab57"
         ],
         "x": 114,
-        "y": 859,
-        "w": 652,
-        "h": 182
+        "y": 859
     },
     {
         "id": "378995858571b39f",
@@ -1150,9 +1141,7 @@
             "48373ebe740e92b6"
         ],
         "x": 114,
-        "y": 479,
-        "w": 872,
-        "h": 322
+        "y": 479
     },
     {
         "id": "4f152b1eeea1837b",
@@ -1178,9 +1167,7 @@
             "e3641c48aef6dae2"
         ],
         "x": 134,
-        "y": 1099,
-        "w": 872,
-        "h": 302
+        "y": 1099
     },
     {
         "id": "da5dfd18efe136b1",
@@ -1212,10 +1199,10 @@
             "7a1fe1dc9f21c9b7",
             "5ed3a3ca0846d32d"
         ],
-        "x": 1214,
+        "x": 1414,
         "y": 2599,
-        "w": 1452,
-        "h": 502
+        "w": 1252,
+        "h": 422
     },
     {
         "id": "1e5cf91bef2d0b81",
@@ -1278,6 +1265,31 @@
         ],
         "x": 1114,
         "y": 1559
+    },
+    {
+        "id": "86746eb8946eaa91",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "bf8a32b7f8081bb2",
+            "b093ebf16ae60878",
+            "c30bab3d6b1794ac",
+            "d9423dbe2b9c23d0",
+            "f0f486a730b8ca76",
+            "f4d91ac44401745d",
+            "3f38d246c62ef7bd"
+        ],
+        "x": 134,
+        "y": 1439
     },
     {
         "id": "2b2a6d295740d392",
@@ -1343,7 +1355,7 @@
         ],
         "x": 94,
         "y": 599,
-        "w": 712,
+        "w": 732,
         "h": 122
     },
     {
@@ -1370,35 +1382,8 @@
         ],
         "x": 94,
         "y": 439,
-        "w": 712,
+        "w": 732,
         "h": 142
-    },
-    {
-        "id": "86746eb8946eaa91",
-        "type": "group",
-        "z": "bd2296fd2d68d405",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "bf8a32b7f8081bb2",
-            "b093ebf16ae60878",
-            "c30bab3d6b1794ac",
-            "d9423dbe2b9c23d0",
-            "f0f486a730b8ca76",
-            "f4d91ac44401745d",
-            "3f38d246c62ef7bd"
-        ],
-        "x": 134,
-        "y": 1439,
-        "w": 712,
-        "h": 222
     },
     {
         "id": "b411c6135a7823e0",
@@ -1997,7 +1982,7 @@
         "z": "55a762ae72fa441b",
         "g": "4a4f80625f8ea163",
         "name": "Reset / Default Global Variables",
-        "func": "\n//--- Match setup \nglobal.set(\"startSide\",\"\");  // L or R\nglobal.set(\"otherSide\", \"\"); // L or R\nglobal.set(\"startRoute\",\"\"); // T or B\nglobal.set(\"hotBldg\",\"\");    // T or B\nglobal.set(\"curPhase\",0);    // 1, 2, or 3\nglobal.set(\"totalFS\",0);\nglobal.set(\"balldoubler\",1);\n\n//--- Building objects\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nfor (var i in bldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(bldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores \n    global.set(bldgs[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(bldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(bldgs[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(bldgs[i] + \".FS.Window2-AfterWater\", 0);\n    global.set(bldgs[i] + \".Damage\",0);\n\n    // Water qtys - int\n    global.set(bldgs[i] + \".WaterQty\", 0);\n\n    // Gutterpixels - string of numbers that represent colors\n    global.set(bldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\n\nglobal.set(\"LTT\"+\"\")\n\n\n//Fin\nreturn msg;",
+        "func": "\n//--- Match setup \nglobal.set(\"startSide\",\"\");  // L or R\nglobal.set(\"otherSide\", \"\"); // L or R\nglobal.set(\"startRoute\",\"\"); // T or B\nglobal.set(\"hotBldg\",\"\");    // T or B\nglobal.set(\"curPhase\",0);    // 1, 2, or 3\nglobal.set(\"totalFS\",0);\nglobal.set(\"balldoubler\",1);\n\n//--- Building objects\nvar rightBldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\nvar leftBldgs =  [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"]; \nvar allBldgs = rightBldgs.concat(leftBldgs);\nfor (var i in allBldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(allBldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores \n    global.set(allBldgs[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-AfterWater\", 0);\n    global.set(allBldgs[i] + \".Damage\",0);\n\n    // Water qtys - int\n    global.set(allBldgs[i] + \".WaterQty\", 0);\n\n    // Gutterpixels - string of numbers that represent colors\n    global.set(allBldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\n\nglobal.set(\"LTT\"+\"\")\n\n//Set up side-specific global arrays\nglobal.set(\"rightBldgs\", rightBldgs);\nglobal.set(\"leftBldgs\", leftBldgs);\nglobal.set(\"allBldgs\",allBldgs);\n\n//Fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -2083,7 +2068,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 700,
+        "x": 720,
         "y": 520,
         "wires": []
     },
@@ -2264,7 +2249,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 700,
+        "x": 720,
         "y": 680,
         "wires": []
     },
@@ -2756,8 +2741,7 @@
             ],
             [
                 "c612b81a64bb9759",
-                "9cbdb9d52fe7cf9a",
-                "996f6e75dda3cbf2"
+                "9cbdb9d52fe7cf9a"
             ]
         ]
     },
@@ -2939,7 +2923,7 @@
         "finalize": "",
         "libs": [],
         "x": 480,
-        "y": 2080,
+        "y": 2060,
         "wires": [
             [
                 "d0e47829bbab10d2",
@@ -3107,17 +3091,6 @@
         ]
     },
     {
-        "id": "c46aa67248fd589a",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "4788e8d5cbe11d8f",
-        "name": "Will change to 60s or something - timing pending",
-        "info": "- FS progresses along at a fixed path\n- FS communication is \"one-way\", so to speak\n- Teams can ping it down as it grows\n- If you get to it before it progresses to second window, \n  you get damage prevention bonus",
-        "x": 360,
-        "y": 2000,
-        "wires": []
-    },
-    {
         "id": "d0e47829bbab10d2",
         "type": "link out",
         "z": "55a762ae72fa441b",
@@ -3128,7 +3101,7 @@
             "0416ea6909311b42"
         ],
         "x": 685,
-        "y": 2080,
+        "y": 2060,
         "wires": []
     },
     {
@@ -3397,10 +3370,10 @@
         "id": "28af28cc8618a072",
         "type": "comment",
         "z": "55a762ae72fa441b",
-        "name": "[not-so-]MVP Step 9 - Endgame",
+        "name": "MVP Step 9 - Endgame",
         "info": "",
-        "x": 210,
-        "y": 3540,
+        "x": 180,
+        "y": 3440,
         "wires": []
     },
     {
@@ -3731,12 +3704,11 @@
         "links": [
             "fe84ce88167ea094"
         ],
-        "x": 195,
+        "x": 145,
         "y": 3200,
         "wires": [
             [
-                "58af15e1f7b1e202",
-                "53c404b6960d9d5d"
+                "a051d26f3d84b499"
             ]
         ]
     },
@@ -3747,7 +3719,7 @@
         "g": "2971d7c90b74f3b4",
         "name": "TIME FOR PHASE 2",
         "info": "",
-        "x": 250,
+        "x": 200,
         "y": 3140,
         "wires": []
     },
@@ -3761,8 +3733,8 @@
         "links": [
             "31c4db3eb2f36e59"
         ],
-        "x": 645,
-        "y": 3360,
+        "x": 675,
+        "y": 3320,
         "wires": []
     },
     {
@@ -3783,8 +3755,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 710,
-        "y": 3320,
+        "x": 730,
+        "y": 3260,
         "wires": [
             [
                 "627488f25f62e8dc",
@@ -3803,8 +3775,8 @@
             "48373ebe740e92b6",
             "756238117240a8cf"
         ],
-        "x": 845,
-        "y": 3320,
+        "x": 885,
+        "y": 3260,
         "wires": []
     },
     {
@@ -3825,11 +3797,11 @@
         "limit": "",
         "loopPayload": "loop-index",
         "finalPayload": "final-count",
-        "x": 480,
-        "y": 3260,
+        "x": 520,
+        "y": 3200,
         "wires": [
             [
-                "b348ea8918f0e0bc"
+                "244a5e68750deac1"
             ],
             [
                 "dc410816705aadf3",
@@ -3859,53 +3831,11 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 380,
-        "y": 3340,
+        "x": 290,
+        "y": 3260,
         "wires": [
             [
                 "58af15e1f7b1e202"
-            ]
-        ]
-    },
-    {
-        "id": "b348ea8918f0e0bc",
-        "type": "link out",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "Phase 2 rave done",
-        "mode": "link",
-        "links": [
-            "3f402ddd8643cce0"
-        ],
-        "x": 635,
-        "y": 3240,
-        "wires": []
-    },
-    {
-        "id": "53c404b6960d9d5d",
-        "type": "change",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "curPhase",
-                "pt": "global",
-                "to": "2",
-                "tot": "num"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 410,
-        "y": 3200,
-        "wires": [
-            [
-                "244a5e68750deac1"
             ]
         ]
     },
@@ -3916,7 +3846,7 @@
         "g": "2971d7c90b74f3b4",
         "name": "",
         "pauseType": "delay",
-        "timeout": "2.5",
+        "timeout": "1",
         "timeoutUnits": "seconds",
         "rate": "1",
         "nbRateUnits": "1",
@@ -3927,11 +3857,11 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 630,
-        "y": 3180,
+        "x": 720,
+        "y": 3200,
         "wires": [
             [
-                "8db898b77b6740df"
+                "53c404b6960d9d5d"
             ]
         ]
     },
@@ -3940,42 +3870,11 @@
         "type": "comment",
         "z": "55a762ae72fa441b",
         "g": "2971d7c90b74f3b4",
-        "name": "pause for rave time",
+        "name": "Pause to drain MQTT",
         "info": "",
-        "x": 630,
+        "x": 740,
         "y": 3140,
         "wires": []
-    },
-    {
-        "id": "8db898b77b6740df",
-        "type": "link out",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "Phase 2 start",
-        "mode": "link",
-        "links": [
-            "40c211c8e4f6180d"
-        ],
-        "x": 785,
-        "y": 3180,
-        "wires": []
-    },
-    {
-        "id": "40c211c8e4f6180d",
-        "type": "link in",
-        "z": "55a762ae72fa441b",
-        "g": "6a8702296ddd22a1",
-        "name": "start first buildings",
-        "links": [
-            "8db898b77b6740df"
-        ],
-        "x": 675,
-        "y": 1340,
-        "wires": [
-            [
-                "82a8466517112ffd"
-            ]
-        ]
     },
     {
         "id": "d236e6eee53270f4",
@@ -3986,12 +3885,11 @@
         "links": [
             "6983c6fb1a960333"
         ],
-        "x": 195,
-        "y": 3680,
+        "x": 145,
+        "y": 3580,
         "wires": [
             [
-                "9b2dd509237ea4ba",
-                "c9cff8053a0560cc"
+                "42523d902813f067"
             ]
         ]
     },
@@ -4002,8 +3900,8 @@
         "g": "e6f0aa02159bc664",
         "name": "TIME FOR PHASE 3",
         "info": "",
-        "x": 250,
-        "y": 3620,
+        "x": 200,
+        "y": 3520,
         "wires": []
     },
     {
@@ -4016,8 +3914,8 @@
         "links": [
             "31c4db3eb2f36e59"
         ],
-        "x": 645,
-        "y": 3840,
+        "x": 695,
+        "y": 3700,
         "wires": []
     },
     {
@@ -4038,8 +3936,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 710,
-        "y": 3800,
+        "x": 750,
+        "y": 3640,
         "wires": [
             [
                 "66a6c020170412e9",
@@ -4058,8 +3956,8 @@
             "48373ebe740e92b6",
             "756238117240a8cf"
         ],
-        "x": 845,
-        "y": 3800,
+        "x": 895,
+        "y": 3640,
         "wires": []
     },
     {
@@ -4080,10 +3978,12 @@
         "limit": "",
         "loopPayload": "loop-index",
         "finalPayload": "final-count",
-        "x": 480,
-        "y": 3740,
+        "x": 540,
+        "y": 3580,
         "wires": [
-            [],
+            [
+                "cd6470a4dd6dcf5a"
+            ],
             [
                 "971728897ecf9437",
                 "2badacc9a7cff346"
@@ -4113,7 +4013,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 310,
-        "y": 3820,
+        "y": 3640,
         "wires": [
             [
                 "9b2dd509237ea4ba"
@@ -4140,11 +4040,11 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 410,
-        "y": 3680,
+        "x": 950,
+        "y": 3580,
         "wires": [
             [
-                "cd6470a4dd6dcf5a"
+                "d50e20b89aafa29b"
             ]
         ]
     },
@@ -4155,7 +4055,7 @@
         "g": "e6f0aa02159bc664",
         "name": "",
         "pauseType": "delay",
-        "timeout": "2.5",
+        "timeout": "1",
         "timeoutUnits": "seconds",
         "rate": "1",
         "nbRateUnits": "1",
@@ -4166,11 +4066,11 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 630,
-        "y": 3660,
+        "x": 740,
+        "y": 3580,
         "wires": [
             [
-                "d50e20b89aafa29b"
+                "c9cff8053a0560cc"
             ]
         ]
     },
@@ -4179,10 +4079,10 @@
         "type": "comment",
         "z": "55a762ae72fa441b",
         "g": "e6f0aa02159bc664",
-        "name": "pause for rave time",
+        "name": "Pause to drain MQTT",
         "info": "",
-        "x": 630,
-        "y": 3620,
+        "x": 760,
+        "y": 3520,
         "wires": []
     },
     {
@@ -4191,14 +4091,14 @@
         "z": "55a762ae72fa441b",
         "g": "e6f0aa02159bc664",
         "name": "Set ENDGAME qtys",
-        "func": "var bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nfor (var i in bldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(bldgs[i] + \".Status\", \"ENDGAME\");\n\n    //Fire scores \n    global.set(bldgs[i] + \".FS.Window1-BeforeWater\", 8);\n    global.set(bldgs[i] + \".FS.Window2-BeforeWater\", 8);\n    global.set(bldgs[i] + \".FS.Window1-AfterWater\", 8);\n    global.set(bldgs[i] + \".FS.Window2-AfterWater\", 8);\n\n    // Water qtys - int\n    global.set(bldgs[i] + \".WaterQty\", 0);\n}\n\nreturn msg;",
+        "func": "var bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nfor (var i in bldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(bldgs[i] + \".Status\", \"ENDGAME\");\n\n    //Fire scores \n    global.set(bldgs[i] + \".FS.Window1-BeforeWater\", 8);\n    global.set(bldgs[i] + \".FS.Window2-BeforeWater\", 8);\n    global.set(bldgs[i] + \".FS.Window1-AfterWater\", 8);\n    global.set(bldgs[i] + \".FS.Window2-AfterWater\", 8);\n\n    // Gutters\n    global.set(bldgs[i] + \".GutterPixels\",\"333333330000000000000044444444\");\n\n    // Water qtys - int\n    global.set(bldgs[i] + \".WaterQty\", 0);\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 880,
-        "y": 3660,
+        "x": 1180,
+        "y": 3580,
         "wires": [
             [
                 "4c742ebce9027c25"
@@ -4215,8 +4115,8 @@
         "links": [
             "3f402ddd8643cce0"
         ],
-        "x": 1045,
-        "y": 3660,
+        "x": 1325,
+        "y": 3580,
         "wires": []
     },
     {
@@ -4255,12 +4155,12 @@
         "type": "switch",
         "z": "55a762ae72fa441b",
         "g": "b2c04e106e7697f0",
-        "name": "phase != 0",
+        "name": "curPhase > 0",
         "property": "curPhase",
         "propertyType": "global",
         "rules": [
             {
-                "t": "neq",
+                "t": "gt",
                 "v": "0",
                 "vt": "num"
             }
@@ -4281,12 +4181,12 @@
         "type": "switch",
         "z": "55a762ae72fa441b",
         "g": "b2c04e106e7697f0",
-        "name": "phase != 0",
+        "name": "curPhase > 0",
         "property": "curPhase",
         "propertyType": "global",
         "rules": [
             {
-                "t": "neq",
+                "t": "gt",
                 "v": "0",
                 "vt": "num"
             }
@@ -4375,10 +4275,10 @@
         "type": "comment",
         "z": "55a762ae72fa441b",
         "g": "da5dfd18efe136b1",
-        "name": "MVP Step 2am - Phase 2",
+        "name": "MVP Version - Phase 2",
         "info": "",
-        "x": 1350,
-        "y": 3060,
+        "x": 1540,
+        "y": 2800,
         "wires": []
     },
     {
@@ -4690,7 +4590,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 800,
-        "y": 2040,
+        "y": 2000,
         "wires": []
     },
     {
@@ -4708,7 +4608,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 490,
-        "y": 2040,
+        "y": 2000,
         "wires": []
     },
     {
@@ -4748,68 +4648,6 @@
         ],
         "x": 635,
         "y": 240,
-        "wires": []
-    },
-    {
-        "id": "996f6e75dda3cbf2",
-        "type": "switch",
-        "z": "55a762ae72fa441b",
-        "g": "6a8702296ddd22a1",
-        "name": "if phase 2",
-        "property": "curPhase",
-        "propertyType": "global",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "2",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1160,
-        "y": 1460,
-        "wires": [
-            [
-                "025e0ee7f9fecdd8"
-            ]
-        ]
-    },
-    {
-        "id": "025e0ee7f9fecdd8",
-        "type": "function",
-        "z": "55a762ae72fa441b",
-        "g": "6a8702296ddd22a1",
-        "name": "Add another burning bldg",
-        "func": "//--- Set up vars\nvar inputBldg = msg.payload.bldg;\nvar msg1 = {};\nmsg1.payload = {};\n\n//--- make string go\nvar shortString = inputBldg.slice(0,2);\nvar newString = shortString + \"O\";\n\n//callbacks\nmsg1.payload.bldg = newString;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\nglobal.set(inputBldg+\".Damage\", 8);\n\n\n//Fin\nreturn msg1;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1350,
-        "y": 1460,
-        "wires": [
-            [
-                "271ede2ce51d285f"
-            ]
-        ]
-    },
-    {
-        "id": "271ede2ce51d285f",
-        "type": "link out",
-        "z": "55a762ae72fa441b",
-        "g": "6a8702296ddd22a1",
-        "name": "Send T=0 FS updates",
-        "mode": "link",
-        "links": [
-            "0416ea6909311b42",
-            "772defe5dc3f1eb0",
-            "113bf2ef4799a486"
-        ],
-        "x": 1505,
-        "y": 1460,
         "wires": []
     },
     {
@@ -4856,7 +4694,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 550,
+        "x": 570,
         "y": 880,
         "wires": [
             [
@@ -4881,6 +4719,124 @@
         "x": 980,
         "y": 800,
         "wires": []
+    },
+    {
+        "id": "f35369f3e7d9d9f9",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "2971d7c90b74f3b4",
+        "name": "Set PHASE-2 qtys",
+        "func": "// --- Set up variables\nvar activeSideChar = global.get(\"otherSide\");\n\n// --- Create active side array\nswitch (activeSideChar) {\n    case \"L\":\n        var activeSide = global.get(\"leftBldgs\");\n    case \"R\": \n        var activeSide = global.get(\"rightBldgs\");\n}\n\n\n// --- Loop (phase 2) active side bldgs, make sure they're all clear and outta here\nfor (var i in activeSide) {\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(activeSide[i] + \".Status\", \"PHASE-2\");\n\n    //Fire scores \n    global.set(activeSide[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(activeSide[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(activeSide[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(activeSide[i] + \".FS.Window2-AfterWater\", 0);\n\n    // Gutters\n    global.set(activeSide[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n\n    // Water qtys - int\n    global.set(activeSide[i] + \".WaterQty\", 0);\n}\n//-------------------------------\n\n//--- Create & then loop burning active side buildings\n//-- Step 1: Create\nvar whichRouteInt = Math.floor(Math.random() * 2); //returns 0 or 1\nvar whichRouteChar = whichRouteInt == 1 ? \"T\" : \"B\";\nglobal.set(\"startRoute\", whichRouteChar);\nvar bldg1 = activeSideChar + whichRouteChar + \"M\"; //e.g. bldg LTM\nvar bldg2 = activeSideChar + whichRouteChar + \"I\"; //e.g. bldg LTI\nvar bldg3 = activeSideChar + whichRouteChar + \"O\"; //e.g. bldg LTO\nvar burningBldgs = [bldg1, bldg2, bldg3];\n\n//-- Step 2: Set globals\nfor(var i in burningBldgs) {\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(activeSide[i] + \".Status\", \"PHASE-2-BURNING\");\n\n    //Fire scores \n    global.set(burningBldgs[i] + \".FS.Window1-BeforeWater\", 8);\n    global.set(burningBldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(burningBldgs[i] + \".FS.Window1-AfterWater\", 8);\n    global.set(burningBldgs[i] + \".FS.Window2-AfterWater\", 0);\n\n    // Gutters\n    global.set(burningBldgs[i] + \".GutterPixels\", \"333333330000000000000000000000\"); \n}\n\n//-- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1150,
+        "y": 3200,
+        "wires": [
+            [
+                "54f240d0cd94a297"
+            ]
+        ]
+    },
+    {
+        "id": "54f240d0cd94a297",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "2971d7c90b74f3b4",
+        "name": "Push phase2 statuses",
+        "mode": "link",
+        "links": [
+            "3f402ddd8643cce0"
+        ],
+        "x": 1295,
+        "y": 3200,
+        "wires": []
+    },
+    {
+        "id": "53c404b6960d9d5d",
+        "type": "change",
+        "z": "55a762ae72fa441b",
+        "g": "2971d7c90b74f3b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "curPhase",
+                "pt": "global",
+                "to": "2",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 930,
+        "y": 3200,
+        "wires": [
+            [
+                "f35369f3e7d9d9f9"
+            ]
+        ]
+    },
+    {
+        "id": "42523d902813f067",
+        "type": "change",
+        "z": "55a762ae72fa441b",
+        "g": "e6f0aa02159bc664",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "curPhase",
+                "pt": "global",
+                "to": "-1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 290,
+        "y": 3580,
+        "wires": [
+            [
+                "9b2dd509237ea4ba"
+            ]
+        ]
+    },
+    {
+        "id": "a051d26f3d84b499",
+        "type": "change",
+        "z": "55a762ae72fa441b",
+        "g": "2971d7c90b74f3b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "curPhase",
+                "pt": "global",
+                "to": "-1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 270,
+        "y": 3200,
+        "wires": [
+            [
+                "58af15e1f7b1e202"
+            ]
+        ]
     },
     {
         "id": "7a5f520857017bbb",
@@ -5980,7 +5936,7 @@
         "z": "175af8efcea2d591",
         "g": "738dc520034f11a7",
         "name": "Calc Fire CLEAR Score",
-        "func": "switch(global.get(\"curPhase\")) {\n    case 1:\n        var theClearScore = 96 - global.get(\"totalFS\");\n        break;\n    case 2:\n        var theClearScore = 96 + (96 - global.get(\"totalFS\"));\n}\n\n\n// bandaids on bandaids math wheeee\ntheClearScore = Math.floor(theClearScore / 2);\ntheClearScore = theClearScore + global.get(\"trees-left-1\") + global.get(\"trees-left-2\") + global.get(\"trees-right-1\") + global.get(\"trees-right-2\");\n\nmsg.payload = theClearScore;\nreturn msg;",
+        "func": "var theClearScore = 0;\n\n// --- Invert the totalFS based on which phase\n// ----------- Best way to fix this in the future: make this part just calculate a \n//              \"current FCS\" / \"invert FS\", then add the FS from the previous phases in / do the other math\n/// ========= THIS IS DOUBLE COUNTING BECAUSE PHASES 1 AND 2 ASSUME ONLY \n///           ONE SIDE OF BLDGS WORTH OF FS, BUT PHASE 3 IS DOUBLED\n///           BECAUSE GAME\nswitch(global.get(\"curPhase\")) {\n    case 1:\n        theClearScore = 96 - global.get(\"totalFS\");\n        break;\n    case 2:\n        theClearScore = 96 + (96 - global.get(\"totalFS\"));\n        break;\n    case 3:\n        theClearScore = 96 + 96 + (96 - global.get(\"totalFS\"));\n        break;\n    default:\n        break;\n}\n\n\n// bandaids on bandaids math wheeee\ntheClearScore = Math.floor(theClearScore / 2);\ntheClearScore = theClearScore + global.get(\"trees-left-1\") + global.get(\"trees-left-2\") + global.get(\"trees-right-1\") + global.get(\"trees-right-2\");\n\n// - Fin\nmsg.payload = theClearScore;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6037,7 +5993,7 @@
             "f4d059522562d6ee",
             "271ede2ce51d285f"
         ],
-        "x": 195,
+        "x": 205,
         "y": 300,
         "wires": [
             [
@@ -6053,7 +6009,7 @@
         "g": "284c27310b25477c",
         "name": "Update FS BEFORE WATER\\n payload.bldg, payload.window, payload.numFire",
         "info": "",
-        "x": 330,
+        "x": 340,
         "y": 180,
         "wires": []
     },
@@ -6069,7 +6025,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 380,
+        "x": 390,
         "y": 280,
         "wires": [
             [
@@ -6089,8 +6045,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1350,
-        "y": 340,
+        "x": 1390,
+        "y": 300,
         "wires": [
             [
                 "926f27b7e8249ddb"
@@ -6109,8 +6065,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1700,
-        "y": 340,
+        "x": 1760,
+        "y": 300,
         "wires": [
             [
                 "5f0bcff5c4ed6ec4"
@@ -6129,8 +6085,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1290,
-        "y": 420,
+        "x": 1300,
+        "y": 360,
         "wires": [
             [
                 "f986ab9711daf36b"
@@ -6152,8 +6108,8 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 1890,
-        "y": 340,
+        "x": 1970,
+        "y": 300,
         "wires": []
     },
     {
@@ -6172,7 +6128,7 @@
         "expiry": "",
         "broker": "bc90be16040a7d21",
         "x": 1510,
-        "y": 420,
+        "y": 360,
         "wires": []
     },
     {
@@ -6187,7 +6143,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 380,
+        "x": 390,
         "y": 240,
         "wires": [
             []
@@ -6253,8 +6209,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 440,
-        "y": 700,
+        "x": 660,
+        "y": 660,
         "wires": [
             [
                 "19c221d99629ee7a"
@@ -6276,8 +6232,8 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 670,
-        "y": 700,
+        "x": 890,
+        "y": 660,
         "wires": []
     },
     {
@@ -6434,14 +6390,13 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 890,
-        "y": 300,
+        "x": 920,
+        "y": 260,
         "wires": [
             [
                 "5acfacf7a05cc895",
                 "ed2d399b29970928",
                 "c558863179e4ef0b",
-                "ef25f89ba6dd5708",
                 "b3159d92c7d2d07d"
             ],
             [
@@ -6480,7 +6435,7 @@
         "links": [
             "a25ecc470396a417"
         ],
-        "x": 525,
+        "x": 535,
         "y": 280,
         "wires": []
     },
@@ -6494,8 +6449,8 @@
             "dda9a78374edd0d2",
             "71f67f7f27cafd81"
         ],
-        "x": 695,
-        "y": 300,
+        "x": 715,
+        "y": 260,
         "wires": [
             [
                 "63f18a575dc37f3b"
@@ -6608,8 +6563,8 @@
         "condition": "",
         "conditionType": "js",
         "when": "before",
-        "enumeration": "[\"RTO\",\"RBO\",\"RTM\",\"RBM\",\"RTI\",\"RBI\",\"LBI\",\"LTI\",\"LBM\",\"LTM\",\"LBO\",\"LTO\"]",
-        "enumerationType": "json",
+        "enumeration": "allBldgs",
+        "enumerationType": "global",
         "limit": "",
         "loopPayload": "loop-val",
         "finalPayload": "final-count",
@@ -6712,7 +6667,8 @@
         "links": [
             "cb167d27c1e7d778",
             "4c742ebce9027c25",
-            "b348ea8918f0e0bc"
+            "b348ea8918f0e0bc",
+            "54f240d0cd94a297"
         ],
         "x": 135,
         "y": 1280,
@@ -6720,24 +6676,6 @@
             [
                 "3c85efd6b9fe4796"
             ]
-        ]
-    },
-    {
-        "id": "619a82dad0d84d31",
-        "type": "function",
-        "z": "f6f035102302ba5a",
-        "g": "284c27310b25477c",
-        "name": "Check if Phase change ready (totalFS = 0)",
-        "func": "/* \nEvery time you're updating a FS, check to see if it's the LAST ONE  :O\n*/ \n\n// --- Set up vars\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar theTotalFS = 0;\nvar theTotalWater = 0;\n\n// --- Loop through all buildings, add up total FS\nfor (var i in bldgs) {\n    theTotalFS += Math.abs(global.get(bldgs[i] + \".FS.Window1-AfterWater\")) + Math.abs(global.get(bldgs[i] + \".FS.Window2-AfterWater\"));\n    theTotalWater += global.get(bldgs[i]+\".WaterQty\"); // no cheating\n}\n\n// --- If it's gone, LET'S GO\nmsg.payload = (theTotalFS <= 0 && theTotalWater >= 30) ? true : false;\nnode.warn(theTotalFS);\n\n// fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1570,
-        "y": 80,
-        "wires": [
-            []
         ]
     },
     {
@@ -6756,8 +6694,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 2640,
-        "y": 100,
+        "x": 2120,
+        "y": 120,
         "wires": [
             [
                 "fe84ce88167ea094"
@@ -6774,8 +6712,8 @@
         "links": [
             "9004aeb7ec1ed4bf"
         ],
-        "x": 2755,
-        "y": 100,
+        "x": 2235,
+        "y": 120,
         "wires": []
     },
     {
@@ -6801,7 +6739,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2020,
+        "x": 1410,
         "y": 140,
         "wires": [
             [
@@ -6822,7 +6760,7 @@
         "links": [
             "d236e6eee53270f4"
         ],
-        "x": 2745,
+        "x": 2235,
         "y": 160,
         "wires": []
     },
@@ -6868,7 +6806,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1530,
+        "x": 1540,
         "y": 240,
         "wires": [
             [
@@ -6921,7 +6859,7 @@
         "limit": "",
         "loopPayload": "loop-keep",
         "finalPayload": "final-count",
-        "x": 2150,
+        "x": 2160,
         "y": 240,
         "wires": [
             [],
@@ -6942,8 +6880,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2230,
-        "y": 300,
+        "x": 2410,
+        "y": 240,
         "wires": [
             [
                 "b0111393f42d13c5",
@@ -6966,8 +6904,8 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 2480,
-        "y": 300,
+        "x": 2650,
+        "y": 240,
         "wires": []
     },
     {
@@ -6988,8 +6926,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 2220,
-        "y": 340,
+        "x": 2430,
+        "y": 300,
         "wires": [
             [
                 "1a82187c851908ef"
@@ -7008,8 +6946,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2460,
-        "y": 340,
+        "x": 2530,
+        "y": 360,
         "wires": [
             [
                 "e1499c0ddc6fdf99",
@@ -7032,8 +6970,8 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 2680,
-        "y": 340,
+        "x": 2770,
+        "y": 360,
         "wires": []
     },
     {
@@ -7054,31 +6992,13 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 2080,
+        "x": 2190,
         "y": 400,
         "wires": [
             [
                 "30922eb04470fcd3"
             ]
         ]
-    },
-    {
-        "id": "ef25f89ba6dd5708",
-        "type": "debug",
-        "z": "f6f035102302ba5a",
-        "g": "284c27310b25477c",
-        "name": "debug 13",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1110,
-        "y": 160,
-        "wires": []
     },
     {
         "id": "28964f598a2b91f8",
@@ -7098,7 +7018,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1740,
+        "x": 1750,
         "y": 240,
         "wires": [
             [
@@ -7124,7 +7044,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1730,
+        "x": 1740,
         "y": 200,
         "wires": [
             [
@@ -7163,15 +7083,15 @@
         "type": "function",
         "z": "f6f035102302ba5a",
         "g": "284c27310b25477c",
-        "name": "Check if Phase change ready (gutterpixels = 0)",
+        "name": "Check if Phase 1 complete (startSide GutterPixels = 0)",
         "func": "/* \nEvery time you're updating a FS, check to see if it's the LAST ONE  :O\n(also use this moment to calculate new Damage scores LOL)\n*/ \n\n// --- Set up vars\nvar startside = global.get(\"startSide\");\nvar theTotalFS = 0;\nvar theTotalWater = 0;\nvar curDamage = [];\n\nswitch(startside) {\n    case \"L\":\n        var bldgs = [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\n        break;\n    case \"R\":\n        var bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\n        break;\n}\n\n// --- Loop through all buildings, look for no bueno\nvar isClear = true;\nfor (var i in bldgs) {\n    for (var j = 0; j < 30; j++) {\n        var c = global.get(bldgs[i]+\".GutterPixels\").charAt(j);\n        if (c != \"0\") {\n            isClear = false;\n            break;\n        }\n    }\n    if (isClear == false) {\n        break;\n    }\n    //theTotalWater += global.get(bldgs[i]+\".WaterQty\"); // no cheating\n}\n\n/*\nfor (var i in bldgs) {\n    curDamage[i] = 0;\n\n    for (var j=0; j<30; j++) {\n        var c = global.get(bldgs[i]+\".GutterPixels\").chatAr(j);\n        if (c == \"3\" || c==\"4\") {\n            curDamage[i] += 1;\n        }\n    }\n\n    if(curDamage[i] > global.get(bldgs[i]+\".Damage\")) {\n        global.set(bldgs[i] + \".Damage\", curDamage[i]);\n    }\n}\n*/\n\n// --- If it's gone, LET'S GO\n//msg.payload = (theTotalFS <= 0 && theTotalWater >= 30) ? true : false;\n//node.warn(theTotalFS);\n\n// fin\nmsg.payload = isClear;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2330,
-        "y": 100,
+        "x": 1780,
+        "y": 120,
         "wires": [
             [
                 "2a37db221e4919dc"
@@ -7197,7 +7117,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 1240,
-        "y": 200,
+        "y": 140,
         "wires": [
             [
                 "5c0e589cb02e5ad4"
@@ -7209,14 +7129,14 @@
         "type": "function",
         "z": "f6f035102302ba5a",
         "g": "284c27310b25477c",
-        "name": "Check if any phase 2 building waters",
-        "func": "/* \nEvery time you're updating a FS, check to see if it's the LAST ONE  :O\n*/ \n\n// --- Set up vars\nvar otherside = global.get(\"otherSide\");\nvar theTotalFS = 0;\nvar theTotalWater = 0;\n\nswitch(otherside) {\n    case \"L\":\n        var bldgs = [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\n        break;\n    case \"R\":\n        var bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\n        break;\n}\n\n// --- Loop through all buildings, add up total FS\nvar isClear = true;\nfor (var i in bldgs) {\n    for (var j = 0; j < 30; j++) {\n        var c = global.get(bldgs[i]+\".GutterPixels\").charAt(j);\n        if (c != \"0\") {\n            isClear = false;\n            break;\n        }\n    }\n    if (isClear == false) {\n        break;\n    }\n    theTotalWater += global.get(bldgs[i]+\".WaterQty\"); // no cheating\n}\n\n// --- If it's gone, LET'S GO\nmsg.payload = (isClear && theTotalWater >= 30) ? true : false;\n//node.warn(theTotalWater);\n//node.warn(theTotalFS);\n\n// fin\nreturn msg;",
+        "name": "Check if Phase 2 complete (otherSide GutterPixels = 0)",
+        "func": "/* \nEvery time you're updating a FS, check to see if it's the LAST ONE  :O\n*/ \n\n// --- Set up vars\nvar otherside = global.get(\"otherSide\");\nvar theTotalFS = 0;\nvar theTotalWater = 0;\n\nswitch(otherside) {\n    case \"L\":\n        var bldgs = [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\n        break;\n    case \"R\":\n        var bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\n        break;\n}\n\n// --- Loop through all buildings, add up total FS\nvar isClear = true;\nfor (var i in bldgs) {\n    for (var j = 0; j < 30; j++) {\n        var c = global.get(bldgs[i]+\".GutterPixels\").charAt(j);\n        if (c != \"0\") {\n            isClear = false;\n            break;\n        }\n    }\n    if (isClear == false) {\n        break;\n    }\n    //theTotalWater += global.get(bldgs[i]+\".WaterQty\"); // no cheating\n}\n\n// --- If it's gone, LET'S GO\n//msg.payload = (isClear && theTotalWater >= 30) ? true : false;\nmsg.payload = isClear;\n//node.warn(theTotalWater);\n//node.warn(theTotalFS);\n\n// fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2310,
+        "x": 1790,
         "y": 160,
         "wires": [
             [
@@ -7229,7 +7149,7 @@
         "type": "switch",
         "z": "f6f035102302ba5a",
         "g": "284c27310b25477c",
-        "name": "If some phase 2 water",
+        "name": "If ready",
         "property": "payload",
         "propertyType": "msg",
         "rules": [
@@ -7240,7 +7160,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 2590,
+        "x": 2120,
         "y": 160,
         "wires": [
             [
@@ -11828,8 +11748,8 @@
         "condition": "",
         "conditionType": "js",
         "when": "before",
-        "enumeration": "[\"RTO\",\"RBO\",\"RTM\",\"RBM\",\"RTI\",\"RBI\",\"LBI\",\"LTI\",\"LBM\",\"LTM\",\"LBO\",\"LTO\"]",
-        "enumerationType": "json",
+        "enumeration": "allBldgs",
+        "enumerationType": "global",
         "limit": "",
         "loopPayload": "loop-val",
         "finalPayload": "final-count",
@@ -11981,8 +11901,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 450,
-        "y": 180,
+        "x": 350,
+        "y": 220,
         "wires": [
             [
                 "b52637f4da03c425"
@@ -12194,8 +12114,8 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 790,
-        "y": 640,
+        "x": 930,
+        "y": 520,
         "wires": []
     },
     {
@@ -12210,8 +12130,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
-        "y": 640,
+        "x": 740,
+        "y": 520,
         "wires": [
             [
                 "7156e130265428bd"
@@ -12231,8 +12151,8 @@
         "condition": "",
         "conditionType": "js",
         "when": "before",
-        "enumeration": "[\"RTO\",\"RBO\",\"RTM\",\"RBM\",\"RTI\",\"RBI\",\"LBI\",\"LTI\",\"LBM\",\"LTM\",\"LBO\",\"LTO\"]",
-        "enumerationType": "json",
+        "enumeration": "allBldgs",
+        "enumerationType": "global",
         "limit": "",
         "loopPayload": "loop-val",
         "finalPayload": "final-count",
@@ -12241,7 +12161,6 @@
         "wires": [
             [],
             [
-                "a802cc1f90bd41ea",
                 "e05f3a75274f8b73",
                 "bdb38005806f60c4",
                 "19ec3afca86d1046"
@@ -12384,8 +12303,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 470,
-        "y": 600,
+        "x": 370,
+        "y": 640,
         "wires": [
             [
                 "108daae7a312a34f"
@@ -12468,8 +12387,8 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 810,
-        "y": 1260,
+        "x": 1110,
+        "y": 1180,
         "wires": []
     },
     {
@@ -12484,8 +12403,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 630,
-        "y": 1300,
+        "x": 870,
+        "y": 1180,
         "wires": [
             [
                 "53134e60fe9ad531",
@@ -12539,8 +12458,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 430,
-        "y": 1220,
+        "x": 770,
+        "y": 1280,
         "wires": [
             [
                 "cb99be2b70c3a4ee"
@@ -12581,8 +12500,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 900,
-        "y": 1360,
+        "x": 1080,
+        "y": 1280,
         "wires": []
     },
     {
@@ -12740,23 +12659,6 @@
             [
                 "3f38d246c62ef7bd"
             ]
-        ]
-    },
-    {
-        "id": "c85b1f79bd1507c5",
-        "type": "function",
-        "z": "bd2296fd2d68d405",
-        "name": "Set MQTT Messages",
-        "func": "/* \nExample input: \n\n*/\n\n//--- Basic variables\nvar theBldg = msg.payload;\nvar theTime = msg.time;\nmsg.payload = {};\n\n//--- Set up MQTT message\nmsg.topic = \"edgenode/balldrop/\" + theBldg;\nmsg.payload.BUILDING_NAME = theBldg;\nmsg.payload.num_drops = 1;\nmsg.payload.timestamp = theTime;\nmsg.payload.side_id = 0;\n\n//--- Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 520,
-        "y": 1860,
-        "wires": [
-            []
         ]
     },
     {
