@@ -210,9 +210,7 @@
             "5f3e0a85eea68705"
         ],
         "x": 34,
-        "y": 19,
-        "w": 552,
-        "h": 122
+        "y": 19
     },
     {
         "id": "aa7cdd8f3125703c",
@@ -235,9 +233,7 @@
             "6e6816ac951a5c0f"
         ],
         "x": 34,
-        "y": 159,
-        "w": 852,
-        "h": 182
+        "y": 159
     },
     {
         "id": "2ac942eccf98a996",
@@ -259,14 +255,10 @@
             "05cbae4faf594123",
             "deaae49be7b573b0",
             "892376e5bd117bc9",
-            "c5d69c3b0f5e30ee",
-            "0e3ebf9316c50718",
             "cc34e7492d373681"
         ],
         "x": 94,
-        "y": 59,
-        "w": 692,
-        "h": 282
+        "y": 59
     },
     {
         "id": "b2c04e106e7697f0",
@@ -351,9 +343,7 @@
             "f2b56dfdbbe11a17"
         ],
         "x": 134,
-        "y": 79,
-        "w": 2712,
-        "h": 362
+        "y": 79
     },
     {
         "id": "5f1037ebc6dbd72f",
@@ -376,9 +366,7 @@
             "19c221d99629ee7a"
         ],
         "x": 94,
-        "y": 547,
-        "w": 872,
-        "h": 154
+        "y": 547
     },
     {
         "id": "459fe488a5804676",
@@ -406,9 +394,7 @@
             "71f67f7f27cafd81"
         ],
         "x": 74,
-        "y": 807,
-        "w": 1592,
-        "h": 266
+        "y": 807
     },
     {
         "id": "11a9b9cee18f6b6c",
@@ -437,9 +423,7 @@
             "a429c99752090afe"
         ],
         "x": 74,
-        "y": 1179,
-        "w": 772,
-        "h": 322
+        "y": 1179
     },
     {
         "id": "3a81c46c8f3762a2",
@@ -462,39 +446,7 @@
             "1b55865e8e16d405"
         ],
         "x": 34,
-        "y": 399,
-        "w": 812,
-        "h": 122
-    },
-    {
-        "id": "77bdfe65956919ec",
-        "type": "group",
-        "z": "175af8efcea2d591",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "25bdc69949d0b152",
-            "b3329dfa95503c2c",
-            "1a9410ac2442e363",
-            "2d07da5341cf14ee",
-            "b8f41ef7533e00c1",
-            "811f25a4a4480bf7",
-            "d775d38173b3593c",
-            "8b81919795d67036",
-            "3014efb296f50a70",
-            "3fbcebb8a982c031"
-        ],
-        "x": 94,
-        "y": 499,
-        "w": 1242,
-        "h": 282
+        "y": 399
     },
     {
         "id": "2971d7c90b74f3b4",
@@ -582,9 +534,7 @@
             "e9c6866ca0db7662"
         ],
         "x": 894,
-        "y": 59,
-        "w": 522,
-        "h": 122
+        "y": 59
     },
     {
         "id": "738dc520034f11a7",
@@ -609,9 +559,7 @@
             "ba9de4c0d6c59f58"
         ],
         "x": 94,
-        "y": 819,
-        "w": 652,
-        "h": 182
+        "y": 819
     },
     {
         "id": "cb9c0c3b1fe84ccc",
@@ -678,7 +626,9 @@
             "ad34ea44766153db"
         ],
         "x": 134,
-        "y": 659
+        "y": 659,
+        "w": 1272,
+        "h": 402
     },
     {
         "id": "e63633ec18181ba7",
@@ -707,7 +657,9 @@
             "c79cb601a8c0ab17"
         ],
         "x": 134,
-        "y": 1099
+        "y": 1099,
+        "w": 952,
+        "h": 342
     },
     {
         "id": "bc92f0b2168e67b1",
@@ -729,7 +681,9 @@
             "cd811a5da6dea1c9"
         ],
         "x": 1174,
-        "y": 1079
+        "y": 1079,
+        "w": 512,
+        "h": 122
     },
     {
         "id": "2024311963b7a70e",
@@ -750,7 +704,9 @@
             "b70ae83c222fa7da"
         ],
         "x": 1174,
-        "y": 1299
+        "y": 1299,
+        "w": 482,
+        "h": 122
     },
     {
         "id": "7ceda8dc6f5a8d60",
@@ -772,7 +728,9 @@
             "ccf03d13258bb4e3"
         ],
         "x": 134,
-        "y": 1499
+        "y": 1499,
+        "w": 792,
+        "h": 142
     },
     {
         "id": "96cafb8e88dad064",
@@ -794,7 +752,9 @@
             "c74fb766b19e2bf1"
         ],
         "x": 134,
-        "y": 1679
+        "y": 1679,
+        "w": 832,
+        "h": 142
     },
     {
         "id": "96faa29525ade8f0",
@@ -828,7 +788,9 @@
             "da8da29f2b800fa5"
         ],
         "x": 134,
-        "y": 59
+        "y": 59,
+        "w": 672,
+        "h": 542
     },
     {
         "id": "a298e34363e28341",
@@ -1091,7 +1053,9 @@
             "31c4db3eb2f36e59"
         ],
         "x": 114,
-        "y": 59
+        "y": 59,
+        "w": 872,
+        "h": 322
     },
     {
         "id": "18778eda46bd5b07",
@@ -1110,7 +1074,9 @@
             "4eb1999fbc3aab57"
         ],
         "x": 114,
-        "y": 859
+        "y": 859,
+        "w": 652,
+        "h": 182
     },
     {
         "id": "378995858571b39f",
@@ -1141,7 +1107,9 @@
             "48373ebe740e92b6"
         ],
         "x": 114,
-        "y": 479
+        "y": 479,
+        "w": 892,
+        "h": 322
     },
     {
         "id": "4f152b1eeea1837b",
@@ -1167,7 +1135,9 @@
             "e3641c48aef6dae2"
         ],
         "x": 134,
-        "y": 1099
+        "y": 1099,
+        "w": 1052,
+        "h": 222
     },
     {
         "id": "da5dfd18efe136b1",
@@ -1289,7 +1259,178 @@
             "3f38d246c62ef7bd"
         ],
         "x": 134,
-        "y": 1439
+        "y": 1439,
+        "w": 712,
+        "h": 222
+    },
+    {
+        "id": "77bdfe65956919ec",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "25bdc69949d0b152",
+            "b3329dfa95503c2c",
+            "1a9410ac2442e363",
+            "2d07da5341cf14ee",
+            "b8f41ef7533e00c1",
+            "811f25a4a4480bf7",
+            "d775d38173b3593c",
+            "8b81919795d67036",
+            "3014efb296f50a70",
+            "3fbcebb8a982c031",
+            "412dda5307ab23bc",
+            "11d191fddb70f4cf",
+            "c5d69c3b0f5e30ee",
+            "0e3ebf9316c50718"
+        ],
+        "x": 1214,
+        "y": 679,
+        "w": 1242,
+        "h": 362
+    },
+    {
+        "id": "1e2b3d276327b031",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "eb1c9ed5222c1bae",
+            "c126a3be75f30239",
+            "5928222f3d7ec169",
+            "af69dcc68b5be41d",
+            "c9c52f1b1fc4875f"
+        ],
+        "x": 1214,
+        "y": 79,
+        "w": 792,
+        "h": 242
+    },
+    {
+        "id": "b73bab6188d86888",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "04f2bf0e5e5fda90",
+            "86bc73a47bd09922",
+            "8ff26e579280950f",
+            "26dde0beab910f33",
+            "66877abc465757d5"
+        ],
+        "x": 1214,
+        "y": 359,
+        "w": 792,
+        "h": 242
+    },
+    {
+        "id": "a4436834ffd8d273",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "0a259f61ef263ff4",
+            "48336719f32d37fa",
+            "994fdba605b8d390",
+            "a24ffcc749b1439d",
+            "0ca3f39d0e17b614",
+            "ec0812801f759152",
+            "fa539c94e51af673",
+            "7cf7c2a31bf1bcce",
+            "c5be06f462d960cb",
+            "16e630ed7e81d738"
+        ],
+        "x": 954,
+        "y": 1439,
+        "w": 712,
+        "h": 342
+    },
+    {
+        "id": "096607a1165ab5dd",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "0daf3a9e8c310067",
+            "d728650e3d3d36c3",
+            "a1f8226389886d66",
+            "d6bac14fab6840fe",
+            "e05e346b9fb5fbd3",
+            "18fee8cf09aa56b6",
+            "15c8af9ecc4504b9",
+            "a672663eed4f1899",
+            "32b4fbc2e326e9d8",
+            "6df023e1989102e5"
+        ],
+        "x": 954,
+        "y": 1819,
+        "w": 712,
+        "h": 342
+    },
+    {
+        "id": "429025b01e7e6d4d",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "06d3e2320ed797d7",
+            "260905c9622989e0",
+            "303c612e4f366a64",
+            "f8ed1d8e4301b635",
+            "dfd37ae16eec3d3b"
+        ],
+        "x": 1714,
+        "y": 1439,
+        "w": 732,
+        "h": 262
     },
     {
         "id": "2b2a6d295740d392",
@@ -1686,6 +1827,7 @@
     {
         "id": "3e7886cb7c605213",
         "type": "ui_group",
+        "d": true,
         "name": "Manual Testers (may or may not work)",
         "tab": "050e42e2db96a9f4",
         "order": 3,
@@ -3537,7 +3679,9 @@
         "mode": "link",
         "links": [
             "48373ebe740e92b6",
-            "756238117240a8cf"
+            "756238117240a8cf",
+            "371a308e27a41bed",
+            "55ae42b1368591f7"
         ],
         "x": 635,
         "y": 180,
@@ -3773,7 +3917,9 @@
         "mode": "link",
         "links": [
             "48373ebe740e92b6",
-            "756238117240a8cf"
+            "756238117240a8cf",
+            "371a308e27a41bed",
+            "55ae42b1368591f7"
         ],
         "x": 885,
         "y": 3260,
@@ -3954,7 +4100,9 @@
         "mode": "link",
         "links": [
             "48373ebe740e92b6",
-            "756238117240a8cf"
+            "756238117240a8cf",
+            "371a308e27a41bed",
+            "55ae42b1368591f7"
         ],
         "x": 895,
         "y": 3640,
@@ -5452,291 +5600,6 @@
                 "deaae49be7b573b0"
             ]
         ]
-    },
-    {
-        "id": "c5d69c3b0f5e30ee",
-        "type": "ui_button",
-        "z": "175af8efcea2d591",
-        "g": "2ac942eccf98a996",
-        "name": "",
-        "group": "3e7886cb7c605213",
-        "order": 1,
-        "width": 5,
-        "height": 1,
-        "passthru": true,
-        "label": "RESET ALL",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 230,
-        "y": 160,
-        "wires": [
-            [
-                "0e3ebf9316c50718"
-            ]
-        ]
-    },
-    {
-        "id": "0e3ebf9316c50718",
-        "type": "link out",
-        "z": "175af8efcea2d591",
-        "g": "2ac942eccf98a996",
-        "name": "JUST END IT",
-        "mode": "link",
-        "links": [
-            "691a5afc5b52b78a"
-        ],
-        "x": 365,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "412dda5307ab23bc",
-        "type": "function",
-        "z": "175af8efcea2d591",
-        "name": "Set Window 1 FS",
-        "func": "// Vars\nmsg.payload = {};\n\n// Set up params for callback node\nmsg.payload.bldg = \"LBI\";\nmsg.payload.window = 1;\nmsg.payload.numFire = 8;\n\n// Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1130,
-        "y": 720,
-        "wires": [
-            [
-                "3fbcebb8a982c031"
-            ]
-        ]
-    },
-    {
-        "id": "11d191fddb70f4cf",
-        "type": "function",
-        "z": "175af8efcea2d591",
-        "name": "Set Window 2 FS",
-        "func": "// Vars\nmsg.payload = {};\n\n// Set up params for callback node\nmsg.payload.bldg = \"LBI\";\nmsg.payload.window = 2;\nmsg.payload.numFire = 8;\n\n// Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1130,
-        "y": 760,
-        "wires": [
-            [
-                "3fbcebb8a982c031"
-            ]
-        ]
-    },
-    {
-        "id": "25bdc69949d0b152",
-        "type": "comment",
-        "z": "175af8efcea2d591",
-        "g": "77bdfe65956919ec",
-        "name": "Manual Injects for Testing",
-        "info": "",
-        "x": 230,
-        "y": 540,
-        "wires": []
-    },
-    {
-        "id": "b3329dfa95503c2c",
-        "type": "ui_button",
-        "z": "175af8efcea2d591",
-        "g": "77bdfe65956919ec",
-        "name": "",
-        "group": "3e7886cb7c605213",
-        "order": 3,
-        "width": 5,
-        "height": 1,
-        "passthru": true,
-        "label": "Set LBM to Max FS",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 250,
-        "y": 620,
-        "wires": [
-            [
-                "2d07da5341cf14ee",
-                "b8f41ef7533e00c1"
-            ]
-        ]
-    },
-    {
-        "id": "1a9410ac2442e363",
-        "type": "link out",
-        "z": "175af8efcea2d591",
-        "g": "77bdfe65956919ec",
-        "name": "Manual set Max FS",
-        "mode": "link",
-        "links": [
-            "0416ea6909311b42",
-            "113bf2ef4799a486"
-        ],
-        "x": 645,
-        "y": 620,
-        "wires": []
-    },
-    {
-        "id": "2d07da5341cf14ee",
-        "type": "function",
-        "z": "175af8efcea2d591",
-        "g": "77bdfe65956919ec",
-        "name": "Set Window 1 FS",
-        "func": "// Vars\nmsg.payload = {};\n\n// Set up params for callback node\nmsg.payload.bldg = \"LBM\";\nmsg.payload.window = 1;\nmsg.payload.numFire = 8;\n\n// Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 490,
-        "y": 600,
-        "wires": [
-            [
-                "1a9410ac2442e363"
-            ]
-        ]
-    },
-    {
-        "id": "b8f41ef7533e00c1",
-        "type": "function",
-        "z": "175af8efcea2d591",
-        "g": "77bdfe65956919ec",
-        "name": "Set Window 2 FS",
-        "func": "// Vars\nmsg.payload = {};\n\n// Set up params for callback node\nmsg.payload.bldg = \"LBM\";\nmsg.payload.window = 2;\nmsg.payload.numFire = 8;\n\n// Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 490,
-        "y": 640,
-        "wires": [
-            [
-                "1a9410ac2442e363"
-            ]
-        ]
-    },
-    {
-        "id": "811f25a4a4480bf7",
-        "type": "ui_button",
-        "z": "175af8efcea2d591",
-        "g": "77bdfe65956919ec",
-        "name": "",
-        "group": "3e7886cb7c605213",
-        "order": 4,
-        "width": 5,
-        "height": 1,
-        "passthru": true,
-        "label": "Send 2 Lasers to LBM",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 260,
-        "y": 740,
-        "wires": [
-            [
-                "d775d38173b3593c"
-            ]
-        ]
-    },
-    {
-        "id": "d775d38173b3593c",
-        "type": "function",
-        "z": "175af8efcea2d591",
-        "g": "77bdfe65956919ec",
-        "name": "Set 2 hits",
-        "func": "/* \nExample input: \n{\n    \"node_id\":\"LTO\",\n    \"num_hits\":5, \n    \"timestamp\":1234567890\n}\n*/ \n// Vars\nmsg.payload = {};\n\n// Set up messages that emulate the MQTT message\nmsg.payload.node_id = \"LBM\";\nmsg.payload.num_hits = 2;\nmsg.payload.timestamp = 1234567890;\n\n// Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 460,
-        "y": 740,
-        "wires": [
-            [
-                "8b81919795d67036"
-            ]
-        ]
-    },
-    {
-        "id": "8b81919795d67036",
-        "type": "link out",
-        "z": "175af8efcea2d591",
-        "g": "77bdfe65956919ec",
-        "name": "Manual Send Lasers",
-        "mode": "link",
-        "links": [
-            "da290e77a88988a7"
-        ],
-        "x": 645,
-        "y": 740,
-        "wires": []
-    },
-    {
-        "id": "3014efb296f50a70",
-        "type": "ui_button",
-        "z": "175af8efcea2d591",
-        "g": "77bdfe65956919ec",
-        "name": "",
-        "group": "3e7886cb7c605213",
-        "order": 5,
-        "width": 5,
-        "height": 1,
-        "passthru": true,
-        "label": "Set LBI to Max FS",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 850,
-        "y": 620,
-        "wires": [
-            [
-                "412dda5307ab23bc",
-                "11d191fddb70f4cf"
-            ]
-        ]
-    },
-    {
-        "id": "3fbcebb8a982c031",
-        "type": "link out",
-        "z": "175af8efcea2d591",
-        "g": "77bdfe65956919ec",
-        "name": "Manual set Max FS",
-        "mode": "link",
-        "links": [
-            "0416ea6909311b42",
-            "113bf2ef4799a486"
-        ],
-        "x": 1295,
-        "y": 620,
-        "wires": []
     },
     {
         "id": "2c36544f165ecf61",
@@ -11675,8 +11538,8 @@
         "name": "",
         "group": "7c1e7786ce952a5d",
         "order": 2,
-        "width": 0,
-        "height": 0,
+        "width": "10",
+        "height": "1",
         "passthru": true,
         "label": "Turn on Bldgs",
         "tooltip": "",
@@ -11942,9 +11805,10 @@
         "id": "442e921eed2365ac",
         "type": "ui_form",
         "z": "bd2296fd2d68d405",
+        "d": true,
         "g": "18778eda46bd5b07",
         "name": "",
-        "label": "Turn off Specific Bldg",
+        "label": "Turn off Specific Bldg [type]",
         "group": "7c1e7786ce952a5d",
         "order": 1,
         "width": 0,
@@ -11968,7 +11832,7 @@
         "topicType": "msg",
         "splitLayout": "",
         "className": "",
-        "x": 280,
+        "x": 300,
         "y": 960,
         "wires": [
             [
@@ -12078,8 +11942,8 @@
         "name": "",
         "group": "7c1e7786ce952a5d",
         "order": 3,
-        "width": 0,
-        "height": 0,
+        "width": "10",
+        "height": "1",
         "passthru": true,
         "label": "Turn off Bldgs",
         "tooltip": "",
@@ -12493,7 +12357,7 @@
         "z": "bd2296fd2d68d405",
         "g": "4f152b1eeea1837b",
         "name": "debug 9",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -12714,6 +12578,1136 @@
         "y": 1540,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "25bdc69949d0b152",
+        "type": "comment",
+        "z": "bd2296fd2d68d405",
+        "g": "77bdfe65956919ec",
+        "name": "Manual Injects for Testing",
+        "info": "",
+        "x": 1350,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "b3329dfa95503c2c",
+        "type": "ui_button",
+        "z": "bd2296fd2d68d405",
+        "d": true,
+        "g": "77bdfe65956919ec",
+        "name": "",
+        "group": "3e7886cb7c605213",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "label": "Set LBM to Max FS",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1370,
+        "y": 800,
+        "wires": [
+            [
+                "2d07da5341cf14ee",
+                "b8f41ef7533e00c1"
+            ]
+        ]
+    },
+    {
+        "id": "1a9410ac2442e363",
+        "type": "link out",
+        "z": "bd2296fd2d68d405",
+        "g": "77bdfe65956919ec",
+        "name": "Manual set Max FS",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42",
+            "113bf2ef4799a486"
+        ],
+        "x": 1765,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "2d07da5341cf14ee",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "77bdfe65956919ec",
+        "name": "Set Window 1 FS",
+        "func": "// Vars\nmsg.payload = {};\n\n// Set up params for callback node\nmsg.payload.bldg = \"LBM\";\nmsg.payload.window = 1;\nmsg.payload.numFire = 8;\n\n// Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1610,
+        "y": 780,
+        "wires": [
+            [
+                "1a9410ac2442e363"
+            ]
+        ]
+    },
+    {
+        "id": "b8f41ef7533e00c1",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "77bdfe65956919ec",
+        "name": "Set Window 2 FS",
+        "func": "// Vars\nmsg.payload = {};\n\n// Set up params for callback node\nmsg.payload.bldg = \"LBM\";\nmsg.payload.window = 2;\nmsg.payload.numFire = 8;\n\n// Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1610,
+        "y": 820,
+        "wires": [
+            [
+                "1a9410ac2442e363"
+            ]
+        ]
+    },
+    {
+        "id": "811f25a4a4480bf7",
+        "type": "ui_button",
+        "z": "bd2296fd2d68d405",
+        "d": true,
+        "g": "77bdfe65956919ec",
+        "name": "",
+        "group": "3e7886cb7c605213",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "label": "Send 2 Lasers to LBM",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1380,
+        "y": 920,
+        "wires": [
+            [
+                "d775d38173b3593c"
+            ]
+        ]
+    },
+    {
+        "id": "d775d38173b3593c",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "77bdfe65956919ec",
+        "name": "Set 2 hits",
+        "func": "/* \nExample input: \n{\n    \"node_id\":\"LTO\",\n    \"num_hits\":5, \n    \"timestamp\":1234567890\n}\n*/ \n// Vars\nmsg.payload = {};\n\n// Set up messages that emulate the MQTT message\nmsg.payload.node_id = \"LBM\";\nmsg.payload.num_hits = 2;\nmsg.payload.timestamp = 1234567890;\n\n// Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1580,
+        "y": 920,
+        "wires": [
+            [
+                "8b81919795d67036"
+            ]
+        ]
+    },
+    {
+        "id": "8b81919795d67036",
+        "type": "link out",
+        "z": "bd2296fd2d68d405",
+        "g": "77bdfe65956919ec",
+        "name": "Manual Send Lasers",
+        "mode": "link",
+        "links": [
+            "da290e77a88988a7"
+        ],
+        "x": 1765,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "3014efb296f50a70",
+        "type": "ui_button",
+        "z": "bd2296fd2d68d405",
+        "d": true,
+        "g": "77bdfe65956919ec",
+        "name": "",
+        "group": "3e7886cb7c605213",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "label": "Set LBI to Max FS",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1970,
+        "y": 800,
+        "wires": [
+            [
+                "412dda5307ab23bc",
+                "11d191fddb70f4cf"
+            ]
+        ]
+    },
+    {
+        "id": "3fbcebb8a982c031",
+        "type": "link out",
+        "z": "bd2296fd2d68d405",
+        "g": "77bdfe65956919ec",
+        "name": "Manual set Max FS",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42",
+            "113bf2ef4799a486"
+        ],
+        "x": 2415,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "412dda5307ab23bc",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "77bdfe65956919ec",
+        "name": "Set Window 1 FS",
+        "func": "// Vars\nmsg.payload = {};\n\n// Set up params for callback node\nmsg.payload.bldg = \"LBI\";\nmsg.payload.window = 1;\nmsg.payload.numFire = 8;\n\n// Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2250,
+        "y": 900,
+        "wires": [
+            [
+                "3fbcebb8a982c031"
+            ]
+        ]
+    },
+    {
+        "id": "11d191fddb70f4cf",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "77bdfe65956919ec",
+        "name": "Set Window 2 FS",
+        "func": "// Vars\nmsg.payload = {};\n\n// Set up params for callback node\nmsg.payload.bldg = \"LBI\";\nmsg.payload.window = 2;\nmsg.payload.numFire = 8;\n\n// Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2250,
+        "y": 940,
+        "wires": [
+            [
+                "3fbcebb8a982c031"
+            ]
+        ]
+    },
+    {
+        "id": "0e3ebf9316c50718",
+        "type": "link out",
+        "z": "bd2296fd2d68d405",
+        "g": "77bdfe65956919ec",
+        "name": "JUST END IT",
+        "mode": "link",
+        "links": [
+            "691a5afc5b52b78a"
+        ],
+        "x": 1475,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "c5d69c3b0f5e30ee",
+        "type": "ui_button",
+        "z": "bd2296fd2d68d405",
+        "d": true,
+        "g": "77bdfe65956919ec",
+        "name": "",
+        "group": "3e7886cb7c605213",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "label": "RESET ALL",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1350,
+        "y": 1000,
+        "wires": [
+            [
+                "0e3ebf9316c50718"
+            ]
+        ]
+    },
+    {
+        "id": "eb1c9ed5222c1bae",
+        "type": "comment",
+        "z": "bd2296fd2d68d405",
+        "g": "1e2b3d276327b031",
+        "name": "Light 1 All Bldgs",
+        "info": "",
+        "x": 1320,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "c126a3be75f30239",
+        "type": "ui_button",
+        "z": "bd2296fd2d68d405",
+        "g": "1e2b3d276327b031",
+        "name": "",
+        "group": "7c1e7786ce952a5d",
+        "order": 3,
+        "width": "5",
+        "height": "1",
+        "passthru": true,
+        "label": "Light 1 All Bldgs",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1420,
+        "y": 160,
+        "wires": [
+            [
+                "5928222f3d7ec169"
+            ]
+        ]
+    },
+    {
+        "id": "5928222f3d7ec169",
+        "type": "loop",
+        "z": "bd2296fd2d68d405",
+        "g": "1e2b3d276327b031",
+        "name": "",
+        "kind": "enum",
+        "count": "",
+        "initial": "1",
+        "step": "1",
+        "condition": "",
+        "conditionType": "js",
+        "when": "before",
+        "enumeration": "allBldgs",
+        "enumerationType": "global",
+        "limit": "",
+        "loopPayload": "loop-val",
+        "finalPayload": "final-count",
+        "x": 1650,
+        "y": 160,
+        "wires": [
+            [],
+            [
+                "af69dcc68b5be41d"
+            ]
+        ]
+    },
+    {
+        "id": "af69dcc68b5be41d",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "1e2b3d276327b031",
+        "name": "Set Light 1 MQTT Msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/lighton/\"+node_id;\nmsg.payload = \"{ \\\"whichLight\\\": 1 }\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1740,
+        "y": 280,
+        "wires": [
+            [
+                "c9c52f1b1fc4875f",
+                "5928222f3d7ec169"
+            ]
+        ]
+    },
+    {
+        "id": "c9c52f1b1fc4875f",
+        "type": "mqtt out",
+        "z": "bd2296fd2d68d405",
+        "g": "1e2b3d276327b031",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 1930,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "04f2bf0e5e5fda90",
+        "type": "comment",
+        "z": "bd2296fd2d68d405",
+        "g": "b73bab6188d86888",
+        "name": "Light 1 All Bldgs",
+        "info": "",
+        "x": 1320,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "86bc73a47bd09922",
+        "type": "ui_button",
+        "z": "bd2296fd2d68d405",
+        "g": "b73bab6188d86888",
+        "name": "",
+        "group": "7c1e7786ce952a5d",
+        "order": 3,
+        "width": "5",
+        "height": "1",
+        "passthru": true,
+        "label": "Light 2 All Bldgs",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1420,
+        "y": 440,
+        "wires": [
+            [
+                "8ff26e579280950f"
+            ]
+        ]
+    },
+    {
+        "id": "8ff26e579280950f",
+        "type": "loop",
+        "z": "bd2296fd2d68d405",
+        "g": "b73bab6188d86888",
+        "name": "",
+        "kind": "enum",
+        "count": "",
+        "initial": "1",
+        "step": "1",
+        "condition": "",
+        "conditionType": "js",
+        "when": "before",
+        "enumeration": "allBldgs",
+        "enumerationType": "global",
+        "limit": "",
+        "loopPayload": "loop-val",
+        "finalPayload": "final-count",
+        "x": 1650,
+        "y": 440,
+        "wires": [
+            [],
+            [
+                "26dde0beab910f33"
+            ]
+        ]
+    },
+    {
+        "id": "26dde0beab910f33",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "b73bab6188d86888",
+        "name": "Set Light 1 MQTT Msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/lighton/\"+node_id;\nmsg.payload = \"{ \\\"whichLight\\\": 2 }\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1740,
+        "y": 560,
+        "wires": [
+            [
+                "66877abc465757d5",
+                "8ff26e579280950f"
+            ]
+        ]
+    },
+    {
+        "id": "66877abc465757d5",
+        "type": "mqtt out",
+        "z": "bd2296fd2d68d405",
+        "g": "b73bab6188d86888",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 1930,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "0a259f61ef263ff4",
+        "type": "comment",
+        "z": "bd2296fd2d68d405",
+        "g": "a4436834ffd8d273",
+        "name": "Manual Lights",
+        "info": "",
+        "x": 1050,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "48336719f32d37fa",
+        "type": "ui_dropdown",
+        "z": "bd2296fd2d68d405",
+        "g": "a4436834ffd8d273",
+        "name": "",
+        "label": "Turn On Specific Bldg",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "7c1e7786ce952a5d",
+        "order": 1,
+        "width": "5",
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "LBI",
+                "value": "LBI",
+                "type": "str"
+            },
+            {
+                "label": "LTI",
+                "value": "LTI",
+                "type": "str"
+            },
+            {
+                "label": "LBM",
+                "value": "LBM",
+                "type": "str"
+            },
+            {
+                "label": "LTM",
+                "value": "LTM",
+                "type": "str"
+            },
+            {
+                "label": "LBO",
+                "value": "LBO",
+                "type": "str"
+            },
+            {
+                "label": "LTO",
+                "value": "LTO",
+                "type": "str"
+            },
+            {
+                "label": "RBI",
+                "value": "RBI",
+                "type": "str"
+            },
+            {
+                "label": "RTI",
+                "value": "RTI",
+                "type": "str"
+            },
+            {
+                "label": "RBM",
+                "value": "RBM",
+                "type": "str"
+            },
+            {
+                "label": "RTM",
+                "value": "RTM",
+                "type": "str"
+            },
+            {
+                "label": "RBO",
+                "value": "RBO",
+                "type": "str"
+            },
+            {
+                "label": "RTO",
+                "value": "RTO",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 1120,
+        "y": 1540,
+        "wires": [
+            [
+                "994fdba605b8d390",
+                "ec0812801f759152",
+                "7cf7c2a31bf1bcce",
+                "a24ffcc749b1439d"
+            ]
+        ]
+    },
+    {
+        "id": "994fdba605b8d390",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "a4436834ffd8d273",
+        "name": "Set Light 0 MQTT Msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/lighton/\"+node_id;\nmsg.payload = \"{ \\\"whichLight\\\":0 }\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1280,
+        "y": 1620,
+        "wires": [
+            [
+                "0ca3f39d0e17b614"
+            ]
+        ]
+    },
+    {
+        "id": "0ca3f39d0e17b614",
+        "type": "mqtt out",
+        "z": "bd2296fd2d68d405",
+        "g": "a4436834ffd8d273",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 1470,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "ec0812801f759152",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "a4436834ffd8d273",
+        "name": "Set Light 1 MQTT Msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/lighton/\"+node_id;\nmsg.payload = \"{ \\\"whichLight\\\": 1 }\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1320,
+        "y": 1660,
+        "wires": [
+            [
+                "fa539c94e51af673"
+            ]
+        ]
+    },
+    {
+        "id": "fa539c94e51af673",
+        "type": "mqtt out",
+        "z": "bd2296fd2d68d405",
+        "g": "a4436834ffd8d273",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 1510,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "7cf7c2a31bf1bcce",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "a4436834ffd8d273",
+        "name": "Set Light 2 MQTT Msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/lighton/\"+node_id;\nmsg.payload = \"{ \\\"whichLight\\\": 2 }\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1360,
+        "y": 1700,
+        "wires": [
+            [
+                "c5be06f462d960cb"
+            ]
+        ]
+    },
+    {
+        "id": "c5be06f462d960cb",
+        "type": "mqtt out",
+        "z": "bd2296fd2d68d405",
+        "g": "a4436834ffd8d273",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 1550,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "a24ffcc749b1439d",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "a4436834ffd8d273",
+        "name": "Set Gutter MQTT msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/updatepixels/\"+node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":0, \" +\n    \"\\\"pixels\\\": \\\"222222222222222222222222222222\\\"\" +\n    \"}\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1400,
+        "y": 1740,
+        "wires": [
+            [
+                "16e630ed7e81d738"
+            ]
+        ]
+    },
+    {
+        "id": "16e630ed7e81d738",
+        "type": "mqtt out",
+        "z": "bd2296fd2d68d405",
+        "g": "a4436834ffd8d273",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 1590,
+        "y": 1740,
+        "wires": []
+    },
+    {
+        "id": "0daf3a9e8c310067",
+        "type": "comment",
+        "z": "bd2296fd2d68d405",
+        "g": "096607a1165ab5dd",
+        "name": "Manual Lights",
+        "info": "",
+        "x": 1050,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "d728650e3d3d36c3",
+        "type": "ui_dropdown",
+        "z": "bd2296fd2d68d405",
+        "g": "096607a1165ab5dd",
+        "name": "",
+        "label": "Turn Off Specific Bldg",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "7c1e7786ce952a5d",
+        "order": 1,
+        "width": "5",
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "LBI",
+                "value": "LBI",
+                "type": "str"
+            },
+            {
+                "label": "LTI",
+                "value": "LTI",
+                "type": "str"
+            },
+            {
+                "label": "LBM",
+                "value": "LBM",
+                "type": "str"
+            },
+            {
+                "label": "LTM",
+                "value": "LTM",
+                "type": "str"
+            },
+            {
+                "label": "LBO",
+                "value": "LBO",
+                "type": "str"
+            },
+            {
+                "label": "LTO",
+                "value": "LTO",
+                "type": "str"
+            },
+            {
+                "label": "RBI",
+                "value": "RBI",
+                "type": "str"
+            },
+            {
+                "label": "RTI",
+                "value": "RTI",
+                "type": "str"
+            },
+            {
+                "label": "RBM",
+                "value": "RBM",
+                "type": "str"
+            },
+            {
+                "label": "RTM",
+                "value": "RTM",
+                "type": "str"
+            },
+            {
+                "label": "RBO",
+                "value": "RBO",
+                "type": "str"
+            },
+            {
+                "label": "RTO",
+                "value": "RTO",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 1120,
+        "y": 1920,
+        "wires": [
+            [
+                "a1f8226389886d66",
+                "18fee8cf09aa56b6",
+                "a672663eed4f1899",
+                "d6bac14fab6840fe"
+            ]
+        ]
+    },
+    {
+        "id": "a1f8226389886d66",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "096607a1165ab5dd",
+        "name": "Set Light 0 MQTT Msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/lightoff/\"+node_id;\nmsg.payload = \"{ \\\"whichLight\\\":0 }\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1280,
+        "y": 2000,
+        "wires": [
+            [
+                "e05e346b9fb5fbd3"
+            ]
+        ]
+    },
+    {
+        "id": "d6bac14fab6840fe",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "096607a1165ab5dd",
+        "name": "Set Gutter MQTT msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/updatepixels/\"+node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":0, \" +\n    \"\\\"pixels\\\": \\\"000000000000000000000000000000\\\"\" +\n    \"}\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1400,
+        "y": 2120,
+        "wires": [
+            [
+                "6df023e1989102e5"
+            ]
+        ]
+    },
+    {
+        "id": "e05e346b9fb5fbd3",
+        "type": "mqtt out",
+        "z": "bd2296fd2d68d405",
+        "g": "096607a1165ab5dd",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 1470,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "18fee8cf09aa56b6",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "096607a1165ab5dd",
+        "name": "Set Light 1 MQTT Msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/lightoff/\"+node_id;\nmsg.payload = \"{ \\\"whichLight\\\": 1 }\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1320,
+        "y": 2040,
+        "wires": [
+            [
+                "15c8af9ecc4504b9"
+            ]
+        ]
+    },
+    {
+        "id": "15c8af9ecc4504b9",
+        "type": "mqtt out",
+        "z": "bd2296fd2d68d405",
+        "g": "096607a1165ab5dd",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 1510,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "a672663eed4f1899",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "096607a1165ab5dd",
+        "name": "Set Light 2 MQTT Msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/lightoff/\"+node_id;\nmsg.payload = \"{ \\\"whichLight\\\": 2 }\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1360,
+        "y": 2080,
+        "wires": [
+            [
+                "32b4fbc2e326e9d8"
+            ]
+        ]
+    },
+    {
+        "id": "32b4fbc2e326e9d8",
+        "type": "mqtt out",
+        "z": "bd2296fd2d68d405",
+        "g": "096607a1165ab5dd",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 1550,
+        "y": 2080,
+        "wires": []
+    },
+    {
+        "id": "6df023e1989102e5",
+        "type": "mqtt out",
+        "z": "bd2296fd2d68d405",
+        "g": "096607a1165ab5dd",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 1590,
+        "y": 2120,
+        "wires": []
+    },
+    {
+        "id": "06d3e2320ed797d7",
+        "type": "comment",
+        "z": "bd2296fd2d68d405",
+        "g": "429025b01e7e6d4d",
+        "name": "Manual Lights",
+        "info": "",
+        "x": 1810,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "303c612e4f366a64",
+        "type": "loop",
+        "z": "bd2296fd2d68d405",
+        "g": "429025b01e7e6d4d",
+        "name": "",
+        "kind": "enum",
+        "count": "",
+        "initial": "1",
+        "step": "1",
+        "condition": "",
+        "conditionType": "js",
+        "when": "before",
+        "enumeration": "allBldgs",
+        "enumerationType": "global",
+        "limit": "",
+        "loopPayload": "loop-val",
+        "finalPayload": "final-count",
+        "x": 2150,
+        "y": 1580,
+        "wires": [
+            [],
+            [
+                "dfd37ae16eec3d3b"
+            ]
+        ]
+    },
+    {
+        "id": "260905c9622989e0",
+        "type": "ui_button",
+        "z": "bd2296fd2d68d405",
+        "g": "429025b01e7e6d4d",
+        "name": "",
+        "group": "7c1e7786ce952a5d",
+        "order": 3,
+        "width": "10",
+        "height": "1",
+        "passthru": true,
+        "label": "Turn On First Half Gutter",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1890,
+        "y": 1540,
+        "wires": [
+            [
+                "303c612e4f366a64"
+            ]
+        ]
+    },
+    {
+        "id": "f8ed1d8e4301b635",
+        "type": "mqtt out",
+        "z": "bd2296fd2d68d405",
+        "g": "429025b01e7e6d4d",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 2370,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "dfd37ae16eec3d3b",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "429025b01e7e6d4d",
+        "name": "Set Gutter MQTT msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/updatepixels/\"+node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":0, \" +\n    \"\\\"pixels\\\": \\\"333333333333334444444444444444\\\"\" +\n    \"}\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2160,
+        "y": 1660,
+        "wires": [
+            [
+                "f8ed1d8e4301b635",
+                "303c612e4f366a64"
+            ]
         ]
     }
 ]
