@@ -260,7 +260,9 @@
             "cc34e7492d373681"
         ],
         "x": 94,
-        "y": 59
+        "y": 59,
+        "w": 692,
+        "h": 282
     },
     {
         "id": "b2c04e106e7697f0",
@@ -536,7 +538,9 @@
             "e9c6866ca0db7662"
         ],
         "x": 894,
-        "y": 59
+        "y": 59,
+        "w": 522,
+        "h": 122
     },
     {
         "id": "738dc520034f11a7",
@@ -561,7 +565,9 @@
             "ba9de4c0d6c59f58"
         ],
         "x": 94,
-        "y": 819
+        "y": 819,
+        "w": 652,
+        "h": 182
     },
     {
         "id": "cb9c0c3b1fe84ccc",
@@ -596,9 +602,7 @@
             "93a01049a60df5c5"
         ],
         "x": 54,
-        "y": 39,
-        "w": 1052,
-        "h": 462
+        "y": 39
     },
     {
         "id": "a83bb00d46efe804",
@@ -809,9 +813,7 @@
             "9498eab6a1cd0f2a"
         ],
         "x": 54,
-        "y": 499,
-        "w": 952,
-        "h": 242
+        "y": 499
     },
     {
         "id": "821639e23b06e8b7",
@@ -840,9 +842,7 @@
             "3e1b0163bae2fa11"
         ],
         "x": 54,
-        "y": 719,
-        "w": 952,
-        "h": 242
+        "y": 719
     },
     {
         "id": "b00a1e1bf34b7a99",
@@ -871,9 +871,7 @@
             "5a7f6afebccd7fa7"
         ],
         "x": 54,
-        "y": 959,
-        "w": 952,
-        "h": 282
+        "y": 959
     },
     {
         "id": "0b3af3753f33292d",
@@ -902,9 +900,7 @@
             "8d059dd5b45d6a89"
         ],
         "x": 54,
-        "y": 1239,
-        "w": 952,
-        "h": 262
+        "y": 1239
     },
     {
         "id": "dc5384f7b9f470a3",
@@ -933,9 +929,7 @@
             "5b091724b2b67ab5"
         ],
         "x": 54,
-        "y": 1499,
-        "w": 942,
-        "h": 262
+        "y": 1499
     },
     {
         "id": "58bd3feb98c01c36",
@@ -964,9 +958,7 @@
             "dc8f4d8f85a10f79"
         ],
         "x": 54,
-        "y": 1759,
-        "w": 942,
-        "h": 242
+        "y": 1759
     },
     {
         "id": "21aaba78e384f976",
@@ -995,9 +987,7 @@
             "a767d0c5f4352f2d"
         ],
         "x": 54,
-        "y": 1979,
-        "w": 942,
-        "h": 242
+        "y": 1979
     },
     {
         "id": "6ac6b771fff8c239",
@@ -1026,9 +1016,7 @@
             "2a78ff579a5e9464"
         ],
         "x": 54,
-        "y": 2219,
-        "w": 942,
-        "h": 222
+        "y": 2219
     },
     {
         "id": "6a070793fb470a03",
@@ -1193,9 +1181,7 @@
             "c9d158730c6fc6a5"
         ],
         "x": 1074,
-        "y": 539,
-        "w": 712,
-        "h": 222
+        "y": 539
     },
     {
         "id": "ab2d725536c9b091",
@@ -1234,9 +1220,7 @@
             "3b6b77c692325673"
         ],
         "x": 1114,
-        "y": 1559,
-        "w": 812,
-        "h": 502
+        "y": 1559
     },
     {
         "id": "86746eb8946eaa91",
@@ -1488,9 +1472,7 @@
             "a448d13962eb94f7"
         ],
         "x": 104,
-        "y": 2539,
-        "w": 682,
-        "h": 642
+        "y": 2539
     },
     {
         "id": "b786c9d92d164f0e",
@@ -1516,9 +1498,7 @@
             "e9d2f751156577aa"
         ],
         "x": 54,
-        "y": 3219,
-        "w": 1012,
-        "h": 242
+        "y": 3219
     },
     {
         "id": "2b2a6d295740d392",
@@ -3028,7 +3008,7 @@
         "z": "55a762ae72fa441b",
         "g": "6a8702296ddd22a1",
         "name": "Light up a Tello Path",
-        "func": "/* \nGutterPixels callback expects\npayload.bldg, payload.pixelstring\n*/ \n\n\n//--- Set up vars\nvar whichSide = global.get(\"otherSide\"); // \"L\" or \"R\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\nvar msg3 = {};\nmsg3.payload = {};\nvar msg4 = {};\nmsg4.payload = {};\n\n//                    |                            |\nvar thePixelString = \"666666666666666666666666666666\"; // TEAL\n\n//--- Set up messages\nmsg1.payload.bldg = whichSide + \"TO\";\nmsg2.payload.bldg = whichSide + \"TM\";\nmsg3.payload.bldg = whichSide + \"BM\";\nmsg4.payload.bldg = whichSide + \"BI\";\nmsg1.payload.pixelstring = thePixelString;\nmsg2.payload.pixelstring = thePixelString;\nmsg3.payload.pixelstring = thePixelString;\nmsg4.payload.pixelstring = thePixelString;\n\n//--- Update global statuses\nglobal.set(msg1.payload.bldg + \".Status\", \"TelloPath\");\nglobal.set(msg2.payload.bldg + \".Status\", \"TelloPath\");\nglobal.set(msg3.payload.bldg + \".Status\", \"TelloPath\");\nglobal.set(msg4.payload.bldg + \".Status\", \"TelloPath\");\n\n//Fin\nreturn [msg1, msg2, msg3, msg4];\n\n\n/*\n--------\nTHIS WILL BE EASY TO ADD ALL 3 PATHS LATER \n- JUST PULL FROM THE OTHER CODE\n--------\n*/ ",
+        "func": "/* \nGutterPixels callback expects\npayload.bldg, payload.pixelstring\n*/ \n\n\n//--- Set up vars\nvar whichSide = global.get(\"otherSide\"); // \"L\" or \"R\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\nvar msg3 = {};\nmsg3.payload = {};\nvar msg4 = {};\nmsg4.payload = {};\n\n//                    |                            |\nvar thePixelString = \"666666666666666666666666666666\"; // TEAL\n\n//--- Choose a path\nvar whichPath = Math.floor(Math.random() * 3);\n\n//--- Set up messages\nswitch (whichPath) {\n    case 0:\n        switch (whichSide) {\n            case \"R\":\n                msg1.payload.bldg = \"RTO\";\n                msg2.payload.bldg = \"RBO\";\n                msg3.payload.bldg = \"RBM\";\n                msg4.payload.bldg = \"RTI\";\n                break;\n            case \"L\":\n                msg1.payload.bldg = \"LBI\";\n                msg2.payload.bldg = \"LTM\";\n                msg3.payload.bldg = \"LTO\";\n                msg4.payload.bldg = \"LBO\";\n                break;\n        }\n        break;\n    case 1:\n        switch (whichSide) {\n            case \"R\":\n                msg1.payload.bldg = \"RBI\";\n                msg2.payload.bldg = \"RBM\";\n                msg3.payload.bldg = \"RTM\";\n                msg4.payload.bldg = \"RTO\";\n                break;\n            case \"L\":\n                msg1.payload.bldg = \"LTI\";\n                msg2.payload.bldg = \"LBM\";\n                msg3.payload.bldg = \"LTM\";\n                msg4.payload.bldg = \"LBO\";\n                break;\n        }\n        break;\n    case 2:\n        switch (whichSide) {\n            case \"R\":\n                msg1.payload.bldg = \"RBI\";\n                msg2.payload.bldg = \"RBM\";\n                msg3.payload.bldg = \"RBO\";\n                msg4.payload.bldg = \"RTO\";\n                break;\n            case \"L\":\n                msg1.payload.bldg = \"LTI\";\n                msg2.payload.bldg = \"LTM\";\n                msg3.payload.bldg = \"LTO\";\n                msg4.payload.bldg = \"LBO\";\n                break;\n        }\n        break;\n}\nmsg1.payload.pixelstring = thePixelString;\nmsg2.payload.pixelstring = thePixelString;\nmsg3.payload.pixelstring = thePixelString;\nmsg4.payload.pixelstring = thePixelString;\n\n//--- Update global statuses\nglobal.set(msg1.payload.bldg + \".Status\", \"TelloPath\");\nglobal.set(msg2.payload.bldg + \".Status\", \"TelloPath\");\nglobal.set(msg3.payload.bldg + \".Status\", \"TelloPath\");\nglobal.set(msg4.payload.bldg + \".Status\", \"TelloPath\");\n\n//Fin\nreturn [msg1, msg2, msg3, msg4];\n\n\n/*\n--------\nTHIS WILL BE EASY TO ADD ALL 3 PATHS LATER \n- JUST PULL FROM THE OTHER CODE\n--------\n*/ ",
         "outputs": 4,
         "noerr": 0,
         "initialize": "",
@@ -6412,7 +6392,7 @@
         "z": "175af8efcea2d591",
         "g": "738dc520034f11a7",
         "name": "Calc Fire CLEAR Score",
-        "func": "var theClearScore = 0;\n\n// --- Invert the totalFS based on which phase\n// ----------- Best way to fix this in the future: make this part just calculate a \n//              \"current FCS\" / \"invert FS\", then add the FS from the previous phases in / do the other math\n/// ========= THIS IS DOUBLE COUNTING BECAUSE PHASES 1 AND 2 ASSUME ONLY \n///           ONE SIDE OF BLDGS WORTH OF FS, BUT PHASE 3 IS DOUBLED\n///           BECAUSE GAME\nswitch(global.get(\"curPhase\")) {\n    case 1:\n        theClearScore = 96 - global.get(\"totalFS\");\n        break;\n    case 2:\n        theClearScore = 96 + (96 - global.get(\"totalFS\"));\n        break;\n    case 3:\n        theClearScore = 96 + 96 + (96 - global.get(\"totalFS\"));\n        break;\n    default:\n        break;\n}\n\n\n// bandaids on bandaids math wheeee\ntheClearScore = Math.floor(theClearScore / 2);\ntheClearScore = theClearScore + global.get(\"trees-left-1\") + global.get(\"trees-left-2\") + global.get(\"trees-right-1\") + global.get(\"trees-right-2\");\n\n// - Fin\nmsg.payload = theClearScore;\nreturn msg;",
+        "func": "var theClearScore = 0;\n\n// --- Invert the totalFS based on which phase\n// ----------- Best way to fix this in the future: make this part just calculate a \n//              \"current FCS\" / \"invert FS\", then add the FS from the previous phases in / do the other math\n/// ========= THIS IS DOUBLE COUNTING BECAUSE PHASES 1 AND 2 ASSUME ONLY \n///           ONE SIDE OF BLDGS WORTH OF FS, BUT PHASE 3 IS DOUBLED\n///           BECAUSE GAME\n//node.warn(global.get(\"curPhase\"));\n//node.warn(global.get(\"totalFS\"));\nswitch(global.get(\"curPhase\")) {\n    case 1:\n        theClearScore = 96 - global.get(\"totalFS\");\n        break;\n    case 2:\n        theClearScore = 96 + (96 - global.get(\"totalFS\"));\n        break;\n    case 3:\n        theClearScore = 96 + 96 + (96 - global.get(\"totalFS\"));\n        break;\n    default:\n        break;\n}\n\n\n// bandaids on bandaids math wheeee\ntheClearScore = Math.floor(theClearScore / 2);\ntheClearScore = theClearScore + global.get(\"trees-left-1\") + global.get(\"trees-left-2\") + global.get(\"trees-right-1\") + global.get(\"trees-right-2\");\n\n//node.warn(theClearScore);\n\n// - Fin\nmsg.payload = theClearScore;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
