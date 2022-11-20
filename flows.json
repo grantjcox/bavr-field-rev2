@@ -260,9 +260,7 @@
             "cc34e7492d373681"
         ],
         "x": 94,
-        "y": 59,
-        "w": 692,
-        "h": 282
+        "y": 59
     },
     {
         "id": "b2c04e106e7697f0",
@@ -344,10 +342,13 @@
             "4c512025a065832e",
             "b3159d92c7d2d07d",
             "3eed4a6d746b77f9",
-            "f2b56dfdbbe11a17"
+            "f2b56dfdbbe11a17",
+            "dc0c3bc767bd284c"
         ],
         "x": 134,
-        "y": 79
+        "y": 79,
+        "w": 2712,
+        "h": 382
     },
     {
         "id": "5f1037ebc6dbd72f",
@@ -370,7 +371,9 @@
             "19c221d99629ee7a"
         ],
         "x": 94,
-        "y": 547
+        "y": 547,
+        "w": 872,
+        "h": 154
     },
     {
         "id": "459fe488a5804676",
@@ -398,7 +401,9 @@
             "71f67f7f27cafd81"
         ],
         "x": 74,
-        "y": 807
+        "y": 807,
+        "w": 1592,
+        "h": 266
     },
     {
         "id": "11a9b9cee18f6b6c",
@@ -427,7 +432,9 @@
             "a429c99752090afe"
         ],
         "x": 74,
-        "y": 1179
+        "y": 1179,
+        "w": 772,
+        "h": 322
     },
     {
         "id": "3a81c46c8f3762a2",
@@ -478,12 +485,22 @@
             "f35369f3e7d9d9f9",
             "54f240d0cd94a297",
             "53c404b6960d9d5d",
-            "a051d26f3d84b499"
+            "a051d26f3d84b499",
+            "fda57943df6dddeb",
+            "41102c25b0511ae6",
+            "ed716ab02d4082a2",
+            "2bf1904c5cdfea2c",
+            "ad963e02c9e92e23",
+            "e08a0860d7eb970a",
+            "818f620db7bf22cc",
+            "9ff066051ce6b800",
+            "45b2a30339f4ad99",
+            "01d28ef179167563"
         ],
         "x": 84,
         "y": 3099,
-        "w": 1252,
-        "h": 262
+        "w": 1902,
+        "h": 474
     },
     {
         "id": "e6f0aa02159bc664",
@@ -511,12 +528,13 @@
             "a0b22b12a042c73b",
             "d50e20b89aafa29b",
             "4c742ebce9027c25",
-            "42523d902813f067"
+            "42523d902813f067",
+            "28af28cc8618a072"
         ],
-        "x": 84,
-        "y": 3479,
-        "w": 1282,
-        "h": 262
+        "x": 54,
+        "y": 3619,
+        "w": 1312,
+        "h": 322
     },
     {
         "id": "b16460b067e3329b",
@@ -538,9 +556,7 @@
             "e9c6866ca0db7662"
         ],
         "x": 894,
-        "y": 59,
-        "w": 522,
-        "h": 122
+        "y": 59
     },
     {
         "id": "738dc520034f11a7",
@@ -565,9 +581,7 @@
             "ba9de4c0d6c59f58"
         ],
         "x": 94,
-        "y": 819,
-        "w": 652,
-        "h": 182
+        "y": 819
     },
     {
         "id": "cb9c0c3b1fe84ccc",
@@ -2146,7 +2160,7 @@
         "resendOnRefresh": false,
         "templateScope": "global",
         "className": "",
-        "x": 300,
+        "x": 320,
         "y": 140,
         "wires": [
             []
@@ -3614,10 +3628,11 @@
         "id": "28af28cc8618a072",
         "type": "comment",
         "z": "55a762ae72fa441b",
+        "g": "e6f0aa02159bc664",
         "name": "MVP Step 9 - Endgame",
         "info": "",
         "x": 180,
-        "y": 3440,
+        "y": 3660,
         "wires": []
     },
     {
@@ -4134,7 +4149,7 @@
             "6983c6fb1a960333"
         ],
         "x": 145,
-        "y": 3580,
+        "y": 3780,
         "wires": [
             [
                 "42523d902813f067"
@@ -4149,7 +4164,7 @@
         "name": "TIME FOR PHASE 3",
         "info": "",
         "x": 200,
-        "y": 3520,
+        "y": 3720,
         "wires": []
     },
     {
@@ -4163,7 +4178,7 @@
             "31c4db3eb2f36e59"
         ],
         "x": 695,
-        "y": 3700,
+        "y": 3900,
         "wires": []
     },
     {
@@ -4185,7 +4200,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 750,
-        "y": 3640,
+        "y": 3840,
         "wires": [
             [
                 "66a6c020170412e9",
@@ -4207,7 +4222,7 @@
             "55ae42b1368591f7"
         ],
         "x": 895,
-        "y": 3640,
+        "y": 3840,
         "wires": []
     },
     {
@@ -4229,7 +4244,7 @@
         "loopPayload": "loop-index",
         "finalPayload": "final-count",
         "x": 540,
-        "y": 3580,
+        "y": 3780,
         "wires": [
             [
                 "cd6470a4dd6dcf5a"
@@ -4263,7 +4278,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 310,
-        "y": 3640,
+        "y": 3840,
         "wires": [
             [
                 "9b2dd509237ea4ba"
@@ -4291,7 +4306,7 @@
         "to": "",
         "reg": false,
         "x": 950,
-        "y": 3580,
+        "y": 3780,
         "wires": [
             [
                 "d50e20b89aafa29b"
@@ -4317,7 +4332,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 740,
-        "y": 3580,
+        "y": 3780,
         "wires": [
             [
                 "c9cff8053a0560cc"
@@ -4332,7 +4347,7 @@
         "name": "Pause to drain MQTT",
         "info": "",
         "x": 760,
-        "y": 3520,
+        "y": 3720,
         "wires": []
     },
     {
@@ -4348,7 +4363,7 @@
         "finalize": "",
         "libs": [],
         "x": 1180,
-        "y": 3580,
+        "y": 3780,
         "wires": [
             [
                 "4c742ebce9027c25"
@@ -4366,7 +4381,7 @@
             "3f402ddd8643cce0"
         ],
         "x": 1325,
-        "y": 3580,
+        "y": 3780,
         "wires": []
     },
     {
@@ -4987,7 +5002,8 @@
         "y": 3200,
         "wires": [
             [
-                "54f240d0cd94a297"
+                "54f240d0cd94a297",
+                "fda57943df6dddeb"
             ]
         ]
     },
@@ -5054,7 +5070,7 @@
         "to": "",
         "reg": false,
         "x": 290,
-        "y": 3580,
+        "y": 3780,
         "wires": [
             [
                 "9b2dd509237ea4ba"
@@ -5578,6 +5594,227 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "fda57943df6dddeb",
+        "type": "delay",
+        "z": "55a762ae72fa441b",
+        "g": "2971d7c90b74f3b4",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1360,
+        "y": 3280,
+        "wires": [
+            [
+                "41102c25b0511ae6"
+            ]
+        ]
+    },
+    {
+        "id": "41102c25b0511ae6",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "2971d7c90b74f3b4",
+        "name": "Spread phase 2 [jank]",
+        "func": "//--- Vars\nvar whichSide = global.get(\"otherSide\");\nvar whichRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\n\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\nvar msg3 = {};\nmsg3.payload = {};\n\n\n\n//-------------------------\n//-- THIS IS STILL THE JANK METHOD\n//-- WILL NEED TO BE UPDATED WITH THE NIGE METHOD\n\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\nvar burningBldgs = [bldg1, bldg2, bldg3];\nnode.warn(burningBldgs);\n\n// Check on it \nif (global.get(bldg1 + \".FS.Window1-AfterWater\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1-AfterWater\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\nif (global.get(bldg3 + \".FS.Window1-AfterWater\") > 0) {\n    msg3.payload.bldg = bldg3;\n    msg3.payload.window = 2;\n    msg3.payload.numFire = 8;\n}\n\nnode.warn(msg1);\nnode.warn(msg2);\nnode.warn(msg3);\n\n//Fin\nreturn [msg1, msg2, msg3];",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1560,
+        "y": 3280,
+        "wires": [
+            [
+                "ed716ab02d4082a2"
+            ],
+            [
+                "ed716ab02d4082a2"
+            ],
+            [
+                "ed716ab02d4082a2",
+                "2bf1904c5cdfea2c"
+            ]
+        ]
+    },
+    {
+        "id": "ed716ab02d4082a2",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "2971d7c90b74f3b4",
+        "name": "Send phase 2 FS updates",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42"
+        ],
+        "x": 1725,
+        "y": 3280,
+        "wires": []
+    },
+    {
+        "id": "2bf1904c5cdfea2c",
+        "type": "delay",
+        "z": "55a762ae72fa441b",
+        "g": "2971d7c90b74f3b4",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1360,
+        "y": 3360,
+        "wires": [
+            [
+                "21a3e408cf9c4ffc"
+            ]
+        ]
+    },
+    {
+        "id": "21a3e408cf9c4ffc",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "name": "Spread phase 2 second bldgs [jank]",
+        "func": "//--- Vars\nvar whichSide = global.get(\"otherSide\");\nvar whichRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nwhichRoute = whichRoute==\"T\" ? \"B\": \"T\";\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\n\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\nvar msg3 = {};\nmsg3.payload = {};\n\n\n\n//-------------------------\n//-- THIS IS STILL THE JANK METHOD\n//-- WILL NEED TO BE UPDATED WITH THE NIGE METHOD\n\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\nvar burningBldgs = [bldg1, bldg2, bldg3];\nnode.warn(burningBldgs);\n\n// do it\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 1;\n    msg2.payload.numFire = 8;\nmsg3.payload.bldg = bldg3;\nmsg3.payload.window =1;\nmsg3.payload.numFire = 8;\n\n\nnode.warn(msg1);\nnode.warn(msg2);\nnode.warn(msg3);\n\n//Fin\nreturn [msg1, msg2, msg3];",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1600,
+        "y": 3360,
+        "wires": [
+            [
+                "ad963e02c9e92e23"
+            ],
+            [
+                "ad963e02c9e92e23"
+            ],
+            [
+                "ad963e02c9e92e23",
+                "e08a0860d7eb970a"
+            ]
+        ]
+    },
+    {
+        "id": "ad963e02c9e92e23",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "2971d7c90b74f3b4",
+        "name": "Send phase 2 FS updates",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42"
+        ],
+        "x": 1785,
+        "y": 3360,
+        "wires": []
+    },
+    {
+        "id": "9ff066051ce6b800",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "2971d7c90b74f3b4",
+        "name": "Spread phase 2 [jank]",
+        "func": "//--- Vars\nvar whichSide = global.get(\"otherSide\");\nvar whichRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nwhichRoute = whichRoute == \"T\" ? \"B\" : \"T\";\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\n\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\nvar msg3 = {};\nmsg3.payload = {};\n\n\n\n//-------------------------\n//-- THIS IS STILL THE JANK METHOD\n//-- WILL NEED TO BE UPDATED WITH THE NIGE METHOD\n\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\nvar burningBldgs = [bldg1, bldg2, bldg3];\nnode.warn(burningBldgs);\n\n// Check on it \nif (global.get(bldg1 + \".FS.Window1-AfterWater\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1-AfterWater\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\nif (global.get(bldg3 + \".FS.Window1-AfterWater\") > 0) {\n    msg3.payload.bldg = bldg3;\n    msg3.payload.window = 2;\n    msg3.payload.numFire = 8;\n}\n\nnode.warn(msg1);\nnode.warn(msg2);\nnode.warn(msg3);\n\n//Fin\nreturn [msg1, msg2, msg3];",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1560,
+        "y": 3440,
+        "wires": [
+            [
+                "818f620db7bf22cc"
+            ],
+            [
+                "818f620db7bf22cc"
+            ],
+            [
+                "818f620db7bf22cc"
+            ]
+        ]
+    },
+    {
+        "id": "818f620db7bf22cc",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "2971d7c90b74f3b4",
+        "name": "Send phase 2 FS updates",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42"
+        ],
+        "x": 1725,
+        "y": 3440,
+        "wires": []
+    },
+    {
+        "id": "e08a0860d7eb970a",
+        "type": "delay",
+        "z": "55a762ae72fa441b",
+        "g": "2971d7c90b74f3b4",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1360,
+        "y": 3440,
+        "wires": [
+            [
+                "9ff066051ce6b800"
+            ]
+        ]
+    },
+    {
+        "id": "45b2a30339f4ad99",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "2971d7c90b74f3b4",
+        "name": "====\\n JANK METHOD, THIS WILL NEED TO BE REPLACED WITH NIGE METHOD",
+        "info": "",
+        "x": 1650,
+        "y": 3220,
+        "wires": []
+    },
+    {
+        "id": "01d28ef179167563",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "2971d7c90b74f3b4",
+        "name": "====\\n ALSO - THIS TIMER WILL NEED TO RUN OUT AFTER TEH MATCH FINISHES",
+        "info": "",
+        "x": 1680,
+        "y": 3520,
+        "wires": []
     },
     {
         "id": "7a5f520857017bbb",
@@ -6453,7 +6690,10 @@
             "b8d97633789e564a",
             "9b568c684831987e",
             "e1cc859ba784a678",
-            "c1a90303531def31"
+            "c1a90303531def31",
+            "ed716ab02d4082a2",
+            "ad963e02c9e92e23",
+            "818f620db7bf22cc"
         ],
         "x": 205,
         "y": 300,
@@ -6551,7 +6791,8 @@
         "y": 360,
         "wires": [
             [
-                "f986ab9711daf36b"
+                "f986ab9711daf36b",
+                "dc0c3bc767bd284c"
             ]
         ]
     },
@@ -7629,6 +7870,24 @@
                 "6983c6fb1a960333"
             ]
         ]
+    },
+    {
+        "id": "dc0c3bc767bd284c",
+        "type": "debug",
+        "z": "f6f035102302ba5a",
+        "g": "284c27310b25477c",
+        "name": "db MQTT msg for window",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1530,
+        "y": 420,
+        "wires": []
     },
     {
         "id": "b2d4ac6f1946502e",
