@@ -34,7 +34,7 @@
     {
         "id": "d32826a1611e0622",
         "type": "tab",
-        "label": "Trees & Trenches (Ref Toggles)",
+        "label": "Ref UI Components",
         "disabled": false,
         "info": "",
         "env": []
@@ -50,6 +50,14 @@
         "id": "bd2296fd2d68d405",
         "type": "tab",
         "label": "Manual Mode",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f66e6f21e6630f00",
+        "type": "tab",
+        "label": "Setters / Getters",
         "disabled": false,
         "info": "",
         "env": []
@@ -614,7 +622,9 @@
             "93a01049a60df5c5"
         ],
         "x": 54,
-        "y": 39
+        "y": 39,
+        "w": 1052,
+        "h": 462
     },
     {
         "id": "a83bb00d46efe804",
@@ -646,7 +656,9 @@
             "ad34ea44766153db"
         ],
         "x": 134,
-        "y": 659
+        "y": 659,
+        "w": 1272,
+        "h": 402
     },
     {
         "id": "e63633ec18181ba7",
@@ -675,7 +687,9 @@
             "c79cb601a8c0ab17"
         ],
         "x": 134,
-        "y": 1099
+        "y": 1099,
+        "w": 952,
+        "h": 342
     },
     {
         "id": "bc92f0b2168e67b1",
@@ -697,7 +711,9 @@
             "cd811a5da6dea1c9"
         ],
         "x": 1174,
-        "y": 1079
+        "y": 1079,
+        "w": 512,
+        "h": 122
     },
     {
         "id": "2024311963b7a70e",
@@ -718,7 +734,9 @@
             "b70ae83c222fa7da"
         ],
         "x": 1174,
-        "y": 1299
+        "y": 1299,
+        "w": 482,
+        "h": 122
     },
     {
         "id": "7ceda8dc6f5a8d60",
@@ -740,7 +758,9 @@
             "ccf03d13258bb4e3"
         ],
         "x": 134,
-        "y": 1499
+        "y": 1499,
+        "w": 792,
+        "h": 142
     },
     {
         "id": "96cafb8e88dad064",
@@ -762,7 +782,9 @@
             "c74fb766b19e2bf1"
         ],
         "x": 134,
-        "y": 1679
+        "y": 1679,
+        "w": 832,
+        "h": 142
     },
     {
         "id": "96faa29525ade8f0",
@@ -796,7 +818,9 @@
             "da8da29f2b800fa5"
         ],
         "x": 134,
-        "y": 59
+        "y": 59,
+        "w": 672,
+        "h": 542
     },
     {
         "id": "a298e34363e28341",
@@ -825,7 +849,9 @@
             "9498eab6a1cd0f2a"
         ],
         "x": 54,
-        "y": 499
+        "y": 499,
+        "w": 952,
+        "h": 242
     },
     {
         "id": "821639e23b06e8b7",
@@ -854,7 +880,9 @@
             "3e1b0163bae2fa11"
         ],
         "x": 54,
-        "y": 719
+        "y": 719,
+        "w": 952,
+        "h": 242
     },
     {
         "id": "b00a1e1bf34b7a99",
@@ -883,7 +911,9 @@
             "5a7f6afebccd7fa7"
         ],
         "x": 54,
-        "y": 959
+        "y": 959,
+        "w": 952,
+        "h": 282
     },
     {
         "id": "0b3af3753f33292d",
@@ -912,7 +942,9 @@
             "8d059dd5b45d6a89"
         ],
         "x": 54,
-        "y": 1239
+        "y": 1239,
+        "w": 952,
+        "h": 262
     },
     {
         "id": "dc5384f7b9f470a3",
@@ -941,7 +973,9 @@
             "5b091724b2b67ab5"
         ],
         "x": 54,
-        "y": 1499
+        "y": 1499,
+        "w": 942,
+        "h": 262
     },
     {
         "id": "58bd3feb98c01c36",
@@ -970,7 +1004,9 @@
             "dc8f4d8f85a10f79"
         ],
         "x": 54,
-        "y": 1759
+        "y": 1759,
+        "w": 942,
+        "h": 242
     },
     {
         "id": "21aaba78e384f976",
@@ -999,7 +1035,9 @@
             "a767d0c5f4352f2d"
         ],
         "x": 54,
-        "y": 1979
+        "y": 1979,
+        "w": 942,
+        "h": 242
     },
     {
         "id": "6ac6b771fff8c239",
@@ -1028,7 +1066,9 @@
             "2a78ff579a5e9464"
         ],
         "x": 54,
-        "y": 2219
+        "y": 2219,
+        "w": 942,
+        "h": 222
     },
     {
         "id": "6a070793fb470a03",
@@ -1059,7 +1099,9 @@
             "31c4db3eb2f36e59"
         ],
         "x": 114,
-        "y": 59
+        "y": 59,
+        "w": 872,
+        "h": 322
     },
     {
         "id": "18778eda46bd5b07",
@@ -1078,7 +1120,9 @@
             "4eb1999fbc3aab57"
         ],
         "x": 114,
-        "y": 859
+        "y": 859,
+        "w": 652,
+        "h": 182
     },
     {
         "id": "378995858571b39f",
@@ -1109,7 +1153,9 @@
             "48373ebe740e92b6"
         ],
         "x": 114,
-        "y": 479
+        "y": 479,
+        "w": 892,
+        "h": 322
     },
     {
         "id": "4f152b1eeea1837b",
@@ -1135,7 +1181,9 @@
             "e3641c48aef6dae2"
         ],
         "x": 134,
-        "y": 1099
+        "y": 1099,
+        "w": 1052,
+        "h": 222
     },
     {
         "id": "da5dfd18efe136b1",
@@ -1193,7 +1241,9 @@
             "c9d158730c6fc6a5"
         ],
         "x": 1074,
-        "y": 539
+        "y": 539,
+        "w": 712,
+        "h": 222
     },
     {
         "id": "ab2d725536c9b091",
@@ -1232,7 +1282,9 @@
             "3b6b77c692325673"
         ],
         "x": 1114,
-        "y": 1559
+        "y": 1559,
+        "w": 812,
+        "h": 502
     },
     {
         "id": "86746eb8946eaa91",
@@ -1257,7 +1309,9 @@
             "3f38d246c62ef7bd"
         ],
         "x": 134,
-        "y": 1439
+        "y": 1439,
+        "w": 712,
+        "h": 222
     },
     {
         "id": "77bdfe65956919ec",
@@ -1289,7 +1343,9 @@
             "0e3ebf9316c50718"
         ],
         "x": 1214,
-        "y": 679
+        "y": 679,
+        "w": 1242,
+        "h": 362
     },
     {
         "id": "1e2b3d276327b031",
@@ -1312,7 +1368,9 @@
             "c9c52f1b1fc4875f"
         ],
         "x": 1214,
-        "y": 79
+        "y": 79,
+        "w": 792,
+        "h": 242
     },
     {
         "id": "b73bab6188d86888",
@@ -1335,7 +1393,9 @@
             "66877abc465757d5"
         ],
         "x": 1214,
-        "y": 359
+        "y": 359,
+        "w": 792,
+        "h": 242
     },
     {
         "id": "a4436834ffd8d273",
@@ -1363,7 +1423,9 @@
             "16e630ed7e81d738"
         ],
         "x": 954,
-        "y": 1439
+        "y": 1439,
+        "w": 712,
+        "h": 342
     },
     {
         "id": "096607a1165ab5dd",
@@ -1391,7 +1453,9 @@
             "6df023e1989102e5"
         ],
         "x": 954,
-        "y": 1819
+        "y": 1819,
+        "w": 712,
+        "h": 342
     },
     {
         "id": "429025b01e7e6d4d",
@@ -1414,7 +1478,9 @@
             "dfd37ae16eec3d3b"
         ],
         "x": 1714,
-        "y": 1439
+        "y": 1439,
+        "w": 732,
+        "h": 262
     },
     {
         "id": "02ce9447bb02faf7",
@@ -1484,7 +1550,9 @@
             "a448d13962eb94f7"
         ],
         "x": 104,
-        "y": 2539
+        "y": 2539,
+        "w": 682,
+        "h": 642
     },
     {
         "id": "b786c9d92d164f0e",
@@ -1510,7 +1578,9 @@
             "e9d2f751156577aa"
         ],
         "x": 54,
-        "y": 3219
+        "y": 3219,
+        "w": 1012,
+        "h": 242
     },
     {
         "id": "2b2a6d295740d392",
@@ -1605,6 +1675,32 @@
         "y": 439,
         "w": 732,
         "h": 142
+    },
+    {
+        "id": "0bb0145c8adb017a",
+        "type": "group",
+        "z": "f66e6f21e6630f00",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "a847f6cdc0cb3084",
+            "d83d28b0aa1dfecf",
+            "083d670df93fc63f",
+            "c24d7ccb4813ce9a",
+            "cef9fe201b176c2d",
+            "360f48d9f6c2de07"
+        ],
+        "x": 34,
+        "y": 79,
+        "w": 452,
+        "h": 202
     },
     {
         "id": "b411c6135a7823e0",
@@ -2235,10 +2331,10 @@
         "z": "55a762ae72fa441b",
         "g": "4a4f80625f8ea163",
         "name": "Reset / Default Global Variables",
-        "func": "\n//--- Match setup \nglobal.set(\"startSide\",\"\");  // L or R\nglobal.set(\"otherSide\", \"\"); // L or R\nglobal.set(\"startRoute\",\"\"); // T or B\nglobal.set(\"hotBldg\",\"\");    // T or B\nglobal.set(\"curPhase\",0);    // 1, 2, or 3\nglobal.set(\"totalFS\",0);\nglobal.set(\"balldoubler\",1);\nglobal.set(\"burnTimeTarget\",9999);\n\n//--- Building objects\nvar rightBldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\nvar leftBldgs =  [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"]; \nvar allBldgs = rightBldgs.concat(leftBldgs);\nfor (var i in allBldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(allBldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores \n    global.set(allBldgs[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-AfterWater\", 0);\n    global.set(allBldgs[i] + \".Damage\",0);\n\n    // Water qtys - int\n    global.set(allBldgs[i] + \".WaterQty\", 0);\n\n    // Gutterpixels - string of numbers that represent colors\n    global.set(allBldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\n\nglobal.set(\"LTT\"+\"\")\n\n//Set up side-specific global arrays\nglobal.set(\"rightBldgs\", rightBldgs);\nglobal.set(\"leftBldgs\", leftBldgs);\nglobal.set(\"allBldgs\",allBldgs);\n\n//Fin\nreturn msg;",
+        "func": "/* --------\nVARIABLE INITIALIZATIONS ARE NOW FOUND IN \"ON START\" TAB\n--------- */\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "",
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\n//--- Initialize global variables\n// - General\nglobal.set(\"DEBUG\",true);\n\n// - Match / field info         \nglobal.set(\"droneActiveSide\", \"L\");    //L or R - formerly startSide    \nglobal.set(\"droneNonActiveSide\", \"R\"); //L or R - formerly otherSide \nglobal.set(\"startRoute\", \"T\"); // T or B\nglobal.set(\"hotBldg\", \"T\");    // T or B\nglobal.set(\"matchPhase\",0);    // formerly curPhase - 0, 1, 2, or 3 (0 is inactive, otherwise phase #)\nglobal.set(\"totalPoints\",0);   // formerly totalFS\nglobal.set(\"waterDropMultiplier\", 1.0); // formerly ballDoubler\nglobal.set(\"laserHitMultiplier\", 1.0);  // formerly ballDoubler ish\nglobal.set(\"burnTimeTarget\", 9999);\nglobal.set(\"fireWindowSpreadDelay\", 30);  // # of seconds to spread fire to next window\nglobal.set(\"fireBuildingSpreadDelay\", 0); // # of seconds to spread fire to next building, 0 means no \nglobal.set(\"windowsPerBuilding\", 2);\nglobal.set(\"laserSensitivity\", 500);\n\n// - OBSOLETE match-specific\n/*\nglobal.set(\"startside\",\"L\");   // replaced by droneActiveSide\nglobal.set(\"otherSide\", \"R\");  // replaced by droneNonActiveSide\nglobal.set(\"curPhase\", 0);     // replaced by matchPhase\nglobal.set(\"totalFS\", 0);      // replaced by totalPoints\nglobal.set(\"balldoubler\", 1);  // replaced by waterDropMultiplier and laserHitMultiplier\n*/\n\n// - Building arrays / info\nvar rightBldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\nvar leftBldgs = [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar allBldgs = rightBldgs.concat(leftBldgs);\nvar heaterBldgs = [\"RTO\", \"RBO\", \"LBO\", \"LTO\"];\nvar laserBldgs = [\"LBO\", \"LBM\", \"LTM\", \"RTO\", \"RBM\", \"RTM\"];\nvar waterBldgs = [\"LTO\", \"LBI\", \"LTI\", \"RBO\", \"RBI\", \"RTI\"];\nvar trenchBldgs = [\"LTT\", \"RTT\"];\nglobal.set(\"rightBldgs\", rightBldgs);\nglobal.set(\"leftBldgs\", leftBldgs);\nglobal.set(\"allBldgs\", allBldgs);\nglobal.set(\"heaterBldgs\", heaterBldgs);\nglobal.set(\"laserBldgs\", laserBldgs);\nglobal.set(\"waterBldgs\", waterBldgs);\nglobal.set(\"trenchBldgs\",trenchBldgs);\n\n// - Specific building attributes\nfor (var i in allBldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(allBldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores \n    global.set(allBldgs[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-AfterWater\", 0);\n    global.set(allBldgs[i] + \".Damage\", 0);\n\n    // Water qtys - int\n    global.set(allBldgs[i] + \".WaterQty\", 0);\n\n    // Gutterpixels - string of numbers that represent colors\n    global.set(allBldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\nfor (var i in trenchBldgs) {\n    global.set(trenchBldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\n\n//--- Send initialization MQTT's\n/*\nvar msg1 = {};\nvar msg2 = {};\nmsg1.topic = \"nodered/laserdiff\";\nmsg1.payload = \"{ \\\"[mqtt_goes_here]\\\": \" + global.get(\"laserSensitivity\");\"\n*/",
         "finalize": "",
         "libs": [],
         "x": 450,
@@ -2255,9 +2351,9 @@
         "type": "comment",
         "z": "55a762ae72fa441b",
         "g": "4a4f80625f8ea163",
-        "name": "Configuration",
+        "name": "Configuration / INITIALIZATION",
         "info": "",
-        "x": 170,
+        "x": 230,
         "y": 100,
         "wires": []
     },
@@ -3539,7 +3635,9 @@
         "g": "4a4f80625f8ea163",
         "name": "RESET",
         "links": [
-            "2335df53b4766297"
+            "2335df53b4766297",
+            "644ae6f88aa55107",
+            "bd87b250d2dcd90c"
         ],
         "x": 255,
         "y": 240,
@@ -11658,7 +11756,8 @@
         "g": "9e4ed901b9748060",
         "name": "Reset GUI",
         "links": [
-            "2335df53b4766297"
+            "2335df53b4766297",
+            "644ae6f88aa55107"
         ],
         "x": 145,
         "y": 2900,
@@ -11846,7 +11945,8 @@
         "g": "b786c9d92d164f0e",
         "name": "Reset GUI",
         "links": [
-            "2335df53b4766297"
+            "2335df53b4766297",
+            "644ae6f88aa55107"
         ],
         "x": 95,
         "y": 3420,
@@ -13615,7 +13715,8 @@
             "627488f25f62e8dc",
             "e2a7cf4a35c21f95",
             "66a6c020170412e9",
-            "75062d25f49d697d"
+            "75062d25f49d697d",
+            "332c24e3641712c2"
         ],
         "x": 205,
         "y": 560,
@@ -15138,5 +15239,105 @@
                 "303c612e4f366a64"
             ]
         ]
+    },
+    {
+        "id": "a847f6cdc0cb3084",
+        "type": "comment",
+        "z": "f66e6f21e6630f00",
+        "g": "0bb0145c8adb017a",
+        "name": "Building State Globals",
+        "info": "",
+        "x": 160,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "d83d28b0aa1dfecf",
+        "type": "function",
+        "z": "f66e6f21e6630f00",
+        "g": "0bb0145c8adb017a",
+        "name": "SetGutter",
+        "func": "/* \n\"Rev Nigel\" Setters/Getters\n- Takes in data from a link node\n- Updates the global variables \n- Sends any associated MQTT messages\n*/ \n\n/* \nExpected inputs:\n- msg.payload.bldg: a node ID\n- msg.payload.gutterString: a 30 int string\n\nExpected output: \n- MQTT topic / payload to update the physical LED strip \n*/\n\n// - Set basic vars\nvar theBldg = msg.payload.bldg;\nvar theGutterString = msg.payload.gutterString;\n\n// - Update\nglobal.set(theBldg + \".GutterPixels\", theGutterString);\n\n// - MQTT\nmsg.topic = \"nodered/updatepixels/\" + theBldg;\nmsg.payload = \"{ \\\"whichLeds\\\":0, \" +\n    \"\\\"pixels\\\": \\\"\" + theGutterString + \"\\\"\" +\n    \"}\";\n\n// - debug\nif (global.get(\"DEBUG\")) {\n    node.warn(\"--- Updating Gutter --- bldg: \" + theBldg + \"; string: \" + theGutterString);\n}\n\n// - Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 220,
+        "y": 240,
+        "wires": [
+            [
+                "083d670df93fc63f"
+            ]
+        ]
+    },
+    {
+        "id": "083d670df93fc63f",
+        "type": "mqtt out",
+        "z": "f66e6f21e6630f00",
+        "g": "0bb0145c8adb017a",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 370,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "c24d7ccb4813ce9a",
+        "type": "function",
+        "z": "f66e6f21e6630f00",
+        "g": "0bb0145c8adb017a",
+        "name": "SetWindow",
+        "func": "/* \n\"Rev Nigel\" Setters/Getters\n- Takes in data from a link node\n- Updates the global variables \n- Sends any associated MQTT messages\n*/ \n\n/* \nExpected inputs:\n- msg.payload.bldg: a node ID\n- msg.payload.windowNum: 0 or 1 (I think, might be 1 or 2)\n- msg.payload.windowOnOrOff: \"on\" or \"off\" string\n\nExpected output: \n- MQTT topic / payload to update the physical light\n*/\n\n// - Set basic vars\nvar theBldg = msg.payload.bldg;\nvar theWin = msg.payload.windowNum;\nvar theStatus = msg.payload.windowOnOrOff;\n\n// =------------------- PAUSING HERE ON THE PLANE ---------------------\n/*\n// - Update\nglobal.set(theBldg + \".GutterPixels\", theGutterString);\n\n// - MQTT\nmsg.topic = \"nodered/updatepixels/\" + theBldg;\nmsg.payload = \"{ \\\"whichLeds\\\":0, \" +\n    \"\\\"pixels\\\": \\\"\" + theGutterString + \"\\\"\" +\n    \"}\";\n\n// - debug\nif (global.get(\"DEBUG\")) {\n    node.warn(\"--- Updating Gutter --- bldg: \" + theBldg + \"; string: \" + theGutterString);\n}\n*/\n\n// - Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 180,
+        "wires": [
+            [
+                "cef9fe201b176c2d"
+            ]
+        ]
+    },
+    {
+        "id": "cef9fe201b176c2d",
+        "type": "mqtt out",
+        "z": "f66e6f21e6630f00",
+        "g": "0bb0145c8adb017a",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 370,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "360f48d9f6c2de07",
+        "type": "comment",
+        "z": "f66e6f21e6630f00",
+        "g": "0bb0145c8adb017a",
+        "name": "DIDN'T FINISH - ON PLANE",
+        "info": "",
+        "x": 340,
+        "y": 160,
+        "wires": []
     }
 ]
