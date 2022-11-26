@@ -1303,14 +1303,13 @@
             "bf8a32b7f8081bb2",
             "b093ebf16ae60878",
             "c30bab3d6b1794ac",
-            "d9423dbe2b9c23d0",
             "f0f486a730b8ca76",
             "f4d91ac44401745d",
             "3f38d246c62ef7bd"
         ],
         "x": 134,
         "y": 1439,
-        "w": 712,
+        "w": 592,
         "h": 222
     },
     {
@@ -1401,6 +1400,7 @@
         "id": "a4436834ffd8d273",
         "type": "group",
         "z": "bd2296fd2d68d405",
+        "g": "bf327706215ccff4",
         "style": {
             "stroke": "#3a3a3a",
             "stroke-opacity": "1",
@@ -1422,7 +1422,7 @@
             "c5be06f462d960cb",
             "16e630ed7e81d738"
         ],
-        "x": 954,
+        "x": 974,
         "y": 1439,
         "w": 712,
         "h": 342
@@ -1431,6 +1431,7 @@
         "id": "096607a1165ab5dd",
         "type": "group",
         "z": "bd2296fd2d68d405",
+        "g": "bf327706215ccff4",
         "style": {
             "stroke": "#3a3a3a",
             "stroke-opacity": "1",
@@ -1452,7 +1453,7 @@
             "32b4fbc2e326e9d8",
             "6df023e1989102e5"
         ],
-        "x": 954,
+        "x": 974,
         "y": 1819,
         "w": 712,
         "h": 342
@@ -1461,6 +1462,7 @@
         "id": "429025b01e7e6d4d",
         "type": "group",
         "z": "bd2296fd2d68d405",
+        "g": "bf327706215ccff4",
         "style": {
             "stroke": "#3a3a3a",
             "stroke-opacity": "1",
@@ -1477,8 +1479,8 @@
             "f8ed1d8e4301b635",
             "dfd37ae16eec3d3b"
         ],
-        "x": 1714,
-        "y": 1439,
+        "x": 974,
+        "y": 2199,
         "w": 732,
         "h": 262
     },
@@ -1695,12 +1697,188 @@
             "083d670df93fc63f",
             "c24d7ccb4813ce9a",
             "cef9fe201b176c2d",
-            "360f48d9f6c2de07"
+            "360f48d9f6c2de07",
+            "0bfd858cbf7dd015",
+            "a982d77f63880d2c"
         ],
         "x": 34,
-        "y": 79,
-        "w": 452,
-        "h": 202
+        "y": 39,
+        "w": 652,
+        "h": 262
+    },
+    {
+        "id": "bf327706215ccff4",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "a4436834ffd8d273",
+            "096607a1165ab5dd",
+            "429025b01e7e6d4d"
+        ],
+        "x": 948,
+        "y": 1413,
+        "w": 784,
+        "h": 1074
+    },
+    {
+        "id": "a034d18f4f2e4bd6",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "156f05bb828f97ee",
+            "4fdc3891a83ced02",
+            "ec0ec170aad778ad"
+        ],
+        "x": 1828,
+        "y": 1413,
+        "w": 784,
+        "h": 1074
+    },
+    {
+        "id": "156f05bb828f97ee",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "g": "a034d18f4f2e4bd6",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "21c1a36c6eeec879",
+            "2c67052878b82a9f",
+            "d040dfd31ac803f3",
+            "4d7dd9500d554d29",
+            "9e0034f563520f15",
+            "a530f51f02b55940",
+            "53067221f53cf271",
+            "e9b331ce522d6fff",
+            "397afc29e37dea4f",
+            "d4756f35786b766d"
+        ],
+        "x": 1854,
+        "y": 1439,
+        "w": 712,
+        "h": 342
+    },
+    {
+        "id": "4fdc3891a83ced02",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "g": "a034d18f4f2e4bd6",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "7e3a6a92eb8f1794",
+            "ae8147e43f1023ba",
+            "701519fb19756ce5",
+            "558eac6afdcf8563",
+            "80b76622216b9807",
+            "f1db54ebc7cd879b",
+            "9c991227a903215e",
+            "69d3a6f27883fd2e",
+            "6e23af39d4f63fe0",
+            "d7966aa3641c8fcf",
+            "98833f39eaeba382"
+        ],
+        "x": 1854,
+        "y": 1635,
+        "w": 712,
+        "h": 526
+    },
+    {
+        "id": "ec0ec170aad778ad",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "g": "a034d18f4f2e4bd6",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "29a9307f80926b96",
+            "36158908d91ccd6f",
+            "9daa3ddcaf2694b4",
+            "3c75761e406b9a9c",
+            "cd9a098d80ea8fca"
+        ],
+        "x": 1854,
+        "y": 2199,
+        "w": 732,
+        "h": 262
+    },
+    {
+        "id": "7ae10c2df5524d01",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "f1d2f751a9ddb7b8",
+            "10013add423d6bb2",
+            "0a1b72ac20c7b9d3",
+            "da5b434d466b7ab8",
+            "7a87f696ccb90fa6",
+            "0890dc5854489522",
+            "0c0397a08701116b",
+            "4f7890090a83f5bb",
+            "415239f281920bf8",
+            "9b8a3752bde55204",
+            "1b5afdc3c905373e",
+            "90e55099663abdb1",
+            "f50831d0c8b517d2",
+            "beb7282432692231",
+            "8d7c1e181f7ebb3a",
+            "5fed48b72b1963de",
+            "60affa2068161af8",
+            "dcae7ce4e5d49ca5",
+            "af339647b46b531f"
+        ],
+        "x": 1854,
+        "y": 2539,
+        "w": 1012,
+        "h": 322
     },
     {
         "id": "b411c6135a7823e0",
@@ -1954,7 +2132,7 @@
         "type": "ui_tab",
         "name": "Edge Node Debug",
         "icon": "dashboard",
-        "order": 4,
+        "order": 5,
         "disabled": false,
         "hidden": false
     },
@@ -2058,7 +2236,7 @@
         "type": "ui_tab",
         "name": "Ref Toggles",
         "icon": "dashboard",
-        "order": 5,
+        "order": 6,
         "disabled": false,
         "hidden": false
     },
@@ -2130,6 +2308,7 @@
         "type": "ui_tab",
         "name": "Field Config",
         "icon": "dashboard",
+        "order": 7,
         "disabled": false,
         "hidden": false
     },
@@ -2223,7 +2402,7 @@
         "type": "ui_tab",
         "name": "Ref Manual Scores",
         "icon": "dashboard",
-        "order": 6,
+        "order": 8,
         "disabled": false,
         "hidden": false
     },
@@ -2237,6 +2416,57 @@
         "width": "10",
         "collapse": false,
         "className": ""
+    },
+    {
+        "id": "46309e3f75fa07d4",
+        "type": "ui_tab",
+        "name": "Manual Mode CMP",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "121aadc1d09320eb",
+        "type": "ui_group",
+        "name": "Lights",
+        "tab": "46309e3f75fa07d4",
+        "order": 1,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "28b3ed7cb9589c84",
+        "type": "ui_group",
+        "name": "BldgLights",
+        "tab": "46309e3f75fa07d4",
+        "order": 2,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e1f30d546402b36d",
+        "type": "ui_spacer",
+        "z": "bd2296fd2d68d405",
+        "name": "spacer",
+        "group": "28b3ed7cb9589c84",
+        "order": 1,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "a781f9b547a147ce",
+        "type": "ui_spacer",
+        "z": "bd2296fd2d68d405",
+        "name": "spacer",
+        "group": "28b3ed7cb9589c84",
+        "order": 3,
+        "width": 3,
+        "height": 1
     },
     {
         "id": "85965edc.72971",
@@ -2334,7 +2564,7 @@
         "func": "/* --------\nVARIABLE INITIALIZATIONS ARE NOW FOUND IN \"ON START\" TAB\n--------- */\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\n//--- Initialize global variables\n// - General\nglobal.set(\"DEBUG\",true);\n\n// - Match / field info         \nglobal.set(\"droneActiveSide\", \"L\");    //L or R - formerly startSide    \nglobal.set(\"droneNonActiveSide\", \"R\"); //L or R - formerly otherSide \nglobal.set(\"startRoute\", \"T\"); // T or B\nglobal.set(\"hotBldg\", \"T\");    // T or B\nglobal.set(\"matchPhase\",0);    // formerly curPhase - 0, 1, 2, or 3 (0 is inactive, otherwise phase #)\nglobal.set(\"totalPoints\",0);   // formerly totalFS\nglobal.set(\"waterDropMultiplier\", 1.0); // formerly ballDoubler\nglobal.set(\"laserHitMultiplier\", 1.0);  // formerly ballDoubler ish\nglobal.set(\"burnTimeTarget\", 9999);\nglobal.set(\"fireWindowSpreadDelay\", 30);  // # of seconds to spread fire to next window\nglobal.set(\"fireBuildingSpreadDelay\", 0); // # of seconds to spread fire to next building, 0 means no \nglobal.set(\"windowsPerBuilding\", 2);\nglobal.set(\"laserSensitivity\", 500);\n\n// - OBSOLETE match-specific\n/*\nglobal.set(\"startside\",\"L\");   // replaced by droneActiveSide\nglobal.set(\"otherSide\", \"R\");  // replaced by droneNonActiveSide\nglobal.set(\"curPhase\", 0);     // replaced by matchPhase\nglobal.set(\"totalFS\", 0);      // replaced by totalPoints\nglobal.set(\"balldoubler\", 1);  // replaced by waterDropMultiplier and laserHitMultiplier\n*/\n\n// - Building arrays / info\nvar rightBldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\nvar leftBldgs = [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar allBldgs = rightBldgs.concat(leftBldgs);\nvar heaterBldgs = [\"RTO\", \"RBO\", \"LBO\", \"LTO\"];\nvar laserBldgs = [\"LBO\", \"LBM\", \"LTM\", \"RTO\", \"RBM\", \"RTM\"];\nvar waterBldgs = [\"LTO\", \"LBI\", \"LTI\", \"RBO\", \"RBI\", \"RTI\"];\nvar trenchBldgs = [\"LTT\", \"RTT\"];\nglobal.set(\"rightBldgs\", rightBldgs);\nglobal.set(\"leftBldgs\", leftBldgs);\nglobal.set(\"allBldgs\", allBldgs);\nglobal.set(\"heaterBldgs\", heaterBldgs);\nglobal.set(\"laserBldgs\", laserBldgs);\nglobal.set(\"waterBldgs\", waterBldgs);\nglobal.set(\"trenchBldgs\",trenchBldgs);\n\n// - Specific building attributes\nfor (var i in allBldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(allBldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores \n    global.set(allBldgs[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-AfterWater\", 0);\n    global.set(allBldgs[i] + \".Damage\", 0);\n\n    // Water qtys - int\n    global.set(allBldgs[i] + \".WaterQty\", 0);\n\n    // Gutterpixels - string of numbers that represent colors\n    global.set(allBldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\nfor (var i in trenchBldgs) {\n    global.set(trenchBldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\n\n//--- Send initialization MQTT's\n/*\nvar msg1 = {};\nvar msg2 = {};\nmsg1.topic = \"nodered/laserdiff\";\nmsg1.payload = \"{ \\\"[mqtt_goes_here]\\\": \" + global.get(\"laserSensitivity\");\"\n*/",
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\n//--- Initialize global variables\n// - General / Manual mode / Utilities\nglobal.set(\"DEBUG\",true);\nglobal.set(\"manualMode.lightBldgAction\",\"1-OFF\");\n\n// - Match / field info         \nglobal.set(\"droneActiveSide\", \"L\");    //L or R - formerly startSide    \nglobal.set(\"droneNonActiveSide\", \"R\"); //L or R - formerly otherSide \nglobal.set(\"startRoute\", \"T\"); // T or B\nglobal.set(\"hotBldg\", \"T\");    // T or B\nglobal.set(\"matchPhase\",0);    // formerly curPhase - 0, 1, 2, or 3 (0 is inactive, otherwise phase #)\nglobal.set(\"totalPoints\",0);   // formerly totalFS\nglobal.set(\"waterDropMultiplier\", 1.0); // formerly ballDoubler\nglobal.set(\"laserHitMultiplier\", 1.0);  // formerly ballDoubler ish\nglobal.set(\"burnTimeTarget\", 9999);\nglobal.set(\"fireWindowSpreadDelay\", 30);  // # of seconds to spread fire to next window\nglobal.set(\"fireBuildingSpreadDelay\", 0); // # of seconds to spread fire to next building, 0 means no \nglobal.set(\"windowsPerBuilding\", 2);\nglobal.set(\"laserSensitivity\", 500);\n\n// - OBSOLETE match-specific\n/*\nglobal.set(\"startside\",\"L\");   // replaced by droneActiveSide\nglobal.set(\"otherSide\", \"R\");  // replaced by droneNonActiveSide\nglobal.set(\"curPhase\", 0);     // replaced by matchPhase\nglobal.set(\"totalFS\", 0);      // replaced by totalPoints\nglobal.set(\"balldoubler\", 1);  // replaced by waterDropMultiplier and laserHitMultiplier\n*/\n\n// - Building arrays / info\nvar rightBldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\nvar leftBldgs = [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar allBldgs = rightBldgs.concat(leftBldgs);\nvar heaterBldgs = [\"RTO\", \"RBO\", \"LBO\", \"LTO\"];\nvar laserBldgs = [\"LBO\", \"LBM\", \"LTM\", \"RTO\", \"RBM\", \"RTM\"];\nvar waterBldgs = [\"LTO\", \"LBI\", \"LTI\", \"RBO\", \"RBI\", \"RTI\"];\nvar trenchBldgs = [\"LTT\", \"RTT\"];\nglobal.set(\"rightBldgs\", rightBldgs);\nglobal.set(\"leftBldgs\", leftBldgs);\nglobal.set(\"allBldgs\", allBldgs);\nglobal.set(\"heaterBldgs\", heaterBldgs);\nglobal.set(\"laserBldgs\", laserBldgs);\nglobal.set(\"waterBldgs\", waterBldgs);\nglobal.set(\"trenchBldgs\",trenchBldgs);\n\n// - Specific building attributes\nfor (var i in allBldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(allBldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores \n    global.set(allBldgs[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-AfterWater\", 0);\n    global.set(allBldgs[i] + \".Damage\", 0);\n\n    // Water qtys - int\n    global.set(allBldgs[i] + \".WaterQty\", 0);\n\n    // Lights - Windows\n    global.set(allBldgs[i] + \".Lights.Window1\",\"OFF\");\n    global.set(allBldgs[i] + \".Lights.Window2\", \"OFF\");\n\n    // Lights - Gutterpixels - string of numbers that represent colors\n    global.set(allBldgs[i] + \".Lights.GutterPixels\", \"000000000000000000000000000000\");\n}\nfor (var i in trenchBldgs) {\n    global.set(trenchBldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\n\n//--- Send initialization MQTT's\n/*\nvar msg1 = {};\nvar msg2 = {};\nmsg1.topic = \"nodered/laserdiff\";\nmsg1.payload = \"{ \\\"[mqtt_goes_here]\\\": \" + global.get(\"laserSensitivity\");\"\n*/",
         "finalize": "",
         "libs": [],
         "x": 450,
@@ -13949,24 +14179,6 @@
         ]
     },
     {
-        "id": "d9423dbe2b9c23d0",
-        "type": "debug",
-        "z": "bd2296fd2d68d405",
-        "g": "86746eb8946eaa91",
-        "name": "debug 18",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 740,
-        "y": 1500,
-        "wires": []
-    },
-    {
         "id": "f0f486a730b8ca76",
         "type": "ui_dropdown",
         "z": "bd2296fd2d68d405",
@@ -14513,7 +14725,7 @@
         "type": "comment",
         "z": "bd2296fd2d68d405",
         "g": "b73bab6188d86888",
-        "name": "Light 1 All Bldgs",
+        "name": "Light 2 All Bldgs",
         "info": "",
         "x": 1320,
         "y": 400,
@@ -14580,7 +14792,7 @@
         "type": "function",
         "z": "bd2296fd2d68d405",
         "g": "b73bab6188d86888",
-        "name": "Set Light 1 MQTT Msg",
+        "name": "Set Light 2 MQTT Msg",
         "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/lighton/\"+node_id;\nmsg.payload = \"{ \\\"whichLight\\\": 2 }\";\n\n//--- Fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
@@ -14620,9 +14832,9 @@
         "type": "comment",
         "z": "bd2296fd2d68d405",
         "g": "a4436834ffd8d273",
-        "name": "Manual Lights",
+        "name": "Manual Lights - Rev 2 - Turn On",
         "info": "",
-        "x": 1050,
+        "x": 1130,
         "y": 1480,
         "wires": []
     },
@@ -14707,7 +14919,7 @@
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 1120,
+        "x": 1140,
         "y": 1540,
         "wires": [
             [
@@ -14730,7 +14942,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1280,
+        "x": 1300,
         "y": 1620,
         "wires": [
             [
@@ -14753,7 +14965,7 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 1470,
+        "x": 1490,
         "y": 1620,
         "wires": []
     },
@@ -14769,7 +14981,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1320,
+        "x": 1340,
         "y": 1660,
         "wires": [
             [
@@ -14792,7 +15004,7 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 1510,
+        "x": 1530,
         "y": 1660,
         "wires": []
     },
@@ -14808,7 +15020,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1360,
+        "x": 1380,
         "y": 1700,
         "wires": [
             [
@@ -14831,7 +15043,7 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 1550,
+        "x": 1570,
         "y": 1700,
         "wires": []
     },
@@ -14847,7 +15059,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1400,
+        "x": 1420,
         "y": 1740,
         "wires": [
             [
@@ -14870,7 +15082,7 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 1590,
+        "x": 1610,
         "y": 1740,
         "wires": []
     },
@@ -14879,9 +15091,9 @@
         "type": "comment",
         "z": "bd2296fd2d68d405",
         "g": "096607a1165ab5dd",
-        "name": "Manual Lights",
+        "name": "Manual Lights - Rev 2 - Turn Off",
         "info": "",
-        "x": 1050,
+        "x": 1130,
         "y": 1860,
         "wires": []
     },
@@ -14966,7 +15178,7 @@
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 1120,
+        "x": 1140,
         "y": 1920,
         "wires": [
             [
@@ -14989,7 +15201,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1280,
+        "x": 1300,
         "y": 2000,
         "wires": [
             [
@@ -15009,7 +15221,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1400,
+        "x": 1420,
         "y": 2120,
         "wires": [
             [
@@ -15032,7 +15244,7 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 1470,
+        "x": 1490,
         "y": 2000,
         "wires": []
     },
@@ -15048,7 +15260,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1320,
+        "x": 1340,
         "y": 2040,
         "wires": [
             [
@@ -15071,7 +15283,7 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 1510,
+        "x": 1530,
         "y": 2040,
         "wires": []
     },
@@ -15087,7 +15299,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1360,
+        "x": 1380,
         "y": 2080,
         "wires": [
             [
@@ -15110,7 +15322,7 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 1550,
+        "x": 1570,
         "y": 2080,
         "wires": []
     },
@@ -15129,7 +15341,7 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 1590,
+        "x": 1610,
         "y": 2120,
         "wires": []
     },
@@ -15138,10 +15350,10 @@
         "type": "comment",
         "z": "bd2296fd2d68d405",
         "g": "429025b01e7e6d4d",
-        "name": "Manual Lights",
+        "name": "Manual Lights - Rev 2 - Gutter",
         "info": "",
-        "x": 1810,
-        "y": 1480,
+        "x": 1120,
+        "y": 2240,
         "wires": []
     },
     {
@@ -15162,8 +15374,8 @@
         "limit": "",
         "loopPayload": "loop-val",
         "finalPayload": "final-count",
-        "x": 2150,
-        "y": 1580,
+        "x": 1410,
+        "y": 2340,
         "wires": [
             [],
             [
@@ -15192,8 +15404,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1890,
-        "y": 1540,
+        "x": 1150,
+        "y": 2300,
         "wires": [
             [
                 "303c612e4f366a64"
@@ -15215,8 +15427,8 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 2370,
-        "y": 1660,
+        "x": 1630,
+        "y": 2420,
         "wires": []
     },
     {
@@ -15231,14 +15443,1167 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2160,
-        "y": 1660,
+        "x": 1420,
+        "y": 2420,
         "wires": [
             [
                 "f8ed1d8e4301b635",
                 "303c612e4f366a64"
             ]
         ]
+    },
+    {
+        "id": "21c1a36c6eeec879",
+        "type": "comment",
+        "z": "bd2296fd2d68d405",
+        "g": "156f05bb828f97ee",
+        "name": "Manual Lights - Rev Nige - Turn On",
+        "info": "",
+        "x": 2020,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "2c67052878b82a9f",
+        "type": "ui_dropdown",
+        "z": "bd2296fd2d68d405",
+        "g": "156f05bb828f97ee",
+        "name": "",
+        "label": "Turn On Specific Bldg",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "121aadc1d09320eb",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "LBI",
+                "value": "LBI",
+                "type": "str"
+            },
+            {
+                "label": "LTI",
+                "value": "LTI",
+                "type": "str"
+            },
+            {
+                "label": "LBM",
+                "value": "LBM",
+                "type": "str"
+            },
+            {
+                "label": "LTM",
+                "value": "LTM",
+                "type": "str"
+            },
+            {
+                "label": "LBO",
+                "value": "LBO",
+                "type": "str"
+            },
+            {
+                "label": "LTO",
+                "value": "LTO",
+                "type": "str"
+            },
+            {
+                "label": "RBI",
+                "value": "RBI",
+                "type": "str"
+            },
+            {
+                "label": "RTI",
+                "value": "RTI",
+                "type": "str"
+            },
+            {
+                "label": "RBM",
+                "value": "RBM",
+                "type": "str"
+            },
+            {
+                "label": "RTM",
+                "value": "RTM",
+                "type": "str"
+            },
+            {
+                "label": "RBO",
+                "value": "RBO",
+                "type": "str"
+            },
+            {
+                "label": "RTO",
+                "value": "RTO",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 2020,
+        "y": 1540,
+        "wires": [
+            [
+                "d040dfd31ac803f3",
+                "a530f51f02b55940",
+                "e9b331ce522d6fff",
+                "4d7dd9500d554d29"
+            ]
+        ]
+    },
+    {
+        "id": "d040dfd31ac803f3",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "156f05bb828f97ee",
+        "name": "Set Light 0 MQTT Msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/lighton/\"+node_id;\nmsg.payload = \"{ \\\"whichLight\\\":0 }\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2180,
+        "y": 1620,
+        "wires": [
+            [
+                "9e0034f563520f15"
+            ]
+        ]
+    },
+    {
+        "id": "4d7dd9500d554d29",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "156f05bb828f97ee",
+        "name": "Set Gutter MQTT msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/updatepixels/\"+node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":0, \" +\n    \"\\\"pixels\\\": \\\"222222222222222222222222222222\\\"\" +\n    \"}\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2300,
+        "y": 1740,
+        "wires": [
+            [
+                "d4756f35786b766d"
+            ]
+        ]
+    },
+    {
+        "id": "9e0034f563520f15",
+        "type": "mqtt out",
+        "z": "bd2296fd2d68d405",
+        "g": "156f05bb828f97ee",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 2370,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "a530f51f02b55940",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "156f05bb828f97ee",
+        "name": "Set Light 1 MQTT Msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/lighton/\"+node_id;\nmsg.payload = \"{ \\\"whichLight\\\": 1 }\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2220,
+        "y": 1660,
+        "wires": [
+            [
+                "53067221f53cf271"
+            ]
+        ]
+    },
+    {
+        "id": "53067221f53cf271",
+        "type": "mqtt out",
+        "z": "bd2296fd2d68d405",
+        "g": "156f05bb828f97ee",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 2410,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "e9b331ce522d6fff",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "156f05bb828f97ee",
+        "name": "Set Light 2 MQTT Msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/lighton/\"+node_id;\nmsg.payload = \"{ \\\"whichLight\\\": 2 }\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2260,
+        "y": 1700,
+        "wires": [
+            [
+                "397afc29e37dea4f"
+            ]
+        ]
+    },
+    {
+        "id": "397afc29e37dea4f",
+        "type": "mqtt out",
+        "z": "bd2296fd2d68d405",
+        "g": "156f05bb828f97ee",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 2450,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "d4756f35786b766d",
+        "type": "mqtt out",
+        "z": "bd2296fd2d68d405",
+        "g": "156f05bb828f97ee",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 2490,
+        "y": 1740,
+        "wires": []
+    },
+    {
+        "id": "7e3a6a92eb8f1794",
+        "type": "comment",
+        "z": "bd2296fd2d68d405",
+        "g": "4fdc3891a83ced02",
+        "name": "Manual Lights - Rev Nige - Turn Off",
+        "info": "",
+        "x": 2020,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "ae8147e43f1023ba",
+        "type": "ui_dropdown",
+        "z": "bd2296fd2d68d405",
+        "g": "4fdc3891a83ced02",
+        "name": "",
+        "label": "Turn Off Specific Bldg",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "121aadc1d09320eb",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "LBI",
+                "value": "LBI",
+                "type": "str"
+            },
+            {
+                "label": "LTI",
+                "value": "LTI",
+                "type": "str"
+            },
+            {
+                "label": "LBM",
+                "value": "LBM",
+                "type": "str"
+            },
+            {
+                "label": "LTM",
+                "value": "LTM",
+                "type": "str"
+            },
+            {
+                "label": "LBO",
+                "value": "LBO",
+                "type": "str"
+            },
+            {
+                "label": "LTO",
+                "value": "LTO",
+                "type": "str"
+            },
+            {
+                "label": "RBI",
+                "value": "RBI",
+                "type": "str"
+            },
+            {
+                "label": "RTI",
+                "value": "RTI",
+                "type": "str"
+            },
+            {
+                "label": "RBM",
+                "value": "RBM",
+                "type": "str"
+            },
+            {
+                "label": "RTM",
+                "value": "RTM",
+                "type": "str"
+            },
+            {
+                "label": "RBO",
+                "value": "RBO",
+                "type": "str"
+            },
+            {
+                "label": "RTO",
+                "value": "RTO",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 2020,
+        "y": 1920,
+        "wires": [
+            [
+                "701519fb19756ce5",
+                "f1db54ebc7cd879b",
+                "69d3a6f27883fd2e",
+                "558eac6afdcf8563"
+            ]
+        ]
+    },
+    {
+        "id": "701519fb19756ce5",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "4fdc3891a83ced02",
+        "name": "Set Light 0 MQTT Msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/lightoff/\"+node_id;\nmsg.payload = \"{ \\\"whichLight\\\":0 }\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2180,
+        "y": 2000,
+        "wires": [
+            [
+                "80b76622216b9807"
+            ]
+        ]
+    },
+    {
+        "id": "558eac6afdcf8563",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "4fdc3891a83ced02",
+        "name": "Set Gutter MQTT msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/updatepixels/\"+node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":0, \" +\n    \"\\\"pixels\\\": \\\"000000000000000000000000000000\\\"\" +\n    \"}\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2300,
+        "y": 2120,
+        "wires": [
+            [
+                "d7966aa3641c8fcf"
+            ]
+        ]
+    },
+    {
+        "id": "80b76622216b9807",
+        "type": "mqtt out",
+        "z": "bd2296fd2d68d405",
+        "g": "4fdc3891a83ced02",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 2370,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "f1db54ebc7cd879b",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "4fdc3891a83ced02",
+        "name": "Set Light 1 MQTT Msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/lightoff/\"+node_id;\nmsg.payload = \"{ \\\"whichLight\\\": 1 }\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2220,
+        "y": 2040,
+        "wires": [
+            [
+                "9c991227a903215e"
+            ]
+        ]
+    },
+    {
+        "id": "9c991227a903215e",
+        "type": "mqtt out",
+        "z": "bd2296fd2d68d405",
+        "g": "4fdc3891a83ced02",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 2410,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "69d3a6f27883fd2e",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "4fdc3891a83ced02",
+        "name": "Set Light 2 MQTT Msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/lightoff/\"+node_id;\nmsg.payload = \"{ \\\"whichLight\\\": 2 }\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2260,
+        "y": 2080,
+        "wires": [
+            [
+                "6e23af39d4f63fe0"
+            ]
+        ]
+    },
+    {
+        "id": "6e23af39d4f63fe0",
+        "type": "mqtt out",
+        "z": "bd2296fd2d68d405",
+        "g": "4fdc3891a83ced02",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 2450,
+        "y": 2080,
+        "wires": []
+    },
+    {
+        "id": "d7966aa3641c8fcf",
+        "type": "mqtt out",
+        "z": "bd2296fd2d68d405",
+        "g": "4fdc3891a83ced02",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 2490,
+        "y": 2120,
+        "wires": []
+    },
+    {
+        "id": "29a9307f80926b96",
+        "type": "comment",
+        "z": "bd2296fd2d68d405",
+        "g": "ec0ec170aad778ad",
+        "name": "Manual Lights - Rev Nige - Gutter",
+        "info": "",
+        "x": 2010,
+        "y": 2240,
+        "wires": []
+    },
+    {
+        "id": "36158908d91ccd6f",
+        "type": "ui_button",
+        "z": "bd2296fd2d68d405",
+        "g": "ec0ec170aad778ad",
+        "name": "",
+        "group": "121aadc1d09320eb",
+        "order": 3,
+        "width": 10,
+        "height": 1,
+        "passthru": true,
+        "label": "Turn On First Half Gutter",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 2030,
+        "y": 2300,
+        "wires": [
+            [
+                "9daa3ddcaf2694b4"
+            ]
+        ]
+    },
+    {
+        "id": "9daa3ddcaf2694b4",
+        "type": "loop",
+        "z": "bd2296fd2d68d405",
+        "g": "ec0ec170aad778ad",
+        "name": "",
+        "kind": "enum",
+        "count": "",
+        "initial": "1",
+        "step": "1",
+        "condition": "",
+        "conditionType": "js",
+        "when": "before",
+        "enumeration": "allBldgs",
+        "enumerationType": "global",
+        "limit": "",
+        "loopPayload": "loop-val",
+        "finalPayload": "final-count",
+        "x": 2290,
+        "y": 2340,
+        "wires": [
+            [],
+            [
+                "cd9a098d80ea8fca"
+            ]
+        ]
+    },
+    {
+        "id": "3c75761e406b9a9c",
+        "type": "mqtt out",
+        "z": "bd2296fd2d68d405",
+        "g": "ec0ec170aad778ad",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 2510,
+        "y": 2420,
+        "wires": []
+    },
+    {
+        "id": "cd9a098d80ea8fca",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "ec0ec170aad778ad",
+        "name": "Set Gutter MQTT msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/updatepixels/\"+node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":0, \" +\n    \"\\\"pixels\\\": \\\"333333333333334444444444444444\\\"\" +\n    \"}\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2300,
+        "y": 2420,
+        "wires": [
+            [
+                "3c75761e406b9a9c",
+                "9daa3ddcaf2694b4"
+            ]
+        ]
+    },
+    {
+        "id": "f1d2f751a9ddb7b8",
+        "type": "comment",
+        "z": "bd2296fd2d68d405",
+        "g": "7ae10c2df5524d01",
+        "name": "Manual Bldg Btns",
+        "info": "",
+        "x": 1960,
+        "y": 2580,
+        "wires": []
+    },
+    {
+        "id": "98833f39eaeba382",
+        "type": "comment",
+        "z": "bd2296fd2d68d405",
+        "g": "4fdc3891a83ced02",
+        "name": "\\n \\n \\n \\n \\n \\n \\n HAVEN'T DONE ANYTHING WITH ANY OF THESE \\n \\n INTENT IS TO DO SETTERS GETTERS \\n \\n \\n \\n",
+        "info": "",
+        "x": 2250,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "10013add423d6bb2",
+        "type": "ui_button",
+        "z": "bd2296fd2d68d405",
+        "g": "7ae10c2df5524d01",
+        "name": "",
+        "group": "28b3ed7cb9589c84",
+        "order": 4,
+        "width": 2,
+        "height": 2,
+        "passthru": true,
+        "label": "LTO",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "LTO",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1950,
+        "y": 2680,
+        "wires": [
+            [
+                "af339647b46b531f"
+            ]
+        ]
+    },
+    {
+        "id": "0a1b72ac20c7b9d3",
+        "type": "ui_button",
+        "z": "bd2296fd2d68d405",
+        "g": "7ae10c2df5524d01",
+        "name": "",
+        "group": "28b3ed7cb9589c84",
+        "order": 10,
+        "width": 2,
+        "height": 2,
+        "passthru": true,
+        "label": "LBO",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "LBO",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1950,
+        "y": 2760,
+        "wires": [
+            [
+                "af339647b46b531f"
+            ]
+        ]
+    },
+    {
+        "id": "da5b434d466b7ab8",
+        "type": "ui_button",
+        "z": "bd2296fd2d68d405",
+        "g": "7ae10c2df5524d01",
+        "name": "",
+        "group": "28b3ed7cb9589c84",
+        "order": 5,
+        "width": 2,
+        "height": 2,
+        "passthru": true,
+        "label": "LTM",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "LTM",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 2110,
+        "y": 2680,
+        "wires": [
+            [
+                "af339647b46b531f"
+            ]
+        ]
+    },
+    {
+        "id": "7a87f696ccb90fa6",
+        "type": "ui_button",
+        "z": "bd2296fd2d68d405",
+        "g": "7ae10c2df5524d01",
+        "name": "",
+        "group": "28b3ed7cb9589c84",
+        "order": 11,
+        "width": 2,
+        "height": 2,
+        "passthru": true,
+        "label": "LBM",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "LBM",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 2110,
+        "y": 2760,
+        "wires": [
+            [
+                "af339647b46b531f"
+            ]
+        ]
+    },
+    {
+        "id": "0890dc5854489522",
+        "type": "ui_button",
+        "z": "bd2296fd2d68d405",
+        "g": "7ae10c2df5524d01",
+        "name": "",
+        "group": "28b3ed7cb9589c84",
+        "order": 12,
+        "width": 2,
+        "height": 2,
+        "passthru": true,
+        "label": "LBI",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "LBI",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 2270,
+        "y": 2760,
+        "wires": [
+            [
+                "af339647b46b531f"
+            ]
+        ]
+    },
+    {
+        "id": "0c0397a08701116b",
+        "type": "ui_button",
+        "z": "bd2296fd2d68d405",
+        "g": "7ae10c2df5524d01",
+        "name": "",
+        "group": "28b3ed7cb9589c84",
+        "order": 6,
+        "width": 2,
+        "height": 2,
+        "passthru": true,
+        "label": "LTI",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "LTI",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 2270,
+        "y": 2680,
+        "wires": [
+            [
+                "af339647b46b531f"
+            ]
+        ]
+    },
+    {
+        "id": "4f7890090a83f5bb",
+        "type": "ui_button",
+        "z": "bd2296fd2d68d405",
+        "g": "7ae10c2df5524d01",
+        "name": "",
+        "group": "28b3ed7cb9589c84",
+        "order": 7,
+        "width": 2,
+        "height": 2,
+        "passthru": true,
+        "label": "RTI",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "RTI",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 2470,
+        "y": 2680,
+        "wires": [
+            [
+                "af339647b46b531f"
+            ]
+        ]
+    },
+    {
+        "id": "415239f281920bf8",
+        "type": "ui_button",
+        "z": "bd2296fd2d68d405",
+        "g": "7ae10c2df5524d01",
+        "name": "",
+        "group": "28b3ed7cb9589c84",
+        "order": 13,
+        "width": 2,
+        "height": 2,
+        "passthru": true,
+        "label": "RBI",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "RBI",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 2470,
+        "y": 2760,
+        "wires": [
+            [
+                "af339647b46b531f"
+            ]
+        ]
+    },
+    {
+        "id": "9b8a3752bde55204",
+        "type": "ui_button",
+        "z": "bd2296fd2d68d405",
+        "g": "7ae10c2df5524d01",
+        "name": "",
+        "group": "28b3ed7cb9589c84",
+        "order": 8,
+        "width": 2,
+        "height": 2,
+        "passthru": true,
+        "label": "RTM",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "RTM",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 2630,
+        "y": 2680,
+        "wires": [
+            [
+                "af339647b46b531f"
+            ]
+        ]
+    },
+    {
+        "id": "1b5afdc3c905373e",
+        "type": "ui_button",
+        "z": "bd2296fd2d68d405",
+        "g": "7ae10c2df5524d01",
+        "name": "",
+        "group": "28b3ed7cb9589c84",
+        "order": 14,
+        "width": 2,
+        "height": 2,
+        "passthru": true,
+        "label": "RBM",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "RBM",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 2630,
+        "y": 2760,
+        "wires": [
+            [
+                "af339647b46b531f"
+            ]
+        ]
+    },
+    {
+        "id": "90e55099663abdb1",
+        "type": "ui_button",
+        "z": "bd2296fd2d68d405",
+        "g": "7ae10c2df5524d01",
+        "name": "",
+        "group": "28b3ed7cb9589c84",
+        "order": 15,
+        "width": 2,
+        "height": 2,
+        "passthru": true,
+        "label": "RBO",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "RBO",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 2790,
+        "y": 2760,
+        "wires": [
+            [
+                "af339647b46b531f"
+            ]
+        ]
+    },
+    {
+        "id": "f50831d0c8b517d2",
+        "type": "ui_button",
+        "z": "bd2296fd2d68d405",
+        "g": "7ae10c2df5524d01",
+        "name": "",
+        "group": "28b3ed7cb9589c84",
+        "order": 9,
+        "width": 2,
+        "height": 2,
+        "passthru": true,
+        "label": "RTO",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "RTO",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 2790,
+        "y": 2680,
+        "wires": [
+            [
+                "af339647b46b531f"
+            ]
+        ]
+    },
+    {
+        "id": "beb7282432692231",
+        "type": "ui_dropdown",
+        "z": "bd2296fd2d68d405",
+        "g": "7ae10c2df5524d01",
+        "name": "",
+        "label": "Select Action:",
+        "tooltip": "",
+        "place": "Select Window Option",
+        "group": "28b3ed7cb9589c84",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Window 1 - ON",
+                "value": "1-ON",
+                "type": "str"
+            },
+            {
+                "label": "Window 1 - OFF",
+                "value": "1-OFF",
+                "type": "str"
+            },
+            {
+                "label": "Window 2 - ON",
+                "value": "2-ON",
+                "type": "str"
+            },
+            {
+                "label": "Window 2 - OFF",
+                "value": "2-OFF",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 2260,
+        "y": 2620,
+        "wires": [
+            [
+                "8d7c1e181f7ebb3a"
+            ]
+        ]
+    },
+    {
+        "id": "8d7c1e181f7ebb3a",
+        "type": "change",
+        "z": "bd2296fd2d68d405",
+        "g": "7ae10c2df5524d01",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "manualMode.lightBldgAction",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2510,
+        "y": 2620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5fed48b72b1963de",
+        "type": "function",
+        "z": "bd2296fd2d68d405",
+        "g": "7ae10c2df5524d01",
+        "name": "Build Setter Msg",
+        "func": "/*\nThis comes from clicking one of the BldgLights buttons\n- The node ID is the msg.payload\n- The window actions come from the global that is set from the drop-down\n\nSetter expects the following:\n- msg.payload.bldg: a node ID\n- msg.payload.windowNum: 1 or 2 (this is NOT zero-indexed)\n- msg.payload.windowOnOrOff: \"ON\" or \"OFF\" string\n*/ \n\n//--- Set up vars\nvar theBldg = msg.payload;\nvar theActionStr = global.get(\"manualMode.lightBldgAction\");\nmsg.payload = {};\n\n//--- Parse\n// \"1-OFF\" becomes \"1\",\"OFF\"\nvar theWin = theActionStr.split(\"-\")[0];\nvar theAct = theActionStr.split(\"-\")[1];\n\n//--- Fin\nmsg.payload.bldg = theBldg;\nmsg.payload.windowNum = theWin;\nmsg.payload.windowOnOrOff = theAct;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2380,
+        "y": 2820,
+        "wires": [
+            [
+                "60affa2068161af8"
+            ]
+        ]
+    },
+    {
+        "id": "60affa2068161af8",
+        "type": "link out",
+        "z": "bd2296fd2d68d405",
+        "g": "7ae10c2df5524d01",
+        "name": "To SetWindow from Manual Mode",
+        "mode": "link",
+        "links": [
+            "0bfd858cbf7dd015"
+        ],
+        "x": 2505,
+        "y": 2820,
+        "wires": []
+    },
+    {
+        "id": "dcae7ce4e5d49ca5",
+        "type": "link in",
+        "z": "bd2296fd2d68d405",
+        "g": "7ae10c2df5524d01",
+        "name": "Build Manual Window Setter",
+        "links": [
+            "af339647b46b531f",
+            "d34998a6a1f86332"
+        ],
+        "x": 2255,
+        "y": 2820,
+        "wires": [
+            [
+                "5fed48b72b1963de"
+            ]
+        ]
+    },
+    {
+        "id": "af339647b46b531f",
+        "type": "link out",
+        "z": "bd2296fd2d68d405",
+        "g": "7ae10c2df5524d01",
+        "name": "Manual Bldg Btn Out",
+        "mode": "link",
+        "links": [
+            "dcae7ce4e5d49ca5"
+        ],
+        "x": 2385,
+        "y": 2720,
+        "wires": []
+    },
+    {
+        "id": "a57b32e894cf939d",
+        "type": "debug",
+        "z": "bd2296fd2d68d405",
+        "name": "db msg",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2760,
+        "y": 2480,
+        "wires": []
     },
     {
         "id": "a847f6cdc0cb3084",
@@ -15264,7 +16629,7 @@
         "finalize": "",
         "libs": [],
         "x": 220,
-        "y": 240,
+        "y": 260,
         "wires": [
             [
                 "083d670df93fc63f"
@@ -15286,8 +16651,8 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 370,
-        "y": 240,
+        "x": 390,
+        "y": 260,
         "wires": []
     },
     {
@@ -15296,7 +16661,7 @@
         "z": "f66e6f21e6630f00",
         "g": "0bb0145c8adb017a",
         "name": "SetWindow",
-        "func": "/* \n\"Rev Nigel\" Setters/Getters\n- Takes in data from a link node\n- Updates the global variables \n- Sends any associated MQTT messages\n*/ \n\n/* \nExpected inputs:\n- msg.payload.bldg: a node ID\n- msg.payload.windowNum: 0 or 1 (I think, might be 1 or 2)\n- msg.payload.windowOnOrOff: \"on\" or \"off\" string\n\nExpected output: \n- MQTT topic / payload to update the physical light\n*/\n\n// - Set basic vars\nvar theBldg = msg.payload.bldg;\nvar theWin = msg.payload.windowNum;\nvar theStatus = msg.payload.windowOnOrOff;\n\n// =------------------- PAUSING HERE ON THE PLANE ---------------------\n/*\n// - Update\nglobal.set(theBldg + \".GutterPixels\", theGutterString);\n\n// - MQTT\nmsg.topic = \"nodered/updatepixels/\" + theBldg;\nmsg.payload = \"{ \\\"whichLeds\\\":0, \" +\n    \"\\\"pixels\\\": \\\"\" + theGutterString + \"\\\"\" +\n    \"}\";\n\n// - debug\nif (global.get(\"DEBUG\")) {\n    node.warn(\"--- Updating Gutter --- bldg: \" + theBldg + \"; string: \" + theGutterString);\n}\n*/\n\n// - Fin\nreturn msg;",
+        "func": "/* \n\"Rev Nigel\" Setters/Getters\n- Takes in data from a link node\n- Updates the global variables \n- Sends any associated MQTT messages\n*/ \n\n/* \nExpected inputs:\n- msg.payload.bldg: a node ID\n- msg.payload.windowNum: 0 or 1 (I think, might be 1 or 2)\n- msg.payload.windowOnOrOff: \"ON\" or \"OFF\" string\n\nExpected output: \n- MQTT topic / payload to update the physical light\n*/\n\n// --- Set basic vars\nvar theBldg = msg.payload.bldg;             // e.g. \"LTO\"\nvar theWin = msg.payload.windowNum;         // 1 or 2\nvar theStatus = msg.payload.windowOnOrOff;  // \"ON\" or \"OFF\"\n\n\n// --- Update Globals\nglobal.set(theBldg + \".Lights.Window\" + theWin, theStatus);\n\n\n// --- Build MQTT\nif (theStatus == \"ON\") {\n    msg.topic = \"nodered/lighton/\" + theBldg;\n} else if (theStatus == \"OFF\") {\n    msg.topic = \"nodered/lightoff/\" + theBldg;\n}\nmsg.payload = \"{ \\\"whichLight\\\":\" + theWin + \"}\"\n\n\n// --- debug\nif (global.get(\"DEBUG\")) {\n    node.warn(\"--- Updating Window --- \" + msg.topic + \"; \" + msg.payload);\n}\n\n\n// --- Fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -15325,7 +16690,7 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 370,
+        "x": 390,
         "y": 180,
         "wires": []
     },
@@ -15336,8 +16701,40 @@
         "g": "0bb0145c8adb017a",
         "name": "DIDN'T FINISH - ON PLANE",
         "info": "",
-        "x": 340,
-        "y": 160,
+        "x": 540,
+        "y": 80,
         "wires": []
+    },
+    {
+        "id": "0bfd858cbf7dd015",
+        "type": "link in",
+        "z": "f66e6f21e6630f00",
+        "g": "0bb0145c8adb017a",
+        "name": "Setters - Set Window",
+        "links": [
+            "60affa2068161af8"
+        ],
+        "x": 115,
+        "y": 180,
+        "wires": [
+            [
+                "c24d7ccb4813ce9a"
+            ]
+        ]
+    },
+    {
+        "id": "a982d77f63880d2c",
+        "type": "link in",
+        "z": "f66e6f21e6630f00",
+        "g": "0bb0145c8adb017a",
+        "name": "Setters - Set Gutter",
+        "links": [],
+        "x": 115,
+        "y": 260,
+        "wires": [
+            [
+                "d83d28b0aa1dfecf"
+            ]
+        ]
     }
 ]
