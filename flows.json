@@ -194,7 +194,8 @@
             "41518b531082b3d7",
             "d3ab04d4907d8166",
             "95def0341f18d225",
-            "aae3658d9ca5bda4"
+            "aae3658d9ca5bda4",
+            "6e370ae98e13d2cd"
         ],
         "x": 34,
         "y": 1899,
@@ -268,7 +269,9 @@
             "cc34e7492d373681"
         ],
         "x": 94,
-        "y": 59
+        "y": 59,
+        "w": 692,
+        "h": 282
     },
     {
         "id": "b2c04e106e7697f0",
@@ -562,7 +565,9 @@
             "e9c6866ca0db7662"
         ],
         "x": 894,
-        "y": 59
+        "y": 59,
+        "w": 522,
+        "h": 122
     },
     {
         "id": "738dc520034f11a7",
@@ -587,7 +592,9 @@
             "ba9de4c0d6c59f58"
         ],
         "x": 94,
-        "y": 819
+        "y": 819,
+        "w": 652,
+        "h": 182
     },
     {
         "id": "cb9c0c3b1fe84ccc",
@@ -1374,7 +1381,6 @@
             "846e1f20d568c2da",
             "f13d9ce18d748f8f",
             "a09cc4d46358b314",
-            "1a85280e23bfe3a9",
             "44f4a840ec1b589d"
         ],
         "x": 1134,
@@ -3214,7 +3220,7 @@
         "z": "55a762ae72fa441b",
         "g": "6a8702296ddd22a1",
         "name": "Update first Burning Bldgs",
-        "func": "//--- Set up vars\nif (global.get(\"curPhase\") == 1) {\n    var whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\n} else if (global.get(\"curPhase\") == 2) {\n    var whichSide = global.get(\"otherSide\");\n}\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Top or bottom?\nvar whichRouteInt = Math.floor(Math.random() * 2); //returns 0 or 1\nvar whichRouteStr = whichRouteInt == 1 ? \"T\" : \"B\";\nglobal.set(\"startRoute\", whichRouteStr);\nvar bldg1 = whichSide + whichRouteStr + \"M\"; //e.g. bldg LTM\nvar bldg2 = whichSide + whichRouteStr + \"I\"; //e.g. bldg LTI\n\n//--- Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 1 to FS of 8\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\nglobal.set(bldg1+\".Damage\", 8);\nmsg2.payload.bldg = bldg2;\nmsg2.payload.window = 1;\nmsg2.payload.numFire = 8;\nglobal.set(bldg2 + \".Damage\", 8);\n\n\n//Fin\nreturn [msg1, msg2];",
+        "func": "//--- Set up vars\nif (global.get(\"matchPhase\") == 1) {\n    var whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\n} else if (global.get(\"matchPhase\") == 2) {\n    var whichSide = global.get(\"otherSide\");\n}\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Top or bottom?\nvar whichRouteInt = Math.floor(Math.random() * 2); //returns 0 or 1\nvar whichRouteStr = whichRouteInt == 1 ? \"T\" : \"B\";\nglobal.set(\"startRoute\", whichRouteStr);\nvar bldg1 = whichSide + whichRouteStr + \"M\"; //e.g. bldg LTM\nvar bldg2 = whichSide + whichRouteStr + \"I\"; //e.g. bldg LTI\n\n//--- Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 1 to FS of 8\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\nglobal.set(bldg1+\".Damage\", 8);\nmsg2.payload.bldg = bldg2;\nmsg2.payload.window = 1;\nmsg2.payload.numFire = 8;\nglobal.set(bldg2 + \".Damage\", 8);\n\n\n//Fin\nreturn [msg1, msg2];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -3596,11 +3602,11 @@
         "id": "4b6a57a81a1ea4ce",
         "type": "link out",
         "z": "55a762ae72fa441b",
+        "d": true,
         "g": "6a8702296ddd22a1",
         "name": "Start Burn Timer",
         "mode": "link",
         "links": [
-            "4bed08c71e9e8bf9",
             "ff0af9f0a11f5393"
         ],
         "x": 675,
@@ -3622,6 +3628,7 @@
         "id": "ff0af9f0a11f5393",
         "type": "link in",
         "z": "55a762ae72fa441b",
+        "d": true,
         "g": "4788e8d5cbe11d8f",
         "name": "Start tha burn",
         "links": [
@@ -4528,7 +4535,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "curPhase",
+                "p": "matchPhase",
                 "pt": "global",
                 "to": "3",
                 "tot": "num"
@@ -4539,7 +4546,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 960,
+        "x": 970,
         "y": 3840,
         "wires": [
             [
@@ -4627,7 +4634,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "curPhase",
+                "p": "matchPhase",
                 "pt": "global",
                 "to": "1",
                 "tot": "num"
@@ -4638,7 +4645,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 530,
+        "x": 540,
         "y": 1500,
         "wires": [
             [
@@ -4655,8 +4662,8 @@
         "type": "switch",
         "z": "55a762ae72fa441b",
         "g": "b2c04e106e7697f0",
-        "name": "curPhase > 0",
-        "property": "curPhase",
+        "name": "matchPhase > 0",
+        "property": "matchPhase",
         "propertyType": "global",
         "rules": [
             {
@@ -4668,7 +4675,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 390,
+        "x": 400,
         "y": 2700,
         "wires": [
             [
@@ -4681,8 +4688,8 @@
         "type": "switch",
         "z": "55a762ae72fa441b",
         "g": "b2c04e106e7697f0",
-        "name": "curPhase > 0",
-        "property": "curPhase",
+        "name": "matchPhase > 0",
+        "property": "matchPhase",
         "propertyType": "global",
         "rules": [
             {
@@ -4694,7 +4701,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 390,
+        "x": 400,
         "y": 2480,
         "wires": [
             [
@@ -5156,7 +5163,7 @@
         "z": "55a762ae72fa441b",
         "g": "6a8702296ddd22a1",
         "name": "Check Phase",
-        "property": "curPhase",
+        "property": "matchPhase",
         "propertyType": "global",
         "rules": [
             {
@@ -5182,7 +5189,7 @@
         "z": "55a762ae72fa441b",
         "g": "2b2a6d295740d392",
         "name": "Check Phase",
-        "property": "curPhase",
+        "property": "matchPhase",
         "propertyType": "global",
         "rules": [
             {
@@ -5264,7 +5271,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "curPhase",
+                "p": "matchPhase",
                 "pt": "global",
                 "to": "2",
                 "tot": "num"
@@ -5275,7 +5282,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 930,
+        "x": 940,
         "y": 3200,
         "wires": [
             [
@@ -5292,7 +5299,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "curPhase",
+                "p": "matchPhase",
                 "pt": "global",
                 "to": "-1",
                 "tot": "num"
@@ -5303,7 +5310,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 300,
+        "x": 310,
         "y": 3840,
         "wires": [
             [
@@ -5320,7 +5327,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "curPhase",
+                "p": "matchPhase",
                 "pt": "global",
                 "to": "-1",
                 "tot": "num"
@@ -5331,7 +5338,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 270,
+        "x": 280,
         "y": 3200,
         "wires": [
             [
@@ -5383,7 +5390,7 @@
         "z": "55a762ae72fa441b",
         "g": "02ce9447bb02faf7",
         "name": "First Burning Bldgs -> 2 Windows",
-        "func": "//--- Set up vars\nif (global.get(\"curPhase\") == 1) {\n    var whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\n} else if(global.get(\"curPhase\") == 2) { \n    var whichSide = global.get(\"otherSide\"); \n}\nvar whichRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Check on the bldgs\n// Anyone who is still burning (i.e. team has not turned FS to 0) expands to next window\n// Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 2 to FS of 8\nif (global.get(bldg1 + \".FS.Window1-AfterWater\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1-AfterWater\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\n\n//Fin\nreturn [msg1, msg2];",
+        "func": "//--- Set up vars\nif (global.get(\"matchPhase\") == 1) {\n    var whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\n} else if (global.get(\"matchPhase\") == 2) { \n    var whichSide = global.get(\"otherSide\"); \n}\nvar whichRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Check on the bldgs\n// Anyone who is still burning (i.e. team has not turned FS to 0) expands to next window\n// Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 2 to FS of 8\nif (global.get(bldg1 + \".FS.Window1-AfterWater\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1-AfterWater\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\n\n//Fin\nreturn [msg1, msg2];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -5423,7 +5430,7 @@
         "g": "02ce9447bb02faf7",
         "name": "Start tha burn",
         "links": [
-            "4b6a57a81a1ea4ce"
+            "840d83d276567759"
         ],
         "x": 1225,
         "y": 2040,
@@ -5466,7 +5473,7 @@
         "z": "55a762ae72fa441b",
         "g": "02ce9447bb02faf7",
         "name": "Second Bldgs -> 1 Window",
-        "func": "//--- Set up vars\nif (global.get(\"curPhase\") == 1) {\n    var whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\n} else if (global.get(\"curPhase\") == 2) {\n    var whichSide = global.get(\"otherSide\");\n}\nvar startRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar whichRoute = startRoute == \"T\" ? \"B\" : \"T\"; //opposite\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 1 to FS of 8\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\nmsg2.payload.bldg = bldg2;\nmsg2.payload.window = 1;\nmsg2.payload.numFire = 8;\n\n//Fin\nreturn [msg1, msg2];",
+        "func": "//--- Set up vars\nif (global.get(\"matchPhase\") == 1) {\n    var whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\n} else if (global.get(\"matchPhase\") == 2) {\n    var whichSide = global.get(\"otherSide\");\n}\nvar startRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar whichRoute = startRoute == \"T\" ? \"B\" : \"T\"; //opposite\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 1 to FS of 8\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\nmsg2.payload.bldg = bldg2;\nmsg2.payload.window = 1;\nmsg2.payload.numFire = 8;\n\n//Fin\nreturn [msg1, msg2];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -5532,7 +5539,7 @@
         "z": "55a762ae72fa441b",
         "g": "02ce9447bb02faf7",
         "name": "Second Bldgs -> 2 Windows",
-        "func": "//--- Set up vars\nif (global.get(\"curPhase\") == 1) {\n    var whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\n} else if (global.get(\"curPhase\") == 2) {\n    var whichSide = global.get(\"otherSide\");\n}\nvar startRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar whichRoute = startRoute == \"T\" ? \"B\" : \"T\"; //opposite\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nvar msg2 = {};\nmsg1.payload = {};\nmsg2.payload = {};\n\n\n//--- Check on the bldgs\n// Anyone who is still burning (i.e. team has not turned FS to 0) expands to next window\n// Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 2 to FS of 8\nif (global.get(bldg1 + \".FS.Window1-AfterWater\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1-AfterWater\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\n\n\n//Fin\nreturn [msg1, msg2];",
+        "func": "//--- Set up vars\nif (global.get(\"matchPhase\") == 1) {\n    var whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\n} else if (global.get(\"matchPhase\") == 2) {\n    var whichSide = global.get(\"otherSide\");\n}\nvar startRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar whichRoute = startRoute == \"T\" ? \"B\" : \"T\"; //opposite\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nvar msg2 = {};\nmsg1.payload = {};\nmsg2.payload = {};\n\n\n//--- Check on the bldgs\n// Anyone who is still burning (i.e. team has not turned FS to 0) expands to next window\n// Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 2 to FS of 8\nif (global.get(bldg1 + \".FS.Window1-AfterWater\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1-AfterWater\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\n\n\n//Fin\nreturn [msg1, msg2];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -5780,26 +5787,12 @@
         "name": "Time to Start Burn Rev2",
         "mode": "link",
         "links": [
-            "1a85280e23bfe3a9"
+            "1a85280e23bfe3a9",
+            "4bed08c71e9e8bf9"
         ],
         "x": 855,
         "y": 1720,
         "wires": []
-    },
-    {
-        "id": "1a85280e23bfe3a9",
-        "type": "link in",
-        "z": "55a762ae72fa441b",
-        "g": "02ce9447bb02faf7",
-        "name": "Start the Burn Rev2",
-        "links": [
-            "840d83d276567759"
-        ],
-        "x": 1225,
-        "y": 2360,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "44f4a840ec1b589d",
@@ -5862,7 +5855,7 @@
         "z": "55a762ae72fa441b",
         "g": "2971d7c90b74f3b4",
         "name": "Second Bldgs -> 2 Windows",
-        "func": "//--- Set up vars\nif (global.get(\"curPhase\") == 1) {\n    var whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\n} else if (global.get(\"curPhase\") == 2) {\n    var whichSide = global.get(\"otherSide\");\n}\nvar startRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar whichRoute = startRoute == \"T\" ? \"B\" : \"T\"; //opposite\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nvar msg2 = {};\nmsg1.payload = {};\nmsg2.payload = {};\n\n\n//--- Check on the bldgs\n// Anyone who is still burning (i.e. team has not turned FS to 0) expands to next window\n// Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 2 to FS of 8\nif (global.get(bldg1 + \".FS.Window1-AfterWater\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1-AfterWater\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\n\n\n//Fin\nreturn [msg1, msg2];",
+        "func": "//--- Set up vars\nif (global.get(\"matchPhase\") == 1) {\n    var whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\n} else if (global.get(\"matchPhase\") == 2) {\n    var whichSide = global.get(\"otherSide\");\n}\nvar startRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar whichRoute = startRoute == \"T\" ? \"B\" : \"T\"; //opposite\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nvar msg2 = {};\nmsg1.payload = {};\nmsg2.payload = {};\n\n\n//--- Check on the bldgs\n// Anyone who is still burning (i.e. team has not turned FS to 0) expands to next window\n// Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 2 to FS of 8\nif (global.get(bldg1 + \".FS.Window1-AfterWater\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1-AfterWater\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\n\n\n//Fin\nreturn [msg1, msg2];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -5911,7 +5904,7 @@
         "z": "55a762ae72fa441b",
         "g": "2971d7c90b74f3b4",
         "name": "Second Bldgs -> 1 Window",
-        "func": "//--- Set up vars\nif (global.get(\"curPhase\") == 1) {\n    var whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\n} else if (global.get(\"curPhase\") == 2) {\n    var whichSide = global.get(\"otherSide\");\n}\nvar startRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar whichRoute = startRoute == \"T\" ? \"B\" : \"T\"; //opposite\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 1 to FS of 8\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\nmsg2.payload.bldg = bldg2;\nmsg2.payload.window = 1;\nmsg2.payload.numFire = 8;\n\n//Fin\nreturn [msg1, msg2];",
+        "func": "//--- Set up vars\nif (global.get(\"matchPhase\") == 1) {\n    var whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\n} else if (global.get(\"matchPhase\") == 2) {\n    var whichSide = global.get(\"otherSide\");\n}\nvar startRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar whichRoute = startRoute == \"T\" ? \"B\" : \"T\"; //opposite\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 1 to FS of 8\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\nmsg2.payload.bldg = bldg2;\nmsg2.payload.window = 1;\nmsg2.payload.numFire = 8;\n\n//Fin\nreturn [msg1, msg2];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -6321,6 +6314,17 @@
                 "e08a0860d7eb970a"
             ]
         ]
+    },
+    {
+        "id": "6e370ae98e13d2cd",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "4788e8d5cbe11d8f",
+        "name": "===== OBSOLETE? =====",
+        "info": "",
+        "x": 180,
+        "y": 1980,
+        "wires": []
     },
     {
         "id": "7a5f520857017bbb",
@@ -7135,7 +7139,7 @@
         "z": "175af8efcea2d591",
         "g": "738dc520034f11a7",
         "name": "Calc Fire CLEAR Score",
-        "func": "var theClearScore = 0;\n\n// --- Invert the totalFS based on which phase\n// ----------- Best way to fix this in the future: make this part just calculate a \n//              \"current FCS\" / \"invert FS\", then add the FS from the previous phases in / do the other math\n/// ========= THIS IS DOUBLE COUNTING BECAUSE PHASES 1 AND 2 ASSUME ONLY \n///           ONE SIDE OF BLDGS WORTH OF FS, BUT PHASE 3 IS DOUBLED\n///           BECAUSE GAME\n//node.warn(global.get(\"curPhase\"));\n//node.warn(global.get(\"totalFS\"));\nswitch(global.get(\"curPhase\")) {\n    case 1:\n        theClearScore = 96 - global.get(\"totalFS\");\n        break;\n    case 2:\n        theClearScore = 96 + (96 - global.get(\"totalFS\"));\n        break;\n    case 3:\n        theClearScore = 96 + 96 + (96 - global.get(\"totalFS\"));\n        break;\n    default:\n        break;\n}\n\n\n// bandaids on bandaids math wheeee\ntheClearScore = Math.floor(theClearScore / 2);\ntheClearScore = theClearScore + global.get(\"trees-left-1\") + global.get(\"trees-left-2\") + global.get(\"trees-right-1\") + global.get(\"trees-right-2\");\n\n//node.warn(theClearScore);\n\n// - Fin\nmsg.payload = theClearScore;\nreturn msg;",
+        "func": "var theClearScore = 0;\n\n// --- Invert the totalFS based on which phase\n// ----------- Best way to fix this in the future: make this part just calculate a \n//              \"current FCS\" / \"invert FS\", then add the FS from the previous phases in / do the other math\n/// ========= THIS IS DOUBLE COUNTING BECAUSE PHASES 1 AND 2 ASSUME ONLY \n///           ONE SIDE OF BLDGS WORTH OF FS, BUT PHASE 3 IS DOUBLED\n///           BECAUSE GAME\n//node.warn(global.get(\"matchPhase\"));\n//node.warn(global.get(\"totalFS\"));\nswitch (global.get(\"matchPhase\")) {\n    case 1:\n        theClearScore = 96 - global.get(\"totalFS\");\n        break;\n    case 2:\n        theClearScore = 96 + (96 - global.get(\"totalFS\"));\n        break;\n    case 3:\n        theClearScore = 96 + 96 + (96 - global.get(\"totalFS\"));\n        break;\n    default:\n        break;\n}\n\n\n// bandaids on bandaids math wheeee\ntheClearScore = Math.floor(theClearScore / 2);\ntheClearScore = theClearScore + global.get(\"trees-left-1\") + global.get(\"trees-left-2\") + global.get(\"trees-right-1\") + global.get(\"trees-right-2\");\n\n//node.warn(theClearScore);\n\n// - Fin\nmsg.payload = theClearScore;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7933,7 +7937,7 @@
         "z": "f6f035102302ba5a",
         "g": "284c27310b25477c",
         "name": "Which phase",
-        "property": "curPhase",
+        "property": "matchPhase",
         "propertyType": "global",
         "rules": [
             {
