@@ -622,9 +622,7 @@
             "93a01049a60df5c5"
         ],
         "x": 54,
-        "y": 39,
-        "w": 1052,
-        "h": 462
+        "y": 39
     },
     {
         "id": "a83bb00d46efe804",
@@ -656,9 +654,7 @@
             "ad34ea44766153db"
         ],
         "x": 134,
-        "y": 659,
-        "w": 1272,
-        "h": 402
+        "y": 659
     },
     {
         "id": "e63633ec18181ba7",
@@ -687,9 +683,7 @@
             "c79cb601a8c0ab17"
         ],
         "x": 134,
-        "y": 1099,
-        "w": 952,
-        "h": 342
+        "y": 1099
     },
     {
         "id": "bc92f0b2168e67b1",
@@ -711,9 +705,7 @@
             "cd811a5da6dea1c9"
         ],
         "x": 1174,
-        "y": 1079,
-        "w": 512,
-        "h": 122
+        "y": 1079
     },
     {
         "id": "2024311963b7a70e",
@@ -734,9 +726,7 @@
             "b70ae83c222fa7da"
         ],
         "x": 1174,
-        "y": 1299,
-        "w": 482,
-        "h": 122
+        "y": 1299
     },
     {
         "id": "7ceda8dc6f5a8d60",
@@ -758,9 +748,7 @@
             "ccf03d13258bb4e3"
         ],
         "x": 134,
-        "y": 1499,
-        "w": 792,
-        "h": 142
+        "y": 1499
     },
     {
         "id": "96cafb8e88dad064",
@@ -782,9 +770,7 @@
             "c74fb766b19e2bf1"
         ],
         "x": 134,
-        "y": 1679,
-        "w": 832,
-        "h": 142
+        "y": 1679
     },
     {
         "id": "96faa29525ade8f0",
@@ -818,9 +804,7 @@
             "da8da29f2b800fa5"
         ],
         "x": 134,
-        "y": 59,
-        "w": 672,
-        "h": 542
+        "y": 59
     },
     {
         "id": "a298e34363e28341",
@@ -849,9 +833,7 @@
             "9498eab6a1cd0f2a"
         ],
         "x": 54,
-        "y": 499,
-        "w": 952,
-        "h": 242
+        "y": 499
     },
     {
         "id": "821639e23b06e8b7",
@@ -880,9 +862,7 @@
             "3e1b0163bae2fa11"
         ],
         "x": 54,
-        "y": 719,
-        "w": 952,
-        "h": 242
+        "y": 719
     },
     {
         "id": "b00a1e1bf34b7a99",
@@ -911,9 +891,7 @@
             "5a7f6afebccd7fa7"
         ],
         "x": 54,
-        "y": 959,
-        "w": 952,
-        "h": 282
+        "y": 959
     },
     {
         "id": "0b3af3753f33292d",
@@ -942,9 +920,7 @@
             "8d059dd5b45d6a89"
         ],
         "x": 54,
-        "y": 1239,
-        "w": 952,
-        "h": 262
+        "y": 1239
     },
     {
         "id": "dc5384f7b9f470a3",
@@ -973,9 +949,7 @@
             "5b091724b2b67ab5"
         ],
         "x": 54,
-        "y": 1499,
-        "w": 942,
-        "h": 262
+        "y": 1499
     },
     {
         "id": "58bd3feb98c01c36",
@@ -1004,9 +978,7 @@
             "dc8f4d8f85a10f79"
         ],
         "x": 54,
-        "y": 1759,
-        "w": 942,
-        "h": 242
+        "y": 1759
     },
     {
         "id": "21aaba78e384f976",
@@ -1035,9 +1007,7 @@
             "a767d0c5f4352f2d"
         ],
         "x": 54,
-        "y": 1979,
-        "w": 942,
-        "h": 242
+        "y": 1979
     },
     {
         "id": "6ac6b771fff8c239",
@@ -1066,9 +1036,7 @@
             "2a78ff579a5e9464"
         ],
         "x": 54,
-        "y": 2219,
-        "w": 942,
-        "h": 222
+        "y": 2219
     },
     {
         "id": "6a070793fb470a03",
@@ -1099,9 +1067,7 @@
             "31c4db3eb2f36e59"
         ],
         "x": 114,
-        "y": 59,
-        "w": 872,
-        "h": 322
+        "y": 59
     },
     {
         "id": "18778eda46bd5b07",
@@ -1120,9 +1086,7 @@
             "4eb1999fbc3aab57"
         ],
         "x": 114,
-        "y": 859,
-        "w": 652,
-        "h": 182
+        "y": 859
     },
     {
         "id": "378995858571b39f",
@@ -1153,9 +1117,7 @@
             "48373ebe740e92b6"
         ],
         "x": 114,
-        "y": 479,
-        "w": 892,
-        "h": 322
+        "y": 479
     },
     {
         "id": "4f152b1eeea1837b",
@@ -1181,9 +1143,7 @@
             "e3641c48aef6dae2"
         ],
         "x": 134,
-        "y": 1099,
-        "w": 1052,
-        "h": 222
+        "y": 1099
     },
     {
         "id": "da5dfd18efe136b1",
@@ -1241,9 +1201,7 @@
             "c9d158730c6fc6a5"
         ],
         "x": 1074,
-        "y": 539,
-        "w": 712,
-        "h": 222
+        "y": 539
     },
     {
         "id": "ab2d725536c9b091",
@@ -1282,9 +1240,7 @@
             "3b6b77c692325673"
         ],
         "x": 1114,
-        "y": 1559,
-        "w": 812,
-        "h": 502
+        "y": 1559
     },
     {
         "id": "86746eb8946eaa91",
@@ -1308,9 +1264,7 @@
             "3f38d246c62ef7bd"
         ],
         "x": 134,
-        "y": 1439,
-        "w": 592,
-        "h": 222
+        "y": 1439
     },
     {
         "id": "77bdfe65956919ec",
@@ -1342,9 +1296,7 @@
             "0e3ebf9316c50718"
         ],
         "x": 1214,
-        "y": 679,
-        "w": 1242,
-        "h": 362
+        "y": 679
     },
     {
         "id": "1e2b3d276327b031",
@@ -1367,9 +1319,7 @@
             "c9c52f1b1fc4875f"
         ],
         "x": 1214,
-        "y": 79,
-        "w": 792,
-        "h": 242
+        "y": 79
     },
     {
         "id": "b73bab6188d86888",
@@ -1392,97 +1342,7 @@
             "66877abc465757d5"
         ],
         "x": 1214,
-        "y": 359,
-        "w": 792,
-        "h": 242
-    },
-    {
-        "id": "a4436834ffd8d273",
-        "type": "group",
-        "z": "bd2296fd2d68d405",
-        "g": "bf327706215ccff4",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "0a259f61ef263ff4",
-            "48336719f32d37fa",
-            "994fdba605b8d390",
-            "a24ffcc749b1439d",
-            "0ca3f39d0e17b614",
-            "ec0812801f759152",
-            "fa539c94e51af673",
-            "7cf7c2a31bf1bcce",
-            "c5be06f462d960cb",
-            "16e630ed7e81d738"
-        ],
-        "x": 974,
-        "y": 1439,
-        "w": 712,
-        "h": 342
-    },
-    {
-        "id": "096607a1165ab5dd",
-        "type": "group",
-        "z": "bd2296fd2d68d405",
-        "g": "bf327706215ccff4",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "0daf3a9e8c310067",
-            "d728650e3d3d36c3",
-            "a1f8226389886d66",
-            "d6bac14fab6840fe",
-            "e05e346b9fb5fbd3",
-            "18fee8cf09aa56b6",
-            "15c8af9ecc4504b9",
-            "a672663eed4f1899",
-            "32b4fbc2e326e9d8",
-            "6df023e1989102e5"
-        ],
-        "x": 974,
-        "y": 1819,
-        "w": 712,
-        "h": 342
-    },
-    {
-        "id": "429025b01e7e6d4d",
-        "type": "group",
-        "z": "bd2296fd2d68d405",
-        "g": "bf327706215ccff4",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "06d3e2320ed797d7",
-            "260905c9622989e0",
-            "303c612e4f366a64",
-            "f8ed1d8e4301b635",
-            "dfd37ae16eec3d3b"
-        ],
-        "x": 974,
-        "y": 2199,
-        "w": 732,
-        "h": 262
+        "y": 359
     },
     {
         "id": "02ce9447bb02faf7",
@@ -1552,9 +1412,7 @@
             "a448d13962eb94f7"
         ],
         "x": 104,
-        "y": 2539,
-        "w": 682,
-        "h": 642
+        "y": 2539
     },
     {
         "id": "b786c9d92d164f0e",
@@ -1580,9 +1438,194 @@
             "e9d2f751156577aa"
         ],
         "x": 54,
-        "y": 3219,
-        "w": 1012,
-        "h": 242
+        "y": 3219
+    },
+    {
+        "id": "0bb0145c8adb017a",
+        "type": "group",
+        "z": "f66e6f21e6630f00",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "a847f6cdc0cb3084",
+            "d83d28b0aa1dfecf",
+            "083d670df93fc63f",
+            "c24d7ccb4813ce9a",
+            "cef9fe201b176c2d",
+            "360f48d9f6c2de07",
+            "0bfd858cbf7dd015",
+            "a982d77f63880d2c"
+        ],
+        "x": 34,
+        "y": 39
+    },
+    {
+        "id": "bf327706215ccff4",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "a4436834ffd8d273",
+            "096607a1165ab5dd",
+            "429025b01e7e6d4d"
+        ],
+        "x": 948,
+        "y": 1413
+    },
+    {
+        "id": "a034d18f4f2e4bd6",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "156f05bb828f97ee",
+            "4fdc3891a83ced02",
+            "ec0ec170aad778ad"
+        ],
+        "x": 1828,
+        "y": 1413
+    },
+    {
+        "id": "7ae10c2df5524d01",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "f1d2f751a9ddb7b8",
+            "10013add423d6bb2",
+            "0a1b72ac20c7b9d3",
+            "da5b434d466b7ab8",
+            "7a87f696ccb90fa6",
+            "0890dc5854489522",
+            "0c0397a08701116b",
+            "4f7890090a83f5bb",
+            "415239f281920bf8",
+            "9b8a3752bde55204",
+            "1b5afdc3c905373e",
+            "90e55099663abdb1",
+            "f50831d0c8b517d2",
+            "beb7282432692231",
+            "8d7c1e181f7ebb3a",
+            "5fed48b72b1963de",
+            "60affa2068161af8",
+            "dcae7ce4e5d49ca5",
+            "af339647b46b531f"
+        ],
+        "x": 1854,
+        "y": 2539
+    },
+    {
+        "id": "a4436834ffd8d273",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "g": "bf327706215ccff4",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "0a259f61ef263ff4",
+            "48336719f32d37fa",
+            "994fdba605b8d390",
+            "a24ffcc749b1439d",
+            "0ca3f39d0e17b614",
+            "ec0812801f759152",
+            "fa539c94e51af673",
+            "7cf7c2a31bf1bcce",
+            "c5be06f462d960cb",
+            "16e630ed7e81d738"
+        ],
+        "x": 974,
+        "y": 1439
+    },
+    {
+        "id": "096607a1165ab5dd",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "g": "bf327706215ccff4",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "0daf3a9e8c310067",
+            "d728650e3d3d36c3",
+            "a1f8226389886d66",
+            "d6bac14fab6840fe",
+            "e05e346b9fb5fbd3",
+            "18fee8cf09aa56b6",
+            "15c8af9ecc4504b9",
+            "a672663eed4f1899",
+            "32b4fbc2e326e9d8",
+            "6df023e1989102e5"
+        ],
+        "x": 974,
+        "y": 1819
+    },
+    {
+        "id": "429025b01e7e6d4d",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "g": "bf327706215ccff4",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "06d3e2320ed797d7",
+            "260905c9622989e0",
+            "303c612e4f366a64",
+            "f8ed1d8e4301b635",
+            "dfd37ae16eec3d3b"
+        ],
+        "x": 974,
+        "y": 2199
     },
     {
         "id": "2b2a6d295740d392",
@@ -1644,7 +1687,8 @@
             "b43ba60f45967c77",
             "c9e2c1f189fc8576",
             "e0c6c1515d7fb9ae",
-            "6d2a234344182486"
+            "6d2a234344182486",
+            "5d34c40fa95adf3b"
         ],
         "x": 94,
         "y": 599,
@@ -1668,89 +1712,17 @@
         "nodes": [
             "e5d8eb5d72932755",
             "e1f84c7be941ca8c",
-            "78f0d62baea56673",
             "8d1b28dd96f6b81e",
             "6ee9ecd341bb2e5c",
-            "d213416ed624b309"
+            "d213416ed624b309",
+            "317c4b8d0c02f08a",
+            "4173a50514c384c6",
+            "d3ed72bb430a14d5"
         ],
         "x": 94,
         "y": 439,
-        "w": 732,
+        "w": 912,
         "h": 142
-    },
-    {
-        "id": "0bb0145c8adb017a",
-        "type": "group",
-        "z": "f66e6f21e6630f00",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "a847f6cdc0cb3084",
-            "d83d28b0aa1dfecf",
-            "083d670df93fc63f",
-            "c24d7ccb4813ce9a",
-            "cef9fe201b176c2d",
-            "360f48d9f6c2de07",
-            "0bfd858cbf7dd015",
-            "a982d77f63880d2c"
-        ],
-        "x": 34,
-        "y": 39,
-        "w": 652,
-        "h": 262
-    },
-    {
-        "id": "bf327706215ccff4",
-        "type": "group",
-        "z": "bd2296fd2d68d405",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "a4436834ffd8d273",
-            "096607a1165ab5dd",
-            "429025b01e7e6d4d"
-        ],
-        "x": 948,
-        "y": 1413,
-        "w": 784,
-        "h": 1074
-    },
-    {
-        "id": "a034d18f4f2e4bd6",
-        "type": "group",
-        "z": "bd2296fd2d68d405",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "156f05bb828f97ee",
-            "4fdc3891a83ced02",
-            "ec0ec170aad778ad"
-        ],
-        "x": 1828,
-        "y": 1413,
-        "w": 784,
-        "h": 1074
     },
     {
         "id": "156f05bb828f97ee",
@@ -1779,9 +1751,7 @@
             "d4756f35786b766d"
         ],
         "x": 1854,
-        "y": 1439,
-        "w": 712,
-        "h": 342
+        "y": 1439
     },
     {
         "id": "4fdc3891a83ced02",
@@ -1811,9 +1781,7 @@
             "98833f39eaeba382"
         ],
         "x": 1854,
-        "y": 1635,
-        "w": 712,
-        "h": 526
+        "y": 1635
     },
     {
         "id": "ec0ec170aad778ad",
@@ -1837,48 +1805,7 @@
             "cd9a098d80ea8fca"
         ],
         "x": 1854,
-        "y": 2199,
-        "w": 732,
-        "h": 262
-    },
-    {
-        "id": "7ae10c2df5524d01",
-        "type": "group",
-        "z": "bd2296fd2d68d405",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "f1d2f751a9ddb7b8",
-            "10013add423d6bb2",
-            "0a1b72ac20c7b9d3",
-            "da5b434d466b7ab8",
-            "7a87f696ccb90fa6",
-            "0890dc5854489522",
-            "0c0397a08701116b",
-            "4f7890090a83f5bb",
-            "415239f281920bf8",
-            "9b8a3752bde55204",
-            "1b5afdc3c905373e",
-            "90e55099663abdb1",
-            "f50831d0c8b517d2",
-            "beb7282432692231",
-            "8d7c1e181f7ebb3a",
-            "5fed48b72b1963de",
-            "60affa2068161af8",
-            "dcae7ce4e5d49ca5",
-            "af339647b46b531f"
-        ],
-        "x": 1854,
-        "y": 2539,
-        "w": 1012,
-        "h": 322
+        "y": 2199
     },
     {
         "id": "b411c6135a7823e0",
@@ -2564,7 +2491,7 @@
         "func": "/* --------\nVARIABLE INITIALIZATIONS ARE NOW FOUND IN \"ON START\" TAB\n--------- */\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\n//--- Initialize global variables\n// - General / Manual mode / Utilities\nglobal.set(\"DEBUG\",true);\nglobal.set(\"manualMode.lightBldgAction\",\"1-OFF\");\n\n// - Match / field info         \nglobal.set(\"droneActiveSide\", \"L\");    //L or R - formerly startSide    \nglobal.set(\"droneNonActiveSide\", \"R\"); //L or R - formerly otherSide \nglobal.set(\"startRoute\", \"T\"); // T or B\nglobal.set(\"hotBldg\", \"T\");    // T or B\nglobal.set(\"matchPhase\",0);    // formerly curPhase - 0, 1, 2, or 3 (0 is inactive, otherwise phase #)\nglobal.set(\"totalPoints\",0);   // formerly totalFS\nglobal.set(\"waterDropMultiplier\", 1.0); // formerly ballDoubler\nglobal.set(\"laserHitMultiplier\", 1.0);  // formerly ballDoubler ish\nglobal.set(\"burnTimeTarget\", 9999);\nglobal.set(\"fireWindowSpreadDelay\", 30);  // # of seconds to spread fire to next window\nglobal.set(\"fireBuildingSpreadDelay\", 0); // # of seconds to spread fire to next building, 0 means no \nglobal.set(\"windowsPerBuilding\", 2);\nglobal.set(\"laserSensitivity\", 500);\n\n// - OBSOLETE match-specific\n/*\nglobal.set(\"startside\",\"L\");   // replaced by droneActiveSide\nglobal.set(\"otherSide\", \"R\");  // replaced by droneNonActiveSide\nglobal.set(\"curPhase\", 0);     // replaced by matchPhase\nglobal.set(\"totalFS\", 0);      // replaced by totalPoints\nglobal.set(\"balldoubler\", 1);  // replaced by waterDropMultiplier and laserHitMultiplier\n*/\n\n// - Building arrays / info\nvar rightBldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\nvar leftBldgs = [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar allBldgs = rightBldgs.concat(leftBldgs);\nvar heaterBldgs = [\"RTO\", \"RBO\", \"LBO\", \"LTO\"];\nvar laserBldgs = [\"LBO\", \"LBM\", \"LTM\", \"RTO\", \"RBM\", \"RTM\"];\nvar waterBldgs = [\"LTO\", \"LBI\", \"LTI\", \"RBO\", \"RBI\", \"RTI\"];\nvar trenchBldgs = [\"LTT\", \"RTT\"];\nglobal.set(\"rightBldgs\", rightBldgs);\nglobal.set(\"leftBldgs\", leftBldgs);\nglobal.set(\"allBldgs\", allBldgs);\nglobal.set(\"heaterBldgs\", heaterBldgs);\nglobal.set(\"laserBldgs\", laserBldgs);\nglobal.set(\"waterBldgs\", waterBldgs);\nglobal.set(\"trenchBldgs\",trenchBldgs);\n\n// - Specific building attributes\nfor (var i in allBldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(allBldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores \n    global.set(allBldgs[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-AfterWater\", 0);\n    global.set(allBldgs[i] + \".Damage\", 0);\n\n    // Water qtys - int\n    global.set(allBldgs[i] + \".WaterQty\", 0);\n\n    // Lights - Windows\n    global.set(allBldgs[i] + \".Lights.Window1\",\"OFF\");\n    global.set(allBldgs[i] + \".Lights.Window2\", \"OFF\");\n\n    // Lights - Gutterpixels - string of numbers that represent colors\n    global.set(allBldgs[i] + \".Lights.GutterPixels\", \"000000000000000000000000000000\");\n}\nfor (var i in trenchBldgs) {\n    global.set(trenchBldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\n\n//--- Send initialization MQTT's\n/*\nvar msg1 = {};\nvar msg2 = {};\nmsg1.topic = \"nodered/laserdiff\";\nmsg1.payload = \"{ \\\"[mqtt_goes_here]\\\": \" + global.get(\"laserSensitivity\");\"\n*/",
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\n//--- Initialize global variables\n// - General / Manual mode / Utilities\nglobal.set(\"DEBUG\",true);\nglobal.set(\"manualMode.lightBldgAction\",\"1-OFF\");\n\n// - Match / field info         \nglobal.set(\"droneActiveSide\", \"[N/A]\");    //L or R - formerly startSide    \nglobal.set(\"droneNonActiveSide\", \"R\"); //L or R - formerly otherSide \nglobal.set(\"startRoute\", \"T\"); // T or B\nglobal.set(\"hotBldg\", \"T\");    // T or B\nglobal.set(\"matchPhase\",0);    // formerly curPhase - 0, 1, 2, or 3 (0 is inactive, otherwise phase #)\nglobal.set(\"totalPoints\",0);   // formerly totalFS\nglobal.set(\"waterDropMultiplier\", 1.0); // formerly ballDoubler\nglobal.set(\"laserHitMultiplier\", 1.0);  // formerly ballDoubler ish\nglobal.set(\"burnTimeTarget\", 9999);\nglobal.set(\"fireWindowSpreadDelay\", 30);  // # of seconds to spread fire to next window\nglobal.set(\"fireBuildingSpreadDelay\", 0); // # of seconds to spread fire to next building, 0 means no \nglobal.set(\"windowsPerBuilding\", 2);\nglobal.set(\"laserSensitivity\", 500);\n\n// - OBSOLETE match-specific\n/*\nglobal.set(\"startside\",\"L\");   // replaced by droneActiveSide\nglobal.set(\"otherSide\", \"R\");  // replaced by droneNonActiveSide\nglobal.set(\"curPhase\", 0);     // replaced by matchPhase\nglobal.set(\"totalFS\", 0);      // replaced by totalPoints\nglobal.set(\"balldoubler\", 1);  // replaced by waterDropMultiplier and laserHitMultiplier\n*/\n\n// - Building arrays / info\nvar rightBldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\nvar leftBldgs = [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar allBldgs = rightBldgs.concat(leftBldgs);\nvar heaterBldgs = [\"RTO\", \"RBO\", \"LBO\", \"LTO\"];\nvar laserBldgs = [\"LBO\", \"LBM\", \"LTM\", \"RTO\", \"RBM\", \"RTM\"];\nvar waterBldgs = [\"LTO\", \"LBI\", \"LTI\", \"RBO\", \"RBI\", \"RTI\"];\nvar trenchBldgs = [\"LTT\", \"RTT\"];\nglobal.set(\"rightBldgs\", rightBldgs);\nglobal.set(\"leftBldgs\", leftBldgs);\nglobal.set(\"allBldgs\", allBldgs);\nglobal.set(\"heaterBldgs\", heaterBldgs);\nglobal.set(\"laserBldgs\", laserBldgs);\nglobal.set(\"waterBldgs\", waterBldgs);\nglobal.set(\"trenchBldgs\",trenchBldgs);\n\n// - Specific building attributes\nfor (var i in allBldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(allBldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores \n    global.set(allBldgs[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-AfterWater\", 0);\n    global.set(allBldgs[i] + \".Damage\", 0);\n\n    // Water qtys - int\n    global.set(allBldgs[i] + \".WaterQty\", 0);\n\n    // Lights - Windows\n    global.set(allBldgs[i] + \".Lights.Window1\",\"OFF\");\n    global.set(allBldgs[i] + \".Lights.Window2\", \"OFF\");\n\n    // Lights - Gutterpixels - string of numbers that represent colors\n    global.set(allBldgs[i] + \".Lights.GutterPixels\", \"000000000000000000000000000000\");\n}\nfor (var i in trenchBldgs) {\n    global.set(trenchBldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\n\n//--- Send initialization MQTT's\n/*\nvar msg1 = {};\nvar msg2 = {};\nmsg1.topic = \"nodered/laserdiff\";\nmsg1.payload = \"{ \\\"[mqtt_goes_here]\\\": \" + global.get(\"laserSensitivity\");\"\n*/",
         "finalize": "",
         "libs": [],
         "x": 450,
@@ -2610,7 +2537,7 @@
         "order": 1,
         "width": 5,
         "height": 1,
-        "passthru": true,
+        "passthru": false,
         "decouple": "false",
         "topic": "topic",
         "topicType": "msg",
@@ -2634,24 +2561,6 @@
         ]
     },
     {
-        "id": "78f0d62baea56673",
-        "type": "ui_text",
-        "z": "55a762ae72fa441b",
-        "g": "28011fcca82837fc",
-        "group": "062c9dae52b8ca4a",
-        "order": 2,
-        "width": 5,
-        "height": 1,
-        "name": "Startside Output",
-        "label": "",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "x": 720,
-        "y": 520,
-        "wires": []
-    },
-    {
         "id": "8d1b28dd96f6b81e",
         "type": "change",
         "z": "55a762ae72fa441b",
@@ -2667,14 +2576,14 @@
             },
             {
                 "t": "set",
-                "p": "startSide",
+                "p": "droneActiveSide",
                 "pt": "global",
                 "to": "R",
                 "tot": "str"
             },
             {
                 "t": "set",
-                "p": "otherSide",
+                "p": "droneNonActiveSide",
                 "pt": "global",
                 "to": "L",
                 "tot": "str"
@@ -2689,7 +2598,7 @@
         "y": 500,
         "wires": [
             [
-                "78f0d62baea56673"
+                "4173a50514c384c6"
             ]
         ]
     },
@@ -2739,14 +2648,14 @@
             },
             {
                 "t": "set",
-                "p": "startSide",
+                "p": "droneActiveSide",
                 "pt": "global",
                 "to": "L",
                 "tot": "str"
             },
             {
                 "t": "set",
-                "p": "otherSide",
+                "p": "droneNonActiveSide",
                 "pt": "global",
                 "to": "R",
                 "tot": "str"
@@ -2761,7 +2670,7 @@
         "y": 540,
         "wires": [
             [
-                "78f0d62baea56673"
+                "4173a50514c384c6"
             ]
         ]
     },
@@ -6127,6 +6036,293 @@
         ]
     },
     {
+        "id": "317c4b8d0c02f08a",
+        "type": "ui_text",
+        "z": "55a762ae72fa441b",
+        "g": "28011fcca82837fc",
+        "group": "062c9dae52b8ca4a",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "name": "Startside Output",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 900,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "4173a50514c384c6",
+        "type": "change",
+        "z": "55a762ae72fa441b",
+        "g": "28011fcca82837fc",
+        "name": "global -> payload",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "droneActiveSide",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 520,
+        "wires": [
+            [
+                "317c4b8d0c02f08a"
+            ]
+        ]
+    },
+    {
+        "id": "d3ed72bb430a14d5",
+        "type": "link in",
+        "z": "55a762ae72fa441b",
+        "g": "28011fcca82837fc",
+        "name": "Reset Output - Startside",
+        "links": [],
+        "x": 605,
+        "y": 480,
+        "wires": [
+            [
+                "317c4b8d0c02f08a"
+            ]
+        ]
+    },
+    {
+        "id": "5d34c40fa95adf3b",
+        "type": "link in",
+        "z": "55a762ae72fa441b",
+        "g": "ec7979310fe9e00f",
+        "name": "Reset Output - Hotbldg",
+        "links": [],
+        "x": 595,
+        "y": 640,
+        "wires": [
+            [
+                "6d2a234344182486"
+            ]
+        ]
+    },
+    {
+        "id": "45b2a30339f4ad99",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "name": "====\\n JANK PHASE 2 METHOD, THIS WILL NEED TO BE REPLACED WITH NIGE METHOD",
+        "info": "",
+        "x": 2360,
+        "y": 3140,
+        "wires": []
+    },
+    {
+        "id": "fda57943df6dddeb",
+        "type": "delay",
+        "z": "55a762ae72fa441b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2140,
+        "y": 3220,
+        "wires": [
+            [
+                "41102c25b0511ae6"
+            ]
+        ]
+    },
+    {
+        "id": "41102c25b0511ae6",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "name": "Spread phase 2 [jank]",
+        "func": "//--- Vars\nvar whichSide = global.get(\"otherSide\");\nvar whichRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\n\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\nvar msg3 = {};\nmsg3.payload = {};\n\n\n\n//-------------------------\n//-- THIS IS STILL THE JANK METHOD\n//-- WILL NEED TO BE UPDATED WITH THE NIGE METHOD\n\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\nvar burningBldgs = [bldg1, bldg2, bldg3];\nnode.warn(burningBldgs);\n\n// Check on it \nif (global.get(bldg1 + \".FS.Window1-AfterWater\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1-AfterWater\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\nif (global.get(bldg3 + \".FS.Window1-AfterWater\") > 0) {\n    msg3.payload.bldg = bldg3;\n    msg3.payload.window = 2;\n    msg3.payload.numFire = 8;\n}\n\nnode.warn(msg1);\nnode.warn(msg2);\nnode.warn(msg3);\n\n//Fin\nreturn [msg1, msg2, msg3];",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2340,
+        "y": 3220,
+        "wires": [
+            [
+                "ed716ab02d4082a2"
+            ],
+            [
+                "ed716ab02d4082a2"
+            ],
+            [
+                "ed716ab02d4082a2",
+                "2bf1904c5cdfea2c"
+            ]
+        ]
+    },
+    {
+        "id": "ed716ab02d4082a2",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "name": "Send phase 2 FS updates",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42"
+        ],
+        "x": 2505,
+        "y": 3220,
+        "wires": []
+    },
+    {
+        "id": "2bf1904c5cdfea2c",
+        "type": "delay",
+        "z": "55a762ae72fa441b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2140,
+        "y": 3300,
+        "wires": [
+            [
+                "21a3e408cf9c4ffc"
+            ]
+        ]
+    },
+    {
+        "id": "ad963e02c9e92e23",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "name": "Send phase 2 FS updates",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42"
+        ],
+        "x": 2465,
+        "y": 3300,
+        "wires": []
+    },
+    {
+        "id": "9ff066051ce6b800",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "name": "Spread phase 2 [jank]",
+        "func": "//--- Vars\nvar whichSide = global.get(\"otherSide\");\nvar whichRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nwhichRoute = whichRoute == \"T\" ? \"B\" : \"T\";\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\n\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\nvar msg3 = {};\nmsg3.payload = {};\n\n\n\n//-------------------------\n//-- THIS IS STILL THE JANK METHOD\n//-- WILL NEED TO BE UPDATED WITH THE NIGE METHOD\n\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\nvar burningBldgs = [bldg1, bldg2, bldg3];\nnode.warn(burningBldgs);\n\n// Check on it \nif (global.get(bldg1 + \".FS.Window1-AfterWater\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1-AfterWater\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\nif (global.get(bldg3 + \".FS.Window1-AfterWater\") > 0) {\n    msg3.payload.bldg = bldg3;\n    msg3.payload.window = 2;\n    msg3.payload.numFire = 8;\n}\n\nnode.warn(msg1);\nnode.warn(msg2);\nnode.warn(msg3);\n\n//Fin\nreturn [msg1, msg2, msg3];",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2340,
+        "y": 3380,
+        "wires": [
+            [
+                "818f620db7bf22cc"
+            ],
+            [
+                "818f620db7bf22cc"
+            ],
+            [
+                "818f620db7bf22cc"
+            ]
+        ]
+    },
+    {
+        "id": "818f620db7bf22cc",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "name": "Send phase 2 FS updates",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42"
+        ],
+        "x": 2505,
+        "y": 3380,
+        "wires": []
+    },
+    {
+        "id": "e08a0860d7eb970a",
+        "type": "delay",
+        "z": "55a762ae72fa441b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2140,
+        "y": 3380,
+        "wires": [
+            [
+                "9ff066051ce6b800"
+            ]
+        ]
+    },
+    {
+        "id": "01d28ef179167563",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "name": "====\\n ALSO - THIS TIMER WILL NEED TO RUN OUT AFTER TEH MATCH FINISHES",
+        "info": "",
+        "x": 2360,
+        "y": 3460,
+        "wires": []
+    },
+    {
+        "id": "21a3e408cf9c4ffc",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "name": "Spread phase 2 second bldgs [jank]",
+        "func": "//--- Vars\nvar whichSide = global.get(\"otherSide\");\nvar whichRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nwhichRoute = whichRoute==\"T\" ? \"B\": \"T\";\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\n\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\nvar msg3 = {};\nmsg3.payload = {};\n\n\n\n//-------------------------\n//-- THIS IS STILL THE JANK METHOD\n//-- WILL NEED TO BE UPDATED WITH THE NIGE METHOD\n\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\nvar burningBldgs = [bldg1, bldg2, bldg3];\nnode.warn(burningBldgs);\n\n// do it\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 1;\n    msg2.payload.numFire = 8;\nmsg3.payload.bldg = bldg3;\nmsg3.payload.window =1;\nmsg3.payload.numFire = 8;\n\n\nnode.warn(msg1);\nnode.warn(msg2);\nnode.warn(msg3);\n\n//Fin\nreturn [msg1, msg2, msg3];",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2380,
+        "y": 3300,
+        "wires": [
+            [
+                "ad963e02c9e92e23"
+            ],
+            [
+                "ad963e02c9e92e23"
+            ],
+            [
+                "ad963e02c9e92e23",
+                "e08a0860d7eb970a"
+            ]
+        ]
+    },
+    {
         "id": "7a5f520857017bbb",
         "type": "mqtt in",
         "z": "47c0e0ae667846a9",
@@ -7003,7 +7199,10 @@
             "c1a90303531def31",
             "93e63f839cdaec05",
             "37c7a2dbbcb0a457",
-            "340b990d6b13e2a7"
+            "340b990d6b13e2a7",
+            "ed716ab02d4082a2",
+            "ad963e02c9e92e23",
+            "818f620db7bf22cc"
         ],
         "x": 205,
         "y": 300,
