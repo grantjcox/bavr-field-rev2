@@ -130,7 +130,6 @@
         },
         "nodes": [
             "fd280fb139a56e3e",
-            "9321df77664c4496",
             "82a8466517112ffd",
             "c612b81a64bb9759",
             "ee7fad842ebd85de",
@@ -160,7 +159,8 @@
             "4ddc4f8c8e23432a",
             "334fd460617b85bd",
             "840d83d276567759",
-            "a920288bc5a73af2"
+            "a920288bc5a73af2",
+            "87776e9d6e72f8b7"
         ],
         "x": 34,
         "y": 1259,
@@ -186,9 +186,7 @@
             "5f3e0a85eea68705"
         ],
         "x": 34,
-        "y": 19,
-        "w": 552,
-        "h": 122
+        "y": 19
     },
     {
         "id": "aa7cdd8f3125703c",
@@ -211,9 +209,7 @@
             "6e6816ac951a5c0f"
         ],
         "x": 34,
-        "y": 159,
-        "w": 852,
-        "h": 182
+        "y": 159
     },
     {
         "id": "2ac942eccf98a996",
@@ -325,9 +321,7 @@
             "f2b56dfdbbe11a17"
         ],
         "x": 134,
-        "y": 79,
-        "w": 2712,
-        "h": 362
+        "y": 79
     },
     {
         "id": "5f1037ebc6dbd72f",
@@ -350,9 +344,7 @@
             "19c221d99629ee7a"
         ],
         "x": 94,
-        "y": 547,
-        "w": 872,
-        "h": 154
+        "y": 547
     },
     {
         "id": "459fe488a5804676",
@@ -380,9 +372,7 @@
             "71f67f7f27cafd81"
         ],
         "x": 74,
-        "y": 807,
-        "w": 1592,
-        "h": 266
+        "y": 807
     },
     {
         "id": "11a9b9cee18f6b6c",
@@ -411,9 +401,7 @@
             "a429c99752090afe"
         ],
         "x": 74,
-        "y": 1179,
-        "w": 772,
-        "h": 322
+        "y": 1179
     },
     {
         "id": "3a81c46c8f3762a2",
@@ -436,9 +424,7 @@
             "1b55865e8e16d405"
         ],
         "x": 34,
-        "y": 399,
-        "w": 812,
-        "h": 122
+        "y": 399
     },
     {
         "id": "2971d7c90b74f3b4",
@@ -600,9 +586,7 @@
             "93a01049a60df5c5"
         ],
         "x": 54,
-        "y": 39,
-        "w": 1052,
-        "h": 462
+        "y": 39
     },
     {
         "id": "a83bb00d46efe804",
@@ -634,9 +618,7 @@
             "ad34ea44766153db"
         ],
         "x": 134,
-        "y": 659,
-        "w": 1272,
-        "h": 402
+        "y": 659
     },
     {
         "id": "e63633ec18181ba7",
@@ -665,9 +647,7 @@
             "c79cb601a8c0ab17"
         ],
         "x": 134,
-        "y": 1099,
-        "w": 952,
-        "h": 342
+        "y": 1099
     },
     {
         "id": "bc92f0b2168e67b1",
@@ -689,9 +669,7 @@
             "cd811a5da6dea1c9"
         ],
         "x": 1174,
-        "y": 1079,
-        "w": 512,
-        "h": 122
+        "y": 1079
     },
     {
         "id": "2024311963b7a70e",
@@ -712,9 +690,7 @@
             "b70ae83c222fa7da"
         ],
         "x": 1174,
-        "y": 1299,
-        "w": 482,
-        "h": 122
+        "y": 1299
     },
     {
         "id": "7ceda8dc6f5a8d60",
@@ -736,9 +712,7 @@
             "ccf03d13258bb4e3"
         ],
         "x": 134,
-        "y": 1499,
-        "w": 792,
-        "h": 142
+        "y": 1499
     },
     {
         "id": "96cafb8e88dad064",
@@ -760,9 +734,7 @@
             "c74fb766b19e2bf1"
         ],
         "x": 134,
-        "y": 1679,
-        "w": 832,
-        "h": 142
+        "y": 1679
     },
     {
         "id": "96faa29525ade8f0",
@@ -796,9 +768,7 @@
             "da8da29f2b800fa5"
         ],
         "x": 134,
-        "y": 59,
-        "w": 672,
-        "h": 542
+        "y": 59
     },
     {
         "id": "a298e34363e28341",
@@ -827,9 +797,7 @@
             "9498eab6a1cd0f2a"
         ],
         "x": 54,
-        "y": 499,
-        "w": 952,
-        "h": 242
+        "y": 499
     },
     {
         "id": "821639e23b06e8b7",
@@ -858,9 +826,7 @@
             "3e1b0163bae2fa11"
         ],
         "x": 54,
-        "y": 719,
-        "w": 952,
-        "h": 242
+        "y": 719
     },
     {
         "id": "b00a1e1bf34b7a99",
@@ -889,9 +855,7 @@
             "5a7f6afebccd7fa7"
         ],
         "x": 54,
-        "y": 959,
-        "w": 952,
-        "h": 282
+        "y": 959
     },
     {
         "id": "0b3af3753f33292d",
@@ -920,9 +884,7 @@
             "8d059dd5b45d6a89"
         ],
         "x": 54,
-        "y": 1239,
-        "w": 952,
-        "h": 262
+        "y": 1239
     },
     {
         "id": "dc5384f7b9f470a3",
@@ -951,9 +913,7 @@
             "5b091724b2b67ab5"
         ],
         "x": 54,
-        "y": 1499,
-        "w": 942,
-        "h": 262
+        "y": 1499
     },
     {
         "id": "58bd3feb98c01c36",
@@ -982,9 +942,7 @@
             "dc8f4d8f85a10f79"
         ],
         "x": 54,
-        "y": 1759,
-        "w": 942,
-        "h": 242
+        "y": 1759
     },
     {
         "id": "21aaba78e384f976",
@@ -1013,9 +971,7 @@
             "a767d0c5f4352f2d"
         ],
         "x": 54,
-        "y": 1979,
-        "w": 942,
-        "h": 242
+        "y": 1979
     },
     {
         "id": "6ac6b771fff8c239",
@@ -1044,9 +1000,7 @@
             "2a78ff579a5e9464"
         ],
         "x": 54,
-        "y": 2219,
-        "w": 942,
-        "h": 222
+        "y": 2219
     },
     {
         "id": "6a070793fb470a03",
@@ -1077,9 +1031,7 @@
             "31c4db3eb2f36e59"
         ],
         "x": 114,
-        "y": 59,
-        "w": 872,
-        "h": 322
+        "y": 59
     },
     {
         "id": "18778eda46bd5b07",
@@ -1098,9 +1050,7 @@
             "4eb1999fbc3aab57"
         ],
         "x": 114,
-        "y": 859,
-        "w": 652,
-        "h": 182
+        "y": 859
     },
     {
         "id": "378995858571b39f",
@@ -1131,9 +1081,7 @@
             "48373ebe740e92b6"
         ],
         "x": 114,
-        "y": 479,
-        "w": 892,
-        "h": 322
+        "y": 479
     },
     {
         "id": "4f152b1eeea1837b",
@@ -1159,9 +1107,7 @@
             "e3641c48aef6dae2"
         ],
         "x": 134,
-        "y": 1099,
-        "w": 1052,
-        "h": 222
+        "y": 1099
     },
     {
         "id": "da5dfd18efe136b1",
@@ -1220,9 +1166,7 @@
             "c9d158730c6fc6a5"
         ],
         "x": 1074,
-        "y": 539,
-        "w": 712,
-        "h": 222
+        "y": 539
     },
     {
         "id": "ab2d725536c9b091",
@@ -1261,9 +1205,7 @@
             "3b6b77c692325673"
         ],
         "x": 1114,
-        "y": 1559,
-        "w": 812,
-        "h": 502
+        "y": 1559
     },
     {
         "id": "86746eb8946eaa91",
@@ -1287,9 +1229,7 @@
             "3f38d246c62ef7bd"
         ],
         "x": 134,
-        "y": 1439,
-        "w": 592,
-        "h": 222
+        "y": 1439
     },
     {
         "id": "77bdfe65956919ec",
@@ -1321,9 +1261,7 @@
             "0e3ebf9316c50718"
         ],
         "x": 1214,
-        "y": 679,
-        "w": 1242,
-        "h": 362
+        "y": 679
     },
     {
         "id": "1e2b3d276327b031",
@@ -1346,9 +1284,7 @@
             "c9c52f1b1fc4875f"
         ],
         "x": 1214,
-        "y": 79,
-        "w": 792,
-        "h": 242
+        "y": 79
     },
     {
         "id": "b73bab6188d86888",
@@ -1371,9 +1307,7 @@
             "66877abc465757d5"
         ],
         "x": 1214,
-        "y": 359,
-        "w": 792,
-        "h": 242
+        "y": 359
     },
     {
         "id": "02ce9447bb02faf7",
@@ -1442,9 +1376,7 @@
             "a448d13962eb94f7"
         ],
         "x": 104,
-        "y": 2539,
-        "w": 682,
-        "h": 642
+        "y": 2539
     },
     {
         "id": "b786c9d92d164f0e",
@@ -1470,9 +1402,7 @@
             "e9d2f751156577aa"
         ],
         "x": 54,
-        "y": 3219,
-        "w": 1012,
-        "h": 242
+        "y": 3219
     },
     {
         "id": "0bb0145c8adb017a",
@@ -1520,9 +1450,7 @@
             "429025b01e7e6d4d"
         ],
         "x": 948,
-        "y": 1413,
-        "w": 784,
-        "h": 1074
+        "y": 1413
     },
     {
         "id": "a034d18f4f2e4bd6",
@@ -1543,9 +1471,7 @@
             "ec0ec170aad778ad"
         ],
         "x": 1828,
-        "y": 1413,
-        "w": 784,
-        "h": 1074
+        "y": 1413
     },
     {
         "id": "7ae10c2df5524d01",
@@ -1582,9 +1508,57 @@
             "af339647b46b531f"
         ],
         "x": 1854,
-        "y": 2539,
-        "w": 1012,
-        "h": 322
+        "y": 2539
+    },
+    {
+        "id": "67280a1824f2e68f",
+        "type": "group",
+        "z": "f66e6f21e6630f00",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "dc1d674e61de820d",
+            "ea43b63ac74264a6",
+            "fd3278c8b8251cb2",
+            "3e5e745b25e837a1"
+        ],
+        "x": 94,
+        "y": 379,
+        "w": 452,
+        "h": 182
+    },
+    {
+        "id": "8ea343d5acb02cd2",
+        "type": "group",
+        "z": "f66e6f21e6630f00",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "1c3fdf208f1d04ab",
+            "bee1de4c12ef9269",
+            "39c136dc6262f611",
+            "cba544c17d6aa13d",
+            "d76197cd025dce1f",
+            "1125739b31b22db9"
+        ],
+        "x": 82.99996948242188,
+        "y": 599,
+        "w": 603.0000305175781,
+        "h": 191.99994277954102
     },
     {
         "id": "a4436834ffd8d273",
@@ -1613,9 +1587,7 @@
             "16e630ed7e81d738"
         ],
         "x": 974,
-        "y": 1439,
-        "w": 712,
-        "h": 342
+        "y": 1439
     },
     {
         "id": "096607a1165ab5dd",
@@ -1644,9 +1616,7 @@
             "6df023e1989102e5"
         ],
         "x": 974,
-        "y": 1819,
-        "w": 712,
-        "h": 342
+        "y": 1819
     },
     {
         "id": "429025b01e7e6d4d",
@@ -1670,9 +1640,7 @@
             "dfd37ae16eec3d3b"
         ],
         "x": 974,
-        "y": 2199,
-        "w": 732,
-        "h": 262
+        "y": 2199
     },
     {
         "id": "2b2a6d295740d392",
@@ -1798,9 +1766,7 @@
             "d4756f35786b766d"
         ],
         "x": 1854,
-        "y": 1439,
-        "w": 712,
-        "h": 342
+        "y": 1439
     },
     {
         "id": "4fdc3891a83ced02",
@@ -1830,9 +1796,7 @@
             "98833f39eaeba382"
         ],
         "x": 1854,
-        "y": 1635,
-        "w": 712,
-        "h": 526
+        "y": 1635
     },
     {
         "id": "ec0ec170aad778ad",
@@ -1856,9 +1820,7 @@
             "cd9a098d80ea8fca"
         ],
         "x": 1854,
-        "y": 2199,
-        "w": 732,
-        "h": 262
+        "y": 2199
     },
     {
         "id": "d1c6977fdede82fe",
@@ -1876,7 +1838,6 @@
         "nodes": [
             "45208014d2d00ce0",
             "f7107def0bcb0b9e",
-            "92f06b8d089d2e3c",
             "8690d1dfb45601ab",
             "e1a0483ff23d768b",
             "7741898ebc9d5ef8",
@@ -1894,8 +1855,6 @@
             "6b441f5688f3be24",
             "3824f025131adb7d",
             "5d7142916236b97e",
-            "ce8c7d2b1319f301",
-            "395830f6d26d682c",
             "ced32d8be696727e",
             "64fe431e82341821",
             "4fc1630f55b705fd",
@@ -1905,62 +1864,15 @@
             "6ebf21b9c35b491f",
             "0288b8af1ceb54de",
             "6bae0ce8e995b031",
-            "b9b6dbe7a4f6973a"
+            "9321df77664c4496",
+            "b1892a5d909d22a5",
+            "363559faefd82ea5",
+            "2e31b9270c6d712a"
         ],
         "x": 2074,
         "y": 1259,
         "w": 1882,
         "h": 582
-    },
-    {
-        "id": "67280a1824f2e68f",
-        "type": "group",
-        "z": "f66e6f21e6630f00",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "dc1d674e61de820d",
-            "ea43b63ac74264a6",
-            "fd3278c8b8251cb2",
-            "3e5e745b25e837a1"
-        ],
-        "x": 94,
-        "y": 379,
-        "w": 452,
-        "h": 182
-    },
-    {
-        "id": "8ea343d5acb02cd2",
-        "type": "group",
-        "z": "f66e6f21e6630f00",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "1c3fdf208f1d04ab",
-            "bee1de4c12ef9269",
-            "39c136dc6262f611",
-            "cba544c17d6aa13d",
-            "d76197cd025dce1f",
-            "1125739b31b22db9"
-        ],
-        "x": 82.99996948242188,
-        "y": 599,
-        "w": 603.0000305175781,
-        "h": 191.99994277954102
     },
     {
         "id": "b411c6135a7823e0",
@@ -3335,35 +3247,6 @@
         "wires": []
     },
     {
-        "id": "9321df77664c4496",
-        "type": "ui_button",
-        "z": "55a762ae72fa441b",
-        "g": "6a8702296ddd22a1",
-        "name": "",
-        "group": "f1f13388d5f613e8",
-        "order": 1,
-        "width": 5,
-        "height": 2,
-        "passthru": false,
-        "label": "START MATCH",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "green",
-        "className": "bigbutton",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 160,
-        "y": 1440,
-        "wires": [
-            [
-                "990a5f67fd3c5363"
-            ]
-        ]
-    },
-    {
         "id": "82a8466517112ffd",
         "type": "function",
         "z": "55a762ae72fa441b",
@@ -3632,6 +3515,7 @@
         "id": "da8215e65b543ef9",
         "type": "ui_button",
         "z": "55a762ae72fa441b",
+        "d": true,
         "g": "6a8702296ddd22a1",
         "name": "",
         "group": "f1f13388d5f613e8",
@@ -6196,6 +6080,47 @@
         "wires": []
     },
     {
+        "id": "a920288bc5a73af2",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "6a8702296ddd22a1",
+        "name": "=== OBSOLETE, REPLACED BY REV NIGE ===",
+        "info": "",
+        "x": 240,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "87776e9d6e72f8b7",
+        "type": "ui_button",
+        "z": "55a762ae72fa441b",
+        "d": true,
+        "g": "6a8702296ddd22a1",
+        "name": "",
+        "group": "f1f13388d5f613e8",
+        "order": 1,
+        "width": 5,
+        "height": 2,
+        "passthru": false,
+        "label": "START MATCH",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "className": "bigbutton",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 160,
+        "y": 1480,
+        "wires": [
+            [
+                "4ddc4f8c8e23432a"
+            ]
+        ]
+    },
+    {
         "id": "45208014d2d00ce0",
         "type": "comment",
         "z": "55a762ae72fa441b",
@@ -6221,23 +6146,13 @@
         "x": 2910,
         "y": 1360,
         "wires": [
-            [],
-            []
+            [
+                "6bae0ce8e995b031"
+            ],
+            [
+                "2e31b9270c6d712a"
+            ]
         ]
-    },
-    {
-        "id": "92f06b8d089d2e3c",
-        "type": "link out",
-        "z": "55a762ae72fa441b",
-        "g": "d1c6977fdede82fe",
-        "name": "Send T=0 FS updates",
-        "mode": "link",
-        "links": [
-            "0416ea6909311b42"
-        ],
-        "x": 3605,
-        "y": 1360,
-        "wires": []
     },
     {
         "id": "8690d1dfb45601ab",
@@ -6571,42 +6486,6 @@
         ]
     },
     {
-        "id": "ce8c7d2b1319f301",
-        "type": "debug",
-        "z": "55a762ae72fa441b",
-        "g": "d1c6977fdede82fe",
-        "name": "db bldg1",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 3640,
-        "y": 1320,
-        "wires": []
-    },
-    {
-        "id": "395830f6d26d682c",
-        "type": "debug",
-        "z": "55a762ae72fa441b",
-        "g": "d1c6977fdede82fe",
-        "name": "db bldg2",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 3640,
-        "y": 1400,
-        "wires": []
-    },
-    {
         "id": "ced32d8be696727e",
         "type": "link out",
         "z": "55a762ae72fa441b",
@@ -6716,14 +6595,22 @@
                 "t": "eq",
                 "v": "0",
                 "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "-1",
+                "vt": "num"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 1,
+        "outputs": 2,
         "x": 2390,
         "y": 1500,
         "wires": [
+            [
+                "64fe431e82341821"
+            ],
             [
                 "64fe431e82341821"
             ]
@@ -6756,51 +6643,139 @@
         "wires": []
     },
     {
-        "id": "a920288bc5a73af2",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "6a8702296ddd22a1",
-        "name": "=== OBSOLETE, REPLACED BY REV NIGE ===",
-        "info": "",
-        "x": 240,
-        "y": 1340,
-        "wires": []
-    },
-    {
         "id": "6bae0ce8e995b031",
         "type": "function",
         "z": "55a762ae72fa441b",
         "g": "d1c6977fdede82fe",
-        "name": "Update Globals",
-        "func": "//--- Set up basic vars\nvar theBldg = msg.payload;\n\n//--- Update globals\nglobal.set(theBldg + \".Status\",\"Burning\");\nglobal.set(theBldg + \".FS.TotalBeforeWater\", 4);\n\n//--- Fin\nreturn msg;",
+        "name": "Update Burning Global",
+        "func": "//--- Set up basic vars\nvar theBldg = msg.payload;\n\n//--- Update globals\nglobal.set(theBldg + \".Status\",\"Burning\");\n\n//--- Fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3160,
-        "y": 1360,
+        "x": 3180,
+        "y": 1340,
         "wires": [
-            []
+            [
+                "363559faefd82ea5"
+            ]
         ]
     },
     {
-        "id": "b9b6dbe7a4f6973a",
+        "id": "9321df77664c4496",
+        "type": "ui_button",
+        "z": "55a762ae72fa441b",
+        "g": "d1c6977fdede82fe",
+        "name": "",
+        "group": "f1f13388d5f613e8",
+        "order": 1,
+        "width": 5,
+        "height": 2,
+        "passthru": false,
+        "label": "START MATCH",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "className": "bigbutton",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 2200,
+        "y": 1500,
+        "wires": [
+            [
+                "990a5f67fd3c5363"
+            ]
+        ]
+    },
+    {
+        "id": "b1892a5d909d22a5",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "d1c6977fdede82fe",
+        "name": "To AddFirePix",
+        "mode": "link",
+        "links": [
+            "dc1d674e61de820d"
+        ],
+        "x": 3535,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "363559faefd82ea5",
         "type": "function",
         "z": "55a762ae72fa441b",
         "g": "d1c6977fdede82fe",
-        "name": "Prep Setters",
-        "func": "/* \nWindow setter expects:\n- msg.payload.bldg: a node ID\n- msg.payload.windowNum: 0 or 1 (I think, might be 1 or 2)\n- msg.payload.windowOnOrOff: \"ON\" or \"OFF\" string\n\nGutter setter expects:\n- msg.payload.bldg: a node ID\n- msg.payload.gutterString: a 30 int string\n*/\n\n//--- Set up basic vars\nvar theBldg = msg.payload;\n\nreturn msg;",
+        "name": "Prep AddFirePix Setter",
+        "func": "//--- Set up basic vars\nvar theBldg = msg.payload;\nmsg.payload = {};\n\n/* \nAddFirePix expects:\n- msg.payload.bldg: a node ID\n- msg.payload.numFirePixels: int, the qty FirePixels to add\n*/\nmsg.payload.bldg = theBldg;\nmsg.payload.numFirePixels = 8;\n\n//--- Fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3350,
-        "y": 1360,
+        "x": 3400,
+        "y": 1340,
         "wires": [
-            []
+            [
+                "b1892a5d909d22a5"
+            ]
         ]
+    },
+    {
+        "id": "2e31b9270c6d712a",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "d1c6977fdede82fe",
+        "name": "Update Burning Global",
+        "func": "//--- Set up basic vars\nvar theBldg = msg.payload;\n\n//--- Update globals\nglobal.set(theBldg + \".Status\",\"Burning\");\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3180,
+        "y": 1380,
+        "wires": [
+            [
+                "2f1d8a2826147444"
+            ]
+        ]
+    },
+    {
+        "id": "2f1d8a2826147444",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "name": "Prep AddFirePix Setter",
+        "func": "//--- Set up basic vars\nvar theBldg = msg.payload;\nmsg.payload = {};\n\n/* \nAddFirePix expects:\n- msg.payload.bldg: a node ID\n- msg.payload.numFirePixels: int, the qty FirePixels to add\n*/\nmsg.payload.bldg = theBldg;\nmsg.payload.numFirePixels = 8;\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3400,
+        "y": 1380,
+        "wires": [
+            [
+                "7059882ea6339130"
+            ]
+        ]
+    },
+    {
+        "id": "7059882ea6339130",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "name": "To AddFirePix",
+        "mode": "link",
+        "links": [
+            "dc1d674e61de820d"
+        ],
+        "x": 3535,
+        "y": 1380,
+        "wires": []
     },
     {
         "id": "7a5f520857017bbb",
@@ -7579,7 +7554,7 @@
         "z": "175af8efcea2d591",
         "g": "738dc520034f11a7",
         "name": "Calc total FS",
-        "func": "\n// --- Set up vars\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar theTotalFS = 0;\n\n// --- Loop through all buildings, add up total FS\nfor (var i in bldgs) {\n    var thePixels = global.get(bldgs[i]+\".GutterPixels\");\n    \n    for (var j=0; j<30; j++) {\n        if(thePixels.charAt(j) == \"3\" || thePixels.charAt(j) == \"4\") {\n            theTotalFS += 1;\n        }\n    }\n}\n\n// Fin\nglobal.set(\"totalFS\",theTotalFS);\nmsg.payload = theTotalFS;\nreturn msg;",
+        "func": "\n// --- Set up vars\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar theTotalFS = 0;\n\n// --- Loop through all buildings, add up total FS\nfor (var i in bldgs) {\n    var thePixels = global.get(bldgs[i]+\".Lights.GutterPixels\");\n    \n    for (var j=0; j<30; j++) {\n        if(thePixels.charAt(j) == \"3\" || thePixels.charAt(j) == \"4\") {\n            theTotalFS += 1;\n        }\n    }\n}\n\n// Fin\nglobal.set(\"totalFS\",theTotalFS);\nmsg.payload = theTotalFS;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -17419,7 +17394,11 @@
         "z": "f66e6f21e6630f00",
         "g": "67280a1824f2e68f",
         "name": "Setters - Add FirePix to Bldg",
-        "links": [],
+        "links": [
+            "b1892a5d909d22a5",
+            "54c21369c6ccd63f",
+            "7059882ea6339130"
+        ],
         "x": 185,
         "y": 420,
         "wires": [
