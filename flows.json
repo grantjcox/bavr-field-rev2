@@ -235,7 +235,7 @@
         ],
         "x": 94,
         "y": 59,
-        "w": 692,
+        "w": 712,
         "h": 282
     },
     {
@@ -321,7 +321,9 @@
             "f2b56dfdbbe11a17"
         ],
         "x": 134,
-        "y": 79
+        "y": 79,
+        "w": 2712,
+        "h": 362
     },
     {
         "id": "5f1037ebc6dbd72f",
@@ -344,7 +346,9 @@
             "19c221d99629ee7a"
         ],
         "x": 94,
-        "y": 547
+        "y": 515,
+        "w": 872,
+        "h": 186
     },
     {
         "id": "459fe488a5804676",
@@ -372,7 +376,9 @@
             "71f67f7f27cafd81"
         ],
         "x": 74,
-        "y": 807
+        "y": 807,
+        "w": 1592,
+        "h": 266
     },
     {
         "id": "11a9b9cee18f6b6c",
@@ -401,7 +407,9 @@
             "a429c99752090afe"
         ],
         "x": 74,
-        "y": 1179
+        "y": 1179,
+        "w": 772,
+        "h": 322
     },
     {
         "id": "3a81c46c8f3762a2",
@@ -618,7 +626,9 @@
             "ad34ea44766153db"
         ],
         "x": 134,
-        "y": 659
+        "y": 659,
+        "w": 1272,
+        "h": 402
     },
     {
         "id": "e63633ec18181ba7",
@@ -647,7 +657,9 @@
             "c79cb601a8c0ab17"
         ],
         "x": 134,
-        "y": 1099
+        "y": 1099,
+        "w": 952,
+        "h": 342
     },
     {
         "id": "bc92f0b2168e67b1",
@@ -669,7 +681,9 @@
             "cd811a5da6dea1c9"
         ],
         "x": 1174,
-        "y": 1079
+        "y": 1079,
+        "w": 512,
+        "h": 122
     },
     {
         "id": "2024311963b7a70e",
@@ -690,7 +704,9 @@
             "b70ae83c222fa7da"
         ],
         "x": 1174,
-        "y": 1299
+        "y": 1299,
+        "w": 482,
+        "h": 122
     },
     {
         "id": "7ceda8dc6f5a8d60",
@@ -712,7 +728,9 @@
             "ccf03d13258bb4e3"
         ],
         "x": 134,
-        "y": 1499
+        "y": 1499,
+        "w": 792,
+        "h": 142
     },
     {
         "id": "96cafb8e88dad064",
@@ -734,7 +752,9 @@
             "c74fb766b19e2bf1"
         ],
         "x": 134,
-        "y": 1679
+        "y": 1679,
+        "w": 832,
+        "h": 142
     },
     {
         "id": "96faa29525ade8f0",
@@ -768,7 +788,9 @@
             "da8da29f2b800fa5"
         ],
         "x": 134,
-        "y": 59
+        "y": 59,
+        "w": 672,
+        "h": 542
     },
     {
         "id": "a298e34363e28341",
@@ -1031,7 +1053,9 @@
             "31c4db3eb2f36e59"
         ],
         "x": 114,
-        "y": 59
+        "y": 59,
+        "w": 872,
+        "h": 322
     },
     {
         "id": "18778eda46bd5b07",
@@ -1050,7 +1074,9 @@
             "4eb1999fbc3aab57"
         ],
         "x": 114,
-        "y": 859
+        "y": 859,
+        "w": 652,
+        "h": 182
     },
     {
         "id": "378995858571b39f",
@@ -1081,7 +1107,9 @@
             "48373ebe740e92b6"
         ],
         "x": 114,
-        "y": 479
+        "y": 479,
+        "w": 892,
+        "h": 322
     },
     {
         "id": "4f152b1eeea1837b",
@@ -1107,7 +1135,9 @@
             "e3641c48aef6dae2"
         ],
         "x": 134,
-        "y": 1099
+        "y": 1099,
+        "w": 1052,
+        "h": 222
     },
     {
         "id": "da5dfd18efe136b1",
@@ -1229,7 +1259,9 @@
             "3f38d246c62ef7bd"
         ],
         "x": 134,
-        "y": 1439
+        "y": 1439,
+        "w": 592,
+        "h": 222
     },
     {
         "id": "77bdfe65956919ec",
@@ -1261,7 +1293,9 @@
             "0e3ebf9316c50718"
         ],
         "x": 1214,
-        "y": 679
+        "y": 679,
+        "w": 1242,
+        "h": 362
     },
     {
         "id": "1e2b3d276327b031",
@@ -1284,7 +1318,9 @@
             "c9c52f1b1fc4875f"
         ],
         "x": 1214,
-        "y": 79
+        "y": 79,
+        "w": 792,
+        "h": 242
     },
     {
         "id": "b73bab6188d86888",
@@ -1307,7 +1343,9 @@
             "66877abc465757d5"
         ],
         "x": 1214,
-        "y": 359
+        "y": 359,
+        "w": 792,
+        "h": 242
     },
     {
         "id": "02ce9447bb02faf7",
@@ -1450,7 +1488,9 @@
             "429025b01e7e6d4d"
         ],
         "x": 948,
-        "y": 1413
+        "y": 1413,
+        "w": 784,
+        "h": 1074
     },
     {
         "id": "a034d18f4f2e4bd6",
@@ -1471,7 +1511,9 @@
             "ec0ec170aad778ad"
         ],
         "x": 1828,
-        "y": 1413
+        "y": 1413,
+        "w": 784,
+        "h": 1074
     },
     {
         "id": "7ae10c2df5524d01",
@@ -1508,7 +1550,9 @@
             "af339647b46b531f"
         ],
         "x": 1854,
-        "y": 2539
+        "y": 2539,
+        "w": 1012,
+        "h": 322
     },
     {
         "id": "67280a1824f2e68f",
@@ -1587,7 +1631,9 @@
             "16e630ed7e81d738"
         ],
         "x": 974,
-        "y": 1439
+        "y": 1439,
+        "w": 712,
+        "h": 342
     },
     {
         "id": "096607a1165ab5dd",
@@ -1616,7 +1662,9 @@
             "6df023e1989102e5"
         ],
         "x": 974,
-        "y": 1819
+        "y": 1819,
+        "w": 712,
+        "h": 342
     },
     {
         "id": "429025b01e7e6d4d",
@@ -1640,7 +1688,9 @@
             "dfd37ae16eec3d3b"
         ],
         "x": 974,
-        "y": 2199
+        "y": 2199,
+        "w": 732,
+        "h": 262
     },
     {
         "id": "2b2a6d295740d392",
@@ -1766,7 +1816,9 @@
             "d4756f35786b766d"
         ],
         "x": 1854,
-        "y": 1439
+        "y": 1439,
+        "w": 712,
+        "h": 342
     },
     {
         "id": "4fdc3891a83ced02",
@@ -1796,7 +1848,9 @@
             "98833f39eaeba382"
         ],
         "x": 1854,
-        "y": 1635
+        "y": 1635,
+        "w": 712,
+        "h": 526
     },
     {
         "id": "ec0ec170aad778ad",
@@ -1820,7 +1874,9 @@
             "cd9a098d80ea8fca"
         ],
         "x": 1854,
-        "y": 2199
+        "y": 2199,
+        "w": 732,
+        "h": 262
     },
     {
         "id": "d1c6977fdede82fe",
@@ -1848,8 +1904,6 @@
             "821f2841a1141d3d",
             "8c413bdb5f2a20df",
             "218a084ed0dac320",
-            "d26dc0ddaec259ac",
-            "4b2ccb097e26680f",
             "68aa5688177e30e7",
             "da56a0702839f09a",
             "6b441f5688f3be24",
@@ -6160,7 +6214,7 @@
         "z": "55a762ae72fa441b",
         "g": "d1c6977fdede82fe",
         "name": "Light up a Tello Path",
-        "func": "/* \nGutterPixels callback expects\npayload.bldg, payload.pixelstring\n*/ \n\n\n//--- Set up vars\nvar whichSide = global.get(\"otherSide\"); // \"L\" or \"R\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\nvar msg3 = {};\nmsg3.payload = {};\nvar msg4 = {};\nmsg4.payload = {};\n\n//                    |                            |\nvar thePixelString = \"666666666666666666666666666666\"; // TEAL\n\n//--- Choose a path\nvar whichPath = Math.floor(Math.random() * 3);\n\n//--- Set up messages\nswitch (whichPath) {\n    case 0:\n        switch (whichSide) {\n            case \"R\":\n                msg1.payload.bldg = \"RTO\";\n                msg2.payload.bldg = \"RBO\";\n                msg3.payload.bldg = \"RBM\";\n                msg4.payload.bldg = \"RTI\";\n                break;\n            case \"L\":\n                msg1.payload.bldg = \"LBI\";\n                msg2.payload.bldg = \"LTM\";\n                msg3.payload.bldg = \"LTO\";\n                msg4.payload.bldg = \"LBO\";\n                break;\n        }\n        break;\n    case 1:\n        switch (whichSide) {\n            case \"R\":\n                msg1.payload.bldg = \"RBI\";\n                msg2.payload.bldg = \"RBM\";\n                msg3.payload.bldg = \"RTM\";\n                msg4.payload.bldg = \"RTO\";\n                break;\n            case \"L\":\n                msg1.payload.bldg = \"LTI\";\n                msg2.payload.bldg = \"LBM\";\n                msg3.payload.bldg = \"LTM\";\n                msg4.payload.bldg = \"LBO\";\n                break;\n        }\n        break;\n    case 2:\n        switch (whichSide) {\n            case \"R\":\n                msg1.payload.bldg = \"RBI\";\n                msg2.payload.bldg = \"RBM\";\n                msg3.payload.bldg = \"RBO\";\n                msg4.payload.bldg = \"RTO\";\n                break;\n            case \"L\":\n                msg1.payload.bldg = \"LTI\";\n                msg2.payload.bldg = \"LTM\";\n                msg3.payload.bldg = \"LTO\";\n                msg4.payload.bldg = \"LBO\";\n                break;\n        }\n        break;\n}\nmsg1.payload.pixelstring = thePixelString;\nmsg2.payload.pixelstring = thePixelString;\nmsg3.payload.pixelstring = thePixelString;\nmsg4.payload.pixelstring = thePixelString;\n\n//--- Update global statuses\nglobal.set(msg1.payload.bldg + \".Status\", \"TelloPath\");\nglobal.set(msg2.payload.bldg + \".Status\", \"TelloPath\");\nglobal.set(msg3.payload.bldg + \".Status\", \"TelloPath\");\nglobal.set(msg4.payload.bldg + \".Status\", \"TelloPath\");\n\n//Fin\nreturn [msg1, msg2, msg3, msg4];\n\n\n/*\n--------\nTHIS WILL BE EASY TO ADD ALL 3 PATHS LATER \n- JUST PULL FROM THE OTHER CODE\n--------\n*/ ",
+        "func": "/* \nGutterPixels callback expects\npayload.bldg, payload.pixelstring\n*/ \n\n\n//--- Set up vars\nvar whichSide = global.get(\"droneNonActiveSide\"); // \"L\" or \"R\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\nvar msg3 = {};\nmsg3.payload = {};\nvar msg4 = {};\nmsg4.payload = {};\n\n//                    |                            |\nvar thePixelString = \"666666666666666666666666666666\"; // TEAL\n\n//--- Choose a path\nvar whichPath = Math.floor(Math.random() * 3);\n\n//--- Set up messages\nswitch (whichPath) {\n    case 0:\n        switch (whichSide) {\n            case \"R\":\n                msg1.payload.bldg = \"RTO\";\n                msg2.payload.bldg = \"RBO\";\n                msg3.payload.bldg = \"RBM\";\n                msg4.payload.bldg = \"RTI\";\n                break;\n            case \"L\":\n                msg1.payload.bldg = \"LBI\";\n                msg2.payload.bldg = \"LTM\";\n                msg3.payload.bldg = \"LTO\";\n                msg4.payload.bldg = \"LBO\";\n                break;\n        }\n        break;\n    case 1:\n        switch (whichSide) {\n            case \"R\":\n                msg1.payload.bldg = \"RBI\";\n                msg2.payload.bldg = \"RBM\";\n                msg3.payload.bldg = \"RTM\";\n                msg4.payload.bldg = \"RTO\";\n                break;\n            case \"L\":\n                msg1.payload.bldg = \"LTI\";\n                msg2.payload.bldg = \"LBM\";\n                msg3.payload.bldg = \"LTM\";\n                msg4.payload.bldg = \"LBO\";\n                break;\n        }\n        break;\n    case 2:\n        switch (whichSide) {\n            case \"R\":\n                msg1.payload.bldg = \"RBI\";\n                msg2.payload.bldg = \"RBM\";\n                msg3.payload.bldg = \"RBO\";\n                msg4.payload.bldg = \"RTO\";\n                break;\n            case \"L\":\n                msg1.payload.bldg = \"LTI\";\n                msg2.payload.bldg = \"LTM\";\n                msg3.payload.bldg = \"LTO\";\n                msg4.payload.bldg = \"LBO\";\n                break;\n        }\n        break;\n}\nmsg1.payload.pixelstring = thePixelString;\nmsg2.payload.pixelstring = thePixelString;\nmsg3.payload.pixelstring = thePixelString;\nmsg4.payload.pixelstring = thePixelString;\n\n//--- Update global statuses\nglobal.set(msg1.payload.bldg + \".Status\", \"TelloPath\");\nglobal.set(msg2.payload.bldg + \".Status\", \"TelloPath\");\nglobal.set(msg3.payload.bldg + \".Status\", \"TelloPath\");\nglobal.set(msg4.payload.bldg + \".Status\", \"TelloPath\");\n\n//Fin\nreturn [msg1, msg2, msg3, msg4];",
         "outputs": 4,
         "noerr": 0,
         "initialize": "",
@@ -6391,32 +6445,6 @@
         ]
     },
     {
-        "id": "d26dc0ddaec259ac",
-        "type": "link out",
-        "z": "55a762ae72fa441b",
-        "d": true,
-        "g": "d1c6977fdede82fe",
-        "name": "Start Burn Timer",
-        "mode": "link",
-        "links": [
-            "ff0af9f0a11f5393"
-        ],
-        "x": 2715,
-        "y": 1680,
-        "wires": []
-    },
-    {
-        "id": "4b2ccb097e26680f",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "d1c6977fdede82fe",
-        "name": "Start burn timer",
-        "info": "",
-        "x": 2820,
-        "y": 1660,
-        "wires": []
-    },
-    {
         "id": "68aa5688177e30e7",
         "type": "link out",
         "z": "55a762ae72fa441b",
@@ -6526,7 +6554,6 @@
                 "f7107def0bcb0b9e",
                 "8690d1dfb45601ab",
                 "7741898ebc9d5ef8",
-                "d26dc0ddaec259ac",
                 "0288b8af1ceb54de"
             ]
         ]
@@ -7281,7 +7308,7 @@
         "columns": [],
         "outputs": 0,
         "cts": false,
-        "x": 680,
+        "x": 700,
         "y": 240,
         "wires": []
     },
@@ -7290,14 +7317,14 @@
         "type": "function",
         "z": "175af8efcea2d591",
         "g": "2ac942eccf98a996",
-        "name": "Build Default Table Array",
-        "func": "//vars \nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar theArr = [];\n\n// do the loop, get the globals\nfor (var i=0; i < bldgs.length; i++) { \n    theArr.push({\n        \"Bldg\": bldgs[i],\n        \"Status\": global.get(bldgs[i]+\".Status\"),\n        \"Win1\": global.get(bldgs[i] + \".FS.Window1-AfterWater\"),\n        \"Win2\": global.get(bldgs[i] + \".FS.Window2-AfterWater\"),\n        \"WaterQty\": global.get(bldgs[i] + \".WaterQty\"),\n    });\n}\n//node.warn(theArr);\n\n//fin\nmsg.payload = theArr;\nreturn msg;",
+        "name": "Build BldgStatus Table Array",
+        "func": "//vars \nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar theArr = [];\n\n// do the loop, get the globals\nfor (var i=0; i < bldgs.length; i++) { \n    theArr.push({\n        \"Bldg\": bldgs[i],\n        \"Status\": global.get(bldgs[i]+\".Status\"),\n        \"Win1\": global.get(bldgs[i] + \".Lights.Window1\"),\n        \"Win2\": global.get(bldgs[i] + \".Lights.Window2\"),\n        \"PixB4water\": global.get(bldgs[i] + \".FirePixels.TotalBeforeWater\"),\n        \"WaterQty\": global.get(bldgs[i] + \".WaterQty\")\n    });\n}\n//node.warn(theArr);\n\n//fin\nmsg.payload = theArr;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 470,
+        "x": 480,
         "y": 240,
         "wires": [
             [
@@ -7339,7 +7366,7 @@
         ],
         "outputs": 0,
         "cts": false,
-        "x": 690,
+        "x": 710,
         "y": 300,
         "wires": []
     },
@@ -7348,14 +7375,14 @@
         "type": "function",
         "z": "175af8efcea2d591",
         "g": "2ac942eccf98a996",
-        "name": "Build Default Table Array",
+        "name": "Build GutterPixels Table Array",
         "func": "//vars \nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar theArr = [];\n\n// do the loop, get the globals\nfor (var i=0; i < bldgs.length; i++) { \n    theArr.push({\n        \"Bldg\": bldgs[i],\n        \"GutterPixels\": global.get(bldgs[i]+\".Lights.GutterPixels\")\n    });\n}\n//node.warn(theArr);\n\n//fin\nmsg.payload = theArr;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 470,
+        "x": 490,
         "y": 300,
         "wires": [
             [
@@ -7824,10 +7851,10 @@
         "type": "comment",
         "z": "f6f035102302ba5a",
         "g": "5f1037ebc6dbd72f",
-        "name": "Update GutterPixels \\n payload.bldg, payload.pixelstring",
+        "name": "Update GutterPixels \\n payload.bldg, payload.pixelstring \\n I think this is only used by TelloPath anymore..",
         "info": "",
-        "x": 250,
-        "y": 600,
+        "x": 290,
+        "y": 580,
         "wires": []
     },
     {
@@ -7854,7 +7881,7 @@
         "z": "f6f035102302ba5a",
         "g": "5f1037ebc6dbd72f",
         "name": "Update GutterPixels Global",
-        "func": "/* \nGutter is built with 30 pixels\n[0-7]   = Window 1 FS\n[8-9]   = Blank (spacer)\n[10-19] = Status\n[20-21] = Blank (spacer)\n[22-29] = Window 2 FS\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar theBldg = input.bldg;\nvar theString = input.pixelstring;\n\n//--- Update global\nglobal.set(theBldg + \".GutterPixels\", theString);\n\n//--- Fin\nreturn msg;",
+        "func": "/* \nGutter is built with 30 pixels\n[0-7]   = Window 1 FS\n[8-9]   = Blank (spacer)\n[10-19] = Status\n[20-21] = Blank (spacer)\n[22-29] = Window 2 FS\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar theBldg = input.bldg;\nvar theString = input.pixelstring;\n\n//--- Update global\nglobal.set(theBldg + \".Lights.GutterPixels\", theString);\n\n//--- Fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
