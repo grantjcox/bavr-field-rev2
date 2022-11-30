@@ -78,18 +78,18 @@
         "category": "",
         "in": [
             {
-                "x": 40,
+                "x": 100,
                 "y": 80,
                 "wires": [
                     {
-                        "id": "ce07cf6a697c134e"
+                        "id": "9bd608f065aaccf9"
                     }
                 ]
             }
         ],
         "out": [
             {
-                "x": 1240,
+                "x": 1760,
                 "y": 60,
                 "wires": [
                     {
@@ -99,7 +99,7 @@
                 ]
             },
             {
-                "x": 1240,
+                "x": 1760,
                 "y": 140,
                 "wires": [
                     {
@@ -405,49 +405,6 @@
         "y": 399,
         "w": 812,
         "h": 122
-    },
-    {
-        "id": "2971d7c90b74f3b4",
-        "type": "group",
-        "z": "55a762ae72fa441b",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "9004aeb7ec1ed4bf",
-            "dc410816705aadf3",
-            "4c72ca30adc671fc",
-            "627488f25f62e8dc",
-            "58af15e1f7b1e202",
-            "41fe48a660030e78",
-            "244a5e68750deac1",
-            "9c7e5e9066493481",
-            "f35369f3e7d9d9f9",
-            "54f240d0cd94a297",
-            "53c404b6960d9d5d",
-            "a051d26f3d84b499",
-            "ece36ce509a29e6b",
-            "5c2c6bce8c7555a8",
-            "340b990d6b13e2a7",
-            "93e63f839cdaec05",
-            "37c7a2dbbcb0a457",
-            "5178f08d4efe39d8",
-            "53fa00494ea9a428",
-            "04945c3baa280d56",
-            "df670749b6ba940f",
-            "90051ad270b2f765",
-            "692f7e973b247e3f"
-        ],
-        "x": 74,
-        "y": 4139,
-        "w": 1992,
-        "h": 422
     },
     {
         "id": "e6f0aa02159bc664",
@@ -1880,41 +1837,31 @@
             "color": "#cccccc"
         },
         "nodes": [
-            "5703bc1fdf115f90",
             "076e7875117acb7c",
-            "0696dfed47787161",
-            "3e8cddebe9821750",
-            "11ab1aaf6ca42a14",
             "7f4d3b57fb223092",
             "4083bde3272cdecd",
             "65506621145c3ffb",
             "178203d884110025",
-            "90df1a2f47e67002",
-            "d2fb90aad48fa2a7",
             "b1a12d7e894426ee",
-            "24e909abaa765b63",
             "ca5dd7da6a525065",
             "25e253e5a54e3110",
             "c6e859984c6c2583",
             "3e134a993c1b3fbe",
             "c8b0f520ed08c7a6",
             "15ec07be63476f47",
-            "319874a11303642d",
-            "4e3d920d71ecf9d7",
             "f5f17912a6b03826",
-            "a14376b6f39e6218",
             "e8fd57bcff4cabcb",
             "1f590c01c036d9b6",
-            "a9936705c3706204",
-            "6494ec07de55a20b",
             "08a29338294dfb72",
             "e36e232e45440235",
-            "63e5d51d3c5537de"
+            "63e5d51d3c5537de",
+            "a360df724bcd3f11",
+            "b0e7c4943b7665f1"
         ],
         "x": 114,
-        "y": 1979,
-        "w": 1928,
-        "h": 1128
+        "y": 1999,
+        "w": 1658,
+        "h": 1108
     },
     {
         "id": "c8b0f520ed08c7a6",
@@ -1932,7 +1879,7 @@
             "b168987c1df43253",
             "374ad7109c8ae83c"
         ],
-        "x": 1314,
+        "x": 1054,
         "y": 2259,
         "w": 692,
         "h": 162
@@ -1958,7 +1905,7 @@
             "dd60a83720551880",
             "6d4dee2de447ea5a"
         ],
-        "x": 1314,
+        "x": 1054,
         "y": 2579,
         "w": 692,
         "h": 162
@@ -1984,9 +1931,9 @@
             "9561806327b7b373",
             "70bc3c0ac1f6d076"
         ],
-        "x": 1314,
+        "x": 1054,
         "y": 2919,
-        "w": 702,
+        "w": 692,
         "h": 162
     },
     {
@@ -2325,6 +2272,174 @@
         "y": 3139,
         "w": 2232,
         "h": 422
+    },
+    {
+        "id": "04cf701b8b094633",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "g": "a2191c93ea98c3cd",
+        "name": "",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "6033b9343789b08e",
+            "49c1d158fff7d9fa",
+            "10aa02afe21c7a24",
+            "5f254d40c5e8240f",
+            "5f46218c00bd82e5"
+        ],
+        "x": 1174,
+        "y": 3819,
+        "w": 692,
+        "h": 162
+    },
+    {
+        "id": "2971d7c90b74f3b4",
+        "type": "group",
+        "z": "26a7e7275cb541d0",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "9004aeb7ec1ed4bf",
+            "dc410816705aadf3",
+            "4c72ca30adc671fc",
+            "627488f25f62e8dc",
+            "58af15e1f7b1e202",
+            "41fe48a660030e78",
+            "244a5e68750deac1",
+            "9c7e5e9066493481",
+            "f35369f3e7d9d9f9",
+            "54f240d0cd94a297",
+            "53c404b6960d9d5d",
+            "a051d26f3d84b499",
+            "ece36ce509a29e6b",
+            "5c2c6bce8c7555a8",
+            "340b990d6b13e2a7",
+            "93e63f839cdaec05",
+            "37c7a2dbbcb0a457",
+            "5178f08d4efe39d8",
+            "53fa00494ea9a428",
+            "04945c3baa280d56",
+            "df670749b6ba940f",
+            "90051ad270b2f765",
+            "692f7e973b247e3f",
+            "266ee9c97ad1fe86"
+        ],
+        "x": 1464,
+        "y": 1839,
+        "w": 1992,
+        "h": 422
+    },
+    {
+        "id": "696338a863cf43dc",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "0696dfed47787161",
+            "3e8cddebe9821750",
+            "11ab1aaf6ca42a14",
+            "90df1a2f47e67002",
+            "a9936705c3706204",
+            "6494ec07de55a20b",
+            "ad244be403c702a2"
+        ],
+        "x": 2134,
+        "y": 2159,
+        "w": 912,
+        "h": 162
+    },
+    {
+        "id": "c0996267b091c9c3",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "g": "a2191c93ea98c3cd",
+        "name": "",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "50fc3a4577acd26a",
+            "3dd0f9c6f6793cd4",
+            "a18a60b81152208f",
+            "580da0b3754a5818",
+            "4754a91b730752ea"
+        ],
+        "x": 1174,
+        "y": 4099,
+        "w": 692,
+        "h": 162
+    },
+    {
+        "id": "914422360e75360c",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "g": "a2191c93ea98c3cd",
+        "name": "",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "6df3e0114ac85fee",
+            "04054f448cd23fc4",
+            "83118ebca9e0405b",
+            "d2fe120e88698aeb",
+            "4e2f97a180d92ce0"
+        ],
+        "x": 1174,
+        "y": 4379,
+        "w": 692,
+        "h": 162
+    },
+    {
+        "id": "a2191c93ea98c3cd",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "e347d2f3f1d7b867",
+            "e250e85c9bf3a336",
+            "c5dde430e853d458",
+            "d933fd6ba240e248",
+            "f58d58c6ba7c9093",
+            "42684de7c516bf79",
+            "b345dbc959763a12",
+            "30a41bfa8ece7f07",
+            "c5549d2580877907",
+            "f261d268c894a2ab",
+            "dc03f1f4c896cdb8",
+            "04cf701b8b094633",
+            "c0996267b091c9c3",
+            "914422360e75360c"
+        ],
+        "x": 454,
+        "y": 3639,
+        "w": 1438,
+        "h": 928
     },
     {
         "id": "b411c6135a7823e0",
@@ -2836,66 +2951,6 @@
         "className": ""
     },
     {
-        "id": "c1c8b1af17422eb7",
-        "type": "ui_spacer",
-        "z": "55a762ae72fa441b",
-        "name": "spacer",
-        "group": "eec8a831cc9d15c1",
-        "order": 1,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "4c4cb9a4f93701d7",
-        "type": "ui_spacer",
-        "z": "55a762ae72fa441b",
-        "name": "spacer",
-        "group": "eec8a831cc9d15c1",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "c311931361b1fd63",
-        "type": "ui_spacer",
-        "z": "55a762ae72fa441b",
-        "name": "spacer",
-        "group": "eec8a831cc9d15c1",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "6b68adae6e27aa56",
-        "type": "ui_spacer",
-        "z": "55a762ae72fa441b",
-        "name": "spacer",
-        "group": "eec8a831cc9d15c1",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "b589630a76a4a524",
-        "type": "ui_spacer",
-        "z": "55a762ae72fa441b",
-        "name": "spacer",
-        "group": "eec8a831cc9d15c1",
-        "order": 10,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "ddae84653bb6cf1e",
-        "type": "ui_spacer",
-        "z": "55a762ae72fa441b",
-        "name": "spacer",
-        "group": "eec8a831cc9d15c1",
-        "order": 12,
-        "width": 3,
-        "height": 1
-    },
-    {
         "id": "619c8ab85da0d6eb",
         "type": "ui_spacer",
         "z": "175af8efcea2d591",
@@ -2916,6 +2971,77 @@
         "height": 1
     },
     {
+        "id": "d5eb4f8c4e11b4ae",
+        "type": "ui_group",
+        "name": "Burn Timers - Phase 2",
+        "tab": "3feccb6b5184919b",
+        "order": 5,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3cd49212ab9859c9",
+        "type": "ui_spacer",
+        "z": "55a762ae72fa441b",
+        "name": "spacer",
+        "group": "eec8a831cc9d15c1",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fc290b5afceb4296",
+        "type": "ui_spacer",
+        "z": "55a762ae72fa441b",
+        "name": "spacer",
+        "group": "eec8a831cc9d15c1",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "eb75b24a82c10bab",
+        "type": "ui_spacer",
+        "z": "55a762ae72fa441b",
+        "name": "spacer",
+        "group": "eec8a831cc9d15c1",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "944eea90e28ead98",
+        "type": "ui_spacer",
+        "z": "55a762ae72fa441b",
+        "name": "spacer",
+        "group": "eec8a831cc9d15c1",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "99c33b4df81e10cc",
+        "type": "ui_spacer",
+        "z": "55a762ae72fa441b",
+        "name": "spacer",
+        "group": "eec8a831cc9d15c1",
+        "order": 10,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "3922b27d539a88bc",
+        "type": "ui_spacer",
+        "z": "55a762ae72fa441b",
+        "name": "spacer",
+        "group": "eec8a831cc9d15c1",
+        "order": 12,
+        "width": 3,
+        "height": 1
+    },
+    {
         "id": "ce07cf6a697c134e",
         "type": "trigger",
         "z": "191a41e1c006a3a3",
@@ -2932,7 +3058,7 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 240,
+        "x": 760,
         "y": 80,
         "wires": [
             [
@@ -2962,7 +3088,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 440,
+        "x": 960,
         "y": 80,
         "wires": [
             [
@@ -2978,13 +3104,13 @@
         "type": "function",
         "z": "191a41e1c006a3a3",
         "name": "Calc Time Remaining",
-        "func": "var waitTime = global.get(\"burnTimeTarget\") - global.get(\"timeElapsed\");\nmsg.payload = waitTime;\nreturn msg;",
+        "func": "var waitTime = global.get(\"burnTimeTarget\") - global.get(\"timeElapsed\");\nmsg.payload = waitTime;\n//node.warn(waitTime);\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 660,
+        "x": 1180,
         "y": 60,
         "wires": [
             [
@@ -3014,7 +3140,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 880,
+        "x": 1400,
         "y": 60,
         "wires": [
             [],
@@ -3042,7 +3168,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1040,
+        "x": 1560,
         "y": 140,
         "wires": [
             [
@@ -3056,7 +3182,7 @@
         "z": "191a41e1c006a3a3",
         "name": "Status dashboard output",
         "info": "",
-        "x": 1390,
+        "x": 1910,
         "y": 60,
         "wires": []
     },
@@ -3066,9 +3192,53 @@
         "z": "191a41e1c006a3a3",
         "name": "Timer done",
         "info": "",
-        "x": 1340,
+        "x": 1860,
         "y": 140,
         "wires": []
+    },
+    {
+        "id": "715f2171dff30055",
+        "type": "function",
+        "z": "191a41e1c006a3a3",
+        "name": "Set 0:30 target for burn",
+        "func": "//--- Set up vars\nvar curTime = global.get(\"timeElapsed\"); //in secs\n\n//--- Set a \"time target\" that is 30 secs from now\nvar timeTarget = curTime + global.get(\"fireWindowSpreadDelay\");\n//var timeTarget = curTime + 5; //for testing\nglobal.set(\"burnTimeTarget\", timeTarget);\n\n\n//Fin\nmsg.payload = timeTarget;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 80,
+        "wires": [
+            [
+                "ce07cf6a697c134e"
+            ]
+        ]
+    },
+    {
+        "id": "9bd608f065aaccf9",
+        "type": "change",
+        "z": "191a41e1c006a3a3",
+        "name": "",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "reset",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 270,
+        "y": 80,
+        "wires": [
+            [
+                "715f2171dff30055"
+            ]
+        ]
     },
     {
         "id": "85965edc.72971",
@@ -3887,17 +4057,6 @@
         ]
     },
     {
-        "id": "90051ad270b2f765",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "MVP Step 8 - Phase 2",
-        "info": "",
-        "x": 200,
-        "y": 4180,
-        "wires": []
-    },
-    {
         "id": "28af28cc8618a072",
         "type": "comment",
         "z": "55a762ae72fa441b",
@@ -3934,179 +4093,6 @@
         "info": "",
         "x": 680,
         "y": 140,
-        "wires": []
-    },
-    {
-        "id": "9004aeb7ec1ed4bf",
-        "type": "link in",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "TIME FOR PHASE 2",
-        "links": [
-            "fe84ce88167ea094",
-            "18c798f8f622b55b"
-        ],
-        "x": 165,
-        "y": 4300,
-        "wires": [
-            [
-                "a051d26f3d84b499"
-            ]
-        ]
-    },
-    {
-        "id": "dc410816705aadf3",
-        "type": "link out",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "clap on",
-        "mode": "link",
-        "links": [
-            "31c4db3eb2f36e59"
-        ],
-        "x": 695,
-        "y": 4420,
-        "wires": []
-    },
-    {
-        "id": "4c72ca30adc671fc",
-        "type": "delay",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 750,
-        "y": 4360,
-        "wires": [
-            [
-                "627488f25f62e8dc",
-                "58af15e1f7b1e202"
-            ]
-        ]
-    },
-    {
-        "id": "627488f25f62e8dc",
-        "type": "link out",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "clap off",
-        "mode": "link",
-        "links": [
-            "48373ebe740e92b6",
-            "756238117240a8cf",
-            "371a308e27a41bed",
-            "55ae42b1368591f7"
-        ],
-        "x": 905,
-        "y": 4360,
-        "wires": []
-    },
-    {
-        "id": "58af15e1f7b1e202",
-        "type": "loop",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "Mini Rave Loop",
-        "kind": "fcnt",
-        "count": "5",
-        "initial": "1",
-        "step": "1",
-        "condition": "",
-        "conditionType": "js",
-        "when": "before",
-        "enumeration": "enum",
-        "enumerationType": "msg",
-        "limit": "",
-        "loopPayload": "loop-index",
-        "finalPayload": "final-count",
-        "x": 540,
-        "y": 4300,
-        "wires": [
-            [
-                "244a5e68750deac1"
-            ],
-            [
-                "dc410816705aadf3",
-                "4c72ca30adc671fc"
-            ]
-        ]
-    },
-    {
-        "id": "41fe48a660030e78",
-        "type": "inject",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "LET'S RAVE",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 310,
-        "y": 4360,
-        "wires": [
-            [
-                "58af15e1f7b1e202"
-            ]
-        ]
-    },
-    {
-        "id": "244a5e68750deac1",
-        "type": "delay",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "1",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 740,
-        "y": 4300,
-        "wires": [
-            [
-                "53c404b6960d9d5d"
-            ]
-        ]
-    },
-    {
-        "id": "9c7e5e9066493481",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "Pause to drain MQTT",
-        "info": "",
-        "x": 760,
-        "y": 4240,
         "wires": []
     },
     {
@@ -4420,69 +4406,6 @@
         "wires": []
     },
     {
-        "id": "f35369f3e7d9d9f9",
-        "type": "function",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "Set PHASE-2 qtys",
-        "func": "// --- Set up variables\nvar activeSideChar = global.get(\"otherSide\");\n\n// --- Create active side array\nswitch (activeSideChar) {\n    case \"L\":\n        var activeSide = global.get(\"leftBldgs\");\n    case \"R\": \n        var activeSide = global.get(\"rightBldgs\");\n}\n\n\n// --- Loop (phase 2) active side bldgs, make sure they're all clear and outta here\nfor (var i in activeSide) {\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(activeSide[i] + \".Status\", \"PHASE-2\");\n\n    //Fire scores \n    global.set(activeSide[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(activeSide[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(activeSide[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(activeSide[i] + \".FS.Window2-AfterWater\", 0);\n\n    // Gutters\n    global.set(activeSide[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n\n    // Water qtys - int\n    global.set(activeSide[i] + \".WaterQty\", 0);\n}\n//-------------------------------\n\n//--- Create & then loop burning active side buildings\n//-- Step 1: Create\nvar whichRouteInt = Math.floor(Math.random() * 2); //returns 0 or 1\nvar whichRouteChar = whichRouteInt == 1 ? \"T\" : \"B\";\nglobal.set(\"startRoute\", whichRouteChar);\nvar bldg1 = activeSideChar + whichRouteChar + \"M\"; //e.g. bldg LTM\nvar bldg2 = activeSideChar + whichRouteChar + \"I\"; //e.g. bldg LTI\nvar bldg3 = activeSideChar + whichRouteChar + \"O\"; //e.g. bldg LTO\nvar burningBldgs = [bldg1, bldg2, bldg3];\n\n//-- Step 2: Set globals\nfor(var i in burningBldgs) {\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(activeSide[i] + \".Status\", \"PHASE-2-BURNING\");\n\n    //Fire scores \n    global.set(burningBldgs[i] + \".FS.Window1-BeforeWater\", 8);\n    global.set(burningBldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(burningBldgs[i] + \".FS.Window1-AfterWater\", 8);\n    global.set(burningBldgs[i] + \".FS.Window2-AfterWater\", 0);\n\n    // Gutters\n    global.set(burningBldgs[i] + \".GutterPixels\", \"333333330000000000000000000000\"); \n}\n\n//-- Pass through\nflow.set(\"whichRouteChar\",whichRouteChar);\n\n//-- Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1170,
-        "y": 4300,
-        "wires": [
-            [
-                "54f240d0cd94a297",
-                "ece36ce509a29e6b"
-            ]
-        ]
-    },
-    {
-        "id": "54f240d0cd94a297",
-        "type": "link out",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "Push phase2 statuses",
-        "mode": "link",
-        "links": [
-            "3f402ddd8643cce0"
-        ],
-        "x": 1315,
-        "y": 4300,
-        "wires": []
-    },
-    {
-        "id": "53c404b6960d9d5d",
-        "type": "change",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "matchPhase",
-                "pt": "global",
-                "to": "2",
-                "tot": "num"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 960,
-        "y": 4300,
-        "wires": [
-            [
-                "f35369f3e7d9d9f9"
-            ]
-        ]
-    },
-    {
         "id": "42523d902813f067",
         "type": "change",
         "z": "55a762ae72fa441b",
@@ -4511,34 +4434,6 @@
         ]
     },
     {
-        "id": "a051d26f3d84b499",
-        "type": "change",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "matchPhase",
-                "pt": "global",
-                "to": "-1",
-                "tot": "num"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 300,
-        "y": 4300,
-        "wires": [
-            [
-                "58af15e1f7b1e202"
-            ]
-        ]
-    },
-    {
         "id": "7f75fe4b5a721d2d",
         "type": "comment",
         "z": "55a762ae72fa441b",
@@ -4548,201 +4443,6 @@
         "x": 1690,
         "y": 4840,
         "wires": []
-    },
-    {
-        "id": "93e63f839cdaec05",
-        "type": "link out",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "Send \"first burn\" FS updates",
-        "mode": "link",
-        "links": [
-            "0416ea6909311b42",
-            "772defe5dc3f1eb0",
-            "113bf2ef4799a486"
-        ],
-        "x": 2025,
-        "y": 4520,
-        "wires": []
-    },
-    {
-        "id": "df670749b6ba940f",
-        "type": "function",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "Second Bldgs -> 2 Windows",
-        "func": "//--- Set up vars\nif (global.get(\"matchPhase\") == 1) {\n    var whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\n} else if (global.get(\"matchPhase\") == 2) {\n    var whichSide = global.get(\"otherSide\");\n}\nvar startRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar whichRoute = startRoute == \"T\" ? \"B\" : \"T\"; //opposite\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nvar msg2 = {};\nmsg1.payload = {};\nmsg2.payload = {};\n\n\n//--- Check on the bldgs\n// Anyone who is still burning (i.e. team has not turned FS to 0) expands to next window\n// Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 2 to FS of 8\nif (global.get(bldg1 + \".FS.Window1-AfterWater\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1-AfterWater\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\n\n\n//Fin\nreturn [msg1, msg2];",
-        "outputs": 2,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1820,
-        "y": 4520,
-        "wires": [
-            [
-                "93e63f839cdaec05"
-            ],
-            [
-                "93e63f839cdaec05"
-            ]
-        ]
-    },
-    {
-        "id": "04945c3baa280d56",
-        "type": "delay",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "30",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1600,
-        "y": 4520,
-        "wires": [
-            [
-                "df670749b6ba940f"
-            ]
-        ]
-    },
-    {
-        "id": "5178f08d4efe39d8",
-        "type": "function",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "Second Bldgs -> 1 Window",
-        "func": "//--- Set up vars\nif (global.get(\"matchPhase\") == 1) {\n    var whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\n} else if (global.get(\"matchPhase\") == 2) {\n    var whichSide = global.get(\"otherSide\");\n}\nvar startRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar whichRoute = startRoute == \"T\" ? \"B\" : \"T\"; //opposite\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 1 to FS of 8\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\nmsg2.payload.bldg = bldg2;\nmsg2.payload.window = 1;\nmsg2.payload.numFire = 8;\n\n//Fin\nreturn [msg1, msg2];",
-        "outputs": 2,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1820,
-        "y": 4460,
-        "wires": [
-            [
-                "37c7a2dbbcb0a457"
-            ],
-            [
-                "37c7a2dbbcb0a457",
-                "04945c3baa280d56"
-            ]
-        ]
-    },
-    {
-        "id": "53fa00494ea9a428",
-        "type": "delay",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "30",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1600,
-        "y": 4460,
-        "wires": [
-            [
-                "5178f08d4efe39d8"
-            ]
-        ]
-    },
-    {
-        "id": "37c7a2dbbcb0a457",
-        "type": "link out",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "Send \"first burn\" FS updates",
-        "mode": "link",
-        "links": [
-            "0416ea6909311b42"
-        ],
-        "x": 2015,
-        "y": 4460,
-        "wires": []
-    },
-    {
-        "id": "5c2c6bce8c7555a8",
-        "type": "function",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "First Burning Bldgs -> 2 Windows",
-        "func": "//--- Vars\nvar whichSide = global.get(\"otherSide\"); \nvar whichRoute = flow.get(\"whichRouteChar\"); // \"T\" or \"B\"\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\n\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\nvar msg3 = {};\nmsg3.payload = {};\n\n//--- Check on the bldgs\n// Anyone who is still burning (i.e. team has not turned FS to 0) expands to next window\n// Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 2 to FS of 8\nif (global.get(bldg1 + \".FS.Window1-AfterWater\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1-AfterWater\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\n\n\n//-------------------------\n//-- THIS IS STILL THE JANK METHOD\n//-- WILL NEED TO BE UPDATED WITH THE NIGE METHOD\n\nvar whichSide = global.get(\"otherSide\");\nvar whichRoute = flow.get(\"whichRouteChar\"); // \"T\" or \"B\"\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\nvar burningBldgs = [bldg1, bldg2, bldg3];\n\n// Check on it \nif (global.get(bldg1 + \".FS.Window1-AfterWater\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1-AfterWater\") > 0) {\n    msg2.payload.bldg = bldg1;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\nif (global.get(bldg3 + \".FS.Window1-AfterWater\") > 0) {\n    msg3.payload.bldg = bldg1;\n    msg3.payload.window = 2;\n    msg3.payload.numFire = 8;\n}\n\n\n//Fin\nreturn [msg1, msg2, msg3];",
-        "outputs": 3,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1620,
-        "y": 4380,
-        "wires": [
-            [
-                "340b990d6b13e2a7"
-            ],
-            [
-                "340b990d6b13e2a7"
-            ],
-            [
-                "340b990d6b13e2a7"
-            ]
-        ]
-    },
-    {
-        "id": "340b990d6b13e2a7",
-        "type": "link out",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "Send \"first burn\" FS updates",
-        "mode": "link",
-        "links": [
-            "0416ea6909311b42"
-        ],
-        "x": 1845,
-        "y": 4380,
-        "wires": []
-    },
-    {
-        "id": "ece36ce509a29e6b",
-        "type": "delay",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "30",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1360,
-        "y": 4380,
-        "wires": [
-            [
-                "5c2c6bce8c7555a8"
-            ]
-        ]
     },
     {
         "id": "317c4b8d0c02f08a",
@@ -4823,227 +4523,6 @@
                 "6d2a234344182486"
             ]
         ]
-    },
-    {
-        "id": "45b2a30339f4ad99",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "name": "====\\n JANK PHASE 2 METHOD, THIS WILL NEED TO BE REPLACED WITH NIGE METHOD",
-        "info": "",
-        "x": 2420,
-        "y": 4080,
-        "wires": []
-    },
-    {
-        "id": "fda57943df6dddeb",
-        "type": "delay",
-        "z": "55a762ae72fa441b",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "30",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 2200,
-        "y": 4160,
-        "wires": [
-            [
-                "41102c25b0511ae6"
-            ]
-        ]
-    },
-    {
-        "id": "41102c25b0511ae6",
-        "type": "function",
-        "z": "55a762ae72fa441b",
-        "name": "Spread phase 2 [jank]",
-        "func": "//--- Vars\nvar whichSide = global.get(\"otherSide\");\nvar whichRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\n\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\nvar msg3 = {};\nmsg3.payload = {};\n\n\n\n//-------------------------\n//-- THIS IS STILL THE JANK METHOD\n//-- WILL NEED TO BE UPDATED WITH THE NIGE METHOD\n\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\nvar burningBldgs = [bldg1, bldg2, bldg3];\nnode.warn(burningBldgs);\n\n// Check on it \nif (global.get(bldg1 + \".FS.Window1-AfterWater\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1-AfterWater\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\nif (global.get(bldg3 + \".FS.Window1-AfterWater\") > 0) {\n    msg3.payload.bldg = bldg3;\n    msg3.payload.window = 2;\n    msg3.payload.numFire = 8;\n}\n\nnode.warn(msg1);\nnode.warn(msg2);\nnode.warn(msg3);\n\n//Fin\nreturn [msg1, msg2, msg3];",
-        "outputs": 3,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2400,
-        "y": 4160,
-        "wires": [
-            [
-                "ed716ab02d4082a2"
-            ],
-            [
-                "ed716ab02d4082a2"
-            ],
-            [
-                "ed716ab02d4082a2",
-                "2bf1904c5cdfea2c"
-            ]
-        ]
-    },
-    {
-        "id": "ed716ab02d4082a2",
-        "type": "link out",
-        "z": "55a762ae72fa441b",
-        "name": "Send phase 2 FS updates",
-        "mode": "link",
-        "links": [
-            "0416ea6909311b42"
-        ],
-        "x": 2565,
-        "y": 4160,
-        "wires": []
-    },
-    {
-        "id": "2bf1904c5cdfea2c",
-        "type": "delay",
-        "z": "55a762ae72fa441b",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "30",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 2200,
-        "y": 4240,
-        "wires": [
-            [
-                "21a3e408cf9c4ffc"
-            ]
-        ]
-    },
-    {
-        "id": "ad963e02c9e92e23",
-        "type": "link out",
-        "z": "55a762ae72fa441b",
-        "name": "Send phase 2 FS updates",
-        "mode": "link",
-        "links": [
-            "0416ea6909311b42"
-        ],
-        "x": 2525,
-        "y": 4240,
-        "wires": []
-    },
-    {
-        "id": "9ff066051ce6b800",
-        "type": "function",
-        "z": "55a762ae72fa441b",
-        "name": "Spread phase 2 [jank]",
-        "func": "//--- Vars\nvar whichSide = global.get(\"otherSide\");\nvar whichRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nwhichRoute = whichRoute == \"T\" ? \"B\" : \"T\";\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\n\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\nvar msg3 = {};\nmsg3.payload = {};\n\n\n\n//-------------------------\n//-- THIS IS STILL THE JANK METHOD\n//-- WILL NEED TO BE UPDATED WITH THE NIGE METHOD\n\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\nvar burningBldgs = [bldg1, bldg2, bldg3];\nnode.warn(burningBldgs);\n\n// Check on it \nif (global.get(bldg1 + \".FS.Window1-AfterWater\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1-AfterWater\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\nif (global.get(bldg3 + \".FS.Window1-AfterWater\") > 0) {\n    msg3.payload.bldg = bldg3;\n    msg3.payload.window = 2;\n    msg3.payload.numFire = 8;\n}\n\nnode.warn(msg1);\nnode.warn(msg2);\nnode.warn(msg3);\n\n//Fin\nreturn [msg1, msg2, msg3];",
-        "outputs": 3,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2400,
-        "y": 4320,
-        "wires": [
-            [
-                "818f620db7bf22cc"
-            ],
-            [
-                "818f620db7bf22cc"
-            ],
-            [
-                "818f620db7bf22cc"
-            ]
-        ]
-    },
-    {
-        "id": "818f620db7bf22cc",
-        "type": "link out",
-        "z": "55a762ae72fa441b",
-        "name": "Send phase 2 FS updates",
-        "mode": "link",
-        "links": [
-            "0416ea6909311b42"
-        ],
-        "x": 2565,
-        "y": 4320,
-        "wires": []
-    },
-    {
-        "id": "e08a0860d7eb970a",
-        "type": "delay",
-        "z": "55a762ae72fa441b",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "30",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 2200,
-        "y": 4320,
-        "wires": [
-            [
-                "9ff066051ce6b800"
-            ]
-        ]
-    },
-    {
-        "id": "01d28ef179167563",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "name": "====\\n ALSO - THIS TIMER WILL NEED TO RUN OUT AFTER TEH MATCH FINISHES",
-        "info": "",
-        "x": 2420,
-        "y": 4400,
-        "wires": []
-    },
-    {
-        "id": "21a3e408cf9c4ffc",
-        "type": "function",
-        "z": "55a762ae72fa441b",
-        "name": "Spread phase 2 second bldgs [jank]",
-        "func": "//--- Vars\nvar whichSide = global.get(\"otherSide\");\nvar whichRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nwhichRoute = whichRoute==\"T\" ? \"B\": \"T\";\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\n\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\nvar msg3 = {};\nmsg3.payload = {};\n\n\n\n//-------------------------\n//-- THIS IS STILL THE JANK METHOD\n//-- WILL NEED TO BE UPDATED WITH THE NIGE METHOD\n\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\nvar burningBldgs = [bldg1, bldg2, bldg3];\nnode.warn(burningBldgs);\n\n// do it\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 1;\n    msg2.payload.numFire = 8;\nmsg3.payload.bldg = bldg3;\nmsg3.payload.window =1;\nmsg3.payload.numFire = 8;\n\n\nnode.warn(msg1);\nnode.warn(msg2);\nnode.warn(msg3);\n\n//Fin\nreturn [msg1, msg2, msg3];",
-        "outputs": 3,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2440,
-        "y": 4240,
-        "wires": [
-            [
-                "ad963e02c9e92e23"
-            ],
-            [
-                "ad963e02c9e92e23"
-            ],
-            [
-                "ad963e02c9e92e23",
-                "e08a0860d7eb970a"
-            ]
-        ]
-    },
-    {
-        "id": "98367b1c57292215",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "name": "====\\n PHASE 2 NIGE METHOD",
-        "info": "",
-        "x": 2250,
-        "y": 4540,
-        "wires": []
     },
     {
         "id": "45208014d2d00ce0",
@@ -5680,26 +5159,6 @@
         "wires": []
     },
     {
-        "id": "5703bc1fdf115f90",
-        "type": "function",
-        "z": "55a762ae72fa441b",
-        "g": "325d6a9e63d4c375",
-        "name": "Set 0:30 target for burn",
-        "func": "//--- Set up vars\nvar curTime = global.get(\"timeElapsed\"); //in secs\n\n//--- Set a \"time target\" that is 30 secs from now\nvar timeTarget = curTime + global.get(\"fireWindowSpreadDelay\");\n//var timeTarget = curTime + 5; //for testing\nglobal.set(\"burnTimeTarget\", timeTarget);\n\n\n//Fin\nmsg.payload = timeTarget;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 890,
-        "y": 2220,
-        "wires": [
-            [
-                "ca5dd7da6a525065"
-            ]
-        ]
-    },
-    {
         "id": "076e7875117acb7c",
         "type": "comment",
         "z": "55a762ae72fa441b",
@@ -5709,79 +5168,6 @@
         "x": 240,
         "y": 2040,
         "wires": []
-    },
-    {
-        "id": "0696dfed47787161",
-        "type": "function",
-        "z": "55a762ae72fa441b",
-        "g": "325d6a9e63d4c375",
-        "name": "Start global.timeElapsed timer",
-        "func": "let clock_value_burn = flow.get(\"clock_value_burn\") || 0;\n\nclock_value_burn++; \n\nif (clock_value_burn < 0) clock_value_burn = 0;\n\nflow.set(\"clock_value_burn\", clock_value_burn);\nglobal.set(\"timeElapsed\", clock_value_burn);\n\nmsg.payload = clock_value_burn;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 690,
-        "y": 2080,
-        "wires": [
-            [
-                "3e8cddebe9821750"
-            ]
-        ]
-    },
-    {
-        "id": "3e8cddebe9821750",
-        "type": "delay",
-        "z": "55a762ae72fa441b",
-        "g": "325d6a9e63d4c375",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "1",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 900,
-        "y": 2080,
-        "wires": [
-            [
-                "11ab1aaf6ca42a14"
-            ]
-        ]
-    },
-    {
-        "id": "11ab1aaf6ca42a14",
-        "type": "switch",
-        "z": "55a762ae72fa441b",
-        "g": "325d6a9e63d4c375",
-        "name": "If still phase > 0",
-        "property": "matchPhase",
-        "propertyType": "global",
-        "rules": [
-            {
-                "t": "gt",
-                "v": "0",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1060,
-        "y": 2080,
-        "wires": [
-            [
-                "0696dfed47787161",
-                "a9936705c3706204"
-            ]
-        ]
     },
     {
         "id": "7f4d3b57fb223092",
@@ -5831,8 +5217,8 @@
         "y": 2160,
         "wires": [
             [
-                "0696dfed47787161",
-                "a14376b6f39e6218"
+                "a360df724bcd3f11",
+                "ca5dd7da6a525065"
             ]
         ]
     },
@@ -5859,37 +5245,6 @@
         "wires": []
     },
     {
-        "id": "90df1a2f47e67002",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "325d6a9e63d4c375",
-        "name": "----------------- \"Global\" timer (at least, until phase goes <= 0)",
-        "info": "",
-        "x": 750,
-        "y": 2040,
-        "wires": []
-    },
-    {
-        "id": "d2fb90aad48fa2a7",
-        "type": "function",
-        "z": "55a762ae72fa441b",
-        "g": "325d6a9e63d4c375",
-        "name": "Set 0:30 target for burn",
-        "func": "//--- Set up vars\nvar curTime = global.get(\"timeElapsed\"); //in secs\n\n//--- Set a \"time target\" that is 30 secs from now\nvar timeTarget = curTime + global.get(\"fireWindowSpreadDelay\");\nglobal.set(\"burnTimeTarget\", timeTarget);\n\n//--- debug\nif(global.get(\"DEBUG\")) {\n    node.warn(\"New burnTimeTarget: \" + timeTarget + \"; current timeElapsed: \" + curTime);\n}\n\n//Fin\nmsg.payload = timeTarget;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 890,
-        "y": 2540,
-        "wires": [
-            [
-                "25e253e5a54e3110"
-            ]
-        ]
-    },
-    {
         "id": "b1a12d7e894426ee",
         "type": "comment",
         "z": "55a762ae72fa441b",
@@ -5899,26 +5254,6 @@
         "x": 720,
         "y": 2860,
         "wires": []
-    },
-    {
-        "id": "24e909abaa765b63",
-        "type": "function",
-        "z": "55a762ae72fa441b",
-        "g": "325d6a9e63d4c375",
-        "name": "Set 0:30 target for burn",
-        "func": "//--- Set up vars\nvar curTime = global.get(\"timeElapsed\"); //in secs\n\n//--- Set a \"time target\" that is 30 secs from now\nvar timeTarget = curTime + global.get(\"fireWindowSpreadDelay\");\nglobal.set(\"burnTimeTarget\", timeTarget);\n\n\n//Fin\nmsg.payload = timeTarget;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 890,
-        "y": 2900,
-        "wires": [
-            [
-                "e8fd57bcff4cabcb"
-            ]
-        ]
     },
     {
         "id": "1a2d6e714aea9f24",
@@ -5932,7 +5267,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1450,
+        "x": 1190,
         "y": 2340,
         "wires": [
             [
@@ -5947,7 +5282,7 @@
         "g": "c8b0f520ed08c7a6",
         "name": "TIME TO BURN",
         "info": "",
-        "x": 1420,
+        "x": 1160,
         "y": 2300,
         "wires": []
     },
@@ -5963,7 +5298,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1800,
+        "x": 1540,
         "y": 2380,
         "wires": [
             [
@@ -5982,7 +5317,7 @@
         "links": [
             "dc1d674e61de820d"
         ],
-        "x": 1965,
+        "x": 1705,
         "y": 2380,
         "wires": []
     },
@@ -6004,40 +5339,14 @@
         "limit": "",
         "loopPayload": "loop-val",
         "finalPayload": "final-count",
-        "x": 1710,
+        "x": 1450,
         "y": 2320,
         "wires": [
             [
-                "319874a11303642d"
+                "25e253e5a54e3110"
             ],
             [
                 "611d2e7ab4c4df4d"
-            ]
-        ]
-    },
-    {
-        "id": "319874a11303642d",
-        "type": "change",
-        "z": "55a762ae72fa441b",
-        "g": "325d6a9e63d4c375",
-        "name": "",
-        "rules": [
-            {
-                "t": "delete",
-                "p": "reset",
-                "pt": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 670,
-        "y": 2540,
-        "wires": [
-            [
-                "d2fb90aad48fa2a7"
             ]
         ]
     },
@@ -6053,7 +5362,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1800,
+        "x": 1540,
         "y": 2700,
         "wires": [
             [
@@ -6074,7 +5383,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1450,
+        "x": 1190,
         "y": 2660,
         "wires": [
             [
@@ -6089,7 +5398,7 @@
         "g": "15ec07be63476f47",
         "name": "TIME TO BURN",
         "info": "",
-        "x": 1420,
+        "x": 1160,
         "y": 2620,
         "wires": []
     },
@@ -6111,11 +5420,11 @@
         "limit": "",
         "loopPayload": "loop-val",
         "finalPayload": "final-count",
-        "x": 1710,
+        "x": 1450,
         "y": 2640,
         "wires": [
             [
-                "4e3d920d71ecf9d7"
+                "e8fd57bcff4cabcb"
             ],
             [
                 "e71dabb088e11184"
@@ -6132,35 +5441,9 @@
         "links": [
             "dc1d674e61de820d"
         ],
-        "x": 1965,
+        "x": 1705,
         "y": 2700,
         "wires": []
-    },
-    {
-        "id": "4e3d920d71ecf9d7",
-        "type": "change",
-        "z": "55a762ae72fa441b",
-        "g": "325d6a9e63d4c375",
-        "name": "",
-        "rules": [
-            {
-                "t": "delete",
-                "p": "reset",
-                "pt": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 670,
-        "y": 2900,
-        "wires": [
-            [
-                "24e909abaa765b63"
-            ]
-        ]
     },
     {
         "id": "38814e878484ba2d",
@@ -6169,7 +5452,7 @@
         "g": "f5f17912a6b03826",
         "name": "TIME TO BURN",
         "info": "",
-        "x": 1420,
+        "x": 1160,
         "y": 2960,
         "wires": []
     },
@@ -6185,7 +5468,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1800,
+        "x": 1540,
         "y": 3040,
         "wires": [
             [
@@ -6204,7 +5487,7 @@
         "links": [
             "dc1d674e61de820d"
         ],
-        "x": 1975,
+        "x": 1705,
         "y": 3040,
         "wires": []
     },
@@ -6226,7 +5509,7 @@
         "limit": "",
         "loopPayload": "loop-val",
         "finalPayload": "final-count",
-        "x": 1710,
+        "x": 1450,
         "y": 2980,
         "wires": [
             [],
@@ -6241,13 +5524,13 @@
         "z": "55a762ae72fa441b",
         "g": "f5f17912a6b03826",
         "name": "Build Array of 2nd Bldgs",
-        "func": "//--- Vars \nvar theSide = global.get(\"droneActiveSide\"); // e.g. \"L\"\nvar theRoute = global.get(\"startRoute\") == \"B\" ? \"T\" : \"B\";  // switch B and T\nvar outBldgs = [];\nvar i = 0;\n\n//--- Check if 2nd wave bldgs are still burning\nvar bldg1 = theSide + theRoute + \"I\"; // e.g. \"LBI\"\nvar bldg2 = theSide + theRoute + \"M\"; // e.g. \"LBM\"\n\nif(global.get(bldg1 + \".Status\") == \"Burning\") {\n    outBldgs[i] = bldg1;\n    i++;\n}\nif(global.get(bldg2 + \".Status\", \"Burning\") == \"Burning\") {\n    outBldgs[i] = bldg2;\n    i++;\n}\n\n//--- Fin\nmsg.payload = outBldgs;\nreturn msg;",
+        "func": "//--- Vars \nvar theSide = global.get(\"droneActiveSide\"); // e.g. \"L\"\nvar theRoute = global.get(\"startRoute\") == \"B\" ? \"T\" : \"B\";  // switch B and T\nvar outBldgs = [];\nvar i = 0;\n\n//--- Check if 2nd wave bldgs are still burning\nvar bldg1 = theSide + theRoute + \"I\"; // e.g. \"LBI\"\nvar bldg2 = theSide + theRoute + \"M\"; // e.g. \"LBM\"\n\nif(global.get(bldg1 + \".Status\") == \"Burning\") {\n    outBldgs[i] = bldg1;\n    i++;\n}\nif(global.get(bldg2 + \".Status\") == \"Burning\") {\n    outBldgs[i] = bldg2;\n    i++;\n}\n\n//--- Fin\nmsg.payload = outBldgs;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1450,
+        "x": 1190,
         "y": 3000,
         "wires": [
             [
@@ -6261,7 +5544,7 @@
         "z": "55a762ae72fa441b",
         "g": "325d6a9e63d4c375",
         "name": "",
-        "x": 1150,
+        "x": 870,
         "y": 2260,
         "wires": [
             [
@@ -6278,7 +5561,7 @@
         "z": "55a762ae72fa441b",
         "g": "325d6a9e63d4c375",
         "name": "",
-        "x": 1150,
+        "x": 870,
         "y": 2580,
         "wires": [
             [
@@ -6295,15 +5578,15 @@
         "z": "55a762ae72fa441b",
         "g": "325d6a9e63d4c375",
         "group": "eaf195bd1737c2d1",
-        "order": 2,
-        "width": 10,
+        "order": 1,
+        "width": 5,
         "height": 1,
         "name": "",
         "label": "1 -> 2 Wndws:",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 1400,
+        "x": 1140,
         "y": 2220,
         "wires": []
     },
@@ -6313,15 +5596,15 @@
         "z": "55a762ae72fa441b",
         "g": "325d6a9e63d4c375",
         "group": "eaf195bd1737c2d1",
-        "order": 3,
-        "width": 10,
+        "order": 2,
+        "width": 5,
         "height": 1,
         "name": "",
         "label": "Second Bldgs:",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 1400,
+        "x": 1140,
         "y": 2540,
         "wires": []
     },
@@ -6331,7 +5614,7 @@
         "z": "55a762ae72fa441b",
         "g": "325d6a9e63d4c375",
         "name": "",
-        "x": 1150,
+        "x": 870,
         "y": 2940,
         "wires": [
             [
@@ -6348,7 +5631,7 @@
         "z": "55a762ae72fa441b",
         "g": "325d6a9e63d4c375",
         "group": "eaf195bd1737c2d1",
-        "order": 4,
+        "order": 3,
         "width": 10,
         "height": 1,
         "name": "",
@@ -6356,52 +5639,8 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 1440,
+        "x": 1180,
         "y": 2880,
-        "wires": []
-    },
-    {
-        "id": "a14376b6f39e6218",
-        "type": "change",
-        "z": "55a762ae72fa441b",
-        "g": "325d6a9e63d4c375",
-        "name": "",
-        "rules": [
-            {
-                "t": "delete",
-                "p": "reset",
-                "pt": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 670,
-        "y": 2220,
-        "wires": [
-            [
-                "5703bc1fdf115f90"
-            ]
-        ]
-    },
-    {
-        "id": "a9936705c3706204",
-        "type": "ui_text",
-        "z": "55a762ae72fa441b",
-        "g": "325d6a9e63d4c375",
-        "group": "eaf195bd1737c2d1",
-        "order": 1,
-        "width": 10,
-        "height": 1,
-        "name": "",
-        "label": "Time Elapsed:",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "x": 1260,
-        "y": 2060,
         "wires": []
     },
     {
@@ -6485,28 +5724,14 @@
             "d3ed72bb430a14d5",
             "08a29338294dfb72",
             "e36e232e45440235",
-            "63e5d51d3c5537de"
+            "63e5d51d3c5537de",
+            "d933fd6ba240e248",
+            "b345dbc959763a12",
+            "f261d268c894a2ab"
         ],
         "x": 795,
         "y": 260,
         "wires": []
-    },
-    {
-        "id": "6494ec07de55a20b",
-        "type": "link in",
-        "z": "55a762ae72fa441b",
-        "g": "325d6a9e63d4c375",
-        "name": "Reset Output - Time",
-        "links": [
-            "9296e95263e5ddc7"
-        ],
-        "x": 1135,
-        "y": 2020,
-        "wires": [
-            [
-                "a9936705c3706204"
-            ]
-        ]
     },
     {
         "id": "b06a20262c7c11b3",
@@ -6545,7 +5770,7 @@
         "links": [
             "9296e95263e5ddc7"
         ],
-        "x": 1285,
+        "x": 1025,
         "y": 2200,
         "wires": [
             [
@@ -6562,7 +5787,7 @@
         "links": [
             "9296e95263e5ddc7"
         ],
-        "x": 1285,
+        "x": 1025,
         "y": 2500,
         "wires": [
             [
@@ -6579,7 +5804,7 @@
         "links": [
             "9296e95263e5ddc7"
         ],
-        "x": 1285,
+        "x": 1015,
         "y": 2840,
         "wires": [
             [
@@ -6848,17 +6073,6 @@
         ]
     },
     {
-        "id": "692f7e973b247e3f",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "TIME FOR PHASE 2",
-        "info": "",
-        "x": 220,
-        "y": 4240,
-        "wires": []
-    },
-    {
         "id": "b7983b1421307bef",
         "type": "comment",
         "z": "55a762ae72fa441b",
@@ -6996,7 +6210,8 @@
         "y": 3480,
         "wires": [
             [
-                "5c1f40ee35f2a6ca"
+                "5c1f40ee35f2a6ca",
+                "8129aa3f03a57ebd"
             ]
         ]
     },
@@ -7006,7 +6221,7 @@
         "z": "55a762ae72fa441b",
         "g": "c61a3666d4d9e6cc",
         "name": "Set PHASE-2 Globals",
-        "func": "\n// --- Switch sides\nswitch(global.get(\"droneActiveSide\")) {\n    case \"L\":\n        var newActive = \"R\"; \n        var newNonActive = \"L\";\n        break;\n    case \"R\":\n        var newActive = \"L\";\n        var newNonActive = \"R\";\n        break;\n}\nglobal.set(\"droneActiveSide\", newActive);\nglobal.set(\"droneNonActiveSide\", newNonActive);\nvar activeSideChar = newActive;\n\n// --- Create active side array\nswitch (activeSideChar) {\n    case \"L\":\n        var activeSide = global.get(\"leftBldgs\");\n        var nonActiveSide = global.get(\"rightBldgs\");\n        break;\n    case \"R\": \n        var activeSide = global.get(\"rightBldgs\");\n        var nonActiveSide = global.get(\"leftBldgs\");\n        break;\n}\n\n\n// --- Loop (phase 2) active side bldgs, make sure they're all clear and outta here\nfor (var i in activeSide) {\n    // Status\n    global.set(activeSide[i] + \".Status\", \"PHASE-2\");\n\n    // Fire scores \n    global.set(activeSide[i] + \".FS.Total\", 0);\n    global.set(activeSide[i] + \".FirePixels.TotalBeforeWater\",0);\n    global.set(activeSide[i] + \".FirePixels.TotalAfterWater\", 0);\n    \n    // Lights\n    global.set(activeSide[i] + \".Lights.GutterPixels\", \"000000000000000000000000000000\");\n    global.set(activeSide[i] + \".Lights.Window1\", \"OFF\");\n    global.set(activeSide[i] + \".Lights.Window2\", \"OFF\");\n\n    // Water qtys - int\n    global.set(activeSide[i] + \".WaterQty\", 0);\n}\n\n\n// --- Clean up phase 1 bldgs too, just in case\nfor (var i in nonActiveSide) {\n    // Status\n    global.set(nonActiveSide[i] + \".Status\", \"P2-Dormant\");\n\n    // Fire scores \n    global.set(nonActiveSide[i] + \".FS.Total\", 0);\n    global.set(nonActiveSide[i] + \".FirePixels.TotalBeforeWater\", 0);\n    global.set(nonActiveSide[i] + \".FirePixels.TotalAfterWater\", 0);\n\n    // Lights\n    global.set(nonActiveSide[i] + \".Lights.GutterPixels\", \"111111111111111111111111111111\");\n    global.set(nonActiveSide[i] + \".Lights.Window1\", \"OFF\");\n    global.set(nonActiveSide[i] + \".Lights.Window2\", \"OFF\");\n}\n\n//-- Fin\nmsg.payload = activeSide;\nreturn msg;",
+        "func": "node.warn(\"============== PREPPING PHASE 2 =============\");\n\n// --- Switch sides\nswitch(global.get(\"droneActiveSide\")) {\n    case \"L\":\n        var newActive = \"R\"; \n        var newNonActive = \"L\";\n        break;\n    case \"R\":\n        var newActive = \"L\";\n        var newNonActive = \"R\";\n        break;\n}\nglobal.set(\"droneActiveSide\", newActive);\nglobal.set(\"droneNonActiveSide\", newNonActive);\nvar activeSideChar = newActive;\n\n// --- Create active side array\nswitch (activeSideChar) {\n    case \"L\":\n        var activeSide = global.get(\"leftBldgs\");\n        var nonActiveSide = global.get(\"rightBldgs\");\n        break;\n    case \"R\": \n        var activeSide = global.get(\"rightBldgs\");\n        var nonActiveSide = global.get(\"leftBldgs\");\n        break;\n}\n\n\n// --- Loop (phase 2) active side bldgs, make sure they're all clear and outta here\nfor (var i in activeSide) {\n    // Status\n    global.set(activeSide[i] + \".Status\", \"PHASE-2\");\n\n    // Fire scores \n    global.set(activeSide[i] + \".FS.Total\", 0);\n    global.set(activeSide[i] + \".FirePixels.TotalBeforeWater\",0);\n    global.set(activeSide[i] + \".FirePixels.TotalAfterWater\", 0);\n    \n    // Lights\n    global.set(activeSide[i] + \".Lights.GutterPixels\", \"000000000000000000000000000000\");\n    global.set(activeSide[i] + \".Lights.Window1\", \"OFF\");\n    global.set(activeSide[i] + \".Lights.Window2\", \"OFF\");\n\n    // Water qtys - int\n    global.set(activeSide[i] + \".WaterQty\", 0);\n}\n\n\n// --- Clean up phase 1 bldgs too, just in case\nfor (var i in nonActiveSide) {\n    // Status\n    global.set(nonActiveSide[i] + \".Status\", \"P2-Dormant\");\n\n    // Fire scores \n    global.set(nonActiveSide[i] + \".FS.Total\", 0);\n    global.set(nonActiveSide[i] + \".FirePixels.TotalBeforeWater\", 0);\n    global.set(nonActiveSide[i] + \".FirePixels.TotalAfterWater\", 0);\n\n    // Lights\n    global.set(nonActiveSide[i] + \".Lights.GutterPixels\", \"111111111111111111111111111111\");\n    global.set(nonActiveSide[i] + \".Lights.Window1\", \"OFF\");\n    global.set(nonActiveSide[i] + \".Lights.Window2\", \"OFF\");\n}\n\n//-- Fin\nmsg.payload = activeSide;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7018,29 +6233,6 @@
             [
                 "699d455d7e070f7f"
             ]
-        ]
-    },
-    {
-        "id": "f5e86140762b27e6",
-        "type": "delay",
-        "z": "55a762ae72fa441b",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "30",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1300,
-        "y": 3720,
-        "wires": [
-            []
         ]
     },
     {
@@ -7125,7 +6317,8 @@
         "y": 3520,
         "wires": [
             [
-                "07ec816b8431f6fe"
+                "07ec816b8431f6fe",
+                "e250e85c9bf3a336"
             ]
         ]
     },
@@ -7507,6 +6700,652 @@
         "x": 410,
         "y": 3260,
         "wires": []
+    },
+    {
+        "id": "e347d2f3f1d7b867",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "a2191c93ea98c3cd",
+        "name": "----------------- First Set of Bldgs -> 2 Windows ----------------- ",
+        "info": "",
+        "x": 870,
+        "y": 3740,
+        "wires": []
+    },
+    {
+        "id": "e250e85c9bf3a336",
+        "type": "subflow:191a41e1c006a3a3",
+        "z": "55a762ae72fa441b",
+        "g": "a2191c93ea98c3cd",
+        "name": "",
+        "x": 1010,
+        "y": 3820,
+        "wires": [
+            [
+                "c5dde430e853d458"
+            ],
+            [
+                "6033b9343789b08e"
+            ]
+        ]
+    },
+    {
+        "id": "c5dde430e853d458",
+        "type": "ui_text",
+        "z": "55a762ae72fa441b",
+        "g": "a2191c93ea98c3cd",
+        "group": "d5eb4f8c4e11b4ae",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "1 -> 2 Wndws:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1260,
+        "y": 3780,
+        "wires": []
+    },
+    {
+        "id": "d933fd6ba240e248",
+        "type": "link in",
+        "z": "55a762ae72fa441b",
+        "g": "a2191c93ea98c3cd",
+        "name": "Reset Output - Time",
+        "links": [
+            "9296e95263e5ddc7"
+        ],
+        "x": 1145,
+        "y": 3760,
+        "wires": [
+            [
+                "c5dde430e853d458"
+            ]
+        ]
+    },
+    {
+        "id": "6033b9343789b08e",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "04cf701b8b094633",
+        "name": "Build BurningBldgs Array",
+        "func": "//--- Vars \nvar allBldgs = global.get(\"allBldgs\");\nvar outBldgs = [];\nvar burnBldgCnt = 0;\n\n//--- Loop through bldgs, look for burning ones\nfor (var i = 0; i < allBldgs.length; i++) { \n    if ((global.get(allBldgs[i] + \".Status\")) == \"Burning\") {\n        outBldgs[burnBldgCnt] = allBldgs[i];\n        burnBldgCnt += 1;\n    }\n}\n\n//--- Fin\n// **** need an error handler if no outBldgs are found?\nmsg.payload = outBldgs;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1310,
+        "y": 3900,
+        "wires": [
+            [
+                "5f46218c00bd82e5"
+            ]
+        ]
+    },
+    {
+        "id": "49c1d158fff7d9fa",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "04cf701b8b094633",
+        "name": "TIME TO BURN",
+        "info": "",
+        "x": 1280,
+        "y": 3860,
+        "wires": []
+    },
+    {
+        "id": "10aa02afe21c7a24",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "04cf701b8b094633",
+        "name": "Prep AddFirePix Setter",
+        "func": "//--- Set up basic vars\nvar theBldg = msg.payload;\nmsg.payload = {};\n\n/* \nAddFirePix expects:\n- msg.payload.bldg: a node ID\n- msg.payload.numFirePixels: int, the qty FirePixels to add\n*/\nmsg.payload.bldg = theBldg;\nmsg.payload.numFirePixels = 8;\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1660,
+        "y": 3940,
+        "wires": [
+            [
+                "5f254d40c5e8240f",
+                "5f46218c00bd82e5"
+            ]
+        ]
+    },
+    {
+        "id": "5f254d40c5e8240f",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "04cf701b8b094633",
+        "name": "To AddFirePix",
+        "mode": "link",
+        "links": [
+            "dc1d674e61de820d"
+        ],
+        "x": 1825,
+        "y": 3940,
+        "wires": []
+    },
+    {
+        "id": "5f46218c00bd82e5",
+        "type": "loop",
+        "z": "55a762ae72fa441b",
+        "g": "04cf701b8b094633",
+        "name": "Loop Burning Bldgs",
+        "kind": "enum",
+        "count": "",
+        "initial": "1",
+        "step": "1",
+        "condition": "",
+        "conditionType": "js",
+        "when": "before",
+        "enumeration": "payload",
+        "enumerationType": "msg",
+        "limit": "",
+        "loopPayload": "loop-val",
+        "finalPayload": "final-count",
+        "x": 1570,
+        "y": 3880,
+        "wires": [
+            [
+                "30a41bfa8ece7f07"
+            ],
+            [
+                "10aa02afe21c7a24"
+            ]
+        ]
+    },
+    {
+        "id": "f58d58c6ba7c9093",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "a2191c93ea98c3cd",
+        "name": "Phase 2 Burn Timers - Rev CMP",
+        "info": "",
+        "x": 610,
+        "y": 3680,
+        "wires": []
+    },
+    {
+        "id": "0696dfed47787161",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "696338a863cf43dc",
+        "name": "Start global.timeElapsed timer",
+        "func": "let clock_value_burn = flow.get(\"clock_value_burn\") || 0;\n\nclock_value_burn++; \n\nif (clock_value_burn < 0) clock_value_burn = 0;\n\nflow.set(\"clock_value_burn\", clock_value_burn);\nglobal.set(\"timeElapsed\", clock_value_burn);\n\nmsg.payload = clock_value_burn;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2370,
+        "y": 2280,
+        "wires": [
+            [
+                "3e8cddebe9821750"
+            ]
+        ]
+    },
+    {
+        "id": "3e8cddebe9821750",
+        "type": "delay",
+        "z": "55a762ae72fa441b",
+        "g": "696338a863cf43dc",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2580,
+        "y": 2280,
+        "wires": [
+            [
+                "11ab1aaf6ca42a14"
+            ]
+        ]
+    },
+    {
+        "id": "11ab1aaf6ca42a14",
+        "type": "switch",
+        "z": "55a762ae72fa441b",
+        "g": "696338a863cf43dc",
+        "name": "If still phase > 0",
+        "property": "matchPhase",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 2740,
+        "y": 2280,
+        "wires": [
+            [
+                "0696dfed47787161",
+                "a9936705c3706204"
+            ]
+        ]
+    },
+    {
+        "id": "90df1a2f47e67002",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "696338a863cf43dc",
+        "name": "----------------- \"Global\" timer (at least, until phase goes <= 0)",
+        "info": "",
+        "x": 2370,
+        "y": 2200,
+        "wires": []
+    },
+    {
+        "id": "a9936705c3706204",
+        "type": "ui_text",
+        "z": "55a762ae72fa441b",
+        "g": "696338a863cf43dc",
+        "group": "f1f13388d5f613e8",
+        "order": 5,
+        "width": 10,
+        "height": 1,
+        "name": "",
+        "label": "Time Elapsed:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 2940,
+        "y": 2260,
+        "wires": []
+    },
+    {
+        "id": "6494ec07de55a20b",
+        "type": "link in",
+        "z": "55a762ae72fa441b",
+        "g": "696338a863cf43dc",
+        "name": "Reset Output - Time",
+        "links": [
+            "9296e95263e5ddc7"
+        ],
+        "x": 2815,
+        "y": 2220,
+        "wires": [
+            [
+                "a9936705c3706204"
+            ]
+        ]
+    },
+    {
+        "id": "ad244be403c702a2",
+        "type": "link in",
+        "z": "55a762ae72fa441b",
+        "g": "696338a863cf43dc",
+        "name": "Kickstart the Timer",
+        "links": [
+            "a360df724bcd3f11",
+            "8129aa3f03a57ebd"
+        ],
+        "x": 2185,
+        "y": 2280,
+        "wires": [
+            [
+                "0696dfed47787161"
+            ]
+        ]
+    },
+    {
+        "id": "a360df724bcd3f11",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "325d6a9e63d4c375",
+        "name": "To the Global Timer",
+        "mode": "link",
+        "links": [
+            "ad244be403c702a2"
+        ],
+        "x": 565,
+        "y": 2080,
+        "wires": []
+    },
+    {
+        "id": "b0e7c4943b7665f1",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "325d6a9e63d4c375",
+        "name": "Start the Timer",
+        "info": "",
+        "x": 680,
+        "y": 2080,
+        "wires": []
+    },
+    {
+        "id": "dad89c1138e7e4f8",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "name": "Start the Timer",
+        "info": "",
+        "x": 1780,
+        "y": 3540,
+        "wires": []
+    },
+    {
+        "id": "8129aa3f03a57ebd",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "name": "To the Global Timer",
+        "mode": "link",
+        "links": [
+            "ad244be403c702a2"
+        ],
+        "x": 1665,
+        "y": 3540,
+        "wires": []
+    },
+    {
+        "id": "42684de7c516bf79",
+        "type": "ui_text",
+        "z": "55a762ae72fa441b",
+        "g": "a2191c93ea98c3cd",
+        "group": "d5eb4f8c4e11b4ae",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Second Bldgs:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1260,
+        "y": 4060,
+        "wires": []
+    },
+    {
+        "id": "b345dbc959763a12",
+        "type": "link in",
+        "z": "55a762ae72fa441b",
+        "g": "a2191c93ea98c3cd",
+        "name": "Reset Output - Time",
+        "links": [
+            "9296e95263e5ddc7"
+        ],
+        "x": 1145,
+        "y": 4040,
+        "wires": [
+            [
+                "42684de7c516bf79"
+            ]
+        ]
+    },
+    {
+        "id": "30a41bfa8ece7f07",
+        "type": "subflow:191a41e1c006a3a3",
+        "z": "55a762ae72fa441b",
+        "g": "a2191c93ea98c3cd",
+        "name": "",
+        "x": 1010,
+        "y": 4100,
+        "wires": [
+            [
+                "42684de7c516bf79"
+            ],
+            [
+                "50fc3a4577acd26a"
+            ]
+        ]
+    },
+    {
+        "id": "50fc3a4577acd26a",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "c0996267b091c9c3",
+        "name": "Build Array of New Bldgs",
+        "func": "//--- Vars \nvar theSide = global.get(\"droneActiveSide\"); // e.g. \"L\"\nvar theRoute = global.get(\"startRoute\") == \"B\" ? \"T\" : \"B\";  // switch B and T\nvar outBldgs = [];\n\n//--- Build bldgs\noutBldgs[0] = theSide + theRoute + \"I\"; // e.g. \"LBI\"\noutBldgs[1] = theSide + theRoute + \"M\"; // e.g. \"LBM\"\noutBldgs[2] = theSide + theRoute + \"O\"; // e.g. \"LBO\"\n\n//--- Fin\nmsg.payload = outBldgs;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1310,
+        "y": 4180,
+        "wires": [
+            [
+                "4754a91b730752ea"
+            ]
+        ]
+    },
+    {
+        "id": "3dd0f9c6f6793cd4",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "c0996267b091c9c3",
+        "name": "TIME TO BURN",
+        "info": "",
+        "x": 1280,
+        "y": 4140,
+        "wires": []
+    },
+    {
+        "id": "a18a60b81152208f",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "c0996267b091c9c3",
+        "name": "Prep AddFirePix Setter",
+        "func": "//--- Set up basic vars\nvar theBldg = msg.payload;\nmsg.payload = {};\n\n/* \nAddFirePix expects:\n- msg.payload.bldg: a node ID\n- msg.payload.numFirePixels: int, the qty FirePixels to add\n*/\nmsg.payload.bldg = theBldg;\nmsg.payload.numFirePixels = 8;\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1660,
+        "y": 4220,
+        "wires": [
+            [
+                "580da0b3754a5818",
+                "4754a91b730752ea"
+            ]
+        ]
+    },
+    {
+        "id": "580da0b3754a5818",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "c0996267b091c9c3",
+        "name": "To AddFirePix",
+        "mode": "link",
+        "links": [
+            "dc1d674e61de820d"
+        ],
+        "x": 1825,
+        "y": 4220,
+        "wires": []
+    },
+    {
+        "id": "4754a91b730752ea",
+        "type": "loop",
+        "z": "55a762ae72fa441b",
+        "g": "c0996267b091c9c3",
+        "name": "Loop Burning Bldgs",
+        "kind": "enum",
+        "count": "",
+        "initial": "1",
+        "step": "1",
+        "condition": "",
+        "conditionType": "js",
+        "when": "before",
+        "enumeration": "payload",
+        "enumerationType": "msg",
+        "limit": "",
+        "loopPayload": "loop-val",
+        "finalPayload": "final-count",
+        "x": 1570,
+        "y": 4160,
+        "wires": [
+            [
+                "dc03f1f4c896cdb8"
+            ],
+            [
+                "a18a60b81152208f"
+            ]
+        ]
+    },
+    {
+        "id": "c5549d2580877907",
+        "type": "ui_text",
+        "z": "55a762ae72fa441b",
+        "g": "a2191c93ea98c3cd",
+        "group": "d5eb4f8c4e11b4ae",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Second Bldgs -> 2 Wndws:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1300,
+        "y": 4340,
+        "wires": []
+    },
+    {
+        "id": "f261d268c894a2ab",
+        "type": "link in",
+        "z": "55a762ae72fa441b",
+        "g": "a2191c93ea98c3cd",
+        "name": "Reset Output - Time",
+        "links": [
+            "9296e95263e5ddc7"
+        ],
+        "x": 1145,
+        "y": 4320,
+        "wires": [
+            [
+                "c5549d2580877907"
+            ]
+        ]
+    },
+    {
+        "id": "dc03f1f4c896cdb8",
+        "type": "subflow:191a41e1c006a3a3",
+        "z": "55a762ae72fa441b",
+        "g": "a2191c93ea98c3cd",
+        "name": "",
+        "x": 1010,
+        "y": 4380,
+        "wires": [
+            [
+                "c5549d2580877907"
+            ],
+            [
+                "6df3e0114ac85fee"
+            ]
+        ]
+    },
+    {
+        "id": "6df3e0114ac85fee",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "914422360e75360c",
+        "name": "Build Array of 2nd Bldgs",
+        "func": "//--- Vars \nvar theSide = global.get(\"droneActiveSide\"); // e.g. \"L\"\nvar theRoute = global.get(\"startRoute\") == \"B\" ? \"T\" : \"B\";  // switch B and T\nvar outBldgs = [];\nvar i = 0;\n\n//--- Check if 2nd wave bldgs are still burning\nvar bldg1 = theSide + theRoute + \"I\"; // e.g. \"LBI\"\nvar bldg2 = theSide + theRoute + \"M\"; // e.g. \"LBM\"\nvar bldg3 = theSide + theRoute + \"O\"; // e.g. \"LBM\"\n\nif (global.get(bldg1 + \".Status\") == \"Burning\") {\n    outBldgs[i] = bldg1;\n    i++;\n}\nif (global.get(bldg2 + \".Status\") == \"Burning\") {\n    outBldgs[i] = bldg2;\n    i++;\n}\nif (global.get(bldg3 + \".Status\") == \"Burning\") {\n    outBldgs[i] = bldg3;\n    i++;\n}\n\n//--- Fin\nmsg.payload = outBldgs;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1310,
+        "y": 4460,
+        "wires": [
+            [
+                "4e2f97a180d92ce0"
+            ]
+        ]
+    },
+    {
+        "id": "04054f448cd23fc4",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "914422360e75360c",
+        "name": "TIME TO BURN",
+        "info": "",
+        "x": 1280,
+        "y": 4420,
+        "wires": []
+    },
+    {
+        "id": "83118ebca9e0405b",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "914422360e75360c",
+        "name": "Prep AddFirePix Setter",
+        "func": "//--- Set up basic vars\nvar theBldg = msg.payload;\nmsg.payload = {};\n\n/* \nAddFirePix expects:\n- msg.payload.bldg: a node ID\n- msg.payload.numFirePixels: int, the qty FirePixels to add\n*/\nmsg.payload.bldg = theBldg;\nmsg.payload.numFirePixels = 8;\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1660,
+        "y": 4500,
+        "wires": [
+            [
+                "d2fe120e88698aeb",
+                "4e2f97a180d92ce0"
+            ]
+        ]
+    },
+    {
+        "id": "d2fe120e88698aeb",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "914422360e75360c",
+        "name": "To AddFirePix",
+        "mode": "link",
+        "links": [
+            "dc1d674e61de820d"
+        ],
+        "x": 1825,
+        "y": 4500,
+        "wires": []
+    },
+    {
+        "id": "4e2f97a180d92ce0",
+        "type": "loop",
+        "z": "55a762ae72fa441b",
+        "g": "914422360e75360c",
+        "name": "Loop Burning Bldgs",
+        "kind": "enum",
+        "count": "",
+        "initial": "1",
+        "step": "1",
+        "condition": "",
+        "conditionType": "js",
+        "when": "before",
+        "enumeration": "payload",
+        "enumerationType": "msg",
+        "limit": "",
+        "loopPayload": "loop-val",
+        "finalPayload": "final-count",
+        "x": 1570,
+        "y": 4440,
+        "wires": [
+            [],
+            [
+                "83118ebca9e0405b"
+            ]
+        ]
     },
     {
         "id": "7a5f520857017bbb",
@@ -16923,7 +16762,10 @@
             "62b657a968de3afc",
             "b5cf79cc058c8ffa",
             "4387cf2f1b40d3b8",
-            "07ec816b8431f6fe"
+            "07ec816b8431f6fe",
+            "5f254d40c5e8240f",
+            "580da0b3754a5818",
+            "d2fe120e88698aeb"
         ],
         "x": 195,
         "y": 200,
@@ -20246,5 +20088,718 @@
                 "3324776758a34ef8"
             ]
         ]
+    },
+    {
+        "id": "9004aeb7ec1ed4bf",
+        "type": "link in",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "TIME FOR PHASE 2",
+        "links": [
+            "fe84ce88167ea094",
+            "18c798f8f622b55b"
+        ],
+        "x": 1555,
+        "y": 2000,
+        "wires": [
+            [
+                "a051d26f3d84b499"
+            ]
+        ]
+    },
+    {
+        "id": "dc410816705aadf3",
+        "type": "link out",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "clap on",
+        "mode": "link",
+        "links": [
+            "31c4db3eb2f36e59"
+        ],
+        "x": 2085,
+        "y": 2120,
+        "wires": []
+    },
+    {
+        "id": "4c72ca30adc671fc",
+        "type": "delay",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2140,
+        "y": 2060,
+        "wires": [
+            [
+                "627488f25f62e8dc",
+                "58af15e1f7b1e202"
+            ]
+        ]
+    },
+    {
+        "id": "627488f25f62e8dc",
+        "type": "link out",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "clap off",
+        "mode": "link",
+        "links": [
+            "48373ebe740e92b6",
+            "756238117240a8cf",
+            "371a308e27a41bed",
+            "55ae42b1368591f7"
+        ],
+        "x": 2295,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "58af15e1f7b1e202",
+        "type": "loop",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "Mini Rave Loop",
+        "kind": "fcnt",
+        "count": "5",
+        "initial": "1",
+        "step": "1",
+        "condition": "",
+        "conditionType": "js",
+        "when": "before",
+        "enumeration": "enum",
+        "enumerationType": "msg",
+        "limit": "",
+        "loopPayload": "loop-index",
+        "finalPayload": "final-count",
+        "x": 1930,
+        "y": 2000,
+        "wires": [
+            [
+                "244a5e68750deac1"
+            ],
+            [
+                "dc410816705aadf3",
+                "4c72ca30adc671fc"
+            ]
+        ]
+    },
+    {
+        "id": "41fe48a660030e78",
+        "type": "inject",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "LET'S RAVE",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1700,
+        "y": 2060,
+        "wires": [
+            [
+                "58af15e1f7b1e202"
+            ]
+        ]
+    },
+    {
+        "id": "244a5e68750deac1",
+        "type": "delay",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2130,
+        "y": 2000,
+        "wires": [
+            [
+                "53c404b6960d9d5d"
+            ]
+        ]
+    },
+    {
+        "id": "9c7e5e9066493481",
+        "type": "comment",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "Pause to drain MQTT",
+        "info": "",
+        "x": 2150,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "f35369f3e7d9d9f9",
+        "type": "function",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "Set PHASE-2 qtys",
+        "func": "// --- Set up variables\nvar activeSideChar = global.get(\"otherSide\");\n\n// --- Create active side array\nswitch (activeSideChar) {\n    case \"L\":\n        var activeSide = global.get(\"leftBldgs\");\n    case \"R\": \n        var activeSide = global.get(\"rightBldgs\");\n}\n\n\n// --- Loop (phase 2) active side bldgs, make sure they're all clear and outta here\nfor (var i in activeSide) {\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(activeSide[i] + \".Status\", \"PHASE-2\");\n\n    //Fire scores \n    global.set(activeSide[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(activeSide[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(activeSide[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(activeSide[i] + \".FS.Window2-AfterWater\", 0);\n\n    // Gutters\n    global.set(activeSide[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n\n    // Water qtys - int\n    global.set(activeSide[i] + \".WaterQty\", 0);\n}\n//-------------------------------\n\n//--- Create & then loop burning active side buildings\n//-- Step 1: Create\nvar whichRouteInt = Math.floor(Math.random() * 2); //returns 0 or 1\nvar whichRouteChar = whichRouteInt == 1 ? \"T\" : \"B\";\nglobal.set(\"startRoute\", whichRouteChar);\nvar bldg1 = activeSideChar + whichRouteChar + \"M\"; //e.g. bldg LTM\nvar bldg2 = activeSideChar + whichRouteChar + \"I\"; //e.g. bldg LTI\nvar bldg3 = activeSideChar + whichRouteChar + \"O\"; //e.g. bldg LTO\nvar burningBldgs = [bldg1, bldg2, bldg3];\n\n//-- Step 2: Set globals\nfor(var i in burningBldgs) {\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(activeSide[i] + \".Status\", \"PHASE-2-BURNING\");\n\n    //Fire scores \n    global.set(burningBldgs[i] + \".FS.Window1-BeforeWater\", 8);\n    global.set(burningBldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(burningBldgs[i] + \".FS.Window1-AfterWater\", 8);\n    global.set(burningBldgs[i] + \".FS.Window2-AfterWater\", 0);\n\n    // Gutters\n    global.set(burningBldgs[i] + \".GutterPixels\", \"333333330000000000000000000000\"); \n}\n\n//-- Pass through\nflow.set(\"whichRouteChar\",whichRouteChar);\n\n//-- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2560,
+        "y": 2000,
+        "wires": [
+            [
+                "54f240d0cd94a297",
+                "ece36ce509a29e6b"
+            ]
+        ]
+    },
+    {
+        "id": "54f240d0cd94a297",
+        "type": "link out",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "Push phase2 statuses",
+        "mode": "link",
+        "links": [
+            "3f402ddd8643cce0"
+        ],
+        "x": 2705,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "53c404b6960d9d5d",
+        "type": "change",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "matchPhase",
+                "pt": "global",
+                "to": "2",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2350,
+        "y": 2000,
+        "wires": [
+            [
+                "f35369f3e7d9d9f9"
+            ]
+        ]
+    },
+    {
+        "id": "a051d26f3d84b499",
+        "type": "change",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "matchPhase",
+                "pt": "global",
+                "to": "-1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1690,
+        "y": 2000,
+        "wires": [
+            [
+                "58af15e1f7b1e202"
+            ]
+        ]
+    },
+    {
+        "id": "ece36ce509a29e6b",
+        "type": "delay",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2750,
+        "y": 2080,
+        "wires": [
+            [
+                "5c2c6bce8c7555a8"
+            ]
+        ]
+    },
+    {
+        "id": "5c2c6bce8c7555a8",
+        "type": "function",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "First Burning Bldgs -> 2 Windows",
+        "func": "//--- Vars\nvar whichSide = global.get(\"otherSide\"); \nvar whichRoute = flow.get(\"whichRouteChar\"); // \"T\" or \"B\"\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\n\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\nvar msg3 = {};\nmsg3.payload = {};\n\n//--- Check on the bldgs\n// Anyone who is still burning (i.e. team has not turned FS to 0) expands to next window\n// Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 2 to FS of 8\nif (global.get(bldg1 + \".FS.Window1-AfterWater\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1-AfterWater\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\n\n\n//-------------------------\n//-- THIS IS STILL THE JANK METHOD\n//-- WILL NEED TO BE UPDATED WITH THE NIGE METHOD\n\nvar whichSide = global.get(\"otherSide\");\nvar whichRoute = flow.get(\"whichRouteChar\"); // \"T\" or \"B\"\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\nvar burningBldgs = [bldg1, bldg2, bldg3];\n\n// Check on it \nif (global.get(bldg1 + \".FS.Window1-AfterWater\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1-AfterWater\") > 0) {\n    msg2.payload.bldg = bldg1;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\nif (global.get(bldg3 + \".FS.Window1-AfterWater\") > 0) {\n    msg3.payload.bldg = bldg1;\n    msg3.payload.window = 2;\n    msg3.payload.numFire = 8;\n}\n\n\n//Fin\nreturn [msg1, msg2, msg3];",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3010,
+        "y": 2080,
+        "wires": [
+            [
+                "340b990d6b13e2a7"
+            ],
+            [
+                "340b990d6b13e2a7"
+            ],
+            [
+                "340b990d6b13e2a7"
+            ]
+        ]
+    },
+    {
+        "id": "340b990d6b13e2a7",
+        "type": "link out",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "Send \"first burn\" FS updates",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42"
+        ],
+        "x": 3235,
+        "y": 2080,
+        "wires": []
+    },
+    {
+        "id": "93e63f839cdaec05",
+        "type": "link out",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "Send \"first burn\" FS updates",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42",
+            "772defe5dc3f1eb0",
+            "113bf2ef4799a486"
+        ],
+        "x": 3415,
+        "y": 2220,
+        "wires": []
+    },
+    {
+        "id": "37c7a2dbbcb0a457",
+        "type": "link out",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "Send \"first burn\" FS updates",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42"
+        ],
+        "x": 3405,
+        "y": 2160,
+        "wires": []
+    },
+    {
+        "id": "5178f08d4efe39d8",
+        "type": "function",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "Second Bldgs -> 1 Window",
+        "func": "//--- Set up vars\nif (global.get(\"matchPhase\") == 1) {\n    var whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\n} else if (global.get(\"matchPhase\") == 2) {\n    var whichSide = global.get(\"otherSide\");\n}\nvar startRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar whichRoute = startRoute == \"T\" ? \"B\" : \"T\"; //opposite\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 1 to FS of 8\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\nmsg2.payload.bldg = bldg2;\nmsg2.payload.window = 1;\nmsg2.payload.numFire = 8;\n\n//Fin\nreturn [msg1, msg2];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3210,
+        "y": 2160,
+        "wires": [
+            [
+                "37c7a2dbbcb0a457"
+            ],
+            [
+                "37c7a2dbbcb0a457",
+                "04945c3baa280d56"
+            ]
+        ]
+    },
+    {
+        "id": "53fa00494ea9a428",
+        "type": "delay",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2990,
+        "y": 2160,
+        "wires": [
+            [
+                "5178f08d4efe39d8"
+            ]
+        ]
+    },
+    {
+        "id": "04945c3baa280d56",
+        "type": "delay",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2990,
+        "y": 2220,
+        "wires": [
+            [
+                "df670749b6ba940f"
+            ]
+        ]
+    },
+    {
+        "id": "df670749b6ba940f",
+        "type": "function",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "Second Bldgs -> 2 Windows",
+        "func": "//--- Set up vars\nif (global.get(\"matchPhase\") == 1) {\n    var whichSide = global.get(\"startSide\");   // \"L\" or \"R\"\n} else if (global.get(\"matchPhase\") == 2) {\n    var whichSide = global.get(\"otherSide\");\n}\nvar startRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar whichRoute = startRoute == \"T\" ? \"B\" : \"T\"; //opposite\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar msg1 = {};\nvar msg2 = {};\nmsg1.payload = {};\nmsg2.payload = {};\n\n\n//--- Check on the bldgs\n// Anyone who is still burning (i.e. team has not turned FS to 0) expands to next window\n// Set up payloads to update globals using callbacks\n// - Callback expects payload.bldg, payload.window, payload.numFire\n// - Set window 2 to FS of 8\nif (global.get(bldg1 + \".FS.Window1-AfterWater\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1-AfterWater\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\n\n\n//Fin\nreturn [msg1, msg2];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3210,
+        "y": 2220,
+        "wires": [
+            [
+                "93e63f839cdaec05"
+            ],
+            [
+                "93e63f839cdaec05"
+            ]
+        ]
+    },
+    {
+        "id": "90051ad270b2f765",
+        "type": "comment",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "MVP Step 8 - Phase 2",
+        "info": "",
+        "x": 1590,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "692f7e973b247e3f",
+        "type": "comment",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "TIME FOR PHASE 2",
+        "info": "",
+        "x": 1610,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "266ee9c97ad1fe86",
+        "type": "comment",
+        "z": "26a7e7275cb541d0",
+        "g": "2971d7c90b74f3b4",
+        "name": "Global Timer Rev2 (Week 3) \\n === WAS WORKING WEEK 3, CURRENTLY OBSOLETE FOR REV NIGEL BUT BEING KEPT FOR REFERENCE",
+        "info": "",
+        "x": 2120,
+        "y": 1920,
+        "wires": []
+    },
+    {
+        "id": "45b2a30339f4ad99",
+        "type": "comment",
+        "z": "26a7e7275cb541d0",
+        "name": "====\\n JANK PHASE 2 METHOD, THIS WILL NEED TO BE REPLACED WITH NIGE METHOD",
+        "info": "",
+        "x": 1960,
+        "y": 2360,
+        "wires": []
+    },
+    {
+        "id": "fda57943df6dddeb",
+        "type": "delay",
+        "z": "26a7e7275cb541d0",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1740,
+        "y": 2440,
+        "wires": [
+            [
+                "41102c25b0511ae6"
+            ]
+        ]
+    },
+    {
+        "id": "41102c25b0511ae6",
+        "type": "function",
+        "z": "26a7e7275cb541d0",
+        "name": "Spread phase 2 [jank]",
+        "func": "//--- Vars\nvar whichSide = global.get(\"otherSide\");\nvar whichRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\n\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\nvar msg3 = {};\nmsg3.payload = {};\n\n\n\n//-------------------------\n//-- THIS IS STILL THE JANK METHOD\n//-- WILL NEED TO BE UPDATED WITH THE NIGE METHOD\n\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\nvar burningBldgs = [bldg1, bldg2, bldg3];\nnode.warn(burningBldgs);\n\n// Check on it \nif (global.get(bldg1 + \".FS.Window1-AfterWater\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1-AfterWater\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\nif (global.get(bldg3 + \".FS.Window1-AfterWater\") > 0) {\n    msg3.payload.bldg = bldg3;\n    msg3.payload.window = 2;\n    msg3.payload.numFire = 8;\n}\n\nnode.warn(msg1);\nnode.warn(msg2);\nnode.warn(msg3);\n\n//Fin\nreturn [msg1, msg2, msg3];",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1940,
+        "y": 2440,
+        "wires": [
+            [
+                "ed716ab02d4082a2"
+            ],
+            [
+                "ed716ab02d4082a2"
+            ],
+            [
+                "ed716ab02d4082a2",
+                "2bf1904c5cdfea2c"
+            ]
+        ]
+    },
+    {
+        "id": "ed716ab02d4082a2",
+        "type": "link out",
+        "z": "26a7e7275cb541d0",
+        "name": "Send phase 2 FS updates",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42"
+        ],
+        "x": 2105,
+        "y": 2440,
+        "wires": []
+    },
+    {
+        "id": "2bf1904c5cdfea2c",
+        "type": "delay",
+        "z": "26a7e7275cb541d0",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1740,
+        "y": 2520,
+        "wires": [
+            [
+                "21a3e408cf9c4ffc"
+            ]
+        ]
+    },
+    {
+        "id": "ad963e02c9e92e23",
+        "type": "link out",
+        "z": "26a7e7275cb541d0",
+        "name": "Send phase 2 FS updates",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42"
+        ],
+        "x": 2065,
+        "y": 2520,
+        "wires": []
+    },
+    {
+        "id": "9ff066051ce6b800",
+        "type": "function",
+        "z": "26a7e7275cb541d0",
+        "name": "Spread phase 2 [jank]",
+        "func": "//--- Vars\nvar whichSide = global.get(\"otherSide\");\nvar whichRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nwhichRoute = whichRoute == \"T\" ? \"B\" : \"T\";\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\n\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\nvar msg3 = {};\nmsg3.payload = {};\n\n\n\n//-------------------------\n//-- THIS IS STILL THE JANK METHOD\n//-- WILL NEED TO BE UPDATED WITH THE NIGE METHOD\n\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\nvar burningBldgs = [bldg1, bldg2, bldg3];\nnode.warn(burningBldgs);\n\n// Check on it \nif (global.get(bldg1 + \".FS.Window1-AfterWater\") > 0) {\n    msg1.payload.bldg = bldg1;\n    msg1.payload.window = 2;\n    msg1.payload.numFire = 8;\n}\nif (global.get(bldg2 + \".FS.Window1-AfterWater\") > 0) {\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 2;\n    msg2.payload.numFire = 8;\n}\nif (global.get(bldg3 + \".FS.Window1-AfterWater\") > 0) {\n    msg3.payload.bldg = bldg3;\n    msg3.payload.window = 2;\n    msg3.payload.numFire = 8;\n}\n\nnode.warn(msg1);\nnode.warn(msg2);\nnode.warn(msg3);\n\n//Fin\nreturn [msg1, msg2, msg3];",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1940,
+        "y": 2600,
+        "wires": [
+            [
+                "818f620db7bf22cc"
+            ],
+            [
+                "818f620db7bf22cc"
+            ],
+            [
+                "818f620db7bf22cc"
+            ]
+        ]
+    },
+    {
+        "id": "818f620db7bf22cc",
+        "type": "link out",
+        "z": "26a7e7275cb541d0",
+        "name": "Send phase 2 FS updates",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42"
+        ],
+        "x": 2105,
+        "y": 2600,
+        "wires": []
+    },
+    {
+        "id": "e08a0860d7eb970a",
+        "type": "delay",
+        "z": "26a7e7275cb541d0",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1740,
+        "y": 2600,
+        "wires": [
+            [
+                "9ff066051ce6b800"
+            ]
+        ]
+    },
+    {
+        "id": "01d28ef179167563",
+        "type": "comment",
+        "z": "26a7e7275cb541d0",
+        "name": "====\\n ALSO - THIS TIMER WILL NEED TO RUN OUT AFTER TEH MATCH FINISHES",
+        "info": "",
+        "x": 1960,
+        "y": 2680,
+        "wires": []
+    },
+    {
+        "id": "21a3e408cf9c4ffc",
+        "type": "function",
+        "z": "26a7e7275cb541d0",
+        "name": "Spread phase 2 second bldgs [jank]",
+        "func": "//--- Vars\nvar whichSide = global.get(\"otherSide\");\nvar whichRoute = global.get(\"startRoute\"); // \"T\" or \"B\"\nwhichRoute = whichRoute==\"T\" ? \"B\": \"T\";\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\n\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\nvar msg3 = {};\nmsg3.payload = {};\n\n\n\n//-------------------------\n//-- THIS IS STILL THE JANK METHOD\n//-- WILL NEED TO BE UPDATED WITH THE NIGE METHOD\n\nvar bldg1 = whichSide + whichRoute + \"I\";  // e.g. \"LTI\"\nvar bldg2 = whichSide + whichRoute + \"M\";  // e.g. \"LTM\"\nvar bldg3 = whichSide + whichRoute + \"O\";  // e.g. \"LTO\"\nvar burningBldgs = [bldg1, bldg2, bldg3];\nnode.warn(burningBldgs);\n\n// do it\nmsg1.payload.bldg = bldg1;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\n    msg2.payload.bldg = bldg2;\n    msg2.payload.window = 1;\n    msg2.payload.numFire = 8;\nmsg3.payload.bldg = bldg3;\nmsg3.payload.window =1;\nmsg3.payload.numFire = 8;\n\n\nnode.warn(msg1);\nnode.warn(msg2);\nnode.warn(msg3);\n\n//Fin\nreturn [msg1, msg2, msg3];",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1980,
+        "y": 2520,
+        "wires": [
+            [
+                "ad963e02c9e92e23"
+            ],
+            [
+                "ad963e02c9e92e23"
+            ],
+            [
+                "ad963e02c9e92e23",
+                "e08a0860d7eb970a"
+            ]
+        ]
+    },
+    {
+        "id": "98367b1c57292215",
+        "type": "comment",
+        "z": "26a7e7275cb541d0",
+        "name": "====\\n PHASE 2 NIGE METHOD",
+        "info": "",
+        "x": 1790,
+        "y": 2820,
+        "wires": []
     }
 ]
