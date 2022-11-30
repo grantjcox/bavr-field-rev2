@@ -134,12 +134,13 @@
             "227f2d5a2ea24037",
             "da02d40547f5f97a",
             "f2be5d92f9656966",
-            "b46c481de9536333"
+            "b46c481de9536333",
+            "9296e95263e5ddc7"
         ],
         "x": 74,
         "y": 59,
         "w": 712,
-        "h": 222
+        "h": 242
     },
     {
         "id": "6f159bf7a82f4dfa",
@@ -601,7 +602,9 @@
             "93a01049a60df5c5"
         ],
         "x": 54,
-        "y": 39
+        "y": 39,
+        "w": 1052,
+        "h": 462
     },
     {
         "id": "a83bb00d46efe804",
@@ -826,7 +829,9 @@
             "9498eab6a1cd0f2a"
         ],
         "x": 54,
-        "y": 499
+        "y": 499,
+        "w": 952,
+        "h": 242
     },
     {
         "id": "821639e23b06e8b7",
@@ -855,7 +860,9 @@
             "3e1b0163bae2fa11"
         ],
         "x": 54,
-        "y": 719
+        "y": 719,
+        "w": 952,
+        "h": 242
     },
     {
         "id": "b00a1e1bf34b7a99",
@@ -884,7 +891,9 @@
             "5a7f6afebccd7fa7"
         ],
         "x": 54,
-        "y": 959
+        "y": 959,
+        "w": 952,
+        "h": 282
     },
     {
         "id": "0b3af3753f33292d",
@@ -913,7 +922,9 @@
             "8d059dd5b45d6a89"
         ],
         "x": 54,
-        "y": 1239
+        "y": 1239,
+        "w": 952,
+        "h": 262
     },
     {
         "id": "dc5384f7b9f470a3",
@@ -942,7 +953,9 @@
             "5b091724b2b67ab5"
         ],
         "x": 54,
-        "y": 1499
+        "y": 1499,
+        "w": 942,
+        "h": 262
     },
     {
         "id": "58bd3feb98c01c36",
@@ -971,7 +984,9 @@
             "dc8f4d8f85a10f79"
         ],
         "x": 54,
-        "y": 1759
+        "y": 1759,
+        "w": 942,
+        "h": 242
     },
     {
         "id": "21aaba78e384f976",
@@ -1000,7 +1015,9 @@
             "a767d0c5f4352f2d"
         ],
         "x": 54,
-        "y": 1979
+        "y": 1979,
+        "w": 942,
+        "h": 242
     },
     {
         "id": "6ac6b771fff8c239",
@@ -1029,7 +1046,9 @@
             "2a78ff579a5e9464"
         ],
         "x": 54,
-        "y": 2219
+        "y": 2219,
+        "w": 942,
+        "h": 222
     },
     {
         "id": "6a070793fb470a03",
@@ -1167,7 +1186,9 @@
             "c9d158730c6fc6a5"
         ],
         "x": 1074,
-        "y": 539
+        "y": 539,
+        "w": 712,
+        "h": 222
     },
     {
         "id": "ab2d725536c9b091",
@@ -1206,7 +1227,9 @@
             "3b6b77c692325673"
         ],
         "x": 1114,
-        "y": 1559
+        "y": 1559,
+        "w": 812,
+        "h": 502
     },
     {
         "id": "86746eb8946eaa91",
@@ -1348,7 +1371,9 @@
             "a448d13962eb94f7"
         ],
         "x": 104,
-        "y": 2539
+        "y": 2539,
+        "w": 682,
+        "h": 642
     },
     {
         "id": "b786c9d92d164f0e",
@@ -1374,7 +1399,9 @@
             "e9d2f751156577aa"
         ],
         "x": 54,
-        "y": 3219
+        "y": 3219,
+        "w": 1012,
+        "h": 242
     },
     {
         "id": "0bb0145c8adb017a",
@@ -1857,12 +1884,16 @@
             "363559faefd82ea5",
             "2e31b9270c6d712a",
             "2f1d8a2826147444",
-            "7059882ea6339130"
+            "7059882ea6339130",
+            "b395a9b2e2e8a412",
+            "e9064ad0876af058",
+            "e0ac23384dedbc40",
+            "3067707184cd6d97"
         ],
         "x": 114,
-        "y": 1279,
+        "y": 1259,
         "w": 1882,
-        "h": 582
+        "h": 682
     },
     {
         "id": "325d6a9e63d4c375",
@@ -2960,7 +2991,7 @@
         "z": "55a762ae72fa441b",
         "g": "4a4f80625f8ea163",
         "name": "Reset / Default Global Variables",
-        "func": "// Code added here will be run once\n// whenever the node is started.\n\n//--- Initialize global variables\n// - General / Manual mode / Utilities\nglobal.set(\"DEBUG\", true);\nglobal.set(\"manualMode.lightBldgAction\", \"1-OFF\");\n\n// - Match / field info         \nglobal.set(\"droneActiveSide\", \"[N/A]\");    //L or R - formerly startSide    \nglobal.set(\"droneNonActiveSide\", \"R\"); //L or R - formerly otherSide \nglobal.set(\"startRoute\", \"T\"); // T or B\nglobal.set(\"hotBldg\", \"T\");    // T or B\nglobal.set(\"matchPhase\", 0);    // formerly curPhase - 0, 1, 2, or 3 (0 is inactive, otherwise phase #)\nglobal.set(\"totalPoints\", 0);   // formerly totalFS\nglobal.set(\"waterDropMultiplier\", 1.0); // formerly ballDoubler\nglobal.set(\"laserHitMultiplier\", 1.0);  // formerly ballDoubler ish\nglobal.set(\"timeElapsed\", 0);\nglobal.set(\"burnTimeTarget\", 9999);\nglobal.set(\"fireWindowSpreadDelay\", 30);  // # of seconds to spread fire to next window\nglobal.set(\"fireBuildingSpreadDelay\", 0); // # of seconds to spread fire to next building, 0 means no \nglobal.set(\"windowsPerBuilding\", 2);\nglobal.set(\"laserSensitivity\", 500);\n\n// - OBSOLETE match-specific\n/*\nglobal.set(\"startside\",\"L\");   // replaced by droneActiveSide\nglobal.set(\"otherSide\", \"R\");  // replaced by droneNonActiveSide\nglobal.set(\"curPhase\", 0);     // replaced by matchPhase\nglobal.set(\"totalFS\", 0);      // replaced by totalPoints\nglobal.set(\"balldoubler\", 1);  // replaced by waterDropMultiplier and laserHitMultiplier\n*/\n\n// - Building arrays / info\nvar rightBldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\nvar leftBldgs = [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar allBldgs = rightBldgs.concat(leftBldgs);\nvar heaterBldgs = [\"RTO\", \"RBO\", \"LBO\", \"LTO\"];\nvar laserBldgs = [\"LBO\", \"LBM\", \"LTM\", \"RTO\", \"RBM\", \"RTM\"];\nvar waterBldgs = [\"LTO\", \"LBI\", \"LTI\", \"RBO\", \"RBI\", \"RTI\"];\nvar trenchBldgs = [\"LTT\", \"RTT\"];\nglobal.set(\"rightBldgs\", rightBldgs);\nglobal.set(\"leftBldgs\", leftBldgs);\nglobal.set(\"allBldgs\", allBldgs);\nglobal.set(\"heaterBldgs\", heaterBldgs);\nglobal.set(\"laserBldgs\", laserBldgs);\nglobal.set(\"waterBldgs\", waterBldgs);\nglobal.set(\"trenchBldgs\", trenchBldgs);\n\n// - Specific building attributes\nfor (var i in allBldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(allBldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores -- POSSIBLY BECOMING OBSOLETE?\n    global.set(allBldgs[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-AfterWater\", 0);\n    global.set(allBldgs[i] + \".Damage\", 0);\n\n    //FirePixels -- NEW\n    global.set(allBldgs[i] + \".FirePixels.TotalBeforeWater\", 0);\n\n    // Water qtys - int\n    global.set(allBldgs[i] + \".WaterQty\", 0);\n\n    // Lights - Windows\n    global.set(allBldgs[i] + \".Lights.Window1\", \"OFF\");\n    global.set(allBldgs[i] + \".Lights.Window2\", \"OFF\");\n\n    // Lights - Gutterpixels - string of numbers that represent colors\n    global.set(allBldgs[i] + \".Lights.GutterPixels\", \"000000000000000000000000000000\");\n}\nfor (var i in trenchBldgs) {\n    global.set(trenchBldgs[i] + \".Lights.GutterPixels\", \"000000000000000000000000000000\");\n}\n\n//--- Send initialization MQTT's\n/*\nvar msg1 = {};\nvar msg2 = {};\nmsg1.topic = \"nodered/laserdiff\";\nmsg1.payload = \"{ \\\"[mqtt_goes_here]\\\": \" + global.get(\"laserSensitivity\");\"\n*/\n\nreturn msg;",
+        "func": "// Code added here will be run once\n// whenever the node is started.\n\n//--- Initialize global variables\n// - General / Manual mode / Utilities\nglobal.set(\"DEBUG\", true);\nglobal.set(\"manualMode.lightBldgAction\", \"1-OFF\");\n\n// - Match / field info         \nglobal.set(\"droneActiveSide\", \"[N/A]\");    //L or R - formerly startSide    \nglobal.set(\"droneNonActiveSide\", \"R\"); //L or R - formerly otherSide \nglobal.set(\"startRoute\", \"T\"); // T or B\nglobal.set(\"hotBldg\", \"T\");    // T or B\nglobal.set(\"matchPhase\", 0);    // formerly curPhase - 0, 1, 2, or 3 (0 is inactive, otherwise phase #)\nglobal.set(\"totalPoints\", 0);   // formerly totalFS\nglobal.set(\"waterDropMultiplier\", 1.0); // formerly ballDoubler\nglobal.set(\"laserHitMultiplier\", 1.0);  // formerly ballDoubler ish\nglobal.set(\"timeElapsed\", 0);\nglobal.set(\"burnTimeTarget\", 9999);\nglobal.set(\"heaterTime\",0);\nglobal.set(\"heaterTimeTarget\",9999);\nglobal.set(\"fireWindowSpreadDelay\", 30);  // # of seconds to spread fire to next window\nglobal.set(\"fireBuildingSpreadDelay\", 0); // # of seconds to spread fire to next building, 0 means no \nglobal.set(\"windowsPerBuilding\", 2);\nglobal.set(\"laserSensitivity\", 500);\n\n// - OBSOLETE match-specific\n/*\nglobal.set(\"startside\",\"L\");   // replaced by droneActiveSide\nglobal.set(\"otherSide\", \"R\");  // replaced by droneNonActiveSide\nglobal.set(\"curPhase\", 0);     // replaced by matchPhase\nglobal.set(\"totalFS\", 0);      // replaced by totalPoints\nglobal.set(\"balldoubler\", 1);  // replaced by waterDropMultiplier and laserHitMultiplier\n*/\n\n// - Building arrays / info\nvar rightBldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\nvar leftBldgs = [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar allBldgs = rightBldgs.concat(leftBldgs);\nvar heaterBldgs = [\"RTO\", \"RBO\", \"LBO\", \"LTO\"];\nvar laserBldgs = [\"LBO\", \"LBM\", \"LTM\", \"RTO\", \"RBM\", \"RTM\"];\nvar waterBldgs = [\"LTO\", \"LBI\", \"LTI\", \"RBO\", \"RBI\", \"RTI\"];\nvar trenchBldgs = [\"LTT\", \"RTT\"];\nglobal.set(\"rightBldgs\", rightBldgs);\nglobal.set(\"leftBldgs\", leftBldgs);\nglobal.set(\"allBldgs\", allBldgs);\nglobal.set(\"heaterBldgs\", heaterBldgs);\nglobal.set(\"laserBldgs\", laserBldgs);\nglobal.set(\"waterBldgs\", waterBldgs);\nglobal.set(\"trenchBldgs\", trenchBldgs);\n\n// - Specific building attributes\nfor (var i in allBldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(allBldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores -- POSSIBLY BECOMING OBSOLETE?\n    global.set(allBldgs[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-AfterWater\", 0);\n    global.set(allBldgs[i] + \".Damage\", 0);\n\n    //FirePixels -- NEW\n    global.set(allBldgs[i] + \".FirePixels.TotalBeforeWater\", 0);\n\n    // Water qtys - int\n    global.set(allBldgs[i] + \".WaterQty\", 0);\n\n    // Lights - Windows\n    global.set(allBldgs[i] + \".Lights.Window1\", \"OFF\");\n    global.set(allBldgs[i] + \".Lights.Window2\", \"OFF\");\n\n    // Lights - Gutterpixels - string of numbers that represent colors\n    global.set(allBldgs[i] + \".Lights.GutterPixels\", \"000000000000000000000000000000\");\n}\nfor (var i in trenchBldgs) {\n    global.set(trenchBldgs[i] + \".Lights.GutterPixels\", \"000000000000000000000000000000\");\n}\n\n//--- Send initialization MQTT's\n/*\nvar msg1 = {};\nvar msg2 = {};\nmsg1.topic = \"nodered/laserdiff\";\nmsg1.payload = \"{ \\\"[mqtt_goes_here]\\\": \" + global.get(\"laserSensitivity\");\"\n*/\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\n\n//--- Initialize global variables\n// - General / Manual mode / Utilities\nglobal.set(\"DEBUG\",true);\nglobal.set(\"manualMode.lightBldgAction\",\"1-OFF\");\n\n// - Match / field info         \nglobal.set(\"droneActiveSide\", \"[N/A]\");    //L or R - formerly startSide    \nglobal.set(\"droneNonActiveSide\", \"R\"); //L or R - formerly otherSide \nglobal.set(\"startRoute\", \"T\"); // T or B\nglobal.set(\"hotBldg\", \"T\");    // T or B\nglobal.set(\"matchPhase\",0);    // formerly curPhase - 0, 1, 2, or 3 (0 is inactive, otherwise phase #)\nglobal.set(\"totalPoints\",0);   // formerly totalFS\nglobal.set(\"waterDropMultiplier\", 1.0); // formerly ballDoubler\nglobal.set(\"laserHitMultiplier\", 1.0);  // formerly ballDoubler ish\nglobal.set(\"timeElapsed\", 0);\nglobal.set(\"burnTimeTarget\", 9999);\nglobal.set(\"fireWindowSpreadDelay\", 30);  // # of seconds to spread fire to next window\nglobal.set(\"fireBuildingSpreadDelay\", 0); // # of seconds to spread fire to next building, 0 means no \nglobal.set(\"windowsPerBuilding\", 2);\nglobal.set(\"laserSensitivity\", 500);\n\n// - OBSOLETE match-specific\n/*\nglobal.set(\"startside\",\"L\");   // replaced by droneActiveSide\nglobal.set(\"otherSide\", \"R\");  // replaced by droneNonActiveSide\nglobal.set(\"curPhase\", 0);     // replaced by matchPhase\nglobal.set(\"totalFS\", 0);      // replaced by totalPoints\nglobal.set(\"balldoubler\", 1);  // replaced by waterDropMultiplier and laserHitMultiplier\n*/\n\n// - Building arrays / info\nvar rightBldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\nvar leftBldgs = [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar allBldgs = rightBldgs.concat(leftBldgs);\nvar heaterBldgs = [\"RTO\", \"RBO\", \"LBO\", \"LTO\"];\nvar laserBldgs = [\"LBO\", \"LBM\", \"LTM\", \"RTO\", \"RBM\", \"RTM\"];\nvar waterBldgs = [\"LTO\", \"LBI\", \"LTI\", \"RBO\", \"RBI\", \"RTI\"];\nvar trenchBldgs = [\"LTT\", \"RTT\"];\nglobal.set(\"rightBldgs\", rightBldgs);\nglobal.set(\"leftBldgs\", leftBldgs);\nglobal.set(\"allBldgs\", allBldgs);\nglobal.set(\"heaterBldgs\", heaterBldgs);\nglobal.set(\"laserBldgs\", laserBldgs);\nglobal.set(\"waterBldgs\", waterBldgs);\nglobal.set(\"trenchBldgs\",trenchBldgs);\n\n// - Specific building attributes\nfor (var i in allBldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(allBldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores -- POSSIBLY BECOMING OBSOLETE?\n    global.set(allBldgs[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-AfterWater\", 0);\n    global.set(allBldgs[i] + \".Damage\", 0);\n\n    //FirePixels -- NEW\n    global.set(allBldgs[i] + \".FirePixels.TotalBeforeWater\",0);\n\n    // Water qtys - int\n    global.set(allBldgs[i] + \".WaterQty\", 0);\n\n    // Lights - Windows\n    global.set(allBldgs[i] + \".Lights.Window1\",\"OFF\");\n    global.set(allBldgs[i] + \".Lights.Window2\", \"OFF\");\n\n    // Lights - Gutterpixels - string of numbers that represent colors\n    global.set(allBldgs[i] + \".Lights.GutterPixels\", \"000000000000000000000000000000\");\n}\nfor (var i in trenchBldgs) {\n    global.set(trenchBldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\n\n//--- Send initialization MQTT's\n/*\nvar msg1 = {};\nvar msg2 = {};\nmsg1.topic = \"nodered/laserdiff\";\nmsg1.payload = \"{ \\\"[mqtt_goes_here]\\\": \" + global.get(\"laserSensitivity\");\"\n*/",
@@ -2971,7 +3002,8 @@
         "wires": [
             [
                 "da02d40547f5f97a",
-                "b46c481de9536333"
+                "b46c481de9536333",
+                "9296e95263e5ddc7"
             ]
         ]
     },
@@ -3181,7 +3213,7 @@
         "z": "55a762ae72fa441b",
         "g": "ec7979310fe9e00f",
         "name": "Random choice",
-        "func": "//Use the timestamp to random select lol\nvar input = String(msg.payload);\nvar lastDigit = parseInt(input.slice(-1));\n\n//Evens top, odds bottom\nvar hotRoute = (lastDigit % 2) == 0 ? \"T\" : \"B\"; \nvar theHotBldg = global.get(\"droneActiveSide\") + hotRoute + \"O\"; //always O bldg\n\n//Fin\nglobal.set(\"hotBldg\", theHotBldg);\nglobal.set(theHotBldg + \".Status\", \"Hottt\");\n\n//oops \n/*\nswitch(hotRoute) {\n    case \"T\":\n        switch(global.get(\"startSide\")) {\n            case \"L\":\n                global.set(\"LBO.Status\")\n        }\n}\n*/\nmsg.payload = theHotBldg;\nreturn msg;",
+        "func": "//Use the timestamp to random select lol\nvar input = String(msg.payload);\nvar lastDigit = parseInt(input.slice(-1));\n\n//Evens top, odds bottom\nvar hotRoute = (lastDigit % 2) == 0 ? \"T\" : \"B\"; \nvar theHotBldg = global.get(\"droneActiveSide\") + hotRoute + \"O\"; //always O bldg\n\n//Fin\nglobal.set(\"hotBldg\", theHotBldg);\nglobal.set(theHotBldg + \".Status\", \"Hotspot\");\n\n//oops \n/*\nswitch(hotRoute) {\n    case \"T\":\n        switch(global.get(\"startSide\")) {\n            case \"L\":\n                global.set(\"LBO.Status\")\n        }\n}\n*/\nmsg.payload = theHotBldg;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4484,7 +4516,7 @@
             "d3f61fe6cb27f19e"
         ],
         "x": 635,
-        "y": 240,
+        "y": 220,
         "wires": []
     },
     {
@@ -5161,7 +5193,7 @@
         "name": "Step 4 - Match Start (T=0) (Rev CMP)",
         "info": "",
         "x": 290,
-        "y": 1320,
+        "y": 1300,
         "wires": []
     },
     {
@@ -5177,7 +5209,7 @@
         "finalize": "",
         "libs": [],
         "x": 950,
-        "y": 1380,
+        "y": 1360,
         "wires": [
             [
                 "6bae0ce8e995b031"
@@ -5200,7 +5232,7 @@
         "finalize": "",
         "libs": [],
         "x": 880,
-        "y": 1520,
+        "y": 1500,
         "wires": [
             [
                 "e1a0483ff23d768b"
@@ -5227,7 +5259,7 @@
             "f8afe1542a91baa2"
         ],
         "x": 1065,
-        "y": 1520,
+        "y": 1500,
         "wires": []
     },
     {
@@ -5243,10 +5275,11 @@
         "finalize": "",
         "libs": [],
         "x": 890,
-        "y": 1620,
+        "y": 1600,
         "wires": [
             [
-                "93dc95fcb851b38b"
+                "93dc95fcb851b38b",
+                "b395a9b2e2e8a412"
             ]
         ]
     },
@@ -5265,7 +5298,7 @@
         "layout": "row-spread",
         "className": "",
         "x": 1800,
-        "y": 1580,
+        "y": 1560,
         "wires": []
     },
     {
@@ -5287,7 +5320,7 @@
         "topic": "topic",
         "outputs": 1,
         "x": 1140,
-        "y": 1620,
+        "y": 1600,
         "wires": [
             [
                 "3764e089f61cc9a7"
@@ -5307,7 +5340,7 @@
         "finalize": "",
         "libs": [],
         "x": 1340,
-        "y": 1620,
+        "y": 1600,
         "wires": [
             [
                 "28c0d1a50caac549"
@@ -5338,14 +5371,14 @@
         "repair": false,
         "outputs": 2,
         "x": 1540,
-        "y": 1620,
+        "y": 1600,
         "wires": [
             [
                 "1aabfd0c7bf1fce1"
             ],
             [
                 "821f2841a1141d3d",
-                "4fc1630f55b705fd"
+                "e0ac23384dedbc40"
             ]
         ]
     },
@@ -5370,7 +5403,7 @@
         "to": "",
         "reg": false,
         "x": 1780,
-        "y": 1680,
+        "y": 1660,
         "wires": [
             [
                 "93dc95fcb851b38b",
@@ -5389,7 +5422,7 @@
             "8c8fae70037e1c26"
         ],
         "x": 1915,
-        "y": 1680,
+        "y": 1660,
         "wires": []
     },
     {
@@ -5414,7 +5447,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 340,
-        "y": 1760,
+        "y": 1800,
         "wires": [
             [
                 "68aa5688177e30e7",
@@ -5436,7 +5469,7 @@
             "93467bb9550545d1"
         ],
         "x": 505,
-        "y": 1740,
+        "y": 1780,
         "wires": []
     },
     {
@@ -5450,7 +5483,7 @@
             "8c8fae70037e1c26"
         ],
         "x": 505,
-        "y": 1780,
+        "y": 1820,
         "wires": []
     },
     {
@@ -5460,8 +5493,8 @@
         "g": "d1c6977fdede82fe",
         "name": "Send all the resets",
         "info": "",
-        "x": 640,
-        "y": 1760,
+        "x": 610,
+        "y": 1740,
         "wires": []
     },
     {
@@ -5471,8 +5504,8 @@
         "g": "d1c6977fdede82fe",
         "name": "TODO - Reset GUI",
         "info": "",
-        "x": 640,
-        "y": 1800,
+        "x": 610,
+        "y": 1900,
         "wires": []
     },
     {
@@ -5485,7 +5518,7 @@
             "0e3ebf9316c50718"
         ],
         "x": 185,
-        "y": 1740,
+        "y": 1780,
         "wires": [
             [
                 "218a084ed0dac320"
@@ -5503,7 +5536,7 @@
             "1b55865e8e16d405"
         ],
         "x": 505,
-        "y": 1820,
+        "y": 1860,
         "wires": []
     },
     {
@@ -5527,7 +5560,7 @@
         "to": "",
         "reg": false,
         "x": 620,
-        "y": 1520,
+        "y": 1500,
         "wires": [
             [
                 "f7107def0bcb0b9e",
@@ -5541,6 +5574,7 @@
         "id": "4fc1630f55b705fd",
         "type": "function",
         "z": "55a762ae72fa441b",
+        "d": true,
         "g": "d1c6977fdede82fe",
         "name": "Erupt Heating Building",
         "func": "// Expects \n// payload.bldg, payload.window, payload.numFire\n\n//--- Set up vars\nvar theBldg = global.get(\"hotBldg\");\nvar theWater = global.get(theBldg+\".WaterQty\");\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Light 'er up\n/*\nglobal.set(theBldg + \".Status\",\"Burning\");\nglobal.set(theBldg + \".FS.Window1-BeforeWater\", 8);\nglobal.set(theBldg + \".FS.Window2-BeforeWater\", 8);\n\nglobal.set(theBldg + \".FS.Window1-AfterWater\", 8-theWater);\nglobal.set(theBldg + \".FS.Window2-AfterWater\", 8-theWater);\nglobal.set(theBldg + \".GutterPixels\", \"333333330000000000000044444444\");\n*/\n\nmsg1.payload.bldg = theBldg;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = 8;\n\nmsg2.payload.bldg = theBldg;\nmsg2.payload.window = 2;\nmsg2.payload.numFire = 8;\n\n\n//Fin\nreturn [msg1, msg2];",
@@ -5550,7 +5584,7 @@
         "finalize": "",
         "libs": [],
         "x": 1800,
-        "y": 1740,
+        "y": 1720,
         "wires": [
             [
                 "1d79d030bb97d1cb"
@@ -5571,7 +5605,7 @@
             "0416ea6909311b42"
         ],
         "x": 1955,
-        "y": 1720,
+        "y": 1700,
         "wires": []
     },
     {
@@ -5585,7 +5619,7 @@
             "0416ea6909311b42"
         ],
         "x": 1955,
-        "y": 1760,
+        "y": 1740,
         "wires": []
     },
     {
@@ -5612,7 +5646,7 @@
         "repair": false,
         "outputs": 2,
         "x": 430,
-        "y": 1520,
+        "y": 1500,
         "wires": [
             [
                 "64fe431e82341821"
@@ -5629,8 +5663,8 @@
         "g": "d1c6977fdede82fe",
         "name": "Start burn timer rev CMP",
         "info": "",
-        "x": 950,
-        "y": 1720,
+        "x": 970,
+        "y": 1760,
         "wires": []
     },
     {
@@ -5645,7 +5679,7 @@
             "7f4d3b57fb223092"
         ],
         "x": 825,
-        "y": 1740,
+        "y": 1760,
         "wires": []
     },
     {
@@ -5661,7 +5695,7 @@
         "finalize": "",
         "libs": [],
         "x": 1220,
-        "y": 1360,
+        "y": 1340,
         "wires": [
             [
                 "363559faefd82ea5"
@@ -5690,7 +5724,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 240,
-        "y": 1520,
+        "y": 1500,
         "wires": [
             [
                 "990a5f67fd3c5363"
@@ -5708,7 +5742,7 @@
             "dc1d674e61de820d"
         ],
         "x": 1575,
-        "y": 1360,
+        "y": 1340,
         "wires": []
     },
     {
@@ -5724,7 +5758,7 @@
         "finalize": "",
         "libs": [],
         "x": 1440,
-        "y": 1360,
+        "y": 1340,
         "wires": [
             [
                 "b1892a5d909d22a5"
@@ -5744,7 +5778,7 @@
         "finalize": "",
         "libs": [],
         "x": 1220,
-        "y": 1400,
+        "y": 1380,
         "wires": [
             [
                 "2f1d8a2826147444"
@@ -5764,7 +5798,7 @@
         "finalize": "",
         "libs": [],
         "x": 1440,
-        "y": 1400,
+        "y": 1380,
         "wires": [
             [
                 "7059882ea6339130"
@@ -5782,7 +5816,7 @@
             "dc1d674e61de820d"
         ],
         "x": 1575,
-        "y": 1400,
+        "y": 1380,
         "wires": []
     },
     {
@@ -6508,6 +6542,86 @@
         "className": "",
         "x": 1260,
         "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "e9064ad0876af058",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "d1c6977fdede82fe",
+        "name": "To AddFirePix",
+        "mode": "link",
+        "links": [
+            "dc1d674e61de820d"
+        ],
+        "x": 1385,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "b395a9b2e2e8a412",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "d1c6977fdede82fe",
+        "name": "Prep AddFirePix for Hotspot Building",
+        "func": "//--- Set up basic vars\nvar theBldg = global.get(\"hotBldg\");\nmsg.payload = {};\n\n/* \nAddFirePix expects:\n- msg.payload.bldg: a node ID\n- msg.payload.numFirePixels: int, the qty FirePixels to add\n*/\nmsg.payload.bldg = theBldg;\nmsg.payload.numFirePixels = 4; //half of a window\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1190,
+        "y": 1680,
+        "wires": [
+            [
+                "e9064ad0876af058"
+            ]
+        ]
+    },
+    {
+        "id": "e0ac23384dedbc40",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "d1c6977fdede82fe",
+        "name": "Erupt Heating Building",
+        "func": "//--- Set up vars\nvar theBldg = global.get(\"hotBldg\");\nmsg.payload = {};\n\n//--- Reset any progress made thus far\nglobal.set(theBldg + \".FirePixels.TotalBeforeWater\",0);\nglobal.set(theBldg + \".WaterQty\",0);\nglobal.set(theBldg + \".FS.TotalBeforeWater\",0);\n\n//--- Prep AddFirePix setters\nmsg.payload.bldg = theBldg;\nmsg.payload.numFirePixels = 16;\n\n\n//Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1800,
+        "y": 1800,
+        "wires": [
+            [
+                "3067707184cd6d97"
+            ]
+        ]
+    },
+    {
+        "id": "3067707184cd6d97",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "d1c6977fdede82fe",
+        "name": "To AddFirePix",
+        "mode": "link",
+        "links": [
+            "dc1d674e61de820d"
+        ],
+        "x": 1955,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "9296e95263e5ddc7",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "4a4f80625f8ea163",
+        "name": "Reset UI Components",
+        "mode": "link",
+        "links": [],
+        "x": 635,
+        "y": 260,
         "wires": []
     },
     {
@@ -17167,7 +17281,9 @@
             "7059882ea6339130",
             "b168987c1df43253",
             "6d4dee2de447ea5a",
-            "595534f2e07f6f17"
+            "595534f2e07f6f17",
+            "e9064ad0876af058",
+            "3067707184cd6d97"
         ],
         "x": 185,
         "y": 420,
@@ -17183,7 +17299,7 @@
         "z": "f66e6f21e6630f00",
         "g": "67280a1824f2e68f",
         "name": "Add FirePixels to Bldg",
-        "func": "/* \nExpected inputs:\n- msg.payload.bldg: a node ID\n- msg.payload.numFirePixels: int, the qty FirePixels to add\n\nExpected output: \n- msgs to send to the Window / Gutter setters\n*/\n\n//--- Set basic vars\nvar theBldg = msg.payload.bldg;\nvar inputFirePixels = msg.payload.numFirePixels;\nvar curFirePreWater = global.get(theBldg + \".FirePixels.TotalBeforeWater\");\nvar curWaterRaw = global.get(theBldg + \".WaterQty\");\nvar win1 = \"OFF\";\nvar win2 = \"OFF\";\nvar gutterL = \"\";\nvar gutterR = \"\";\n\n/* \nSome nomenclature logic notes: \n- Windows are 4 FS points each\n- Gutters are 8 FirePixels per window\n- Inside the code, we mostly refer to the FirePixels, so that audience can see interstitial water ticks\n- Every bldg has 32 possible Water points\n- Ball bldgs: 1 ball = 1 Water Point = 0.5 pixel\n- Laser bldgs: 1 hit = 2 Water Points = 1 pixel\n*/\n\n//--- Calculations\nvar curFirePixels = curFirePreWater - (curWaterRaw / 2);\nvar newFirePixels = curFirePixels + inputFirePixels;\nvar newFS = newFirePixels / 2;\nvar gutterFirePix = newFirePixels;\n\n\n// -- Window 1 (FS from 0-4)\nif (newFS > 0) {\n    // Window\n    win1 = \"ON\";\n\n    // Gutter\n    for (let i = 1; i <= 8; i++) {\n        // if \"i\" is less than gutterPix (newFS*2), add a yellow pixel (3), otherwise blank (0);\n        gutterL += i <= gutterFirePix ? \"3\" : \"0\";\n    }\n}\n// -- Window 2 (FS from 5-8)\nif (newFS > 4) {\n    // Update gutterFS for window 2\n    gutterFirePix -= 8;\n\n    // Window\n    win2 = \"ON\";\n\n    // Gutter\n    for (let i = 1; i <= 8; i++) {\n        // if \"i\" is less than gutterPix (newFS*2), add a red pixel (4), otherwise blank (0);\n        gutterR += i <= gutterFirePix ? \"4\" : \"0\";\n    }\n} else if (newFS <= 4) {\n    gutterR = \"00000000\";\n}\n\n\n//--- Build the new total string\nvar gutterString = gutterL + \"00000000000000\" + gutterR;\n\n\n//--- Set globals\nglobal.set(theBldg + \".FS.TotalBeforeWater\", newFS);\nglobal.set(theBldg + \".FirePixels.TotalBeforeWater\", newFirePixels);\nglobal.set(theBldg + \".Lights.Window1\", win1);\nglobal.set(theBldg + \".Lights.Window2\", win2);\nglobal.set(theBldg + \".Lights.GutterPixels\", gutterString);\nglobal.set(theBldg + \".Status\", \"Burning\");\n\n//--- Prepare to call update MQTT Setters\nmsg.payload = theBldg;\n\n\n//--- DEBUG\nif (global.get(\"DEBUG\")) {\n    node.warn(\"--- Adding \" + inputFirePixels + \" to \" + theBldg + \"; \\n\" + \n        \"Bldg currently has \" + curFirePreWater + \" with \" + curWaterRaw + \" water, for a curFirePix of \" + curFirePixels + \"; \\n\" + \n        \"NewFirePixels: \" + newFirePixels + \"; NewFS: \" + newFS);\n}\n\n// - Fin\nreturn msg;",
+        "func": "/* \nExpected inputs:\n- msg.payload.bldg: a node ID\n- msg.payload.numFirePixels: int, the qty FirePixels to add\n\nExpected output: \n- msgs to send to the Window / Gutter setters\n*/\n\n//--- Set basic vars\nvar theBldg = msg.payload.bldg;\nvar inputFirePixels = msg.payload.numFirePixels;\nvar curFirePreWater = global.get(theBldg + \".FirePixels.TotalBeforeWater\");\nvar curWaterRaw = global.get(theBldg + \".WaterQty\");\nvar win1 = \"OFF\";\nvar win2 = \"OFF\";\nvar gutterL = \"\";\nvar gutterR = \"\";\n\n/* \nSome nomenclature logic notes: \n- Windows are 4 FS points each\n- Gutters are 8 FirePixels per window\n- Inside the code, we mostly refer to the FirePixels, so that audience can see interstitial water ticks\n- Every bldg has 32 possible Water points\n- Ball bldgs: 1 ball = 1 Water Point = 0.5 pixel\n- Laser bldgs: 1 hit = 2 Water Points = 1 pixel\n*/\n\n//--- Calculations\nvar curFirePixels = curFirePreWater - (curWaterRaw / 2);\nvar newFirePixels = curFirePixels + inputFirePixels;\nvar newFS = newFirePixels / 2;\nvar gutterFirePix = newFirePixels;\n\n\n// -- Window 1 (FS from 0-4)\nif (newFS > 0) {\n    // Window\n    win1 = \"ON\";\n\n    // Gutter\n    for (let i = 1; i <= 8; i++) {\n        // if \"i\" is less than gutterPix (newFS*2), add a yellow pixel (3), otherwise blank (0);\n        gutterL += i <= gutterFirePix ? \"3\" : \"0\";\n    }\n}\n// -- Window 2 (FS from 5-8)\nif (newFS > 4) {\n    // Update gutterFS for window 2\n    gutterFirePix -= 8;\n\n    // Window\n    win2 = \"ON\";\n\n    // Gutter\n    for (let i = 1; i <= 8; i++) {\n        // if \"i\" is less than gutterPix (newFS*2), add a red pixel (4), otherwise blank (0);\n        gutterR += i <= gutterFirePix ? \"4\" : \"0\";\n    }\n} else if (newFS <= 4) {\n    gutterR = \"00000000\";\n}\n\n\n//--- Build the new total string\nvar gutterString = gutterL + \"00000000000000\" + gutterR;\n\n\n//--- Set globals\nglobal.set(theBldg + \".FS.TotalBeforeWater\", newFS);\nglobal.set(theBldg + \".FirePixels.TotalBeforeWater\", newFirePixels);\nglobal.set(theBldg + \".Lights.Window1\", win1);\nglobal.set(theBldg + \".Lights.Window2\", win2);\nglobal.set(theBldg + \".Lights.GutterPixels\", gutterString);\n\n//-- Status global (with tweak for hotspot bldg)\nif(global.get(theBldg + \".Status\") != \"Hotspot\") {\n    global.set(theBldg + \".Status\", \"Burning\");\n}\n\n//--- Prepare to call update MQTT Setters\nmsg.payload = theBldg;\n\n\n//--- DEBUG\nif (global.get(\"DEBUG\")) {\n    node.warn(\"--- Adding \" + inputFirePixels + \" to \" + theBldg + \"; \\n\" + \n        \"Bldg currently has \" + curFirePreWater + \" with \" + curWaterRaw + \" water, for a curFirePix of \" + curFirePixels + \"; \\n\" + \n        \"NewFirePixels: \" + newFirePixels + \"; NewFS: \" + newFS);\n}\n\n// - Fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -17234,7 +17350,7 @@
         "z": "f66e6f21e6630f00",
         "g": "8ea343d5acb02cd2",
         "name": "UpdateBuilding (Globals -> MQTT)",
-        "func": "/* \nExpected inputs:\n- msg.payload: a node ID\n\nExpected outputs: \n- MQTT topics / payloads for each window / gutter\n*/\n\n//--- Set basic vars\nvar theBldg = msg.payload;\nvar win1 = global.get(theBldg + \".Lights.Window1\");\nvar win2 = global.get(theBldg + \".Lights.Window2\");\nvar gutter = global.get(theBldg + \".Lights.GutterPixels\");\n\n//--- MQTT - Window 1\nvar msg1 = {};\nif (win1 == \"ON\") {\n    msg1.topic = \"nodered/lighton/\" + theBldg;\n} else if (win1 == \"OFF\") {\n    msg1.topic = \"nodered/lightoff/\" + theBldg;\n}\nmsg1.payload = \"{ \\\"whichLight\\\":\" + 1 + \"}\"\n\n\n//--- MQTT - Window 2\nvar msg2 = {};\nif (win2 == \"ON\") {\n    msg2.topic = \"nodered/lighton/\" + theBldg;\n} else if (win2 == \"OFF\") {\n    msg2.topic = \"nodered/lightoff/\" + theBldg;\n}\nmsg2.payload = \"{ \\\"whichLight\\\":\" + 2 + \"}\"\n\n\n// - MQTT - Gutter\nvar msg3 = {};\nmsg3.topic = \"nodered/updatepixels/\" + theBldg;\nmsg3.payload = \"{ \\\"whichLeds\\\":0, \" +\n    \"\\\"pixels\\\": \\\"\" + gutter + \"\\\"\" +\n    \"}\";\n\n// - debug\nif (global.get(\"DEBUG\")) {\n    node.warn(\"--- Updating Bldg: \" + theBldg + \";\\n win1: \" + win1 + \"; win2: \" + win2 + \";\\n gutter: \" + gutter);\n}\n\n// - Fin\nreturn [msg1, msg2, msg3];",
+        "func": "/* \nExpected inputs:\n- msg.payload: a node ID\n\nExpected outputs: \n- MQTT topics / payloads for each window / gutter\n*/\n\n//--- Set basic vars\nvar theBldg = msg.payload;\nvar win1 = global.get(theBldg + \".Lights.Window1\");\nvar win2 = global.get(theBldg + \".Lights.Window2\");\nvar gutter = global.get(theBldg + \".Lights.GutterPixels\");\n\n//--- Make sure we're not doing the hotspot bldg - escape if so\nvar theHotBldg = global.get(\"hotBldg\");\nif (theBldg == theHotBldg) {\n    return null;\n}\n\n//--- MQTT - Window 1\nvar msg1 = {};\nif (win1 == \"ON\") {\n    msg1.topic = \"nodered/lighton/\" + theBldg;\n} else if (win1 == \"OFF\") {\n    msg1.topic = \"nodered/lightoff/\" + theBldg;\n}\nmsg1.payload = \"{ \\\"whichLight\\\":\" + 1 + \"}\"\n\n\n//--- MQTT - Window 2\nvar msg2 = {};\nif (win2 == \"ON\") {\n    msg2.topic = \"nodered/lighton/\" + theBldg;\n} else if (win2 == \"OFF\") {\n    msg2.topic = \"nodered/lightoff/\" + theBldg;\n}\nmsg2.payload = \"{ \\\"whichLight\\\":\" + 2 + \"}\"\n\n\n// - MQTT - Gutter\nvar msg3 = {};\nmsg3.topic = \"nodered/updatepixels/\" + theBldg;\nmsg3.payload = \"{ \\\"whichLeds\\\":0, \" +\n    \"\\\"pixels\\\": \\\"\" + gutter + \"\\\"\" +\n    \"}\";\n\n// - debug\nif (global.get(\"DEBUG\")) {\n    node.warn(\"--- Updating Bldg: \" + theBldg + \";\\n win1: \" + win1 + \"; win2: \" + win2 + \";\\n gutter: \" + gutter);\n}\n\n// - Fin\nreturn [msg1, msg2, msg3];",
         "outputs": 3,
         "noerr": 0,
         "initialize": "",
