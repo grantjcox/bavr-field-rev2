@@ -135,11 +135,12 @@
             "da02d40547f5f97a",
             "f2be5d92f9656966",
             "b46c481de9536333",
-            "9296e95263e5ddc7"
+            "9296e95263e5ddc7",
+            "b06a20262c7c11b3"
         ],
         "x": 74,
         "y": 59,
-        "w": 712,
+        "w": 762,
         "h": 242
     },
     {
@@ -1888,12 +1889,13 @@
             "b395a9b2e2e8a412",
             "e9064ad0876af058",
             "e0ac23384dedbc40",
-            "3067707184cd6d97"
+            "3067707184cd6d97",
+            "9046e262b83b5f07"
         ],
         "x": 114,
         "y": 1259,
-        "w": 1882,
-        "h": 682
+        "w": 2032,
+        "h": 690
     },
     {
         "id": "325d6a9e63d4c375",
@@ -1934,12 +1936,16 @@
             "a14376b6f39e6218",
             "e8fd57bcff4cabcb",
             "1f590c01c036d9b6",
-            "a9936705c3706204"
+            "a9936705c3706204",
+            "6494ec07de55a20b",
+            "08a29338294dfb72",
+            "e36e232e45440235",
+            "63e5d51d3c5537de"
         ],
         "x": 114,
-        "y": 1939,
+        "y": 1979,
         "w": 1928,
-        "h": 1108
+        "h": 1128
     },
     {
         "id": "c8b0f520ed08c7a6",
@@ -1958,7 +1964,7 @@
             "374ad7109c8ae83c"
         ],
         "x": 1314,
-        "y": 2199,
+        "y": 2259,
         "w": 692,
         "h": 162
     },
@@ -1984,7 +1990,7 @@
             "6d4dee2de447ea5a"
         ],
         "x": 1314,
-        "y": 2519,
+        "y": 2579,
         "w": 692,
         "h": 162
     },
@@ -2010,7 +2016,7 @@
             "70bc3c0ac1f6d076"
         ],
         "x": 1314,
-        "y": 2859,
+        "y": 2919,
         "w": 702,
         "h": 162
     },
@@ -2994,7 +3000,7 @@
         "func": "// Code added here will be run once\n// whenever the node is started.\n\n//--- Initialize global variables\n// - General / Manual mode / Utilities\nglobal.set(\"DEBUG\", true);\nglobal.set(\"manualMode.lightBldgAction\", \"1-OFF\");\n\n// - Match / field info         \nglobal.set(\"droneActiveSide\", \"[N/A]\");    //L or R - formerly startSide    \nglobal.set(\"droneNonActiveSide\", \"R\"); //L or R - formerly otherSide \nglobal.set(\"startRoute\", \"T\"); // T or B\nglobal.set(\"hotBldg\", \"T\");    // T or B\nglobal.set(\"matchPhase\", 0);    // formerly curPhase - 0, 1, 2, or 3 (0 is inactive, otherwise phase #)\nglobal.set(\"totalPoints\", 0);   // formerly totalFS\nglobal.set(\"waterDropMultiplier\", 1.0); // formerly ballDoubler\nglobal.set(\"laserHitMultiplier\", 1.0);  // formerly ballDoubler ish\nglobal.set(\"timeElapsed\", 0);\nglobal.set(\"burnTimeTarget\", 9999);\nglobal.set(\"heaterTime\",0);\nglobal.set(\"heaterTimeTarget\",9999);\nglobal.set(\"fireWindowSpreadDelay\", 30);  // # of seconds to spread fire to next window\nglobal.set(\"fireBuildingSpreadDelay\", 0); // # of seconds to spread fire to next building, 0 means no \nglobal.set(\"windowsPerBuilding\", 2);\nglobal.set(\"laserSensitivity\", 500);\n\n// - OBSOLETE match-specific\n/*\nglobal.set(\"startside\",\"L\");   // replaced by droneActiveSide\nglobal.set(\"otherSide\", \"R\");  // replaced by droneNonActiveSide\nglobal.set(\"curPhase\", 0);     // replaced by matchPhase\nglobal.set(\"totalFS\", 0);      // replaced by totalPoints\nglobal.set(\"balldoubler\", 1);  // replaced by waterDropMultiplier and laserHitMultiplier\n*/\n\n// - Building arrays / info\nvar rightBldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\nvar leftBldgs = [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar allBldgs = rightBldgs.concat(leftBldgs);\nvar heaterBldgs = [\"RTO\", \"RBO\", \"LBO\", \"LTO\"];\nvar laserBldgs = [\"LBO\", \"LBM\", \"LTM\", \"RTO\", \"RBM\", \"RTM\"];\nvar waterBldgs = [\"LTO\", \"LBI\", \"LTI\", \"RBO\", \"RBI\", \"RTI\"];\nvar trenchBldgs = [\"LTT\", \"RTT\"];\nglobal.set(\"rightBldgs\", rightBldgs);\nglobal.set(\"leftBldgs\", leftBldgs);\nglobal.set(\"allBldgs\", allBldgs);\nglobal.set(\"heaterBldgs\", heaterBldgs);\nglobal.set(\"laserBldgs\", laserBldgs);\nglobal.set(\"waterBldgs\", waterBldgs);\nglobal.set(\"trenchBldgs\", trenchBldgs);\n\n// - Specific building attributes\nfor (var i in allBldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(allBldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores -- POSSIBLY BECOMING OBSOLETE?\n    global.set(allBldgs[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-AfterWater\", 0);\n    global.set(allBldgs[i] + \".Damage\", 0);\n\n    //FirePixels -- NEW\n    global.set(allBldgs[i] + \".FirePixels.TotalBeforeWater\", 0);\n\n    // Water qtys - int\n    global.set(allBldgs[i] + \".WaterQty\", 0);\n\n    // Lights - Windows\n    global.set(allBldgs[i] + \".Lights.Window1\", \"OFF\");\n    global.set(allBldgs[i] + \".Lights.Window2\", \"OFF\");\n\n    // Lights - Gutterpixels - string of numbers that represent colors\n    global.set(allBldgs[i] + \".Lights.GutterPixels\", \"000000000000000000000000000000\");\n}\nfor (var i in trenchBldgs) {\n    global.set(trenchBldgs[i] + \".Lights.GutterPixels\", \"000000000000000000000000000000\");\n}\n\n//--- Send initialization MQTT's\n/*\nvar msg1 = {};\nvar msg2 = {};\nmsg1.topic = \"nodered/laserdiff\";\nmsg1.payload = \"{ \\\"[mqtt_goes_here]\\\": \" + global.get(\"laserSensitivity\");\"\n*/\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\n//--- Initialize global variables\n// - General / Manual mode / Utilities\nglobal.set(\"DEBUG\",true);\nglobal.set(\"manualMode.lightBldgAction\",\"1-OFF\");\n\n// - Match / field info         \nglobal.set(\"droneActiveSide\", \"[N/A]\");    //L or R - formerly startSide    \nglobal.set(\"droneNonActiveSide\", \"R\"); //L or R - formerly otherSide \nglobal.set(\"startRoute\", \"T\"); // T or B\nglobal.set(\"hotBldg\", \"T\");    // T or B\nglobal.set(\"matchPhase\",0);    // formerly curPhase - 0, 1, 2, or 3 (0 is inactive, otherwise phase #)\nglobal.set(\"totalPoints\",0);   // formerly totalFS\nglobal.set(\"waterDropMultiplier\", 1.0); // formerly ballDoubler\nglobal.set(\"laserHitMultiplier\", 1.0);  // formerly ballDoubler ish\nglobal.set(\"timeElapsed\", 0);\nglobal.set(\"burnTimeTarget\", 9999);\nglobal.set(\"fireWindowSpreadDelay\", 30);  // # of seconds to spread fire to next window\nglobal.set(\"fireBuildingSpreadDelay\", 0); // # of seconds to spread fire to next building, 0 means no \nglobal.set(\"windowsPerBuilding\", 2);\nglobal.set(\"laserSensitivity\", 500);\n\n// - OBSOLETE match-specific\n/*\nglobal.set(\"startside\",\"L\");   // replaced by droneActiveSide\nglobal.set(\"otherSide\", \"R\");  // replaced by droneNonActiveSide\nglobal.set(\"curPhase\", 0);     // replaced by matchPhase\nglobal.set(\"totalFS\", 0);      // replaced by totalPoints\nglobal.set(\"balldoubler\", 1);  // replaced by waterDropMultiplier and laserHitMultiplier\n*/\n\n// - Building arrays / info\nvar rightBldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\nvar leftBldgs = [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar allBldgs = rightBldgs.concat(leftBldgs);\nvar heaterBldgs = [\"RTO\", \"RBO\", \"LBO\", \"LTO\"];\nvar laserBldgs = [\"LBO\", \"LBM\", \"LTM\", \"RTO\", \"RBM\", \"RTM\"];\nvar waterBldgs = [\"LTO\", \"LBI\", \"LTI\", \"RBO\", \"RBI\", \"RTI\"];\nvar trenchBldgs = [\"LTT\", \"RTT\"];\nglobal.set(\"rightBldgs\", rightBldgs);\nglobal.set(\"leftBldgs\", leftBldgs);\nglobal.set(\"allBldgs\", allBldgs);\nglobal.set(\"heaterBldgs\", heaterBldgs);\nglobal.set(\"laserBldgs\", laserBldgs);\nglobal.set(\"waterBldgs\", waterBldgs);\nglobal.set(\"trenchBldgs\",trenchBldgs);\n\n// - Specific building attributes\nfor (var i in allBldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(allBldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores -- POSSIBLY BECOMING OBSOLETE?\n    global.set(allBldgs[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-AfterWater\", 0);\n    global.set(allBldgs[i] + \".Damage\", 0);\n\n    //FirePixels -- NEW\n    global.set(allBldgs[i] + \".FirePixels.TotalBeforeWater\",0);\n\n    // Water qtys - int\n    global.set(allBldgs[i] + \".WaterQty\", 0);\n\n    // Lights - Windows\n    global.set(allBldgs[i] + \".Lights.Window1\",\"OFF\");\n    global.set(allBldgs[i] + \".Lights.Window2\", \"OFF\");\n\n    // Lights - Gutterpixels - string of numbers that represent colors\n    global.set(allBldgs[i] + \".Lights.GutterPixels\", \"000000000000000000000000000000\");\n}\nfor (var i in trenchBldgs) {\n    global.set(trenchBldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\n\n//--- Send initialization MQTT's\n/*\nvar msg1 = {};\nvar msg2 = {};\nmsg1.topic = \"nodered/laserdiff\";\nmsg1.payload = \"{ \\\"[mqtt_goes_here]\\\": \" + global.get(\"laserSensitivity\");\"\n*/",
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\n//--- Initialize global variables\n// - General / Manual mode / Utilities\nglobal.set(\"DEBUG\",true);\nglobal.set(\"manualMode.lightBldgAction\",\"1-OFF\");\n\n// - Match / field info         \nglobal.set(\"droneActiveSide\", \"[N/A]\");    //L or R - formerly startSide    \nglobal.set(\"droneNonActiveSide\", \"R\"); //L or R - formerly otherSide \nglobal.set(\"startRoute\", \"T\"); // T or B\nglobal.set(\"hotBldg\", \"T\");    // T or B\nglobal.set(\"matchPhase\",0);    // formerly curPhase - 0, 1, 2, or 3 (0 is inactive, otherwise phase #)\nglobal.set(\"totalPoints\",0);   // formerly totalFS\nglobal.set(\"waterDropMultiplier\", 1.0); // formerly ballDoubler\nglobal.set(\"laserHitMultiplier\", 1.0);  // formerly ballDoubler ish\nglobal.set(\"timeElapsed\", 0);\nglobal.set(\"burnTimeTarget\", 9999);\nglobal.set(\"fireWindowSpreadDelay\", 30);  // # of seconds to spread fire to next window\nglobal.set(\"fireBuildingSpreadDelay\", 0); // # of seconds to spread fire to next building, 0 means no \nglobal.set(\"windowsPerBuilding\", 2);\nglobal.set(\"laserSensitivity\", 500);\n\n// - OBSOLETE match-specific\n/*\nglobal.set(\"startside\",\"L\");   // replaced by droneActiveSide\nglobal.set(\"otherSide\", \"R\");  // replaced by droneNonActiveSide\nglobal.set(\"curPhase\", 0);     // replaced by matchPhase\nglobal.set(\"totalFS\", 0);      // replaced by totalPoints\nglobal.set(\"balldoubler\", 1);  // replaced by waterDropMultiplier and laserHitMultiplier\n*/\n\n// - Building arrays / info\nvar rightBldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\nvar leftBldgs = [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar allBldgs = rightBldgs.concat(leftBldgs);\nvar heaterBldgs = [\"RTO\", \"RBO\", \"LBO\", \"LTO\"];\nvar laserBldgs = [\"LBO\", \"LBM\", \"LTM\", \"RTO\", \"RBM\", \"RTM\"];\nvar waterBldgs = [\"LTO\", \"LBI\", \"LTI\", \"RBO\", \"RBI\", \"RTI\"];\nvar trenchBldgs = [\"LTT\", \"RTT\"];\nglobal.set(\"rightBldgs\", rightBldgs);\nglobal.set(\"leftBldgs\", leftBldgs);\nglobal.set(\"allBldgs\", allBldgs);\nglobal.set(\"heaterBldgs\", heaterBldgs);\nglobal.set(\"laserBldgs\", laserBldgs);\nglobal.set(\"waterBldgs\", waterBldgs);\nglobal.set(\"trenchBldgs\",trenchBldgs);\n\n// - Specific building attributes\nfor (var i in allBldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(allBldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores -- POSSIBLY BECOMING OBSOLETE?\n    global.set(allBldgs[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-AfterWater\", 0);\n    global.set(allBldgs[i] + \".Damage\", 0);\n\n    //FirePixels -- NEW\n    global.set(allBldgs[i] + \".FirePixels.TotalBeforeWater\",0);\n\n    // Water qtys - int\n    global.set(allBldgs[i] + \".WaterQty\", 0);\n\n    // Lights - Windows\n    global.set(allBldgs[i] + \".Lights.Window1\",\"OFF\");\n    global.set(allBldgs[i] + \".Lights.Window2\", \"OFF\");\n\n    // Lights - Gutterpixels - string of numbers that represent colors\n    global.set(allBldgs[i] + \".Lights.GutterPixels\", \"000000000000000000000000000000\");\n}\nfor (var i in trenchBldgs) {\n    global.set(trenchBldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\n\n\n// - Fin (to trigger all the reset link nodes)\nreturn null;\n",
         "finalize": "",
         "libs": [],
         "x": 450,
@@ -3003,7 +3009,7 @@
             [
                 "da02d40547f5f97a",
                 "b46c481de9536333",
-                "9296e95263e5ddc7"
+                "b06a20262c7c11b3"
             ]
         ]
     },
@@ -4940,8 +4946,10 @@
         "z": "55a762ae72fa441b",
         "g": "28011fcca82837fc",
         "name": "Reset Output - DroneActiveSide (Start)",
-        "links": [],
-        "x": 715,
+        "links": [
+            "9296e95263e5ddc7"
+        ],
+        "x": 765,
         "y": 480,
         "wires": [
             [
@@ -4955,7 +4963,9 @@
         "z": "55a762ae72fa441b",
         "g": "ec7979310fe9e00f",
         "name": "Reset Output - Hotbldg",
-        "links": [],
+        "links": [
+            "9296e95263e5ddc7"
+        ],
         "x": 595,
         "y": 640,
         "wires": [
@@ -5832,7 +5842,7 @@
         "finalize": "",
         "libs": [],
         "x": 890,
-        "y": 2160,
+        "y": 2220,
         "wires": [
             [
                 "ca5dd7da6a525065"
@@ -5847,7 +5857,7 @@
         "name": "Phase 1 Burn Rev CMP",
         "info": "",
         "x": 240,
-        "y": 1980,
+        "y": 2040,
         "wires": []
     },
     {
@@ -5863,7 +5873,7 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 2020,
+        "y": 2080,
         "wires": [
             [
                 "3e8cddebe9821750"
@@ -5889,7 +5899,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 900,
-        "y": 2020,
+        "y": 2080,
         "wires": [
             [
                 "11ab1aaf6ca42a14"
@@ -5915,7 +5925,7 @@
         "repair": false,
         "outputs": 1,
         "x": 1060,
-        "y": 2020,
+        "y": 2080,
         "wires": [
             [
                 "0696dfed47787161",
@@ -5933,7 +5943,7 @@
             "0288b8af1ceb54de"
         ],
         "x": 205,
-        "y": 2100,
+        "y": 2160,
         "wires": [
             [
                 "4083bde3272cdecd"
@@ -5968,7 +5978,7 @@
         "to": "",
         "reg": false,
         "x": 360,
-        "y": 2100,
+        "y": 2160,
         "wires": [
             [
                 "0696dfed47787161",
@@ -5984,7 +5994,7 @@
         "name": "----------------- First Set of Bldgs -> 2 Windows ----------------- ",
         "info": "",
         "x": 750,
-        "y": 2120,
+        "y": 2180,
         "wires": []
     },
     {
@@ -5995,7 +6005,7 @@
         "name": "----------------- Add Second Set of Bldgs ----------------- ",
         "info": "",
         "x": 710,
-        "y": 2440,
+        "y": 2500,
         "wires": []
     },
     {
@@ -6006,7 +6016,7 @@
         "name": "----------------- \"Global\" timer (at least, until phase goes <= 0)",
         "info": "",
         "x": 750,
-        "y": 1980,
+        "y": 2040,
         "wires": []
     },
     {
@@ -6022,7 +6032,7 @@
         "finalize": "",
         "libs": [],
         "x": 890,
-        "y": 2480,
+        "y": 2540,
         "wires": [
             [
                 "25e253e5a54e3110"
@@ -6037,7 +6047,7 @@
         "name": "----------------- Second Bldgs -> 2 Windows ----------------- ",
         "info": "",
         "x": 720,
-        "y": 2800,
+        "y": 2860,
         "wires": []
     },
     {
@@ -6053,7 +6063,7 @@
         "finalize": "",
         "libs": [],
         "x": 890,
-        "y": 2840,
+        "y": 2900,
         "wires": [
             [
                 "e8fd57bcff4cabcb"
@@ -6073,7 +6083,7 @@
         "finalize": "",
         "libs": [],
         "x": 1450,
-        "y": 2280,
+        "y": 2340,
         "wires": [
             [
                 "374ad7109c8ae83c"
@@ -6088,7 +6098,7 @@
         "name": "TIME TO BURN",
         "info": "",
         "x": 1420,
-        "y": 2240,
+        "y": 2300,
         "wires": []
     },
     {
@@ -6104,7 +6114,7 @@
         "finalize": "",
         "libs": [],
         "x": 1800,
-        "y": 2320,
+        "y": 2380,
         "wires": [
             [
                 "b168987c1df43253",
@@ -6123,7 +6133,7 @@
             "dc1d674e61de820d"
         ],
         "x": 1965,
-        "y": 2320,
+        "y": 2380,
         "wires": []
     },
     {
@@ -6145,7 +6155,7 @@
         "loopPayload": "loop-val",
         "finalPayload": "final-count",
         "x": 1710,
-        "y": 2260,
+        "y": 2320,
         "wires": [
             [
                 "319874a11303642d"
@@ -6174,7 +6184,7 @@
         "to": "",
         "reg": false,
         "x": 670,
-        "y": 2480,
+        "y": 2540,
         "wires": [
             [
                 "d2fb90aad48fa2a7"
@@ -6194,7 +6204,7 @@
         "finalize": "",
         "libs": [],
         "x": 1800,
-        "y": 2640,
+        "y": 2700,
         "wires": [
             [
                 "6d4dee2de447ea5a",
@@ -6215,7 +6225,7 @@
         "finalize": "",
         "libs": [],
         "x": 1450,
-        "y": 2600,
+        "y": 2660,
         "wires": [
             [
                 "dd60a83720551880"
@@ -6230,7 +6240,7 @@
         "name": "TIME TO BURN",
         "info": "",
         "x": 1420,
-        "y": 2560,
+        "y": 2620,
         "wires": []
     },
     {
@@ -6252,7 +6262,7 @@
         "loopPayload": "loop-val",
         "finalPayload": "final-count",
         "x": 1710,
-        "y": 2580,
+        "y": 2640,
         "wires": [
             [
                 "4e3d920d71ecf9d7"
@@ -6273,7 +6283,7 @@
             "dc1d674e61de820d"
         ],
         "x": 1965,
-        "y": 2640,
+        "y": 2700,
         "wires": []
     },
     {
@@ -6295,7 +6305,7 @@
         "to": "",
         "reg": false,
         "x": 670,
-        "y": 2840,
+        "y": 2900,
         "wires": [
             [
                 "24e909abaa765b63"
@@ -6310,7 +6320,7 @@
         "name": "TIME TO BURN",
         "info": "",
         "x": 1420,
-        "y": 2900,
+        "y": 2960,
         "wires": []
     },
     {
@@ -6326,7 +6336,7 @@
         "finalize": "",
         "libs": [],
         "x": 1800,
-        "y": 2980,
+        "y": 3040,
         "wires": [
             [
                 "595534f2e07f6f17",
@@ -6345,7 +6355,7 @@
             "dc1d674e61de820d"
         ],
         "x": 1975,
-        "y": 2980,
+        "y": 3040,
         "wires": []
     },
     {
@@ -6367,7 +6377,7 @@
         "loopPayload": "loop-val",
         "finalPayload": "final-count",
         "x": 1710,
-        "y": 2920,
+        "y": 2980,
         "wires": [
             [],
             [
@@ -6388,7 +6398,7 @@
         "finalize": "",
         "libs": [],
         "x": 1450,
-        "y": 2940,
+        "y": 3000,
         "wires": [
             [
                 "9561806327b7b373"
@@ -6402,7 +6412,7 @@
         "g": "325d6a9e63d4c375",
         "name": "",
         "x": 1150,
-        "y": 2200,
+        "y": 2260,
         "wires": [
             [
                 "c6e859984c6c2583"
@@ -6419,7 +6429,7 @@
         "g": "325d6a9e63d4c375",
         "name": "",
         "x": 1150,
-        "y": 2520,
+        "y": 2580,
         "wires": [
             [
                 "3e134a993c1b3fbe"
@@ -6444,7 +6454,7 @@
         "layout": "row-spread",
         "className": "",
         "x": 1400,
-        "y": 2160,
+        "y": 2220,
         "wires": []
     },
     {
@@ -6462,7 +6472,7 @@
         "layout": "row-spread",
         "className": "",
         "x": 1400,
-        "y": 2480,
+        "y": 2540,
         "wires": []
     },
     {
@@ -6472,7 +6482,7 @@
         "g": "325d6a9e63d4c375",
         "name": "",
         "x": 1150,
-        "y": 2880,
+        "y": 2940,
         "wires": [
             [
                 "1f590c01c036d9b6"
@@ -6497,7 +6507,7 @@
         "layout": "row-spread",
         "className": "",
         "x": 1440,
-        "y": 2820,
+        "y": 2880,
         "wires": []
     },
     {
@@ -6519,7 +6529,7 @@
         "to": "",
         "reg": false,
         "x": 670,
-        "y": 2160,
+        "y": 2220,
         "wires": [
             [
                 "5703bc1fdf115f90"
@@ -6541,7 +6551,7 @@
         "layout": "row-spread",
         "className": "",
         "x": 1260,
-        "y": 2000,
+        "y": 2060,
         "wires": []
     },
     {
@@ -6584,7 +6594,7 @@
         "z": "55a762ae72fa441b",
         "g": "d1c6977fdede82fe",
         "name": "Erupt Heating Building",
-        "func": "//--- Set up vars\nvar theBldg = global.get(\"hotBldg\");\nmsg.payload = {};\n\n//--- Reset any progress made thus far\nglobal.set(theBldg + \".FirePixels.TotalBeforeWater\",0);\nglobal.set(theBldg + \".WaterQty\",0);\nglobal.set(theBldg + \".FS.TotalBeforeWater\",0);\n\n//--- Prep AddFirePix setters\nmsg.payload.bldg = theBldg;\nmsg.payload.numFirePixels = 16;\n\n\n//Fin\nreturn msg;",
+        "func": "//--- Set up vars\nvar theBldg = global.get(\"hotBldg\");\nmsg.payload = {};\n\n//--- Check to make sure it's not cleared, escape if so\nif (global.get(theBldg + \".Status\") == \"Cleared\") {\n    return null;\n}\n\n//--- Reset any progress made thus far\nglobal.set(theBldg + \".FirePixels.TotalBeforeWater\",0);\nglobal.set(theBldg + \".WaterQty\",0);\nglobal.set(theBldg + \".FS.TotalBeforeWater\",0);\n\n//--- Prep AddFirePix setters\nmsg.payload.bldg = theBldg;\nmsg.payload.numFirePixels = 16;\n\n\n//Fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6619,10 +6629,124 @@
         "g": "4a4f80625f8ea163",
         "name": "Reset UI Components",
         "mode": "link",
-        "links": [],
-        "x": 635,
+        "links": [
+            "5d34c40fa95adf3b",
+            "6494ec07de55a20b",
+            "d3ed72bb430a14d5",
+            "08a29338294dfb72",
+            "e36e232e45440235",
+            "63e5d51d3c5537de"
+        ],
+        "x": 795,
         "y": 260,
         "wires": []
+    },
+    {
+        "id": "9046e262b83b5f07",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "d1c6977fdede82fe",
+        "name": "======= \\n =======\\n DON'T FORGET - CHECK IF CLEARED \\n ======= \\n ========",
+        "info": "",
+        "x": 1960,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "6494ec07de55a20b",
+        "type": "link in",
+        "z": "55a762ae72fa441b",
+        "g": "325d6a9e63d4c375",
+        "name": "Reset Output - Time",
+        "links": [
+            "9296e95263e5ddc7"
+        ],
+        "x": 1135,
+        "y": 2020,
+        "wires": [
+            [
+                "a9936705c3706204"
+            ]
+        ]
+    },
+    {
+        "id": "b06a20262c7c11b3",
+        "type": "change",
+        "z": "55a762ae72fa441b",
+        "g": "4a4f80625f8ea163",
+        "name": "Reset UI's",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 260,
+        "wires": [
+            [
+                "9296e95263e5ddc7"
+            ]
+        ]
+    },
+    {
+        "id": "08a29338294dfb72",
+        "type": "link in",
+        "z": "55a762ae72fa441b",
+        "g": "325d6a9e63d4c375",
+        "name": "Reset Output - Time",
+        "links": [
+            "9296e95263e5ddc7"
+        ],
+        "x": 1285,
+        "y": 2200,
+        "wires": [
+            [
+                "c6e859984c6c2583"
+            ]
+        ]
+    },
+    {
+        "id": "e36e232e45440235",
+        "type": "link in",
+        "z": "55a762ae72fa441b",
+        "g": "325d6a9e63d4c375",
+        "name": "Reset Output - Time",
+        "links": [
+            "9296e95263e5ddc7"
+        ],
+        "x": 1285,
+        "y": 2500,
+        "wires": [
+            [
+                "3e134a993c1b3fbe"
+            ]
+        ]
+    },
+    {
+        "id": "63e5d51d3c5537de",
+        "type": "link in",
+        "z": "55a762ae72fa441b",
+        "g": "325d6a9e63d4c375",
+        "name": "Reset Output - Time",
+        "links": [
+            "9296e95263e5ddc7"
+        ],
+        "x": 1285,
+        "y": 2840,
+        "wires": [
+            [
+                "1f590c01c036d9b6"
+            ]
+        ]
     },
     {
         "id": "7a5f520857017bbb",
