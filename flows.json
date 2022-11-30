@@ -24,14 +24,6 @@
         "env": []
     },
     {
-        "id": "f6f035102302ba5a",
-        "type": "tab",
-        "label": "Bldg / FS Callbacks",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "d32826a1611e0622",
         "type": "tab",
         "label": "Ref UI Components",
@@ -58,6 +50,14 @@
         "id": "f66e6f21e6630f00",
         "type": "tab",
         "label": "Setters / Getters",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f6f035102302ba5a",
+        "type": "tab",
+        "label": "Bldg / FS Callbacks",
         "disabled": false,
         "info": "",
         "env": []
@@ -244,42 +244,6 @@
         "h": 282
     },
     {
-        "id": "b2c04e106e7697f0",
-        "type": "group",
-        "z": "55a762ae72fa441b",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "d56b2c69ab7a5b19",
-            "c71621e5f8d62525",
-            "3324776758a34ef8",
-            "14d53b51ae10a6d7",
-            "3ddb4866a6ecb8fe",
-            "250504d69a42ec07",
-            "a43cfe8c60aa1766",
-            "03cc0a5688f63569",
-            "8b9f85415994242a",
-            "81525ae27ca9e82c",
-            "b92ea91a45968087",
-            "6cbc63bf1ddca5ee",
-            "7ec8575c8ae051af",
-            "eb26606ce7b0b4da",
-            "d7533cfe83cb541d",
-            "da290e77a88988a7"
-        ],
-        "x": 1254,
-        "y": 3299,
-        "w": 992,
-        "h": 462
-    },
-    {
         "id": "284c27310b25477c",
         "type": "group",
         "z": "f6f035102302ba5a",
@@ -457,7 +421,6 @@
         },
         "nodes": [
             "9004aeb7ec1ed4bf",
-            "692f7e973b247e3f",
             "dc410816705aadf3",
             "4c72ca30adc671fc",
             "627488f25f62e8dc",
@@ -478,7 +441,8 @@
             "53fa00494ea9a428",
             "04945c3baa280d56",
             "df670749b6ba940f",
-            "90051ad270b2f765"
+            "90051ad270b2f765",
+            "692f7e973b247e3f"
         ],
         "x": 74,
         "y": 4139,
@@ -516,7 +480,7 @@
             "28af28cc8618a072"
         ],
         "x": 104,
-        "y": 4579,
+        "y": 4679,
         "w": 1842,
         "h": 322
     },
@@ -1428,7 +1392,7 @@
             "a982d77f63880d2c"
         ],
         "x": 74,
-        "y": 59,
+        "y": 819,
         "w": 472,
         "h": 222
     },
@@ -1521,6 +1485,7 @@
         "id": "67280a1824f2e68f",
         "type": "group",
         "z": "f66e6f21e6630f00",
+        "g": "f950efc084a45cd2",
         "style": {
             "stroke": "#3a3a3a",
             "stroke-opacity": "1",
@@ -1537,8 +1502,8 @@
             "3e5e745b25e837a1",
             "5f1e32d4a9243886"
         ],
-        "x": 64,
-        "y": 319,
+        "x": 84,
+        "y": 99,
         "w": 472,
         "h": 242
     },
@@ -1562,12 +1527,13 @@
             "cba544c17d6aa13d",
             "d76197cd025dce1f",
             "1125739b31b22db9",
-            "02110c0df353b5c6"
+            "02110c0df353b5c6",
+            "cdd67f2387d5de33"
         ],
-        "x": 722.9999694824219,
-        "y": 319,
+        "x": 682.9999694824219,
+        "y": 279,
         "w": 603.0000305175781,
-        "h": 231.99994277954102
+        "h": 242
     },
     {
         "id": "a4436834ffd8d273",
@@ -1892,13 +1858,12 @@
             "b395a9b2e2e8a412",
             "e9064ad0876af058",
             "e0ac23384dedbc40",
-            "3067707184cd6d97",
-            "9046e262b83b5f07"
+            "3067707184cd6d97"
         ],
         "x": 114,
         "y": 1259,
-        "w": 2032,
-        "h": 690
+        "w": 1882,
+        "h": 682
     },
     {
         "id": "325d6a9e63d4c375",
@@ -2180,8 +2145,8 @@
             "03645d32361c5729",
             "ba931823ae11d4ea"
         ],
-        "x": 74,
-        "y": 3179,
+        "x": 1834,
+        "y": 659,
         "w": 942,
         "h": 522
     },
@@ -2206,10 +2171,92 @@
             "a69414e6f67deda5",
             "c47734c2c38bc568"
         ],
-        "x": 74,
-        "y": 619,
+        "x": 84,
+        "y": 399,
         "w": 462,
         "h": 262
+    },
+    {
+        "id": "b2c04e106e7697f0",
+        "type": "group",
+        "z": "26a7e7275cb541d0",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "d56b2c69ab7a5b19",
+            "c71621e5f8d62525",
+            "3324776758a34ef8",
+            "14d53b51ae10a6d7",
+            "3ddb4866a6ecb8fe",
+            "250504d69a42ec07",
+            "a43cfe8c60aa1766",
+            "03cc0a5688f63569",
+            "8b9f85415994242a",
+            "81525ae27ca9e82c",
+            "b92ea91a45968087",
+            "6cbc63bf1ddca5ee",
+            "7ec8575c8ae051af",
+            "eb26606ce7b0b4da",
+            "d7533cfe83cb541d",
+            "da290e77a88988a7"
+        ],
+        "x": 154,
+        "y": 1799,
+        "w": 992,
+        "h": 462
+    },
+    {
+        "id": "f950efc084a45cd2",
+        "type": "group",
+        "z": "f66e6f21e6630f00",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "67280a1824f2e68f"
+        ],
+        "x": 58,
+        "y": 73,
+        "w": 524,
+        "h": 294
+    },
+    {
+        "id": "f4b953e583c4193d",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "db1756875c29a069",
+            "a7d99a942f016eff",
+            "324b291666bc0fed",
+            "e89ef88e113cdc1b",
+            "be3f9642037725de"
+        ],
+        "x": 2134,
+        "y": 1979,
+        "w": 952,
+        "h": 142
     },
     {
         "id": "b411c6135a7823e0",
@@ -3772,17 +3819,6 @@
         ]
     },
     {
-        "id": "d56b2c69ab7a5b19",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "b2c04e106e7697f0",
-        "name": "MVP Step 6 - Receive a laser / ball hit, decrease FS",
-        "info": "",
-        "x": 1470,
-        "y": 3340,
-        "wires": []
-    },
-    {
         "id": "90051ad270b2f765",
         "type": "comment",
         "z": "55a762ae72fa441b",
@@ -3801,126 +3837,7 @@
         "name": "MVP Step 9 - Endgame",
         "info": "",
         "x": 230,
-        "y": 4620,
-        "wires": []
-    },
-    {
-        "id": "c71621e5f8d62525",
-        "type": "mqtt in",
-        "z": "55a762ae72fa441b",
-        "d": true,
-        "g": "b2c04e106e7697f0",
-        "name": "",
-        "topic": "edgenode/laserhit/#",
-        "qos": "2",
-        "datatype": "auto-detect",
-        "broker": "bc90be16040a7d21",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 1390,
-        "y": 3640,
-        "wires": [
-            [
-                "a43cfe8c60aa1766",
-                "6cbc63bf1ddca5ee"
-            ]
-        ]
-    },
-    {
-        "id": "3324776758a34ef8",
-        "type": "function",
-        "z": "55a762ae72fa441b",
-        "g": "b2c04e106e7697f0",
-        "name": "Convert to callback formats - BALL",
-        "func": "/* \nExample input BALL:\nobject\nnum_drops: 1\ntimestamp: 637739\nBUILDING_NAME: \"LBM\"\nside_id: 1\n\nDesired outputs for callback: \npayload.bldg, payload.newAddlWaterQty\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.BUILDING_NAME; \nvar numHits = input.num_drops * global.get(\"balldoubler\");;  \nmsg.payload = {};\n\n\n//--- FS update callback outputs\nmsg.payload.bldg = nodeid;\nmsg.payload.newAddlWaterQty = numHits;\n\n\n//--- Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1860,
-        "y": 3460,
-        "wires": [
-            [
-                "3ddb4866a6ecb8fe",
-                "eb26606ce7b0b4da"
-            ]
-        ]
-    },
-    {
-        "id": "14d53b51ae10a6d7",
-        "type": "inject",
-        "z": "55a762ae72fa441b",
-        "g": "b2c04e106e7697f0",
-        "name": "Fake laser MQTT (RTM)",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "edgenode/laserhit/RTO",
-        "payload": "{\"node_id\":\"RTM\",\"num_hits\":1,\"timestamp\":1234567890}",
-        "payloadType": "json",
-        "x": 1510,
-        "y": 3720,
-        "wires": [
-            [
-                "b92ea91a45968087"
-            ]
-        ],
-        "info": "Example input: \r\n{\r\n    \"node_id\":\"LTO\",\r\n    \"num_hits\":5, \r\n    \"timestamp\":1234567890\r\n}"
-    },
-    {
-        "id": "3ddb4866a6ecb8fe",
-        "type": "link out",
-        "z": "55a762ae72fa441b",
-        "g": "b2c04e106e7697f0",
-        "name": "Laser been hit",
-        "mode": "link",
-        "links": [
-            "ab46c7d25d3bb74b"
-        ],
-        "x": 2155,
-        "y": 3540,
-        "wires": []
-    },
-    {
-        "id": "250504d69a42ec07",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "b2c04e106e7697f0",
-        "name": "To callback",
-        "info": "",
-        "x": 2160,
-        "y": 3500,
-        "wires": []
-    },
-    {
-        "id": "a43cfe8c60aa1766",
-        "type": "debug",
-        "z": "55a762ae72fa441b",
-        "g": "b2c04e106e7697f0",
-        "name": "db received laser hit",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1680,
-        "y": 3600,
+        "y": 4720,
         "wires": []
     },
     {
@@ -3952,105 +3869,14 @@
         "wires": []
     },
     {
-        "id": "03cc0a5688f63569",
-        "type": "mqtt in",
-        "z": "55a762ae72fa441b",
-        "d": true,
-        "g": "b2c04e106e7697f0",
-        "name": "",
-        "topic": "edgenode/balldrop/#",
-        "qos": "2",
-        "datatype": "auto-detect",
-        "broker": "bc90be16040a7d21",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 1390,
-        "y": 3420,
-        "wires": [
-            [
-                "8b9f85415994242a",
-                "7ec8575c8ae051af"
-            ]
-        ]
-    },
-    {
-        "id": "8b9f85415994242a",
-        "type": "debug",
-        "z": "55a762ae72fa441b",
-        "g": "b2c04e106e7697f0",
-        "name": "db received ball",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1680,
-        "y": 3380,
-        "wires": []
-    },
-    {
-        "id": "81525ae27ca9e82c",
-        "type": "inject",
-        "z": "55a762ae72fa441b",
-        "g": "b2c04e106e7697f0",
-        "name": "Fake ball MQTT (LBI)",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "{\"num_drops\":1,\"timestamp\":10356098,\"BUILDING_NAME\":\"LBI\",\"side_id\":0}",
-        "payloadType": "json",
-        "x": 1500,
-        "y": 3480,
-        "wires": [
-            [
-                "3324776758a34ef8"
-            ]
-        ]
-    },
-    {
-        "id": "b92ea91a45968087",
-        "type": "function",
-        "z": "55a762ae72fa441b",
-        "g": "b2c04e106e7697f0",
-        "name": "Convert to callback formats - LASER",
-        "func": "/* \nExample input LASER:\n{\n  \"num_hits\": 1,\n  \"timestamp\": 415775,\n  \"timestamp\": 416493,\n  \"BUILDING_NAME\": \"LBM\",\n  \"side_id\": 1\n}\n\n\nDesired outputs for callback: \npayload.bldg, payload.newAddlWaterQty\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.BUILDING_NAME; \nvar numHits = input.num_hits;  \nmsg.payload = {};\n\n\n//--- FS update callback outputs\nmsg.payload.bldg = nodeid;\nmsg.payload.newAddlWaterQty = numHits*2;\n\n\n//--- Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1890,
-        "y": 3680,
-        "wires": [
-            [
-                "3ddb4866a6ecb8fe"
-            ]
-        ]
-    },
-    {
         "id": "9004aeb7ec1ed4bf",
         "type": "link in",
         "z": "55a762ae72fa441b",
         "g": "2971d7c90b74f3b4",
         "name": "TIME FOR PHASE 2",
         "links": [
-            "fe84ce88167ea094"
+            "fe84ce88167ea094",
+            "18c798f8f622b55b"
         ],
         "x": 165,
         "y": 4300,
@@ -4059,17 +3885,6 @@
                 "a051d26f3d84b499"
             ]
         ]
-    },
-    {
-        "id": "692f7e973b247e3f",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "2971d7c90b74f3b4",
-        "name": "TIME FOR PHASE 2",
-        "info": "",
-        "x": 220,
-        "y": 4240,
-        "wires": []
     },
     {
         "id": "dc410816705aadf3",
@@ -4236,7 +4051,7 @@
             "6983c6fb1a960333"
         ],
         "x": 185,
-        "y": 4740,
+        "y": 4840,
         "wires": [
             [
                 "42523d902813f067"
@@ -4251,7 +4066,7 @@
         "name": "TIME FOR PHASE 3",
         "info": "",
         "x": 240,
-        "y": 4680,
+        "y": 4780,
         "wires": []
     },
     {
@@ -4265,7 +4080,7 @@
             "31c4db3eb2f36e59"
         ],
         "x": 735,
-        "y": 4860,
+        "y": 4960,
         "wires": []
     },
     {
@@ -4287,7 +4102,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 790,
-        "y": 4800,
+        "y": 4900,
         "wires": [
             [
                 "66a6c020170412e9",
@@ -4309,7 +4124,7 @@
             "55ae42b1368591f7"
         ],
         "x": 935,
-        "y": 4800,
+        "y": 4900,
         "wires": []
     },
     {
@@ -4331,7 +4146,7 @@
         "loopPayload": "loop-index",
         "finalPayload": "final-count",
         "x": 580,
-        "y": 4740,
+        "y": 4840,
         "wires": [
             [
                 "cd6470a4dd6dcf5a"
@@ -4365,7 +4180,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 350,
-        "y": 4800,
+        "y": 4900,
         "wires": [
             [
                 "9b2dd509237ea4ba"
@@ -4393,7 +4208,7 @@
         "to": "",
         "reg": false,
         "x": 1000,
-        "y": 4740,
+        "y": 4840,
         "wires": [
             [
                 "d50e20b89aafa29b"
@@ -4419,7 +4234,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 780,
-        "y": 4740,
+        "y": 4840,
         "wires": [
             [
                 "c9cff8053a0560cc"
@@ -4434,7 +4249,7 @@
         "name": "Pause to drain MQTT",
         "info": "",
         "x": 800,
-        "y": 4680,
+        "y": 4780,
         "wires": []
     },
     {
@@ -4450,7 +4265,7 @@
         "finalize": "",
         "libs": [],
         "x": 1220,
-        "y": 4740,
+        "y": 4840,
         "wires": [
             [
                 "4c742ebce9027c25"
@@ -4468,76 +4283,7 @@
             "3f402ddd8643cce0"
         ],
         "x": 1365,
-        "y": 4740,
-        "wires": []
-    },
-    {
-        "id": "6cbc63bf1ddca5ee",
-        "type": "switch",
-        "z": "55a762ae72fa441b",
-        "g": "b2c04e106e7697f0",
-        "name": "matchPhase > 0",
-        "property": "matchPhase",
-        "propertyType": "global",
-        "rules": [
-            {
-                "t": "gt",
-                "v": "0",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1620,
-        "y": 3660,
-        "wires": [
-            [
-                "b92ea91a45968087"
-            ]
-        ]
-    },
-    {
-        "id": "7ec8575c8ae051af",
-        "type": "switch",
-        "z": "55a762ae72fa441b",
-        "g": "b2c04e106e7697f0",
-        "name": "matchPhase > 0",
-        "property": "matchPhase",
-        "propertyType": "global",
-        "rules": [
-            {
-                "t": "gt",
-                "v": "0",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1620,
-        "y": 3440,
-        "wires": [
-            [
-                "3324776758a34ef8"
-            ]
-        ]
-    },
-    {
-        "id": "eb26606ce7b0b4da",
-        "type": "debug",
-        "z": "55a762ae72fa441b",
-        "g": "b2c04e106e7697f0",
-        "name": "debug 12",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2080,
-        "y": 3420,
+        "y": 4840,
         "wires": []
     },
     {
@@ -4689,7 +4435,7 @@
         "to": "",
         "reg": false,
         "x": 340,
-        "y": 4740,
+        "y": 4840,
         "wires": [
             [
                 "9b2dd509237ea4ba"
@@ -4732,7 +4478,7 @@
         "name": "====\\n THIS WILL NEED TO BE REDONE WITH THE TIMER METHOD",
         "info": "",
         "x": 1690,
-        "y": 4740,
+        "y": 4840,
         "wires": []
     },
     {
@@ -6678,17 +6424,6 @@
         "wires": []
     },
     {
-        "id": "9046e262b83b5f07",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "d1c6977fdede82fe",
-        "name": "======= \\n =======\\n DON'T FORGET - CHECK IF CLEARED \\n ======= \\n ========",
-        "info": "",
-        "x": 1960,
-        "y": 1860,
-        "wires": []
-    },
-    {
         "id": "6494ec07de55a20b",
         "type": "link in",
         "z": "55a762ae72fa441b",
@@ -6798,8 +6533,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 250,
-        "y": 3340,
+        "x": 2010,
+        "y": 820,
         "wires": [
             [
                 "6650c705ab7e2e1e",
@@ -6821,8 +6556,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 540,
-        "y": 3300,
+        "x": 2300,
+        "y": 780,
         "wires": []
     },
     {
@@ -6843,8 +6578,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 480,
-        "y": 3360,
+        "x": 2240,
+        "y": 840,
         "wires": [
             [
                 "eba078dc2c71e197"
@@ -6863,8 +6598,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 730,
-        "y": 3380,
+        "x": 2490,
+        "y": 860,
         "wires": [
             [
                 "614e06960c4619e1"
@@ -6893,8 +6628,8 @@
         "topic": "edgenode/laserhit/RTM",
         "payload": "{\"BUILDING_NAME\":\"RTM\",\"num_hits\":1,\"timestamp\":1234567890}",
         "payloadType": "json",
-        "x": 370,
-        "y": 3420,
+        "x": 2130,
+        "y": 900,
         "wires": [
             [
                 "eba078dc2c71e197"
@@ -6909,8 +6644,8 @@
         "g": "7a9d34be24c9d358",
         "name": "Receive Laser / Ball Hit - Rev CMP",
         "info": "",
-        "x": 240,
-        "y": 3220,
+        "x": 2000,
+        "y": 700,
         "wires": []
     },
     {
@@ -6923,19 +6658,8 @@
         "links": [
             "c18680ecca2f99fb"
         ],
-        "x": 975,
-        "y": 3480,
-        "wires": []
-    },
-    {
-        "id": "d7533cfe83cb541d",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "b2c04e106e7697f0",
-        "name": "=== OBSOLETE, WAS USED WEEK 3 ====",
-        "info": "",
-        "x": 1510,
-        "y": 3360,
+        "x": 2735,
+        "y": 960,
         "wires": []
     },
     {
@@ -6952,8 +6676,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 250,
-        "y": 3560,
+        "x": 2010,
+        "y": 1040,
         "wires": [
             [
                 "03645d32361c5729",
@@ -6979,8 +6703,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 460,
-        "y": 3580,
+        "x": 2220,
+        "y": 1060,
         "wires": [
             [
                 "0ebb2337407dbe3f"
@@ -6999,8 +6723,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 730,
-        "y": 3620,
+        "x": 2490,
+        "y": 1100,
         "wires": [
             [
                 "614e06960c4619e1"
@@ -7021,27 +6745,9 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 520,
-        "y": 3520,
+        "x": 2280,
+        "y": 1000,
         "wires": []
-    },
-    {
-        "id": "da290e77a88988a7",
-        "type": "link in",
-        "z": "55a762ae72fa441b",
-        "d": true,
-        "g": "b2c04e106e7697f0",
-        "name": "Laser Hit Inject",
-        "links": [
-            "8b81919795d67036"
-        ],
-        "x": 1545,
-        "y": 3520,
-        "wires": [
-            [
-                "3324776758a34ef8"
-            ]
-        ]
     },
     {
         "id": "ba931823ae11d4ea",
@@ -7065,13 +6771,124 @@
         "topic": "",
         "payload": "{\"num_drops\":1,\"timestamp\":10356098,\"BUILDING_NAME\":\"RBI\",\"side_id\":0}",
         "payloadType": "json",
-        "x": 360,
-        "y": 3660,
+        "x": 2120,
+        "y": 1140,
         "wires": [
             [
                 "0ebb2337407dbe3f"
             ]
         ]
+    },
+    {
+        "id": "692f7e973b247e3f",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "2971d7c90b74f3b4",
+        "name": "TIME FOR PHASE 2",
+        "info": "",
+        "x": 220,
+        "y": 4240,
+        "wires": []
+    },
+    {
+        "id": "b7983b1421307bef",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "name": "Phase 2 - Rev CMP",
+        "info": "",
+        "x": 210,
+        "y": 3180,
+        "wires": []
+    },
+    {
+        "id": "db1756875c29a069",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "f4b953e583c4193d",
+        "name": "Check if Phase switch time",
+        "info": "",
+        "x": 2270,
+        "y": 2020,
+        "wires": []
+    },
+    {
+        "id": "a7d99a942f016eff",
+        "type": "link in",
+        "z": "55a762ae72fa441b",
+        "g": "f4b953e583c4193d",
+        "name": "Check Phase Switch",
+        "links": [
+            "cdd67f2387d5de33"
+        ],
+        "x": 2205,
+        "y": 2080,
+        "wires": [
+            [
+                "324b291666bc0fed"
+            ]
+        ]
+    },
+    {
+        "id": "324b291666bc0fed",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "f4b953e583c4193d",
+        "name": "Check if Phase Switch Rdy (no \"Burning\" statuses)",
+        "func": "/* \nEvery time you're updating a bldg, check to see if it's the LAST ONE  :O\n*/\n\n// --- Set up vars\nvar curSide = global.get(\"droneActiveSide\");\nvar theTotalFS = 0;\nvar theTotalWater = 0;\nvar curDamage = [];\n\nswitch (curSide) {\n    case \"L\":\n        var bldgs = global.get(\"leftBldgs\");\n        break;\n    case \"R\":\n        var bldgs = global.get(\"rightBldgs\");\n        break;\n}\n\n// --- Loop through all buildings, look for no bueno\nvar isClear = true;\nfor (var i in bldgs) {\n    var stat = global.get(bldgs[i] + \".Status\");\n    if(stat == \"Burning\" || stat == \"Hotspot\") {\n        isClear = false;\n    }\n\n    if (isClear == false) {\n        break;\n    }\n}\n\n// -- debug\nif(global.get(\"DEBUG\")) {\n    node.warn(\"checking for phase 2 - \" + isClear);\n}\n\n// --- Fin\nmsg.payload = isClear;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2450,
+        "y": 2080,
+        "wires": [
+            [
+                "e89ef88e113cdc1b"
+            ]
+        ]
+    },
+    {
+        "id": "e89ef88e113cdc1b",
+        "type": "switch",
+        "z": "55a762ae72fa441b",
+        "g": "f4b953e583c4193d",
+        "name": "If ready",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 2740,
+        "y": 2080,
+        "wires": [
+            [
+                "be3f9642037725de"
+            ]
+        ]
+    },
+    {
+        "id": "be3f9642037725de",
+        "type": "debug",
+        "z": "55a762ae72fa441b",
+        "g": "f4b953e583c4193d",
+        "name": "db phase 2 rdy",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2960,
+        "y": 2080,
+        "wires": []
     },
     {
         "id": "7a5f520857017bbb",
@@ -7918,1256 +7735,6 @@
         "x": 660,
         "y": 960,
         "wires": []
-    },
-    {
-        "id": "0416ea6909311b42",
-        "type": "link in",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "Update FS",
-        "links": [
-            "0d8173f38e89fbff",
-            "1a9410ac2442e363",
-            "3169a0e7aefec915",
-            "3fbcebb8a982c031",
-            "41518b531082b3d7",
-            "53ad0d9118b96995",
-            "56baf729ff9f20d4",
-            "5d5808f37e4f2631",
-            "60c4cd940e202083",
-            "6f5b0006051e39ef",
-            "7e1e1ed2c52487f5",
-            "9a1fea64496dca0b",
-            "c612b81a64bb9759",
-            "d0e47829bbab10d2",
-            "d504585ce63f5428",
-            "f4d059522562d6ee",
-            "271ede2ce51d285f",
-            "ae7f84b63854f65a",
-            "31b38ea8c73fc370",
-            "b8d97633789e564a",
-            "9b568c684831987e",
-            "e1cc859ba784a678",
-            "c1a90303531def31",
-            "93e63f839cdaec05",
-            "37c7a2dbbcb0a457",
-            "340b990d6b13e2a7",
-            "ed716ab02d4082a2",
-            "ad963e02c9e92e23",
-            "818f620db7bf22cc",
-            "92f06b8d089d2e3c",
-            "1d79d030bb97d1cb",
-            "c15ecd4af88078fe",
-            "fb816ea98a4bab83",
-            "3d9cde5ecb8c0e76"
-        ],
-        "x": 205,
-        "y": 300,
-        "wires": [
-            [
-                "8078387b8154fc28",
-                "085de4503ad6ec20"
-            ]
-        ]
-    },
-    {
-        "id": "187c6afe9262807c",
-        "type": "comment",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "Update FS BEFORE WATER\\n payload.bldg, payload.window, payload.numFire",
-        "info": "",
-        "x": 340,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "8078387b8154fc28",
-        "type": "function",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "Update Window Global",
-        "func": "//--- Basic variables\nvar input = msg.payload;\nvar theBldg = msg.payload.bldg;\nvar theWin = msg.payload.window;\nvar theFS = msg.payload.numFire;\n\n//--- Update Global Variables\nvar theGlobalString = theBldg + \".FS.Window\" + theWin + \"-BeforeWater\";\nglobal.set(theGlobalString,theFS);\n\n\n//--- Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 390,
-        "y": 280,
-        "wires": [
-            [
-                "dda9a78374edd0d2"
-            ]
-        ]
-    },
-    {
-        "id": "5acfacf7a05cc895",
-        "type": "function",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "Update GutterPixels Global - Requires AfterWater String",
-        "func": "/* \nGutter is built with 30 pixels\n[0-7]   = Window 1 FS\n[8-9]   = Blank (spacer)\n[10-19] = Status\n[20-21] = Blank (spacer)\n[22-29] = Window 2 FS\n\nColor wheel:\n0 = OFF\n1 = RED\n2 = ORANGE\n3 = YELLOW\n4 = GREEN\n5 = BLUE\n6 = PURPLE\n^^ Don't forget to make these a string, not an int\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar theBldg = msg.payload.bldg;\nvar theWin = msg.payload.window;\n\n// --FS is no longer a basic variable, since you'll have to depend on VISIBLE (after Water) fire\nvar theFS = global.get(theBldg+\".FS.Window\" + theWin + \"-AfterWater\");\n\n//--- Get current gutterpixels, delete the relevant window's substring \n//string.substring(indexStart, indexEnd)\nvar curPixelString = global.get(theBldg + \".GutterPixels\");\nif (theWin == 1) {\n    var stringMinusWindow = curPixelString.substring(8, 30); //will want to check off-by-one issues\n    var theColor = \"3\"; // YELLOW\n} else if (theWin == 2) {\n    var stringMinusWindow = curPixelString.substring(0, 22); //will want to check off-by-one issues\n    var theColor = \"4\"; // RED\n}\n//node.warn(stringMinusWindow);\n\n//--- Build the new window's string\nvar newWindowString = \"\";\n//-- Add 1's up to the FS, then 0's after that to only light up the FS pixels\n// off-by-one _should_ work out alright? \n// also js shorthand woo https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator\nfor (let i=0; i<8; i++) {\n    newWindowString += i<theFS ? theColor : \"0\"; \n}\n\n//--- Combino preparo \n//node.warn(newWindowString);\n//node.warn(stringMinusWindow);\nif (theWin == 1) {\n    var newPixelString = newWindowString + stringMinusWindow; \n} else if (theWin == 2) {\n    var newPixelString = stringMinusWindow + newWindowString;\n}\n\n//--- Fin\nglobal.set(theBldg + \".GutterPixels\", newPixelString);\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1390,
-        "y": 300,
-        "wires": [
-            [
-                "926f27b7e8249ddb"
-            ]
-        ]
-    },
-    {
-        "id": "926f27b7e8249ddb",
-        "type": "function",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "Build MQTT Msg for Gutter",
-        "func": "/*\n---- WILL NEED TO UPDATE ONCE WE KNOW HOW \"WHICHLEDS\" WORKS ---\n\nmsg1.topic = \"nodered/updategutter/full/\" + theBldgs[0];\nmsg1.payload = \"{ \\\"color\\\":\\\"FFFF00\\\" }\";\n\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar node_id = msg.payload.bldg;\nvar theGutter = 0; //-=-=-=-==-=\n\n\n//--- Set up MQTT message\nvar gutterString = global.get(node_id + \".GutterPixels\");\n//var gutterString = \"333333333333333333333333333333\";\nmsg.topic = \"nodered/updatepixels/\" + node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":\" + theGutter + \", \" +\n    \"\\\"pixels\\\": \\\"\" + gutterString + \"\\\"\" +\n    \"}\";\n//node.warn(msg);\n\n//--- Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1760,
-        "y": 300,
-        "wires": [
-            [
-                "5f0bcff5c4ed6ec4"
-            ]
-        ]
-    },
-    {
-        "id": "ed2d399b29970928",
-        "type": "function",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "Build MQTT Msg for Window",
-        "func": "//--- Basic variables\nvar input = msg.payload;\nvar node_id = msg.payload.bldg;\nvar theWin = msg.payload.window;\n\nvar theFS = global.get(node_id + \".FS.Window\" + theWin + \"-AfterWater\");\n\n//--- Build MQTT message\nif (theFS > 0) {\n    msg.topic = \"nodered/lighton/\" + node_id;\n} else if (theFS == 0) {\n    msg.topic = \"nodered/lightoff/\" + node_id;\n}\nmsg.payload = \"{ \\\"whichLight\\\":\" + theWin + \"}\"\n\n//--- Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1300,
-        "y": 360,
-        "wires": [
-            [
-                "f986ab9711daf36b"
-            ]
-        ]
-    },
-    {
-        "id": "5f0bcff5c4ed6ec4",
-        "type": "mqtt out",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "",
-        "topic": "",
-        "qos": "",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "bc90be16040a7d21",
-        "x": 1970,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "f986ab9711daf36b",
-        "type": "mqtt out",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "",
-        "topic": "",
-        "qos": "",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "bc90be16040a7d21",
-        "x": 1510,
-        "y": 360,
-        "wires": []
-    },
-    {
-        "id": "085de4503ad6ec20",
-        "type": "function",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "Update Status Global",
-        "func": "//--- Basic variables\nvar input = msg.payload;\nvar node_id = msg.payload.bldg;\nvar theWin = msg.payload.window;\nvar theFS = msg.payload.numFire;\n\n//--- Build MQTT message\nif (theFS > 0) {\n    global.set(node_id+\".Status\", \"Burning\");\n} else if (theFS == 0) {\n    global.set(node_id + \".Status\", \"Cleared\");\n}\n\n\n//--- Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 390,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "7138aeefb2263d68",
-        "type": "comment",
-        "z": "f6f035102302ba5a",
-        "g": "5f1037ebc6dbd72f",
-        "name": "Update GutterPixels \\n payload.bldg, payload.pixelstring \\n I think this is only used by TelloPath anymore..",
-        "info": "",
-        "x": 290,
-        "y": 580,
-        "wires": []
-    },
-    {
-        "id": "f8afe1542a91baa2",
-        "type": "link in",
-        "z": "f6f035102302ba5a",
-        "g": "5f1037ebc6dbd72f",
-        "name": "Update GutterPixels",
-        "links": [
-            "ae0759e01e0881af",
-            "e1a0483ff23d768b"
-        ],
-        "x": 185,
-        "y": 660,
-        "wires": [
-            [
-                "f976aafaf0f9a3c1"
-            ]
-        ]
-    },
-    {
-        "id": "f976aafaf0f9a3c1",
-        "type": "function",
-        "z": "f6f035102302ba5a",
-        "g": "5f1037ebc6dbd72f",
-        "name": "Update GutterPixels Global",
-        "func": "/* \nGutter is built with 30 pixels\n[0-7]   = Window 1 FS\n[8-9]   = Blank (spacer)\n[10-19] = Status\n[20-21] = Blank (spacer)\n[22-29] = Window 2 FS\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar theBldg = input.bldg;\nvar theString = input.pixelstring;\n\n//--- Update global\nglobal.set(theBldg + \".Lights.GutterPixels\", theString);\n\n//--- Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 360,
-        "y": 660,
-        "wires": [
-            [
-                "2d3d077a6a33a90f"
-            ]
-        ]
-    },
-    {
-        "id": "2d3d077a6a33a90f",
-        "type": "function",
-        "z": "f6f035102302ba5a",
-        "g": "5f1037ebc6dbd72f",
-        "name": "Build MQTT Msg for Gutter",
-        "func": "/*\n---- WILL NEED TO UPDATE ONCE WE KNOW HOW \"WHICHLEDS\" WORKS ---\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar node_id = input.bldg;\nvar theGutter = 0; //-=-=-===--==\n\n//--- Set up MQTT message\nvar gutterString = global.get(node_id + \".GutterPixels\");\nmsg.topic = \"nodered/updatepixels/\" + node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":\" + theGutter + \", \" +\n    \"\\\"pixels\\\": \\\"\" + gutterString + \"\\\"\" +\n    \"}\";\n//{   \"whichLeds\":0,   \"pixels\":\"111111111111111444444444444444\" }\n\n//--- Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 660,
-        "y": 660,
-        "wires": [
-            [
-                "19c221d99629ee7a"
-            ]
-        ]
-    },
-    {
-        "id": "19c221d99629ee7a",
-        "type": "mqtt out",
-        "z": "f6f035102302ba5a",
-        "g": "5f1037ebc6dbd72f",
-        "name": "",
-        "topic": "",
-        "qos": "",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "bc90be16040a7d21",
-        "x": 890,
-        "y": 660,
-        "wires": []
-    },
-    {
-        "id": "42500fdf3edadd8f",
-        "type": "comment",
-        "z": "f6f035102302ba5a",
-        "g": "459fe488a5804676",
-        "name": "Update WaterQty\\n payload.bldg, payload.newAddlWaterQty",
-        "info": "",
-        "x": 260,
-        "y": 860,
-        "wires": []
-    },
-    {
-        "id": "ab46c7d25d3bb74b",
-        "type": "link in",
-        "z": "f6f035102302ba5a",
-        "g": "459fe488a5804676",
-        "name": "Update Water Qty",
-        "links": [
-            "3ddb4866a6ecb8fe"
-        ],
-        "x": 165,
-        "y": 1020,
-        "wires": [
-            [
-                "64807321f86b9125"
-            ]
-        ]
-    },
-    {
-        "id": "570cc8a3dd014038",
-        "type": "function",
-        "z": "f6f035102302ba5a",
-        "g": "459fe488a5804676",
-        "name": "Update WaterQty, prep new FS",
-        "func": "/* \nExample input: \nmsg.payload.bldg = \"RTO\";\nmsg.payload.newAddlWaterQty = 3;\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.bldg;\nvar newWater = input.newAddlWaterQty;\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Get the globals\nvar win1_FS_pre = global.get(nodeid + \".FS.Window1-BeforeWater\");\nvar win2_FS_pre = global.get(nodeid + \".FS.Window2-BeforeWater\");\n\n//--- Do some quick water math\nvar curWaterQty = global.get(nodeid + \".WaterQty\");\nvar newWaterQty = curWaterQty + newWater;\nglobal.set(nodeid + \".WaterQty\", newWaterQty);\n\n//-----------\n//--- HOW MANY WATERS PER PIXEL / FS / BLIP ? \n// ---- Technically, in the manual, it is 4x for water drop balls, 2x for lasers\n//-----------\nswitch(nodeid) {\n    //laser\n    case \"LBO\":\n    case \"LTM\":\n    case \"LBM\":\n    case \"RTO\":\n    case \"RBM\":\n    case \"RTM\":\n        var WATER_PER_FS = 2;\n\n    //balls\n    case \"RTO\":\n    case \"RTI\":\n    case \"RBI\":\n    case \"RBO\":\n    case \"RBI\":\n    case \"RTI\":\n        var WATER_PER_FS = 4;\n}\nvar MAX_POSS_FS = 8;\n\n//--- Take the \"before Water\" FS's, and bang em against the water, and get new \"after Water\" FS's\nvar impactToFS = Math.floor(newWaterQty / WATER_PER_FS);\nnode.warn(impactToFS);\nvar the_FS_thats_left = (win1_FS_pre + win2_FS_pre) - impactToFS; \nnode.warn(\"theleft\");\nnode.warn(the_FS_thats_left);\nif (the_FS_thats_left > MAX_POSS_FS) { \n    var win1_FS_post = MAX_POSS_FS;\n    var win2_FS_post = the_FS_thats_left - MAX_POSS_FS;\n} else { \n    var win1_FS_post = the_FS_thats_left;\n    var win2_FS_post = 0;\n}\nnode.warn(win1_FS_post);\nnode.warn(win2_FS_post);\n\n//--- Prep FS update callback\n//payload.bldg, payload.window, payload.numFire\nmsg1.payload.bldg = nodeid;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = win1_FS_post;\n\nmsg2.payload.bldg = nodeid;\nmsg2.payload.window = 2;\nmsg2.payload.numFire = win2_FS_post;\n\n//rrrrrap it up\nreturn [msg1, msg2];",
-        "outputs": 2,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1030,
-        "y": 960,
-        "wires": [
-            [
-                "7e1e1ed2c52487f5",
-                "f4ccd769fbdd6843"
-            ],
-            [
-                "8498c6ad0a1a8df7"
-            ]
-        ]
-    },
-    {
-        "id": "7e1e1ed2c52487f5",
-        "type": "link out",
-        "z": "f6f035102302ba5a",
-        "g": "459fe488a5804676",
-        "name": "Water Hitting FS",
-        "mode": "link",
-        "links": [
-            "0416ea6909311b42",
-            "113bf2ef4799a486"
-        ],
-        "x": 1395,
-        "y": 940,
-        "wires": []
-    },
-    {
-        "id": "505ee7d447687c96",
-        "type": "comment",
-        "z": "f6f035102302ba5a",
-        "g": "459fe488a5804676",
-        "name": "Send this to the FS callback\\n Delay to avoid windows stepping on each other",
-        "info": "",
-        "x": 1460,
-        "y": 1020,
-        "wires": []
-    },
-    {
-        "id": "8498c6ad0a1a8df7",
-        "type": "delay",
-        "z": "f6f035102302ba5a",
-        "g": "459fe488a5804676",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "50",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1290,
-        "y": 980,
-        "wires": [
-            [
-                "7e1e1ed2c52487f5"
-            ]
-        ]
-    },
-    {
-        "id": "192043bb5930e80f",
-        "type": "function",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "459fe488a5804676",
-        "name": "[obsolete method for this]",
-        "func": "/* \nExample input: \nmsg.payload.bldg = \"RTO\";\nmsg.payload.newAddlWaterQty = 3;\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.bldg;\nvar newWater = input.newAddlWaterQty;\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Get the globals\nvar win1_FS_pre = global.get(nodeid + \".FS.Window1.BeforeWater\");\nvar win2_FS_pre = global.get(nodeid + \".FS.Window2.BeforeWater\");\n\n//--- Do some quick water math\nvar curWaterQty = global.get(nodeid + \".WaterQty\");\nvar newWaterQty = curWaterQty + newWater;\n\n//-----------\n//--- HOW MANY WATERS PER PIXEL / FS / BLIP ? \n// ---- Technically, in the manual, it is 4x for water drop balls, 2x for lasers\n//-----------\nswitch(nodeid) {\n    //laser\n    case \"LBO\":\n    case \"LTM\":\n    case \"LBM\":\n    case \"RTO\":\n    case \"RBM\":\n    case \"RTM\":\n        var WATER_PER_FS = 2;\n\n    //balls\n    case \"RTO\":\n    case \"RTI\":\n    case \"RBI\":\n    case \"RBO\":\n    case \"RBI\":\n    case \"RTI\":\n        var WATER_PER_FS = 4;\n}\nvar MAX_POSS_FS = 8;\n\n/* Example: \n- Win1FS = 8 | Win2FS = 3 | WaterQty = 2 | NewWaterQty = 12\nEnough water is dropped to drop 12 FS points (wateredDownAmt = 12)\n- 8 of this goes to window 1\n- 4 of this goes to window 2\nOtherwise, it just sticks to window 1.\n- THIS IS TRUE EVEN IF window 2 is active.\n- This is part of the \"back to basics\" gameplay.  Is it \"right\" or \"the best\"?  Probably not.. but it's easy\nANOTHER CURRENT ISSUE\n- Currently, this just tracks one master \"water amt\" \n- So theoretically, if your waterqty exceeds window1's amt, it will \"proactively\" count towards window2\n- Probably need to fix this later...\n\nalso.... this is probably way overcomplicated and the result of late night work\n\nthis iwill just need lots of testing\n*/ \nvar wateredDownAmt = Math.floor(newWaterQty / WATER_PER_FS);\n//node.warn(wateredDownAmt);\nif (wateredDownAmt >= 8) {\n    var firstWindowWater = 8;\n    var secondWindowWater = wateredDownAmt - 8;\n} else {\n    var firstWindowWater = wateredDownAmt;\n    var secondWindowWater = 0;\n}\n//node.warn(firstWindowWater);\n//node.warn(secondWindowWater);\n\n\n//--- Calc new FS's\nvar newFS_Win1 = win1_FS - (MAX_POSS_FS - firstWindowWater);\nvar newFS_Win2 = win2_FS - (MAX_POSS_FS - secondWindowWater);\n//node.warn(newFS_Win1);\n\n//--- Update globals\nglobal.set(nodeid+\".WaterQty\", newWaterQty);\n\n\n//--- Prep output for FS update callback\n//payload.bldg, payload.window, payload.numFire\nmsg1.payload.bldg = nodeid;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = win1_FS > 0 ? newFS_Win1 : 0;\n\nmsg2.payload.bldg = nodeid;\nmsg2.payload.window = 2;\nmsg2.payload.numFire = win2_FS > 0 ? newFS_Win2 : 0;\n\n//--- Fin\n//return [msg1, msg2];",
-        "outputs": 2,
-        "noerr": 4,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1490,
-        "y": 880,
-        "wires": [
-            [],
-            []
-        ]
-    },
-    {
-        "id": "f4ccd769fbdd6843",
-        "type": "debug",
-        "z": "f6f035102302ba5a",
-        "g": "459fe488a5804676",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1260,
-        "y": 920,
-        "wires": []
-    },
-    {
-        "id": "63f18a575dc37f3b",
-        "type": "function",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "Convert BeforeWater -> AfterWater",
-        "func": "//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.bldg;\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Get the globals\nvar win1_FS_pre = global.get(nodeid + \".FS.Window1-BeforeWater\");\nvar win2_FS_pre = global.get(nodeid + \".FS.Window2-BeforeWater\");\nvar theWater = global.get(nodeid + \".WaterQty\");\n\n//--- Do some quick math\nvar MAX_POSS_FS = 8;\nswitch (nodeid) {\n    //-- LASER \n    case \"LBO\":\n    case \"LTM\":\n    case \"LBM\":\n    case \"RTO\":\n    case \"RBM\":\n    case \"RTM\":\n        var WATER_PER_FS = 1; //-- LASER\n\n    //-- BALLS \n    case \"RTI\":\n    case \"RBI\":\n    case \"LTO\":\n    case \"LBI\":\n    case \"LTI\":\n    case \"RBO\":\n        var WATER_PER_FS = 2; //-- BALLS \n}\n\n//--- Take the \"before Water\" FS's, and bang em against the water, and get new \"after Water\" FS's\nvar impactToFS = Math.floor(theWater / WATER_PER_FS);\n//node.warn(impactToFS);\nvar the_FS_thats_left = (win1_FS_pre + win2_FS_pre) - impactToFS;\n//node.warn(the_FS_thats_left);\nif (the_FS_thats_left > MAX_POSS_FS) {\n    var win1_FS_post = MAX_POSS_FS;\n    var win2_FS_post = the_FS_thats_left - MAX_POSS_FS;\n} else {\n    var win1_FS_post = the_FS_thats_left;\n    var win2_FS_post = 0;\n}\n//node.warn('thewinfs');\n//node.warn(win1_FS_post);\n//node.warn(win2_FS_post);\n\n//--- Update de globals\nglobal.set(nodeid + \".FS.Window1-AfterWater\", win1_FS_post);\nglobal.set(nodeid + \".FS.Window2-AfterWater\", win2_FS_post);\n\n//--- Prep FS update callback\n//payload.bldg, payload.window, payload.numFire\nmsg1.payload.bldg = nodeid;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = win1_FS_post;\nmsg2.payload.bldg = nodeid;\nmsg2.payload.window = 2;\nmsg2.payload.numFire = win2_FS_post;\n\n//rrrrrap it up\nreturn [msg1, msg2];",
-        "outputs": 2,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 920,
-        "y": 260,
-        "wires": [
-            [
-                "5acfacf7a05cc895",
-                "ed2d399b29970928",
-                "c558863179e4ef0b",
-                "b3159d92c7d2d07d"
-            ],
-            [
-                "5acfacf7a05cc895",
-                "ed2d399b29970928"
-            ]
-        ]
-    },
-    {
-        "id": "64807321f86b9125",
-        "type": "function",
-        "z": "f6f035102302ba5a",
-        "g": "459fe488a5804676",
-        "name": "Update WaterQty, send to kickoff FS update",
-        "func": "/* \nExample input: \nmsg.payload.bldg = \"RTO\";\nmsg.payload.newAddlWaterQty = 3;\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.bldg;\nvar newWater = input.newAddlWaterQty;\nmsg.payload = {};\n\n//node.warn(\"addlwater\");\n//node.warn(newWater);\n\n\n//--- Do some quick water math\nvar curWaterQty = global.get(nodeid + \".WaterQty\");\n//node.warn(\"waters\");\n//node.warn(curWaterQty);\ncurWaterQty = curWaterQty === undefined ? 0 : curWaterQty; // don't poison the waterhole\nvar newWaterQty = curWaterQty + newWater;\n//node.warn(newWaterQty);\n//node.warn(newWaterQty);\n\n//--- Update the gloabl\nglobal.set(nodeid + \".WaterQty\", newWaterQty);\n\n\n//--- Prep FS update callback\n// ???\nmsg.payload.bldg = nodeid;\n\n//rrrrrap it up\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 390,
-        "y": 1020,
-        "wires": [
-            [
-                "71f67f7f27cafd81"
-            ]
-        ]
-    },
-    {
-        "id": "dda9a78374edd0d2",
-        "type": "link out",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "To Window Washing",
-        "mode": "link",
-        "links": [
-            "a25ecc470396a417"
-        ],
-        "x": 535,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "a25ecc470396a417",
-        "type": "link in",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "Time to Wash Windows",
-        "links": [
-            "dda9a78374edd0d2",
-            "71f67f7f27cafd81"
-        ],
-        "x": 715,
-        "y": 260,
-        "wires": [
-            [
-                "63f18a575dc37f3b"
-            ]
-        ]
-    },
-    {
-        "id": "71f67f7f27cafd81",
-        "type": "link out",
-        "z": "f6f035102302ba5a",
-        "g": "459fe488a5804676",
-        "name": "To Window Washing",
-        "mode": "link",
-        "links": [
-            "a25ecc470396a417"
-        ],
-        "x": 605,
-        "y": 1020,
-        "wires": []
-    },
-    {
-        "id": "f5ac07449078a00d",
-        "type": "comment",
-        "z": "f6f035102302ba5a",
-        "g": "11a9b9cee18f6b6c",
-        "name": "Update ALL BLDGS from Globals",
-        "info": "",
-        "x": 230,
-        "y": 1220,
-        "wires": []
-    },
-    {
-        "id": "3c85efd6b9fe4796",
-        "type": "ui_button",
-        "z": "f6f035102302ba5a",
-        "g": "11a9b9cee18f6b6c",
-        "name": "",
-        "group": "ee9886ff6322a456",
-        "order": 1,
-        "width": 5,
-        "height": 1,
-        "passthru": true,
-        "label": "Push all Bldgs to MQTT",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 290,
-        "y": 1280,
-        "wires": [
-            [
-                "b497a4557843716d"
-            ]
-        ]
-    },
-    {
-        "id": "7503e9afbf970c67",
-        "type": "mqtt out",
-        "z": "f6f035102302ba5a",
-        "g": "11a9b9cee18f6b6c",
-        "name": "",
-        "topic": "",
-        "qos": "",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "bc90be16040a7d21",
-        "x": 770,
-        "y": 1360,
-        "wires": []
-    },
-    {
-        "id": "36c9b826c07c4844",
-        "type": "function",
-        "z": "f6f035102302ba5a",
-        "g": "11a9b9cee18f6b6c",
-        "name": "Set Light 1 MQTT Msg",
-        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nif (global.get(node_id+\".FS.Window1-AfterWater\") > 0) { \n    msg.topic = \"nodered/lighton/\"+node_id;\n} else {\n    msg.topic = \"nodered/lightoff/\"+node_id;\n}\nmsg.payload = \"{ \\\"whichLight\\\":1 }\";\n\n//--- Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 580,
-        "y": 1360,
-        "wires": [
-            [
-                "7503e9afbf970c67"
-            ]
-        ]
-    },
-    {
-        "id": "b497a4557843716d",
-        "type": "loop",
-        "z": "f6f035102302ba5a",
-        "g": "11a9b9cee18f6b6c",
-        "name": "",
-        "kind": "enum",
-        "count": "",
-        "initial": "1",
-        "step": "1",
-        "condition": "",
-        "conditionType": "js",
-        "when": "before",
-        "enumeration": "allBldgs",
-        "enumerationType": "global",
-        "limit": "",
-        "loopPayload": "loop-val",
-        "finalPayload": "final-count",
-        "x": 530,
-        "y": 1280,
-        "wires": [
-            [],
-            [
-                "36c9b826c07c4844",
-                "223c3fe920a91621",
-                "b019d27b1b388b63"
-            ]
-        ]
-    },
-    {
-        "id": "223c3fe920a91621",
-        "type": "function",
-        "z": "f6f035102302ba5a",
-        "g": "11a9b9cee18f6b6c",
-        "name": "Set Gutter MQTT msg",
-        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/updatepixels/\"+node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":0, \" +\n    \"\\\"pixels\\\": \\\"\" + global.get(node_id+\".GutterPixels\") + \"\\\"\" +\n    \"}\";\n\n//--- Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 580,
-        "y": 1440,
-        "wires": [
-            [
-                "270a5506f8851358",
-                "b497a4557843716d"
-            ]
-        ]
-    },
-    {
-        "id": "270a5506f8851358",
-        "type": "mqtt out",
-        "z": "f6f035102302ba5a",
-        "g": "11a9b9cee18f6b6c",
-        "name": "",
-        "topic": "",
-        "qos": "",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "bc90be16040a7d21",
-        "x": 770,
-        "y": 1440,
-        "wires": []
-    },
-    {
-        "id": "b019d27b1b388b63",
-        "type": "function",
-        "z": "f6f035102302ba5a",
-        "g": "11a9b9cee18f6b6c",
-        "name": "Set Light 2 MQTT Msg",
-        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nif (global.get(node_id + \".FS.Window2-AfterWater\") > 0) {\n    msg.topic = \"nodered/lighton/\" + node_id;\n} else {\n    msg.topic = \"nodered/lightoff/\" + node_id;\n}\nmsg.payload = \"{ \\\"whichLight\\\":2 }\";\n//--- Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 580,
-        "y": 1400,
-        "wires": [
-            [
-                "74e30c503ee7b8b0"
-            ]
-        ]
-    },
-    {
-        "id": "74e30c503ee7b8b0",
-        "type": "mqtt out",
-        "z": "f6f035102302ba5a",
-        "g": "11a9b9cee18f6b6c",
-        "name": "",
-        "topic": "",
-        "qos": "",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "bc90be16040a7d21",
-        "x": 770,
-        "y": 1400,
-        "wires": []
-    },
-    {
-        "id": "3f402ddd8643cce0",
-        "type": "link in",
-        "z": "f6f035102302ba5a",
-        "g": "11a9b9cee18f6b6c",
-        "name": "Update All Bldgs IN",
-        "links": [
-            "cb167d27c1e7d778",
-            "4c742ebce9027c25",
-            "b348ea8918f0e0bc",
-            "54f240d0cd94a297"
-        ],
-        "x": 135,
-        "y": 1280,
-        "wires": [
-            [
-                "3c85efd6b9fe4796"
-            ]
-        ]
-    },
-    {
-        "id": "2a37db221e4919dc",
-        "type": "switch",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "If ready",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 2120,
-        "y": 120,
-        "wires": [
-            [
-                "fe84ce88167ea094"
-            ]
-        ]
-    },
-    {
-        "id": "fe84ce88167ea094",
-        "type": "link out",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "GOTO PHASE 2",
-        "mode": "link",
-        "links": [
-            "9004aeb7ec1ed4bf"
-        ],
-        "x": 2235,
-        "y": 120,
-        "wires": []
-    },
-    {
-        "id": "5c0e589cb02e5ad4",
-        "type": "switch",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "Which phase",
-        "property": "matchPhase",
-        "propertyType": "global",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "2",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 1410,
-        "y": 140,
-        "wires": [
-            [
-                "4c512025a065832e"
-            ],
-            [
-                "3eed4a6d746b77f9"
-            ]
-        ]
-    },
-    {
-        "id": "6983c6fb1a960333",
-        "type": "link out",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "GOTO PHASE 3",
-        "mode": "link",
-        "links": [
-            "d236e6eee53270f4"
-        ],
-        "x": 2235,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "a429c99752090afe",
-        "type": "inject",
-        "z": "f6f035102302ba5a",
-        "g": "11a9b9cee18f6b6c",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "LTO",
-        "payloadType": "str",
-        "x": 250,
-        "y": 1460,
-        "wires": [
-            [
-                "223c3fe920a91621"
-            ]
-        ]
-    },
-    {
-        "id": "c558863179e4ef0b",
-        "type": "function",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "Check if Bldg Empty",
-        "func": "/* \nEvery time you're updating a FS, check to see if it's the LAST ONE  :O\n*/ \n\n// --- Set up vars\nvar input = msg.payload;\nvar bldg = input.bldg;\nvar theBldgFS = global.get(bldg + \".FS.Window1-AfterWater\") + global.get(bldg + \".FS.Window2-AfterWater\"); \n//node.warn(theBldgFS);\n\n//-- Fin\nmsg.fs = theBldgFS;\nmsg.bldgstatus = global.get(bldg + \".Status\");\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1540,
-        "y": 240,
-        "wires": [
-            [
-                "ec9a8da5fdcd039c",
-                "28964f598a2b91f8"
-            ]
-        ]
-    },
-    {
-        "id": "9ec27b48eb18ce04",
-        "type": "switch",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "If theBldgFS = 0",
-        "property": "fs",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "lte",
-                "v": "0",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1940,
-        "y": 240,
-        "wires": [
-            [
-                "30922eb04470fcd3"
-            ]
-        ]
-    },
-    {
-        "id": "30922eb04470fcd3",
-        "type": "loop",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "",
-        "kind": "fcnt",
-        "count": "3",
-        "initial": "1",
-        "step": "1",
-        "condition": "",
-        "conditionType": "js",
-        "when": "before",
-        "enumeration": "enum",
-        "enumerationType": "msg",
-        "limit": "",
-        "loopPayload": "loop-keep",
-        "finalPayload": "final-count",
-        "x": 2160,
-        "y": 240,
-        "wires": [
-            [],
-            [
-                "e214f388cf42a7bc"
-            ]
-        ]
-    },
-    {
-        "id": "e214f388cf42a7bc",
-        "type": "function",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "Set Gutter Clap On MQTT",
-        "func": "//--- Basic variables\nvar node_id = msg.payload.bldg;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/updatepixels/\"+node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":0, \" +\n    \"\\\"pixels\\\": \\\"111111111111111111111111111111\\\"\" +\n    \"}\";\n\n//--- Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2410,
-        "y": 240,
-        "wires": [
-            [
-                "b0111393f42d13c5",
-                "df0730dca6dcd4ae"
-            ]
-        ]
-    },
-    {
-        "id": "b0111393f42d13c5",
-        "type": "mqtt out",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "",
-        "topic": "",
-        "qos": "",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "bc90be16040a7d21",
-        "x": 2650,
-        "y": 240,
-        "wires": []
-    },
-    {
-        "id": "df0730dca6dcd4ae",
-        "type": "delay",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "300",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 2430,
-        "y": 300,
-        "wires": [
-            [
-                "1a82187c851908ef"
-            ]
-        ]
-    },
-    {
-        "id": "1a82187c851908ef",
-        "type": "function",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "Set Gutter Clap Off MQTT msg",
-        "func": "//--- Basic variables\nvar node_id = msg.payload.bldg;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/updatepixels/\"+node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":0, \" +\n    \"\\\"pixels\\\": \\\"000000000000000000000000000000\\\"\" +\n    \"}\";\n\n//--- Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2530,
-        "y": 360,
-        "wires": [
-            [
-                "e1499c0ddc6fdf99",
-                "9fa16415953d9ae6"
-            ]
-        ]
-    },
-    {
-        "id": "e1499c0ddc6fdf99",
-        "type": "mqtt out",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "",
-        "topic": "",
-        "qos": "",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "bc90be16040a7d21",
-        "x": 2770,
-        "y": 360,
-        "wires": []
-    },
-    {
-        "id": "9fa16415953d9ae6",
-        "type": "delay",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "300",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 2190,
-        "y": 400,
-        "wires": [
-            [
-                "30922eb04470fcd3"
-            ]
-        ]
-    },
-    {
-        "id": "28964f598a2b91f8",
-        "type": "switch",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "If iss not hottt",
-        "property": "bldgstatus",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "neq",
-                "v": "Hottt",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1750,
-        "y": 240,
-        "wires": [
-            [
-                "9ec27b48eb18ce04"
-            ]
-        ]
-    },
-    {
-        "id": "ec9a8da5fdcd039c",
-        "type": "switch",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "If iss hottt",
-        "property": "bldgstatus",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "Hottt",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1740,
-        "y": 200,
-        "wires": [
-            [
-                "ee79a9d508104fa0"
-            ]
-        ]
-    },
-    {
-        "id": "ee79a9d508104fa0",
-        "type": "switch",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "If theBldgFS = 0",
-        "property": "fs",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "lte",
-                "v": "-8",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1940,
-        "y": 200,
-        "wires": [
-            [
-                "30922eb04470fcd3"
-            ]
-        ]
-    },
-    {
-        "id": "4c512025a065832e",
-        "type": "function",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "Check if Phase 1 complete (startSide GutterPixels = 0)",
-        "func": "/* \nEvery time you're updating a FS, check to see if it's the LAST ONE  :O\n(also use this moment to calculate new Damage scores LOL)\n*/ \n\n// --- Set up vars\nvar startside = global.get(\"startSide\");\nvar theTotalFS = 0;\nvar theTotalWater = 0;\nvar curDamage = [];\n\nswitch(startside) {\n    case \"L\":\n        var bldgs = [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\n        break;\n    case \"R\":\n        var bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\n        break;\n}\n\n// --- Loop through all buildings, look for no bueno\nvar isClear = true;\nfor (var i in bldgs) {\n    for (var j = 0; j < 30; j++) {\n        var c = global.get(bldgs[i]+\".GutterPixels\").charAt(j);\n        if (c != \"0\") {\n            isClear = false;\n            break;\n        }\n    }\n    if (isClear == false) {\n        break;\n    }\n    //theTotalWater += global.get(bldgs[i]+\".WaterQty\"); // no cheating\n}\n\n/*\nfor (var i in bldgs) {\n    curDamage[i] = 0;\n\n    for (var j=0; j<30; j++) {\n        var c = global.get(bldgs[i]+\".GutterPixels\").chatAr(j);\n        if (c == \"3\" || c==\"4\") {\n            curDamage[i] += 1;\n        }\n    }\n\n    if(curDamage[i] > global.get(bldgs[i]+\".Damage\")) {\n        global.set(bldgs[i] + \".Damage\", curDamage[i]);\n    }\n}\n*/\n\n// --- If it's gone, LET'S GO\n//msg.payload = (theTotalFS <= 0 && theTotalWater >= 30) ? true : false;\n//node.warn(theTotalFS);\n\n// fin\nmsg.payload = isClear;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1780,
-        "y": 120,
-        "wires": [
-            [
-                "2a37db221e4919dc"
-            ]
-        ]
-    },
-    {
-        "id": "b3159d92c7d2d07d",
-        "type": "delay",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "3",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1240,
-        "y": 140,
-        "wires": [
-            [
-                "5c0e589cb02e5ad4"
-            ]
-        ]
-    },
-    {
-        "id": "3eed4a6d746b77f9",
-        "type": "function",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "Check if Phase 2 complete (otherSide GutterPixels = 0)",
-        "func": "/* \nEvery time you're updating a FS, check to see if it's the LAST ONE  :O\n*/ \n\n// --- Set up vars\nvar otherside = global.get(\"otherSide\");\nvar theTotalFS = 0;\nvar theTotalWater = 0;\n\nswitch(otherside) {\n    case \"L\":\n        var bldgs = [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\n        break;\n    case \"R\":\n        var bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\n        break;\n}\n\n// --- Loop through all buildings, add up total FS\nvar isClear = true;\nfor (var i in bldgs) {\n    for (var j = 0; j < 30; j++) {\n        var c = global.get(bldgs[i]+\".GutterPixels\").charAt(j);\n        if (c != \"0\") {\n            isClear = false;\n            break;\n        }\n    }\n    if (isClear == false) {\n        break;\n    }\n    //theTotalWater += global.get(bldgs[i]+\".WaterQty\"); // no cheating\n}\n\n// --- If it's gone, LET'S GO\n//msg.payload = (isClear && theTotalWater >= 30) ? true : false;\nmsg.payload = isClear;\n//node.warn(theTotalWater);\n//node.warn(theTotalFS);\n\n// fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1790,
-        "y": 160,
-        "wires": [
-            [
-                "f2b56dfdbbe11a17"
-            ]
-        ]
-    },
-    {
-        "id": "f2b56dfdbbe11a17",
-        "type": "switch",
-        "z": "f6f035102302ba5a",
-        "d": true,
-        "g": "284c27310b25477c",
-        "name": "If ready",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 2120,
-        "y": 160,
-        "wires": [
-            [
-                "6983c6fb1a960333"
-            ]
-        ]
     },
     {
         "id": "b2d4ac6f1946502e",
@@ -17602,10 +16169,10 @@
         "type": "comment",
         "z": "f66e6f21e6630f00",
         "g": "0bb0145c8adb017a",
-        "name": "Building State Globals",
+        "name": "Building State Globals (not used other than manual...?)",
         "info": "",
-        "x": 200,
-        "y": 100,
+        "x": 300,
+        "y": 860,
         "wires": []
     },
     {
@@ -17621,7 +16188,7 @@
         "finalize": "",
         "libs": [],
         "x": 260,
-        "y": 240,
+        "y": 1000,
         "wires": [
             [
                 "083d670df93fc63f"
@@ -17644,7 +16211,7 @@
         "expiry": "",
         "broker": "bc90be16040a7d21",
         "x": 430,
-        "y": 240,
+        "y": 1000,
         "wires": []
     },
     {
@@ -17660,7 +16227,7 @@
         "finalize": "",
         "libs": [],
         "x": 270,
-        "y": 180,
+        "y": 940,
         "wires": [
             [
                 "cef9fe201b176c2d"
@@ -17683,7 +16250,7 @@
         "expiry": "",
         "broker": "bc90be16040a7d21",
         "x": 470,
-        "y": 180,
+        "y": 940,
         "wires": []
     },
     {
@@ -17696,7 +16263,7 @@
             "60affa2068161af8"
         ],
         "x": 155,
-        "y": 180,
+        "y": 940,
         "wires": [
             [
                 "c24d7ccb4813ce9a"
@@ -17711,7 +16278,7 @@
         "name": "Setters - Set Gutter",
         "links": [],
         "x": 155,
-        "y": 240,
+        "y": 1000,
         "wires": [
             [
                 "d83d28b0aa1dfecf"
@@ -17735,8 +16302,8 @@
             "3067707184cd6d97",
             "a12c5fed51dba728"
         ],
-        "x": 175,
-        "y": 420,
+        "x": 195,
+        "y": 200,
         "wires": [
             [
                 "ea43b63ac74264a6"
@@ -17749,14 +16316,14 @@
         "z": "f66e6f21e6630f00",
         "g": "67280a1824f2e68f",
         "name": "Add FirePixels to Bldg",
-        "func": "/* \nExpected inputs:\n- msg.payload.bldg: a node ID\n- msg.payload.numFirePixels: int, the qty FirePixels to add\n\nExpected output: \n- msgs to send to the Window / Gutter setters\n*/\n\n//--- Set basic vars\nvar theBldg = msg.payload.bldg;\nvar inputFirePixels = msg.payload.numFirePixels;\nvar curFirePreWater = global.get(theBldg + \".FirePixels.TotalBeforeWater\");\nvar curFS = global.get(theBldg + \".FS.Total\");\nvar curWaterRaw = global.get(theBldg + \".WaterQty\");\nvar curWaterEffective = Math.floor(curWaterRaw / 2); \nvar win1 = \"OFF\";\nvar win2 = \"OFF\";\nvar gutterL = \"\";\nvar gutterR = \"\";\n\n/* \nSome nomenclature logic notes: \n- FS is _always_ an output, i.e. \"after water\"\n- Windows are 4 FS points each\n- Gutters are 8 FirePixels per window\n- Inside the code, we mostly refer to the FirePixels, so that audience can see interstitial water ticks\n- Every bldg has 32 possible Water points\n- Ball bldgs: 1 ball = 1 Water Point = 0.5 pixel\n- Laser bldgs: 1 hit = 2 Water Points = 1 pixel\n*/\n\n//--- Calculations\n//var curFirePixels = curFirePreWater - curWaterEffective;\nvar newFirePixelsPre = curFirePreWater + inputFirePixels\nvar newFirePixelsAfter = newFirePixelsPre - curWaterEffective;\nvar newFS = Math.ceil(newFirePixelsAfter / 2);\nvar gutterFirePix = newFirePixelsAfter;\n\n\n// -- Window 1 (FS from 0-4)\nif (newFS > 0) {\n    // Window\n    win1 = \"ON\";\n\n    // Gutter\n    for (let i = 1; i <= 8; i++) {\n        // if \"i\" is less than gutterPix (newFS*2), add a yellow pixel (3), otherwise blank (0);\n        gutterL += i <= gutterFirePix ? \"3\" : \"0\";\n    }\n}\n// -- Window 2 (FS from 5-8)\nif (newFS > 4) {\n    // Update gutterFS for window 2\n    gutterFirePix -= 8;\n\n    // Window\n    win2 = \"ON\";\n\n    // Gutter\n    for (let i = 1; i <= 8; i++) {\n        // if \"i\" is less than gutterPix (newFS*2), add a red pixel (4), otherwise blank (0);\n        gutterR += i <= gutterFirePix ? \"4\" : \"0\";\n    }\n} else if (newFS <= 4) {\n    gutterR = \"00000000\";\n}\n\n\n//--- Build the new total string\nvar gutterString = gutterL + \"00000000000000\" + gutterR;\n\n\n//--- Set globals\n//global.set(theBldg + \".FS.TotalBeforeWater\", newFS);\nglobal.set(theBldg + \".FS.Total\", newFS);\nglobal.set(theBldg + \".FirePixels.TotalBeforeWater\", newFirePixelsPre);\nglobal.set(theBldg + \".FirePixels.TotalAfterWater\", newFirePixelsAfter);\nglobal.set(theBldg + \".Lights.Window1\", win1);\nglobal.set(theBldg + \".Lights.Window2\", win2);\nglobal.set(theBldg + \".Lights.GutterPixels\", gutterString);\n\n//-- Status global (with tweak for hotspot bldg)\nif(global.get(theBldg + \".Status\") != \"Hotspot\") {\n    global.set(theBldg + \".Status\", \"Burning\");\n}\n\n//--- Prepare to call update MQTT Setters\nmsg.payload = theBldg;\n\n\n//--- DEBUG\nif (global.get(\"DEBUG\")) {\n    node.warn(\"--- Adding \" + inputFirePixels + \" FirePixels to \" + theBldg + \"; \\n\" + \n        \"CurFirePreWater: \" + curFirePreWater + \"; \\n\" + \n        \"curWaterRaw: \" + curWaterRaw + \"; curWaterEffective: \" + curWaterEffective + \"; \\n\" +\n        \"NewFirePixels (before Water): \" + newFirePixelsPre + \"; \\n\" +\n        \"NewFirePixels (after Water): \" + newFirePixelsAfter + \"; NewFS: \" + newFS);\n}\n\n// - Fin\nreturn msg;",
+        "func": "/* \nExpected inputs:\n- msg.payload.bldg: a node ID\n- msg.payload.numFirePixels: int, the qty FirePixels to add\n\nExpected output: \n- msgs to send to the Window / Gutter setters\n*/\n\n//--- Set basic vars\nvar theBldg = msg.payload.bldg;\nvar inputFirePixels = msg.payload.numFirePixels;\nvar curFirePreWater = global.get(theBldg + \".FirePixels.TotalBeforeWater\");\nvar curFS = global.get(theBldg + \".FS.Total\");\nvar curWaterRaw = global.get(theBldg + \".WaterQty\");\nvar curWaterEffective = Math.floor(curWaterRaw / 2); \nvar win1 = \"OFF\";\nvar win2 = \"OFF\";\nvar gutterL = \"\";\nvar gutterR = \"\";\n\n/* \nSome nomenclature logic notes: \n- FS is _always_ an output, i.e. \"after water\"\n- Windows are 4 FS points each\n- Gutters are 8 FirePixels per window\n- Inside the code, we mostly refer to the FirePixels, so that audience can see interstitial water ticks\n- Every bldg has 32 possible Water points\n- Ball bldgs: 1 ball = 1 Water Point = 0.5 pixel\n- Laser bldgs: 1 hit = 2 Water Points = 1 pixel\n*/\n\n//--- Calculations\n//var curFirePixels = curFirePreWater - curWaterEffective;\nvar newFirePixelsPre = curFirePreWater + inputFirePixels\nvar newFirePixelsAfter = newFirePixelsPre - curWaterEffective;\n    if(newFirePixelsAfter < 0) { newFirePixelsAfter = 0; } //correct for negative blowthrough\nvar newFS = Math.ceil(newFirePixelsAfter / 2);\nvar gutterFirePix = newFirePixelsAfter;\n\n\n// -- Window 1 (FS from 0-4)\nif (newFS > 0) {\n    // Window\n    win1 = \"ON\";\n\n    // Gutter\n    for (let i = 1; i <= 8; i++) {\n        // if \"i\" is less than gutterPix (newFS*2), add a yellow pixel (3), otherwise blank (0);\n        gutterL += i <= gutterFirePix ? \"3\" : \"0\";\n    }\n}\n// -- Window 2 (FS from 5-8)\nif (newFS > 4) {\n    // Update gutterFS for window 2\n    gutterFirePix -= 8;\n\n    // Window\n    win2 = \"ON\";\n\n    // Gutter\n    for (let i = 1; i <= 8; i++) {\n        // if \"i\" is less than gutterPix (newFS*2), add a red pixel (4), otherwise blank (0);\n        gutterR += i <= gutterFirePix ? \"4\" : \"0\";\n    }\n} else if (newFS <= 4) {\n    gutterR = \"00000000\";\n}\n\n\n//--- Build the new total string\nvar gutterString = gutterL + \"00000000000000\" + gutterR;\n\n\n//-- Status global (with tweak for hotspot bldg)\nif (global.get(theBldg + \".Status\") != \"Hotspot\") {\n    global.set(theBldg + \".Status\", \"Burning\");\n}\n\n//--- If Cleared - do a few other things first\nif (newFS == 0) {\n    global.set(theBldg + \".Status\", \"Cleared\"); //still do this even if it's hotspot\n    gutterString = \"111111111111111111111111111111\";\n}\n\n//--- Set rest of the globals\n//global.set(theBldg + \".FS.TotalBeforeWater\", newFS);\nglobal.set(theBldg + \".FS.Total\", newFS);\nglobal.set(theBldg + \".FirePixels.TotalBeforeWater\", newFirePixelsPre);\nglobal.set(theBldg + \".FirePixels.TotalAfterWater\", newFirePixelsAfter);\nglobal.set(theBldg + \".Lights.Window1\", win1);\nglobal.set(theBldg + \".Lights.Window2\", win2);\nglobal.set(theBldg + \".Lights.GutterPixels\", gutterString);\n\n\n\n//--- Prepare to call update MQTT Setters\nmsg.payload = theBldg;\n\n\n//--- DEBUG\nif (global.get(\"DEBUG\")) {\n    node.warn(\"--- Adding \" + inputFirePixels + \" FirePixels to \" + theBldg + \"; \\n\" + \n        \"CurFirePreWater: \" + curFirePreWater + \"; \\n\" + \n        \"curWaterRaw: \" + curWaterRaw + \"; curWaterEffective: \" + curWaterEffective + \"; \\n\" +\n        \"NewFirePixels (before Water): \" + newFirePixelsPre + \"; \\n\" +\n        \"NewFirePixels (after Water): \" + newFirePixelsAfter + \"; NewFS: \" + newFS);\n}\n\n// - Fin\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 350,
-        "y": 420,
+        "x": 370,
+        "y": 200,
         "wires": [
             [
                 "3e5e745b25e837a1"
@@ -17786,8 +16353,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 250,
-        "y": 520,
+        "x": 270,
+        "y": 300,
         "wires": [
             [
                 "ea43b63ac74264a6"
@@ -17806,8 +16373,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1020,
-        "y": 420,
+        "x": 980,
+        "y": 380,
         "wires": [
             [
                 "bee1de4c12ef9269"
@@ -17816,7 +16383,8 @@
                 "39c136dc6262f611"
             ],
             [
-                "cba544c17d6aa13d"
+                "cba544c17d6aa13d",
+                "cdd67f2387d5de33"
             ]
         ]
     },
@@ -17835,8 +16403,8 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 1250,
-        "y": 400,
+        "x": 1210,
+        "y": 360,
         "wires": []
     },
     {
@@ -17854,8 +16422,8 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 1250,
-        "y": 420,
+        "x": 1210,
+        "y": 380,
         "wires": []
     },
     {
@@ -17873,8 +16441,8 @@
         "correl": "",
         "expiry": "",
         "broker": "bc90be16040a7d21",
-        "x": 1250,
-        "y": 440,
+        "x": 1210,
+        "y": 400,
         "wires": []
     },
     {
@@ -17895,8 +16463,8 @@
         "topic": "",
         "payload": "LTI",
         "payloadType": "str",
-        "x": 838.9999694824219,
-        "y": 509.999942779541,
+        "x": 798.9999694824219,
+        "y": 469.999942779541,
         "wires": [
             [
                 "1c3fdf208f1d04ab"
@@ -17912,8 +16480,8 @@
         "links": [
             "3e5e745b25e837a1"
         ],
-        "x": 815,
-        "y": 420,
+        "x": 775,
+        "y": 380,
         "wires": [
             [
                 "1c3fdf208f1d04ab"
@@ -17930,8 +16498,8 @@
         "links": [
             "1125739b31b22db9"
         ],
-        "x": 495,
-        "y": 420,
+        "x": 515,
+        "y": 200,
         "wires": []
     },
     {
@@ -17941,8 +16509,8 @@
         "g": "67280a1824f2e68f",
         "name": "Add Fire to a Bldg",
         "info": "",
-        "x": 180,
-        "y": 360,
+        "x": 200,
+        "y": 140,
         "wires": []
     },
     {
@@ -17952,8 +16520,8 @@
         "g": "8ea343d5acb02cd2",
         "name": "Update Bldg's MQTT's",
         "info": "",
-        "x": 860,
-        "y": 360,
+        "x": 820,
+        "y": 320,
         "wires": []
     },
     {
@@ -17965,8 +16533,8 @@
         "links": [
             "614e06960c4619e1"
         ],
-        "x": 185,
-        "y": 720,
+        "x": 195,
+        "y": 500,
         "wires": [
             [
                 "109a198c442dc26f"
@@ -17985,8 +16553,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
-        "y": 720,
+        "x": 350,
+        "y": 500,
         "wires": [
             [
                 "a12c5fed51dba728"
@@ -18003,8 +16571,8 @@
         "links": [
             "dc1d674e61de820d"
         ],
-        "x": 495,
-        "y": 720,
+        "x": 505,
+        "y": 500,
         "wires": []
     },
     {
@@ -18014,8 +16582,8 @@
         "g": "3b4d148e2feae984",
         "name": "Add Water to a Bldg",
         "info": "",
-        "x": 190,
-        "y": 660,
+        "x": 200,
+        "y": 440,
         "wires": []
     },
     {
@@ -18041,8 +16609,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 260,
-        "y": 800,
+        "x": 270,
+        "y": 580,
         "wires": [
             [
                 "109a198c442dc26f"
@@ -18072,11 +16640,1275 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 260,
-        "y": 840,
+        "x": 270,
+        "y": 620,
         "wires": [
             [
                 "109a198c442dc26f"
+            ]
+        ]
+    },
+    {
+        "id": "cdd67f2387d5de33",
+        "type": "link out",
+        "z": "f66e6f21e6630f00",
+        "g": "8ea343d5acb02cd2",
+        "name": "To check Phase Switch",
+        "mode": "link",
+        "links": [
+            "a7d99a942f016eff"
+        ],
+        "x": 1195,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "0416ea6909311b42",
+        "type": "link in",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "Update FS",
+        "links": [
+            "0d8173f38e89fbff",
+            "1a9410ac2442e363",
+            "3169a0e7aefec915",
+            "3fbcebb8a982c031",
+            "41518b531082b3d7",
+            "53ad0d9118b96995",
+            "56baf729ff9f20d4",
+            "5d5808f37e4f2631",
+            "60c4cd940e202083",
+            "6f5b0006051e39ef",
+            "7e1e1ed2c52487f5",
+            "9a1fea64496dca0b",
+            "c612b81a64bb9759",
+            "d0e47829bbab10d2",
+            "d504585ce63f5428",
+            "f4d059522562d6ee",
+            "271ede2ce51d285f",
+            "ae7f84b63854f65a",
+            "31b38ea8c73fc370",
+            "b8d97633789e564a",
+            "9b568c684831987e",
+            "e1cc859ba784a678",
+            "c1a90303531def31",
+            "93e63f839cdaec05",
+            "37c7a2dbbcb0a457",
+            "340b990d6b13e2a7",
+            "ed716ab02d4082a2",
+            "ad963e02c9e92e23",
+            "818f620db7bf22cc",
+            "92f06b8d089d2e3c",
+            "1d79d030bb97d1cb",
+            "c15ecd4af88078fe",
+            "fb816ea98a4bab83",
+            "3d9cde5ecb8c0e76"
+        ],
+        "x": 205,
+        "y": 300,
+        "wires": [
+            [
+                "8078387b8154fc28",
+                "085de4503ad6ec20"
+            ]
+        ]
+    },
+    {
+        "id": "187c6afe9262807c",
+        "type": "comment",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "Update FS BEFORE WATER\\n payload.bldg, payload.window, payload.numFire",
+        "info": "",
+        "x": 340,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "8078387b8154fc28",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "Update Window Global",
+        "func": "//--- Basic variables\nvar input = msg.payload;\nvar theBldg = msg.payload.bldg;\nvar theWin = msg.payload.window;\nvar theFS = msg.payload.numFire;\n\n//--- Update Global Variables\nvar theGlobalString = theBldg + \".FS.Window\" + theWin + \"-BeforeWater\";\nglobal.set(theGlobalString,theFS);\n\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 280,
+        "wires": [
+            [
+                "dda9a78374edd0d2"
+            ]
+        ]
+    },
+    {
+        "id": "5acfacf7a05cc895",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "Update GutterPixels Global - Requires AfterWater String",
+        "func": "/* \nGutter is built with 30 pixels\n[0-7]   = Window 1 FS\n[8-9]   = Blank (spacer)\n[10-19] = Status\n[20-21] = Blank (spacer)\n[22-29] = Window 2 FS\n\nColor wheel:\n0 = OFF\n1 = RED\n2 = ORANGE\n3 = YELLOW\n4 = GREEN\n5 = BLUE\n6 = PURPLE\n^^ Don't forget to make these a string, not an int\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar theBldg = msg.payload.bldg;\nvar theWin = msg.payload.window;\n\n// --FS is no longer a basic variable, since you'll have to depend on VISIBLE (after Water) fire\nvar theFS = global.get(theBldg+\".FS.Window\" + theWin + \"-AfterWater\");\n\n//--- Get current gutterpixels, delete the relevant window's substring \n//string.substring(indexStart, indexEnd)\nvar curPixelString = global.get(theBldg + \".GutterPixels\");\nif (theWin == 1) {\n    var stringMinusWindow = curPixelString.substring(8, 30); //will want to check off-by-one issues\n    var theColor = \"3\"; // YELLOW\n} else if (theWin == 2) {\n    var stringMinusWindow = curPixelString.substring(0, 22); //will want to check off-by-one issues\n    var theColor = \"4\"; // RED\n}\n//node.warn(stringMinusWindow);\n\n//--- Build the new window's string\nvar newWindowString = \"\";\n//-- Add 1's up to the FS, then 0's after that to only light up the FS pixels\n// off-by-one _should_ work out alright? \n// also js shorthand woo https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator\nfor (let i=0; i<8; i++) {\n    newWindowString += i<theFS ? theColor : \"0\"; \n}\n\n//--- Combino preparo \n//node.warn(newWindowString);\n//node.warn(stringMinusWindow);\nif (theWin == 1) {\n    var newPixelString = newWindowString + stringMinusWindow; \n} else if (theWin == 2) {\n    var newPixelString = stringMinusWindow + newWindowString;\n}\n\n//--- Fin\nglobal.set(theBldg + \".GutterPixels\", newPixelString);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 300,
+        "wires": [
+            [
+                "926f27b7e8249ddb"
+            ]
+        ]
+    },
+    {
+        "id": "926f27b7e8249ddb",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "Build MQTT Msg for Gutter",
+        "func": "/*\n---- WILL NEED TO UPDATE ONCE WE KNOW HOW \"WHICHLEDS\" WORKS ---\n\nmsg1.topic = \"nodered/updategutter/full/\" + theBldgs[0];\nmsg1.payload = \"{ \\\"color\\\":\\\"FFFF00\\\" }\";\n\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar node_id = msg.payload.bldg;\nvar theGutter = 0; //-=-=-=-==-=\n\n\n//--- Set up MQTT message\nvar gutterString = global.get(node_id + \".GutterPixels\");\n//var gutterString = \"333333333333333333333333333333\";\nmsg.topic = \"nodered/updatepixels/\" + node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":\" + theGutter + \", \" +\n    \"\\\"pixels\\\": \\\"\" + gutterString + \"\\\"\" +\n    \"}\";\n//node.warn(msg);\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1760,
+        "y": 300,
+        "wires": [
+            [
+                "5f0bcff5c4ed6ec4"
+            ]
+        ]
+    },
+    {
+        "id": "ed2d399b29970928",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "Build MQTT Msg for Window",
+        "func": "//--- Basic variables\nvar input = msg.payload;\nvar node_id = msg.payload.bldg;\nvar theWin = msg.payload.window;\n\nvar theFS = global.get(node_id + \".FS.Window\" + theWin + \"-AfterWater\");\n\n//--- Build MQTT message\nif (theFS > 0) {\n    msg.topic = \"nodered/lighton/\" + node_id;\n} else if (theFS == 0) {\n    msg.topic = \"nodered/lightoff/\" + node_id;\n}\nmsg.payload = \"{ \\\"whichLight\\\":\" + theWin + \"}\"\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1300,
+        "y": 360,
+        "wires": [
+            [
+                "f986ab9711daf36b"
+            ]
+        ]
+    },
+    {
+        "id": "5f0bcff5c4ed6ec4",
+        "type": "mqtt out",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 1970,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "f986ab9711daf36b",
+        "type": "mqtt out",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 1510,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "085de4503ad6ec20",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "Update Status Global",
+        "func": "//--- Basic variables\nvar input = msg.payload;\nvar node_id = msg.payload.bldg;\nvar theWin = msg.payload.window;\nvar theFS = msg.payload.numFire;\n\n//--- Build MQTT message\nif (theFS > 0) {\n    global.set(node_id+\".Status\", \"Burning\");\n} else if (theFS == 0) {\n    global.set(node_id + \".Status\", \"Cleared\");\n}\n\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7138aeefb2263d68",
+        "type": "comment",
+        "z": "f6f035102302ba5a",
+        "g": "5f1037ebc6dbd72f",
+        "name": "Update GutterPixels \\n payload.bldg, payload.pixelstring \\n I think this is only used by TelloPath anymore..",
+        "info": "",
+        "x": 290,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "f8afe1542a91baa2",
+        "type": "link in",
+        "z": "f6f035102302ba5a",
+        "g": "5f1037ebc6dbd72f",
+        "name": "Update GutterPixels",
+        "links": [
+            "ae0759e01e0881af",
+            "e1a0483ff23d768b"
+        ],
+        "x": 185,
+        "y": 660,
+        "wires": [
+            [
+                "f976aafaf0f9a3c1"
+            ]
+        ]
+    },
+    {
+        "id": "f976aafaf0f9a3c1",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "g": "5f1037ebc6dbd72f",
+        "name": "Update GutterPixels Global",
+        "func": "/* \nGutter is built with 30 pixels\n[0-7]   = Window 1 FS\n[8-9]   = Blank (spacer)\n[10-19] = Status\n[20-21] = Blank (spacer)\n[22-29] = Window 2 FS\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar theBldg = input.bldg;\nvar theString = input.pixelstring;\n\n//--- Update global\nglobal.set(theBldg + \".Lights.GutterPixels\", theString);\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 660,
+        "wires": [
+            [
+                "2d3d077a6a33a90f"
+            ]
+        ]
+    },
+    {
+        "id": "2d3d077a6a33a90f",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "g": "5f1037ebc6dbd72f",
+        "name": "Build MQTT Msg for Gutter",
+        "func": "/*\n---- WILL NEED TO UPDATE ONCE WE KNOW HOW \"WHICHLEDS\" WORKS ---\n*/ \n\n//--- Basic variables\nvar input = msg.payload;\nvar node_id = input.bldg;\nvar theGutter = 0; //-=-=-===--==\n\n//--- Set up MQTT message\nvar gutterString = global.get(node_id + \".GutterPixels\");\nmsg.topic = \"nodered/updatepixels/\" + node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":\" + theGutter + \", \" +\n    \"\\\"pixels\\\": \\\"\" + gutterString + \"\\\"\" +\n    \"}\";\n//{   \"whichLeds\":0,   \"pixels\":\"111111111111111444444444444444\" }\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 660,
+        "wires": [
+            [
+                "19c221d99629ee7a"
+            ]
+        ]
+    },
+    {
+        "id": "19c221d99629ee7a",
+        "type": "mqtt out",
+        "z": "f6f035102302ba5a",
+        "g": "5f1037ebc6dbd72f",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 890,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "42500fdf3edadd8f",
+        "type": "comment",
+        "z": "f6f035102302ba5a",
+        "g": "459fe488a5804676",
+        "name": "Update WaterQty\\n payload.bldg, payload.newAddlWaterQty",
+        "info": "",
+        "x": 260,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "ab46c7d25d3bb74b",
+        "type": "link in",
+        "z": "f6f035102302ba5a",
+        "g": "459fe488a5804676",
+        "name": "Update Water Qty",
+        "links": [
+            "3ddb4866a6ecb8fe"
+        ],
+        "x": 165,
+        "y": 1020,
+        "wires": [
+            [
+                "64807321f86b9125"
+            ]
+        ]
+    },
+    {
+        "id": "570cc8a3dd014038",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "g": "459fe488a5804676",
+        "name": "Update WaterQty, prep new FS",
+        "func": "/* \nExample input: \nmsg.payload.bldg = \"RTO\";\nmsg.payload.newAddlWaterQty = 3;\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.bldg;\nvar newWater = input.newAddlWaterQty;\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Get the globals\nvar win1_FS_pre = global.get(nodeid + \".FS.Window1-BeforeWater\");\nvar win2_FS_pre = global.get(nodeid + \".FS.Window2-BeforeWater\");\n\n//--- Do some quick water math\nvar curWaterQty = global.get(nodeid + \".WaterQty\");\nvar newWaterQty = curWaterQty + newWater;\nglobal.set(nodeid + \".WaterQty\", newWaterQty);\n\n//-----------\n//--- HOW MANY WATERS PER PIXEL / FS / BLIP ? \n// ---- Technically, in the manual, it is 4x for water drop balls, 2x for lasers\n//-----------\nswitch(nodeid) {\n    //laser\n    case \"LBO\":\n    case \"LTM\":\n    case \"LBM\":\n    case \"RTO\":\n    case \"RBM\":\n    case \"RTM\":\n        var WATER_PER_FS = 2;\n\n    //balls\n    case \"RTO\":\n    case \"RTI\":\n    case \"RBI\":\n    case \"RBO\":\n    case \"RBI\":\n    case \"RTI\":\n        var WATER_PER_FS = 4;\n}\nvar MAX_POSS_FS = 8;\n\n//--- Take the \"before Water\" FS's, and bang em against the water, and get new \"after Water\" FS's\nvar impactToFS = Math.floor(newWaterQty / WATER_PER_FS);\nnode.warn(impactToFS);\nvar the_FS_thats_left = (win1_FS_pre + win2_FS_pre) - impactToFS; \nnode.warn(\"theleft\");\nnode.warn(the_FS_thats_left);\nif (the_FS_thats_left > MAX_POSS_FS) { \n    var win1_FS_post = MAX_POSS_FS;\n    var win2_FS_post = the_FS_thats_left - MAX_POSS_FS;\n} else { \n    var win1_FS_post = the_FS_thats_left;\n    var win2_FS_post = 0;\n}\nnode.warn(win1_FS_post);\nnode.warn(win2_FS_post);\n\n//--- Prep FS update callback\n//payload.bldg, payload.window, payload.numFire\nmsg1.payload.bldg = nodeid;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = win1_FS_post;\n\nmsg2.payload.bldg = nodeid;\nmsg2.payload.window = 2;\nmsg2.payload.numFire = win2_FS_post;\n\n//rrrrrap it up\nreturn [msg1, msg2];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1030,
+        "y": 960,
+        "wires": [
+            [
+                "7e1e1ed2c52487f5",
+                "f4ccd769fbdd6843"
+            ],
+            [
+                "8498c6ad0a1a8df7"
+            ]
+        ]
+    },
+    {
+        "id": "7e1e1ed2c52487f5",
+        "type": "link out",
+        "z": "f6f035102302ba5a",
+        "g": "459fe488a5804676",
+        "name": "Water Hitting FS",
+        "mode": "link",
+        "links": [
+            "0416ea6909311b42",
+            "113bf2ef4799a486"
+        ],
+        "x": 1395,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "505ee7d447687c96",
+        "type": "comment",
+        "z": "f6f035102302ba5a",
+        "g": "459fe488a5804676",
+        "name": "Send this to the FS callback\\n Delay to avoid windows stepping on each other",
+        "info": "",
+        "x": 1460,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "8498c6ad0a1a8df7",
+        "type": "delay",
+        "z": "f6f035102302ba5a",
+        "g": "459fe488a5804676",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "50",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1290,
+        "y": 980,
+        "wires": [
+            [
+                "7e1e1ed2c52487f5"
+            ]
+        ]
+    },
+    {
+        "id": "192043bb5930e80f",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "459fe488a5804676",
+        "name": "[obsolete method for this]",
+        "func": "/* \nExample input: \nmsg.payload.bldg = \"RTO\";\nmsg.payload.newAddlWaterQty = 3;\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.bldg;\nvar newWater = input.newAddlWaterQty;\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Get the globals\nvar win1_FS_pre = global.get(nodeid + \".FS.Window1.BeforeWater\");\nvar win2_FS_pre = global.get(nodeid + \".FS.Window2.BeforeWater\");\n\n//--- Do some quick water math\nvar curWaterQty = global.get(nodeid + \".WaterQty\");\nvar newWaterQty = curWaterQty + newWater;\n\n//-----------\n//--- HOW MANY WATERS PER PIXEL / FS / BLIP ? \n// ---- Technically, in the manual, it is 4x for water drop balls, 2x for lasers\n//-----------\nswitch(nodeid) {\n    //laser\n    case \"LBO\":\n    case \"LTM\":\n    case \"LBM\":\n    case \"RTO\":\n    case \"RBM\":\n    case \"RTM\":\n        var WATER_PER_FS = 2;\n\n    //balls\n    case \"RTO\":\n    case \"RTI\":\n    case \"RBI\":\n    case \"RBO\":\n    case \"RBI\":\n    case \"RTI\":\n        var WATER_PER_FS = 4;\n}\nvar MAX_POSS_FS = 8;\n\n/* Example: \n- Win1FS = 8 | Win2FS = 3 | WaterQty = 2 | NewWaterQty = 12\nEnough water is dropped to drop 12 FS points (wateredDownAmt = 12)\n- 8 of this goes to window 1\n- 4 of this goes to window 2\nOtherwise, it just sticks to window 1.\n- THIS IS TRUE EVEN IF window 2 is active.\n- This is part of the \"back to basics\" gameplay.  Is it \"right\" or \"the best\"?  Probably not.. but it's easy\nANOTHER CURRENT ISSUE\n- Currently, this just tracks one master \"water amt\" \n- So theoretically, if your waterqty exceeds window1's amt, it will \"proactively\" count towards window2\n- Probably need to fix this later...\n\nalso.... this is probably way overcomplicated and the result of late night work\n\nthis iwill just need lots of testing\n*/ \nvar wateredDownAmt = Math.floor(newWaterQty / WATER_PER_FS);\n//node.warn(wateredDownAmt);\nif (wateredDownAmt >= 8) {\n    var firstWindowWater = 8;\n    var secondWindowWater = wateredDownAmt - 8;\n} else {\n    var firstWindowWater = wateredDownAmt;\n    var secondWindowWater = 0;\n}\n//node.warn(firstWindowWater);\n//node.warn(secondWindowWater);\n\n\n//--- Calc new FS's\nvar newFS_Win1 = win1_FS - (MAX_POSS_FS - firstWindowWater);\nvar newFS_Win2 = win2_FS - (MAX_POSS_FS - secondWindowWater);\n//node.warn(newFS_Win1);\n\n//--- Update globals\nglobal.set(nodeid+\".WaterQty\", newWaterQty);\n\n\n//--- Prep output for FS update callback\n//payload.bldg, payload.window, payload.numFire\nmsg1.payload.bldg = nodeid;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = win1_FS > 0 ? newFS_Win1 : 0;\n\nmsg2.payload.bldg = nodeid;\nmsg2.payload.window = 2;\nmsg2.payload.numFire = win2_FS > 0 ? newFS_Win2 : 0;\n\n//--- Fin\n//return [msg1, msg2];",
+        "outputs": 2,
+        "noerr": 4,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1490,
+        "y": 880,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "f4ccd769fbdd6843",
+        "type": "debug",
+        "z": "f6f035102302ba5a",
+        "g": "459fe488a5804676",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "63f18a575dc37f3b",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "Convert BeforeWater -> AfterWater",
+        "func": "//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.bldg;\nvar msg1 = {};\nmsg1.payload = {};\nvar msg2 = {};\nmsg2.payload = {};\n\n//--- Get the globals\nvar win1_FS_pre = global.get(nodeid + \".FS.Window1-BeforeWater\");\nvar win2_FS_pre = global.get(nodeid + \".FS.Window2-BeforeWater\");\nvar theWater = global.get(nodeid + \".WaterQty\");\n\n//--- Do some quick math\nvar MAX_POSS_FS = 8;\nswitch (nodeid) {\n    //-- LASER \n    case \"LBO\":\n    case \"LTM\":\n    case \"LBM\":\n    case \"RTO\":\n    case \"RBM\":\n    case \"RTM\":\n        var WATER_PER_FS = 1; //-- LASER\n\n    //-- BALLS \n    case \"RTI\":\n    case \"RBI\":\n    case \"LTO\":\n    case \"LBI\":\n    case \"LTI\":\n    case \"RBO\":\n        var WATER_PER_FS = 2; //-- BALLS \n}\n\n//--- Take the \"before Water\" FS's, and bang em against the water, and get new \"after Water\" FS's\nvar impactToFS = Math.floor(theWater / WATER_PER_FS);\n//node.warn(impactToFS);\nvar the_FS_thats_left = (win1_FS_pre + win2_FS_pre) - impactToFS;\n//node.warn(the_FS_thats_left);\nif (the_FS_thats_left > MAX_POSS_FS) {\n    var win1_FS_post = MAX_POSS_FS;\n    var win2_FS_post = the_FS_thats_left - MAX_POSS_FS;\n} else {\n    var win1_FS_post = the_FS_thats_left;\n    var win2_FS_post = 0;\n}\n//node.warn('thewinfs');\n//node.warn(win1_FS_post);\n//node.warn(win2_FS_post);\n\n//--- Update de globals\nglobal.set(nodeid + \".FS.Window1-AfterWater\", win1_FS_post);\nglobal.set(nodeid + \".FS.Window2-AfterWater\", win2_FS_post);\n\n//--- Prep FS update callback\n//payload.bldg, payload.window, payload.numFire\nmsg1.payload.bldg = nodeid;\nmsg1.payload.window = 1;\nmsg1.payload.numFire = win1_FS_post;\nmsg2.payload.bldg = nodeid;\nmsg2.payload.window = 2;\nmsg2.payload.numFire = win2_FS_post;\n\n//rrrrrap it up\nreturn [msg1, msg2];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 260,
+        "wires": [
+            [
+                "5acfacf7a05cc895",
+                "ed2d399b29970928",
+                "c558863179e4ef0b",
+                "b3159d92c7d2d07d"
+            ],
+            [
+                "5acfacf7a05cc895",
+                "ed2d399b29970928"
+            ]
+        ]
+    },
+    {
+        "id": "64807321f86b9125",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "g": "459fe488a5804676",
+        "name": "Update WaterQty, send to kickoff FS update",
+        "func": "/* \nExample input: \nmsg.payload.bldg = \"RTO\";\nmsg.payload.newAddlWaterQty = 3;\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.bldg;\nvar newWater = input.newAddlWaterQty;\nmsg.payload = {};\n\n//node.warn(\"addlwater\");\n//node.warn(newWater);\n\n\n//--- Do some quick water math\nvar curWaterQty = global.get(nodeid + \".WaterQty\");\n//node.warn(\"waters\");\n//node.warn(curWaterQty);\ncurWaterQty = curWaterQty === undefined ? 0 : curWaterQty; // don't poison the waterhole\nvar newWaterQty = curWaterQty + newWater;\n//node.warn(newWaterQty);\n//node.warn(newWaterQty);\n\n//--- Update the gloabl\nglobal.set(nodeid + \".WaterQty\", newWaterQty);\n\n\n//--- Prep FS update callback\n// ???\nmsg.payload.bldg = nodeid;\n\n//rrrrrap it up\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 1020,
+        "wires": [
+            [
+                "71f67f7f27cafd81"
+            ]
+        ]
+    },
+    {
+        "id": "dda9a78374edd0d2",
+        "type": "link out",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "To Window Washing",
+        "mode": "link",
+        "links": [
+            "a25ecc470396a417"
+        ],
+        "x": 535,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "a25ecc470396a417",
+        "type": "link in",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "Time to Wash Windows",
+        "links": [
+            "dda9a78374edd0d2",
+            "71f67f7f27cafd81"
+        ],
+        "x": 715,
+        "y": 260,
+        "wires": [
+            [
+                "63f18a575dc37f3b"
+            ]
+        ]
+    },
+    {
+        "id": "71f67f7f27cafd81",
+        "type": "link out",
+        "z": "f6f035102302ba5a",
+        "g": "459fe488a5804676",
+        "name": "To Window Washing",
+        "mode": "link",
+        "links": [
+            "a25ecc470396a417"
+        ],
+        "x": 605,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "f5ac07449078a00d",
+        "type": "comment",
+        "z": "f6f035102302ba5a",
+        "g": "11a9b9cee18f6b6c",
+        "name": "Update ALL BLDGS from Globals",
+        "info": "",
+        "x": 230,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "3c85efd6b9fe4796",
+        "type": "ui_button",
+        "z": "f6f035102302ba5a",
+        "g": "11a9b9cee18f6b6c",
+        "name": "",
+        "group": "ee9886ff6322a456",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "label": "Push all Bldgs to MQTT",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 290,
+        "y": 1280,
+        "wires": [
+            [
+                "b497a4557843716d"
+            ]
+        ]
+    },
+    {
+        "id": "7503e9afbf970c67",
+        "type": "mqtt out",
+        "z": "f6f035102302ba5a",
+        "g": "11a9b9cee18f6b6c",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 770,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "36c9b826c07c4844",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "g": "11a9b9cee18f6b6c",
+        "name": "Set Light 1 MQTT Msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nif (global.get(node_id+\".FS.Window1-AfterWater\") > 0) { \n    msg.topic = \"nodered/lighton/\"+node_id;\n} else {\n    msg.topic = \"nodered/lightoff/\"+node_id;\n}\nmsg.payload = \"{ \\\"whichLight\\\":1 }\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1360,
+        "wires": [
+            [
+                "7503e9afbf970c67"
+            ]
+        ]
+    },
+    {
+        "id": "b497a4557843716d",
+        "type": "loop",
+        "z": "f6f035102302ba5a",
+        "g": "11a9b9cee18f6b6c",
+        "name": "",
+        "kind": "enum",
+        "count": "",
+        "initial": "1",
+        "step": "1",
+        "condition": "",
+        "conditionType": "js",
+        "when": "before",
+        "enumeration": "allBldgs",
+        "enumerationType": "global",
+        "limit": "",
+        "loopPayload": "loop-val",
+        "finalPayload": "final-count",
+        "x": 530,
+        "y": 1280,
+        "wires": [
+            [],
+            [
+                "36c9b826c07c4844",
+                "223c3fe920a91621",
+                "b019d27b1b388b63"
+            ]
+        ]
+    },
+    {
+        "id": "223c3fe920a91621",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "g": "11a9b9cee18f6b6c",
+        "name": "Set Gutter MQTT msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/updatepixels/\"+node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":0, \" +\n    \"\\\"pixels\\\": \\\"\" + global.get(node_id+\".GutterPixels\") + \"\\\"\" +\n    \"}\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1440,
+        "wires": [
+            [
+                "270a5506f8851358",
+                "b497a4557843716d"
+            ]
+        ]
+    },
+    {
+        "id": "270a5506f8851358",
+        "type": "mqtt out",
+        "z": "f6f035102302ba5a",
+        "g": "11a9b9cee18f6b6c",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 770,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "b019d27b1b388b63",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "g": "11a9b9cee18f6b6c",
+        "name": "Set Light 2 MQTT Msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload;\n\n//--- Set up MQTT message\nif (global.get(node_id + \".FS.Window2-AfterWater\") > 0) {\n    msg.topic = \"nodered/lighton/\" + node_id;\n} else {\n    msg.topic = \"nodered/lightoff/\" + node_id;\n}\nmsg.payload = \"{ \\\"whichLight\\\":2 }\";\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1400,
+        "wires": [
+            [
+                "74e30c503ee7b8b0"
+            ]
+        ]
+    },
+    {
+        "id": "74e30c503ee7b8b0",
+        "type": "mqtt out",
+        "z": "f6f035102302ba5a",
+        "g": "11a9b9cee18f6b6c",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 770,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "3f402ddd8643cce0",
+        "type": "link in",
+        "z": "f6f035102302ba5a",
+        "g": "11a9b9cee18f6b6c",
+        "name": "Update All Bldgs IN",
+        "links": [
+            "cb167d27c1e7d778",
+            "4c742ebce9027c25",
+            "b348ea8918f0e0bc",
+            "54f240d0cd94a297"
+        ],
+        "x": 135,
+        "y": 1280,
+        "wires": [
+            [
+                "3c85efd6b9fe4796"
+            ]
+        ]
+    },
+    {
+        "id": "2a37db221e4919dc",
+        "type": "switch",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "If ready",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 2120,
+        "y": 120,
+        "wires": [
+            [
+                "fe84ce88167ea094"
+            ]
+        ]
+    },
+    {
+        "id": "fe84ce88167ea094",
+        "type": "link out",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "GOTO PHASE 2",
+        "mode": "link",
+        "links": [
+            "9004aeb7ec1ed4bf"
+        ],
+        "x": 2235,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "5c0e589cb02e5ad4",
+        "type": "switch",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "Which phase",
+        "property": "matchPhase",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1410,
+        "y": 140,
+        "wires": [
+            [
+                "4c512025a065832e"
+            ],
+            [
+                "3eed4a6d746b77f9"
+            ]
+        ]
+    },
+    {
+        "id": "6983c6fb1a960333",
+        "type": "link out",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "GOTO PHASE 3",
+        "mode": "link",
+        "links": [
+            "d236e6eee53270f4"
+        ],
+        "x": 2235,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "a429c99752090afe",
+        "type": "inject",
+        "z": "f6f035102302ba5a",
+        "g": "11a9b9cee18f6b6c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "LTO",
+        "payloadType": "str",
+        "x": 250,
+        "y": 1460,
+        "wires": [
+            [
+                "223c3fe920a91621"
+            ]
+        ]
+    },
+    {
+        "id": "c558863179e4ef0b",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "Check if Bldg Empty",
+        "func": "/* \nEvery time you're updating a FS, check to see if it's the LAST ONE  :O\n*/ \n\n// --- Set up vars\nvar input = msg.payload;\nvar bldg = input.bldg;\nvar theBldgFS = global.get(bldg + \".FS.Window1-AfterWater\") + global.get(bldg + \".FS.Window2-AfterWater\"); \n//node.warn(theBldgFS);\n\n//-- Fin\nmsg.fs = theBldgFS;\nmsg.bldgstatus = global.get(bldg + \".Status\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1540,
+        "y": 240,
+        "wires": [
+            [
+                "ec9a8da5fdcd039c",
+                "28964f598a2b91f8"
+            ]
+        ]
+    },
+    {
+        "id": "9ec27b48eb18ce04",
+        "type": "switch",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "If theBldgFS = 0",
+        "property": "fs",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1940,
+        "y": 240,
+        "wires": [
+            [
+                "30922eb04470fcd3"
+            ]
+        ]
+    },
+    {
+        "id": "30922eb04470fcd3",
+        "type": "loop",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "",
+        "kind": "fcnt",
+        "count": "3",
+        "initial": "1",
+        "step": "1",
+        "condition": "",
+        "conditionType": "js",
+        "when": "before",
+        "enumeration": "enum",
+        "enumerationType": "msg",
+        "limit": "",
+        "loopPayload": "loop-keep",
+        "finalPayload": "final-count",
+        "x": 2160,
+        "y": 240,
+        "wires": [
+            [],
+            [
+                "e214f388cf42a7bc"
+            ]
+        ]
+    },
+    {
+        "id": "e214f388cf42a7bc",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "Set Gutter Clap On MQTT",
+        "func": "//--- Basic variables\nvar node_id = msg.payload.bldg;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/updatepixels/\"+node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":0, \" +\n    \"\\\"pixels\\\": \\\"111111111111111111111111111111\\\"\" +\n    \"}\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2410,
+        "y": 240,
+        "wires": [
+            [
+                "b0111393f42d13c5",
+                "df0730dca6dcd4ae"
+            ]
+        ]
+    },
+    {
+        "id": "b0111393f42d13c5",
+        "type": "mqtt out",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 2650,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "df0730dca6dcd4ae",
+        "type": "delay",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "300",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2430,
+        "y": 300,
+        "wires": [
+            [
+                "1a82187c851908ef"
+            ]
+        ]
+    },
+    {
+        "id": "1a82187c851908ef",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "Set Gutter Clap Off MQTT msg",
+        "func": "//--- Basic variables\nvar node_id = msg.payload.bldg;\n\n//--- Set up MQTT message\nmsg.topic = \"nodered/updatepixels/\"+node_id;\nmsg.payload = \"{ \\\"whichLeds\\\":0, \" +\n    \"\\\"pixels\\\": \\\"000000000000000000000000000000\\\"\" +\n    \"}\";\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2530,
+        "y": 360,
+        "wires": [
+            [
+                "e1499c0ddc6fdf99",
+                "9fa16415953d9ae6"
+            ]
+        ]
+    },
+    {
+        "id": "e1499c0ddc6fdf99",
+        "type": "mqtt out",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 2770,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "9fa16415953d9ae6",
+        "type": "delay",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "300",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2190,
+        "y": 400,
+        "wires": [
+            [
+                "30922eb04470fcd3"
+            ]
+        ]
+    },
+    {
+        "id": "28964f598a2b91f8",
+        "type": "switch",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "If iss not hottt",
+        "property": "bldgstatus",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "Hottt",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1750,
+        "y": 240,
+        "wires": [
+            [
+                "9ec27b48eb18ce04"
+            ]
+        ]
+    },
+    {
+        "id": "ec9a8da5fdcd039c",
+        "type": "switch",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "If iss hottt",
+        "property": "bldgstatus",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Hottt",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1740,
+        "y": 200,
+        "wires": [
+            [
+                "ee79a9d508104fa0"
+            ]
+        ]
+    },
+    {
+        "id": "ee79a9d508104fa0",
+        "type": "switch",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "If theBldgFS = 0",
+        "property": "fs",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "-8",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1940,
+        "y": 200,
+        "wires": [
+            [
+                "30922eb04470fcd3"
+            ]
+        ]
+    },
+    {
+        "id": "4c512025a065832e",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "Check if Phase 1 complete (startSide GutterPixels = 0)",
+        "func": "/* \nEvery time you're updating a FS, check to see if it's the LAST ONE  :O\n(also use this moment to calculate new Damage scores LOL)\n*/ \n\n// --- Set up vars\nvar startside = global.get(\"startSide\");\nvar theTotalFS = 0;\nvar theTotalWater = 0;\nvar curDamage = [];\n\nswitch(startside) {\n    case \"L\":\n        var bldgs = [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\n        break;\n    case \"R\":\n        var bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\n        break;\n}\n\n// --- Loop through all buildings, look for no bueno\nvar isClear = true;\nfor (var i in bldgs) {\n    for (var j = 0; j < 30; j++) {\n        var c = global.get(bldgs[i]+\".GutterPixels\").charAt(j);\n        if (c != \"0\") {\n            isClear = false;\n            break;\n        }\n    }\n    if (isClear == false) {\n        break;\n    }\n    //theTotalWater += global.get(bldgs[i]+\".WaterQty\"); // no cheating\n}\n\n/*\nfor (var i in bldgs) {\n    curDamage[i] = 0;\n\n    for (var j=0; j<30; j++) {\n        var c = global.get(bldgs[i]+\".GutterPixels\").chatAr(j);\n        if (c == \"3\" || c==\"4\") {\n            curDamage[i] += 1;\n        }\n    }\n\n    if(curDamage[i] > global.get(bldgs[i]+\".Damage\")) {\n        global.set(bldgs[i] + \".Damage\", curDamage[i]);\n    }\n}\n*/\n\n// --- If it's gone, LET'S GO\n//msg.payload = (theTotalFS <= 0 && theTotalWater >= 30) ? true : false;\n//node.warn(theTotalFS);\n\n// fin\nmsg.payload = isClear;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1780,
+        "y": 120,
+        "wires": [
+            [
+                "2a37db221e4919dc"
+            ]
+        ]
+    },
+    {
+        "id": "b3159d92c7d2d07d",
+        "type": "delay",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "3",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1240,
+        "y": 140,
+        "wires": [
+            [
+                "5c0e589cb02e5ad4"
+            ]
+        ]
+    },
+    {
+        "id": "3eed4a6d746b77f9",
+        "type": "function",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "Check if Phase 2 complete (otherSide GutterPixels = 0)",
+        "func": "/* \nEvery time you're updating a FS, check to see if it's the LAST ONE  :O\n*/ \n\n// --- Set up vars\nvar otherside = global.get(\"otherSide\");\nvar theTotalFS = 0;\nvar theTotalWater = 0;\n\nswitch(otherside) {\n    case \"L\":\n        var bldgs = [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\n        break;\n    case \"R\":\n        var bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\n        break;\n}\n\n// --- Loop through all buildings, add up total FS\nvar isClear = true;\nfor (var i in bldgs) {\n    for (var j = 0; j < 30; j++) {\n        var c = global.get(bldgs[i]+\".GutterPixels\").charAt(j);\n        if (c != \"0\") {\n            isClear = false;\n            break;\n        }\n    }\n    if (isClear == false) {\n        break;\n    }\n    //theTotalWater += global.get(bldgs[i]+\".WaterQty\"); // no cheating\n}\n\n// --- If it's gone, LET'S GO\n//msg.payload = (isClear && theTotalWater >= 30) ? true : false;\nmsg.payload = isClear;\n//node.warn(theTotalWater);\n//node.warn(theTotalFS);\n\n// fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1790,
+        "y": 160,
+        "wires": [
+            [
+                "f2b56dfdbbe11a17"
+            ]
+        ]
+    },
+    {
+        "id": "f2b56dfdbbe11a17",
+        "type": "switch",
+        "z": "f6f035102302ba5a",
+        "d": true,
+        "g": "284c27310b25477c",
+        "name": "If ready",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 2120,
+        "y": 160,
+        "wires": [
+            [
+                "6983c6fb1a960333"
             ]
         ]
     },
@@ -19469,5 +19301,325 @@
         "x": 790,
         "y": 1540,
         "wires": []
+    },
+    {
+        "id": "d56b2c69ab7a5b19",
+        "type": "comment",
+        "z": "26a7e7275cb541d0",
+        "g": "b2c04e106e7697f0",
+        "name": "MVP Step 6 - Receive a laser / ball hit, decrease FS",
+        "info": "",
+        "x": 370,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "c71621e5f8d62525",
+        "type": "mqtt in",
+        "z": "26a7e7275cb541d0",
+        "d": true,
+        "g": "b2c04e106e7697f0",
+        "name": "",
+        "topic": "edgenode/laserhit/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "bc90be16040a7d21",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 290,
+        "y": 2140,
+        "wires": [
+            [
+                "a43cfe8c60aa1766",
+                "6cbc63bf1ddca5ee"
+            ]
+        ]
+    },
+    {
+        "id": "3324776758a34ef8",
+        "type": "function",
+        "z": "26a7e7275cb541d0",
+        "g": "b2c04e106e7697f0",
+        "name": "Convert to callback formats - BALL",
+        "func": "/* \nExample input BALL:\nobject\nnum_drops: 1\ntimestamp: 637739\nBUILDING_NAME: \"LBM\"\nside_id: 1\n\nDesired outputs for callback: \npayload.bldg, payload.newAddlWaterQty\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.BUILDING_NAME; \nvar numHits = input.num_drops * global.get(\"balldoubler\");;  \nmsg.payload = {};\n\n\n//--- FS update callback outputs\nmsg.payload.bldg = nodeid;\nmsg.payload.newAddlWaterQty = numHits;\n\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 1960,
+        "wires": [
+            [
+                "3ddb4866a6ecb8fe",
+                "eb26606ce7b0b4da"
+            ]
+        ]
+    },
+    {
+        "id": "14d53b51ae10a6d7",
+        "type": "inject",
+        "z": "26a7e7275cb541d0",
+        "g": "b2c04e106e7697f0",
+        "name": "Fake laser MQTT (RTM)",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "edgenode/laserhit/RTO",
+        "payload": "{\"node_id\":\"RTM\",\"num_hits\":1,\"timestamp\":1234567890}",
+        "payloadType": "json",
+        "x": 410,
+        "y": 2220,
+        "wires": [
+            [
+                "b92ea91a45968087"
+            ]
+        ],
+        "info": "Example input: \r\n{\r\n    \"node_id\":\"LTO\",\r\n    \"num_hits\":5, \r\n    \"timestamp\":1234567890\r\n}"
+    },
+    {
+        "id": "3ddb4866a6ecb8fe",
+        "type": "link out",
+        "z": "26a7e7275cb541d0",
+        "g": "b2c04e106e7697f0",
+        "name": "Laser been hit",
+        "mode": "link",
+        "links": [
+            "ab46c7d25d3bb74b"
+        ],
+        "x": 1055,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "250504d69a42ec07",
+        "type": "comment",
+        "z": "26a7e7275cb541d0",
+        "g": "b2c04e106e7697f0",
+        "name": "To callback",
+        "info": "",
+        "x": 1060,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "a43cfe8c60aa1766",
+        "type": "debug",
+        "z": "26a7e7275cb541d0",
+        "g": "b2c04e106e7697f0",
+        "name": "db received laser hit",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 2100,
+        "wires": []
+    },
+    {
+        "id": "03cc0a5688f63569",
+        "type": "mqtt in",
+        "z": "26a7e7275cb541d0",
+        "d": true,
+        "g": "b2c04e106e7697f0",
+        "name": "",
+        "topic": "edgenode/balldrop/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "bc90be16040a7d21",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 290,
+        "y": 1920,
+        "wires": [
+            [
+                "8b9f85415994242a",
+                "7ec8575c8ae051af"
+            ]
+        ]
+    },
+    {
+        "id": "8b9f85415994242a",
+        "type": "debug",
+        "z": "26a7e7275cb541d0",
+        "g": "b2c04e106e7697f0",
+        "name": "db received ball",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "81525ae27ca9e82c",
+        "type": "inject",
+        "z": "26a7e7275cb541d0",
+        "g": "b2c04e106e7697f0",
+        "name": "Fake ball MQTT (LBI)",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"num_drops\":1,\"timestamp\":10356098,\"BUILDING_NAME\":\"LBI\",\"side_id\":0}",
+        "payloadType": "json",
+        "x": 400,
+        "y": 1980,
+        "wires": [
+            [
+                "3324776758a34ef8"
+            ]
+        ]
+    },
+    {
+        "id": "b92ea91a45968087",
+        "type": "function",
+        "z": "26a7e7275cb541d0",
+        "g": "b2c04e106e7697f0",
+        "name": "Convert to callback formats - LASER",
+        "func": "/* \nExample input LASER:\n{\n  \"num_hits\": 1,\n  \"timestamp\": 415775,\n  \"timestamp\": 416493,\n  \"BUILDING_NAME\": \"LBM\",\n  \"side_id\": 1\n}\n\n\nDesired outputs for callback: \npayload.bldg, payload.newAddlWaterQty\n*/ \n\n//--- Basic variables \nvar input = msg.payload;\nvar nodeid = input.BUILDING_NAME; \nvar numHits = input.num_hits;  \nmsg.payload = {};\n\n\n//--- FS update callback outputs\nmsg.payload.bldg = nodeid;\nmsg.payload.newAddlWaterQty = numHits*2;\n\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 2180,
+        "wires": [
+            [
+                "3ddb4866a6ecb8fe"
+            ]
+        ]
+    },
+    {
+        "id": "6cbc63bf1ddca5ee",
+        "type": "switch",
+        "z": "26a7e7275cb541d0",
+        "g": "b2c04e106e7697f0",
+        "name": "matchPhase > 0",
+        "property": "matchPhase",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 2160,
+        "wires": [
+            [
+                "b92ea91a45968087"
+            ]
+        ]
+    },
+    {
+        "id": "7ec8575c8ae051af",
+        "type": "switch",
+        "z": "26a7e7275cb541d0",
+        "g": "b2c04e106e7697f0",
+        "name": "matchPhase > 0",
+        "property": "matchPhase",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 1940,
+        "wires": [
+            [
+                "3324776758a34ef8"
+            ]
+        ]
+    },
+    {
+        "id": "eb26606ce7b0b4da",
+        "type": "debug",
+        "z": "26a7e7275cb541d0",
+        "g": "b2c04e106e7697f0",
+        "name": "debug 12",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 1920,
+        "wires": []
+    },
+    {
+        "id": "d7533cfe83cb541d",
+        "type": "comment",
+        "z": "26a7e7275cb541d0",
+        "g": "b2c04e106e7697f0",
+        "name": "=== OBSOLETE, WAS USED WEEK 3 ====",
+        "info": "",
+        "x": 410,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "da290e77a88988a7",
+        "type": "link in",
+        "z": "26a7e7275cb541d0",
+        "d": true,
+        "g": "b2c04e106e7697f0",
+        "name": "Laser Hit Inject",
+        "links": [
+            "8b81919795d67036"
+        ],
+        "x": 445,
+        "y": 2020,
+        "wires": [
+            [
+                "3324776758a34ef8"
+            ]
+        ]
     }
 ]
