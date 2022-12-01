@@ -450,12 +450,15 @@
             "02424c99509bf97f",
             "8dd1f8659cf326c1",
             "931aa0aecec7203f",
-            "ba9de4c0d6c59f58"
+            "ba9de4c0d6c59f58",
+            "335c51185ed320a8",
+            "c948202a41d32b74",
+            "e96421f5b1cc5638"
         ],
         "x": 94,
         "y": 459,
-        "w": 652,
-        "h": 182
+        "w": 612,
+        "h": 242
     },
     {
         "id": "cb9c0c3b1fe84ccc",
@@ -491,7 +494,7 @@
         ],
         "x": 54,
         "y": 39,
-        "w": 1052,
+        "w": 1132,
         "h": 462
     },
     {
@@ -1069,14 +1072,14 @@
         "nodes": [
             "8520f7d702b7b51a",
             "fd5ffabf4e8f6d4a",
-            "7f6ede1e92af6eac",
-            "404c09412d2ed62e",
-            "c9d158730c6fc6a5"
+            "c9d158730c6fc6a5",
+            "9a60e2cbb3676d16",
+            "cabc9379e91bfd5e"
         ],
         "x": 1074,
         "y": 539,
-        "w": 712,
-        "h": 222
+        "w": 912,
+        "h": 162
     },
     {
         "id": "ab2d725536c9b091",
@@ -2513,6 +2516,31 @@
         "h": 242
     },
     {
+        "id": "f1e1af78cf930290",
+        "type": "group",
+        "z": "d32826a1611e0622",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "9a38f2942ff4605f",
+            "da1ab5f800be4343",
+            "bcc47bf7cad06ac1",
+            "3731a8ad784af987",
+            "ebd69a89636bb4c2"
+        ],
+        "x": 1074,
+        "y": 839,
+        "w": 932,
+        "h": 162
+    },
+    {
         "id": "b411c6135a7823e0",
         "type": "ui_base",
         "theme": {
@@ -2776,7 +2804,7 @@
     {
         "id": "7a3c32bb77d2c5c3",
         "type": "ui_tab",
-        "name": "Ref Toggles",
+        "name": "Ref In-Match",
         "icon": "dashboard",
         "order": 6,
         "disabled": false,
@@ -2787,7 +2815,7 @@
         "type": "ui_group",
         "name": "Trees",
         "tab": "7a3c32bb77d2c5c3",
-        "order": 1,
+        "order": 2,
         "disp": true,
         "width": "10",
         "collapse": false,
@@ -2796,9 +2824,9 @@
     {
         "id": "13504c5753af441d",
         "type": "ui_group",
-        "name": "Trenches",
+        "name": "Trenches - if using LEDs",
         "tab": "7a3c32bb77d2c5c3",
-        "order": 3,
+        "order": 4,
         "disp": true,
         "width": "10",
         "collapse": false,
@@ -2850,7 +2878,7 @@
         "type": "ui_tab",
         "name": "Field Config",
         "icon": "dashboard",
-        "order": 7,
+        "order": 8,
         "disabled": false,
         "hidden": false
     },
@@ -2868,9 +2896,9 @@
     {
         "id": "bc2157348f251310",
         "type": "ui_group",
-        "name": "Auton Drop",
+        "name": "AVR Drone Multipliers",
         "tab": "7a3c32bb77d2c5c3",
-        "order": 4,
+        "order": 1,
         "disp": true,
         "width": "10",
         "collapse": false,
@@ -2881,21 +2909,11 @@
         "type": "ui_group",
         "name": "Recon Path",
         "tab": "7a3c32bb77d2c5c3",
-        "order": 2,
+        "order": 3,
         "disp": true,
         "width": "10",
         "collapse": false,
         "className": ""
-    },
-    {
-        "id": "e0883db7ca2464b0",
-        "type": "ui_spacer",
-        "z": "175af8efcea2d591",
-        "name": "spacer",
-        "group": "bc2157348f251310",
-        "order": 2,
-        "width": 5,
-        "height": 1
     },
     {
         "id": "d30d14b4d9e32e11",
@@ -2931,29 +2949,9 @@
     {
         "id": "1be2e91ab36f9525",
         "type": "ui_group",
-        "name": "Manual Scores",
-        "tab": "95bbab1e96305051",
-        "order": 1,
-        "disp": true,
-        "width": "10",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "95bbab1e96305051",
-        "type": "ui_tab",
-        "name": "Ref Manual Scores",
-        "icon": "dashboard",
-        "order": 8,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "58e7529b4df7d416",
-        "type": "ui_group",
-        "name": "Commit?",
-        "tab": "95bbab1e96305051",
-        "order": 2,
+        "name": "Manual Support Actions",
+        "tab": "7a3c32bb77d2c5c3",
+        "order": 6,
         "disp": true,
         "width": "10",
         "collapse": false,
@@ -3020,26 +3018,6 @@
         "width": "10",
         "collapse": false,
         "className": ""
-    },
-    {
-        "id": "619c8ab85da0d6eb",
-        "type": "ui_spacer",
-        "z": "175af8efcea2d591",
-        "name": "spacer",
-        "group": "ee9886ff6322a456",
-        "order": 2,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "c2a4b9255f508a14",
-        "type": "ui_spacer",
-        "z": "175af8efcea2d591",
-        "name": "spacer",
-        "group": "ee9886ff6322a456",
-        "order": 4,
-        "width": 3,
-        "height": 1
     },
     {
         "id": "d5eb4f8c4e11b4ae",
@@ -3111,6 +3089,78 @@
         "order": 12,
         "width": 3,
         "height": 1
+    },
+    {
+        "id": "c19441ece52a07db",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "ee9886ff6322a456",
+        "order": 2,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "32c8ebe4068248d4",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "ee9886ff6322a456",
+        "order": 4,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "3e2c5548135cbf0b",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "1e4da6b2e1809214",
+        "order": 2,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "e821029f11888de8",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "1e4da6b2e1809214",
+        "order": 4,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "8fa86af3c748052d",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "1e4da6b2e1809214",
+        "order": 6,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "dace923c9e4e1f1b",
+        "type": "ui_group",
+        "name": "Trenches - if Manual",
+        "tab": "7a3c32bb77d2c5c3",
+        "order": 5,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1213b465aeaf2ef2",
+        "type": "ui_group",
+        "name": "====== Commit? ======",
+        "tab": "7a3c32bb77d2c5c3",
+        "order": 7,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "ce07cf6a697c134e",
@@ -5503,7 +5553,9 @@
             "63e5d51d3c5537de",
             "d933fd6ba240e248",
             "b345dbc959763a12",
-            "f261d268c894a2ab"
+            "f261d268c894a2ab",
+            "9a60e2cbb3676d16",
+            "3731a8ad784af987"
         ],
         "x": 755,
         "y": 220,
@@ -6986,7 +7038,7 @@
         "z": "55a762ae72fa441b",
         "g": "a2191c93ea98c3cd",
         "group": "d5eb4f8c4e11b4ae",
-        "order": 2,
+        "order": 3,
         "width": "10",
         "height": 1,
         "name": "",
@@ -8377,7 +8429,9 @@
             "ab0f710e6dfb6139",
             "8dd1f8659cf326c1",
             "bf19941135fa14cc",
-            "d2abd74f26efbe3f"
+            "d2abd74f26efbe3f",
+            "335c51185ed320a8",
+            "8eb7370a2855c7d3"
         ],
         "x": 1375,
         "y": 140,
@@ -8442,7 +8496,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 480,
+        "x": 600,
         "y": 540,
         "wires": []
     },
@@ -8509,7 +8563,7 @@
         "z": "175af8efcea2d591",
         "g": "738dc520034f11a7",
         "group": "1e4da6b2e1809214",
-        "order": 2,
+        "order": 3,
         "width": 5,
         "height": 1,
         "name": "",
@@ -8517,8 +8571,63 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 660,
+        "x": 600,
         "y": 600,
+        "wires": []
+    },
+    {
+        "id": "335c51185ed320a8",
+        "type": "link in",
+        "z": "175af8efcea2d591",
+        "g": "738dc520034f11a7",
+        "name": "build the summary table",
+        "links": [
+            "46514258ddd5880b"
+        ],
+        "x": 185,
+        "y": 660,
+        "wires": [
+            [
+                "c948202a41d32b74"
+            ]
+        ]
+    },
+    {
+        "id": "c948202a41d32b74",
+        "type": "function",
+        "z": "175af8efcea2d591",
+        "g": "738dc520034f11a7",
+        "name": "Calc TREE Scores",
+        "func": "//--- Trees\nvar theTreeScore = global.get(\"otherScores.trees-left-1\") \n    + global.get(\"otherScores.trees-left-2\")\n    + global.get(\"otherScores.trees-right-1\")\n    + global.get(\"otherScores.trees-right-2\");\n\n// - Fin\nglobal.set(\"totalTreeScore\",theTreeScore);\nmsg.payload = theTreeScore;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 660,
+        "wires": [
+            [
+                "e96421f5b1cc5638"
+            ]
+        ]
+    },
+    {
+        "id": "e96421f5b1cc5638",
+        "type": "ui_text",
+        "z": "175af8efcea2d591",
+        "g": "738dc520034f11a7",
+        "group": "1e4da6b2e1809214",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Total Trees",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 660,
         "wires": []
     },
     {
@@ -10665,11 +10774,11 @@
         "z": "d32826a1611e0622",
         "g": "1e5cf91bef2d0b81",
         "name": "",
-        "label": "Auton Drop ON / OFF",
+        "label": "Auton Drop (Switch ON = Ball Drop x 2)",
         "tooltip": "",
         "group": "bc2157348f251310",
-        "order": 1,
-        "width": 5,
+        "order": 2,
+        "width": "10",
         "height": 1,
         "passthru": true,
         "decouple": "false",
@@ -10686,41 +10795,13 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 1340,
+        "x": 1520,
         "y": 660,
         "wires": [
             [
-                "404c09412d2ed62e",
                 "c9d158730c6fc6a5"
             ]
         ]
-    },
-    {
-        "id": "7f6ede1e92af6eac",
-        "type": "link in",
-        "z": "d32826a1611e0622",
-        "g": "1e5cf91bef2d0b81",
-        "name": "Check Auton Drop",
-        "links": [],
-        "x": 1175,
-        "y": 660,
-        "wires": [
-            [
-                "fd5ffabf4e8f6d4a"
-            ]
-        ]
-    },
-    {
-        "id": "404c09412d2ed62e",
-        "type": "link out",
-        "z": "d32826a1611e0622",
-        "g": "1e5cf91bef2d0b81",
-        "name": "Auton Drop checked",
-        "mode": "link",
-        "links": [],
-        "x": 1595,
-        "y": 660,
-        "wires": []
     },
     {
         "id": "c9d158730c6fc6a5",
@@ -10731,7 +10812,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "balldoubler",
+                "p": "waterDropMultiplier",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -10742,8 +10823,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1660,
-        "y": 720,
+        "x": 1830,
+        "y": 660,
         "wires": [
             []
         ]
@@ -10893,7 +10974,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "trees-left-1",
+                "p": "otherScores.trees-left-1",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -10904,7 +10985,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 460,
+        "x": 500,
         "y": 140,
         "wires": [
             []
@@ -10919,7 +11000,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "trees-left-2",
+                "p": "otherScores.trees-left-2",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -10930,7 +11011,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 460,
+        "x": 500,
         "y": 340,
         "wires": [
             []
@@ -10945,7 +11026,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "trees-right-2",
+                "p": "otherScores.trees-right-2",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -10956,7 +11037,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 980,
+        "x": 1020,
         "y": 340,
         "wires": [
             []
@@ -10971,7 +11052,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "trees-right-1",
+                "p": "otherScores.trees-right-1",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -10982,7 +11063,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 960,
+        "x": 1000,
         "y": 140,
         "wires": [
             []
@@ -11999,7 +12080,7 @@
         "label": "Water Tower R (12x)",
         "tooltip": "",
         "group": "1be2e91ab36f9525",
-        "order": 3,
+        "order": 2,
         "width": 5,
         "height": 1,
         "passthru": true,
@@ -12032,7 +12113,7 @@
         "label": "Tello Recon Path Completed (Autonomously)",
         "tooltip": "",
         "group": "1be2e91ab36f9525",
-        "order": 6,
+        "order": 3,
         "width": 10,
         "height": 1,
         "passthru": true,
@@ -12064,8 +12145,8 @@
         "name": "",
         "label": "Trench Cup 1 Filled",
         "tooltip": "",
-        "group": "1be2e91ab36f9525",
-        "order": 2,
+        "group": "dace923c9e4e1f1b",
+        "order": 1,
         "width": 5,
         "height": 1,
         "passthru": true,
@@ -12097,8 +12178,8 @@
         "name": "",
         "label": "Trench Cup 2 Filled",
         "tooltip": "",
-        "group": "1be2e91ab36f9525",
-        "order": 4,
+        "group": "dace923c9e4e1f1b",
+        "order": 2,
         "width": 5,
         "height": 1,
         "passthru": true,
@@ -12131,7 +12212,7 @@
         "label": "Park - Tello Drone",
         "tooltip": "",
         "group": "1be2e91ab36f9525",
-        "order": 8,
+        "order": 4,
         "width": 5,
         "height": 1,
         "passthru": true,
@@ -12164,7 +12245,7 @@
         "label": "Park - RVR Vehicle",
         "tooltip": "",
         "group": "1be2e91ab36f9525",
-        "order": 10,
+        "order": 6,
         "width": 5,
         "height": 1,
         "passthru": true,
@@ -12197,7 +12278,7 @@
         "label": "Park - AVR Drone",
         "tooltip": "",
         "group": "1be2e91ab36f9525",
-        "order": 12,
+        "order": 8,
         "width": 5,
         "height": 1,
         "passthru": true,
@@ -12230,7 +12311,7 @@
         "label": "Park - Sphero Mini 1",
         "tooltip": "",
         "group": "1be2e91ab36f9525",
-        "order": 9,
+        "order": 5,
         "width": 5,
         "height": 1,
         "passthru": true,
@@ -12263,7 +12344,7 @@
         "label": "Park - Sphero Mini 2",
         "tooltip": "",
         "group": "1be2e91ab36f9525",
-        "order": 11,
+        "order": 7,
         "width": 5,
         "height": 1,
         "passthru": true,
@@ -12296,7 +12377,7 @@
         "label": "Park - Sphero Mini 3",
         "tooltip": "",
         "group": "1be2e91ab36f9525",
-        "order": 13,
+        "order": 9,
         "width": 5,
         "height": 1,
         "passthru": true,
@@ -12464,7 +12545,7 @@
         "z": "d32826a1611e0622",
         "g": "b786c9d92d164f0e",
         "name": "Scores Ready Audio",
-        "group": "58e7529b4df7d416",
+        "group": "1213b465aeaf2ef2",
         "voice": "Google UK English Male",
         "always": false,
         "x": 940,
@@ -12535,8 +12616,8 @@
         "z": "d32826a1611e0622",
         "g": "b786c9d92d164f0e",
         "name": "",
-        "group": "58e7529b4df7d416",
-        "order": 1,
+        "group": "1213b465aeaf2ef2",
+        "order": 2,
         "width": "10",
         "height": "1",
         "passthru": false,
@@ -12555,6 +12636,168 @@
         "wires": [
             [
                 "98038077.751848"
+            ]
+        ]
+    },
+    {
+        "id": "9a38f2942ff4605f",
+        "type": "comment",
+        "z": "d32826a1611e0622",
+        "g": "f1e1af78cf930290",
+        "name": "LASER CANCEL",
+        "info": "",
+        "x": 1180,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "da1ab5f800be4343",
+        "type": "ui_switch",
+        "z": "d32826a1611e0622",
+        "g": "f1e1af78cf930290",
+        "name": "",
+        "label": "Laser Target (Switch ON = Targets ENABLED)",
+        "tooltip": "",
+        "group": "bc2157348f251310",
+        "order": 1,
+        "width": "10",
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1540,
+        "y": 960,
+        "wires": [
+            [
+                "bcc47bf7cad06ac1"
+            ]
+        ]
+    },
+    {
+        "id": "bcc47bf7cad06ac1",
+        "type": "change",
+        "z": "d32826a1611e0622",
+        "g": "f1e1af78cf930290",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "laserHitMultiplier",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1860,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9a60e2cbb3676d16",
+        "type": "link in",
+        "z": "d32826a1611e0622",
+        "g": "1e5cf91bef2d0b81",
+        "name": "Reset UI - auton drop",
+        "links": [
+            "9296e95263e5ddc7"
+        ],
+        "x": 1185,
+        "y": 620,
+        "wires": [
+            [
+                "cabc9379e91bfd5e"
+            ]
+        ]
+    },
+    {
+        "id": "cabc9379e91bfd5e",
+        "type": "change",
+        "z": "d32826a1611e0622",
+        "g": "1e5cf91bef2d0b81",
+        "name": "reset",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1270,
+        "y": 620,
+        "wires": [
+            [
+                "fd5ffabf4e8f6d4a"
+            ]
+        ]
+    },
+    {
+        "id": "3731a8ad784af987",
+        "type": "link in",
+        "z": "d32826a1611e0622",
+        "g": "f1e1af78cf930290",
+        "name": "Reset UI - laser cancel",
+        "links": [
+            "9296e95263e5ddc7"
+        ],
+        "x": 1185,
+        "y": 920,
+        "wires": [
+            [
+                "ebd69a89636bb4c2"
+            ]
+        ]
+    },
+    {
+        "id": "ebd69a89636bb4c2",
+        "type": "change",
+        "z": "d32826a1611e0622",
+        "g": "f1e1af78cf930290",
+        "name": "reset",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1270,
+        "y": 920,
+        "wires": [
+            [
+                "da1ab5f800be4343"
             ]
         ]
     },
