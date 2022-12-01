@@ -453,7 +453,7 @@
             "ba9de4c0d6c59f58"
         ],
         "x": 94,
-        "y": 819,
+        "y": 459,
         "w": 652,
         "h": 182
     },
@@ -6987,7 +6987,7 @@
         "g": "a2191c93ea98c3cd",
         "group": "d5eb4f8c4e11b4ae",
         "order": 2,
-        "width": 5,
+        "width": "10",
         "height": 1,
         "name": "",
         "label": "Second Bldgs -> 2 Wndws:",
@@ -8299,7 +8299,7 @@
         "name": "Overall Scoring Summaries",
         "info": "",
         "x": 230,
-        "y": 860,
+        "y": 500,
         "wires": []
     },
     {
@@ -8421,7 +8421,7 @@
             "46514258ddd5880b"
         ],
         "x": 185,
-        "y": 900,
+        "y": 540,
         "wires": [
             [
                 "02424c99509bf97f"
@@ -8443,7 +8443,7 @@
         "layout": "row-spread",
         "className": "",
         "x": 480,
-        "y": 900,
+        "y": 540,
         "wires": []
     },
     {
@@ -8452,14 +8452,14 @@
         "z": "175af8efcea2d591",
         "g": "738dc520034f11a7",
         "name": "Calc total FS",
-        "func": "\n// --- Set up vars\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar theTotalFS = 0;\n\n// --- Loop through all buildings, add up total FS\nfor (var i in bldgs) {\n    var thePixels = global.get(bldgs[i]+\".Lights.GutterPixels\");\n    \n    for (var j=0; j<30; j++) {\n        if(thePixels.charAt(j) == \"3\" || thePixels.charAt(j) == \"4\") {\n            theTotalFS += 1;\n        }\n    }\n}\n\n// Fin\nglobal.set(\"totalFS\",theTotalFS);\nmsg.payload = theTotalFS;\nreturn msg;",
+        "func": "/* \n===== OBSOLETE METHOD ======\n\n// --- Set up vars\nvar bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar theTotalFS = 0;\n\n// --- Loop through all buildings, add up total FS\nfor (var i in bldgs) {\n    var thePixels = global.get(bldgs[i]+\".Lights.GutterPixels\");\n    \n    for (var j=0; j<30; j++) {\n        if(thePixels.charAt(j) == \"3\" || thePixels.charAt(j) == \"4\") {\n            theTotalFS += 1;\n        }\n    }\n}\n*/\n\n//--- Vars\nvar allBldgs = global.get(\"allBldgs\");\nvar totalFS = 0;\n\n// --- Loop through all buildings, add up total FS\nfor (var i in allBldgs) {\n    totalFS += global.get(allBldgs[i] + \".FS.Total\");\n}\n\n// Fin\nglobal.set(\"totalFS\",totalFS);\nmsg.payload = totalFS;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 310,
-        "y": 900,
+        "y": 540,
         "wires": [
             [
                 "4f56704568189cfc"
@@ -8476,7 +8476,7 @@
             "46514258ddd5880b"
         ],
         "x": 185,
-        "y": 960,
+        "y": 600,
         "wires": [
             [
                 "931aa0aecec7203f"
@@ -8489,14 +8489,14 @@
         "z": "175af8efcea2d591",
         "g": "738dc520034f11a7",
         "name": "Calc Fire CLEAR Score",
-        "func": "var theClearScore = 0;\n\n// --- Invert the totalFS based on which phase\n// ----------- Best way to fix this in the future: make this part just calculate a \n//              \"current FCS\" / \"invert FS\", then add the FS from the previous phases in / do the other math\n/// ========= THIS IS DOUBLE COUNTING BECAUSE PHASES 1 AND 2 ASSUME ONLY \n///           ONE SIDE OF BLDGS WORTH OF FS, BUT PHASE 3 IS DOUBLED\n///           BECAUSE GAME\n//node.warn(global.get(\"matchPhase\"));\n//node.warn(global.get(\"totalFS\"));\nswitch (global.get(\"matchPhase\")) {\n    case 1:\n        theClearScore = 96 - global.get(\"totalFS\");\n        break;\n    case 2:\n        theClearScore = 96 + (96 - global.get(\"totalFS\"));\n        break;\n    case 3:\n        theClearScore = 96 + 96 + (96 - global.get(\"totalFS\"));\n        break;\n    default:\n        break;\n}\n\n\n// bandaids on bandaids math wheeee\ntheClearScore = Math.floor(theClearScore / 2);\ntheClearScore = theClearScore + global.get(\"trees-left-1\") + global.get(\"trees-left-2\") + global.get(\"trees-right-1\") + global.get(\"trees-right-2\");\n\n//node.warn(theClearScore);\n\n// - Fin\nmsg.payload = theClearScore;\nreturn msg;",
+        "func": "var theClearScore = 0;\n\n// --- Invert the totalFS based on which phase\n// Assumes that after passing each phase, you get the full 48 \n// Phase 3 is doubled because game\nswitch (global.get(\"matchPhase\")) {\n    case 1:\n        theClearScore = 48 - global.get(\"totalFS\");\n        break;\n    case 2:\n        theClearScore = 48 + (48 - global.get(\"totalFS\"));\n        break;\n    case 3:\n        theClearScore = 48 + 48 + (96 - global.get(\"totalFS\"));\n        break;\n    default:\n        break;\n}\n\n\n/* === OBSOLETE === GOING TO REPLACE THIS WITH \"ADDITIONAL SCORES'\"\n// bandaids on bandaids math wheeee\ntheClearScore = Math.floor(theClearScore / 2);\ntheClearScore = theClearScore + global.get(\"trees-left-1\") + global.get(\"trees-left-2\") + global.get(\"trees-right-1\") + global.get(\"trees-right-2\");\n*/ \n\n//node.warn(theClearScore);\n\n// - Fin\nglobal.set(\"totalFCS\",theClearScore);\nmsg.payload = theClearScore;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 350,
-        "y": 960,
+        "y": 600,
         "wires": [
             [
                 "ba9de4c0d6c59f58"
@@ -8518,7 +8518,7 @@
         "layout": "row-spread",
         "className": "",
         "x": 660,
-        "y": 960,
+        "y": 600,
         "wires": []
     },
     {
