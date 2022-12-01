@@ -454,12 +454,24 @@
             "ba9de4c0d6c59f58",
             "335c51185ed320a8",
             "c948202a41d32b74",
-            "e96421f5b1cc5638"
+            "e96421f5b1cc5638",
+            "e0e7e35adef304a9",
+            "4750396fae0ef237",
+            "e22227e6f212b93a",
+            "179e3c691528ed8c",
+            "6bba13cd04fa6ab5",
+            "fadd8a32d3d46027",
+            "a8a22ce451b989b0",
+            "0d7f3a3eeffb4b61",
+            "bd01b685ccce5fb1",
+            "130f448ef332193e",
+            "a4fe384aca70204a",
+            "535c9e2bfde164cc"
         ],
         "x": 94,
         "y": 459,
-        "w": 612,
-        "h": 242
+        "w": 732,
+        "h": 522
     },
     {
         "id": "cb9c0c3b1fe84ccc",
@@ -1277,7 +1289,9 @@
             "5d7f259652fefaf7",
             "fc3d4541c36ad1be",
             "ea32926a4d024a07",
-            "4935b6c48ff42ece"
+            "4935b6c48ff42ece",
+            "1b796fd5989bdad9",
+            "b0caec5b5ce21c95"
         ],
         "x": 84,
         "y": 2519,
@@ -3121,56 +3135,6 @@
         "height": 1
     },
     {
-        "id": "c19441ece52a07db",
-        "type": "ui_spacer",
-        "z": "175af8efcea2d591",
-        "name": "spacer",
-        "group": "ee9886ff6322a456",
-        "order": 2,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "32c8ebe4068248d4",
-        "type": "ui_spacer",
-        "z": "175af8efcea2d591",
-        "name": "spacer",
-        "group": "ee9886ff6322a456",
-        "order": 4,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "3e2c5548135cbf0b",
-        "type": "ui_spacer",
-        "z": "175af8efcea2d591",
-        "name": "spacer",
-        "group": "1e4da6b2e1809214",
-        "order": 2,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "e821029f11888de8",
-        "type": "ui_spacer",
-        "z": "175af8efcea2d591",
-        "name": "spacer",
-        "group": "1e4da6b2e1809214",
-        "order": 4,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "8fa86af3c748052d",
-        "type": "ui_spacer",
-        "z": "175af8efcea2d591",
-        "name": "spacer",
-        "group": "1e4da6b2e1809214",
-        "order": 6,
-        "width": 5,
-        "height": 1
-    },
-    {
         "id": "dace923c9e4e1f1b",
         "type": "ui_group",
         "name": "--- Trenches - if Manual ---",
@@ -3213,6 +3177,66 @@
         "width": "10",
         "collapse": false,
         "className": ""
+    },
+    {
+        "id": "99ae33916b762a02",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "ee9886ff6322a456",
+        "order": 2,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "76cb7876d40ef10d",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "ee9886ff6322a456",
+        "order": 4,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "2236ea3a72fba768",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "1e4da6b2e1809214",
+        "order": 4,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "a748b086754be580",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "1e4da6b2e1809214",
+        "order": 6,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "28090a9c868e9b0c",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "1e4da6b2e1809214",
+        "order": 8,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "8b8ab8d01397ec77",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "1e4da6b2e1809214",
+        "order": 10,
+        "width": 5,
+        "height": 1
     },
     {
         "id": "ce07cf6a697c134e",
@@ -8007,7 +8031,11 @@
             "bf19941135fa14cc",
             "d2abd74f26efbe3f",
             "335c51185ed320a8",
-            "8eb7370a2855c7d3"
+            "8eb7370a2855c7d3",
+            "e0e7e35adef304a9",
+            "179e3c691528ed8c",
+            "a8a22ce451b989b0",
+            "130f448ef332193e"
         ],
         "x": 1375,
         "y": 140,
@@ -8064,7 +8092,7 @@
         "z": "175af8efcea2d591",
         "g": "738dc520034f11a7",
         "group": "1e4da6b2e1809214",
-        "order": 1,
+        "order": 2,
         "width": 5,
         "height": 1,
         "name": "",
@@ -8139,7 +8167,7 @@
         "z": "175af8efcea2d591",
         "g": "738dc520034f11a7",
         "group": "1e4da6b2e1809214",
-        "order": 3,
+        "order": 1,
         "width": 5,
         "height": 1,
         "name": "",
@@ -8194,7 +8222,7 @@
         "z": "175af8efcea2d591",
         "g": "738dc520034f11a7",
         "group": "1e4da6b2e1809214",
-        "order": 5,
+        "order": 3,
         "width": 5,
         "height": 1,
         "name": "",
@@ -8204,6 +8232,226 @@
         "className": "",
         "x": 610,
         "y": 660,
+        "wires": []
+    },
+    {
+        "id": "e0e7e35adef304a9",
+        "type": "link in",
+        "z": "175af8efcea2d591",
+        "g": "738dc520034f11a7",
+        "name": "build the summary table",
+        "links": [
+            "46514258ddd5880b"
+        ],
+        "x": 185,
+        "y": 780,
+        "wires": [
+            [
+                "4750396fae0ef237"
+            ]
+        ]
+    },
+    {
+        "id": "4750396fae0ef237",
+        "type": "function",
+        "z": "175af8efcea2d591",
+        "g": "738dc520034f11a7",
+        "name": "Calc RECON / TRENCH Scores",
+        "func": "\nvar theReconTrenchScore = 0;\n\ntheReconTrenchScore = global.get(\"otherScores.TelloPathCompleted\") \n    + global.get(\"otherScores.Trench-1\")\n    + global.get(\"otherScores.Trench-1-Auton\")\n    + global.get(\"otherScores.Trench-2\")\n    + global.get(\"otherScores.Trench-2-Auton\");\n\n// - Fin\nglobal.set(\"totalReconTrenchScore\", theReconTrenchScore);\nmsg.payload = theReconTrenchScore;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 780,
+        "wires": [
+            [
+                "e22227e6f212b93a"
+            ]
+        ]
+    },
+    {
+        "id": "e22227e6f212b93a",
+        "type": "ui_text",
+        "z": "175af8efcea2d591",
+        "g": "738dc520034f11a7",
+        "group": "1e4da6b2e1809214",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Total Recon & Trench",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 640,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "179e3c691528ed8c",
+        "type": "link in",
+        "z": "175af8efcea2d591",
+        "g": "738dc520034f11a7",
+        "name": "build the summary table",
+        "links": [
+            "46514258ddd5880b"
+        ],
+        "x": 185,
+        "y": 720,
+        "wires": [
+            [
+                "6bba13cd04fa6ab5"
+            ]
+        ]
+    },
+    {
+        "id": "6bba13cd04fa6ab5",
+        "type": "function",
+        "z": "175af8efcea2d591",
+        "g": "738dc520034f11a7",
+        "name": "Calc WATER TOWER Scores",
+        "func": "\nvar theWaterTowerScore = 0;\n\ntheWaterTowerScore =\n    global.get(\"otherScores.WaterTower-L\")\n    + global.get(\"otherScores.WaterTower-L-Auton\")\n    + global.get(\"otherScores.WaterTower-R\")\n    + global.get(\"otherScores.WaterTower-R-Auton\");\n\n// - Fin\nglobal.set(\"totalWaterTowerScore\", theWaterTowerScore);\nmsg.payload = theWaterTowerScore;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 720,
+        "wires": [
+            [
+                "fadd8a32d3d46027"
+            ]
+        ]
+    },
+    {
+        "id": "fadd8a32d3d46027",
+        "type": "ui_text",
+        "z": "175af8efcea2d591",
+        "g": "738dc520034f11a7",
+        "group": "1e4da6b2e1809214",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Total Water Tower",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 630,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "a8a22ce451b989b0",
+        "type": "link in",
+        "z": "175af8efcea2d591",
+        "g": "738dc520034f11a7",
+        "name": "build the summary table",
+        "links": [
+            "46514258ddd5880b"
+        ],
+        "x": 185,
+        "y": 840,
+        "wires": [
+            [
+                "0d7f3a3eeffb4b61"
+            ]
+        ]
+    },
+    {
+        "id": "0d7f3a3eeffb4b61",
+        "type": "function",
+        "z": "175af8efcea2d591",
+        "g": "738dc520034f11a7",
+        "name": "Calc PARKING Scores",
+        "func": "\nvar theParkingScore = 0;\n\ntheParkingScore = global.get(\"otherScores.Park-Tello\") \n    + global.get(\"otherScores.Park-RVR\")\n    + global.get(\"otherScores.Park-AVR\")\n    + global.get(\"otherScores.Park-Mini-1\")\n    + global.get(\"otherScores.Park-Mini-2\")\n    + global.get(\"otherScores.Park-Mini-3\");\n\n// - Fin\nglobal.set(\"totalParkingScore\", theParkingScore);\nmsg.payload = theParkingScore;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 840,
+        "wires": [
+            [
+                "bd01b685ccce5fb1"
+            ]
+        ]
+    },
+    {
+        "id": "bd01b685ccce5fb1",
+        "type": "ui_text",
+        "z": "175af8efcea2d591",
+        "g": "738dc520034f11a7",
+        "group": "1e4da6b2e1809214",
+        "order": 9,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Total Parking",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 610,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "130f448ef332193e",
+        "type": "link in",
+        "z": "175af8efcea2d591",
+        "g": "738dc520034f11a7",
+        "name": "build the summary table",
+        "links": [
+            "46514258ddd5880b"
+        ],
+        "x": 185,
+        "y": 940,
+        "wires": [
+            [
+                "a4fe384aca70204a"
+            ]
+        ]
+    },
+    {
+        "id": "a4fe384aca70204a",
+        "type": "function",
+        "z": "175af8efcea2d591",
+        "g": "738dc520034f11a7",
+        "name": "Calc TOTAL DOT TOTAL",
+        "func": "\nvar theTotalScore = 0;\n\ntheTotalScore = global.get(\"totalFCS\") \n    + global.get(\"totalTreeScore\")\n    + global.get(\"totalWaterTowerScore\") \n    + global.get(\"totalReconTrenchScore\")\n    + global.get(\"totalParkingScore\");\n\n// - Fin\nglobal.set(\"TOTALSCORE\", theTotalScore);\nmsg.payload = theTotalScore;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 940,
+        "wires": [
+            [
+                "535c9e2bfde164cc"
+            ]
+        ]
+    },
+    {
+        "id": "535c9e2bfde164cc",
+        "type": "ui_text",
+        "z": "175af8efcea2d591",
+        "g": "738dc520034f11a7",
+        "group": "1e4da6b2e1809214",
+        "order": 9,
+        "width": "10",
+        "height": 1,
+        "name": "",
+        "label": "TOTAL SCORE FROM FIELD",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 670,
+        "y": 940,
         "wires": []
     },
     {
@@ -12831,6 +13079,7 @@
         "id": "b0caec5b5ce21c95",
         "type": "ui_switch",
         "z": "d32826a1611e0622",
+        "g": "9e4ed901b9748060",
         "name": "",
         "label": "TrenchCup 1 (Auton+)",
         "tooltip": "",
@@ -12843,7 +13092,7 @@
         "topic": "topic",
         "topicType": "msg",
         "style": "",
-        "onvalue": "5",
+        "onvalue": "4",
         "onvalueType": "num",
         "onicon": "",
         "oncolor": "",
@@ -12891,6 +13140,7 @@
         "id": "1b796fd5989bdad9",
         "type": "ui_switch",
         "z": "d32826a1611e0622",
+        "g": "9e4ed901b9748060",
         "name": "",
         "label": "TrenchCup 2 (Auton)",
         "tooltip": "",
@@ -12903,7 +13153,7 @@
         "topic": "topic",
         "topicType": "msg",
         "style": "",
-        "onvalue": "5",
+        "onvalue": "4",
         "onvalueType": "num",
         "onicon": "",
         "oncolor": "",
