@@ -138,8 +138,8 @@
             "9296e95263e5ddc7",
             "b06a20262c7c11b3"
         ],
-        "x": 74,
-        "y": 59,
+        "x": 34,
+        "y": 19,
         "w": 762,
         "h": 242
     },
@@ -164,7 +164,7 @@
             "28011fcca82837fc"
         ],
         "x": 34,
-        "y": 359,
+        "y": 299,
         "w": 1638,
         "h": 868
     },
@@ -405,41 +405,6 @@
         "y": 399,
         "w": 812,
         "h": 122
-    },
-    {
-        "id": "e6f0aa02159bc664",
-        "type": "group",
-        "z": "55a762ae72fa441b",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "d236e6eee53270f4",
-            "f31e8c8e319d93ce",
-            "971728897ecf9437",
-            "2badacc9a7cff346",
-            "66a6c020170412e9",
-            "9b2dd509237ea4ba",
-            "75bb4dcf27e09311",
-            "c9cff8053a0560cc",
-            "cd6470a4dd6dcf5a",
-            "a0b22b12a042c73b",
-            "d50e20b89aafa29b",
-            "4c742ebce9027c25",
-            "42523d902813f067",
-            "7f75fe4b5a721d2d",
-            "28af28cc8618a072"
-        ],
-        "x": 104,
-        "y": 4679,
-        "w": 1842,
-        "h": 322
     },
     {
         "id": "b16460b067e3329b",
@@ -1618,7 +1583,7 @@
             "f3f8bdcc8f8d1713"
         ],
         "x": 94,
-        "y": 759,
+        "y": 699,
         "w": 1552,
         "h": 442
     },
@@ -1644,7 +1609,7 @@
             "5d34c40fa95adf3b"
         ],
         "x": 94,
-        "y": 599,
+        "y": 539,
         "w": 732,
         "h": 122
     },
@@ -1673,7 +1638,7 @@
             "d3ed72bb430a14d5"
         ],
         "x": 94,
-        "y": 439,
+        "y": 379,
         "w": 972,
         "h": 142
     },
@@ -1818,8 +1783,8 @@
             "3067707184cd6d97",
             "3cd3774d5a3cdd30"
         ],
-        "x": 114,
-        "y": 1259,
+        "x": 34,
+        "y": 1219,
         "w": 2102,
         "h": 682
     },
@@ -1858,8 +1823,8 @@
             "a360df724bcd3f11",
             "b0e7c4943b7665f1"
         ],
-        "x": 114,
-        "y": 1999,
+        "x": 74,
+        "y": 1939,
         "w": 1658,
         "h": 1108
     },
@@ -1879,8 +1844,8 @@
             "b168987c1df43253",
             "374ad7109c8ae83c"
         ],
-        "x": 1054,
-        "y": 2259,
+        "x": 1014,
+        "y": 2199,
         "w": 692,
         "h": 162
     },
@@ -1905,8 +1870,8 @@
             "dd60a83720551880",
             "6d4dee2de447ea5a"
         ],
-        "x": 1054,
-        "y": 2579,
+        "x": 1014,
+        "y": 2519,
         "w": 692,
         "h": 162
     },
@@ -1931,8 +1896,8 @@
             "9561806327b7b373",
             "70bc3c0ac1f6d076"
         ],
-        "x": 1054,
-        "y": 2919,
+        "x": 1014,
+        "y": 2859,
         "w": 692,
         "h": 162
     },
@@ -2093,8 +2058,8 @@
             "03645d32361c5729",
             "ba931823ae11d4ea"
         ],
-        "x": 1834,
-        "y": 659,
+        "x": 2354,
+        "y": 1219,
         "w": 942,
         "h": 522
     },
@@ -2199,12 +2164,14 @@
             "a7d99a942f016eff",
             "324b291666bc0fed",
             "e89ef88e113cdc1b",
-            "7e6d1d3441627a31"
+            "7e6d1d3441627a31",
+            "0a6864fb4c9b42f4",
+            "8149df671154d345"
         ],
-        "x": 2134,
-        "y": 1979,
-        "w": 762,
-        "h": 142
+        "x": 2354,
+        "y": 1839,
+        "w": 922,
+        "h": 162
     },
     {
         "id": "3c736f3f8fb9049f",
@@ -2230,8 +2197,8 @@
             "32f4fcba179c05b8",
             "9379e4327f29e381"
         ],
-        "x": 314,
-        "y": 3219,
+        "x": 234,
+        "y": 3199,
         "w": 792,
         "h": 242
     },
@@ -2266,12 +2233,15 @@
             "b1d4327dc1405be1",
             "983cbe2243285f7b",
             "1b35a7773e0b1611",
-            "3c736f3f8fb9049f"
+            "3c736f3f8fb9049f",
+            "dad89c1138e7e4f8",
+            "8129aa3f03a57ebd",
+            "a083f800833c1fc5"
         ],
-        "x": 114,
-        "y": 3139,
-        "w": 2232,
-        "h": 422
+        "x": 34,
+        "y": 3119,
+        "w": 2312,
+        "h": 442
     },
     {
         "id": "04cf701b8b094633",
@@ -2289,8 +2259,8 @@
             "5f254d40c5e8240f",
             "5f46218c00bd82e5"
         ],
-        "x": 1174,
-        "y": 3819,
+        "x": 674,
+        "y": 3759,
         "w": 692,
         "h": 162
     },
@@ -2360,8 +2330,8 @@
             "6494ec07de55a20b",
             "ad244be403c702a2"
         ],
-        "x": 2134,
-        "y": 2159,
+        "x": 2354,
+        "y": 2079,
         "w": 912,
         "h": 162
     },
@@ -2381,8 +2351,8 @@
             "580da0b3754a5818",
             "4754a91b730752ea"
         ],
-        "x": 1174,
-        "y": 4099,
+        "x": 674,
+        "y": 4039,
         "w": 692,
         "h": 162
     },
@@ -2402,8 +2372,8 @@
             "d2fe120e88698aeb",
             "4e2f97a180d92ce0"
         ],
-        "x": 1174,
-        "y": 4379,
+        "x": 674,
+        "y": 4319,
         "w": 692,
         "h": 162
     },
@@ -2434,12 +2404,113 @@
             "dc03f1f4c896cdb8",
             "04cf701b8b094633",
             "c0996267b091c9c3",
-            "914422360e75360c"
+            "914422360e75360c",
+            "8034e63b9a0a6a07",
+            "f770371e8cd2e3c8",
+            "834a4d8218917cc2"
         ],
-        "x": 454,
-        "y": 3639,
-        "w": 1438,
+        "x": 94,
+        "y": 3579,
+        "w": 1298,
         "h": 928
+    },
+    {
+        "id": "e6f0aa02159bc664",
+        "type": "group",
+        "z": "26a7e7275cb541d0",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "d236e6eee53270f4",
+            "f31e8c8e319d93ce",
+            "971728897ecf9437",
+            "2badacc9a7cff346",
+            "66a6c020170412e9",
+            "9b2dd509237ea4ba",
+            "75bb4dcf27e09311",
+            "c9cff8053a0560cc",
+            "cd6470a4dd6dcf5a",
+            "a0b22b12a042c73b",
+            "d50e20b89aafa29b",
+            "4c742ebce9027c25",
+            "42523d902813f067",
+            "28af28cc8618a072",
+            "28862dd1f1f894b4"
+        ],
+        "x": 84,
+        "y": 2419,
+        "w": 1302,
+        "h": 322
+    },
+    {
+        "id": "661aa04cb7a21daf",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "244d4b05f8a5b661",
+            "a77816d2d55d2269",
+            "4ecb30f2fa83e7d5",
+            "ecbe93f38efb9fef",
+            "30dec06ecdfd023b",
+            "6bb90e49f6dd6579",
+            "56af08aa5b3e0733",
+            "e0a3a06def398ebe",
+            "8f5501eb7723b27a",
+            "93b41a186984a67e",
+            "53fea78f00015603",
+            "fdce46b507084b4f",
+            "a75cdd2e2fc7e9a8",
+            "408240b3888622ce"
+        ],
+        "x": 34,
+        "y": 4539,
+        "w": 2022,
+        "h": 422
+    },
+    {
+        "id": "93b41a186984a67e",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "g": "661aa04cb7a21daf",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "b4298b54f0fedfd1",
+            "17efe76a856eadfe",
+            "88a6bd1c878e3fef",
+            "81693e58d454fce2",
+            "86621e1005278448",
+            "3101ced9397172da",
+            "309dc99dff061d40",
+            "f706ca3c8999dcb1"
+        ],
+        "x": 234,
+        "y": 4619,
+        "w": 792,
+        "h": 242
     },
     {
         "id": "b411c6135a7823e0",
@@ -3256,8 +3327,8 @@
         "resendOnRefresh": false,
         "templateScope": "global",
         "className": "",
-        "x": 300,
-        "y": 140,
+        "x": 260,
+        "y": 100,
         "wires": [
             []
         ],
@@ -3269,10 +3340,10 @@
         "type": "comment",
         "z": "55a762ae72fa441b",
         "g": "6f159bf7a82f4dfa",
-        "name": "MVP Step 3 - Queue Match Steps",
+        "name": "=== QUEUE MATCH",
         "info": "",
-        "x": 200,
-        "y": 400,
+        "x": 160,
+        "y": 340,
         "wires": []
     },
     {
@@ -3283,7 +3354,7 @@
         "name": "Heater",
         "info": "",
         "x": 170,
-        "y": 640,
+        "y": 580,
         "wires": []
     },
     {
@@ -3294,7 +3365,7 @@
         "name": "Pick a Side",
         "info": "",
         "x": 180,
-        "y": 480,
+        "y": 420,
         "wires": []
     },
     {
@@ -3319,8 +3390,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 230,
-        "y": 180,
+        "x": 190,
+        "y": 140,
         "wires": [
             [
                 "672af1a8627b7e63"
@@ -3339,8 +3410,8 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\n\n//--- Initialize global variables\n// - General / Manual mode / Utilities\nglobal.set(\"DEBUG\",true);\nglobal.set(\"manualMode.lightBldgAction\",\"1-OFF\");\n\n// - Match / field info         \nglobal.set(\"droneActiveSide\", \"[N/A]\");    //L or R - formerly startSide    \nglobal.set(\"droneNonActiveSide\", \"R\"); //L or R - formerly otherSide \nglobal.set(\"startRoute\", \"T\"); // T or B\nglobal.set(\"hotBldg\", \"T\");    // T or B\nglobal.set(\"matchPhase\",0);    // formerly curPhase - 0, 1, 2, or 3 (0 is inactive, otherwise phase #)\nglobal.set(\"totalPoints\",0);   // formerly totalFS\nglobal.set(\"ballDropMultiplier\", 1.0); // formerly ballDoubler\nglobal.set(\"laserHitMultiplier\", 1.0);  // formerly ballDoubler ish\nglobal.set(\"timeElapsed\", 0);\nglobal.set(\"burnTimeTarget\", 9999);\nglobal.set(\"fireWindowSpreadDelay\", 30);  // # of seconds to spread fire to next window\nglobal.set(\"fireBuildingSpreadDelay\", 0); // # of seconds to spread fire to next building, 0 means no \nglobal.set(\"windowsPerBuilding\", 2);\nglobal.set(\"laserSensitivity\", 500);\n\n// - OBSOLETE match-specific\n/*\nglobal.set(\"startside\",\"L\");   // replaced by droneActiveSide\nglobal.set(\"otherSide\", \"R\");  // replaced by droneNonActiveSide\nglobal.set(\"curPhase\", 0);     // replaced by matchPhase\nglobal.set(\"totalFS\", 0);      // replaced by totalPoints\nglobal.set(\"balldoubler\", 1);  // replaced by waterDropMultiplier and laserHitMultiplier\n*/\n\n// - Building arrays / info\nvar rightBldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\"];\nvar leftBldgs = [\"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nvar allBldgs = rightBldgs.concat(leftBldgs);\nvar heaterBldgs = [\"RTO\", \"RBO\", \"LBO\", \"LTO\"];\nvar laserBldgs = [\"LBO\", \"LBM\", \"LTM\", \"RTO\", \"RBM\", \"RTM\"];\nvar waterBldgs = [\"LTO\", \"LBI\", \"LTI\", \"RBO\", \"RBI\", \"RTI\"];\nvar trenchBldgs = [\"LTT\", \"RTT\"];\nglobal.set(\"rightBldgs\", rightBldgs);\nglobal.set(\"leftBldgs\", leftBldgs);\nglobal.set(\"allBldgs\", allBldgs);\nglobal.set(\"heaterBldgs\", heaterBldgs);\nglobal.set(\"laserBldgs\", laserBldgs);\nglobal.set(\"waterBldgs\", waterBldgs);\nglobal.set(\"trenchBldgs\",trenchBldgs);\n\n// - Specific building attributes\nfor (var i in allBldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(allBldgs[i] + \".Status\", \"Dormant\");\n\n    //Fire scores -- POSSIBLY BECOMING OBSOLETE?\n    /* \n    global.set(allBldgs[i] + \".FS.Window1-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-BeforeWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window1-AfterWater\", 0);\n    global.set(allBldgs[i] + \".FS.Window2-AfterWater\", 0);\n    global.set(allBldgs[i] + \".Damage\", 0);\n    */\n    global.set(allBldgs[i] + \".FS.Total\", 0);\n\n    //FirePixels -- NEW\n    global.set(allBldgs[i] + \".FirePixels.TotalBeforeWater\", 0);\n    global.set(allBldgs[i] + \".FirePixels.TotalAfterWater\", 0);\n\n    // Water qtys - int\n    global.set(allBldgs[i] + \".WaterQty\", 0);\n\n    // Lights - Windows\n    global.set(allBldgs[i] + \".Lights.Window1\",\"OFF\");\n    global.set(allBldgs[i] + \".Lights.Window2\", \"OFF\");\n\n    // Lights - Gutterpixels - string of numbers that represent colors\n    global.set(allBldgs[i] + \".Lights.GutterPixels\", \"000000000000000000000000000000\");\n}\nfor (var i in trenchBldgs) {\n    global.set(trenchBldgs[i] + \".GutterPixels\", \"000000000000000000000000000000\");\n}\n\n\n// - Fin (to trigger all the reset link nodes)\nreturn null;\n",
         "finalize": "",
         "libs": [],
-        "x": 450,
-        "y": 180,
+        "x": 410,
+        "y": 140,
         "wires": [
             [
                 "da02d40547f5f97a",
@@ -3356,8 +3427,8 @@
         "g": "4a4f80625f8ea163",
         "name": "Configuration / INITIALIZATION",
         "info": "",
-        "x": 230,
-        "y": 100,
+        "x": 190,
+        "y": 60,
         "wires": []
     },
     {
@@ -3368,7 +3439,7 @@
         "name": "Heater On",
         "info": "",
         "x": 180,
-        "y": 800,
+        "y": 740,
         "wires": []
     },
     {
@@ -3399,7 +3470,7 @@
         "animate": false,
         "className": "",
         "x": 220,
-        "y": 520,
+        "y": 460,
         "wires": [
             [
                 "6ee9ecd341bb2e5c"
@@ -3441,7 +3512,7 @@
         "to": "",
         "reg": false,
         "x": 510,
-        "y": 500,
+        "y": 440,
         "wires": [
             [
                 "4173a50514c384c6"
@@ -3468,7 +3539,7 @@
         "repair": false,
         "outputs": 2,
         "x": 370,
-        "y": 520,
+        "y": 460,
         "wires": [
             [
                 "8d1b28dd96f6b81e"
@@ -3513,7 +3584,7 @@
         "to": "",
         "reg": false,
         "x": 510,
-        "y": 540,
+        "y": 480,
         "wires": [
             [
                 "4173a50514c384c6"
@@ -3542,7 +3613,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 270,
-        "y": 680,
+        "y": 620,
         "wires": [
             [
                 "e0c6c1515d7fb9ae"
@@ -3562,7 +3633,7 @@
         "finalize": "",
         "libs": [],
         "x": 500,
-        "y": 680,
+        "y": 620,
         "wires": [
             [
                 "6d2a234344182486"
@@ -3584,7 +3655,7 @@
         "layout": "row-spread",
         "className": "",
         "x": 720,
-        "y": 680,
+        "y": 620,
         "wires": []
     },
     {
@@ -3595,7 +3666,7 @@
         "name": "Note - these all also update globals",
         "info": "",
         "x": 520,
-        "y": 400,
+        "y": 340,
         "wires": []
     },
     {
@@ -3620,7 +3691,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 290,
-        "y": 880,
+        "y": 820,
         "wires": [
             [
                 "1399d03d81d48081"
@@ -3640,7 +3711,7 @@
         "finalize": "",
         "libs": [],
         "x": 1010,
-        "y": 840,
+        "y": 780,
         "wires": [
             [
                 "71450ef8b8905ee9"
@@ -3663,7 +3734,7 @@
         "expiry": "",
         "broker": "bc90be16040a7d21",
         "x": 1190,
-        "y": 840,
+        "y": 780,
         "wires": []
     },
     {
@@ -3681,7 +3752,7 @@
         "layout": "row-spread",
         "className": "",
         "x": 1510,
-        "y": 920,
+        "y": 860,
         "wires": []
     },
     {
@@ -3703,7 +3774,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 1180,
-        "y": 1020,
+        "y": 960,
         "wires": [
             [
                 "dafcb9eeb25bd05f"
@@ -3723,7 +3794,7 @@
         "finalize": "",
         "libs": [],
         "x": 990,
-        "y": 960,
+        "y": 900,
         "wires": [
             [
                 "a9e9a6448592d3b2",
@@ -3757,7 +3828,7 @@
         "seg2": "120",
         "className": "",
         "x": 1230,
-        "y": 960,
+        "y": 900,
         "wires": []
     },
     {
@@ -3773,7 +3844,7 @@
         "finalize": "",
         "libs": [],
         "x": 1240,
-        "y": 920,
+        "y": 860,
         "wires": [
             [
                 "75202ca16a123855"
@@ -3797,7 +3868,7 @@
         "repair": false,
         "outputs": 1,
         "x": 1340,
-        "y": 1020,
+        "y": 960,
         "wires": [
             [
                 "7f56ec0176b540bc"
@@ -3826,7 +3897,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 290,
-        "y": 1120,
+        "y": 1060,
         "wires": [
             [
                 "079d1a3ec4dd91d9"
@@ -3854,7 +3925,7 @@
         "to": "",
         "reg": false,
         "x": 520,
-        "y": 1120,
+        "y": 1060,
         "wires": [
             [
                 "92aca6c09c966e83",
@@ -3875,7 +3946,7 @@
         "finalize": "",
         "libs": [],
         "x": 780,
-        "y": 1080,
+        "y": 1020,
         "wires": [
             [
                 "4c724d58d017c572"
@@ -3898,7 +3969,7 @@
         "expiry": "",
         "broker": "bc90be16040a7d21",
         "x": 990,
-        "y": 1080,
+        "y": 1020,
         "wires": []
     },
     {
@@ -3922,7 +3993,7 @@
         "to": "",
         "reg": false,
         "x": 730,
-        "y": 1160,
+        "y": 1100,
         "wires": [
             [
                 "7f56ec0176b540bc",
@@ -3951,7 +4022,7 @@
         "to": "",
         "reg": false,
         "x": 760,
-        "y": 880,
+        "y": 820,
         "wires": [
             [
                 "8f38f406c628cd92",
@@ -3979,7 +4050,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 910,
-        "y": 1160,
+        "y": 1100,
         "wires": [
             [
                 "e0d9d7310fe50dd8"
@@ -4007,7 +4078,7 @@
         "to": "",
         "reg": false,
         "x": 1100,
-        "y": 1160,
+        "y": 1100,
         "wires": [
             [
                 "75202ca16a123855"
@@ -4029,7 +4100,7 @@
             "28d0a4915564070b"
         ],
         "x": 165,
-        "y": 1120,
+        "y": 1060,
         "wires": [
             [
                 "97db8049c673a98e"
@@ -4048,24 +4119,13 @@
             "bd87b250d2dcd90c",
             "68aa5688177e30e7"
         ],
-        "x": 255,
-        "y": 240,
+        "x": 215,
+        "y": 200,
         "wires": [
             [
                 "672af1a8627b7e63"
             ]
         ]
-    },
-    {
-        "id": "28af28cc8618a072",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "e6f0aa02159bc664",
-        "name": "MVP Step 9 - Endgame",
-        "info": "",
-        "x": 230,
-        "y": 4720,
-        "wires": []
     },
     {
         "id": "da02d40547f5f97a",
@@ -4080,8 +4140,8 @@
             "371a308e27a41bed",
             "55ae42b1368591f7"
         ],
-        "x": 635,
-        "y": 180,
+        "x": 595,
+        "y": 140,
         "wires": []
     },
     {
@@ -4091,253 +4151,8 @@
         "g": "4a4f80625f8ea163",
         "name": "Go to turn all off",
         "info": "",
-        "x": 680,
-        "y": 140,
-        "wires": []
-    },
-    {
-        "id": "d236e6eee53270f4",
-        "type": "link in",
-        "z": "55a762ae72fa441b",
-        "g": "e6f0aa02159bc664",
-        "name": "TIME FOR PHASE 3",
-        "links": [
-            "6983c6fb1a960333"
-        ],
-        "x": 185,
-        "y": 4840,
-        "wires": [
-            [
-                "42523d902813f067"
-            ]
-        ]
-    },
-    {
-        "id": "f31e8c8e319d93ce",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "e6f0aa02159bc664",
-        "name": "TIME FOR PHASE 3",
-        "info": "",
-        "x": 240,
-        "y": 4780,
-        "wires": []
-    },
-    {
-        "id": "971728897ecf9437",
-        "type": "link out",
-        "z": "55a762ae72fa441b",
-        "g": "e6f0aa02159bc664",
-        "name": "clap on",
-        "mode": "link",
-        "links": [
-            "31c4db3eb2f36e59"
-        ],
-        "x": 735,
-        "y": 4960,
-        "wires": []
-    },
-    {
-        "id": "2badacc9a7cff346",
-        "type": "delay",
-        "z": "55a762ae72fa441b",
-        "g": "e6f0aa02159bc664",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "200",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 790,
-        "y": 4900,
-        "wires": [
-            [
-                "66a6c020170412e9",
-                "9b2dd509237ea4ba"
-            ]
-        ]
-    },
-    {
-        "id": "66a6c020170412e9",
-        "type": "link out",
-        "z": "55a762ae72fa441b",
-        "g": "e6f0aa02159bc664",
-        "name": "clap off",
-        "mode": "link",
-        "links": [
-            "48373ebe740e92b6",
-            "756238117240a8cf",
-            "371a308e27a41bed",
-            "55ae42b1368591f7"
-        ],
-        "x": 935,
-        "y": 4900,
-        "wires": []
-    },
-    {
-        "id": "9b2dd509237ea4ba",
-        "type": "loop",
-        "z": "55a762ae72fa441b",
-        "g": "e6f0aa02159bc664",
-        "name": "Mini Rave Loop",
-        "kind": "fcnt",
-        "count": "5",
-        "initial": "1",
-        "step": "1",
-        "condition": "",
-        "conditionType": "js",
-        "when": "before",
-        "enumeration": "enum",
-        "enumerationType": "msg",
-        "limit": "",
-        "loopPayload": "loop-index",
-        "finalPayload": "final-count",
-        "x": 580,
-        "y": 4840,
-        "wires": [
-            [
-                "cd6470a4dd6dcf5a"
-            ],
-            [
-                "971728897ecf9437",
-                "2badacc9a7cff346"
-            ]
-        ]
-    },
-    {
-        "id": "75bb4dcf27e09311",
-        "type": "inject",
-        "z": "55a762ae72fa441b",
-        "g": "e6f0aa02159bc664",
-        "name": "LET'S RAVE",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 350,
-        "y": 4900,
-        "wires": [
-            [
-                "9b2dd509237ea4ba"
-            ]
-        ]
-    },
-    {
-        "id": "c9cff8053a0560cc",
-        "type": "change",
-        "z": "55a762ae72fa441b",
-        "g": "e6f0aa02159bc664",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "matchPhase",
-                "pt": "global",
-                "to": "3",
-                "tot": "num"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1000,
-        "y": 4840,
-        "wires": [
-            [
-                "d50e20b89aafa29b"
-            ]
-        ]
-    },
-    {
-        "id": "cd6470a4dd6dcf5a",
-        "type": "delay",
-        "z": "55a762ae72fa441b",
-        "g": "e6f0aa02159bc664",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "1",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 780,
-        "y": 4840,
-        "wires": [
-            [
-                "c9cff8053a0560cc"
-            ]
-        ]
-    },
-    {
-        "id": "a0b22b12a042c73b",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "e6f0aa02159bc664",
-        "name": "Pause to drain MQTT",
-        "info": "",
-        "x": 800,
-        "y": 4780,
-        "wires": []
-    },
-    {
-        "id": "d50e20b89aafa29b",
-        "type": "function",
-        "z": "55a762ae72fa441b",
-        "g": "e6f0aa02159bc664",
-        "name": "Set ENDGAME qtys",
-        "func": "var bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nfor (var i in bldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(bldgs[i] + \".Status\", \"ENDGAME\");\n\n    //Fire scores \n    global.set(bldgs[i] + \".FS.Window1-BeforeWater\", 8);\n    global.set(bldgs[i] + \".FS.Window2-BeforeWater\", 8);\n    global.set(bldgs[i] + \".FS.Window1-AfterWater\", 8);\n    global.set(bldgs[i] + \".FS.Window2-AfterWater\", 8);\n\n    // Gutters\n    global.set(bldgs[i] + \".GutterPixels\",\"333333330000000000000044444444\");\n\n    // Water qtys - int\n    global.set(bldgs[i] + \".WaterQty\", 0);\n}\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1220,
-        "y": 4840,
-        "wires": [
-            [
-                "4c742ebce9027c25"
-            ]
-        ]
-    },
-    {
-        "id": "4c742ebce9027c25",
-        "type": "link out",
-        "z": "55a762ae72fa441b",
-        "g": "e6f0aa02159bc664",
-        "name": "Push endgame statuses",
-        "mode": "link",
-        "links": [
-            "3f402ddd8643cce0"
-        ],
-        "x": 1365,
-        "y": 4840,
+        "x": 640,
+        "y": 100,
         "wires": []
     },
     {
@@ -4357,8 +4172,8 @@
             "c995e02d640aefcf",
             "d3f61fe6cb27f19e"
         ],
-        "x": 635,
-        "y": 220,
+        "x": 595,
+        "y": 180,
         "wires": []
     },
     {
@@ -4380,7 +4195,7 @@
         "repair": false,
         "outputs": 1,
         "x": 570,
-        "y": 880,
+        "y": 820,
         "wires": [
             [
                 "490c984c330991c7"
@@ -4402,46 +4217,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 980,
-        "y": 800,
-        "wires": []
-    },
-    {
-        "id": "42523d902813f067",
-        "type": "change",
-        "z": "55a762ae72fa441b",
-        "g": "e6f0aa02159bc664",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "matchPhase",
-                "pt": "global",
-                "to": "-1",
-                "tot": "num"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 340,
-        "y": 4840,
-        "wires": [
-            [
-                "9b2dd509237ea4ba"
-            ]
-        ]
-    },
-    {
-        "id": "7f75fe4b5a721d2d",
-        "type": "comment",
-        "z": "55a762ae72fa441b",
-        "g": "e6f0aa02159bc664",
-        "name": "====\\n THIS WILL NEED TO BE REDONE WITH THE TIMER METHOD",
-        "info": "",
-        "x": 1690,
-        "y": 4840,
+        "y": 740,
         "wires": []
     },
     {
@@ -4459,7 +4235,7 @@
         "layout": "row-spread",
         "className": "",
         "x": 930,
-        "y": 520,
+        "y": 460,
         "wires": []
     },
     {
@@ -4483,7 +4259,7 @@
         "to": "",
         "reg": false,
         "x": 710,
-        "y": 520,
+        "y": 460,
         "wires": [
             [
                 "317c4b8d0c02f08a"
@@ -4500,7 +4276,7 @@
             "9296e95263e5ddc7"
         ],
         "x": 765,
-        "y": 480,
+        "y": 420,
         "wires": [
             [
                 "317c4b8d0c02f08a"
@@ -4517,7 +4293,7 @@
             "9296e95263e5ddc7"
         ],
         "x": 595,
-        "y": 640,
+        "y": 580,
         "wires": [
             [
                 "6d2a234344182486"
@@ -4529,10 +4305,10 @@
         "type": "comment",
         "z": "55a762ae72fa441b",
         "g": "d1c6977fdede82fe",
-        "name": "Step 4 - Match Start (T=0) (Rev CMP)",
+        "name": "=== Match Start (T=0) (Rev CMP)",
         "info": "",
-        "x": 290,
-        "y": 1300,
+        "x": 200,
+        "y": 1260,
         "wires": []
     },
     {
@@ -4547,8 +4323,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 950,
-        "y": 1360,
+        "x": 870,
+        "y": 1320,
         "wires": [
             [
                 "6bae0ce8e995b031"
@@ -4570,8 +4346,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 880,
-        "y": 1500,
+        "x": 800,
+        "y": 1460,
         "wires": [
             [
                 "e1a0483ff23d768b"
@@ -4597,8 +4373,8 @@
         "links": [
             "f8afe1542a91baa2"
         ],
-        "x": 1065,
-        "y": 1500,
+        "x": 985,
+        "y": 1460,
         "wires": []
     },
     {
@@ -4613,8 +4389,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 890,
-        "y": 1600,
+        "x": 810,
+        "y": 1560,
         "wires": [
             [
                 "93dc95fcb851b38b",
@@ -4636,8 +4412,8 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 2020,
-        "y": 1560,
+        "x": 1940,
+        "y": 1520,
         "wires": []
     },
     {
@@ -4658,8 +4434,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 1140,
-        "y": 1600,
+        "x": 1060,
+        "y": 1560,
         "wires": [
             [
                 "3764e089f61cc9a7"
@@ -4678,8 +4454,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1340,
-        "y": 1600,
+        "x": 1260,
+        "y": 1560,
         "wires": [
             [
                 "3cd3774d5a3cdd30"
@@ -4709,8 +4485,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1720,
-        "y": 1600,
+        "x": 1640,
+        "y": 1560,
         "wires": [
             [
                 "1aabfd0c7bf1fce1"
@@ -4741,8 +4517,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2000,
-        "y": 1660,
+        "x": 1920,
+        "y": 1620,
         "wires": [
             [
                 "93dc95fcb851b38b",
@@ -4760,8 +4536,8 @@
         "links": [
             "8c8fae70037e1c26"
         ],
-        "x": 2135,
-        "y": 1660,
+        "x": 2055,
+        "y": 1620,
         "wires": []
     },
     {
@@ -4785,8 +4561,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 340,
-        "y": 1800,
+        "x": 260,
+        "y": 1760,
         "wires": [
             [
                 "68aa5688177e30e7",
@@ -4807,8 +4583,8 @@
             "c0d73c7a8e66d4c2",
             "93467bb9550545d1"
         ],
-        "x": 505,
-        "y": 1780,
+        "x": 425,
+        "y": 1740,
         "wires": []
     },
     {
@@ -4821,8 +4597,8 @@
         "links": [
             "8c8fae70037e1c26"
         ],
-        "x": 505,
-        "y": 1820,
+        "x": 425,
+        "y": 1780,
         "wires": []
     },
     {
@@ -4832,8 +4608,8 @@
         "g": "d1c6977fdede82fe",
         "name": "Send all the resets",
         "info": "",
-        "x": 610,
-        "y": 1740,
+        "x": 530,
+        "y": 1700,
         "wires": []
     },
     {
@@ -4843,8 +4619,8 @@
         "g": "d1c6977fdede82fe",
         "name": "TODO - Reset GUI",
         "info": "",
-        "x": 610,
-        "y": 1900,
+        "x": 530,
+        "y": 1860,
         "wires": []
     },
     {
@@ -4856,8 +4632,8 @@
         "links": [
             "0e3ebf9316c50718"
         ],
-        "x": 185,
-        "y": 1780,
+        "x": 105,
+        "y": 1740,
         "wires": [
             [
                 "218a084ed0dac320"
@@ -4874,8 +4650,8 @@
         "links": [
             "1b55865e8e16d405"
         ],
-        "x": 505,
-        "y": 1860,
+        "x": 425,
+        "y": 1820,
         "wires": []
     },
     {
@@ -4898,8 +4674,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 620,
-        "y": 1500,
+        "x": 540,
+        "y": 1460,
         "wires": [
             [
                 "f7107def0bcb0b9e",
@@ -4922,8 +4698,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2020,
-        "y": 1720,
+        "x": 1940,
+        "y": 1680,
         "wires": [
             [
                 "1d79d030bb97d1cb"
@@ -4943,8 +4719,8 @@
         "links": [
             "0416ea6909311b42"
         ],
-        "x": 2175,
-        "y": 1700,
+        "x": 2095,
+        "y": 1660,
         "wires": []
     },
     {
@@ -4957,8 +4733,8 @@
         "links": [
             "0416ea6909311b42"
         ],
-        "x": 2175,
-        "y": 1740,
+        "x": 2095,
+        "y": 1700,
         "wires": []
     },
     {
@@ -4984,8 +4760,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 430,
-        "y": 1500,
+        "x": 350,
+        "y": 1460,
         "wires": [
             [
                 "64fe431e82341821"
@@ -5002,8 +4778,8 @@
         "g": "d1c6977fdede82fe",
         "name": "Start burn timer rev CMP",
         "info": "",
-        "x": 970,
-        "y": 1760,
+        "x": 890,
+        "y": 1720,
         "wires": []
     },
     {
@@ -5017,8 +4793,8 @@
             "1a85280e23bfe3a9",
             "7f4d3b57fb223092"
         ],
-        "x": 825,
-        "y": 1760,
+        "x": 745,
+        "y": 1720,
         "wires": []
     },
     {
@@ -5033,8 +4809,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1220,
-        "y": 1340,
+        "x": 1140,
+        "y": 1300,
         "wires": [
             [
                 "363559faefd82ea5"
@@ -5062,8 +4838,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 240,
-        "y": 1500,
+        "x": 160,
+        "y": 1460,
         "wires": [
             [
                 "990a5f67fd3c5363"
@@ -5080,8 +4856,8 @@
         "links": [
             "dc1d674e61de820d"
         ],
-        "x": 1575,
-        "y": 1340,
+        "x": 1495,
+        "y": 1300,
         "wires": []
     },
     {
@@ -5096,8 +4872,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1440,
-        "y": 1340,
+        "x": 1360,
+        "y": 1300,
         "wires": [
             [
                 "b1892a5d909d22a5"
@@ -5116,8 +4892,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1220,
-        "y": 1380,
+        "x": 1140,
+        "y": 1340,
         "wires": [
             [
                 "2f1d8a2826147444"
@@ -5136,8 +4912,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1440,
-        "y": 1380,
+        "x": 1360,
+        "y": 1340,
         "wires": [
             [
                 "7059882ea6339130"
@@ -5154,8 +4930,8 @@
         "links": [
             "dc1d674e61de820d"
         ],
-        "x": 1575,
-        "y": 1380,
+        "x": 1495,
+        "y": 1340,
         "wires": []
     },
     {
@@ -5163,10 +4939,10 @@
         "type": "comment",
         "z": "55a762ae72fa441b",
         "g": "325d6a9e63d4c375",
-        "name": "Phase 1 Burn Rev CMP",
+        "name": "=== Phase 1 Burn (Rev CMP)",
         "info": "",
-        "x": 240,
-        "y": 2040,
+        "x": 220,
+        "y": 1980,
         "wires": []
     },
     {
@@ -5178,8 +4954,8 @@
         "links": [
             "0288b8af1ceb54de"
         ],
-        "x": 205,
-        "y": 2160,
+        "x": 165,
+        "y": 2100,
         "wires": [
             [
                 "4083bde3272cdecd"
@@ -5213,8 +4989,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 360,
-        "y": 2160,
+        "x": 320,
+        "y": 2100,
         "wires": [
             [
                 "a360df724bcd3f11",
@@ -5229,8 +5005,8 @@
         "g": "325d6a9e63d4c375",
         "name": "----------------- First Set of Bldgs -> 2 Windows ----------------- ",
         "info": "",
-        "x": 750,
-        "y": 2180,
+        "x": 710,
+        "y": 2120,
         "wires": []
     },
     {
@@ -5240,8 +5016,8 @@
         "g": "325d6a9e63d4c375",
         "name": "----------------- Add Second Set of Bldgs ----------------- ",
         "info": "",
-        "x": 710,
-        "y": 2500,
+        "x": 670,
+        "y": 2440,
         "wires": []
     },
     {
@@ -5251,8 +5027,8 @@
         "g": "325d6a9e63d4c375",
         "name": "----------------- Second Bldgs -> 2 Windows ----------------- ",
         "info": "",
-        "x": 720,
-        "y": 2860,
+        "x": 680,
+        "y": 2800,
         "wires": []
     },
     {
@@ -5267,8 +5043,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1190,
-        "y": 2340,
+        "x": 1150,
+        "y": 2280,
         "wires": [
             [
                 "374ad7109c8ae83c"
@@ -5282,8 +5058,8 @@
         "g": "c8b0f520ed08c7a6",
         "name": "TIME TO BURN",
         "info": "",
-        "x": 1160,
-        "y": 2300,
+        "x": 1120,
+        "y": 2240,
         "wires": []
     },
     {
@@ -5298,8 +5074,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1540,
-        "y": 2380,
+        "x": 1500,
+        "y": 2320,
         "wires": [
             [
                 "b168987c1df43253",
@@ -5317,8 +5093,8 @@
         "links": [
             "dc1d674e61de820d"
         ],
-        "x": 1705,
-        "y": 2380,
+        "x": 1665,
+        "y": 2320,
         "wires": []
     },
     {
@@ -5339,8 +5115,8 @@
         "limit": "",
         "loopPayload": "loop-val",
         "finalPayload": "final-count",
-        "x": 1450,
-        "y": 2320,
+        "x": 1410,
+        "y": 2260,
         "wires": [
             [
                 "25e253e5a54e3110"
@@ -5362,8 +5138,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1540,
-        "y": 2700,
+        "x": 1500,
+        "y": 2640,
         "wires": [
             [
                 "6d4dee2de447ea5a",
@@ -5383,8 +5159,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1190,
-        "y": 2660,
+        "x": 1150,
+        "y": 2600,
         "wires": [
             [
                 "dd60a83720551880"
@@ -5398,8 +5174,8 @@
         "g": "15ec07be63476f47",
         "name": "TIME TO BURN",
         "info": "",
-        "x": 1160,
-        "y": 2620,
+        "x": 1120,
+        "y": 2560,
         "wires": []
     },
     {
@@ -5420,8 +5196,8 @@
         "limit": "",
         "loopPayload": "loop-val",
         "finalPayload": "final-count",
-        "x": 1450,
-        "y": 2640,
+        "x": 1410,
+        "y": 2580,
         "wires": [
             [
                 "e8fd57bcff4cabcb"
@@ -5441,8 +5217,8 @@
         "links": [
             "dc1d674e61de820d"
         ],
-        "x": 1705,
-        "y": 2700,
+        "x": 1665,
+        "y": 2640,
         "wires": []
     },
     {
@@ -5452,8 +5228,8 @@
         "g": "f5f17912a6b03826",
         "name": "TIME TO BURN",
         "info": "",
-        "x": 1160,
-        "y": 2960,
+        "x": 1120,
+        "y": 2900,
         "wires": []
     },
     {
@@ -5468,8 +5244,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1540,
-        "y": 3040,
+        "x": 1500,
+        "y": 2980,
         "wires": [
             [
                 "595534f2e07f6f17",
@@ -5487,8 +5263,8 @@
         "links": [
             "dc1d674e61de820d"
         ],
-        "x": 1705,
-        "y": 3040,
+        "x": 1665,
+        "y": 2980,
         "wires": []
     },
     {
@@ -5509,8 +5285,8 @@
         "limit": "",
         "loopPayload": "loop-val",
         "finalPayload": "final-count",
-        "x": 1450,
-        "y": 2980,
+        "x": 1410,
+        "y": 2920,
         "wires": [
             [],
             [
@@ -5530,8 +5306,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1190,
-        "y": 3000,
+        "x": 1150,
+        "y": 2940,
         "wires": [
             [
                 "9561806327b7b373"
@@ -5544,8 +5320,8 @@
         "z": "55a762ae72fa441b",
         "g": "325d6a9e63d4c375",
         "name": "",
-        "x": 870,
-        "y": 2260,
+        "x": 830,
+        "y": 2200,
         "wires": [
             [
                 "c6e859984c6c2583"
@@ -5561,8 +5337,8 @@
         "z": "55a762ae72fa441b",
         "g": "325d6a9e63d4c375",
         "name": "",
-        "x": 870,
-        "y": 2580,
+        "x": 830,
+        "y": 2520,
         "wires": [
             [
                 "3e134a993c1b3fbe"
@@ -5586,8 +5362,8 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 1140,
-        "y": 2220,
+        "x": 1100,
+        "y": 2160,
         "wires": []
     },
     {
@@ -5604,8 +5380,8 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 1140,
-        "y": 2540,
+        "x": 1100,
+        "y": 2480,
         "wires": []
     },
     {
@@ -5614,8 +5390,8 @@
         "z": "55a762ae72fa441b",
         "g": "325d6a9e63d4c375",
         "name": "",
-        "x": 870,
-        "y": 2940,
+        "x": 830,
+        "y": 2880,
         "wires": [
             [
                 "1f590c01c036d9b6"
@@ -5639,8 +5415,8 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 1180,
-        "y": 2880,
+        "x": 1140,
+        "y": 2820,
         "wires": []
     },
     {
@@ -5653,8 +5429,8 @@
         "links": [
             "dc1d674e61de820d"
         ],
-        "x": 1385,
-        "y": 1680,
+        "x": 1305,
+        "y": 1640,
         "wires": []
     },
     {
@@ -5669,8 +5445,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1190,
-        "y": 1680,
+        "x": 1110,
+        "y": 1640,
         "wires": [
             [
                 "e9064ad0876af058"
@@ -5689,8 +5465,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2020,
-        "y": 1800,
+        "x": 1940,
+        "y": 1760,
         "wires": [
             [
                 "3067707184cd6d97"
@@ -5707,8 +5483,8 @@
         "links": [
             "dc1d674e61de820d"
         ],
-        "x": 2175,
-        "y": 1800,
+        "x": 2095,
+        "y": 1760,
         "wires": []
     },
     {
@@ -5729,8 +5505,8 @@
             "b345dbc959763a12",
             "f261d268c894a2ab"
         ],
-        "x": 795,
-        "y": 260,
+        "x": 755,
+        "y": 220,
         "wires": []
     },
     {
@@ -5753,8 +5529,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 690,
-        "y": 260,
+        "x": 650,
+        "y": 220,
         "wires": [
             [
                 "9296e95263e5ddc7"
@@ -5770,8 +5546,8 @@
         "links": [
             "9296e95263e5ddc7"
         ],
-        "x": 1025,
-        "y": 2200,
+        "x": 985,
+        "y": 2140,
         "wires": [
             [
                 "c6e859984c6c2583"
@@ -5787,8 +5563,8 @@
         "links": [
             "9296e95263e5ddc7"
         ],
-        "x": 1025,
-        "y": 2500,
+        "x": 985,
+        "y": 2440,
         "wires": [
             [
                 "3e134a993c1b3fbe"
@@ -5804,8 +5580,8 @@
         "links": [
             "9296e95263e5ddc7"
         ],
-        "x": 1015,
-        "y": 2840,
+        "x": 975,
+        "y": 2780,
         "wires": [
             [
                 "1f590c01c036d9b6"
@@ -5826,8 +5602,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 2010,
-        "y": 820,
+        "x": 2530,
+        "y": 1380,
         "wires": [
             [
                 "6650c705ab7e2e1e",
@@ -5849,8 +5625,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2300,
-        "y": 780,
+        "x": 2820,
+        "y": 1340,
         "wires": []
     },
     {
@@ -5871,8 +5647,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 2240,
-        "y": 840,
+        "x": 2760,
+        "y": 1400,
         "wires": [
             [
                 "eba078dc2c71e197"
@@ -5891,8 +5667,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2490,
-        "y": 860,
+        "x": 3010,
+        "y": 1420,
         "wires": [
             [
                 "614e06960c4619e1"
@@ -5921,8 +5697,8 @@
         "topic": "edgenode/laserhit/RTM",
         "payload": "{\"BUILDING_NAME\":\"RTM\",\"num_hits\":1,\"timestamp\":1234567890}",
         "payloadType": "json",
-        "x": 2130,
-        "y": 900,
+        "x": 2650,
+        "y": 1460,
         "wires": [
             [
                 "eba078dc2c71e197"
@@ -5937,8 +5713,8 @@
         "g": "7a9d34be24c9d358",
         "name": "Receive Laser / Ball Hit - Rev CMP",
         "info": "",
-        "x": 2000,
-        "y": 700,
+        "x": 2520,
+        "y": 1260,
         "wires": []
     },
     {
@@ -5951,8 +5727,8 @@
         "links": [
             "c18680ecca2f99fb"
         ],
-        "x": 2735,
-        "y": 960,
+        "x": 3255,
+        "y": 1520,
         "wires": []
     },
     {
@@ -5969,8 +5745,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 2010,
-        "y": 1040,
+        "x": 2530,
+        "y": 1600,
         "wires": [
             [
                 "03645d32361c5729",
@@ -5996,8 +5772,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 2220,
-        "y": 1060,
+        "x": 2740,
+        "y": 1620,
         "wires": [
             [
                 "0ebb2337407dbe3f"
@@ -6016,8 +5792,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2490,
-        "y": 1100,
+        "x": 3010,
+        "y": 1660,
         "wires": [
             [
                 "614e06960c4619e1"
@@ -6038,8 +5814,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2280,
-        "y": 1000,
+        "x": 2800,
+        "y": 1560,
         "wires": []
     },
     {
@@ -6064,8 +5840,8 @@
         "topic": "",
         "payload": "{\"num_drops\":1,\"timestamp\":10356098,\"BUILDING_NAME\":\"RBI\",\"side_id\":0}",
         "payloadType": "json",
-        "x": 2120,
-        "y": 1140,
+        "x": 2640,
+        "y": 1700,
         "wires": [
             [
                 "0ebb2337407dbe3f"
@@ -6077,10 +5853,10 @@
         "type": "comment",
         "z": "55a762ae72fa441b",
         "g": "c61a3666d4d9e6cc",
-        "name": "Phase 2 - Rev CMP",
+        "name": "=== Phase 2 Start (Rev CMP)",
         "info": "",
-        "x": 250,
-        "y": 3180,
+        "x": 200,
+        "y": 3160,
         "wires": []
     },
     {
@@ -6090,8 +5866,8 @@
         "g": "f4b953e583c4193d",
         "name": "Check if Phase switch time",
         "info": "",
-        "x": 2270,
-        "y": 2020,
+        "x": 2490,
+        "y": 1880,
         "wires": []
     },
     {
@@ -6103,8 +5879,8 @@
         "links": [
             "cdd67f2387d5de33"
         ],
-        "x": 2205,
-        "y": 2080,
+        "x": 2425,
+        "y": 1940,
         "wires": [
             [
                 "324b291666bc0fed"
@@ -6117,14 +5893,14 @@
         "z": "55a762ae72fa441b",
         "g": "f4b953e583c4193d",
         "name": "Check if Phase Switch Rdy (no \"Burning\" statuses)",
-        "func": "/* \nEvery time you're updating a bldg, check to see if it's the LAST ONE  :O\n*/\n\n//--- Escape if it's in rave mode or anything else\nif (global.get(\"matchPhase\") <= 0) {\n    msg.payload = false;\n    return msg;\n}\n\n// --- Set up vars\nvar curSide = global.get(\"droneActiveSide\");\nvar theTotalFS = 0;\nvar theTotalWater = 0;\nvar curDamage = [];\n\nswitch (curSide) {\n    case \"L\":\n        var bldgs = global.get(\"leftBldgs\");\n        break;\n    case \"R\":\n        var bldgs = global.get(\"rightBldgs\");\n        break;\n}\n\n// --- Loop through all buildings, look for no bueno\nvar isClear = true;\nfor (var i in bldgs) {\n    var stat = global.get(bldgs[i] + \".Status\");\n    if(stat == \"Burning\" || stat == \"Hotspot\") {\n        isClear = false;\n    }\n\n    if (isClear == false) {\n        break;\n    }\n}\n\n// -- debug\nif(global.get(\"DEBUG\")) {\n    node.warn(\"checking for phase 2 - \" + isClear);\n}\n\n// --- Fin\nmsg.payload = isClear;\nreturn msg;",
+        "func": "/* \nEvery time you're updating a bldg, check to see if it's the LAST ONE  :O\n*/\n\n//--- Escape if it's in rave mode or anything else\nif (global.get(\"matchPhase\") <= 0) {\n    msg.payload = false;\n    return msg;\n}\n\n// --- Set up vars\nvar curSide = global.get(\"droneActiveSide\");\nvar theTotalFS = 0;\nvar theTotalWater = 0;\nvar curDamage = [];\n\nswitch (curSide) {\n    case \"L\":\n        var bldgs = global.get(\"leftBldgs\");\n        break;\n    case \"R\":\n        var bldgs = global.get(\"rightBldgs\");\n        break;\n}\n\n// --- Loop through all buildings, look for no bueno\nvar isClear = true;\nfor (var i in bldgs) {\n    var stat = global.get(bldgs[i] + \".Status\");\n    if(stat == \"Burning\" || stat == \"Hotspot\") {\n        isClear = false;\n    }\n\n    if (isClear == false) {\n        break;\n    }\n}\n\n// -- debug\nif(global.get(\"DEBUG\")) {\n    node.warn(\"checking for phase change - \" + isClear);\n}\n\n// --- Fin\nmsg.payload = isClear;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2450,
-        "y": 2080,
+        "x": 2670,
+        "y": 1940,
         "wires": [
             [
                 "e89ef88e113cdc1b"
@@ -6147,11 +5923,11 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 2740,
-        "y": 2080,
+        "x": 2940,
+        "y": 1940,
         "wires": [
             [
-                "7e6d1d3441627a31"
+                "0a6864fb4c9b42f4"
             ]
         ]
     },
@@ -6165,8 +5941,8 @@
         "links": [
             "29dc4973d7dcbcf4"
         ],
-        "x": 2855,
-        "y": 2080,
+        "x": 3235,
+        "y": 1920,
         "wires": []
     },
     {
@@ -6178,8 +5954,8 @@
         "links": [
             "7e6d1d3441627a31"
         ],
-        "x": 205,
-        "y": 3280,
+        "x": 125,
+        "y": 3260,
         "wires": [
             [
                 "8514de7473cdc63d"
@@ -6206,8 +5982,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1520,
-        "y": 3480,
+        "x": 1440,
+        "y": 3460,
         "wires": [
             [
                 "5c1f40ee35f2a6ca",
@@ -6227,8 +6003,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1260,
-        "y": 3280,
+        "x": 1180,
+        "y": 3260,
         "wires": [
             [
                 "699d455d7e070f7f"
@@ -6247,8 +6023,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1910,
-        "y": 3480,
+        "x": 1830,
+        "y": 3460,
         "wires": [
             [
                 "548ab843aae2f534"
@@ -6273,8 +6049,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2160,
-        "y": 3440,
+        "x": 2080,
+        "y": 3420,
         "wires": [
             [
                 "b5cf79cc058c8ffa"
@@ -6293,11 +6069,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2160,
-        "y": 3480,
+        "x": 2080,
+        "y": 3460,
         "wires": [
             [
-                "4387cf2f1b40d3b8"
+                "4387cf2f1b40d3b8",
+                "a083f800833c1fc5"
             ]
         ]
     },
@@ -6313,12 +6090,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2160,
-        "y": 3520,
+        "x": 2080,
+        "y": 3500,
         "wires": [
             [
-                "07ec816b8431f6fe",
-                "e250e85c9bf3a336"
+                "07ec816b8431f6fe"
             ]
         ]
     },
@@ -6332,8 +6108,8 @@
         "links": [
             "dc1d674e61de820d"
         ],
-        "x": 2305,
-        "y": 3440,
+        "x": 2225,
+        "y": 3420,
         "wires": []
     },
     {
@@ -6346,8 +6122,8 @@
         "links": [
             "dc1d674e61de820d"
         ],
-        "x": 2305,
-        "y": 3480,
+        "x": 2225,
+        "y": 3460,
         "wires": []
     },
     {
@@ -6360,8 +6136,8 @@
         "links": [
             "dc1d674e61de820d"
         ],
-        "x": 2305,
-        "y": 3520,
+        "x": 2225,
+        "y": 3500,
         "wires": []
     },
     {
@@ -6382,8 +6158,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1270,
-        "y": 3480,
+        "x": 1190,
+        "y": 3460,
         "wires": [
             [
                 "c8f44eaa2aa8da46"
@@ -6408,8 +6184,8 @@
         "limit": "",
         "loopPayload": "loop-val",
         "finalPayload": "final-count",
-        "x": 1550,
-        "y": 3280,
+        "x": 1470,
+        "y": 3260,
         "wires": [
             [
                 "f2fad7a0f61cd56b"
@@ -6431,8 +6207,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1610,
-        "y": 3340,
+        "x": 1530,
+        "y": 3320,
         "wires": [
             [
                 "699d455d7e070f7f",
@@ -6450,8 +6226,8 @@
         "links": [
             "1125739b31b22db9"
         ],
-        "x": 1775,
-        "y": 3340,
+        "x": 1695,
+        "y": 3320,
         "wires": []
     },
     {
@@ -6461,8 +6237,8 @@
         "g": "c61a3666d4d9e6cc",
         "name": "This needs to be _after_ the MQTT clear",
         "info": "",
-        "x": 1580,
-        "y": 3440,
+        "x": 1500,
+        "y": 3420,
         "wires": []
     },
     {
@@ -6483,8 +6259,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1520,
-        "y": 1600,
+        "x": 1440,
+        "y": 1560,
         "wires": [
             [
                 "28c0d1a50caac549"
@@ -6513,8 +6289,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 210,
-        "y": 3360,
+        "x": 130,
+        "y": 3340,
         "wires": [
             [
                 "8514de7473cdc63d"
@@ -6541,8 +6317,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 460,
-        "y": 3300,
+        "x": 380,
+        "y": 3280,
         "wires": [
             [
                 "2c41d52979a31316"
@@ -6571,8 +6347,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 470,
-        "y": 3360,
+        "x": 390,
+        "y": 3340,
         "wires": [
             [
                 "2c41d52979a31316"
@@ -6597,8 +6373,8 @@
         "limit": "",
         "loopPayload": "loop-index",
         "finalPayload": "final-count",
-        "x": 700,
-        "y": 3300,
+        "x": 620,
+        "y": 3280,
         "wires": [
             [
                 "b6b86c414d386111"
@@ -6627,8 +6403,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 900,
-        "y": 3300,
+        "x": 820,
+        "y": 3280,
         "wires": [
             [
                 "ae67d29625a11352"
@@ -6653,8 +6429,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 910,
-        "y": 3360,
+        "x": 830,
+        "y": 3340,
         "wires": [
             [
                 "7960cf867b7e4a78",
@@ -6672,8 +6448,8 @@
         "links": [
             "48373ebe740e92b6"
         ],
-        "x": 1065,
-        "y": 3360,
+        "x": 985,
+        "y": 3340,
         "wires": []
     },
     {
@@ -6686,8 +6462,8 @@
         "links": [
             "31c4db3eb2f36e59"
         ],
-        "x": 855,
-        "y": 3420,
+        "x": 775,
+        "y": 3400,
         "wires": []
     },
     {
@@ -6697,8 +6473,8 @@
         "g": "3c736f3f8fb9049f",
         "name": "RAVE MODE",
         "info": "",
-        "x": 410,
-        "y": 3260,
+        "x": 330,
+        "y": 3240,
         "wires": []
     },
     {
@@ -6708,8 +6484,8 @@
         "g": "a2191c93ea98c3cd",
         "name": "----------------- First Set of Bldgs -> 2 Windows ----------------- ",
         "info": "",
-        "x": 870,
-        "y": 3740,
+        "x": 370,
+        "y": 3680,
         "wires": []
     },
     {
@@ -6718,8 +6494,8 @@
         "z": "55a762ae72fa441b",
         "g": "a2191c93ea98c3cd",
         "name": "",
-        "x": 1010,
-        "y": 3820,
+        "x": 510,
+        "y": 3760,
         "wires": [
             [
                 "c5dde430e853d458"
@@ -6743,8 +6519,8 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 1260,
-        "y": 3780,
+        "x": 760,
+        "y": 3720,
         "wires": []
     },
     {
@@ -6756,8 +6532,8 @@
         "links": [
             "9296e95263e5ddc7"
         ],
-        "x": 1145,
-        "y": 3760,
+        "x": 645,
+        "y": 3700,
         "wires": [
             [
                 "c5dde430e853d458"
@@ -6776,8 +6552,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1310,
-        "y": 3900,
+        "x": 810,
+        "y": 3840,
         "wires": [
             [
                 "5f46218c00bd82e5"
@@ -6791,8 +6567,8 @@
         "g": "04cf701b8b094633",
         "name": "TIME TO BURN",
         "info": "",
-        "x": 1280,
-        "y": 3860,
+        "x": 780,
+        "y": 3800,
         "wires": []
     },
     {
@@ -6807,8 +6583,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1660,
-        "y": 3940,
+        "x": 1160,
+        "y": 3880,
         "wires": [
             [
                 "5f254d40c5e8240f",
@@ -6826,8 +6602,8 @@
         "links": [
             "dc1d674e61de820d"
         ],
-        "x": 1825,
-        "y": 3940,
+        "x": 1325,
+        "y": 3880,
         "wires": []
     },
     {
@@ -6848,8 +6624,8 @@
         "limit": "",
         "loopPayload": "loop-val",
         "finalPayload": "final-count",
-        "x": 1570,
-        "y": 3880,
+        "x": 1070,
+        "y": 3820,
         "wires": [
             [
                 "30a41bfa8ece7f07"
@@ -6864,10 +6640,10 @@
         "type": "comment",
         "z": "55a762ae72fa441b",
         "g": "a2191c93ea98c3cd",
-        "name": "Phase 2 Burn Timers - Rev CMP",
+        "name": "=== Phase 2 Burn (Rev CMP)",
         "info": "",
-        "x": 610,
-        "y": 3680,
+        "x": 240,
+        "y": 3620,
         "wires": []
     },
     {
@@ -6882,8 +6658,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2370,
-        "y": 2280,
+        "x": 2590,
+        "y": 2200,
         "wires": [
             [
                 "3e8cddebe9821750"
@@ -6908,8 +6684,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 2580,
-        "y": 2280,
+        "x": 2800,
+        "y": 2200,
         "wires": [
             [
                 "11ab1aaf6ca42a14"
@@ -6934,8 +6710,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 2740,
-        "y": 2280,
+        "x": 2960,
+        "y": 2200,
         "wires": [
             [
                 "0696dfed47787161",
@@ -6950,8 +6726,8 @@
         "g": "696338a863cf43dc",
         "name": "----------------- \"Global\" timer (at least, until phase goes <= 0)",
         "info": "",
-        "x": 2370,
-        "y": 2200,
+        "x": 2590,
+        "y": 2120,
         "wires": []
     },
     {
@@ -6968,8 +6744,8 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 2940,
-        "y": 2260,
+        "x": 3160,
+        "y": 2180,
         "wires": []
     },
     {
@@ -6981,8 +6757,8 @@
         "links": [
             "9296e95263e5ddc7"
         ],
-        "x": 2815,
-        "y": 2220,
+        "x": 3035,
+        "y": 2140,
         "wires": [
             [
                 "a9936705c3706204"
@@ -6999,8 +6775,8 @@
             "a360df724bcd3f11",
             "8129aa3f03a57ebd"
         ],
-        "x": 2185,
-        "y": 2280,
+        "x": 2405,
+        "y": 2200,
         "wires": [
             [
                 "0696dfed47787161"
@@ -7017,8 +6793,8 @@
         "links": [
             "ad244be403c702a2"
         ],
-        "x": 565,
-        "y": 2080,
+        "x": 525,
+        "y": 2020,
         "wires": []
     },
     {
@@ -7028,31 +6804,33 @@
         "g": "325d6a9e63d4c375",
         "name": "Start the Timer",
         "info": "",
-        "x": 680,
-        "y": 2080,
+        "x": 640,
+        "y": 2020,
         "wires": []
     },
     {
         "id": "dad89c1138e7e4f8",
         "type": "comment",
         "z": "55a762ae72fa441b",
+        "g": "c61a3666d4d9e6cc",
         "name": "Start the Timer",
         "info": "",
         "x": 1780,
-        "y": 3540,
+        "y": 3520,
         "wires": []
     },
     {
         "id": "8129aa3f03a57ebd",
         "type": "link out",
         "z": "55a762ae72fa441b",
+        "g": "c61a3666d4d9e6cc",
         "name": "To the Global Timer",
         "mode": "link",
         "links": [
             "ad244be403c702a2"
         ],
         "x": 1665,
-        "y": 3540,
+        "y": 3520,
         "wires": []
     },
     {
@@ -7069,8 +6847,8 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 1260,
-        "y": 4060,
+        "x": 760,
+        "y": 4000,
         "wires": []
     },
     {
@@ -7082,8 +6860,8 @@
         "links": [
             "9296e95263e5ddc7"
         ],
-        "x": 1145,
-        "y": 4040,
+        "x": 645,
+        "y": 3980,
         "wires": [
             [
                 "42684de7c516bf79"
@@ -7096,8 +6874,8 @@
         "z": "55a762ae72fa441b",
         "g": "a2191c93ea98c3cd",
         "name": "",
-        "x": 1010,
-        "y": 4100,
+        "x": 510,
+        "y": 4040,
         "wires": [
             [
                 "42684de7c516bf79"
@@ -7119,8 +6897,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1310,
-        "y": 4180,
+        "x": 810,
+        "y": 4120,
         "wires": [
             [
                 "4754a91b730752ea"
@@ -7134,8 +6912,8 @@
         "g": "c0996267b091c9c3",
         "name": "TIME TO BURN",
         "info": "",
-        "x": 1280,
-        "y": 4140,
+        "x": 780,
+        "y": 4080,
         "wires": []
     },
     {
@@ -7150,8 +6928,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1660,
-        "y": 4220,
+        "x": 1160,
+        "y": 4160,
         "wires": [
             [
                 "580da0b3754a5818",
@@ -7169,8 +6947,8 @@
         "links": [
             "dc1d674e61de820d"
         ],
-        "x": 1825,
-        "y": 4220,
+        "x": 1325,
+        "y": 4160,
         "wires": []
     },
     {
@@ -7191,8 +6969,8 @@
         "limit": "",
         "loopPayload": "loop-val",
         "finalPayload": "final-count",
-        "x": 1570,
-        "y": 4160,
+        "x": 1070,
+        "y": 4100,
         "wires": [
             [
                 "dc03f1f4c896cdb8"
@@ -7216,8 +6994,8 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 1300,
-        "y": 4340,
+        "x": 800,
+        "y": 4280,
         "wires": []
     },
     {
@@ -7229,8 +7007,8 @@
         "links": [
             "9296e95263e5ddc7"
         ],
-        "x": 1145,
-        "y": 4320,
+        "x": 645,
+        "y": 4260,
         "wires": [
             [
                 "c5549d2580877907"
@@ -7243,8 +7021,8 @@
         "z": "55a762ae72fa441b",
         "g": "a2191c93ea98c3cd",
         "name": "",
-        "x": 1010,
-        "y": 4380,
+        "x": 510,
+        "y": 4320,
         "wires": [
             [
                 "c5549d2580877907"
@@ -7266,8 +7044,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1310,
-        "y": 4460,
+        "x": 810,
+        "y": 4400,
         "wires": [
             [
                 "4e2f97a180d92ce0"
@@ -7281,8 +7059,8 @@
         "g": "914422360e75360c",
         "name": "TIME TO BURN",
         "info": "",
-        "x": 1280,
-        "y": 4420,
+        "x": 780,
+        "y": 4360,
         "wires": []
     },
     {
@@ -7297,8 +7075,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1660,
-        "y": 4500,
+        "x": 1160,
+        "y": 4440,
         "wires": [
             [
                 "d2fe120e88698aeb",
@@ -7316,8 +7094,8 @@
         "links": [
             "dc1d674e61de820d"
         ],
-        "x": 1825,
-        "y": 4500,
+        "x": 1325,
+        "y": 4440,
         "wires": []
     },
     {
@@ -7338,14 +7116,564 @@
         "limit": "",
         "loopPayload": "loop-val",
         "finalPayload": "final-count",
-        "x": 1570,
-        "y": 4440,
+        "x": 1070,
+        "y": 4380,
         "wires": [
             [],
             [
                 "83118ebca9e0405b"
             ]
         ]
+    },
+    {
+        "id": "244d4b05f8a5b661",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "661aa04cb7a21daf",
+        "name": "=== Phase 3 (Rev CMP)",
+        "info": "",
+        "x": 190,
+        "y": 4580,
+        "wires": []
+    },
+    {
+        "id": "a77816d2d55d2269",
+        "type": "change",
+        "z": "55a762ae72fa441b",
+        "g": "661aa04cb7a21daf",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "matchPhase",
+                "pt": "global",
+                "to": "3",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1440,
+        "y": 4880,
+        "wires": [
+            [
+                "fdce46b507084b4f"
+            ]
+        ]
+    },
+    {
+        "id": "4ecb30f2fa83e7d5",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "661aa04cb7a21daf",
+        "name": "Set PHASE-3 Globals",
+        "func": "node.warn(\"============== PREPPING PHASE 3 =============\");\n\n// --- NO sides\nglobal.set(\"droneActiveSide\", \"ENDGAME\");\nglobal.set(\"droneNonActiveSide\", \"ENDGAME\");\n\n// --- Loop all bldgs, make sure they're clear and outta here\nvar allBldgs = global.get(\"allBldgs\");\nfor (var i in allBldgs) {\n    // Status\n    global.set(allBldgs[i] + \".Status\", \"ENDGAME\");\n\n    // Fire scores \n    global.set(allBldgs[i] + \".FS.Total\", 0);\n    global.set(allBldgs[i] + \".FirePixels.TotalBeforeWater\",0);\n    global.set(allBldgs[i] + \".FirePixels.TotalAfterWater\", 0);\n    \n    // Lights\n    global.set(allBldgs[i] + \".Lights.GutterPixels\", \"000000000000000000000000000000\");\n    global.set(allBldgs[i] + \".Lights.Window1\", \"OFF\");\n    global.set(allBldgs[i] + \".Lights.Window2\", \"OFF\");\n\n    // Water qtys - int\n    global.set(allBldgs[i] + \".WaterQty\", 0);\n}\n\n//-- Fin\nmsg.payload = allBldgs;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1180,
+        "y": 4680,
+        "wires": [
+            [
+                "30dec06ecdfd023b"
+            ]
+        ]
+    },
+    {
+        "id": "ecbe93f38efb9fef",
+        "type": "delay",
+        "z": "55a762ae72fa441b",
+        "g": "661aa04cb7a21daf",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "250",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1190,
+        "y": 4880,
+        "wires": [
+            [
+                "a77816d2d55d2269"
+            ]
+        ]
+    },
+    {
+        "id": "30dec06ecdfd023b",
+        "type": "loop",
+        "z": "55a762ae72fa441b",
+        "g": "661aa04cb7a21daf",
+        "name": "Loop All Bldgs to clear MQTT's",
+        "kind": "enum",
+        "count": "",
+        "initial": "1",
+        "step": "1",
+        "condition": "",
+        "conditionType": "js",
+        "when": "before",
+        "enumeration": "allBldgs",
+        "enumerationType": "global",
+        "limit": "",
+        "loopPayload": "loop-val",
+        "finalPayload": "final-count",
+        "x": 1470,
+        "y": 4680,
+        "wires": [
+            [
+                "ecbe93f38efb9fef"
+            ],
+            [
+                "6bb90e49f6dd6579"
+            ]
+        ]
+    },
+    {
+        "id": "6bb90e49f6dd6579",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "661aa04cb7a21daf",
+        "name": "Prep UpdateBldg Setter",
+        "func": "//just a passthru\nvar theBldg = msg.payload;\nmsg.payload = theBldg;\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1530,
+        "y": 4740,
+        "wires": [
+            [
+                "30dec06ecdfd023b",
+                "56af08aa5b3e0733"
+            ]
+        ]
+    },
+    {
+        "id": "56af08aa5b3e0733",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "661aa04cb7a21daf",
+        "name": "To AddFirePix",
+        "mode": "link",
+        "links": [
+            "1125739b31b22db9"
+        ],
+        "x": 1695,
+        "y": 4740,
+        "wires": []
+    },
+    {
+        "id": "e0a3a06def398ebe",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "661aa04cb7a21daf",
+        "name": "This needs to be _after_ the MQTT clear",
+        "info": "",
+        "x": 1500,
+        "y": 4840,
+        "wires": []
+    },
+    {
+        "id": "8f5501eb7723b27a",
+        "type": "inject",
+        "z": "55a762ae72fa441b",
+        "g": "661aa04cb7a21daf",
+        "name": "do",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 4760,
+        "wires": [
+            [
+                "b4298b54f0fedfd1"
+            ]
+        ]
+    },
+    {
+        "id": "b4298b54f0fedfd1",
+        "type": "change",
+        "z": "55a762ae72fa441b",
+        "g": "93b41a186984a67e",
+        "name": "set matchPhase = -1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "matchPhase",
+                "pt": "global",
+                "to": "-1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 4700,
+        "wires": [
+            [
+                "88a6bd1c878e3fef"
+            ]
+        ]
+    },
+    {
+        "id": "17efe76a856eadfe",
+        "type": "inject",
+        "z": "55a762ae72fa441b",
+        "g": "93b41a186984a67e",
+        "name": "LET'S RAVE",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 390,
+        "y": 4760,
+        "wires": [
+            [
+                "88a6bd1c878e3fef"
+            ]
+        ]
+    },
+    {
+        "id": "88a6bd1c878e3fef",
+        "type": "loop",
+        "z": "55a762ae72fa441b",
+        "g": "93b41a186984a67e",
+        "name": "Mini Rave Loop",
+        "kind": "fcnt",
+        "count": "5",
+        "initial": "1",
+        "step": "1",
+        "condition": "",
+        "conditionType": "js",
+        "when": "before",
+        "enumeration": "enum",
+        "enumerationType": "msg",
+        "limit": "",
+        "loopPayload": "loop-index",
+        "finalPayload": "final-count",
+        "x": 620,
+        "y": 4700,
+        "wires": [
+            [
+                "81693e58d454fce2"
+            ],
+            [
+                "309dc99dff061d40",
+                "86621e1005278448"
+            ]
+        ]
+    },
+    {
+        "id": "81693e58d454fce2",
+        "type": "delay",
+        "z": "55a762ae72fa441b",
+        "g": "93b41a186984a67e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 820,
+        "y": 4700,
+        "wires": [
+            [
+                "4ecb30f2fa83e7d5"
+            ]
+        ]
+    },
+    {
+        "id": "86621e1005278448",
+        "type": "delay",
+        "z": "55a762ae72fa441b",
+        "g": "93b41a186984a67e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 4760,
+        "wires": [
+            [
+                "3101ced9397172da",
+                "88a6bd1c878e3fef"
+            ]
+        ]
+    },
+    {
+        "id": "3101ced9397172da",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "93b41a186984a67e",
+        "name": "clap off",
+        "mode": "link",
+        "links": [
+            "48373ebe740e92b6"
+        ],
+        "x": 985,
+        "y": 4760,
+        "wires": []
+    },
+    {
+        "id": "309dc99dff061d40",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "93b41a186984a67e",
+        "name": "clap on",
+        "mode": "link",
+        "links": [
+            "31c4db3eb2f36e59"
+        ],
+        "x": 775,
+        "y": 4820,
+        "wires": []
+    },
+    {
+        "id": "f706ca3c8999dcb1",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "93b41a186984a67e",
+        "name": "RAVE MODE",
+        "info": "",
+        "x": 330,
+        "y": 4660,
+        "wires": []
+    },
+    {
+        "id": "53fea78f00015603",
+        "type": "link in",
+        "z": "55a762ae72fa441b",
+        "g": "661aa04cb7a21daf",
+        "name": "Time for Phase 3 (CMP)",
+        "links": [
+            "8149df671154d345"
+        ],
+        "x": 125,
+        "y": 4680,
+        "wires": [
+            [
+                "b4298b54f0fedfd1"
+            ]
+        ]
+    },
+    {
+        "id": "0a6864fb4c9b42f4",
+        "type": "switch",
+        "z": "55a762ae72fa441b",
+        "g": "f4b953e583c4193d",
+        "name": "Which Phase",
+        "property": "matchPhase",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 3090,
+        "y": 1940,
+        "wires": [
+            [
+                "7e6d1d3441627a31"
+            ],
+            [
+                "8149df671154d345"
+            ]
+        ]
+    },
+    {
+        "id": "8149df671154d345",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "f4b953e583c4193d",
+        "name": "GOTO Phase 3 (CMP)",
+        "mode": "link",
+        "links": [
+            "53fea78f00015603"
+        ],
+        "x": 3235,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "8034e63b9a0a6a07",
+        "type": "link in",
+        "z": "55a762ae72fa441b",
+        "g": "a2191c93ea98c3cd",
+        "name": "Start Phase 2 Burn",
+        "links": [
+            "a083f800833c1fc5"
+        ],
+        "x": 325,
+        "y": 3760,
+        "wires": [
+            [
+                "e250e85c9bf3a336"
+            ]
+        ]
+    },
+    {
+        "id": "f770371e8cd2e3c8",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "a2191c93ea98c3cd",
+        "name": "----------------- Second Set of Bldgs ---------------- ",
+        "info": "",
+        "x": 330,
+        "y": 3980,
+        "wires": []
+    },
+    {
+        "id": "834a4d8218917cc2",
+        "type": "comment",
+        "z": "55a762ae72fa441b",
+        "g": "a2191c93ea98c3cd",
+        "name": "----------------- Second Set of Bldgs -> 2 Windows ---------------- ",
+        "info": "",
+        "x": 380,
+        "y": 4280,
+        "wires": []
+    },
+    {
+        "id": "a083f800833c1fc5",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "c61a3666d4d9e6cc",
+        "name": "To Phase 2 Burn",
+        "mode": "link",
+        "links": [
+            "8034e63b9a0a6a07"
+        ],
+        "x": 2305,
+        "y": 3460,
+        "wires": []
+    },
+    {
+        "id": "fdce46b507084b4f",
+        "type": "loop",
+        "z": "55a762ae72fa441b",
+        "g": "661aa04cb7a21daf",
+        "name": "Loop All Bldgs",
+        "kind": "enum",
+        "count": "",
+        "initial": "1",
+        "step": "1",
+        "condition": "",
+        "conditionType": "js",
+        "when": "before",
+        "enumeration": "allBldgs",
+        "enumerationType": "global",
+        "limit": "",
+        "loopPayload": "loop-val",
+        "finalPayload": "final-count",
+        "x": 1760,
+        "y": 4880,
+        "wires": [
+            [],
+            [
+                "a75cdd2e2fc7e9a8"
+            ]
+        ]
+    },
+    {
+        "id": "a75cdd2e2fc7e9a8",
+        "type": "function",
+        "z": "55a762ae72fa441b",
+        "g": "661aa04cb7a21daf",
+        "name": "Prep AddFirePix Setter",
+        "func": "//--- Set up basic vars\nvar theBldg = msg.payload;\nmsg.payload = {};\n\n/* \nAddFirePix expects:\n- msg.payload.bldg: a node ID\n- msg.payload.numFirePixels: int, the qty FirePixels to add\n*/\nmsg.payload.bldg = theBldg;\nmsg.payload.numFirePixels = 16;\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1840,
+        "y": 4920,
+        "wires": [
+            [
+                "408240b3888622ce",
+                "fdce46b507084b4f"
+            ]
+        ]
+    },
+    {
+        "id": "408240b3888622ce",
+        "type": "link out",
+        "z": "55a762ae72fa441b",
+        "g": "661aa04cb7a21daf",
+        "name": "To AddFirePix",
+        "mode": "link",
+        "links": [
+            "dc1d674e61de820d"
+        ],
+        "x": 2015,
+        "y": 4920,
+        "wires": []
     },
     {
         "id": "7a5f520857017bbb",
@@ -13555,7 +13883,8 @@
         "links": [
             "dc410816705aadf3",
             "971728897ecf9437",
-            "32f4fcba179c05b8"
+            "32f4fcba179c05b8",
+            "309dc99dff061d40"
         ],
         "x": 195,
         "y": 140,
@@ -13963,7 +14292,8 @@
             "66a6c020170412e9",
             "75062d25f49d697d",
             "332c24e3641712c2",
-            "7960cf867b7e4a78"
+            "7960cf867b7e4a78",
+            "3101ced9397172da"
         ],
         "x": 205,
         "y": 560,
@@ -16765,7 +17095,11 @@
             "07ec816b8431f6fe",
             "5f254d40c5e8240f",
             "580da0b3754a5818",
-            "d2fe120e88698aeb"
+            "d2fe120e88698aeb",
+            "dd6ffaab8709bab8",
+            "e9297d1304e92ff3",
+            "99dbe6881f37bc14",
+            "408240b3888622ce"
         ],
         "x": 195,
         "y": 200,
@@ -16944,7 +17278,8 @@
         "name": "Setters - Update Bldg (Globals -> MQTT)",
         "links": [
             "3e5e745b25e837a1",
-            "b1d4327dc1405be1"
+            "b1d4327dc1405be1",
+            "56af08aa5b3e0733"
         ],
         "x": 775,
         "y": 380,
@@ -20800,6 +21135,301 @@
         "info": "",
         "x": 1790,
         "y": 2820,
+        "wires": []
+    },
+    {
+        "id": "d236e6eee53270f4",
+        "type": "link in",
+        "z": "26a7e7275cb541d0",
+        "g": "e6f0aa02159bc664",
+        "name": "TIME FOR PHASE 3",
+        "links": [
+            "6983c6fb1a960333"
+        ],
+        "x": 165,
+        "y": 2580,
+        "wires": [
+            [
+                "42523d902813f067"
+            ]
+        ]
+    },
+    {
+        "id": "f31e8c8e319d93ce",
+        "type": "comment",
+        "z": "26a7e7275cb541d0",
+        "g": "e6f0aa02159bc664",
+        "name": "TIME FOR PHASE 3",
+        "info": "",
+        "x": 220,
+        "y": 2520,
+        "wires": []
+    },
+    {
+        "id": "971728897ecf9437",
+        "type": "link out",
+        "z": "26a7e7275cb541d0",
+        "g": "e6f0aa02159bc664",
+        "name": "clap on",
+        "mode": "link",
+        "links": [
+            "31c4db3eb2f36e59"
+        ],
+        "x": 715,
+        "y": 2700,
+        "wires": []
+    },
+    {
+        "id": "2badacc9a7cff346",
+        "type": "delay",
+        "z": "26a7e7275cb541d0",
+        "g": "e6f0aa02159bc664",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "200",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 770,
+        "y": 2640,
+        "wires": [
+            [
+                "66a6c020170412e9",
+                "9b2dd509237ea4ba"
+            ]
+        ]
+    },
+    {
+        "id": "66a6c020170412e9",
+        "type": "link out",
+        "z": "26a7e7275cb541d0",
+        "g": "e6f0aa02159bc664",
+        "name": "clap off",
+        "mode": "link",
+        "links": [
+            "48373ebe740e92b6",
+            "756238117240a8cf",
+            "371a308e27a41bed",
+            "55ae42b1368591f7"
+        ],
+        "x": 915,
+        "y": 2640,
+        "wires": []
+    },
+    {
+        "id": "9b2dd509237ea4ba",
+        "type": "loop",
+        "z": "26a7e7275cb541d0",
+        "g": "e6f0aa02159bc664",
+        "name": "Mini Rave Loop",
+        "kind": "fcnt",
+        "count": "5",
+        "initial": "1",
+        "step": "1",
+        "condition": "",
+        "conditionType": "js",
+        "when": "before",
+        "enumeration": "enum",
+        "enumerationType": "msg",
+        "limit": "",
+        "loopPayload": "loop-index",
+        "finalPayload": "final-count",
+        "x": 560,
+        "y": 2580,
+        "wires": [
+            [
+                "cd6470a4dd6dcf5a"
+            ],
+            [
+                "971728897ecf9437",
+                "2badacc9a7cff346"
+            ]
+        ]
+    },
+    {
+        "id": "75bb4dcf27e09311",
+        "type": "inject",
+        "z": "26a7e7275cb541d0",
+        "g": "e6f0aa02159bc664",
+        "name": "LET'S RAVE",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 330,
+        "y": 2640,
+        "wires": [
+            [
+                "9b2dd509237ea4ba"
+            ]
+        ]
+    },
+    {
+        "id": "c9cff8053a0560cc",
+        "type": "change",
+        "z": "26a7e7275cb541d0",
+        "g": "e6f0aa02159bc664",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "matchPhase",
+                "pt": "global",
+                "to": "3",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 980,
+        "y": 2580,
+        "wires": [
+            [
+                "d50e20b89aafa29b"
+            ]
+        ]
+    },
+    {
+        "id": "cd6470a4dd6dcf5a",
+        "type": "delay",
+        "z": "26a7e7275cb541d0",
+        "g": "e6f0aa02159bc664",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 760,
+        "y": 2580,
+        "wires": [
+            [
+                "c9cff8053a0560cc"
+            ]
+        ]
+    },
+    {
+        "id": "a0b22b12a042c73b",
+        "type": "comment",
+        "z": "26a7e7275cb541d0",
+        "g": "e6f0aa02159bc664",
+        "name": "Pause to drain MQTT",
+        "info": "",
+        "x": 780,
+        "y": 2520,
+        "wires": []
+    },
+    {
+        "id": "d50e20b89aafa29b",
+        "type": "function",
+        "z": "26a7e7275cb541d0",
+        "g": "e6f0aa02159bc664",
+        "name": "Set ENDGAME qtys",
+        "func": "var bldgs = [\"RTO\", \"RBO\", \"RTM\", \"RBM\", \"RTI\", \"RBI\", \"LBO\", \"LTO\", \"LBM\", \"LTM\", \"LBI\", \"LTI\"];\nfor (var i in bldgs) {\n\n    //Status - Dormant, At Risk(Unblocked), Blocked, Cleared, Damaged\n    global.set(bldgs[i] + \".Status\", \"ENDGAME\");\n\n    //Fire scores \n    global.set(bldgs[i] + \".FS.Window1-BeforeWater\", 8);\n    global.set(bldgs[i] + \".FS.Window2-BeforeWater\", 8);\n    global.set(bldgs[i] + \".FS.Window1-AfterWater\", 8);\n    global.set(bldgs[i] + \".FS.Window2-AfterWater\", 8);\n\n    // Gutters\n    global.set(bldgs[i] + \".GutterPixels\",\"333333330000000000000044444444\");\n\n    // Water qtys - int\n    global.set(bldgs[i] + \".WaterQty\", 0);\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1200,
+        "y": 2580,
+        "wires": [
+            [
+                "4c742ebce9027c25"
+            ]
+        ]
+    },
+    {
+        "id": "4c742ebce9027c25",
+        "type": "link out",
+        "z": "26a7e7275cb541d0",
+        "g": "e6f0aa02159bc664",
+        "name": "Push endgame statuses",
+        "mode": "link",
+        "links": [
+            "3f402ddd8643cce0"
+        ],
+        "x": 1345,
+        "y": 2580,
+        "wires": []
+    },
+    {
+        "id": "42523d902813f067",
+        "type": "change",
+        "z": "26a7e7275cb541d0",
+        "g": "e6f0aa02159bc664",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "matchPhase",
+                "pt": "global",
+                "to": "-1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 2580,
+        "wires": [
+            [
+                "9b2dd509237ea4ba"
+            ]
+        ]
+    },
+    {
+        "id": "28af28cc8618a072",
+        "type": "comment",
+        "z": "26a7e7275cb541d0",
+        "g": "e6f0aa02159bc664",
+        "name": "MVP Step 9 - Endgame",
+        "info": "",
+        "x": 210,
+        "y": 2460,
+        "wires": []
+    },
+    {
+        "id": "28862dd1f1f894b4",
+        "type": "comment",
+        "z": "26a7e7275cb541d0",
+        "g": "e6f0aa02159bc664",
+        "name": "=== OBSOLETE, WAS USED WEEK 3 ====",
+        "info": "",
+        "x": 550,
+        "y": 2480,
         "wires": []
     }
 ]
