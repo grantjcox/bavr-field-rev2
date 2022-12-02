@@ -71,6 +71,14 @@
         "env": []
     },
     {
+        "id": "d290775cd062bdb4",
+        "type": "tab",
+        "label": "Practice Day",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "191a41e1c006a3a3",
         "type": "subflow",
         "name": "==[ BURN TIMER SUBFLOW ]==",
@@ -112,37 +120,6 @@
         "env": [],
         "meta": {},
         "color": "#DDAA99"
-    },
-    {
-        "id": "4a4f80625f8ea163",
-        "type": "group",
-        "z": "55a762ae72fa441b",
-        "g": "8dd89b3dfdd4cad0",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "85965edc.72971",
-            "5efe17e007074ad1",
-            "672af1a8627b7e63",
-            "e33ce82b402295fc",
-            "227f2d5a2ea24037",
-            "da02d40547f5f97a",
-            "f2be5d92f9656966",
-            "b46c481de9536333",
-            "9296e95263e5ddc7",
-            "b06a20262c7c11b3"
-        ],
-        "x": 74,
-        "y": 39,
-        "w": 762,
-        "h": 242
     },
     {
         "id": "6f159bf7a82f4dfa",
@@ -188,9 +165,7 @@
             "5f3e0a85eea68705"
         ],
         "x": 34,
-        "y": 19,
-        "w": 552,
-        "h": 122
+        "y": 19
     },
     {
         "id": "aa7cdd8f3125703c",
@@ -213,9 +188,7 @@
             "6e6816ac951a5c0f"
         ],
         "x": 34,
-        "y": 159,
-        "w": 852,
-        "h": 182
+        "y": 159
     },
     {
         "id": "2ac942eccf98a996",
@@ -240,9 +213,7 @@
             "cc34e7492d373681"
         ],
         "x": 94,
-        "y": 59,
-        "w": 712,
-        "h": 282
+        "y": 59
     },
     {
         "id": "284c27310b25477c",
@@ -292,9 +263,7 @@
             "f2b56dfdbbe11a17"
         ],
         "x": 134,
-        "y": 79,
-        "w": 2712,
-        "h": 362
+        "y": 79
     },
     {
         "id": "5f1037ebc6dbd72f",
@@ -317,9 +286,7 @@
             "19c221d99629ee7a"
         ],
         "x": 94,
-        "y": 515,
-        "w": 872,
-        "h": 186
+        "y": 515
     },
     {
         "id": "459fe488a5804676",
@@ -347,9 +314,7 @@
             "71f67f7f27cafd81"
         ],
         "x": 74,
-        "y": 807,
-        "w": 1592,
-        "h": 266
+        "y": 807
     },
     {
         "id": "11a9b9cee18f6b6c",
@@ -378,9 +343,7 @@
             "a429c99752090afe"
         ],
         "x": 74,
-        "y": 1179,
-        "w": 772,
-        "h": 322
+        "y": 1179
     },
     {
         "id": "3a81c46c8f3762a2",
@@ -403,9 +366,7 @@
             "1b55865e8e16d405"
         ],
         "x": 34,
-        "y": 399,
-        "w": 812,
-        "h": 122
+        "y": 399
     },
     {
         "id": "b16460b067e3329b",
@@ -427,9 +388,7 @@
             "e9c6866ca0db7662"
         ],
         "x": 894,
-        "y": 59,
-        "w": 522,
-        "h": 122
+        "y": 59
     },
     {
         "id": "738dc520034f11a7",
@@ -469,9 +428,7 @@
             "535c9e2bfde164cc"
         ],
         "x": 94,
-        "y": 459,
-        "w": 732,
-        "h": 522
+        "y": 459
     },
     {
         "id": "cb9c0c3b1fe84ccc",
@@ -506,9 +463,7 @@
             "93a01049a60df5c5"
         ],
         "x": 54,
-        "y": 39,
-        "w": 1072,
-        "h": 462
+        "y": 39
     },
     {
         "id": "a83bb00d46efe804",
@@ -540,9 +495,7 @@
             "ad34ea44766153db"
         ],
         "x": 134,
-        "y": 659,
-        "w": 1272,
-        "h": 402
+        "y": 659
     },
     {
         "id": "e63633ec18181ba7",
@@ -571,9 +524,7 @@
             "c79cb601a8c0ab17"
         ],
         "x": 134,
-        "y": 1099,
-        "w": 952,
-        "h": 342
+        "y": 1099
     },
     {
         "id": "bc92f0b2168e67b1",
@@ -595,9 +546,7 @@
             "cd811a5da6dea1c9"
         ],
         "x": 1174,
-        "y": 1079,
-        "w": 512,
-        "h": 122
+        "y": 1079
     },
     {
         "id": "2024311963b7a70e",
@@ -618,9 +567,7 @@
             "b70ae83c222fa7da"
         ],
         "x": 1174,
-        "y": 1299,
-        "w": 482,
-        "h": 122
+        "y": 1299
     },
     {
         "id": "7ceda8dc6f5a8d60",
@@ -642,9 +589,7 @@
             "ccf03d13258bb4e3"
         ],
         "x": 134,
-        "y": 1499,
-        "w": 792,
-        "h": 142
+        "y": 1499
     },
     {
         "id": "96cafb8e88dad064",
@@ -666,9 +611,7 @@
             "c74fb766b19e2bf1"
         ],
         "x": 134,
-        "y": 1679,
-        "w": 832,
-        "h": 142
+        "y": 1679
     },
     {
         "id": "96faa29525ade8f0",
@@ -702,9 +645,7 @@
             "da8da29f2b800fa5"
         ],
         "x": 134,
-        "y": 59,
-        "w": 672,
-        "h": 542
+        "y": 59
     },
     {
         "id": "a298e34363e28341",
@@ -733,9 +674,7 @@
             "9498eab6a1cd0f2a"
         ],
         "x": 54,
-        "y": 499,
-        "w": 952,
-        "h": 242
+        "y": 499
     },
     {
         "id": "821639e23b06e8b7",
@@ -764,9 +703,7 @@
             "3e1b0163bae2fa11"
         ],
         "x": 54,
-        "y": 719,
-        "w": 952,
-        "h": 242
+        "y": 719
     },
     {
         "id": "b00a1e1bf34b7a99",
@@ -795,9 +732,7 @@
             "5a7f6afebccd7fa7"
         ],
         "x": 54,
-        "y": 959,
-        "w": 952,
-        "h": 282
+        "y": 959
     },
     {
         "id": "0b3af3753f33292d",
@@ -826,9 +761,7 @@
             "8d059dd5b45d6a89"
         ],
         "x": 54,
-        "y": 1239,
-        "w": 952,
-        "h": 262
+        "y": 1239
     },
     {
         "id": "dc5384f7b9f470a3",
@@ -857,9 +790,7 @@
             "5b091724b2b67ab5"
         ],
         "x": 54,
-        "y": 1499,
-        "w": 942,
-        "h": 262
+        "y": 1499
     },
     {
         "id": "58bd3feb98c01c36",
@@ -888,9 +819,7 @@
             "dc8f4d8f85a10f79"
         ],
         "x": 54,
-        "y": 1759,
-        "w": 942,
-        "h": 242
+        "y": 1759
     },
     {
         "id": "21aaba78e384f976",
@@ -919,9 +848,7 @@
             "a767d0c5f4352f2d"
         ],
         "x": 54,
-        "y": 1979,
-        "w": 942,
-        "h": 242
+        "y": 1979
     },
     {
         "id": "6ac6b771fff8c239",
@@ -950,9 +877,7 @@
             "2a78ff579a5e9464"
         ],
         "x": 54,
-        "y": 2219,
-        "w": 942,
-        "h": 222
+        "y": 2219
     },
     {
         "id": "6a070793fb470a03",
@@ -983,9 +908,7 @@
             "31c4db3eb2f36e59"
         ],
         "x": 114,
-        "y": 59,
-        "w": 872,
-        "h": 322
+        "y": 59
     },
     {
         "id": "18778eda46bd5b07",
@@ -1004,9 +927,7 @@
             "4eb1999fbc3aab57"
         ],
         "x": 114,
-        "y": 859,
-        "w": 652,
-        "h": 182
+        "y": 859
     },
     {
         "id": "378995858571b39f",
@@ -1037,9 +958,7 @@
             "48373ebe740e92b6"
         ],
         "x": 114,
-        "y": 479,
-        "w": 892,
-        "h": 322
+        "y": 479
     },
     {
         "id": "4f152b1eeea1837b",
@@ -1065,9 +984,7 @@
             "e3641c48aef6dae2"
         ],
         "x": 134,
-        "y": 1099,
-        "w": 1052,
-        "h": 222
+        "y": 1099
     },
     {
         "id": "1e5cf91bef2d0b81",
@@ -1090,9 +1007,7 @@
             "cabc9379e91bfd5e"
         ],
         "x": 1074,
-        "y": 539,
-        "w": 912,
-        "h": 162
+        "y": 539
     },
     {
         "id": "ab2d725536c9b091",
@@ -1131,9 +1046,7 @@
             "3b6b77c692325673"
         ],
         "x": 1114,
-        "y": 1559,
-        "w": 812,
-        "h": 502
+        "y": 1559
     },
     {
         "id": "86746eb8946eaa91",
@@ -1157,9 +1070,7 @@
             "3f38d246c62ef7bd"
         ],
         "x": 134,
-        "y": 1439,
-        "w": 592,
-        "h": 222
+        "y": 1439
     },
     {
         "id": "77bdfe65956919ec",
@@ -1191,9 +1102,7 @@
             "0e3ebf9316c50718"
         ],
         "x": 1214,
-        "y": 679,
-        "w": 1242,
-        "h": 362
+        "y": 679
     },
     {
         "id": "1e2b3d276327b031",
@@ -1216,9 +1125,7 @@
             "c9c52f1b1fc4875f"
         ],
         "x": 1214,
-        "y": 79,
-        "w": 792,
-        "h": 242
+        "y": 79
     },
     {
         "id": "b73bab6188d86888",
@@ -1241,9 +1148,7 @@
             "66877abc465757d5"
         ],
         "x": 1214,
-        "y": 359,
-        "w": 792,
-        "h": 242
+        "y": 359
     },
     {
         "id": "9e4ed901b9748060",
@@ -1294,9 +1199,7 @@
             "b0caec5b5ce21c95"
         ],
         "x": 84,
-        "y": 2519,
-        "w": 1062,
-        "h": 762
+        "y": 2519
     },
     {
         "id": "b786c9d92d164f0e",
@@ -1322,9 +1225,7 @@
             "e9d2f751156577aa"
         ],
         "x": 114,
-        "y": 3419,
-        "w": 1012,
-        "h": 242
+        "y": 3419
     },
     {
         "id": "0bb0145c8adb017a",
@@ -1349,9 +1250,7 @@
             "a982d77f63880d2c"
         ],
         "x": 74,
-        "y": 819,
-        "w": 472,
-        "h": 222
+        "y": 819
     },
     {
         "id": "bf327706215ccff4",
@@ -1372,9 +1271,7 @@
             "429025b01e7e6d4d"
         ],
         "x": 948,
-        "y": 1413,
-        "w": 784,
-        "h": 1074
+        "y": 1413
     },
     {
         "id": "a034d18f4f2e4bd6",
@@ -1395,9 +1292,7 @@
             "ec0ec170aad778ad"
         ],
         "x": 1828,
-        "y": 1413,
-        "w": 784,
-        "h": 1074
+        "y": 1413
     },
     {
         "id": "7ae10c2df5524d01",
@@ -1434,35 +1329,7 @@
             "af339647b46b531f"
         ],
         "x": 1854,
-        "y": 2539,
-        "w": 1012,
-        "h": 322
-    },
-    {
-        "id": "67280a1824f2e68f",
-        "type": "group",
-        "z": "f66e6f21e6630f00",
-        "g": "f950efc084a45cd2",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "dc1d674e61de820d",
-            "ea43b63ac74264a6",
-            "fd3278c8b8251cb2",
-            "3e5e745b25e837a1",
-            "5f1e32d4a9243886"
-        ],
-        "x": 84,
-        "y": 99,
-        "w": 472,
-        "h": 242
+        "y": 2539
     },
     {
         "id": "8ea343d5acb02cd2",
@@ -1488,283 +1355,7 @@
             "cdd67f2387d5de33"
         ],
         "x": 682.9999694824219,
-        "y": 279,
-        "w": 603.0000305175781,
-        "h": 242
-    },
-    {
-        "id": "a4436834ffd8d273",
-        "type": "group",
-        "z": "bd2296fd2d68d405",
-        "g": "bf327706215ccff4",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "0a259f61ef263ff4",
-            "48336719f32d37fa",
-            "994fdba605b8d390",
-            "a24ffcc749b1439d",
-            "0ca3f39d0e17b614",
-            "ec0812801f759152",
-            "fa539c94e51af673",
-            "7cf7c2a31bf1bcce",
-            "c5be06f462d960cb",
-            "16e630ed7e81d738"
-        ],
-        "x": 974,
-        "y": 1439,
-        "w": 712,
-        "h": 342
-    },
-    {
-        "id": "096607a1165ab5dd",
-        "type": "group",
-        "z": "bd2296fd2d68d405",
-        "g": "bf327706215ccff4",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "0daf3a9e8c310067",
-            "d728650e3d3d36c3",
-            "a1f8226389886d66",
-            "d6bac14fab6840fe",
-            "e05e346b9fb5fbd3",
-            "18fee8cf09aa56b6",
-            "15c8af9ecc4504b9",
-            "a672663eed4f1899",
-            "32b4fbc2e326e9d8",
-            "6df023e1989102e5"
-        ],
-        "x": 974,
-        "y": 1819,
-        "w": 712,
-        "h": 342
-    },
-    {
-        "id": "429025b01e7e6d4d",
-        "type": "group",
-        "z": "bd2296fd2d68d405",
-        "g": "bf327706215ccff4",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "06d3e2320ed797d7",
-            "260905c9622989e0",
-            "303c612e4f366a64",
-            "f8ed1d8e4301b635",
-            "dfd37ae16eec3d3b"
-        ],
-        "x": 974,
-        "y": 2199,
-        "w": 732,
-        "h": 262
-    },
-    {
-        "id": "2b2a6d295740d392",
-        "type": "group",
-        "z": "55a762ae72fa441b",
-        "g": "6f159bf7a82f4dfa",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "80cdfca71b0a4285",
-            "4833618839f23d81",
-            "8f38f406c628cd92",
-            "71450ef8b8905ee9",
-            "75202ca16a123855",
-            "3a2d656d9de58a64",
-            "7f56ec0176b540bc",
-            "3c6b0d2e7d12f47d",
-            "a9e9a6448592d3b2",
-            "dafcb9eeb25bd05f",
-            "97db8049c673a98e",
-            "079d1a3ec4dd91d9",
-            "2a0d525888f8207a",
-            "4c724d58d017c572",
-            "92aca6c09c966e83",
-            "490c984c330991c7",
-            "e3e9fd0d99b1549e",
-            "e0d9d7310fe50dd8",
-            "8c8fae70037e1c26",
-            "1399d03d81d48081",
-            "f3f8bdcc8f8d1713"
-        ],
-        "x": 114,
-        "y": 739,
-        "w": 1552,
-        "h": 442
-    },
-    {
-        "id": "ec7979310fe9e00f",
-        "type": "group",
-        "z": "55a762ae72fa441b",
-        "g": "6f159bf7a82f4dfa",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "b43ba60f45967c77",
-            "c9e2c1f189fc8576",
-            "e0c6c1515d7fb9ae",
-            "6d2a234344182486",
-            "5d34c40fa95adf3b"
-        ],
-        "x": 114,
-        "y": 579,
-        "w": 732,
-        "h": 122
-    },
-    {
-        "id": "28011fcca82837fc",
-        "type": "group",
-        "z": "55a762ae72fa441b",
-        "g": "6f159bf7a82f4dfa",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "e5d8eb5d72932755",
-            "e1f84c7be941ca8c",
-            "8d1b28dd96f6b81e",
-            "6ee9ecd341bb2e5c",
-            "d213416ed624b309",
-            "317c4b8d0c02f08a",
-            "4173a50514c384c6",
-            "d3ed72bb430a14d5"
-        ],
-        "x": 114,
-        "y": 419,
-        "w": 972,
-        "h": 142
-    },
-    {
-        "id": "156f05bb828f97ee",
-        "type": "group",
-        "z": "bd2296fd2d68d405",
-        "g": "a034d18f4f2e4bd6",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "21c1a36c6eeec879",
-            "2c67052878b82a9f",
-            "d040dfd31ac803f3",
-            "4d7dd9500d554d29",
-            "9e0034f563520f15",
-            "a530f51f02b55940",
-            "53067221f53cf271",
-            "e9b331ce522d6fff",
-            "397afc29e37dea4f",
-            "d4756f35786b766d"
-        ],
-        "x": 1854,
-        "y": 1439,
-        "w": 712,
-        "h": 342
-    },
-    {
-        "id": "4fdc3891a83ced02",
-        "type": "group",
-        "z": "bd2296fd2d68d405",
-        "g": "a034d18f4f2e4bd6",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "7e3a6a92eb8f1794",
-            "ae8147e43f1023ba",
-            "701519fb19756ce5",
-            "558eac6afdcf8563",
-            "80b76622216b9807",
-            "f1db54ebc7cd879b",
-            "9c991227a903215e",
-            "69d3a6f27883fd2e",
-            "6e23af39d4f63fe0",
-            "d7966aa3641c8fcf",
-            "98833f39eaeba382"
-        ],
-        "x": 1854,
-        "y": 1635,
-        "w": 712,
-        "h": 526
-    },
-    {
-        "id": "ec0ec170aad778ad",
-        "type": "group",
-        "z": "bd2296fd2d68d405",
-        "g": "a034d18f4f2e4bd6",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "29a9307f80926b96",
-            "36158908d91ccd6f",
-            "9daa3ddcaf2694b4",
-            "3c75761e406b9a9c",
-            "cd9a098d80ea8fca"
-        ],
-        "x": 1854,
-        "y": 2199,
-        "w": 732,
-        "h": 262
+        "y": 279
     },
     {
         "id": "d1c6977fdede82fe",
@@ -1862,79 +1453,6 @@
         "y": 1959,
         "w": 1658,
         "h": 1108
-    },
-    {
-        "id": "c8b0f520ed08c7a6",
-        "type": "group",
-        "z": "55a762ae72fa441b",
-        "g": "325d6a9e63d4c375",
-        "name": "",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "1a2d6e714aea9f24",
-            "ffb76cb366f8f326",
-            "611d2e7ab4c4df4d",
-            "b168987c1df43253",
-            "374ad7109c8ae83c"
-        ],
-        "x": 1014,
-        "y": 2219,
-        "w": 692,
-        "h": 162
-    },
-    {
-        "id": "15ec07be63476f47",
-        "type": "group",
-        "z": "55a762ae72fa441b",
-        "g": "325d6a9e63d4c375",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "e71dabb088e11184",
-            "9bd7f41eff7657e7",
-            "ac3997f506e655bc",
-            "dd60a83720551880",
-            "6d4dee2de447ea5a"
-        ],
-        "x": 1014,
-        "y": 2539,
-        "w": 692,
-        "h": 162
-    },
-    {
-        "id": "f5f17912a6b03826",
-        "type": "group",
-        "z": "55a762ae72fa441b",
-        "g": "325d6a9e63d4c375",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "38814e878484ba2d",
-            "55d1be7677c9b9da",
-            "595534f2e07f6f17",
-            "9561806327b7b373",
-            "70bc3c0ac1f6d076"
-        ],
-        "x": 1014,
-        "y": 2879,
-        "w": 692,
-        "h": 162
     },
     {
         "id": "6a8702296ddd22a1",
@@ -2120,9 +1638,7 @@
             "c47734c2c38bc568"
         ],
         "x": 84,
-        "y": 399,
-        "w": 462,
-        "h": 262
+        "y": 399
     },
     {
         "id": "b2c04e106e7697f0",
@@ -2177,9 +1693,7 @@
             "67280a1824f2e68f"
         ],
         "x": 58,
-        "y": 73,
-        "w": 524,
-        "h": 294
+        "y": 73
     },
     {
         "id": "f4b953e583c4193d",
@@ -2207,35 +1721,6 @@
         "y": 1839,
         "w": 922,
         "h": 162
-    },
-    {
-        "id": "3c736f3f8fb9049f",
-        "type": "group",
-        "z": "55a762ae72fa441b",
-        "g": "c61a3666d4d9e6cc",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "8514de7473cdc63d",
-            "35d7842449cc5407",
-            "2c41d52979a31316",
-            "b6b86c414d386111",
-            "3ad9f59549cfb1c2",
-            "7960cf867b7e4a78",
-            "32f4fcba179c05b8",
-            "9379e4327f29e381"
-        ],
-        "x": 234,
-        "y": 3199,
-        "w": 792,
-        "h": 242
     },
     {
         "id": "c61a3666d4d9e6cc",
@@ -2277,27 +1762,6 @@
         "y": 3119,
         "w": 2312,
         "h": 442
-    },
-    {
-        "id": "04cf701b8b094633",
-        "type": "group",
-        "z": "55a762ae72fa441b",
-        "g": "a2191c93ea98c3cd",
-        "name": "",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "6033b9343789b08e",
-            "49c1d158fff7d9fa",
-            "10aa02afe21c7a24",
-            "5f254d40c5e8240f",
-            "5f46218c00bd82e5"
-        ],
-        "x": 674,
-        "y": 3759,
-        "w": 692,
-        "h": 162
     },
     {
         "id": "2971d7c90b74f3b4",
@@ -2368,48 +1832,6 @@
         "x": 2354,
         "y": 2079,
         "w": 912,
-        "h": 162
-    },
-    {
-        "id": "c0996267b091c9c3",
-        "type": "group",
-        "z": "55a762ae72fa441b",
-        "g": "a2191c93ea98c3cd",
-        "name": "",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "50fc3a4577acd26a",
-            "3dd0f9c6f6793cd4",
-            "a18a60b81152208f",
-            "580da0b3754a5818",
-            "4754a91b730752ea"
-        ],
-        "x": 674,
-        "y": 4039,
-        "w": 692,
-        "h": 162
-    },
-    {
-        "id": "914422360e75360c",
-        "type": "group",
-        "z": "55a762ae72fa441b",
-        "g": "a2191c93ea98c3cd",
-        "name": "",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "6df3e0114ac85fee",
-            "04054f448cd23fc4",
-            "83118ebca9e0405b",
-            "d2fe120e88698aeb",
-            "4e2f97a180d92ce0"
-        ],
-        "x": 674,
-        "y": 4319,
-        "w": 692,
         "h": 162
     },
     {
@@ -2511,12 +1933,539 @@
             "53fea78f00015603",
             "fdce46b507084b4f",
             "a75cdd2e2fc7e9a8",
-            "408240b3888622ce"
+            "408240b3888622ce",
+            "cb36bacaeb803937"
         ],
         "x": 34,
         "y": 4539,
         "w": 2022,
         "h": 422
+    },
+    {
+        "id": "f1e1af78cf930290",
+        "type": "group",
+        "z": "d32826a1611e0622",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "9a38f2942ff4605f",
+            "da1ab5f800be4343",
+            "bcc47bf7cad06ac1",
+            "3731a8ad784af987",
+            "ebd69a89636bb4c2"
+        ],
+        "x": 1074,
+        "y": 839
+    },
+    {
+        "id": "8dd89b3dfdd4cad0",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "4a4f80625f8ea163"
+        ],
+        "x": 48,
+        "y": 13,
+        "w": 814,
+        "h": 294
+    },
+    {
+        "id": "4a4f80625f8ea163",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "g": "8dd89b3dfdd4cad0",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "85965edc.72971",
+            "5efe17e007074ad1",
+            "672af1a8627b7e63",
+            "e33ce82b402295fc",
+            "227f2d5a2ea24037",
+            "da02d40547f5f97a",
+            "f2be5d92f9656966",
+            "b46c481de9536333",
+            "9296e95263e5ddc7",
+            "b06a20262c7c11b3"
+        ],
+        "x": 74,
+        "y": 39,
+        "w": 762,
+        "h": 242
+    },
+    {
+        "id": "67280a1824f2e68f",
+        "type": "group",
+        "z": "f66e6f21e6630f00",
+        "g": "f950efc084a45cd2",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "dc1d674e61de820d",
+            "ea43b63ac74264a6",
+            "fd3278c8b8251cb2",
+            "3e5e745b25e837a1",
+            "5f1e32d4a9243886"
+        ],
+        "x": 84,
+        "y": 99
+    },
+    {
+        "id": "a4436834ffd8d273",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "g": "bf327706215ccff4",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "0a259f61ef263ff4",
+            "48336719f32d37fa",
+            "994fdba605b8d390",
+            "a24ffcc749b1439d",
+            "0ca3f39d0e17b614",
+            "ec0812801f759152",
+            "fa539c94e51af673",
+            "7cf7c2a31bf1bcce",
+            "c5be06f462d960cb",
+            "16e630ed7e81d738"
+        ],
+        "x": 974,
+        "y": 1439
+    },
+    {
+        "id": "096607a1165ab5dd",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "g": "bf327706215ccff4",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "0daf3a9e8c310067",
+            "d728650e3d3d36c3",
+            "a1f8226389886d66",
+            "d6bac14fab6840fe",
+            "e05e346b9fb5fbd3",
+            "18fee8cf09aa56b6",
+            "15c8af9ecc4504b9",
+            "a672663eed4f1899",
+            "32b4fbc2e326e9d8",
+            "6df023e1989102e5"
+        ],
+        "x": 974,
+        "y": 1819
+    },
+    {
+        "id": "429025b01e7e6d4d",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "g": "bf327706215ccff4",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "06d3e2320ed797d7",
+            "260905c9622989e0",
+            "303c612e4f366a64",
+            "f8ed1d8e4301b635",
+            "dfd37ae16eec3d3b"
+        ],
+        "x": 974,
+        "y": 2199
+    },
+    {
+        "id": "2b2a6d295740d392",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "g": "6f159bf7a82f4dfa",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "80cdfca71b0a4285",
+            "4833618839f23d81",
+            "8f38f406c628cd92",
+            "71450ef8b8905ee9",
+            "75202ca16a123855",
+            "3a2d656d9de58a64",
+            "7f56ec0176b540bc",
+            "3c6b0d2e7d12f47d",
+            "a9e9a6448592d3b2",
+            "dafcb9eeb25bd05f",
+            "97db8049c673a98e",
+            "079d1a3ec4dd91d9",
+            "2a0d525888f8207a",
+            "4c724d58d017c572",
+            "92aca6c09c966e83",
+            "490c984c330991c7",
+            "e3e9fd0d99b1549e",
+            "e0d9d7310fe50dd8",
+            "8c8fae70037e1c26",
+            "1399d03d81d48081",
+            "f3f8bdcc8f8d1713"
+        ],
+        "x": 114,
+        "y": 739,
+        "w": 1552,
+        "h": 442
+    },
+    {
+        "id": "ec7979310fe9e00f",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "g": "6f159bf7a82f4dfa",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "b43ba60f45967c77",
+            "c9e2c1f189fc8576",
+            "e0c6c1515d7fb9ae",
+            "6d2a234344182486",
+            "5d34c40fa95adf3b"
+        ],
+        "x": 114,
+        "y": 579,
+        "w": 732,
+        "h": 122
+    },
+    {
+        "id": "28011fcca82837fc",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "g": "6f159bf7a82f4dfa",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "e5d8eb5d72932755",
+            "e1f84c7be941ca8c",
+            "8d1b28dd96f6b81e",
+            "6ee9ecd341bb2e5c",
+            "d213416ed624b309",
+            "317c4b8d0c02f08a",
+            "4173a50514c384c6",
+            "d3ed72bb430a14d5"
+        ],
+        "x": 114,
+        "y": 419,
+        "w": 972,
+        "h": 142
+    },
+    {
+        "id": "156f05bb828f97ee",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "g": "a034d18f4f2e4bd6",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "21c1a36c6eeec879",
+            "2c67052878b82a9f",
+            "d040dfd31ac803f3",
+            "4d7dd9500d554d29",
+            "9e0034f563520f15",
+            "a530f51f02b55940",
+            "53067221f53cf271",
+            "e9b331ce522d6fff",
+            "397afc29e37dea4f",
+            "d4756f35786b766d"
+        ],
+        "x": 1854,
+        "y": 1439
+    },
+    {
+        "id": "4fdc3891a83ced02",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "g": "a034d18f4f2e4bd6",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "7e3a6a92eb8f1794",
+            "ae8147e43f1023ba",
+            "701519fb19756ce5",
+            "558eac6afdcf8563",
+            "80b76622216b9807",
+            "f1db54ebc7cd879b",
+            "9c991227a903215e",
+            "69d3a6f27883fd2e",
+            "6e23af39d4f63fe0",
+            "d7966aa3641c8fcf",
+            "98833f39eaeba382"
+        ],
+        "x": 1854,
+        "y": 1635
+    },
+    {
+        "id": "ec0ec170aad778ad",
+        "type": "group",
+        "z": "bd2296fd2d68d405",
+        "g": "a034d18f4f2e4bd6",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "29a9307f80926b96",
+            "36158908d91ccd6f",
+            "9daa3ddcaf2694b4",
+            "3c75761e406b9a9c",
+            "cd9a098d80ea8fca"
+        ],
+        "x": 1854,
+        "y": 2199
+    },
+    {
+        "id": "c8b0f520ed08c7a6",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "g": "325d6a9e63d4c375",
+        "name": "",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "1a2d6e714aea9f24",
+            "ffb76cb366f8f326",
+            "611d2e7ab4c4df4d",
+            "b168987c1df43253",
+            "374ad7109c8ae83c"
+        ],
+        "x": 1014,
+        "y": 2219,
+        "w": 692,
+        "h": 162
+    },
+    {
+        "id": "15ec07be63476f47",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "g": "325d6a9e63d4c375",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "e71dabb088e11184",
+            "9bd7f41eff7657e7",
+            "ac3997f506e655bc",
+            "dd60a83720551880",
+            "6d4dee2de447ea5a"
+        ],
+        "x": 1014,
+        "y": 2539,
+        "w": 692,
+        "h": 162
+    },
+    {
+        "id": "f5f17912a6b03826",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "g": "325d6a9e63d4c375",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "38814e878484ba2d",
+            "55d1be7677c9b9da",
+            "595534f2e07f6f17",
+            "9561806327b7b373",
+            "70bc3c0ac1f6d076"
+        ],
+        "x": 1014,
+        "y": 2879,
+        "w": 692,
+        "h": 162
+    },
+    {
+        "id": "3c736f3f8fb9049f",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "g": "c61a3666d4d9e6cc",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "8514de7473cdc63d",
+            "35d7842449cc5407",
+            "2c41d52979a31316",
+            "b6b86c414d386111",
+            "3ad9f59549cfb1c2",
+            "7960cf867b7e4a78",
+            "32f4fcba179c05b8",
+            "9379e4327f29e381"
+        ],
+        "x": 234,
+        "y": 3199,
+        "w": 792,
+        "h": 242
+    },
+    {
+        "id": "04cf701b8b094633",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "g": "a2191c93ea98c3cd",
+        "name": "",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "6033b9343789b08e",
+            "49c1d158fff7d9fa",
+            "10aa02afe21c7a24",
+            "5f254d40c5e8240f",
+            "5f46218c00bd82e5"
+        ],
+        "x": 674,
+        "y": 3759,
+        "w": 692,
+        "h": 162
+    },
+    {
+        "id": "c0996267b091c9c3",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "g": "a2191c93ea98c3cd",
+        "name": "",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "50fc3a4577acd26a",
+            "3dd0f9c6f6793cd4",
+            "a18a60b81152208f",
+            "580da0b3754a5818",
+            "4754a91b730752ea"
+        ],
+        "x": 674,
+        "y": 4039,
+        "w": 692,
+        "h": 162
+    },
+    {
+        "id": "914422360e75360c",
+        "type": "group",
+        "z": "55a762ae72fa441b",
+        "g": "a2191c93ea98c3cd",
+        "name": "",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "6df3e0114ac85fee",
+            "04054f448cd23fc4",
+            "83118ebca9e0405b",
+            "d2fe120e88698aeb",
+            "4e2f97a180d92ce0"
+        ],
+        "x": 674,
+        "y": 4319,
+        "w": 692,
+        "h": 162
     },
     {
         "id": "93b41a186984a67e",
@@ -2548,9 +2497,9 @@
         "h": 242
     },
     {
-        "id": "f1e1af78cf930290",
+        "id": "5b2e1df620dae52e",
         "type": "group",
-        "z": "d32826a1611e0622",
+        "z": "d290775cd062bdb4",
         "style": {
             "stroke": "#3a3a3a",
             "stroke-opacity": "1",
@@ -2561,37 +2510,44 @@
             "color": "#cccccc"
         },
         "nodes": [
-            "9a38f2942ff4605f",
-            "da1ab5f800be4343",
-            "bcc47bf7cad06ac1",
-            "3731a8ad784af987",
-            "ebd69a89636bb4c2"
+            "bc5bc34b0a554db5",
+            "9141629c47b9ec5a",
+            "82b85240418fd270",
+            "baa42f69e2d952ef",
+            "6735b52b2a3c9198",
+            "e78c4130ce48393f",
+            "05e4091962849484",
+            "139a9a4df9d04035",
+            "455c14d722b45a10",
+            "c0a2737bd82496db",
+            "4c037b2b27148c64",
+            "aade227546ad0602",
+            "f3c2163df962cd36",
+            "e5105bbb367e19a3",
+            "bc278b057154769a",
+            "a2dd5801d50f1741",
+            "fcf61b936474df6f",
+            "99c1b40103477b51",
+            "c8fe595ade5bc852",
+            "1810b1e347c3bb76",
+            "6982a6ad62687772",
+            "1a188d224ac0676e",
+            "59d030f3190ddc07",
+            "0b491e3d2bd37448",
+            "5388be119e63ab15",
+            "be9a21d6ce2adfec",
+            "c7d8c2191ece1acd",
+            "52a0e21ae79627c7",
+            "dbdaf4bc1215783f",
+            "17e2f4d49c653731",
+            "48072dd7704a6796",
+            "dc820914e43fc81f",
+            "bfb63c0743b0cf22"
         ],
-        "x": 1074,
-        "y": 839,
-        "w": 932,
-        "h": 162
-    },
-    {
-        "id": "8dd89b3dfdd4cad0",
-        "type": "group",
-        "z": "55a762ae72fa441b",
-        "style": {
-            "stroke": "#3a3a3a",
-            "stroke-opacity": "1",
-            "fill": "#1e1e1e",
-            "fill-opacity": "0.5",
-            "label": true,
-            "label-position": "nw",
-            "color": "#cccccc"
-        },
-        "nodes": [
-            "4a4f80625f8ea163"
-        ],
-        "x": 48,
-        "y": 13,
-        "w": 814,
-        "h": 294
+        "x": 54,
+        "y": 159,
+        "w": 1592,
+        "h": 722
     },
     {
         "id": "b411c6135a7823e0",
@@ -3236,6 +3192,86 @@
         "group": "1e4da6b2e1809214",
         "order": 10,
         "width": 5,
+        "height": 1
+    },
+    {
+        "id": "a78f135cf4c591a6",
+        "type": "ui_tab",
+        "name": "Practice Day",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d631d9b97224d13c",
+        "type": "ui_group",
+        "name": "Practice Field Control",
+        "tab": "a78f135cf4c591a6",
+        "order": 1,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "563e3db15203bfe1",
+        "type": "ui_group",
+        "name": "Practice Field Heaters",
+        "tab": "a78f135cf4c591a6",
+        "order": 2,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "30a6abf945974eeb",
+        "type": "ui_spacer",
+        "z": "55a762ae72fa441b",
+        "name": "spacer",
+        "group": "563e3db15203bfe1",
+        "order": 3,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "f3355852a9a4c5d1",
+        "type": "ui_spacer",
+        "z": "55a762ae72fa441b",
+        "name": "spacer",
+        "group": "563e3db15203bfe1",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "424cd99079fb9295",
+        "type": "ui_spacer",
+        "z": "55a762ae72fa441b",
+        "name": "spacer",
+        "group": "563e3db15203bfe1",
+        "order": 7,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "9ec6172d5eb0cb33",
+        "type": "ui_spacer",
+        "z": "55a762ae72fa441b",
+        "name": "spacer",
+        "group": "563e3db15203bfe1",
+        "order": 10,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "7ac13fea52ffd33c",
+        "type": "ui_spacer",
+        "z": "55a762ae72fa441b",
+        "name": "spacer",
+        "group": "563e3db15203bfe1",
+        "order": 11,
+        "width": 3,
         "height": 1
     },
     {
@@ -4223,7 +4259,8 @@
             "6d217ae324a7acc7",
             "8c413bdb5f2a20df",
             "da56a0702839f09a",
-            "28d0a4915564070b"
+            "28d0a4915564070b",
+            "baa42f69e2d952ef"
         ],
         "x": 185,
         "y": 1100,
@@ -4243,7 +4280,8 @@
             "2335df53b4766297",
             "644ae6f88aa55107",
             "bd87b250d2dcd90c",
-            "68aa5688177e30e7"
+            "68aa5688177e30e7",
+            "82b85240418fd270"
         ],
         "x": 255,
         "y": 220,
@@ -7806,6 +7844,23 @@
         "x": 2015,
         "y": 4920,
         "wires": []
+    },
+    {
+        "id": "cb36bacaeb803937",
+        "type": "link in",
+        "z": "55a762ae72fa441b",
+        "g": "661aa04cb7a21daf",
+        "name": "link in p3",
+        "links": [
+            "9141629c47b9ec5a"
+        ],
+        "x": 1085,
+        "y": 4620,
+        "wires": [
+            [
+                "4ecb30f2fa83e7d5"
+            ]
+        ]
     },
     {
         "id": "0bb4f2dd1a0c4bda",
@@ -12256,7 +12311,8 @@
         "links": [
             "2335df53b4766297",
             "644ae6f88aa55107",
-            "68aa5688177e30e7"
+            "68aa5688177e30e7",
+            "82b85240418fd270"
         ],
         "x": 125,
         "y": 2880,
@@ -12450,7 +12506,8 @@
         "links": [
             "2335df53b4766297",
             "644ae6f88aa55107",
-            "68aa5688177e30e7"
+            "68aa5688177e30e7",
+            "82b85240418fd270"
         ],
         "x": 155,
         "y": 3620,
@@ -17894,7 +17951,8 @@
             "dd6ffaab8709bab8",
             "e9297d1304e92ff3",
             "99dbe6881f37bc14",
-            "408240b3888622ce"
+            "408240b3888622ce",
+            "bfb63c0743b0cf22"
         ],
         "x": 195,
         "y": 200,
@@ -18728,7 +18786,8 @@
         "name": "Resettin' time",
         "links": [
             "9bc5be050fadf6b6",
-            "ced32d8be696727e"
+            "ced32d8be696727e",
+            "6735b52b2a3c9198"
         ],
         "x": 125,
         "y": 480,
@@ -22705,6 +22764,784 @@
         "info": "",
         "x": 550,
         "y": 2480,
+        "wires": []
+    },
+    {
+        "id": "bc5bc34b0a554db5",
+        "type": "ui_button",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "group": "d631d9b97224d13c",
+        "order": 1,
+        "width": 5,
+        "height": 2,
+        "passthru": false,
+        "label": "Start Phase 3",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 260,
+        "y": 260,
+        "wires": [
+            [
+                "9141629c47b9ec5a"
+            ]
+        ]
+    },
+    {
+        "id": "9141629c47b9ec5a",
+        "type": "link out",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "[practice] phase 3",
+        "mode": "link",
+        "links": [
+            "cb36bacaeb803937"
+        ],
+        "x": 415,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "82b85240418fd270",
+        "type": "link out",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "JUST END IT",
+        "mode": "link",
+        "links": [
+            "227f2d5a2ea24037",
+            "c0d73c7a8e66d4c2",
+            "93467bb9550545d1"
+        ],
+        "x": 455,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "baa42f69e2d952ef",
+        "type": "link out",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "Ding fries are done",
+        "mode": "link",
+        "links": [
+            "8c8fae70037e1c26"
+        ],
+        "x": 455,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "6735b52b2a3c9198",
+        "type": "link out",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "Send reset MQTT",
+        "mode": "link",
+        "links": [
+            "1b55865e8e16d405"
+        ],
+        "x": 455,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "e78c4130ce48393f",
+        "type": "ui_button",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "group": "d631d9b97224d13c",
+        "order": 2,
+        "width": 5,
+        "height": 2,
+        "passthru": true,
+        "label": "END / RESET MATCH",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 290,
+        "y": 360,
+        "wires": [
+            [
+                "82b85240418fd270",
+                "baa42f69e2d952ef",
+                "6735b52b2a3c9198"
+            ]
+        ]
+    },
+    {
+        "id": "05e4091962849484",
+        "type": "comment",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "=== Practice Day ===",
+        "info": "",
+        "x": 180,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "139a9a4df9d04035",
+        "type": "ui_button",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "group": "563e3db15203bfe1",
+        "order": 1,
+        "width": 2,
+        "height": 2,
+        "passthru": false,
+        "label": "Turn on LTO Heater",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "darkorange",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 520,
+        "wires": [
+            [
+                "5388be119e63ab15"
+            ]
+        ]
+    },
+    {
+        "id": "455c14d722b45a10",
+        "type": "change",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "global.heateron = true",
+        "rules": [
+            {
+                "t": "set",
+                "p": "heateron",
+                "pt": "global",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 760,
+        "y": 580,
+        "wires": [
+            [
+                "c0a2737bd82496db",
+                "aade227546ad0602",
+                "dc820914e43fc81f"
+            ]
+        ]
+    },
+    {
+        "id": "c0a2737bd82496db",
+        "type": "function",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "Build MQTT to heat it up",
+        "func": "//Get the thing\nvar whichBldg = global.get(\"hotBldg\");\n\n//Build the MQTT message\nmsg.topic = \"nodered/heateron/\" + whichBldg;\nmsg.payload = \"{}\";\n\n//Fin\nglobal.set(\"hotBldg\",whichBldg);\n//msg.payload = global.get(\"startSide\") + whichBldg + \"O\"; //always O bldg\nmsg.payload = whichBldg;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1010,
+        "y": 520,
+        "wires": [
+            [
+                "4c037b2b27148c64"
+            ]
+        ]
+    },
+    {
+        "id": "4c037b2b27148c64",
+        "type": "mqtt out",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 1190,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "aade227546ad0602",
+        "type": "function",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "Do a timer",
+        "func": "let clock_value = flow.get(\"clock_value\") || 0;\n\nclock_value++; \n\nif (clock_value < 0) clock_value = 0;\n\nflow.set(\"clock_value\", clock_value);\nglobal.set(\"heaterTime\", clock_value);\n\nmsg.payload = clock_value;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 640,
+        "wires": [
+            [
+                "a2dd5801d50f1741",
+                "bc278b057154769a",
+                "f3c2163df962cd36"
+            ]
+        ]
+    },
+    {
+        "id": "f3c2163df962cd36",
+        "type": "delay",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1180,
+        "y": 700,
+        "wires": [
+            [
+                "e5105bbb367e19a3"
+            ]
+        ]
+    },
+    {
+        "id": "e5105bbb367e19a3",
+        "type": "switch",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "If still on",
+        "property": "heateron",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1340,
+        "y": 700,
+        "wires": [
+            [
+                "aade227546ad0602"
+            ]
+        ]
+    },
+    {
+        "id": "bc278b057154769a",
+        "type": "ui_gauge",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "group": "563e3db15203bfe1",
+        "order": 9,
+        "width": 7,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Heating Up Time",
+        "label": "seconds",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "180",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "60",
+        "seg2": "120",
+        "className": "",
+        "x": 1230,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "a2dd5801d50f1741",
+        "type": "function",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "seconds to minute:seconds",
+        "func": "//https://flows.nodered.org/flow/07570367cf2ccf79344c5f336004d9d9\n\nlet secsDecimal = msg.payload;\n\nlet mins = Math.floor(secsDecimal/60);\nlet secs = secsDecimal % 60;\n\n//msg.payload = (mins + (secs / 100.0)).toFixed(2)\nmsg.payload = secs < 10 ? (mins + \":0\" + secs) : (mins + \":\" + secs);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1240,
+        "y": 600,
+        "wires": [
+            [
+                "0b491e3d2bd37448"
+            ]
+        ]
+    },
+    {
+        "id": "fcf61b936474df6f",
+        "type": "ui_button",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "group": "563e3db15203bfe1",
+        "order": 12,
+        "width": 3,
+        "height": 2,
+        "passthru": true,
+        "label": "KILL THE HEATER",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 290,
+        "y": 800,
+        "wires": [
+            [
+                "99c1b40103477b51"
+            ]
+        ]
+    },
+    {
+        "id": "99c1b40103477b51",
+        "type": "change",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "global.heateron = false",
+        "rules": [
+            {
+                "t": "set",
+                "p": "heateron",
+                "pt": "global",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 800,
+        "wires": [
+            [
+                "6982a6ad62687772",
+                "c8fe595ade5bc852"
+            ]
+        ]
+    },
+    {
+        "id": "c8fe595ade5bc852",
+        "type": "function",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "Build MQTT to shut 'er down",
+        "func": "//Get the thing\nvar whichBldg = global.get(\"hotBldg\");\n\n//Build the MQTT message\nmsg.topic = \"nodered/heateroff/\" + whichBldg;\nmsg.payload = \"{}\";\n\n//Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 760,
+        "wires": [
+            [
+                "1810b1e347c3bb76"
+            ]
+        ]
+    },
+    {
+        "id": "1810b1e347c3bb76",
+        "type": "mqtt out",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 990,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "6982a6ad62687772",
+        "type": "change",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "Reset timer",
+        "rules": [
+            {
+                "t": "set",
+                "p": "clock_value",
+                "pt": "flow",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 840,
+        "wires": [
+            [
+                "aade227546ad0602",
+                "1a188d224ac0676e"
+            ]
+        ]
+    },
+    {
+        "id": "1a188d224ac0676e",
+        "type": "delay",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 910,
+        "y": 840,
+        "wires": [
+            [
+                "59d030f3190ddc07"
+            ]
+        ]
+    },
+    {
+        "id": "59d030f3190ddc07",
+        "type": "change",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "OFF",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 840,
+        "wires": [
+            [
+                "0b491e3d2bd37448"
+            ]
+        ]
+    },
+    {
+        "id": "0b491e3d2bd37448",
+        "type": "ui_text",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "group": "563e3db15203bfe1",
+        "order": 8,
+        "width": 10,
+        "height": 1,
+        "name": "",
+        "label": "Heater has been on for: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1510,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "5388be119e63ab15",
+        "type": "change",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "hotBldg",
+                "pt": "global",
+                "to": "LTO",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 520,
+        "wires": [
+            [
+                "455c14d722b45a10"
+            ]
+        ]
+    },
+    {
+        "id": "be9a21d6ce2adfec",
+        "type": "ui_button",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "group": "563e3db15203bfe1",
+        "order": 2,
+        "width": 2,
+        "height": 2,
+        "passthru": false,
+        "label": "Turn on LBO Heater",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "darkorange",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 280,
+        "y": 560,
+        "wires": [
+            [
+                "c7d8c2191ece1acd"
+            ]
+        ]
+    },
+    {
+        "id": "c7d8c2191ece1acd",
+        "type": "change",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "hotBldg",
+                "pt": "global",
+                "to": "LBO",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 560,
+        "wires": [
+            [
+                "455c14d722b45a10"
+            ]
+        ]
+    },
+    {
+        "id": "52a0e21ae79627c7",
+        "type": "change",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "hotBldg",
+                "pt": "global",
+                "to": "RBO",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 640,
+        "wires": [
+            [
+                "455c14d722b45a10"
+            ]
+        ]
+    },
+    {
+        "id": "dbdaf4bc1215783f",
+        "type": "change",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "hotBldg",
+                "pt": "global",
+                "to": "RTO",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 600,
+        "wires": [
+            [
+                "455c14d722b45a10"
+            ]
+        ]
+    },
+    {
+        "id": "17e2f4d49c653731",
+        "type": "ui_button",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "group": "563e3db15203bfe1",
+        "order": 5,
+        "width": 2,
+        "height": 2,
+        "passthru": false,
+        "label": "Turn on RBO Heater",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "darkorange",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 280,
+        "y": 640,
+        "wires": [
+            [
+                "52a0e21ae79627c7"
+            ]
+        ]
+    },
+    {
+        "id": "48072dd7704a6796",
+        "type": "ui_button",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "group": "563e3db15203bfe1",
+        "order": 4,
+        "width": 2,
+        "height": 2,
+        "passthru": false,
+        "label": "Turn on RTO Heater",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "darkorange",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 280,
+        "y": 600,
+        "wires": [
+            [
+                "dbdaf4bc1215783f"
+            ]
+        ]
+    },
+    {
+        "id": "dc820914e43fc81f",
+        "type": "function",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "Prep AddFirePix for Hotspot Building",
+        "func": "//--- Set up basic vars\nvar theBldg = global.get(\"hotBldg\");\nmsg.payload = {};\n\n/* \nAddFirePix expects:\n- msg.payload.bldg: a node ID\n- msg.payload.numFirePixels: int, the qty FirePixels to add\n*/\nmsg.payload.bldg = theBldg;\nmsg.payload.numFirePixels = 4; //half of a window\n\n//--- Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1150,
+        "y": 440,
+        "wires": [
+            [
+                "bfb63c0743b0cf22"
+            ]
+        ]
+    },
+    {
+        "id": "bfb63c0743b0cf22",
+        "type": "link out",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "To AddFirePix",
+        "mode": "link",
+        "links": [
+            "dc1d674e61de820d"
+        ],
+        "x": 1355,
+        "y": 440,
         "wires": []
     }
 ]
