@@ -63,17 +63,17 @@
         "env": []
     },
     {
-        "id": "26a7e7275cb541d0",
+        "id": "d290775cd062bdb4",
         "type": "tab",
-        "label": "[OBSOLETE]",
+        "label": "Practice Day",
         "disabled": false,
         "info": "",
         "env": []
     },
     {
-        "id": "d290775cd062bdb4",
+        "id": "26a7e7275cb541d0",
         "type": "tab",
-        "label": "Practice Day",
+        "label": "[OBSOLETE]",
         "disabled": false,
         "info": "",
         "env": []
@@ -213,7 +213,9 @@
             "cc34e7492d373681"
         ],
         "x": 94,
-        "y": 59
+        "y": 59,
+        "w": 712,
+        "h": 282
     },
     {
         "id": "284c27310b25477c",
@@ -388,7 +390,9 @@
             "e9c6866ca0db7662"
         ],
         "x": 894,
-        "y": 59
+        "y": 59,
+        "w": 522,
+        "h": 122
     },
     {
         "id": "738dc520034f11a7",
@@ -428,7 +432,9 @@
             "535c9e2bfde164cc"
         ],
         "x": 94,
-        "y": 459
+        "y": 459,
+        "w": 732,
+        "h": 522
     },
     {
         "id": "cb9c0c3b1fe84ccc",
@@ -463,7 +469,9 @@
             "93a01049a60df5c5"
         ],
         "x": 54,
-        "y": 39
+        "y": 39,
+        "w": 1072,
+        "h": 462
     },
     {
         "id": "a83bb00d46efe804",
@@ -674,7 +682,9 @@
             "9498eab6a1cd0f2a"
         ],
         "x": 54,
-        "y": 499
+        "y": 499,
+        "w": 952,
+        "h": 242
     },
     {
         "id": "821639e23b06e8b7",
@@ -703,7 +713,9 @@
             "3e1b0163bae2fa11"
         ],
         "x": 54,
-        "y": 719
+        "y": 719,
+        "w": 952,
+        "h": 242
     },
     {
         "id": "b00a1e1bf34b7a99",
@@ -732,7 +744,9 @@
             "5a7f6afebccd7fa7"
         ],
         "x": 54,
-        "y": 959
+        "y": 959,
+        "w": 952,
+        "h": 282
     },
     {
         "id": "0b3af3753f33292d",
@@ -761,7 +775,9 @@
             "8d059dd5b45d6a89"
         ],
         "x": 54,
-        "y": 1239
+        "y": 1239,
+        "w": 952,
+        "h": 262
     },
     {
         "id": "dc5384f7b9f470a3",
@@ -790,7 +806,9 @@
             "5b091724b2b67ab5"
         ],
         "x": 54,
-        "y": 1499
+        "y": 1499,
+        "w": 942,
+        "h": 262
     },
     {
         "id": "58bd3feb98c01c36",
@@ -819,7 +837,9 @@
             "dc8f4d8f85a10f79"
         ],
         "x": 54,
-        "y": 1759
+        "y": 1759,
+        "w": 942,
+        "h": 242
     },
     {
         "id": "21aaba78e384f976",
@@ -848,7 +868,9 @@
             "a767d0c5f4352f2d"
         ],
         "x": 54,
-        "y": 1979
+        "y": 1979,
+        "w": 942,
+        "h": 242
     },
     {
         "id": "6ac6b771fff8c239",
@@ -877,7 +899,9 @@
             "2a78ff579a5e9464"
         ],
         "x": 54,
-        "y": 2219
+        "y": 2219,
+        "w": 942,
+        "h": 222
     },
     {
         "id": "6a070793fb470a03",
@@ -1007,7 +1031,9 @@
             "cabc9379e91bfd5e"
         ],
         "x": 1074,
-        "y": 539
+        "y": 539,
+        "w": 912,
+        "h": 162
     },
     {
         "id": "ab2d725536c9b091",
@@ -1046,7 +1072,9 @@
             "3b6b77c692325673"
         ],
         "x": 1114,
-        "y": 1559
+        "y": 1559,
+        "w": 812,
+        "h": 502
     },
     {
         "id": "86746eb8946eaa91",
@@ -1199,7 +1227,9 @@
             "b0caec5b5ce21c95"
         ],
         "x": 84,
-        "y": 2519
+        "y": 2519,
+        "w": 1062,
+        "h": 762
     },
     {
         "id": "b786c9d92d164f0e",
@@ -1222,10 +1252,13 @@
             "349355f6e26b062c",
             "5cfc1180f4ea4ff5",
             "93467bb9550545d1",
-            "e9d2f751156577aa"
+            "e9d2f751156577aa",
+            "b0a285d0d1ead5d2"
         ],
         "x": 114,
-        "y": 3419
+        "y": 3419,
+        "w": 1012,
+        "h": 242
     },
     {
         "id": "0bb0145c8adb017a",
@@ -1250,7 +1283,9 @@
             "a982d77f63880d2c"
         ],
         "x": 74,
-        "y": 819
+        "y": 819,
+        "w": 472,
+        "h": 222
     },
     {
         "id": "bf327706215ccff4",
@@ -1355,7 +1390,9 @@
             "cdd67f2387d5de33"
         ],
         "x": 682.9999694824219,
-        "y": 279
+        "y": 279,
+        "w": 603.0000305175781,
+        "h": 242
     },
     {
         "id": "d1c6977fdede82fe",
@@ -1502,9 +1539,7 @@
             "87776e9d6e72f8b7"
         ],
         "x": 54,
-        "y": 79,
-        "w": 1882,
-        "h": 582
+        "y": 79
     },
     {
         "id": "02ce9447bb02faf7",
@@ -1544,9 +1579,7 @@
             "10f78329219af1a4"
         ],
         "x": 94,
-        "y": 719,
-        "w": 1412,
-        "h": 522
+        "y": 719
     },
     {
         "id": "da5dfd18efe136b1",
@@ -1580,9 +1613,7 @@
             "ef955756849278aa"
         ],
         "x": 554,
-        "y": 1319,
-        "w": 1252,
-        "h": 422
+        "y": 1319
     },
     {
         "id": "7a9d34be24c9d358",
@@ -1638,7 +1669,9 @@
             "c47734c2c38bc568"
         ],
         "x": 84,
-        "y": 399
+        "y": 399,
+        "w": 462,
+        "h": 262
     },
     {
         "id": "b2c04e106e7697f0",
@@ -1672,9 +1705,7 @@
             "da290e77a88988a7"
         ],
         "x": 154,
-        "y": 1799,
-        "w": 992,
-        "h": 462
+        "y": 1799
     },
     {
         "id": "f950efc084a45cd2",
@@ -1693,7 +1724,9 @@
             "67280a1824f2e68f"
         ],
         "x": 58,
-        "y": 73
+        "y": 73,
+        "w": 524,
+        "h": 294
     },
     {
         "id": "f4b953e583c4193d",
@@ -1803,9 +1836,7 @@
             "266ee9c97ad1fe86"
         ],
         "x": 1464,
-        "y": 1839,
-        "w": 1992,
-        "h": 422
+        "y": 1839
     },
     {
         "id": "696338a863cf43dc",
@@ -1902,9 +1933,7 @@
             "28862dd1f1f894b4"
         ],
         "x": 84,
-        "y": 2419,
-        "w": 1302,
-        "h": 322
+        "y": 2419
     },
     {
         "id": "661aa04cb7a21daf",
@@ -1962,7 +1991,9 @@
             "ebd69a89636bb4c2"
         ],
         "x": 1074,
-        "y": 839
+        "y": 839,
+        "w": 932,
+        "h": 162
     },
     {
         "id": "8dd89b3dfdd4cad0",
@@ -1984,6 +2015,61 @@
         "y": 13,
         "w": 814,
         "h": 294
+    },
+    {
+        "id": "5b2e1df620dae52e",
+        "type": "group",
+        "z": "d290775cd062bdb4",
+        "style": {
+            "stroke": "#3a3a3a",
+            "stroke-opacity": "1",
+            "fill": "#1e1e1e",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "nw",
+            "color": "#cccccc"
+        },
+        "nodes": [
+            "bc5bc34b0a554db5",
+            "9141629c47b9ec5a",
+            "82b85240418fd270",
+            "baa42f69e2d952ef",
+            "6735b52b2a3c9198",
+            "e78c4130ce48393f",
+            "05e4091962849484",
+            "139a9a4df9d04035",
+            "455c14d722b45a10",
+            "c0a2737bd82496db",
+            "4c037b2b27148c64",
+            "aade227546ad0602",
+            "f3c2163df962cd36",
+            "e5105bbb367e19a3",
+            "bc278b057154769a",
+            "a2dd5801d50f1741",
+            "fcf61b936474df6f",
+            "99c1b40103477b51",
+            "c8fe595ade5bc852",
+            "1810b1e347c3bb76",
+            "6982a6ad62687772",
+            "1a188d224ac0676e",
+            "59d030f3190ddc07",
+            "0b491e3d2bd37448",
+            "5388be119e63ab15",
+            "be9a21d6ce2adfec",
+            "c7d8c2191ece1acd",
+            "52a0e21ae79627c7",
+            "dbdaf4bc1215783f",
+            "17e2f4d49c653731",
+            "48072dd7704a6796",
+            "a0028b9b1b502f47",
+            "afa9b908b8e85169",
+            "bf7aad7257918d61",
+            "f8ce30b48d81d5a8"
+        ],
+        "x": 54,
+        "y": 159,
+        "w": 1592,
+        "h": 722
     },
     {
         "id": "4a4f80625f8ea163",
@@ -2038,7 +2124,9 @@
             "5f1e32d4a9243886"
         ],
         "x": 84,
-        "y": 99
+        "y": 99,
+        "w": 472,
+        "h": 242
     },
     {
         "id": "a4436834ffd8d273",
@@ -2497,9 +2585,9 @@
         "h": 242
     },
     {
-        "id": "5b2e1df620dae52e",
+        "id": "07197ac0f96f499e",
         "type": "group",
-        "z": "d290775cd062bdb4",
+        "z": "175af8efcea2d591",
         "style": {
             "stroke": "#3a3a3a",
             "stroke-opacity": "1",
@@ -2510,44 +2598,17 @@
             "color": "#cccccc"
         },
         "nodes": [
-            "bc5bc34b0a554db5",
-            "9141629c47b9ec5a",
-            "82b85240418fd270",
-            "baa42f69e2d952ef",
-            "6735b52b2a3c9198",
-            "e78c4130ce48393f",
-            "05e4091962849484",
-            "139a9a4df9d04035",
-            "455c14d722b45a10",
-            "c0a2737bd82496db",
-            "4c037b2b27148c64",
-            "aade227546ad0602",
-            "f3c2163df962cd36",
-            "e5105bbb367e19a3",
-            "bc278b057154769a",
-            "a2dd5801d50f1741",
-            "fcf61b936474df6f",
-            "99c1b40103477b51",
-            "c8fe595ade5bc852",
-            "1810b1e347c3bb76",
-            "6982a6ad62687772",
-            "1a188d224ac0676e",
-            "59d030f3190ddc07",
-            "0b491e3d2bd37448",
-            "5388be119e63ab15",
-            "be9a21d6ce2adfec",
-            "c7d8c2191ece1acd",
-            "52a0e21ae79627c7",
-            "dbdaf4bc1215783f",
-            "17e2f4d49c653731",
-            "48072dd7704a6796",
-            "dc820914e43fc81f",
-            "bfb63c0743b0cf22"
+            "1e295d4e1ebb2849",
+            "6eab4e2ed6f6b16d",
+            "25d2b99e4a9ee967",
+            "42eb5c820d0be0c6",
+            "5e4f0473419bb816",
+            "dd0a87cf8e45b429"
         ],
-        "x": 54,
-        "y": 159,
-        "w": 1592,
-        "h": 722
+        "x": 104,
+        "y": 1039,
+        "w": 532,
+        "h": 182
     },
     {
         "id": "b411c6135a7823e0",
@@ -2650,7 +2711,7 @@
     {
         "id": "050e42e2db96a9f4",
         "type": "ui_tab",
-        "name": "Manual Mode",
+        "name": "[Field 1] Manual Mode",
         "icon": "dashboard",
         "order": 4,
         "disabled": false,
@@ -2697,7 +2758,7 @@
     {
         "id": "3feccb6b5184919b",
         "type": "ui_tab",
-        "name": "Match Control",
+        "name": "[Field 1] Match Control",
         "icon": "dashboard",
         "order": 1,
         "disabled": false,
@@ -2739,7 +2800,7 @@
     {
         "id": "b194d4f5bf93f9af",
         "type": "ui_tab",
-        "name": "Node Debug",
+        "name": "[Field 1] Node Debug",
         "icon": "dashboard",
         "order": 5,
         "disabled": false,
@@ -2770,7 +2831,7 @@
     {
         "id": "c98b5bcc37992daf",
         "type": "ui_tab",
-        "name": "Match Status",
+        "name": "[Field 1] Match Status",
         "icon": "dashboard",
         "order": 2,
         "disabled": false,
@@ -2813,7 +2874,7 @@
     {
         "id": "7a3c32bb77d2c5c3",
         "type": "ui_tab",
-        "name": "Ref In-Match",
+        "name": "[Field 1] Ref In-Match",
         "icon": "dashboard",
         "order": 3,
         "disabled": false,
@@ -2833,6 +2894,7 @@
     {
         "id": "13504c5753af441d",
         "type": "ui_group",
+        "d": true,
         "name": "--- Trenches - if using LEDs ---",
         "tab": "7a3c32bb77d2c5c3",
         "order": 4,
@@ -2885,7 +2947,7 @@
     {
         "id": "8cc3fd17a6d665c5",
         "type": "ui_tab",
-        "name": "Field Config",
+        "name": "[Field 1] Field Config",
         "icon": "dashboard",
         "order": 6,
         "disabled": false,
@@ -2916,6 +2978,7 @@
     {
         "id": "3fe7b2a68005ea00",
         "type": "ui_group",
+        "d": true,
         "name": "--- Recon Path ---",
         "tab": "7a3c32bb77d2c5c3",
         "order": 3,
@@ -3135,69 +3198,9 @@
         "className": ""
     },
     {
-        "id": "99ae33916b762a02",
-        "type": "ui_spacer",
-        "z": "175af8efcea2d591",
-        "name": "spacer",
-        "group": "ee9886ff6322a456",
-        "order": 2,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "76cb7876d40ef10d",
-        "type": "ui_spacer",
-        "z": "175af8efcea2d591",
-        "name": "spacer",
-        "group": "ee9886ff6322a456",
-        "order": 4,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "2236ea3a72fba768",
-        "type": "ui_spacer",
-        "z": "175af8efcea2d591",
-        "name": "spacer",
-        "group": "1e4da6b2e1809214",
-        "order": 4,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "a748b086754be580",
-        "type": "ui_spacer",
-        "z": "175af8efcea2d591",
-        "name": "spacer",
-        "group": "1e4da6b2e1809214",
-        "order": 6,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "28090a9c868e9b0c",
-        "type": "ui_spacer",
-        "z": "175af8efcea2d591",
-        "name": "spacer",
-        "group": "1e4da6b2e1809214",
-        "order": 8,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "8b8ab8d01397ec77",
-        "type": "ui_spacer",
-        "z": "175af8efcea2d591",
-        "name": "spacer",
-        "group": "1e4da6b2e1809214",
-        "order": 10,
-        "width": 5,
-        "height": 1
-    },
-    {
         "id": "a78f135cf4c591a6",
         "type": "ui_tab",
-        "name": "Practice Day",
+        "name": "[Field 1] Practice Day",
         "icon": "dashboard",
         "disabled": false,
         "hidden": false
@@ -3225,39 +3228,29 @@
         "className": ""
     },
     {
-        "id": "30a6abf945974eeb",
+        "id": "52163e88c8f2d014",
         "type": "ui_spacer",
-        "z": "55a762ae72fa441b",
-        "name": "spacer",
-        "group": "563e3db15203bfe1",
-        "order": 3,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "f3355852a9a4c5d1",
-        "type": "ui_spacer",
-        "z": "55a762ae72fa441b",
+        "z": "d290775cd062bdb4",
         "name": "spacer",
         "group": "563e3db15203bfe1",
         "order": 6,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "424cd99079fb9295",
-        "type": "ui_spacer",
-        "z": "55a762ae72fa441b",
-        "name": "spacer",
-        "group": "563e3db15203bfe1",
-        "order": 7,
         "width": 10,
         "height": 1
     },
     {
-        "id": "9ec6172d5eb0cb33",
+        "id": "13fc8b9d0834b94b",
         "type": "ui_spacer",
-        "z": "55a762ae72fa441b",
+        "z": "d290775cd062bdb4",
+        "name": "spacer",
+        "group": "563e3db15203bfe1",
+        "order": 8,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "8737368c0a120d3f",
+        "type": "ui_spacer",
+        "z": "d290775cd062bdb4",
         "name": "spacer",
         "group": "563e3db15203bfe1",
         "order": 10,
@@ -3265,13 +3258,174 @@
         "height": 1
     },
     {
-        "id": "7ac13fea52ffd33c",
+        "id": "b852b21b128fee6c",
         "type": "ui_spacer",
-        "z": "55a762ae72fa441b",
+        "z": "d290775cd062bdb4",
         "name": "spacer",
         "group": "563e3db15203bfe1",
         "order": 11,
         "width": 3,
+        "height": 1
+    },
+    {
+        "id": "d398a74ba892e3dc",
+        "type": "ui_group",
+        "name": "Scores Ready?",
+        "tab": "c98b5bcc37992daf",
+        "order": 3,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "59e82f1a4c73aaa2",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "ee9886ff6322a456",
+        "order": 2,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "cd6db524fafa45c5",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "ee9886ff6322a456",
+        "order": 4,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "2f153ec484d3a56d",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "1e4da6b2e1809214",
+        "order": 4,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "450d4d2d5b31f087",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "1e4da6b2e1809214",
+        "order": 6,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "f899f6bdd2dce097",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "1e4da6b2e1809214",
+        "order": 8,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "d8d29e62152c4c3b",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "1e4da6b2e1809214",
+        "order": 10,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "60522ae66138c304",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "d398a74ba892e3dc",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "80ab790c25dd7110",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "d398a74ba892e3dc",
+        "order": 3,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c93d21c2171b0717",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "d398a74ba892e3dc",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c9a8e591c661c6e4",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "d398a74ba892e3dc",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "8bc02ef18ca55929",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "d398a74ba892e3dc",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "fd4dd29c08ffa098",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "d398a74ba892e3dc",
+        "order": 7,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "2dc9a8b01f60ad77",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "d398a74ba892e3dc",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "2269f5bb2edbde36",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "d398a74ba892e3dc",
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "d7638c44ce600916",
+        "type": "ui_spacer",
+        "z": "175af8efcea2d591",
+        "name": "spacer",
+        "group": "d398a74ba892e3dc",
+        "order": 10,
+        "width": 2,
         "height": 1
     },
     {
@@ -4745,7 +4899,8 @@
         "links": [
             "227f2d5a2ea24037",
             "c0d73c7a8e66d4c2",
-            "93467bb9550545d1"
+            "93467bb9550545d1",
+            "5e4f0473419bb816"
         ],
         "x": 445,
         "y": 1780,
@@ -5673,7 +5828,8 @@
             "01a33715231c806e",
             "8e253407c85c2eb8",
             "9a9ab0727ffc0a14",
-            "e3e15afaf5959647"
+            "e3e15afaf5959647",
+            "bf7aad7257918d61"
         ],
         "x": 795,
         "y": 240,
@@ -8497,8 +8653,8 @@
         "z": "175af8efcea2d591",
         "g": "738dc520034f11a7",
         "group": "1e4da6b2e1809214",
-        "order": 9,
-        "width": "10",
+        "order": 11,
+        "width": 10,
         "height": 1,
         "name": "",
         "label": "TOTAL SCORE FROM FIELD",
@@ -8508,6 +8664,138 @@
         "x": 670,
         "y": 940,
         "wires": []
+    },
+    {
+        "id": "1e295d4e1ebb2849",
+        "type": "link in",
+        "z": "175af8efcea2d591",
+        "g": "07197ac0f96f499e",
+        "name": "commit btn pressed",
+        "links": [
+            "b0a285d0d1ead5d2"
+        ],
+        "x": 205,
+        "y": 1120,
+        "wires": [
+            [
+                "6eab4e2ed6f6b16d"
+            ]
+        ]
+    },
+    {
+        "id": "6eab4e2ed6f6b16d",
+        "type": "change",
+        "z": "175af8efcea2d591",
+        "g": "07197ac0f96f499e",
+        "name": "set full",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "10",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 1120,
+        "wires": [
+            [
+                "25d2b99e4a9ee967"
+            ]
+        ]
+    },
+    {
+        "id": "25d2b99e4a9ee967",
+        "type": "ui_gauge",
+        "z": "175af8efcea2d591",
+        "g": "07197ac0f96f499e",
+        "name": "",
+        "group": "d398a74ba892e3dc",
+        "order": 2,
+        "width": 10,
+        "height": 9,
+        "gtype": "donut",
+        "title": "Scores Ready?",
+        "label": "",
+        "format": "",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#0006b3",
+            "#00fffb",
+            "#00ff11"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 530,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "42eb5c820d0be0c6",
+        "type": "comment",
+        "z": "175af8efcea2d591",
+        "g": "07197ac0f96f499e",
+        "name": "Scores Ready?",
+        "info": "",
+        "x": 210,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "5e4f0473419bb816",
+        "type": "link in",
+        "z": "175af8efcea2d591",
+        "g": "07197ac0f96f499e",
+        "name": "Reset GUI",
+        "links": [
+            "2335df53b4766297",
+            "644ae6f88aa55107",
+            "68aa5688177e30e7",
+            "82b85240418fd270"
+        ],
+        "x": 215,
+        "y": 1180,
+        "wires": [
+            [
+                "dd0a87cf8e45b429"
+            ]
+        ]
+    },
+    {
+        "id": "dd0a87cf8e45b429",
+        "type": "change",
+        "z": "175af8efcea2d591",
+        "g": "07197ac0f96f499e",
+        "name": "set 0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 1180,
+        "wires": [
+            [
+                "25d2b99e4a9ee967"
+            ]
+        ]
     },
     {
         "id": "b2d4ac6f1946502e",
@@ -12542,7 +12830,8 @@
         "y": 3540,
         "wires": [
             [
-                "98038077.751848"
+                "98038077.751848",
+                "b0a285d0d1ead5d2"
             ]
         ]
     },
@@ -13409,6 +13698,63 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "1afe9450be5a9aa2",
+        "type": "link in",
+        "z": "d32826a1611e0622",
+        "name": "Reset UI - laser cancel",
+        "links": [
+            "6735b52b2a3c9198"
+        ],
+        "x": 1175,
+        "y": 1060,
+        "wires": [
+            [
+                "16a5813dcaa50b40"
+            ]
+        ]
+    },
+    {
+        "id": "16a5813dcaa50b40",
+        "type": "change",
+        "z": "d32826a1611e0622",
+        "name": "practice reset",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1290,
+        "y": 1060,
+        "wires": [
+            [
+                "da1ab5f800be4343"
+            ]
+        ]
+    },
+    {
+        "id": "b0a285d0d1ead5d2",
+        "type": "link out",
+        "z": "d32826a1611e0622",
+        "g": "b786c9d92d164f0e",
+        "name": "Commit btn pressed",
+        "mode": "link",
+        "links": [
+            "1e295d4e1ebb2849"
+        ],
+        "x": 745,
+        "y": 3560,
+        "wires": []
     },
     {
         "id": "f4b7c4c243db620d",
@@ -18019,7 +18365,7 @@
         "z": "f66e6f21e6630f00",
         "g": "8ea343d5acb02cd2",
         "name": "UpdateBuilding (Globals -> MQTT)",
-        "func": "/* \nExpected inputs:\n- msg.payload: a node ID\n\nExpected outputs: \n- MQTT topics / payloads for each window / gutter\n*/\n\n//--- Set basic vars\nvar theBldg = msg.payload;\nvar win1 = global.get(theBldg + \".Lights.Window1\");\nvar win2 = global.get(theBldg + \".Lights.Window2\");\nvar gutter = global.get(theBldg + \".Lights.GutterPixels\");\n\n//--- Make sure we're not doing the hotspot bldg - escape if so\nvar theHotBldg = global.get(\"hotBldg\");\nif (theBldg == theHotBldg) {\n    return null;\n}\n\n//--- MQTT - Window 1\nvar msg1 = {};\nif (win1 == \"ON\") {\n    msg1.topic = \"nodered/lighton/\" + theBldg;\n} else if (win1 == \"OFF\") {\n    msg1.topic = \"nodered/lightoff/\" + theBldg;\n}\nmsg1.payload = \"{ \\\"whichLight\\\":\" + 1 + \"}\"\n\n\n//--- MQTT - Window 2\nvar msg2 = {};\nif (win2 == \"ON\") {\n    msg2.topic = \"nodered/lighton/\" + theBldg;\n} else if (win2 == \"OFF\") {\n    msg2.topic = \"nodered/lightoff/\" + theBldg;\n}\nmsg2.payload = \"{ \\\"whichLight\\\":\" + 2 + \"}\"\n\n\n// - MQTT - Gutter\nvar msg3 = {};\nmsg3.topic = \"nodered/updatepixels/\" + theBldg;\nmsg3.payload = \"{ \\\"whichLeds\\\":0, \" +\n    \"\\\"pixels\\\": \\\"\" + gutter + \"\\\"\" +\n    \"}\";\n\n// - debug\nif (global.get(\"DEBUG\")) {\n    node.warn(\"--- Updating Bldg: \" + theBldg + \";\\n win1: \" + win1 + \"; win2: \" + win2 + \";\\n gutter: \" + gutter);\n}\n\n// - Fin\nreturn [msg1, msg2, msg3];",
+        "func": "/* \nExpected inputs:\n- msg.payload: a node ID\n\nExpected outputs: \n- MQTT topics / payloads for each window / gutter\n*/\n\n//--- Set basic vars\nvar theBldg = msg.payload;\nvar win1 = global.get(theBldg + \".Lights.Window1\");\nvar win2 = global.get(theBldg + \".Lights.Window2\");\nvar gutter = global.get(theBldg + \".Lights.GutterPixels\");\n\n//--- Make sure we're not doing the hotspot bldg - escape if so\nvar theBldgStatus = global.get(theBldg + \".Status\");\nif (theBldgStatus == \"Hotspot\") {\n    return null;\n}\n\n//--- MQTT - Window 1\nvar msg1 = {};\nif (win1 == \"ON\") {\n    msg1.topic = \"nodered/lighton/\" + theBldg;\n} else if (win1 == \"OFF\") {\n    msg1.topic = \"nodered/lightoff/\" + theBldg;\n}\nmsg1.payload = \"{ \\\"whichLight\\\":\" + 1 + \"}\"\n\n\n//--- MQTT - Window 2\nvar msg2 = {};\nif (win2 == \"ON\") {\n    msg2.topic = \"nodered/lighton/\" + theBldg;\n} else if (win2 == \"OFF\") {\n    msg2.topic = \"nodered/lightoff/\" + theBldg;\n}\nmsg2.payload = \"{ \\\"whichLight\\\":\" + 2 + \"}\"\n\n\n// - MQTT - Gutter\nvar msg3 = {};\nmsg3.topic = \"nodered/updatepixels/\" + theBldg;\nmsg3.payload = \"{ \\\"whichLeds\\\":0, \" +\n    \"\\\"pixels\\\": \\\"\" + gutter + \"\\\"\" +\n    \"}\";\n\n// - debug\nif (global.get(\"DEBUG\")) {\n    node.warn(\"--- Updating Bldg: \" + theBldg + \";\\n win1: \" + win1 + \"; win2: \" + win2 + \";\\n gutter: \" + gutter);\n}\n\n// - Fin\nreturn [msg1, msg2, msg3];",
         "outputs": 3,
         "noerr": 0,
         "initialize": "",
@@ -20049,6 +20395,842 @@
         ]
     },
     {
+        "id": "bc5bc34b0a554db5",
+        "type": "ui_button",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "group": "d631d9b97224d13c",
+        "order": 1,
+        "width": 5,
+        "height": 2,
+        "passthru": false,
+        "label": "Start Phase 3",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 260,
+        "y": 260,
+        "wires": [
+            [
+                "9141629c47b9ec5a"
+            ]
+        ]
+    },
+    {
+        "id": "9141629c47b9ec5a",
+        "type": "link out",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "[practice] phase 3",
+        "mode": "link",
+        "links": [
+            "cb36bacaeb803937"
+        ],
+        "x": 415,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "82b85240418fd270",
+        "type": "link out",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "JUST END IT",
+        "mode": "link",
+        "links": [
+            "227f2d5a2ea24037",
+            "c0d73c7a8e66d4c2",
+            "93467bb9550545d1",
+            "5e4f0473419bb816"
+        ],
+        "x": 455,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "baa42f69e2d952ef",
+        "type": "link out",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "Ding fries are done",
+        "mode": "link",
+        "links": [
+            "8c8fae70037e1c26"
+        ],
+        "x": 455,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "6735b52b2a3c9198",
+        "type": "link out",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "Send reset MQTT",
+        "mode": "link",
+        "links": [
+            "1b55865e8e16d405",
+            "1afe9450be5a9aa2"
+        ],
+        "x": 455,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "e78c4130ce48393f",
+        "type": "ui_button",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "group": "d631d9b97224d13c",
+        "order": 2,
+        "width": 5,
+        "height": 2,
+        "passthru": true,
+        "label": "END / RESET MATCH",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 290,
+        "y": 360,
+        "wires": [
+            [
+                "82b85240418fd270",
+                "baa42f69e2d952ef",
+                "6735b52b2a3c9198",
+                "f8ce30b48d81d5a8"
+            ]
+        ]
+    },
+    {
+        "id": "05e4091962849484",
+        "type": "comment",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "=== Practice Day ===",
+        "info": "",
+        "x": 180,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "139a9a4df9d04035",
+        "type": "ui_button",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "group": "563e3db15203bfe1",
+        "order": 1,
+        "width": 2,
+        "height": 2,
+        "passthru": false,
+        "label": "Turn on LTO Heater",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "darkorange",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 520,
+        "wires": [
+            [
+                "5388be119e63ab15"
+            ]
+        ]
+    },
+    {
+        "id": "455c14d722b45a10",
+        "type": "change",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "global.heateron = true",
+        "rules": [
+            {
+                "t": "set",
+                "p": "heateron",
+                "pt": "global",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 760,
+        "y": 580,
+        "wires": [
+            [
+                "c0a2737bd82496db",
+                "aade227546ad0602",
+                "afa9b908b8e85169"
+            ]
+        ]
+    },
+    {
+        "id": "c0a2737bd82496db",
+        "type": "function",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "Build MQTT to heat it up",
+        "func": "//Get the thing\nvar whichBldg = global.get(\"hotBldg\");\n\n//Build the MQTT message\nmsg.topic = \"nodered/heateron/\" + whichBldg;\nmsg.payload = \"{}\";\n\n//Fin\nglobal.set(\"hotBldg\",whichBldg);\n//msg.payload = global.get(\"startSide\") + whichBldg + \"O\"; //always O bldg\nmsg.payload = whichBldg;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1010,
+        "y": 500,
+        "wires": [
+            [
+                "4c037b2b27148c64"
+            ]
+        ]
+    },
+    {
+        "id": "4c037b2b27148c64",
+        "type": "mqtt out",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 1190,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "aade227546ad0602",
+        "type": "function",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "Do a timer",
+        "func": "let clock_value = flow.get(\"clock_value\") || 0;\n\nclock_value++; \n\nif (clock_value < 0) clock_value = 0;\n\nflow.set(\"clock_value\", clock_value);\nglobal.set(\"heaterTime\", clock_value);\n\nmsg.payload = clock_value;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 640,
+        "wires": [
+            [
+                "a2dd5801d50f1741",
+                "bc278b057154769a",
+                "f3c2163df962cd36"
+            ]
+        ]
+    },
+    {
+        "id": "f3c2163df962cd36",
+        "type": "delay",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1180,
+        "y": 700,
+        "wires": [
+            [
+                "e5105bbb367e19a3"
+            ]
+        ]
+    },
+    {
+        "id": "e5105bbb367e19a3",
+        "type": "switch",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "If still on",
+        "property": "heateron",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1340,
+        "y": 700,
+        "wires": [
+            [
+                "aade227546ad0602"
+            ]
+        ]
+    },
+    {
+        "id": "bc278b057154769a",
+        "type": "ui_gauge",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "group": "563e3db15203bfe1",
+        "order": 9,
+        "width": 7,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Heating Up Time",
+        "label": "seconds",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "180",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "60",
+        "seg2": "120",
+        "className": "",
+        "x": 1230,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "a2dd5801d50f1741",
+        "type": "function",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "seconds to minute:seconds",
+        "func": "//https://flows.nodered.org/flow/07570367cf2ccf79344c5f336004d9d9\n\nlet secsDecimal = msg.payload;\n\nlet mins = Math.floor(secsDecimal/60);\nlet secs = secsDecimal % 60;\n\n//msg.payload = (mins + (secs / 100.0)).toFixed(2)\nmsg.payload = secs < 10 ? (mins + \":0\" + secs) : (mins + \":\" + secs);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1240,
+        "y": 600,
+        "wires": [
+            [
+                "0b491e3d2bd37448"
+            ]
+        ]
+    },
+    {
+        "id": "fcf61b936474df6f",
+        "type": "ui_button",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "group": "563e3db15203bfe1",
+        "order": 12,
+        "width": 3,
+        "height": 2,
+        "passthru": true,
+        "label": "KILL THE HEATER",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 290,
+        "y": 800,
+        "wires": [
+            [
+                "99c1b40103477b51"
+            ]
+        ]
+    },
+    {
+        "id": "99c1b40103477b51",
+        "type": "change",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "global.heateron = false",
+        "rules": [
+            {
+                "t": "set",
+                "p": "heateron",
+                "pt": "global",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 800,
+        "wires": [
+            [
+                "6982a6ad62687772",
+                "c8fe595ade5bc852"
+            ]
+        ]
+    },
+    {
+        "id": "c8fe595ade5bc852",
+        "type": "function",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "Build MQTT to shut 'er down",
+        "func": "//Get the thing\nvar whichBldg = global.get(\"hotBldg\");\n\n//Build the MQTT message\nmsg.topic = \"nodered/heateroff/\" + whichBldg;\nmsg.payload = \"{}\";\n\n//Fin\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 760,
+        "wires": [
+            [
+                "1810b1e347c3bb76"
+            ]
+        ]
+    },
+    {
+        "id": "1810b1e347c3bb76",
+        "type": "mqtt out",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc90be16040a7d21",
+        "x": 990,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "6982a6ad62687772",
+        "type": "change",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "Reset timer",
+        "rules": [
+            {
+                "t": "set",
+                "p": "clock_value",
+                "pt": "flow",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 840,
+        "wires": [
+            [
+                "aade227546ad0602",
+                "1a188d224ac0676e"
+            ]
+        ]
+    },
+    {
+        "id": "1a188d224ac0676e",
+        "type": "delay",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 910,
+        "y": 840,
+        "wires": [
+            [
+                "59d030f3190ddc07"
+            ]
+        ]
+    },
+    {
+        "id": "59d030f3190ddc07",
+        "type": "change",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "OFF",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 840,
+        "wires": [
+            [
+                "0b491e3d2bd37448"
+            ]
+        ]
+    },
+    {
+        "id": "0b491e3d2bd37448",
+        "type": "ui_text",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "group": "563e3db15203bfe1",
+        "order": 7,
+        "width": 10,
+        "height": 1,
+        "name": "",
+        "label": "Heater has been on for: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1510,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "5388be119e63ab15",
+        "type": "change",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "hotBldg",
+                "pt": "global",
+                "to": "LTO",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 520,
+        "wires": [
+            [
+                "455c14d722b45a10"
+            ]
+        ]
+    },
+    {
+        "id": "be9a21d6ce2adfec",
+        "type": "ui_button",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "group": "563e3db15203bfe1",
+        "order": 2,
+        "width": 2,
+        "height": 2,
+        "passthru": false,
+        "label": "Turn on LBO Heater",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "darkorange",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 280,
+        "y": 560,
+        "wires": [
+            [
+                "c7d8c2191ece1acd"
+            ]
+        ]
+    },
+    {
+        "id": "c7d8c2191ece1acd",
+        "type": "change",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "hotBldg",
+                "pt": "global",
+                "to": "LBO",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 560,
+        "wires": [
+            [
+                "455c14d722b45a10"
+            ]
+        ]
+    },
+    {
+        "id": "52a0e21ae79627c7",
+        "type": "change",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "hotBldg",
+                "pt": "global",
+                "to": "RBO",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 640,
+        "wires": [
+            [
+                "455c14d722b45a10"
+            ]
+        ]
+    },
+    {
+        "id": "dbdaf4bc1215783f",
+        "type": "change",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "hotBldg",
+                "pt": "global",
+                "to": "RTO",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 600,
+        "wires": [
+            [
+                "455c14d722b45a10"
+            ]
+        ]
+    },
+    {
+        "id": "17e2f4d49c653731",
+        "type": "ui_button",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "group": "563e3db15203bfe1",
+        "order": 5,
+        "width": 2,
+        "height": 2,
+        "passthru": false,
+        "label": "Turn on RBO Heater",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "darkorange",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 280,
+        "y": 640,
+        "wires": [
+            [
+                "52a0e21ae79627c7"
+            ]
+        ]
+    },
+    {
+        "id": "48072dd7704a6796",
+        "type": "ui_button",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "group": "563e3db15203bfe1",
+        "order": 4,
+        "width": 2,
+        "height": 2,
+        "passthru": false,
+        "label": "Turn on RTO Heater",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "darkorange",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 280,
+        "y": 600,
+        "wires": [
+            [
+                "dbdaf4bc1215783f"
+            ]
+        ]
+    },
+    {
+        "id": "a0028b9b1b502f47",
+        "type": "ui_text",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "group": "563e3db15203bfe1",
+        "order": 3,
+        "width": 2,
+        "height": 2,
+        "name": "",
+        "label": "Hot Bldg:",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1460,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "afa9b908b8e85169",
+        "type": "change",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "get hotBldg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "hotBldg",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1270,
+        "y": 560,
+        "wires": [
+            [
+                "a0028b9b1b502f47"
+            ]
+        ]
+    },
+    {
+        "id": "bf7aad7257918d61",
+        "type": "link in",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "Reset Output - HotBldg",
+        "links": [
+            "9296e95263e5ddc7"
+        ],
+        "x": 1345,
+        "y": 520,
+        "wires": [
+            [
+                "a0028b9b1b502f47"
+            ]
+        ]
+    },
+    {
+        "id": "f8ce30b48d81d5a8",
+        "type": "change",
+        "z": "d290775cd062bdb4",
+        "g": "5b2e1df620dae52e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "waterDropMultiplier",
+                "pt": "global",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 630,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
         "id": "fd280fb139a56e3e",
         "type": "comment",
         "z": "26a7e7275cb541d0",
@@ -20372,7 +21554,8 @@
         "links": [
             "227f2d5a2ea24037",
             "c0d73c7a8e66d4c2",
-            "93467bb9550545d1"
+            "93467bb9550545d1",
+            "5e4f0473419bb816"
         ],
         "x": 445,
         "y": 540,
@@ -22764,784 +23947,6 @@
         "info": "",
         "x": 550,
         "y": 2480,
-        "wires": []
-    },
-    {
-        "id": "bc5bc34b0a554db5",
-        "type": "ui_button",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "",
-        "group": "d631d9b97224d13c",
-        "order": 1,
-        "width": 5,
-        "height": 2,
-        "passthru": false,
-        "label": "Start Phase 3",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "green",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 260,
-        "y": 260,
-        "wires": [
-            [
-                "9141629c47b9ec5a"
-            ]
-        ]
-    },
-    {
-        "id": "9141629c47b9ec5a",
-        "type": "link out",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "[practice] phase 3",
-        "mode": "link",
-        "links": [
-            "cb36bacaeb803937"
-        ],
-        "x": 415,
-        "y": 260,
-        "wires": []
-    },
-    {
-        "id": "82b85240418fd270",
-        "type": "link out",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "JUST END IT",
-        "mode": "link",
-        "links": [
-            "227f2d5a2ea24037",
-            "c0d73c7a8e66d4c2",
-            "93467bb9550545d1"
-        ],
-        "x": 455,
-        "y": 340,
-        "wires": []
-    },
-    {
-        "id": "baa42f69e2d952ef",
-        "type": "link out",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "Ding fries are done",
-        "mode": "link",
-        "links": [
-            "8c8fae70037e1c26"
-        ],
-        "x": 455,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "6735b52b2a3c9198",
-        "type": "link out",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "Send reset MQTT",
-        "mode": "link",
-        "links": [
-            "1b55865e8e16d405"
-        ],
-        "x": 455,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "e78c4130ce48393f",
-        "type": "ui_button",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "",
-        "group": "d631d9b97224d13c",
-        "order": 2,
-        "width": 5,
-        "height": 2,
-        "passthru": true,
-        "label": "END / RESET MATCH",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "red",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 290,
-        "y": 360,
-        "wires": [
-            [
-                "82b85240418fd270",
-                "baa42f69e2d952ef",
-                "6735b52b2a3c9198"
-            ]
-        ]
-    },
-    {
-        "id": "05e4091962849484",
-        "type": "comment",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "=== Practice Day ===",
-        "info": "",
-        "x": 180,
-        "y": 200,
-        "wires": []
-    },
-    {
-        "id": "139a9a4df9d04035",
-        "type": "ui_button",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "",
-        "group": "563e3db15203bfe1",
-        "order": 1,
-        "width": 2,
-        "height": 2,
-        "passthru": false,
-        "label": "Turn on LTO Heater",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "darkorange",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 270,
-        "y": 520,
-        "wires": [
-            [
-                "5388be119e63ab15"
-            ]
-        ]
-    },
-    {
-        "id": "455c14d722b45a10",
-        "type": "change",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "global.heateron = true",
-        "rules": [
-            {
-                "t": "set",
-                "p": "heateron",
-                "pt": "global",
-                "to": "true",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 760,
-        "y": 580,
-        "wires": [
-            [
-                "c0a2737bd82496db",
-                "aade227546ad0602",
-                "dc820914e43fc81f"
-            ]
-        ]
-    },
-    {
-        "id": "c0a2737bd82496db",
-        "type": "function",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "Build MQTT to heat it up",
-        "func": "//Get the thing\nvar whichBldg = global.get(\"hotBldg\");\n\n//Build the MQTT message\nmsg.topic = \"nodered/heateron/\" + whichBldg;\nmsg.payload = \"{}\";\n\n//Fin\nglobal.set(\"hotBldg\",whichBldg);\n//msg.payload = global.get(\"startSide\") + whichBldg + \"O\"; //always O bldg\nmsg.payload = whichBldg;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1010,
-        "y": 520,
-        "wires": [
-            [
-                "4c037b2b27148c64"
-            ]
-        ]
-    },
-    {
-        "id": "4c037b2b27148c64",
-        "type": "mqtt out",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "",
-        "topic": "",
-        "qos": "",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "bc90be16040a7d21",
-        "x": 1190,
-        "y": 520,
-        "wires": []
-    },
-    {
-        "id": "aade227546ad0602",
-        "type": "function",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "Do a timer",
-        "func": "let clock_value = flow.get(\"clock_value\") || 0;\n\nclock_value++; \n\nif (clock_value < 0) clock_value = 0;\n\nflow.set(\"clock_value\", clock_value);\nglobal.set(\"heaterTime\", clock_value);\n\nmsg.payload = clock_value;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 990,
-        "y": 640,
-        "wires": [
-            [
-                "a2dd5801d50f1741",
-                "bc278b057154769a",
-                "f3c2163df962cd36"
-            ]
-        ]
-    },
-    {
-        "id": "f3c2163df962cd36",
-        "type": "delay",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "1",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1180,
-        "y": 700,
-        "wires": [
-            [
-                "e5105bbb367e19a3"
-            ]
-        ]
-    },
-    {
-        "id": "e5105bbb367e19a3",
-        "type": "switch",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "If still on",
-        "property": "heateron",
-        "propertyType": "global",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1340,
-        "y": 700,
-        "wires": [
-            [
-                "aade227546ad0602"
-            ]
-        ]
-    },
-    {
-        "id": "bc278b057154769a",
-        "type": "ui_gauge",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "",
-        "group": "563e3db15203bfe1",
-        "order": 9,
-        "width": 7,
-        "height": 4,
-        "gtype": "gage",
-        "title": "Heating Up Time",
-        "label": "seconds",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "180",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "60",
-        "seg2": "120",
-        "className": "",
-        "x": 1230,
-        "y": 640,
-        "wires": []
-    },
-    {
-        "id": "a2dd5801d50f1741",
-        "type": "function",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "seconds to minute:seconds",
-        "func": "//https://flows.nodered.org/flow/07570367cf2ccf79344c5f336004d9d9\n\nlet secsDecimal = msg.payload;\n\nlet mins = Math.floor(secsDecimal/60);\nlet secs = secsDecimal % 60;\n\n//msg.payload = (mins + (secs / 100.0)).toFixed(2)\nmsg.payload = secs < 10 ? (mins + \":0\" + secs) : (mins + \":\" + secs);\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1240,
-        "y": 600,
-        "wires": [
-            [
-                "0b491e3d2bd37448"
-            ]
-        ]
-    },
-    {
-        "id": "fcf61b936474df6f",
-        "type": "ui_button",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "",
-        "group": "563e3db15203bfe1",
-        "order": 12,
-        "width": 3,
-        "height": 2,
-        "passthru": true,
-        "label": "KILL THE HEATER",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "red",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 290,
-        "y": 800,
-        "wires": [
-            [
-                "99c1b40103477b51"
-            ]
-        ]
-    },
-    {
-        "id": "99c1b40103477b51",
-        "type": "change",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "global.heateron = false",
-        "rules": [
-            {
-                "t": "set",
-                "p": "heateron",
-                "pt": "global",
-                "to": "false",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 520,
-        "y": 800,
-        "wires": [
-            [
-                "6982a6ad62687772",
-                "c8fe595ade5bc852"
-            ]
-        ]
-    },
-    {
-        "id": "c8fe595ade5bc852",
-        "type": "function",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "Build MQTT to shut 'er down",
-        "func": "//Get the thing\nvar whichBldg = global.get(\"hotBldg\");\n\n//Build the MQTT message\nmsg.topic = \"nodered/heateroff/\" + whichBldg;\nmsg.payload = \"{}\";\n\n//Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 780,
-        "y": 760,
-        "wires": [
-            [
-                "1810b1e347c3bb76"
-            ]
-        ]
-    },
-    {
-        "id": "1810b1e347c3bb76",
-        "type": "mqtt out",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "",
-        "topic": "",
-        "qos": "",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "bc90be16040a7d21",
-        "x": 990,
-        "y": 760,
-        "wires": []
-    },
-    {
-        "id": "6982a6ad62687772",
-        "type": "change",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "Reset timer",
-        "rules": [
-            {
-                "t": "set",
-                "p": "clock_value",
-                "pt": "flow",
-                "to": "0",
-                "tot": "num"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 730,
-        "y": 840,
-        "wires": [
-            [
-                "aade227546ad0602",
-                "1a188d224ac0676e"
-            ]
-        ]
-    },
-    {
-        "id": "1a188d224ac0676e",
-        "type": "delay",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "10",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 910,
-        "y": 840,
-        "wires": [
-            [
-                "59d030f3190ddc07"
-            ]
-        ]
-    },
-    {
-        "id": "59d030f3190ddc07",
-        "type": "change",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "OFF",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1100,
-        "y": 840,
-        "wires": [
-            [
-                "0b491e3d2bd37448"
-            ]
-        ]
-    },
-    {
-        "id": "0b491e3d2bd37448",
-        "type": "ui_text",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "group": "563e3db15203bfe1",
-        "order": 8,
-        "width": 10,
-        "height": 1,
-        "name": "",
-        "label": "Heater has been on for: ",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "x": 1510,
-        "y": 600,
-        "wires": []
-    },
-    {
-        "id": "5388be119e63ab15",
-        "type": "change",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "hotBldg",
-                "pt": "global",
-                "to": "LTO",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 490,
-        "y": 520,
-        "wires": [
-            [
-                "455c14d722b45a10"
-            ]
-        ]
-    },
-    {
-        "id": "be9a21d6ce2adfec",
-        "type": "ui_button",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "",
-        "group": "563e3db15203bfe1",
-        "order": 2,
-        "width": 2,
-        "height": 2,
-        "passthru": false,
-        "label": "Turn on LBO Heater",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "darkorange",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 280,
-        "y": 560,
-        "wires": [
-            [
-                "c7d8c2191ece1acd"
-            ]
-        ]
-    },
-    {
-        "id": "c7d8c2191ece1acd",
-        "type": "change",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "hotBldg",
-                "pt": "global",
-                "to": "LBO",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 490,
-        "y": 560,
-        "wires": [
-            [
-                "455c14d722b45a10"
-            ]
-        ]
-    },
-    {
-        "id": "52a0e21ae79627c7",
-        "type": "change",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "hotBldg",
-                "pt": "global",
-                "to": "RBO",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 490,
-        "y": 640,
-        "wires": [
-            [
-                "455c14d722b45a10"
-            ]
-        ]
-    },
-    {
-        "id": "dbdaf4bc1215783f",
-        "type": "change",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "hotBldg",
-                "pt": "global",
-                "to": "RTO",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 490,
-        "y": 600,
-        "wires": [
-            [
-                "455c14d722b45a10"
-            ]
-        ]
-    },
-    {
-        "id": "17e2f4d49c653731",
-        "type": "ui_button",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "",
-        "group": "563e3db15203bfe1",
-        "order": 5,
-        "width": 2,
-        "height": 2,
-        "passthru": false,
-        "label": "Turn on RBO Heater",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "darkorange",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 280,
-        "y": 640,
-        "wires": [
-            [
-                "52a0e21ae79627c7"
-            ]
-        ]
-    },
-    {
-        "id": "48072dd7704a6796",
-        "type": "ui_button",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "",
-        "group": "563e3db15203bfe1",
-        "order": 4,
-        "width": 2,
-        "height": 2,
-        "passthru": false,
-        "label": "Turn on RTO Heater",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "darkorange",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 280,
-        "y": 600,
-        "wires": [
-            [
-                "dbdaf4bc1215783f"
-            ]
-        ]
-    },
-    {
-        "id": "dc820914e43fc81f",
-        "type": "function",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "Prep AddFirePix for Hotspot Building",
-        "func": "//--- Set up basic vars\nvar theBldg = global.get(\"hotBldg\");\nmsg.payload = {};\n\n/* \nAddFirePix expects:\n- msg.payload.bldg: a node ID\n- msg.payload.numFirePixels: int, the qty FirePixels to add\n*/\nmsg.payload.bldg = theBldg;\nmsg.payload.numFirePixels = 4; //half of a window\n\n//--- Fin\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1150,
-        "y": 440,
-        "wires": [
-            [
-                "bfb63c0743b0cf22"
-            ]
-        ]
-    },
-    {
-        "id": "bfb63c0743b0cf22",
-        "type": "link out",
-        "z": "d290775cd062bdb4",
-        "g": "5b2e1df620dae52e",
-        "name": "To AddFirePix",
-        "mode": "link",
-        "links": [
-            "dc1d674e61de820d"
-        ],
-        "x": 1355,
-        "y": 440,
         "wires": []
     }
 ]
